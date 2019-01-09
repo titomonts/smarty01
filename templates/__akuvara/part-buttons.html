@@ -1,0 +1,13 @@
+<div class="button">
+    <div class="wrapper">
+        {if $data.page != 'rates'}
+        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="rates"}" onclick="_gaq.push(['_trackEvent', 'Footer', 'Clicked', 'Footer - Rates']);">Rates &amp; availability</a>
+        {/if}
+        {if #BOOKING_ENGINE# eq 'TRUE'}
+        {booking_menu page='reservations' urls=#BOOKING_ENGINE_URL# booking=#BOOKING_ENGINE# assign="linkout"}
+        <a href="{$linkout}" onclick="_gaq.push(['trackEvent', 'Footer', 'Clicked', 'Footer - Book']);">Book now</a>
+        {else}
+        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}" onclick="_gaq.push(['_trackEvent', 'Footer', 'Clicked', 'Footer - Book']);">Book now</a>        
+        {/if}
+    </div>
+</div>

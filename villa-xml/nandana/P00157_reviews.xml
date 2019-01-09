@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>P00157</VillaID>
+    <ROverallComments />
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+</REVIEWS>

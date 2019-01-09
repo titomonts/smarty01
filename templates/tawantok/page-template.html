@@ -1,0 +1,107 @@
+{include file="header.html"}
+{section name=p loop=$pages}
+    {if $data.page == $pages[p].page_identifier}
+    	{assign var=bodeh_class value=$pages[p].body_class}
+    {/if}
+    {if 'children'|array_key_exists:$pages[p]}
+    	{section name=sp loop=$pages[p].children}
+            {if $data.page == $pages[p].children[sp].page_identifier}
+                {assign var=bodeh_class value=$pages[p].children[sp].body_class}
+            {/if}
+        {/section}
+    {/if}
+{/section}
+<body class="{$bodeh_class}">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        {if $data.page|in_array:['lipa-noi-koh-samui','villa-experience','explore-the-villa','villa-1','villa-2']}
+            {assign var="containerClass" value="scroll"}
+        {else}
+            {assign var="containerClass" value=""}
+        {/if}
+       <div class="content-container {$containerClass}">
+            <div class="content">
+                {if $data.page|in_array:['reservations']}
+                    {assign var="contentClass" value=""}
+                {else}
+                    {assign var="contentClass" value="odd"}
+                {/if}
+                
+                {if $data.page|in_array:['about', 'weddings', 'villa-layout', 'bedrooms', 'living-areas', 'quick-facts', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+                {else}
+                    <div class="content-item {$contentClass}">
+                        <div class="wrapper">                                
+                            <div class="the-content">
+
+                                <h1 class="entry-title">{$data.heading}</h1>
+
+                                {if $data.page|in_array:['lipa-noi-koh-samui', 'villa-experience', 'explore-the-villa','villa-1','villa-2']}
+                                    {include file="submenu.html"}
+                                {/if}
+
+                                {if $data.page|in_array:['rates', 'reservations', 'general-enquiries']}
+                                    {include file="part-guarantee.html"}
+                                {/if}
+
+                                {if $data.page|in_array:['about', 'weddings', 'lipa-noi-koh-samui', 'explore-the-villa','villa-1','villa-2', 'villa-experience', 'villa-layout', 'bedrooms', 'living-areas', 'quick-facts', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+                                {else}
+                                    {include file="content-single.html"}
+                                {/if}                       
+                            </div>
+                        </div>
+                    </div>
+                {/if}
+                
+                {if $data.page|in_array:['about', 'weddings', 'villa-layout', 'bedrooms', 'living-areas', 'quick-facts', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+                    <div class="content-seo">
+                    {include file="content-fragment.html"}
+                    </div>
+                {/if}
+                {if $data.page|in_array:['lipa-noi-koh-samui', 'explore-the-villa','villa-1','villa-2', 'villa-experience']}
+                    {include file="content-fragment.html"}
+                {/if} 
+                
+                {if $data.page neq 'guest-reviews'}
+                {* <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div> *} 
+                {/if}
+            </div>
+        </div>
+		
+        {if $data.page != 'reservations'}
+		
+		<div class="content-item combine-villa">  
+			<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/general/Tawantok Beach Villas - Local fisherman boat.jpg">
+				<div class="wrapper">
+					<div class="the-content"> 
+						<div class="des">
+							<div>
+								<h2 class="entry-title">Tawantok Beach Villas</h2>
+								<p>Select a villa or combine to make up to ten bedrooms</p>
+							</div>
+							<a href="/reservations.html">Enquire</a>
+						</div>						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about', 'explore-the-villa','villa-1','villa-2', 'quick-facts', 'press', 'photo-gallery', 'video', 'floorplan', 'weddings', 'lipa-noi-koh-samui', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+        {/if}
+            
+{include file="footer.html"}

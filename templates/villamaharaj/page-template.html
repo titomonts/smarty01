@@ -1,0 +1,178 @@
+{include file="header.html"}
+    <!--[if lte IE 6]>
+    <iframe src="http://www.browserupgrade.info/ie6-upgrade/?lang=en&title=Villa Maharaj&fx3=true&more-info-at=http://www.browserupgrade.info" frameborder="no" style="height: 81px; width: 100%; border: none;"></iframe>
+    <![endif]-->
+<body id="maharaj" class="{if $data.page=='index'}home{/if} page page-id-125 page-template-default">
+{$gtm}
+    
+            <div id="container">
+            <div class="header_fix">
+                <div id="headerwrap">
+                    <div class="menu-fix">
+                        <div id="topheader">
+                         {include file="menu.html"}   
+                         <!-- /main navigation -->
+                        </div>
+                    </div>
+                    <!-- /topheader -->
+                </div>
+            </div>
+            <!-- /headerwrap -->	<div id="contentwrap">
+		{include file="page_image.html"}
+		<!-- /headerimg -->
+		<div id="maincol">
+			<h1 class="entry-title">{$data.heading}</h1>
+            
+			{if $data.page == 'availability-calendar'}
+                <div class="two-btn" >
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}">Book now</a>			
+                </div>
+                <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+                <div class="pata-logo">
+                <img src="/resources/villamaharaj/images/pata-logo.png" alt="PATA" />
+                </div>   
+            {elseif $data.page == 'rates'}
+            <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+            <div class="pata-logo">
+            <img src="/resources/villamaharaj/images/pata-logo.png" alt="PATA" />
+            </div>
+            <div class="two-btn" style="float: right;position:relative;top:-32px;right:290px;display:block !important;">
+                    <a class="button availability" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">Availability</a>
+                    <a class="button book" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}">Book now</a>			
+            </div>
+            {elseif $data.page == 'reservations'}
+            <div class="two-btn" style="float:right;position:relative;top:-32px;right:290px;display:block !important;">
+                <a class="button availability" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">Availability</a>		
+            </div>
+            {elseif $data.page == 'index'}
+            {else}
+            <div class="two-btn" style="float: right;display:block !important;">
+                    <a class="button availability" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">Availability</a>
+                    <a class="button book" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}">Book now</a>			
+            </div>
+            {/if}
+            
+			<div id="content">
+				<div id="content-inner">
+                {if $data.page == 'availability-calendar'}
+                    <p>
+                    <iframe id="iframeCalendar" src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&#038;Villaid=k4%2BWbKy1aCY=&#038;did=rSKHLr3698k9BqVkohVTvgVFt%2FIhBzch" height="244px" frameBorder="0" width="590px" allowtransparency="true" scrolling="auto"></iframe>
+                    </p>
+                    <div style="width: 560px; margin-top: 0px;">
+                    <iframe id="calendarinfo" src="http://www.marketingvillas.com/db/index.php?c=iframe&#038;m=calendar&#038;url={$data.home_uri|replace:'http://':''}&#038;style=/resources/villamaharaj/style.css&#038;rsv=/reservations.html&#038;enquiry=/general-enquiries.html" frameBorder="0" width="100%" height="250px" scrolling="no" allowtransparency="true"></iframe>
+                    </div>
+                {/if}
+                
+                {if $data.page|in_array:['rates','reservations','reservation-sent','general-enquiries','contact-sent','links','guest-reviews','sitemap']}
+                	{literal}
+                	<script type="text/javascript">
+						$(document).ready(function() {
+							$.datepicker.setDefaults({dateFormat: "d MM yy", changeMonth: true, changeYear: true});
+							$("#txtArrivalDate").datepicker({
+								dateFormat: "d MM yy",
+								changeYear: true,
+								minDate: 0,
+								onSelect: function(dateText, inst) {
+									$('#txtDepartDate').val("");
+									var actualDate = new Date(dateText);
+									var newDate = new Date(actualDate.getFullYear(), actualDate.getMonth(), actualDate.getDate() + 1);
+									$('#txtDepartDate').datepicker('option', 'minDate', newDate, 'dateFormat', 'd MM yy');
+									$('#txtDepartDate').datepicker({minDate: newDate, dateFormat: 'd MM yy'});
+								}
+							});
+						});
+					</script>
+                    {/literal}
+                    {if $data.page == 'reservations'}
+                    <div class="two-btn" >
+                        <a class="button availability" href="http://www.villamaharaj.com/reservations.html">Book now</a>			
+                    </div>
+                    <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+                    <div class="pata-logo">
+                    <img src="/resources/villamaharaj/images/pata-logo.png" alt="PATA" />
+                    </div>
+                    {/if}
+                	{$content}   
+                {else}
+                    {if 'desc'|array_key_exists:$content[0]}
+                    {$content[0].desc}
+                    {/if}
+                    
+                    {if $data.page == 'bedrooms'}
+                    <div class="imgContent bedroomImg">
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2>{$content[0].SubContents[s].Heading}</h2>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                            {$content[0].SubContents[s].Description}
+                        {/section}
+                    {/if}
+                    </div>
+                    {else}
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                        	{if $data.page|in_array:['quick-facts','staff','location']}
+                            {assign var=class value=''}
+                            {if $data.page == 'location'}
+                            {assign var=class value='class="short" style="margin-bottom: 25px;"'}
+                            <h2 style="margin: 15px 0;">Distances</h2>
+                            {else}
+                            {assign var=class value=''}
+                            {/if}
+                            <dl {$class}>
+                                {section name=s loop=$content[0].SubContents}
+                                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                                    <dd>{$content[0].SubContents[s].Description}</dd>
+                                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                        <p>
+                                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" rel="gallery" class="pirobox_gall">
+                                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" border="0" width="238" height="158" />
+                                            </a>
+                                        </p>
+                                    {/if}
+                                {/section}
+                            </dl>
+                            {else}
+                            	{section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                            	{/section}
+                            {/if}
+                        {/if}
+                        
+                        {if $data.page == 'location'}
+                        <div class="imgContent">
+                            <a rel="gallery" href="/resources/villamaharaj/content/villa-maharaj-bali-map.jpg" title="Villa Maharaj - location map">
+                                <img src="/resources/villamaharaj/content/villa-maharaj-bali-map-s.jpg" alt="Villa Maharaj - location map" class="imgleft" />
+                            </a>
+                            <a rel="gallery" href="/resources/villamaharaj/content/villa-maharaj-location-map.jpg" title="Villa Maharaj - location map">
+                                <img src="/resources/villamaharaj/content/villa-maharaj-location-map-s.jpg" alt="Villa Maharaj - location map" class="imgleft" />
+                            </a>
+                        </div>
+                        {/if}
+                        
+                    {/if}
+                    
+				{/if}
+                <div class="clear"></div>
+				</div>
+				<!-- /content-inner -->
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /maincol -->
+	</div>
+	<!-- /contentwrap -->
+{include file="footer.html"}

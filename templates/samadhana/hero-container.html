@@ -1,0 +1,81 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Sun loungers with ocean view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1920w" alt="Samadhana - Sun loungers with ocean view" class="lazyload" />          
+        </div>
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg 1920w" alt="Samadhana - Garden, pool and villa" class="lazyload" />        
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Alfresco dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Alfresco%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Alfresco%20dining.jpg 1920w" alt="Samadhana - Alfresco dining" class="lazyload" />          
+        </div>
+        <div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Weddings.jpg 1920w" alt="Samadhana - Weddings" class="lazyload" />
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-samadhana'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Entrance.jpg 1920w" alt="Samadhana - Entrance" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg 1920w" alt="Samadhana - Garden, pool and villa" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Master%20suite%20relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Master%20suite%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Master%20suite%20relaxation.jpg 1920w" alt="Samadhana - Master suite relaxation" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20pool%20decking.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20pool%20decking.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20pool%20decking.jpg 1920w" alt="Samadhana - pool decking" class="lazyload" /> *}
+
+        {elseif $data.page == 'floorplan'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Garden%2C%20pool%20and%20villa.jpg 1920w" alt="Samadhana - Garden, pool and villa" class="lazyload" /> *}
+        
+        {elseif $data.page == 'sanur-ketewel-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Madagascan%20palm%20view%20of%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Madagascan%20palm%20view%20of%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Madagascan%20palm%20view%20of%20villa.jpg 1920w" alt="Samadhana - Madagascan palm view of villa" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Fruit%20basket.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Fruit%20basket.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Fruit%20basket.jpg 1920w" alt="Samadhana - Fruit basket" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Dining%20and%20living%20during%20the%20day.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Dining%20and%20living%20during%20the%20day.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Dining%20and%20living%20during%20the%20day.jpg 1920w" alt="Samadhana - Dining and living during the day" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Entertainment%20pavilion.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Entertainment%20pavilion.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Entertainment%20pavilion.jpg 1920w" alt="Samadhana - Entertainment pavilion" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Main%20house%20guest%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Main%20house%20guest%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Main%20house%20guest%20bathroom.jpg 1920w" alt="Samadhana - Main house guest bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Weddings.jpg 1920w" alt="Samadhana - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Guest house living room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Guest%20house%20living%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Guest%20house%20living%20room.jpg 1920w" alt="Samadhana - Guest house living room" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Master%20suite%20relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Master%20suite%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Master%20suite%20relaxation.jpg 1920w" alt="Samadhana - Master suite relaxation" class="lazyload" />        
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Alfresco dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Alfresco%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Alfresco%20dining.jpg 1920w" alt="Samadhana - Alfresco dining" class="lazyload" />  
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Living room through to dining room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Living%20room%20through%20to%20dining%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Living%20room%20through%20to%20dining%20room.jpg 1920w" alt="Samadhana - Living room through to dining room" class="lazyload" />          
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Sun loungers with ocean view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1920w" alt="Samadhana - Sun loungers with ocean view" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Sun loungers with ocean view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1920w" alt="Samadhana - Sun loungers with ocean view" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Samadhana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Samadhana - Sun loungers with ocean view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Samadhana%20-%20Sun%20loungers%20with%20ocean%20view.jpg 1920w" alt="Samadhana - Sun loungers with ocean view" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

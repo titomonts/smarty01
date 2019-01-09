@@ -1,0 +1,765 @@
+[
+	{
+		"page_title":"",
+		"label":"Home",
+		"page_header":"Welcome to Malaiwana",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+        "page_title":"Welcome to The Villas by Malaiwana",
+        "label":"About Villa",
+        "page_header":"Welcome to <span>The Villas</span> by Malaiwana",
+        "template":"page-template.html",
+        "content_id":"",
+        "sub_villa":"the-villas",
+        "page_identifier":"the-villas",
+		"menu_location":"the-villas",
+		"menu_position":"left",
+		"body_class":"the-villas"
+    },
+	{
+		"page_title":"Villa Haleana",
+		"label":"Villa Haleana",
+		"page_header":"Villa Haleana",
+		"template":"page-template.html",
+		"content_id":"P00146",				
+		"parent":"the-villas",
+		"page_identifier":"villa-haleana",
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"about",
+		"children":[
+					{
+						"page_title":"About Villa Haleana",
+						"label":"About",
+						"page_header":"About Villa Haleana",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00146",
+						"parent":"villa-haleana",
+						"page_identifier":"villa-haleana",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Villa Haleana",
+						"label":"Explore",
+						"page_header":"Explore Villa Haleana",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00146",
+						"parent":"villa-haleana",
+						"page_identifier":"explore-villa-haleana",
+						"level":"internal",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Experience Villa Haleana",
+						"label":"Experience",
+						"page_header":"Experience Villa Haleana",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00146",
+						"parent":"villa-haleana",
+						"page_identifier":"experience-the-villa",
+						"level":"internal",
+						"body_class":"experience"
+					},
+					{
+						"page_title":"Quick Facts Villa Haleana",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Villa Haleana",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00146",
+						"parent":"villa-haleana",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					},
+					{
+						"page_title":"Weddings Villa Haleana",
+						"label":"Weddings",
+						"page_header":"Weddings Villa Haleana",
+						"template":"page-template.html",
+						"content_id":"EVT",
+						"villaID":"P00146",
+						"parent":"villa-haleana",
+						"page_identifier":"weddings",
+						"level":"internal",
+						"body_class":"weddings"
+					}
+				]
+	},
+	{
+		"page_title":"Villa Rodnaya",
+		"label":"Villa Rodnaya",
+		"page_header":"Villa Rodnaya",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"page_identifier":"villa-rodnaya",
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"about",
+		"children":[
+					{
+						"page_title":"About Villa",
+						"label":"About",
+						"page_header":"About Villa Rodnaya",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00146",
+						"parent":"villa-rodnaya",
+						"page_identifier":"villa-rodnaya",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Villa Rodnaya",
+						"label":"Explore",
+						"page_header":"Explore Villa Rodnaya",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00146",
+						"parent":"villa-rodnaya",
+						"page_identifier":"explore-villa-rodnaya",
+						"level":"internal",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Experience Villa Rodnaya",
+						"label":"Experience",
+						"page_header":"Experience Villa Rodnaya",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00146",
+						"parent":"villa-rodnaya",
+						"page_identifier":"experience-the-villa",
+						"level":"internal",
+						"body_class":"experience"
+					},
+					{
+						"page_title":"Quick Facts Villa Rodnaya",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Villa Rodnaya",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00146",
+						"parent":"villa-rodnaya",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					}
+				]
+	},
+	{
+		"page_title":"Villa M",
+		"label":"Villa M",
+		"page_header":"Villa M",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"page_identifier":"villa-m",
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"about",
+		"children":[
+					{
+						"page_title":"About Villa M",
+						"label":"About",
+						"page_header":"About Villa M",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00146",
+						"parent":"villa-m",
+						"page_identifier":"villa-m",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Villa M",
+						"label":"Explore",
+						"page_header":"Explore Villa M",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00146",
+						"parent":"villa-m",
+						"page_identifier":"explore-villa-m",
+						"level":"internal",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Experience Villa M",
+						"label":"Experience",
+						"page_header":"Experience Villa M",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00146",
+						"parent":"villa-m",
+						"page_identifier":"experience-the-villa",
+						"level":"internal",
+						"body_class":"experience"
+					},
+					{
+						"page_title":"Quick Facts Villa M",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Villa M",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00146",
+						"parent":"villa-m",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					}
+				]
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Photo Gallery",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"sub_parent":"villa-haleana",
+		"children_sub":"top-menu",
+		"page_identifier":"gallery-villa-haleana",		
+		"children":[
+					{
+						"page_title":"Villa Haleana",
+						"label":"Villa Haleana",
+						"page_header":"Villa Haleana",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"villa-haleana",
+						"page_identifier":"gallery-villa-haleana",
+						"level":"sub",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Villa Rodnaya",
+						"label":"Villa Rodnaya",
+						"page_header":"Villa Rodnaya",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"villa-rodnaya",
+						"page_identifier":"gallery-villa-rodnaya",
+						"level":"sub",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Villa M",
+						"label":"Villa M",
+						"page_header":"Villa M",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"villa-m",
+						"page_identifier":"gallery-villa-m",
+						"level":"sub",
+						"body_class":"gallery"
+					}
+		],
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Location",
+		"label":"Location",
+		"page_header":"Location",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"page_identifier":"naithon-phuket",					
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"locale"
+	},	
+	{
+		"page_title":"Reviews",
+		"label":"Reviews",
+		"page_header":"Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"page_identifier":"guest-reviews",	
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"guest-reviews"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"sub_parent":"villa-haleana",
+		"children_sub":"top-menu",
+		"page_identifier":"rates-villa-haleana",
+		"children":[
+					{
+						"page_title":"Villa Haleana - Rates",
+						"label":"Villa Haleana",
+						"page_header":"Villa Haleana - Rates",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"villa-haleana",
+						"page_identifier":"rates-villa-haleana",
+						"level":"sub",
+						"body_class":"rates"
+					},
+				   {
+						"page_title":"Villa Rodnaya - Rates",
+						"label":"Villa Rodnaya",
+						"page_header":"Villa Rodnaya - Rates",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"villa-rodnaya",
+						"page_identifier":"rates-villa-rodnaya",
+						"level":"sub",
+						"body_class":"rates"
+					},
+					{
+						"page_title":"Villa M - Rates",
+						"label":"Villa M",
+						"page_header":"Villa M - Rates",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"villa-m",
+						"page_identifier":"rates-villa-m",
+						"level":"sub",
+						"body_class":"rates"						
+						
+					}
+		],
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"rates"
+	},
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-villas",
+		"page_identifier":"reservations",
+		"level":"top",
+		"menu_location":"the-villas",
+		"body_class":"reservations"
+	},	 
+	{
+		"page_title":"Welcome to The Residences by Malaiwana",
+		"label":"About Villa",
+		"page_header":"Welcome to <span>The Residences</span> by Malaiwana",
+		"template":"page-template.html",
+		"content_id":"",
+		"sub_villa":"the-residences",
+		"page_identifier":"the-residences",
+		"menu_location":"the-residences",
+		"menu_position":"left",
+		"body_class":"the-residences"		
+	},
+	{
+	"page_title":"Penthouse",
+	"label":"Penthouse",
+	"page_header":"Penthouse",
+	"template":"page-template.html",
+	"content_id":"",				
+	"parent":"the-residences",
+	"page_identifier":"penthouse",
+	"level":"top",
+	"menu_location":"the-residences",
+	"body_class":"about",
+	"children":[
+				{
+					"page_title":"About Penthouse",
+					"label":"About",
+					"page_header":"About Penthouse",
+					"template":"page-template.html",
+					"content_id":"",
+					"villaID":"P00146",
+					"parent":"penthouse",
+					"page_identifier":"penthouse",
+					"level":"internal",
+					"body_class":"about"
+				},
+				{
+					"page_title":"Explore Penthouse",
+					"label":"Explore",
+					"page_header":"Explore Penthouse",
+					"template":"page-template.html",
+					"content_id":"",
+					"villaID":"P00146",
+					"parent":"penthouse",
+					"page_identifier":"explore-penthouse",
+					"level":"internal",
+					"body_class":"explore"
+				},
+				{
+					"page_title":"Experience Penthouse",
+					"label":"Experience",
+					"page_header":"Experience Penthouse",
+					"template":"page-template.html",
+					"content_id":"",
+					"villaID":"P00146",
+					"parent":"penthouse",
+					"page_identifier":"penthouse-experience",
+					"level":"internal",
+					"body_class":"experience"
+				},
+				{
+					"page_title":"Quick Facts Penthouse",
+					"label":"Quick Facts",
+					"page_header":"Quick Facts Penthouse",
+					"template":"page-template.html",
+					"content_id":"QF",
+					"villaID":"P00146",
+					"parent":"penthouse",
+					"page_identifier":"quick-facts",
+					"level":"internal",
+					"body_class":"quick-facts"
+				}
+	]
+		
+	},
+	{
+		"page_title":"Duplex",
+		"label":"Duplex",
+		"page_header":"Duplex",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-residences",
+		"page_identifier":"duplex",
+		"level":"top",
+		"menu_location":"the-residences",
+		"body_class":"about",
+		"children":[
+					{
+						"page_title":"About Duplex",
+						"label":"About",
+						"page_header":"About Duplex",
+						"template":"page-template.html",
+						"content_id":"",
+						"villaID":"P00146",
+						"parent":"duplex",
+						"page_identifier":"duplex",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Duplex",
+						"label":"Explore",
+						"page_header":"Explore Duplex",
+						"template":"page-template.html",
+						"content_id":"P00146",
+						"parent":"duplex",
+						"page_identifier":"explore-duplex",
+						"level":"internal",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Experience Duplex",
+						"label":"Experience",
+						"page_header":"Experience Duplex",
+						"template":"page-template.html",
+						"content_id":"P00146",
+						"parent":"duplex",
+						"page_identifier":"duplex-experience",
+						"level":"internal",
+						"body_class":"experience"
+					},
+					{
+						"page_title":"Quick Facts Duplex",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Duplex",
+						"template":"page-template.html",
+						"content_id":"P00146",
+						"parent":"duplex",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					}
+		]
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Photo Gallery",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-residences",
+		"sub_parent":"penthouse",
+		"children_sub":"top-menu",
+		"page_identifier":"gallery-penthouse",
+		"children":[
+					{
+						"page_title":"Penthouse",
+						"label":"Penthouse",
+						"page_header":"Penthouse",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"penthouse",
+						"page_identifier":"gallery-penthouse",
+						"level":"sub",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Duplex",
+						"label":"Duplex",
+						"page_header":"Duplex",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"duplex",
+						"page_identifier":"gallery-duplex",
+						"level":"sub",
+						"body_class":"gallery"
+					}
+		],
+		"level":"top",
+		"menu_location":"the-residences",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Location",
+		"label":"Location",
+		"page_header":"Location",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-residences",
+		"page_identifier":"naithon-phuket",					
+		"level":"top",
+		"menu_location":"the-residences",
+		"body_class":"locale"
+	},	
+	{
+		"page_title":"Reviews",
+		"label":"Reviews",
+		"page_header":"Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-residences",
+		"page_identifier":"guest-reviews",	
+		"level":"top",
+		"menu_location":"the-residences",
+		"body_class":"guest-reviews"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-residences",
+		"sub_parent":"penthouse",
+		"children_sub":"top-menu",
+		"page_identifier":"rates-penthouse",
+		"children":[
+					{
+						"page_title":"Penthouse - Rates",
+						"label":"Penthouse",
+						"page_header":"Penthouse - Rates",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"penthouse",
+						"page_identifier":"rates-penthouse",
+						"level":"sub",
+						"body_class":"rates"
+					},
+				   {
+						"page_title":"Duplex - Rates",
+						"label":"Duplex",
+						"page_header":"Duplex - Rates",
+						"template":"page-template.html",
+						"content_id":"",
+						"parent":"duplex",
+						"page_identifier":"rates-duplex",
+						"level":"sub",
+						"body_class":"rates"
+					}
+		],
+		"level":"top",
+		"menu_location":"the-residences",
+		"body_class":"rates"
+	},
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"parent":"the-residences",
+		"page_identifier":"reservations",
+		"level":"top",
+		"menu_location":"the-residences",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries default"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links default" 
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap default"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent default"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent default"
+	},
+	{
+		"page_title":"Invest",
+		"label":"Invest",
+		"page_header":"Invest",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"invest",
+		"menu_location":"",
+		"body_class":"invest default"
+	},
+	{
+		"page_title":"Thank you for signing up",
+		"label":"Subscribed",
+		"page_header":"Thank you for signing up",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"subscribed-malaiwana",
+		"menu_location":"",
+		"body_class":"subscribed default"
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Villa Layout",
+		"template":"page-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"",
+		"body_class":"explore default"
+	},
+	{
+		"page_title":"Bedrooms",
+		"label":"Bedrooms",
+		"page_header":"Bedrooms",
+		"template":"page-template.html",
+		"content_id":"BDR",
+		"page_identifier":"bedrooms",
+		"menu_location":"",
+		"body_class":"explore default"
+	},
+	{
+		"page_title":"Living Areas",
+		"label":"Living Areas",
+		"page_header":"Living Areas",
+		"template":"page-template.html",
+		"content_id":"LVA",
+		"page_identifier":"living-areas",
+		"menu_location":"",
+		"body_class":"explore  default"
+	},
+	{
+		"page_title":"The Locale",
+		"label":"The Locale",
+		"page_header":"The Locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"menu_location":"",
+		"body_class":"locale default"
+	},
+	{
+		"page_title":"Things to Do",
+		"label":"Things to Do",
+		"page_header":"Things to Do",
+		"template":"page-template.html",
+		"content_id":"TTD",
+		"page_identifier":"things-to-do",
+		"menu_location":"",
+		"body_class":"things-to-do default"
+	},
+	{
+		"page_title":"Staff",
+		"label":"Staff",
+		"page_header":"Staff",
+		"template":"page-template.html",
+		"content_id":"STAFF",
+		"page_identifier":"staff",
+		"menu_location":"",
+		"body_class":"experience default"
+	},
+	{
+		"page_title":"Dining",
+		"label":"Dining",
+		"page_header":"Dining",
+		"template":"page-template.html",
+		"content_id":"DNNG",
+		"page_identifier":"dining",
+		"menu_location":"",
+		"body_class":"experience default"
+	},
+	{
+		"page_title":"Families",
+		"label":"Families",
+		"page_header":"Families",
+		"template":"page-template.html",
+		"content_id":"FAM",
+		"page_identifier":"families",
+		"menu_location":"",
+		"body_class":"experience default"
+	},
+	{
+		"page_title":"Spa",
+		"label":"Spa",
+		"page_header":"Spa",
+		"template":"page-template.html",
+		"content_id":"SPA",
+		"page_identifier":"spa",
+		"menu_location":"",
+		"body_class":"experience default"
+	}
+]
+		

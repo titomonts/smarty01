@@ -1,0 +1,66 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Luxurious%20vibes.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Luxurious%20vibes.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Luxurious%20vibes.jpg 1920w" alt="Villa Aqua - Luxurious vibes" class="lazyload" />            
+        </div> 
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Golden%20sand%20and%20tropical%20breeze.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Golden%20sand%20and%20tropical%20breeze.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Golden%20sand%20and%20tropical%20breeze.jpg 1920w" alt="Villa Aqua - Golden sand and tropical breeze" class="lazyload" />            
+        </div>
+        <div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Beautiful%20ocean%20scenery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Beautiful%20ocean%20scenery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Beautiful%20ocean%20scenery.jpg 1920w" alt="Villa Aqua - Beautiful ocean scenery" class="lazyload" />            
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-aqua'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Lazy%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Lazy%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Lazy%20loungers.jpg 1920w" alt="Villa Aqua - Lazy loungers" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Perfect%20villa%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Perfect%20villa%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Perfect%20villa%20features.jpg 1920w" alt="Villa Aqua - Perfect villa features" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Outstanding%20view%20from%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Outstanding%20view%20from%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Outstanding%20view%20from%20bedroom.jpg 1920w" alt="Villa Aqua - Outstanding view from bedroom" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Nice%20detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Nice%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Nice%20detail.jpg 1920w" alt="Villa Aqua - Nice detail" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Nice%20detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Nice%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Nice%20detail.jpg 1920w" alt="Villa Aqua - Nice detail" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}        
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Perfect%20villa%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Perfect%20villa%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Perfect%20villa%20features.jpg 1920w" alt="Villa Aqua - Perfect villa features" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Wedding%20destination.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Wedding%20destination.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Wedding%20destination.jpg 1920w" alt="Villa Aqua - Wedding destination" class="lazyload" />
+        
+        {elseif $data.page == 'natai-beach-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Poolside%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20relaxation.jpg 1920w" alt="Villa Aqua - Poolside relaxation" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Poolside%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20relaxation.jpg 1920w" alt="Villa Aqua - Poolside relaxation" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Bedroom%20detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Bedroom%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Bedroom%20detail.jpg 1920w" alt="Villa Aqua - Bedroom detail" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg 1920w" alt="Villa Aqua - Poolside area" class="lazyload" /> 
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg 1920w" alt="Villa Aqua - Poolside area" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg 1920w" alt="Villa Aqua - Poolside area" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Aqua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Aqua%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Aqua%20-%20Poolside%20area.jpg 1920w" alt="Villa Aqua - Poolside area" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

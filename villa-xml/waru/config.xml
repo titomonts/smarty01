@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Waru</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Waru</villa_name>
+		<google_analytics>UA-123960479-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Nusa Dua</sublocation>
+		<bedrooms>7</bedrooms>
+		<hrental_id>'Waru', 'Bali', 'Nusa Dua', '7br'</hrental_id>
+		<ehgLocation>Bali, Nusa Dua</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

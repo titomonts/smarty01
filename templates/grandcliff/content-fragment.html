@@ -1,0 +1,1056 @@
+{if $data.page|in_array:['grand-cliff-ungasan']}
+<div class="content-item about" id="about">    
+    <div class="wrapper">
+        <div class="the-content">
+	        <h2 class="entry-title">{$data.heading}</h2>
+			
+			{parsedata folder=$data.theme cache=$data.cache content="ABTV"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+			
+			    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/about/thumb/Grand Cliff Front Residence - Jacuzzi view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/about/Grand Cliff Front Residence - Jacuzzi view.jpg" alt="Grand Cliff Front Residence - Jacuzzi view" class="lazyload" /></div>
+
+                {$content[0].desc|replace:'<br />': ''}
+
+			{/if}
+
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['grand-cliff-nusa-dua']}
+<div class="content-item about" id="about">    
+    <div class="wrapper">
+        <div class="the-content">
+	        <h2 class="entry-title">{$data.heading}</h2>
+			
+			{parsedata folder=$data.theme cache=$data.cache content="ABTV"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+			
+			    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/about/thumb/Grand Cliff Nusa Dua - Relish with great beach view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/about/Grand Cliff Nusa Dua - Relish with great beach view.jpg" alt="Grand Cliff Nusa Dua - Relish with great beach view" class="lazyload" /></div>
+
+                {$content[0].desc|replace:'<br />': ''}
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+        </div>
+		<div class="clear"></div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa']}
+    <div class="content-item"><h2 class="entry-title">Explore <strong>the villa</strong></h2></div>
+{elseif $data.page|in_array:['ungasan-bali']}
+    <div class="content-item"><h2 class="entry-title">Ungasan <span>location</span></h2></div>
+{elseif $data.page|in_array:['nusa-dua-bali']}
+    <div class="content-item"><h2 class="entry-title">Nusa Dua location</h2></div>
+{elseif $data.page|in_array:['villa-layout']}
+    <div class="content-item"><h1 class="entry-title">Villa Layout</h1></div>
+{elseif $data.page|in_array:['bedrooms']}
+    <div class="content-item"><h1 class="entry-title">Bedrooms</h1></div>
+{elseif $data.page|in_array:['living-areas']}
+    <div class="content-item"><h1 class="entry-title">Living Areas</h1></div>
+{elseif $data.page|in_array:['the-locale']}
+    <div class="content-item"><h1 class="entry-title">The Locale</h1></div>
+{elseif $data.page|in_array:['things-to-do']}
+    <div class="content-item"><h1 class="entry-title">Things to Do</h1></div>
+{elseif ($data.page|in_array:['dining'] and $data.origin|in_array:['dining'])}
+	<div class="content-item"><h1 class="entry-title">Dining</h1></div>
+{elseif ($data.page|in_array:['spa'] and $data.origin|in_array:['spa'])}
+	<div class="content-item"><h1 class="entry-title">Spa & Gym</h1></div>
+{/if}
+
+{if ($data.page|in_array:['explore-the-villa'] and $data.origin|in_array:['grand-cliff-ungasan']) or $data.page|in_array:['villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+        <div class="wrapper">
+            <div class="the-content">
+			
+            {parsedata folder=$data.theme cache="P00121" content="LYT"}
+            {if $data.page|in_array:['villa-layout']}
+            <h3 class="entry-title"><span>Grand Cliff Ungasan</span></h3>
+            {else}
+            <h3 class="entry-title"><span>Villa Layout</span></h3>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {$content[0].desc}
+
+            {/if}
+
+            {section name=s loop=$content[0].SubContents}
+                <h4>{$content[0].SubContents[s].Heading}</h4>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+			
+            {include file="floorplan.html"}
+            </div>
+        </div>
+		
+</div> 
+{/if}
+
+{if ($data.page|in_array:['explore-the-villa'] and $data.origin|in_array:['grand-cliff-nusa-dua']) or $data.page|in_array:['villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+        <div class="wrapper">
+            <div class="the-content">
+			
+            {parsedata folder=$data.theme cache="P00226" content="LYT"} 
+            {if $data.page|in_array:['villa-layout']}
+            <h3 class="entry-title"><span>Grand Cliff Nusa Dua</span></h3>
+            {else}
+            <h3 class="entry-title"><span>Villa Layout</span></h3>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+
+                <p>{$content[0].desc}</p>
+
+            {/if}
+
+            {section name=s loop=$content[0].SubContents}
+                <h4>{$content[0].SubContents[s].Heading}</h4>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+			
+            {include file="floorplan.html"}
+            </div>
+        </div>
+		
+</div> 
+{/if}
+
+{if ($data.page|in_array:['explore-the-villa'] and $data.origin|in_array:['grand-cliff-ungasan']) or $data.page|in_array:['living-areas']}
+<div class="content-item living-areas" id="living-areas">
+
+	<div class="wrapper">
+		<div class="the-content">
+            {if $data.page|in_array:['living-areas']}
+            <h3 class="entry-title"><span>Grand Cliff Ungasan</span></h3>
+            {else}
+            <h3 class="entry-title"><span>Living Areas</span></h3>
+            {/if}
+            
+            {parsedata folder=$data.theme cache="P00121" content="LVA"}
+
+
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc regex="default"}
+                {section name=s loop=$contentPart}
+                <p>{$contentPart[s]}</p>
+                {/section}
+
+            {/if}
+            {section name=s loop=$content[0].SubContents}
+                <h4>{$content[0].SubContents[s].Heading}</h4>
+                {$content[0].SubContents[s].Description|replace:["<br />"]:[""]}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section} 
+		</div>
+	</div>
+	
+	<div class="wrapper wrapper-wide">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/thumb/Grand Cliff Front Residence - Tv screen.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/Grand Cliff Front Residence - Tv screen.jpg" alt="Grand Cliff Front Residence - Tv screen" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/thumb/Grand Cliff Front Residence - Breathtaking view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/Grand Cliff Front Residence - Breathtaking view.jpg" alt="Grand Cliff Front Residence - Breathtaking view" class="lazyload" />
+			</div>
+		</div>
+	</div>
+    
+</div> 
+{/if}
+
+{if ($data.page|in_array:['explore-the-villa'] and $data.origin|in_array:['grand-cliff-nusa-dua']) or $data.page|in_array:['living-areas']}
+<div class="content-item living-areas" id="living-areas">
+
+	<div class="wrapper">
+		<div class="the-content">
+            {if $data.page|in_array:['living-areas']}
+            <h3 class="entry-title"><span>Grand Cliff Nusa Dua</span></h3>
+            {else}
+            <h3 class="entry-title"><span>Living Areas</span></h3>
+            {/if}
+            
+            {parsedata folder=$data.theme cache="P00226" content="LVA"}
+
+
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {$content[0].desc}
+
+            {/if}
+            {section name=s loop=$content[0].SubContents}
+                <h4>{$content[0].SubContents[s].Heading}</h4>
+                <p>{$content[0].SubContents[s].Description}</p>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}			
+		</div>
+	</div>
+	
+	<div class="wrapper wrapper-wide">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/thumb/Grand Cliff Nusa Dua - Modern design living area with beach view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/Grand Cliff Nusa Dua - Modern design living area with beach view.jpg" alt="Grand Cliff Nusa Dua - Modern design living area with beach view" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/thumb/Grand Cliff Nusa Dua - Beautiful view from outdoor living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/Grand Cliff Nusa Dua - Beautiful view from outdoor living area.jpg" alt="Grand Cliff Nusa Dua - Beautiful view from outdoor living area" class="lazyload" />
+			</div>
+		</div>
+	</div>
+    
+</div> 
+{/if}
+
+{if ($data.page|in_array:['explore-the-villa'] and $data.origin|in_array:['grand-cliff-ungasan']) or $data.page|in_array:['bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache="P00121" content="BDR"}
+            {if $data.page|in_array:['bedrooms']}
+            <h3 class="entry-title"><span>Grand Cliff Ungasan</span></h3>
+            {else}
+            <h3 class="entry-title"><span>Bedrooms</span></h3>
+            {/if}
+
+            {if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+            {/if}
+
+			{section name=s loop=$content[0].SubContents}
+                {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+				<div class="group">						
+
+                    {if $smarty.section.s.index eq 0}
+						<div class="half">
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/thumb/Grand Cliff Ungasan - Bedroom sea view tv.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/Grand Cliff Ungasan - Bedroom sea view tv.jpg" alt="Grand Cliff Ungasan - Bedroom sea view tv" class="lazyload" /></div>
+						</div>
+					{elseif $smarty.section.s.index eq 2}
+						<div class="half">
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/thumb/Grand Cliff Ungasan - Bedroom setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/Grand Cliff Ungasan - Bedroom setting.jpg" alt="Grand Cliff Ungasan - Bedroom setting" class="lazyload" /></div>
+						</div>
+                    {/if}					
+
+                    
+
+                    <div class="half half-content">
+                    <h4>{$content[0].SubContents[s].Heading}</h4>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+
+                    {/if}
+                    </div>
+
+                    {if $smarty.section.s.index eq 1}
+						<div class="half">
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/thumb/Grand Cliff Ungasan - Guest bedroom layout.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/Grand Cliff Ungasan - Guest bedroom layout.jpg" alt="Grand Cliff Ungasan - Guest bedroom layout" class="lazyload" /></div>
+						</div>
+					{elseif $smarty.section.s.index eq 3}
+						<div class="half">
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/thumb/Grand Cliff Ungasan - Twin bed.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/explore/Grand Cliff Ungasan - Twin bed.jpg" alt="Grand Cliff Ungasan - Twin bed" class="lazyload" /></div>
+						</div>
+                    {/if}						
+						
+				</div>    
+				{/if}    
+			{/section}
+			<div class="clear"></div>
+		
+            </div>
+			
+        </div>
+   
+</div> 
+{/if}
+
+{if ($data.page|in_array:['explore-the-villa'] and $data.origin|in_array:['grand-cliff-nusa-dua']) or $data.page|in_array:['bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    
+        <div class="wrapper">
+            <div class="the-content">
+				{parsedata folder=$data.theme cache="P00226" content="BDR"}
+				{if $data.page|in_array:['bedrooms']}
+				<h3 class="entry-title"><span>Grand Cliff Nusa Dua</span></h3>
+				{else}
+				<h3 class="entry-title"><span>Bedrooms</span></h3>
+				{/if}
+
+				{if 'desc'|array_key_exists:$content[0]}
+					{$content[0].desc}
+				{/if} 
+			</div>
+		</div>	
+		
+		<div class="wrapper wrapper-wide">
+			<div class="img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/thumb/Grand Cliff Nusa Dua - Working space at bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/Grand Cliff Nusa Dua - Working space at bedroom.jpg" alt="Grand Cliff Nusa Dua - Working space at bedroom" class="lazyload" />
+			</div>
+		</div>
+		
+		 <div class="wrapper">
+            <div class="the-content">				
+				{section name=s loop=$content[0].SubContents}
+					{if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+						<h4>{$content[0].SubContents[s].Heading}</h4>
+						<p>{$content[0].SubContents[s].Description}</p>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+
+						{/if}
+					{/if}    
+				{/section}
+			</div>
+		</div>	
+		
+		<div class="clear"></div>
+		
+		<div class="wrapper wrapper-wide">
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/thumb/Grand Cliff Nusa Dua -  Bedroom details.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/Grand Cliff Nusa Dua -  Bedroom details.jpg" alt="Grand Cliff Nusa Dua -  Bedroom details" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/thumb/Grand Cliff Nusa Dua - Master bedroom setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/explore/Grand Cliff Nusa Dua - Master bedroom setting.jpg" alt="Grand Cliff Nusa Dua - Master bedroom setting" class="lazyload" />
+				</div>
+			</div>
+		</div>				
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+	<h1 class="entry-title">{$data.heading}</h1>
+    <div class="wrapper">
+        <div class="the-content">
+
+			
+			
+			{parsedata folder=$data.theme cache=$data.cache content="STAFF"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+
+				<p>{$content[0].desc}</p>
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+			 
+			<div class="clear"></div>
+        </div>
+    </div>
+	
+	<div class="wrapper wrapper-wide">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Grand Cliff Nusa Dua - Attention to details.jpg" alt="Grand Cliff Nusa Dua - Attention to details" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Grand Cliff Nusa Dua - Our skilled chef preparing special dishes just for you.jpg" alt="Grand Cliff Nusa Dua - Our skilled chef preparing special dishes just for you" class="lazyload" />
+			</div>
+		</div>
+	</div>
+		
+</div>     
+{/if}
+
+
+{if ($data.page|in_array:['dining'] and $data.origin|in_array:['grand-cliff-ungasan']) or ($data.page|in_array:['dining'] and $data.origin|in_array:['dining'])}
+	<div class="content-item dining" id="dining">   
+		<div class="wrapper">
+			<div class="the-content">
+				 
+				 {if ($data.page|in_array:['dining'] and $data.origin|in_array:['grand-cliff-ungasan'])}
+				<h2 class="entry-title">{$data.heading}</h2>		
+				{else}				
+				<h3 class="entry-title"><span>Ungasan</span></h3>		
+				{/if}
+				
+				{parsedata folder=$data.theme cache="P00121" content="DNNG"}                           
+				{if 'desc'|array_key_exists:$content[0]}
+					{$content[0].desc|replace:'<br />': ''}
+				{/if}
+
+
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents}
+						<h2>{$content[0].SubContents[s].Heading}</h2>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+
+				{/if}
+				
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="wrapper wrapper-wide">
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Grand Cliff Front Residence - Beautiful dining table setting.jpg" alt="Grand Cliff Front Residence - Beautiful dining table setting" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Grand Cliff Front Residence - Dining.jpg" alt="Grand Cliff Front Residence - Dining" class="lazyload" />
+				</div>
+			</div>
+		</div>
+	</div>
+{/if}
+
+{if ($data.page|in_array:['dining'] and $data.origin|in_array:['grand-cliff-nusa-dua']) or ($data.page|in_array:['dining'] and $data.origin|in_array:['dining'])}
+	<div class="content-item dining" id="dining">   
+		<div class="wrapper">
+			<div class="the-content">
+				
+				{if ($data.page|in_array:['dining'] and $data.origin|in_array:['grand-cliff-nusa-dua'])}
+				<h2 class="entry-title">{$data.heading}</h2>		
+				{else}				
+				<h3 class="entry-title"><span>Nusa Dua</span></h3>		
+				{/if}
+				{parsedata folder=$data.theme cache="P00226" content="DNNG"}                           
+				{if 'desc'|array_key_exists:$content[0]}
+					{$content[0].desc|replace:'<br />': ''}
+				{/if}
+
+
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents}
+						<h2>{$content[0].SubContents[s].Heading}</h2>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+
+				{/if}
+				
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="wrapper wrapper-wide">
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Grand Cliff Nusa Dua - Chef preparation.jpg" alt="Grand Cliff Nusa Dua - Chef preparation" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Grand Cliff Nusa Dua - Beautiful table setting.jpg" alt="Grand Cliff Nusa Dua - Beautiful table setting" class="lazyload" />
+				</div>
+			</div>
+		</div>
+	</div>
+{/if}
+
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <h1 class="entry-title">{$data.heading}</h1>
+    <div class="wrapper">
+        <div class="the-content">
+		
+			{parsedata folder=$data.theme cache=$data.cache content="FAM"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+               
+                {contentpart content=$content[0].desc explode="<br /><br />"}
+                {section name=s loop=$contentPart}
+                <p>{$contentPart[s]}</p>
+                {/section}
+                
+			{/if}
+			
+			<div class="clear"></div>
+        </div>
+    </div>
+    <div class="wrapper wrapper-wide">
+        <div class="group">
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Grand Cliff Nusa Dua - Pool table.jpg" alt="Grand Cliff Nusa Dua - Pool table" class="lazyload" />
+            </div>
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Grand Cliff Nusa Dua - Let's play chess.jpg" alt="Grand Cliff Nusa Dua - Let's play chess" class="lazyload" />
+            </div>
+        </div>
+    </div>
+</div>    
+{/if}
+
+{if ($data.page|in_array:['spa'] and $data.origin|in_array:['grand-cliff-ungasan']) or ($data.page|in_array:['spa'] and $data.origin|in_array:['spa'])}
+	<div class="content-item spa" id="spa">
+		<div class="wrapper">
+			<div class="the-content">			
+			{if ($data.page|in_array:['spa'] and $data.origin|in_array:['grand-cliff-ungasan'])}
+			<h2 class="entry-title">{$data.heading}</h2>		
+			{else}				
+			<h3 class="entry-title"><span>Ungasan</span></h3>		
+			{/if}
+				{parsedata folder=$data.theme cache="P00121" content="SPA"}                           
+				{if 'desc'|array_key_exists:$content[0]}
+				   
+					{contentpart content=$content[0].desc explode="<br /><br />"}
+					{section name=s loop=$contentPart max=1}
+					<p>{$contentPart[s]}</p>
+					{/section}
+					
+				{/if}
+				
+			 </div>
+		</div> 	
+		
+		<div class="wrapper wrapper-wide">
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Grand Cliff Front Residence - Spa.jpg" alt="Grand Cliff Front Residence - Spa" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Grand Cliff Front Residence - Relaxing massage.jpg" alt="Grand Cliff Front Residence - Relaxing massage" class="lazyload" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="the-content">		
+				{if 'desc'|array_key_exists:$content[0]}
+				   
+					{contentpart content=$content[0].desc explode="<br /><br />"}
+					{section name=s loop=$contentPart start=1}
+					<p>{$contentPart[s]}</p>
+					{/section}
+					
+				{/if}
+				
+				{if 'SubContents'|array_key_exists:$content[0]}
+					<div class="details">
+					{section name=s loop=$content[0].SubContents}
+						<dt>{$content[0].SubContents[s].Heading}</dt>
+						<dd>{$content[0].SubContents[s].Description}</dd>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+					</div>
+				{/if}
+				<div class="clear"></div>
+			</div>
+		</div> 
+	
+	</div>
+{/if}
+
+{if ($data.page|in_array:['spa'] and $data.origin|in_array:['grand-cliff-nusa-dua']) or ($data.page|in_array:['spa'] and $data.origin|in_array:['spa'])}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+        <div class="the-content">
+		{if ($data.page|in_array:['spa'] and $data.origin|in_array:['grand-cliff-nusa-dua'])}
+		<h2 class="entry-title">{$data.heading}</h2>		
+		{else}				
+		<h3 class="entry-title"><span>Nusa Dua</span></h3>		
+		{/if}		
+		{parsedata folder=$data.theme cache="P00226" content="SPA"}                           
+		{if 'desc'|array_key_exists:$content[0]}
+		   
+			{contentpart content=$content[0].desc explode="<br /><br />"}
+			{section name=s loop=$contentPart max=1}
+			<p>{$contentPart[s]}</p>
+			{/section}
+			
+		{/if}
+			
+		 </div>
+    </div> 	
+	
+	<div class="wrapper wrapper-wide">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Grand Cliff Front Residence - Spa.jpg" alt="Grand Cliff Front Residence - Spa" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Grand Cliff Nusa Dua - Gym at villa.jpg" alt="Grand Cliff Nusa Dua - Gym at villa" class="lazyload" />
+			</div>
+		</div>
+	</div>
+	
+	<div class="wrapper">
+        <div class="the-content">		
+			{if 'desc'|array_key_exists:$content[0]}
+               
+                {contentpart content=$content[0].desc explode="<br /><br />"}
+                {section name=s loop=$contentPart start=1}
+                <p>{$contentPart[s]}</p>
+                {/section}
+                
+            {/if}
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+			<div class="clear"></div>
+        </div>
+    </div>  
+	
+	
+    <div class="wrapper wrapper-wide">
+        <div class="the-content">
+			<h2 class="entry-title">GYM</h2>
+		
+			{parsedata folder=$data.theme cache="P00226" content="GYM"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+               
+                {$content[0].desc}
+                
+            {/if}
+		 </div>
+    </div> 	
+	
+	{*
+	<div class="wrapper wrapper-wide">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Grand Cliff Front Residence - Spa.jpg" alt="Grand Cliff Front Residence - Spa" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Grand Cliff Front Residence.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Grand Cliff Nusa Dua - Gym at villa.jpg" alt="Grand Cliff Nusa Dua - Gym at villa" class="lazyload" />
+			</div>
+		</div>
+	</div>
+	*}
+	
+	<div class="wrapper">
+        <div class="the-content">		
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+			<div class="clear"></div>
+        </div>
+    </div> 
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['ungasan-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache="P00121" content="LCTN"}
+            {if $data.page|in_array:['the-locale']}
+            <h3 class="entry-title"><span>Ungasan</span></h3>
+            {else}
+            <h3 class="entry-title"><span>The Locale</span></h3>
+            <div class="map_div" id="map_div_locale"></div>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc strip=["<p>","</p>"] explode="<br /><br />"}
+                {section name=s loop=$contentPart}
+                <p>{$contentPart[s]}</p>
+                {/section}
+
+            {/if}
+			<div class="area">
+				{if 'SubContents'|array_key_exists:$content[0]}
+					<h4>Distances</h4>
+					<dl class="distances">
+						{section name=s loop=$content[0].SubContents}
+							<dt>{$content[0].SubContents[s].Heading}</dt>
+							<dd>{$content[0].SubContents[s].Description}</dd>
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					</dl>
+				{/if}
+			</div>
+            </div>
+        </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['nusa-dua-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache="P00226" content="LCTN"}
+            {if $data.page|in_array:['the-locale']}
+            <h3 class="entry-title"><span>Nusa Dua</span></h3>
+            {else}
+            <h3 class="entry-title"><span>The Locale</span></h3>
+            <div class="map_div" id="map_div_locale"></div>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+
+                <p>{$content[0].desc}</p>
+
+            {/if}
+			<div class="area">
+				{if 'SubContents'|array_key_exists:$content[0]}
+					<h4>Distances</h4>
+					<dl class="distances">
+						{section name=s loop=$content[0].SubContents}
+							<dt>{$content[0].SubContents[s].Heading}</dt>
+							<dd>{$content[0].SubContents[s].Description}</dd>
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					</dl>
+				{/if}
+			</div>
+            </div>
+        </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['ungasan-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+  
+	<div class="wrapper">
+		<div class="the-content">
+		{parsedata folder=$data.theme cache="P00121" content="TTD"}
+        {if $data.page|in_array:['things-to-do']}
+        <h3 class="entry-title"><span>Ungasan</span></h3>
+        {else}
+        <h3 class="entry-title"><span>Things to Do</span></h3>
+        {/if}
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+			{section name=s loop=$contentPart}
+				{$contentPart[s]}
+			{/section}
+		{/if}
+		</div>
+	</div>	
+	
+	<div class="wrapper wrapper-wide">
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/thumb/Grand Cliff Ungasan - Uluwatu Temple.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/Grand Cliff Ungasan - Uluwatu Temple.jpg" alt="Grand Cliff Ungasan - Uluwatu Temple" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/thumb/Grand Cliff Ungasan - Jimbaran seafood.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/Grand Cliff Ungasan - Jimbaran seafood.jpg" alt="Grand Cliff Ungasan - Jimbaran seafood" class="lazyload" />
+				</div>
+		</div>
+	</div>
+		
+	<div class="wrapper">
+		<div class="the-content">
+			 <div class="group">			 
+			 {if 'desc'|array_key_exists:$content[0]}
+				<ul>
+					{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+					{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+					{section name=s loop=$contentPart}
+						{$contentPart[s]}
+					{* if $smarty.section.s.index neq $smarty.section.s.first}
+						{if $smarty.section.s.index mod 2}				
+							<div class="half half-content">
+							<p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+							</div>			
+							<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/thumb/Grand%20Cliff%20Villas%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/Grand%20Cliff%20Villas%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+							</div>				
+						{else}
+							<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/thumb/Grand%20Cliff%20Villas%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/Grand%20Cliff%20Villas%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+							</div>
+							<div class="half half-content">
+							<p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+							</div>
+						{/if}
+					{/if *}
+						
+					{/section}
+				</ul>
+			</div>
+
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+			{/if}		
+		</div>
+	</div>
+	
+	<div class="wrapper wrapper-wide">
+		<div class="img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/thumb/Grand Cliff Ungasan - Jenggala Keramic in Jimbaran.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/ungasan/locale/Grand Cliff Ungasan - Jenggala Keramic in Jimbaran.jpg" alt="Grand Cliff Ungasan - Jenggala Keramic in Jimbaran" class="lazyload" />
+		</div>
+	</div>
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['nusa-dua-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+  
+	<div class="wrapper">
+		<div class="the-content">
+		{parsedata folder=$data.theme cache="P00226" content="TTD"}
+        {if $data.page|in_array:['things-to-do']}
+        <h3 class="entry-title"><span>Nusa Dua</span></h3>
+        {else}
+        <h3 class="entry-title"><span>Things to Do</span></h3>
+        {/if}
+		{if 'desc'|array_key_exists:$content[0]}		
+			{contentpart content=$content[0].desc regex="default"}
+        	{contentpart content=$contentPart[0] strip=["<p>", "</p>"] explode="<br /> <br />"}
+            {section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+            {/section}
+			
+		{/if}
+		</div>
+	</div>	
+	
+	<div class="wrapper wrapper-wide">
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/locale/thumb/Grand Cliff Nusa Dua - Pirates Bay at Nusa Dua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/locale/Grand Cliff Nusa Dua - Pirates Bay at Nusa Dua.jpg" alt="Grand Cliff Nusa Dua - Pirates Bay at Nusa Dua" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/locale/thumb/Grand Cliff Nusa Dua - Watersports.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/locale/Grand Cliff Nusa Dua - Watersports.jpg" alt="Grand Cliff Nusa Dua - Watersports" class="lazyload" />
+				</div>
+		</div>
+	</div>
+		
+	<div class="wrapper">
+		<div class="the-content">
+		
+		 <div class="group">
+		
+			{if 'desc'|array_key_exists:$content[0]}
+				<ul>				
+				{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+				{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+				{section name=s loop=$contentPart}
+					{$contentPart[s]}
+				{/section}
+				</ul>
+			</div>
+
+				{section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+				
+			{/if}
+		
+		</div>
+	</div>
+	
+	<div class="wrapper wrapper-wide">
+		<div class="img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/nusadua/locale/thumb/Grand Cliff Nusa Dua - Bali National Golf Club.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/nusadua/locale/Grand Cliff Nusa Dua - Bali National Golf Club.jpg" alt="Grand Cliff Nusa Dua - Bali National Golf Club" class="lazyload" />
+		</div>
+	</div>
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['quick-facts']}
+    {if $data.content_id != ''}
+        {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+    {/if}
+   
+    {if 'SubContents'|array_key_exists:$content[0]}
+	<div class="content-item quick-facts" id="quick-facts">
+        <div class="wrapper">
+            <h2 class="entry-title">Quick <span>facts</span></h2>  
+            <div class="group">
+                <div class="half">
+                {section name=s loop=7}
+                <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:'&':''|replace:' ':'-'|replace:'/':'-'|replace:'&nbsp;':''|lower}">
+                    <strong>{$content[0].SubContents[s].Heading}</strong>
+                    {$content[0].SubContents[s].Description}
+                </div>
+                {/section}
+                </div>
+
+                <div class="half"> 
+                {section name=s start=7 loop=$content[0].SubContents}
+                {* if $smarty.section.s.index neq $smarty.section.s.last *}
+                <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:'&':''|replace:' ':'-'|replace:'/':'-'|replace:'&nbsp;':''|lower}">
+                    <strong>{$content[0].SubContents[s].Heading}</strong>
+                    {$content[0].SubContents[s].Description}
+                </div>
+                  {* /if *}
+                {/section}
+                </div>
+           </div>  
+       </div>  
+   </div>  
+    {/if}
+
+{/if}
+
+{if $data.page|in_array:['weddings']}
+	<div class="content-item weddings" id="weddings">
+    <h1 class="entry-title">WEDDINGS</h1>
+    <div class="wrapper">
+        <div class="the-content">
+	{parsedata folder=$data.theme cache=$data.cache content="EVT"}
+		
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+            {contentpart content=$contentPart[0] strip=["<p>", "</p>"] explode="<br /> <br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section} 
+
+            <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Grand Cliff Villas - Wedding ceremony.jpg" alt="Grand Cliff Villas - Wedding ceremony" class="lazyload" /></div>
+
+			{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+            {section name=s loop=$contentPart}
+            {$contentPart[s]|replace:['<ul>']:['<ul class="capacity">']}
+            {/section}
+
+            <div class="guidelines">
+                    {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+                    {section name=s loop=1}
+                    {$contentPart[s]|replace:'<br />': ''}
+                    {/section} 
+                    {section name=s start=1 loop=$contentPart}
+                    {$contentPart[s]|replace:'<br />': ''}
+                    {/section} 
+            </div>
+
+		{/if}
+		</div>
+	</div>
+	</div>
+{/if}  

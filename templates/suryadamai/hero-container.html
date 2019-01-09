@@ -1,0 +1,66 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20View%20from%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg 1920w" alt="Surya Damai - View from garden" class="lazyload" />            
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-surya-damai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Pool%20and%20dining%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Pool%20and%20dining%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Pool%20and%20dining%20room.jpg 1920w" alt="Surya Damai - Pool and dining room" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Pool%20and%20villa.jpg 1920w" alt="Surya Damai - Pool and villa" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Guest%20bedroom%202.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Guest%20bedroom%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Guest%20bedroom%202.jpg 1920w" alt="Surya Damai - Guest bedroom 2" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Tranquility.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Tranquility.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Tranquility.jpg 1920w" alt="Surya Damai - Tranquility" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Bedroom%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Bedroom%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Bedroom%20layout.jpg 1920w" alt="Surya Damai - Bedroom layout" class="lazyload" />
+
+        {elseif $data.page == 'video'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20View%20from%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg 1920w" alt="Surya Damai - View from garden" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Bedroom%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Bedroom%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Bedroom%20style.jpg 1920w" alt="Surya Damai - Bedroom style" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Wedding%20destination.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Wedding%20destination.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Wedding%20destination.jpg 1920w" alt="Surya Damai - Wedding destination" class="lazyload" />
+        
+        {elseif $data.page == 'umalas-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Villa%20at%20midday.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Villa%20at%20midday.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Villa%20at%20midday.jpg 1920w" alt="Surya Damai - Villa at midday" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Master%20terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Master%20terrace.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Master%20terrace.jpg 1920w" alt="Surya Damai - Master terrace" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Bedroom%20design.jpg 1920w" alt="Surya Damai - Bedroom design" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Villa%20at%20dusk.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Villa%20at%20dusk.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Villa%20at%20dusk.jpg 1920w" alt="Surya Damai - Villa at dusk" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Alfresco%20dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20Alfresco%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20Alfresco%20dining.jpg 1920w" alt="Surya Damai - Alfresco dining" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20View%20from%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg 1920w" alt="Surya Damai - View from garden" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20View%20from%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg 1920w" alt="Surya Damai - View from garden" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Surya%20Damai%20-%20View%20from%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Surya%20Damai%20-%20View%20from%20garden.jpg 1920w" alt="Surya Damai - View from garden" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

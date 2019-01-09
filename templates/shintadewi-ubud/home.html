@@ -1,0 +1,93 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">                      
+                    <div class="wrapper">
+                        <div class="the-content"> 
+							
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            
+                            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Shinta Dewi Ubud - Poolside relaxation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Shinta Dewi Ubud - Poolside relaxation.jpg" alt="" class="lazyload" /></div>
+                            <div class="intro">
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+							</div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+		
+		 <div class="content-container">
+            <div class="content">
+				<div class="group">
+				
+					<div class="content-item">  
+						<div class="wrapper">
+				            <div class="img">				                
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Shinta Dewi Ubud - Private chef.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Shinta Dewi Ubud - Private chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Private%20chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Shinta%20Dewi%20Ubud%20-%20Private%20chef.jpg 1920w" alt="Villa Shinta Dewi Ubud - Private chef" class="lazyload" />  
+				            </div>
+							<div class="the-content"> 								
+								<h2 class="entry-title">Villa Shinta Dewi’s chef is on hand throughout your stay to prepare breakfast, lunch and dinner.</h2>
+								<p>Guests at Villa Shinta Dewi in Ubud enjoy the benefit of their own chef, at the ready to prepare daily breakfast, lunch and dinner.</p>
+								<div><a href="/dining.html" class="btn-home">Read more</a></div>								
+							</div>
+						</div>
+					</div>
+					
+					<div class="content-item">  
+						<div class="wrapper">
+				            <div class="img">				                
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Shinta Dewi Ubud - Round the clock service.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Shinta Dewi Ubud - Round the clock service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Round%20the%20clock%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Shinta%20Dewi%20Ubud%20-%20Round%20the%20clock%20service.jpg 1920w" alt="Villa Shinta Dewi Ubud - Round the clock service" class="lazyload" />  
+				            </div>
+							<div class="the-content"> 								
+								<h2 class="entry-title">Personalised service provided by a dedicated team of professional staff.</h2>
+								<p>One of the greatest advantages of staying in a villa is the personalised service provided by dedicated staff. The professionally trained staff at Villa Shinta Dewi take delight in offering warm and friendly Balinese hospitality, and know when to be on hand to help, or invisible when not required.</p>
+								<div><a href="/staff.html" class="btn-home">Read more</a></div>								
+							</div>
+						</div>						
+					</div>
+					
+				</div>				
+			</div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-shinta-dewi-ubud', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'ubud-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

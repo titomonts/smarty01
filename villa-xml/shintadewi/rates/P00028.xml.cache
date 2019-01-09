@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00028" countryid="ID">
+  <GenInclusions><![CDATA[]]></GenInclusions>
+  <Promotions>
+    <Promo promoid="0" discounttypeid="SD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="99" checkinwithin="0" advancedays="0" sortorder="1" bedrooms="4" displaytype="1">
+      <PromoName><![CDATA[Plan & Save 25%]]></PromoName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br />Book before 31st January or miss out<br /><br /><span style="font-style: italic;">Terms and conditions:<br /></span>- Only valid for new bookings received from 3rd December 2018 until 31st January 2019.<br />- Applicable to all stays completed before 14th December 2019, excluding high and peak season dates.<br />- Not valid with any other discounts or offers and subject to availability.<br />]]></Description>
+      <ValidFrom>2018-12-03</ValidFrom>
+      <ValidTo>2019-12-14</ValidTo>
+      <Rate ratetype="%">0.00</Rate>
+      <TermsCond><![CDATA[]]></TermsCond>
+    </Promo>
+  </Promotions>
+  <Discounts>
+    <Discount discountid="88387" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2018-12-15</ValidFrom>
+      <ValidTo>2018-12-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="88388" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (PK)]]></Description>
+      <ValidFrom>2018-12-26</ValidFrom>
+      <ValidTo>2019-01-05</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="88389" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-01-06</ValidFrom>
+      <ValidTo>2019-02-01</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88390" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-02-02</ValidFrom>
+      <ValidTo>2019-02-10</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="88391" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-04-04</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88392" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2019-04-05</ValidFrom>
+      <ValidTo>2019-04-16</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88393" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-04-17</ValidFrom>
+      <ValidTo>2019-04-21</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="88394" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-04-22</ValidFrom>
+      <ValidTo>2019-06-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88395" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2019-06-15</ValidFrom>
+      <ValidTo>2019-06-21</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88396" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-06-22</ValidFrom>
+      <ValidTo>2019-08-17</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="88397" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2019-08-18</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88398" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-12-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="88399" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-12-15</ValidFrom>
+      <ValidTo>2019-12-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="88400" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (PK)]]></Description>
+      <ValidFrom>2019-12-26</ValidFrom>
+      <ValidTo>2020-01-04</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="112184" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2020-01-05</ValidFrom>
+      <ValidTo>2020-01-23</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112185" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-01-24</ValidFrom>
+      <ValidTo>2020-01-31</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="112186" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2020-02-01</ValidFrom>
+      <ValidTo>2020-03-27</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112187" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2020-03-28</ValidFrom>
+      <ValidTo>2020-04-08</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112188" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-04-09</ValidFrom>
+      <ValidTo>2020-04-13</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="112189" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2020-04-14</ValidFrom>
+      <ValidTo>2020-05-02</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112190" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2020-05-03</ValidFrom>
+      <ValidTo>2020-06-19</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112191" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2020-06-20</ValidFrom>
+      <ValidTo>2020-06-26</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112192" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-06-27</ValidFrom>
+      <ValidTo>2020-08-23</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="122674" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2020-06-27</ValidFrom>
+      <ValidTo>2020-08-23</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="112193" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2020-08-24</ValidFrom>
+      <ValidTo>2020-09-05</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="122675" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2020-08-24</ValidFrom>
+      <ValidTo>2020-09-05</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112194" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2020-09-06</ValidFrom>
+      <ValidTo>2020-12-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="122676" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2020-09-06</ValidFrom>
+      <ValidTo>2020-12-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="112195" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-12-15</ValidFrom>
+      <ValidTo>2020-12-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="122677" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2020-12-15</ValidFrom>
+      <ValidTo>2020-12-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="118619" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-01-06</ValidFrom>
+      <ValidTo>2019-02-01</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="118621" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-04-04</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="118622" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-04-05</ValidFrom>
+      <ValidTo>2019-04-16</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="118624" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-04-22</ValidFrom>
+      <ValidTo>2019-06-14</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="118625" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-06-15</ValidFrom>
+      <ValidTo>2019-06-21</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="118627" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-08-18</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="118628" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="90" sortorder="1">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Description><![CDATA[Grab the best early bird deal ever<br />Book 90 days in advance and enjoy 25% discount<br />(usually 150 days and 15% discount)<br /><br /><span style="font-style: italic;">Terms and conditions:</span><br />- Only valid for new bookings received from 3rd December 2018.<br />- Applicable to all stays completed before 14 December 2019, excluding high season dates.<br />- Not valid with any other discounts or offers.<br />]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-12-14</ValidTo>
+      <Rate ratetype="%">25.00</Rate>
+    </Discount>
+    <Discount discountid="88334" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-06-24</ValidFrom>
+      <ValidTo>2020-01-04</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="112169" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-01-05</ValidFrom>
+      <ValidTo>2021-01-04</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="88354" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2018-12-15</ValidFrom>
+      <ValidTo>2018-12-25</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="88355" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[PK]]></Description>
+      <ValidFrom>2018-12-26</ValidFrom>
+      <ValidTo>2019-01-05</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="88356" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-01-06</ValidFrom>
+      <ValidTo>2019-02-01</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88357" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-02-02</ValidFrom>
+      <ValidTo>2019-02-10</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="88358" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-04-04</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88359" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-04-05</ValidFrom>
+      <ValidTo>2019-04-16</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88360" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-04-17</ValidFrom>
+      <ValidTo>2019-04-21</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="88361" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-04-22</ValidFrom>
+      <ValidTo>2019-06-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88362" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-06-15</ValidFrom>
+      <ValidTo>2019-06-21</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88363" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-06-22</ValidFrom>
+      <ValidTo>2019-08-17</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="88364" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-08-18</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88365" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-12-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="88366" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-12-15</ValidFrom>
+      <ValidTo>2019-12-25</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="88367" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[PK]]></Description>
+      <ValidFrom>2019-12-26</ValidFrom>
+      <ValidTo>2020-01-04</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="112171" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-01-05</ValidFrom>
+      <ValidTo>2020-01-23</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112172" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-01-24</ValidFrom>
+      <ValidTo>2020-01-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="112173" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-02-01</ValidFrom>
+      <ValidTo>2020-03-27</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112174" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-03-28</ValidFrom>
+      <ValidTo>2020-04-08</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112175" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-04-09</ValidFrom>
+      <ValidTo>2020-04-13</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="112176" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-04-14</ValidFrom>
+      <ValidTo>2020-05-02</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112177" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-05-03</ValidFrom>
+      <ValidTo>2020-06-19</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112178" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-06-20</ValidFrom>
+      <ValidTo>2020-06-26</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112179" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-06-27</ValidFrom>
+      <ValidTo>2020-08-23</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="122670" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-06-27</ValidFrom>
+      <ValidTo>2020-08-23</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="112180" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-08-24</ValidFrom>
+      <ValidTo>2020-09-05</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="122671" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-08-24</ValidFrom>
+      <ValidTo>2020-09-05</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112181" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-09-06</ValidFrom>
+      <ValidTo>2020-12-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="122672" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-09-06</ValidFrom>
+      <ValidTo>2020-12-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="112182" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-12-15</ValidFrom>
+      <ValidTo>2020-12-25</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="122673" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-12-15</ValidFrom>
+      <ValidTo>2020-12-25</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="112183" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[PK]]></Description>
+      <ValidFrom>2020-12-26</ValidFrom>
+      <ValidTo>2021-01-04</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+  </Discounts>
+  <DiscountSummary>
+    <Discount discounttypeid="EB" requirednights="1" checkinwithin="0" advancedays="150" sortorder="">
+      <DiscountName><![CDATA[Early Bird - Plan & Save]]></DiscountName>
+      <Rate ratetype="%">25.00</Rate>
+      <Note><![CDATA[Does not apply for New Year period]]></Note>
+    </Discount>
+    <Discount discounttypeid="EB" requirednights="1" checkinwithin="0" advancedays="150" sortorder="">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Rate ratetype="%">15.00</Rate>
+      <Note><![CDATA[Does not apply for New Year period]]></Note>
+    </Discount>
+    <Discount discounttypeid="LM" requirednights="1" checkinwithin="15" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Rate ratetype="%">10.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+    <Discount discounttypeid="LS" requirednights="10" checkinwithin="0" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Rate ratetype="%">15.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+  </DiscountSummary>
+  <Rooms>
+    <Room roomid="644" bedrooms="4" maxoccupancy="8" maxadult="8" maxchild="0">
+      <RoomName><![CDATA[4 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="1023">
+          <RateName><![CDATA[Standard Rate (4BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2018">
+              <SDate>2018-12-15</SDate>
+              <EDate>2018-12-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">710.00</DisplayRate>
+              <NRate>820.05</NRate>
+              <LS14DiscountedRate>710.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">639.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-26</SDate>
+              <EDate>2019-01-05</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">850.00</DisplayRate>
+              <NRate>981.75</NRate>
+              <LS14DiscountedRate>850.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">808.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-01-06</SDate>
+              <EDate>2019-02-01</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-02</SDate>
+              <EDate>2019-02-10</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-11</SDate>
+              <EDate>2019-04-04</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-05</SDate>
+              <EDate>2019-04-16</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-17</SDate>
+              <EDate>2019-04-21</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-22</SDate>
+              <EDate>2019-06-14</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-06-15</SDate>
+              <EDate>2019-06-21</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-06-22</SDate>
+              <EDate>2019-08-17</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-08-18</SDate>
+              <EDate>2019-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-01</SDate>
+              <EDate>2019-12-14</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-15</SDate>
+              <EDate>2019-12-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-26</SDate>
+              <EDate>2020-01-04</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">880.00</DisplayRate>
+              <NRate>1,016.40</NRate>
+              <LS14DiscountedRate>880.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">836.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-05</SDate>
+              <EDate>2020-01-23</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-24</SDate>
+              <EDate>2020-01-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-02-01</SDate>
+              <EDate>2020-03-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-28</SDate>
+              <EDate>2020-04-08</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-09</SDate>
+              <EDate>2020-04-13</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-14</SDate>
+              <EDate>2020-05-02</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-05-03</SDate>
+              <EDate>2020-06-19</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-06-20</SDate>
+              <EDate>2020-06-26</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-06-27</SDate>
+              <EDate>2020-08-23</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-08-24</SDate>
+              <EDate>2020-09-05</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">600.00</DisplayRate>
+              <NRate>693.00</NRate>
+              <LS14DiscountedRate>600.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">510.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-09-06</SDate>
+              <EDate>2020-12-14</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">470.00</DisplayRate>
+              <NRate>542.85</NRate>
+              <LS14DiscountedRate>470.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">400.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-12-15</SDate>
+              <EDate>2020-12-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">730.00</DisplayRate>
+              <NRate>843.15</NRate>
+              <LS14DiscountedRate>730.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">657.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+    <Room roomid="1203" bedrooms="3" maxoccupancy="6" maxadult="6" maxchild="0">
+      <RoomName><![CDATA[3 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="1282">
+          <RateName><![CDATA[Standard Rate (3BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2018">
+              <SDate>2018-12-15</SDate>
+              <EDate>2018-12-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">620.00</DisplayRate>
+              <NRate>716.10</NRate>
+              <LS14DiscountedRate>620.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">558.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-26</SDate>
+              <EDate>2019-01-05</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">850.00</DisplayRate>
+              <NRate>981.75</NRate>
+              <LS14DiscountedRate>850.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">808.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-01-06</SDate>
+              <EDate>2019-02-01</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-02</SDate>
+              <EDate>2019-02-10</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-11</SDate>
+              <EDate>2019-04-04</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-05</SDate>
+              <EDate>2019-04-16</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-17</SDate>
+              <EDate>2019-04-21</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-22</SDate>
+              <EDate>2019-06-14</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-06-15</SDate>
+              <EDate>2019-06-21</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-06-22</SDate>
+              <EDate>2019-08-17</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-08-18</SDate>
+              <EDate>2019-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-01</SDate>
+              <EDate>2019-12-14</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-15</SDate>
+              <EDate>2019-12-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-26</SDate>
+              <EDate>2020-01-04</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">880.00</DisplayRate>
+              <NRate>1,016.40</NRate>
+              <LS14DiscountedRate>880.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">836.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-05</SDate>
+              <EDate>2020-01-23</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-24</SDate>
+              <EDate>2020-01-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-02-01</SDate>
+              <EDate>2020-03-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-28</SDate>
+              <EDate>2020-04-08</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-09</SDate>
+              <EDate>2020-04-13</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-14</SDate>
+              <EDate>2020-05-02</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-05-03</SDate>
+              <EDate>2020-06-19</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-06-20</SDate>
+              <EDate>2020-06-26</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-06-27</SDate>
+              <EDate>2020-08-23</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-08-24</SDate>
+              <EDate>2020-09-05</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">520.00</DisplayRate>
+              <NRate>600.60</NRate>
+              <LS14DiscountedRate>520.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">442.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-09-06</SDate>
+              <EDate>2020-12-14</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">390.00</DisplayRate>
+              <NRate>450.45</NRate>
+              <LS14DiscountedRate>390.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">332.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-12-15</SDate>
+              <EDate>2020-12-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">640.00</DisplayRate>
+              <NRate>739.20</NRate>
+              <LS14DiscountedRate>640.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">576.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[ <li> Daily breakfast</li><li>  2x daily drop offs to Ubud town centre</li><li> Airport transfers (Conditions apply)</li><li>  WiFi internet connection</li><li>  Exclusive use of gym and pool</li> <li> Sonos / BOSE sound system</li><li>  Satellite TV and DVD</li><li> Villa fully serviced on a daily basis by the villa staff: manager, butlers, chef, gardener and 24x7 security</li><li> Exclusive use of the villa listed facilities</li><li> Welcome drink</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+  </Rooms>
+  <Packages>
+  </Packages>
+</Villa>

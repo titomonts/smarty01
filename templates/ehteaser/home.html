@@ -1,0 +1,9 @@
+{include file="header.html"}
+    <div id="primary" class="content-area container_12 clearfix">
+	{if $data.complex == 'yes'}
+    	{include file="home_complex.html"}
+    {else}
+    	{include file="home_single.html"}
+    {/if}  
+    </div><!-- #primary -->
+{include file="footer.html"}

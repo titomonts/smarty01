@@ -1,0 +1,71 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Peaceful%20paradise.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Peaceful%20paradise.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Peaceful%20paradise.jpg 1920w" alt="Villa Kayajiwa - Peaceful paradise" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony details" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Delicious%20dish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Delicious%20dish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Delicious%20dish.jpg 1920w" alt="Villa Kayajiwa - Delicious dish" class="lazyload" /></div>
+        
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-kayajiwa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Pool%20shoot%20perspective.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Pool%20shoot%20perspective.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Pool%20shoot%20perspective.jpg 1920w" alt="Villa Kayajiwa - Pool shoot perspective" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony details" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+       
+
+        {elseif $data.page == 'floorplan'}
+        
+
+        {elseif $data.page == 'weddings'}
+        
+        
+        {elseif $data.page == 'tabanan-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Dedicated%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Dedicated%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Dedicated%20staff.jpg 1920w" alt="Villa Kayajiwa - Dedicated staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Delicious%20dish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Delicious%20dish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Delicious%20dish.jpg 1920w" alt="Villa Kayajiwa - Delicious dish" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Stylish%20lounge%20lights.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Stylish%20lounge%20lights.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Stylish%20lounge%20lights.jpg 1920w" alt="Villa Kayajiwa - Stylish lounge lights" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Massage%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Massage%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Massage%20room.jpg 1920w" alt="Villa Kayajiwa - Massage room" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Fabulous%20modern%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Fabulous%20modern%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Fabulous%20modern%20design.jpg 1920w" alt="Villa Kayajiwa - Fabulous modern design" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Fabulous%20modern%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Fabulous%20modern%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Fabulous%20modern%20design.jpg 1920w" alt="Villa Kayajiwa - Fabulous modern design" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Villa%20Kayajiwa%20-%20Sunny%20day%20in%20heaven.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Villa%20Kayajiwa%20-%20Sunny%20day%20in%20heaven.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Villa%20Kayajiwa%20-%20Sunny%20day%20in%20heaven.jpg 1920w" alt="Villa Kayajiwa - Villa Kayajiwa - Sunny day in heaven" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony details" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony details" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Relaxing%20balcony%20details.jpg 1920w" alt="Villa Kayajiwa - Relaxing balcony details" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Peaceful%20paradise.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kayajiwa%20-%20Peaceful%20paradise.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kayajiwa%20-%20Peaceful%20paradise.jpg 1920w" alt="Villa Kayajiwa - Peaceful paradise" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

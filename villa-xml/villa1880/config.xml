@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00233</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa 1880</villa_name>
+		<google_analytics>UA-XXX</google_analytics>
+		<location>Bali</location>
+		<sublocation>Seminyak</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'P00233', 'Bali', 'Seminyak', '5br'</hrental_id>
+		<ehgLocation>Bali, Seminyak</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

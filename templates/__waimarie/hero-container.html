@@ -1,0 +1,71 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+		<div id="slide-1">
+            <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Absolute%20beachfront%20haven.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Absolute%20beachfront%20haven.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Absolute%20beachfront%20haven.jpg 1920w" alt="Villa Waimarie - Absolute beachfront haven" class="lazyload" />            
+			<div class="caption"><big>Absolutely on the sand</big> <small></small></div>   
+        </div>
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Waimarie%20crew.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Waimarie%20crew.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Waimarie%20crew.jpg 1920w" alt="Villa Waimarie - Waimarie crew" class="lazyload" />
+			<div class="caption"><big>Fully staffed with private chef</big> <small></small></div>   
+        </div>
+		<div id="slide-3">
+            <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Bedroom%20private%20terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Bedroom%20private%20terrace.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Bedroom%20private%20terrace.jpg 1920w" alt="Villa Waimarie - Bedroom private terrace" class="lazyload" />
+			<div class="caption"><big>Six stunning ensuite bedrooms</big> <small></small></div>   
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-waimarie'}
+		<img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Tropical%20sanctuary.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Tropical%20sanctuary.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Tropical%20sanctuary.jpg 1920w" alt="Villa Waimarie - Tropical sanctuary" class="lazyload" />
+                
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Pool%20scenery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Pool%20scenery.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Pool%20scenery.jpg 1920w" alt="Villa Waimarie - Pool scenery" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Living%20area.jpg 1920w" alt="Villa Waimarie - Living area" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Relax%20and%20relish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Relax%20and%20relish.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Relax%20and%20relish.jpg 1920w" alt="Villa Waimarie - Relax and relish" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Living%20area%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Living%20area%20perfection.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Living%20area%20perfection.jpg 1920w" alt="Villa Waimarie - Living area perfection" class="lazyload" />
+
+        {elseif $data.page == 'video'}
+        
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Tropical%20pool%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Tropical%20pool%20setting.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Tropical%20pool%20setting.jpg 1920w" alt="Villa Waimarie - Tropical pool setting" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Tropical%20hideawayg.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Tropical%20hideaway.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Tropical%20hideaway.jpg 1920w" alt="Villa Waimarie - Tropical hideaway" class="lazyload" />            
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Stunning%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Stunning%20beach.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Stunning%20beach.jpg 1920w" alt="Villa Waimarie - Stunning beach" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Private%20bedroom%20terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Private%20bedroom%20terrace.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Private%20bedroom%20terrace.jpg 1920w" alt="Villa Waimarie - Swimming pool" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Cocktail%20anyone.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Cocktail%20anyone.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Cocktail%20anyone.jpg 1920w" alt="Villa Waimarie - Cocktail anyone" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+		<img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Praying%20area.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg 1920w" alt="Villa Waimarie - Praying area" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Praying%20area.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg 1920w" alt="Villa Waimarie - Praying area" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Praying%20area.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg 1920w" alt="Villa Waimarie - Praying area" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/waimarie/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/waimarie/headers/small/Villa%20Waimarie%20-%20Praying%20area.jpg 1400w, {$data.cdn}/resources/waimarie/headers/Villa%20Waimarie%20-%20Praying%20area.jpg 1920w" alt="Villa Waimarie - Praying area" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

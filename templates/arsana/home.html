@@ -1,0 +1,90 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+                                {section name=s loop=$contentPart}
+                                <p>{$contentPart[s]|replace:'<br />':''}</p>
+                                {/section}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <ul class="poi">
+                            <li id="poi-1">Stunning <br/>location</li>
+                            <li id="poi-2">Private <br/>chef</li>
+                            <li id="poi-3">Fully <br/>staffed</li>
+                            <li id="poi-4">Weddings <br/>and parties</li>
+                            <li id="poi-5">Private <br/>tennis court</li>
+                        </ul> 
+                        
+                        <div class="photo-slide">
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Luxury movie room.jpg" class="lazyload" data-caption="Cinema room"></div>
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Kids room and bunk beds.jpg" class="lazyload" data-caption="Bunk beds for kids"></div>
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Arsana chef in action.jpg" class="lazyload" data-caption="Personal chef on hand"></div>
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Gym.jpg" class="lazyload" data-caption="Fully equipped gym"></div>
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Private tennis court.jpg" class="lazyload" data-caption="Private tennis court"></div>
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Friendly local.jpg" class="lazyload" data-caption="Local culture"></div>
+                            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Pool table.jpg" class="lazyload" data-caption="Pool table"></div>
+                        </div>
+
+                    </div>
+                </div>  
+                <div class="content-item">
+                    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - Fresh food made in the villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/The%20Arsana%20Estate%20-%20Fresh%20food%20made%20in%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/The%20Arsana%20Estate%20-%20Fresh%20food%20made%20in%20the%20villa.jpg 1920w" alt="The Arsana Estate - Fresh food made in the villa" class="lazyload"></div>
+                    <div class="wrapper">
+                        <h2>Fresh cuisine. <br />Prepared especially for you.</h2>
+                        <p>Effortless in-villa dining is one of the key attractions of a stay at the Arsana Estate.  The cook  and kitchen team are on hand to prepare daily family-style breakfast, lunch and dinner plus snacks in between.</p>
+                    </div>
+                    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/The Arsana Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/The Arsana Estate - The estate staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/The%20Arsana%20Estate%20-%20The%20estate%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/The%20Arsana%20Estate%20-%20The%20estate%20staff.jpg 1920w" alt="The Arsana Estate - The estate staff" class="lazyload"></div>
+                    <div class="wrapper">
+                        <h2>Our Staff are exceptional.</h2>
+                        <p>The Arsana Estate has a dedicated team of staff, including those from the local community who are happy for guests to accompany them to village ceremonies and events, and give them the inside scoop on Balinese life and culture.</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-the-arsana-estate', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

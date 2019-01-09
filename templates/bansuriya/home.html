@@ -1,0 +1,138 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+                              {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+							  <p class="p-header">
+								{section name=s start=0 max=2 loop=$contentPart}
+									{$contentPart[s]|replace:'<br />':''}
+								{/section}
+							  </p>
+							  
+							<p>
+							{section name=s start=2 loop=$contentPart}
+								{if $smarty.section.s.last neq true}
+								{$contentPart[s]}.
+								{/if}
+							{/section}
+							</p>
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <ul class="poi">
+                            <li id="poi-1">Absolute <br/>Beachfront</li>
+                            <li id="poi-2">Private <br/>Chef</li>
+                            <li id="poi-3">Fully <br/>Staffed</li>
+                            <li id="poi-4">Private <br/>Pool</li>
+                            <li id="poi-5">Weddings <br/>& Events</li>
+                        </ul> 
+                    </div>
+                </div>  
+                <div class="content-item">
+				<div class="group">
+							<div class="first-img">	
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Ban%20Suriya%20-%20Dining%20table%20preparation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Dining%20table%20preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Ban%20Suriya%20-%20Dining%20table%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Dining%20table%20preparation.jpg 1920w" alt="Ban Suriya - Dining table preparation" class="lazyload">
+								<h3>Personalised service provided by <br>dedicated staff.</h3>
+								{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+								{if 'desc'|array_key_exists:$content[0]}
+									{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+									<p>
+									{section name=s loop=$contentPart start=0 max=3 }
+										{$contentPart[s]}
+									{/section}
+									.</p>
+								{/if}
+								<a href="/staff.html" onclick="ga('send', 'event', 'Collage', 'Clicked', 'Home - Staff');">Read more</a>
+								                        						
+							</div>
+							
+							<div class="second-img">							
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Ban%20Suriya%20-%20Familiy.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Familiy.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Ban%20Suriya%20-%20Familiy.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Familiy.jpg 1920w" alt="Ban Suriya - Familiy" class="lazyload">
+								
+								<h3>The family friendly advantages <br>of a villa holiday</h3>
+								{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+								{if 'desc'|array_key_exists:$content[0]}
+									{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+									<p>
+									{section name=s loop=$contentPart start=0 max=1 }
+										{$contentPart[s]}
+									{/section}
+									.</p>
+								{/if}
+								<a href="/families.html" onclick="ga('send', 'event', 'Collage', 'Clicked', 'Home- Families');">Read more</a>
+							</div>
+							
+							<div class="third-img">								
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Ban%20Suriya%20-%20All%20day%20dining%20at%20cost.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20All%20day%20dining%20at%20cost.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Ban%20Suriya%20-%20All%20day%20dining%20at%20cost.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20All%20day%20dining%20at%20cost.jpg 1920w" alt="Ban Suriya - All day dining at cost" class="lazyload">								
+								<h3>Fresh cuisine. <br>Prepared especially for you.</h3>
+								{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+								{if 'desc'|array_key_exists:$content[0]}
+									{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+									<p>
+									{section name=s loop=$contentPart start=0 max=2 }
+										{$contentPart[s]}
+									{/section}
+									.</p>
+								{/if}
+								<a href="/dining.html" onclick="ga('send', 'event', 'Collage', 'Clicked', 'Home - Dining');">Read more</a>
+							</div>
+						</div>
+				</div>
+                <div class="content-item">
+                    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Ban%20Suriya%20-%20Master%20bedroom%20as%20seen%20from%20garden.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Master%20bedroom%20as%20seen%20from%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Ban%20Suriya%20-%20Master%20bedroom%20as%20seen%20from%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Master%20bedroom%20as%20seen%20from%20garden.jpg 1920w" alt="Ban Suriya - Master bedroom as seen from garden" class="lazyload"></div>
+                    <div class="wrapper">
+                        <h2>Six ensuite bedrooms</h2>
+                        <p>Each of the six ensuite bedrooms at Ban Suriya is a bright, Enormous glass doors open onto a huge wooden deck, the garden and the pool.
+Four of the villa’s bedrooms face the pool, the fifth is privately positioned at the front of the garden – almost on the beach.</p>
+                    </div>
+                    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Ban%20Suriya%20-%20Relax%20and%20reslish.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Relax%20and%20reslish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Ban%20Suriya%20-%20Relax%20and%20reslish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Ban%20Suriya%20-%20Relax%20and%20reslish.jpg 1920w" alt="Ban Suriya - Relax and reslish" class="lazyload"></div>
+                    <div class="wrapper">
+                        <h2>Stunning beachfront villa set along Lipa Noi Beach</h2>
+                        <p>The land Ban Suriya is built on used to be a coconut plantation, and many of the stately trees were preserved, now presiding over the expanse of lawn between the deck and the beach.</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-the-bansuriya', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

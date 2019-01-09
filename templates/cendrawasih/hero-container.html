@@ -1,0 +1,61 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20The%20villa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20The%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20The%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20The%20villa.jpg 1920w" alt="Villa Cendrawasih - The villa" class="lazyload" />          
+        </div>
+        <!--div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Cendrawasih.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Cendrawasih%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Cendrawasih%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Cendrawasih%20-%20Poolside%20area.jpg 1920w" alt="Cendrawasih - Poolside area" class="lazyload" />            
+        </div -->
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-cendrawasih'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20Bale.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20Bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg 1920w" alt="Villa Cendrawasih - Bale" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20Upstairs%20alfresco%20living%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Upstairs%20alfresco%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20Upstairs%20alfresco%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Upstairs%20alfresco%20living%20area.jpg 1920w" alt="Villa Cendrawasih - Upstairs alfresco living area" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Header-Image-Quick-Facts.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Header-Image-Quick-Facts.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Header-Image-Quick-Facts.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Header-Image-Quick-Facts.jpg 1920w" alt="Villa Cendrawasih - Quick Facts" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Cendrawasih.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Cendrawasih%20-%20Bedroom%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Cendrawasih%20-%20Bedroom%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Cendrawasih%20-%20Bedroom%20style.jpg 1920w" alt="Cendrawasih - Bedroom style" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Header-Image-gallery.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Header-Image-gallery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Header-Image-gallery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Header-Image-gallery.jpg 1920w" alt="Villa Cendrawasih - Image Gallery" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20Bale.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20Bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg 1920w" alt="Villa Cendrawasih - Bale" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Cendrawasih.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Cendrawasih%20-%20Wedding%20destination.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Cendrawasih%20-%20Wedding%20destination.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Cendrawasih%20-%20Wedding%20destination.jpg 1920w" alt="Cendrawasih - Wedding destination" class="lazyload" />
+        
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20Seminyak%20Beach.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Seminyak%20Beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20Seminyak%20Beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Seminyak%20Beach.jpg 1920w" alt="Villa Cendrawasih - Seminyak Beach" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20Bale.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20Bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg 1920w" alt="Villa Cendrawasih - Bale" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Header-Image-Rates.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Header-Image-Rates.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Header-Image-Rates.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Header-Image-Rates.jpg 1920w" alt="Villa Cendrawasih - Rates" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Header-Image-Enquire.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Header-Image-Enquire.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Header-Image-Enquire.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Header-Image-Enquire.jpg 1920w" alt="Villa Cendrawasih - Enquire" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20The%20villa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20The%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20The%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20The%20villa.jpg 1920w" alt="Villa Cendrawasih - The villa" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cendrawasih%20-%20Bale.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cendrawasih%20-%20Bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cendrawasih%20-%20Bale.jpg 1920w" alt="Villa Cendrawasih - Bale" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Header-Image-gallery.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Header-Image-gallery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Header-Image-gallery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Header-Image-gallery.jpg 1920w" alt="Villa Cendrawasih - Image Gallery" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}

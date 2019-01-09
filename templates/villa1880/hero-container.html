@@ -1,0 +1,70 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Villa pool view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Villa%20pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Villa%20pool%20view.jpg 1920w" alt="Villa 1880 - Villa pool view" class="lazyload" />
+        </div> 
+	</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-1880'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Detailed touch.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Detailed%20touch.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Detailed%20touch.jpg 1920w" alt="Villa 1880 - Detailed touch" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Explore.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Explore.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Explore.jpg 1920w" alt="Villa 1880 - Explore" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Experience.jpg 1920w" alt="Villa 1880 - Experience" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Villa pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Villa%20pool.jpg 1920w" alt="Villa 1880 - Villa pool" class="lazyload" />
+		
+        {elseif $data.page == 'floorplan'}
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Weddings.jpg 1920w" alt="Villa 1880 - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Veranda and terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Veranda%20and%20terrace.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Veranda%20and%20terrace.jpg 1920w" alt="Villa 1880 - Veranda and terrace" class="lazyload" />
+              		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Staff.jpg 1920w" alt="Villa 1880 - Staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - In villa dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20In%20villa%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20In%20villa%20dining.jpg 1920w" alt="Villa 1880 - In villa dining" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Families in the villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Families%20in%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Families%20in%20the%20villa.jpg 1920w" alt="Villa 1880 - Families in the villa" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Relaxation.jpg 1920w" alt="Villa 1880 - Relaxation" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Day bed.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Day%20bed.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Day%20bed.jpg 1920w" alt="Villa 1880 - Day bed" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Day bed.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Day%20bed.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Day%20bed.jpg 1920w" alt="Villa 1880 - Day bed" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - The details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20The%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20The%20details.jpg 1920w" alt="Villa 1880 - The details" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Perfect holiday.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Perfect%20holiday.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Perfect%20holiday.jpg 1920w" alt="Villa 1880 - Perfect holiday" class="lazyload" />        
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Villa pool view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Villa%20pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Villa%20pool%20view.jpg 1920w" alt="Villa 1880 - Villa pool view" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Villa pool view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Villa%20pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Villa%20pool%20view.jpg 1920w" alt="Villa 1880 - Villa pool view" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%201880.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa 1880 - Villa pool view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%201880%20-%20Villa%20pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%201880%20-%20Villa%20pool%20view.jpg 1920w" alt="Villa 1880 - Villa pool view" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

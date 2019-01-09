@@ -1,0 +1,126 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+				 <div class="content-item">
+					  <div class="wrapper">
+						  <div class="group">
+								<div class="group-wrapper">
+									 {parsedata folder=$data.theme cache=$data.cache content="INTRO"}
+									{if 'desc'|array_key_exists:$content[0]}
+										{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}
+										<div class="half half-content">
+											<h1 class="entry-title"><span>{$data.heading}</span></h1>   
+											<h2 class="entry-title">Luxurious 5-star beachfront getaway</h2>
+											{section name=s loop=$contentPart}
+												<p>{$contentPart[s]}</p>
+											{/section}
+										</div>
+										<div class="half">
+											<div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Fresh%20seafood.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Waimarie%20-%20Fresh%20seafood.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Fresh%20seafood.jpg 1920w" class="lazyload"  alt="Waimarie - Fresh seafood" /></div>
+										</div>	
+									{/if}
+								</div>
+							</div>	
+							<div class="group">
+								<div class="group-wrapper">
+									<div class="line-two">
+										<div class="half">
+											<div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Private%20beach%20dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Waimarie%20-%20Private%20beach%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Private%20beach%20dining.jpg 1920w" class="lazyload"  alt="Waimarie - Private beach dining" /></div>
+										</div>	
+										<div class="half half-content">
+											<h2 class="entry-title">Relax and enjoy the peaceful private oceanfront ambience with fresh cuisine. Prepared especially for you.</h2>
+											{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+											{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}
+											{section name=s loop=$contentPart start=0 max=2}
+												<p>{$contentPart[s]}</p>
+											{/section}
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>	
+				</div>	
+
+				<div class="content-item">
+					<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie - Garden statue.jpg">	
+						<div>
+							<a href="/plastic-free.html">
+								<img data-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie - Plastic Free.png" class="lazyload">
+								<span>Plastic Free</span>
+							</a>
+							<h3>Eco-friendly initiatives at Villa Waimarie</h3>
+							{* parsedata folder=$data.theme cache=$data.cache content="SPFT"}
+							{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+							{section name=s start=0 max=1 loop=$contentPart}
+							  <p>{$contentPart[s]}. </p>
+							{/section *}
+							<p>Villa Waimarie is doing its bit to protect the beautiful but fragile natural environment of Koh Samui.  Experience a plastic free stay at Villa Waimarie.</p>
+						</div>
+					</div>
+				</div>	
+				<div class="clear"></div>
+
+				<div class="content-item">
+				
+						<div class="grids">
+							<div class="firts-img">
+								<a href="/staff.html">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Waimarie%20-%20Attentive%20staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Attentive%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Waimarie%20-%20Attentive%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Attentive%20staff.jpg 1920w" class="lazyload"  alt="Waimarie - Attentive staff" />
+									<h2 class="entry-title">Fully Staffed</h2>
+								</a>
+								{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								{section name=s start=0 max=1 loop=$contentPart}
+								  <p>{$contentPart[s]}. </p>
+								{/section}
+							</div>
+							<div class="second-img">
+								<a href="/about-villa-waimarie/explore-the-villa.html">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Waimarie%20-%20King%20guest%20room%202.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20King%20guest%20room%202.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Waimarie%20-%20King%20guest%20room%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20King%20guest%20room%202.jpg 1920w" class="lazyload"  alt="Waimarie - King guest room 2" />
+									<h2 class="entry-title">6-bedroom Villa</h2>
+								</a>
+								{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								{section name=s start=0 max=1 loop=$contentPart}
+								    <p>{$contentPart[s]}. </p>
+								{/section}
+							</div>
+							<div class="thrid-img">
+								<a href="/families.html">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Waimarie%20-%20Baby%20in%20the%20pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Baby%20in%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Waimarie%20-%20Baby%20in%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Waimarie%20-%20Baby%20in%20the%20pool.jpg 1920w" class="lazyload"  alt="Waimarie - Baby in the pool" />
+									<h2 class="entry-title">Family Activities</h2>
+								</a>
+								{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								{section name=s start=0 max=1 loop=$contentPart}
+								    <p>{$contentPart[s]}. </p>
+								{/section}
+							</div>
+						</div>
+						<div class="clear"></div>
+					
+				</div>        
+				
+
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-waimarie', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+						<Configuration>
+						<Source>
+						<villa_id>tamansorga</villa_id>
+						<estate_id></estate_id>
+						<villa_name>Villa Taman Sorga</villa_name>
+						<google_analytics>UA-17704967-1</google_analytics>
+						<location>Bali</location>
+						<sublocation>Sanur-Ketewel</sublocation>
+						<bedrooms>6</bedrooms>
+						<hrental_id>'TamanSorga', 'Bali', '6br'</hrental_id>
+						<ehgLocation>Bali, Sanur-Ketewel</ehgLocation>
+						<ehgBookingSource>Villa Website</ehgBookingSource>
+						<ehgPageType>individual</ehgPageType>
+						</Source>
+						</Configuration>

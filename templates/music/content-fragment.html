@@ -1,0 +1,564 @@
+{if $data.page|in_array:['about-villa-music']}
+<div class="content-item odd about" id="about">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa%20Music%20-%20The%20entrance%20door.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Villa%20Music%20-%20The%20entrance%20door.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Villa%20Music%20-%20The%20entrance%20door.jpg 1920w" alt="Villa Music - The entrance door" class="lazyload" /></div>
+			<div class="half half-content">
+			 
+				{parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+				 <h1 class="entry-title">{$data.heading}</h1>          
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+					{section name=s loop=$contentPart max=2}
+					{$contentPart[s]}
+					{/section}
+				{/if}
+				
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+         {if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+					{section name=s loop=$contentPart start=2}
+					 {if $smarty.section.s.index neq $smarty.section.s.last}
+						{$contentPart[s]} 
+					 {/if}					 
+					{/section}
+				{/if}
+        {if 'SubContents'|array_key_exists:$content[0]}
+			{section name=s loop=$content[0].SubContents}
+				<h2>{$content[0].SubContents[s].Heading}</h2>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+
+		{/if}
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+		<h1 class="entry-title"><span>{$data.heading}</span></h1>      
+		{parsedata folder=$data.theme cache=$data.cache content="EVT"}		
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc strip=["<p>"] explode="</p>"} 
+			{section name=s loop=$contentPart max=4}
+				<p>{$contentPart[s]|replace:'<br />': ''}</p>
+			{/section}
+    </div>
+
+    <div class="wrapper"> 
+		
+		{if 'desc'|array_key_exists:$content[0]}   
+				<h2>A day to remember</h2>
+				<small>Life together begins at the most beautiful places on earth.</small>
+
+				<div class="group">
+			   
+				<ul class="capacity">
+					{section name=s loop=$contentPart start=4 }
+						{contentpart content=$contentPart[s] explode="<br />"} 
+						{section name=s loop=$contentPart max=2}
+							<li>{$contentPart[s]|replace:['<p>','</p>']:['', '']}</li>
+						{/section}
+					{/section}
+
+				</ul>
+				 <div class="guidelines">
+					{contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+					{section name=s loop=$contentPart}
+						{$contentPart[s]|replace:'<br />': ''}
+					{/section} 
+				</div>
+				
+				<div class="clear"></div>
+			{/if}
+
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+			</div>
+		{/if}
+			
+		<div class="photo-album">
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Music - Wedding 1.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Music - Wedding 2.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Music - Wedding 3.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Music - Wedding 4.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Music - Wedding 5.jpg" class="lazyload"></div>
+		</div>
+		<div class="photo-album-thumbs">
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Music - Wedding 1.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Music - Wedding 2.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Music - Wedding 3.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Music - Wedding 4.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Music - Wedding 5.jpg" class="lazyload"></div>
+		</div>
+		
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Villa%20garage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Villa%20garage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Villa%20garage.jpg 1920w" alt="Villa Music - Villa garage" class="lazyload" /></div>
+			<div class="half half-content">
+				{parsedata folder=$data.theme cache=$data.cache content="LYT"}
+				<h2 class="entry-title"><span>Villa Layout</span></h2>
+				{if 'desc'|array_key_exists:$content[0]}
+
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+
+				{section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</div>
+		</div>
+	</div>
+    <div class="wrapper">   
+        {include file="floorplan.html"}
+    </div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+	{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+	{* if 'desc'|array_key_exists:$content[0] }
+		<div class="group">
+			<div class="group-wrapper">	
+				<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Balcony%20and%20pool%20feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Balcony%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Balcony%20and%20pool%20feature.jpg 1920w" alt="Villa Music - Balcony and pool feature" class="lazyload" /></div>
+				<div class="half half-content">
+					
+					<h2 class="entry-title"><span>Living Areas</span></h2>
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+				</div>
+			</div>
+		</div>
+	{/if *}
+
+	
+	{section name=s loop=$content[0].SubContents}
+		<div class="group">
+			<div class="group-wrapper">
+			
+			{if $smarty.section.s.index eq 0}
+			<div class="half">
+				<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Semi%20outdoor%20lounge.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Semi%20outdoor%20lounge.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Semi%20outdoor%20lounge.jpg 1920w" alt="Villa Music - Semi outdoor lounge"  class="lazyload" /></div>
+			</div>       
+			{/if}
+			
+			<div class="half half-content">
+			{if $smarty.section.s.index eq 0}
+			<h2 class="entry-title"><span>Living Areas</span></h2>
+			{/if}
+			<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+			{* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+				<p>
+					<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+						<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+					</a>
+				</p>
+			{/if *}
+			</div>
+			
+			{if $smarty.section.s.index eq 1}
+			<div class="half">
+				<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Outstanding%20view%20from%20the%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Outstanding%20view%20from%20the%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Outstanding%20view%20from%20the%20balcony.jpg 1920w" alt="Villa Music - Outstanding view from the balcony"  class="lazyload" /></div>
+			</div>        
+			{/if}
+			
+			</div>
+		</div>    
+	{/section}
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    {*  
+	<div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Spacious%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Spacious%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Spacious%20bathroom.jpg 1920w" alt="Villa Music - Spacious bathroom" class="lazyload" /></div>
+			<div class="half half-content">
+				
+				
+				{if 'desc'|array_key_exists:$content[0]}
+
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+			</div>
+		</div>
+	</div>
+	*}
+{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+	{section name=s loop=$content[0].SubContents}
+		<div class="group">
+			<div class="group-wrapper">
+			
+			{if $smarty.section.s.index eq 0}
+			<div class="half">
+				<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Bedroom%20ambience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Bedroom%20ambience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Bedroom%20ambience.jpg 1920w" alt="Villa Music - Bedroom ambience"  class="lazyload" /></div>
+			</div>       
+			{/if}
+			
+			{if $smarty.section.s.index eq 2}
+			<div class="half">
+				<div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Bedroom%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Bedroom%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Bedroom%20layout.jpg 1920w" alt="Villa Music - Bedroom layout"  class="lazyload" /></div>
+			</div>       
+			{/if}
+			
+			<div class="half half-content">
+			{if $smarty.section.s.index eq 0}
+				<h2 class="entry-title"><span>Bedrooms</span></h2>
+			{/if}
+			
+			<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+			{* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+				<p>
+					<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+						<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+					</a>
+				</p>
+			{/if *}
+			</div>
+			
+			{if $smarty.section.s.index eq 1}
+			<div class="half">
+				<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Spacious%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Music%20-%20Spacious%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Music%20-%20Spacious%20bedroom.jpg 1920w" alt="Villa Music - Spacious bedroom"  class="lazyload" /></div>
+			</div>        
+			{/if}
+			
+			</div>
+		</div>    
+	{/section}
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Music%20-%20Staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Music%20-%20Staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Music%20-%20Staff.jpg 1920w" alt="Villa Music - Staff" class="lazyload" /></div>
+			<div class="half half-content">
+			{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+			<h1 class="entry-title"><span>Staff</span></h1>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="the-content">	
+		{if 'SubContents'|array_key_exists:$content[0]}
+			<dl class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+
+		<div class="clear"></div>
+		</div>
+	</div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Music%20Villa%20-%20Fruits%20fiesta.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Music%20Villa%20-%20Fruits%20fiesta.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Music%20Villa%20-%20Fruits%20fiesta.jpg 1920w" alt="Music Villa - Fruits fiesta" class="lazyload" /></div>
+			<div class="half half-content">			 
+			<h1 class="entry-title"><span>Dining</span></h1>			
+			{parsedata folder=$data.theme cache=$data.cache content="DNNG"}        
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+				{section name=s loop=$contentPart max=1}
+				{$contentPart[s]}
+				{/section}
+			{/if}
+			
+			</div>
+		</div>
+	</div>
+	
+	<div class="wrapper">
+		<div class="the-content">	
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+				{section name=s loop=$contentPart start=1}
+				 {if $smarty.section.s.index neq $smarty.section.s.last}
+					{$contentPart[s]}
+				 {/if}					 
+				{/section}
+			{/if}
+			{if 'SubContents'|array_key_exists:$content[0]}
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				<p>{$content[0].SubContents[s].Description}</p>
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+			{/if}
+		</div>
+	</div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+
+			<div class="group">
+				<div class="group-wrapper">	
+					<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa%20Music%20-%20Dining%20and%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Music%20-%20Dining%20and%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Music%20-%20Dining%20and%20living%20area.jpg 1920w" alt="Villa Music - Dining and living area" class="lazyload" /></div>
+					<div class="half half-content">
+					 {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+						 <h1 class="entry-title"><span>{$data.heading}</span></h1>          
+						{if 'desc'|array_key_exists:$content[0]}
+							{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+							{section name=s loop=$contentPart max=2}
+							{$contentPart[s]}
+							{/section}
+						{/if}
+					</div>
+				</div>
+			</div>
+
+			<div class="wrapper">
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+					{section name=s loop=$contentPart start=2}
+					 {if $smarty.section.s.index neq $smarty.section.s.last}
+						{$contentPart[s]} 
+					 {/if}					 
+					{/section}
+				{/if}
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents}
+						<h2>{$content[0].SubContents[s].Heading}</h2>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+
+				{/if}
+			</div>
+		
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Music%20-%20Gym.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Music%20-%20Gym.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Music%20-%20Gym.jpg 1920w" alt="Villa Music - Gym" class="lazyload" /></div>
+			<div class="half half-content">
+			 {parsedata folder=$data.theme cache=$data.cache content="SPAGYM"}
+				 <h1 class="entry-title"><span>{$data.heading}</span></h1>          
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc explode="</p>"}
+					{section name=s loop=$contentPart max=2}
+					<p>{$contentPart[s]}</p>
+					{/section}
+				{/if}
+			</div>
+		</div>
+	</div>
+	
+	<div class="wrapper">
+		{if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc explode="</p>"}
+			{section name=s loop=$contentPart start=2}
+			<p>{$contentPart[s]}</p>
+			{/section}
+		{/if}
+		{if 'SubContents'|array_key_exists:$content[0]}
+			  <dl class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+	</div>
+	
+</div>
+{/if}
+
+{if $data.page|in_array:['cape-yamu-phuket', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa Music - Outstanding view from the balcony.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Music%20-%20Outstanding%20view%20from%20the%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Music%20-%20Outstanding%20view%20from%20the%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Music%20-%20Outstanding%20view%20from%20the%20balcony.jpg 1920w" alt="Villa Music - Outstanding view from the balcony" class="lazyload" /></div>
+			<div class="half half-content">
+			 {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+				<h2 class="entry-title"><span>The Locale</span></h2>
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">      
+		<div class="map_div" id="map_div_locale"></div>
+		{if 'SubContents'|array_key_exists:$content[0]}
+			<h3>Distances</h3>
+			<dl class="distances">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+	</div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['cape-yamu-phuket', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+	<div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Music%20-%20Poolside%20cozy%20chair.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Music%20-%20Poolside%20cozy%20chair.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Music%20-%20Poolside%20cozy%20chair.jpg 1920w" alt="Villa Music - Poolside cozy chair" class="lazyload" /></div>
+			<div class="half half-content">
+			  {parsedata folder=$data.theme cache=$data.cache content="TTD"}
+				<h2 class="entry-title"><span>Things to Do</span></h2>
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc explode="</p>"}
+					{section name=s loop=$contentPart max=2}
+						<p>{$contentPart[s]}</p> 
+					{/section}
+				{/if}
+			</div>
+		</div>
+	</div>
+
+    <div class="wrapper">
+        <div class="group">
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc|replace:"</ul><ul>":"" regex="/<ul>(.*?)<\/ul>/s"}
+            {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+            {if $smarty.section.s.index mod 2}
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Music%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Music%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            {else}
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Music%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Music%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            {/if}
+            {/section}
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+        {/if}
+        </div>
+    </div>
+</div>
+{/if}

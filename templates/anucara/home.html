@@ -1,0 +1,104 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Anucara - Front porch.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+							<ul class="poi">
+								<li id="poi-1">Steps to<br> The Beach</li>
+								<li id="poi-2">Private<br>Chef</li>
+								<li id="poi-3">Fully<br>Staffed</li>
+								<li id="poi-4">Family<br>Friendly</li>								
+							</ul>
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+		
+		 <div class="content-container">
+            <div class="content">
+				<div class="group">
+				
+					<div class="content-item">  
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Personalised service provided by dedicated staff.</h1>
+								<p>The team at Villa Anucara have been professionally trained and do their utmost to please with their warm and friendly Balinese hospitality.</p>
+								<div><a href="/staff.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Staff']);">Read more</a></div>								
+							</div>
+						</div>
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Anucara - Staff in action.jpg"></div>
+					</div>
+					
+					<div class="content-item">  
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Anucara - Great food.jpg"></div>
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Our private chef is at your service to prepare daily breakfast, lunch and dinner.</h1>
+								<p>The villa offers an extensive suggestion menu of delicious home-style meals featuring Asian and international dishes to cater to all tastes, with an excellent selection of vegetarian and children’s options.</p>
+								<div><a href="/dining.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Dining']);">Read more</a></div>								
+							</div>
+						</div>						
+					</div>
+					
+					
+					<div class="content-item">  
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Access to your own private facilities and the freedom to use them whenever you want.</h1>
+								<p>Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too.</p>
+								<div><a href="/families.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Families']);">Read more</a></div>								
+							</div>
+						</div>
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Anucara - Girl playing on swimming pool.jpg"></div>
+					</div>
+					
+				</div>				
+			</div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-anucara', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'cemagi-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

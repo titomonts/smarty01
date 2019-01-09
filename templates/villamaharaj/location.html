@@ -1,0 +1,71 @@
+{include file="header.html"}
+    <!--[if lte IE 6]>
+    <iframe src="http://www.browserupgrade.info/ie6-upgrade/?lang=en&title=Villa Maharaj&fx3=true&more-info-at=http://www.browserupgrade.info" frameborder="no" style="height: 81px; width: 100%; border: none;"></iframe>
+    <![endif]-->
+    <body id="maharaj" class="page page-id-13 page-parent page-template-default">
+	{$gtm}
+    
+                        <div id="container">
+            <div class="header_fix">
+                <div id="headerwrap">
+                    <div class="menu-fix">
+                        <div id="topheader">
+                            {include file="menu.html"}
+                            <!-- /main navigation -->
+                        </div>
+                    </div>
+                    <!-- /topheader -->
+                </div>
+            </div>
+            <!-- /headerwrap -->	<div id="contentwrap">
+		<div id="headerimg">
+			<div class="header-loader">
+				        <img src="/resources/villamaharaj/headers/location-villa-maharaj-pool-guest-bedrooms.jpg" alt="villa-maharaj-pool-guest-bedrooms" />
+    			</div>
+			<div class="ornament"></div>
+		</div>
+		<!-- /headerimg -->
+		<div id="maincol">
+			<h1 class="entry-title">Location of Villa Maharaj</h1>
+			<div class="two-btn" >
+				<a class="button availability" href="http://www.villamaharaj.com/availability-calendar.html">Availability</a>
+					<a class="button book" href="http://www.villamaharaj.com/reservations.html">Book now</a>			</div>
+						<div id="content">
+				<div id="content-inner">
+					{if 'desc'|array_key_exists:$content[0]}
+                    {$content[0].desc}
+                    {/if}
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                    	<h2 style="margin: 15px 0;">Distances</h2>
+                        <dl class="short" style="margin-bottom: 25px;">
+                        {section name=s loop=$content[0].SubContents}
+                            <dt>{$content[0].SubContents[s].Heading}</dt>
+                            <dd>{$content[0].SubContents[s].Description}</dd>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+                        </dl>
+                    {/if}
+                    <div class="imgContent">
+                    <a rel="gallery" href="/resources/villamaharaj/content/villa-maharaj-bali-map.jpg" title="Villa Maharaj - location map">
+                    <img src="/resources/villamaharaj/content/villa-maharaj-bali-map-s.jpg" alt="Villa Maharaj - location map" class="imgleft" />
+                    </a>
+                    <a rel="gallery" href="/resources/villamaharaj/content/villa-maharaj-location-map.jpg" title="Villa Maharaj - location map">
+                    <img src="/resources/villamaharaj/content/villa-maharaj-location-map-s.jpg" alt="Villa Maharaj - location map" class="imgleft" />
+                    </a>
+                    </div>
+					<div class="clear"></div>
+				</div>
+				<!-- /content-inner -->
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /maincol -->
+	</div>
+	<!-- /contentwrap -->
+	{include file="footer.html"}

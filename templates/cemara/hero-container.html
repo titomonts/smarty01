@@ -1,0 +1,66 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+		<div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Tropical%20escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Tropical%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Tropical%20escape.jpg 1920w" alt="Villa Cemara - Tropical escape" class="lazyload" />            
+        </div>
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Attentive%20staff%20in%20action.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Attentive%20staff%20in%20action.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Attentive%20staff%20in%20action.jpg 1920w" alt="Villa Cemara - Attentive staff in action" class="lazyload" />            
+        </div>
+		<div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Bedroom%20detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Bedroom%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Bedroom%20detail.jpg 1920w" alt="Villa Cemara - Bedroom detail" class="lazyload" />            
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-cemara'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Balinese%20exterior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Balinese%20exterior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Balinese%20exterior.jpg 1920w" alt="Villa Cemara - Balinese exterior" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Day%20time%20ambience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Day%20time%20ambience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Day%20time%20ambience.jpg 1920w" alt="Villa Cemara - Day time ambience" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Private%20bedroom%20terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Private%20bedroom%20terrace.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Private%20bedroom%20terrace.jpg 1920w" alt="Villa Cemara - Private bedroom terrace" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Bedroom%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Bedroom%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Bedroom%20style.jpg 1920w" alt="Villa Cemara - Bedroom style" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Day%20time%20ambience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Day%20time%20ambience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Day%20time%20ambience.jpg 1920w" alt="Villa Cemara - Day time ambience" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Pool%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Pool%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Pool%20area.jpg 1920w" alt="Villa Cemara - Pool area" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Wedding%20destination.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Wedding%20destination.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Wedding%20destination.jpg 1920w" alt="Villa Cemara - Wedding destination" class="lazyload" />
+        
+        {elseif $data.page == 'sanur-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Wooden%20boat.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Wooden%20boat.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Wooden%20boat.jpg 1920w" alt="Villa Cemara - Wooden boat" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Villa%20feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Villa%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Villa%20feature.jpg 1920w" alt="Villa Cemara - Villa feature" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Laze%20away%20in%20luxury.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Laze%20away%20in%20luxury.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Laze%20away%20in%20luxury.jpg 1920w" alt="Villa Cemara - Laze away in luxury" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg 1920w" alt="Villa Cemara - Living area" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg 1920w" alt="Villa Cemara - Living area" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg 1920w" alt="Villa Cemara - Living area" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Cemara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Cemara%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Cemara%20-%20Living%20area.jpg 1920w" alt="Villa Cemara - Living area" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

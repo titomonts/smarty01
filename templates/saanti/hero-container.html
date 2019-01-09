@@ -1,0 +1,70 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Outstanding%20location.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Outstanding%20location.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Outstanding%20location.jpg 1920w" alt="Villa Saanti - Outstanding location" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20View%20from%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20View%20from%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20View%20from%20balcony.jpg 1920w" alt="Villa Saanti - View from balcony" class="lazyload" /></div>
+        <div class="item"> <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Tropical%20escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Tropical%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Tropical%20escape.jpg 1920w" alt="Villa Saanti - Tropical escape" class="lazyload" /></div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-saanti'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Balcony%20living%20space.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Balcony%20living%20space.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Balcony%20living%20space.jpg 1920w" alt="Villa Saanti - Balcony living space" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Poolside.jpg 1920w" alt="Villa Saanti - Poolside" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Designer%20touch.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Designer%20touch.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Designer%20touch.jpg 1920w" alt="Villa Saanti - Designer touch" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20The%20estate.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20The%20estate.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20The%20estate.jpg 1920w" alt="Villa Saanti - The estate" class="lazyload" /> *}
+
+        {elseif $data.page == 'floorplan'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20The%20estate.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20The%20estate.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20The%20estate.jpg 1920w" alt="Villa Saanti - The estate" class="lazyload" /> *}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Wedding.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Wedding.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Wedding.jpg 1920w" alt="Villa Saanti - Wedding" class="lazyload" />
+        
+        {elseif $data.page == 'natai-beach-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Tropical%20escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Tropical%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Tropical%20escape.jpg 1920w" alt="Villa Saanti - Tropical escape" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Dining%20table%20preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Dining%20table%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Dining%20table%20preparation.jpg 1920w" alt="Villa Saanti - Dining table preparation" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Dining%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Dining%20area.jpg 1920w" alt="Villa Saanti - Dining area" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Games%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Games%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Games%20area.jpg 1920w" alt="Villa Saanti - Games area" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Bath%20amenities.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Bath%20amenities.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Bath%20amenities.jpg 1920w" alt="Villa Saanti - Bath amenities" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Open%20air%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Open%20air%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Open%20air%20living%20area.jpg 1920w" alt="Villa Saanti - Open air living area" class="lazyload" /> *}
+        
+        {elseif $data.page == 'press'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Bar.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Bar.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Bar.jpg 1920w" alt="Villa Saanti - Bar" class="lazyload" /> *}
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Living%20space.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Living%20space.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Living%20space.jpg 1920w" alt="Villa Saanti - Living space" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Fabulous%20view%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Fabulous%20view%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Fabulous%20view%20from%20the%20pool.jpg 1920w" alt="Villa Saanti - Fabulous view from the pool" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Sun%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Sun%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Sun%20loungers.jpg 1920w" alt="Villa Saanti - Sun loungers" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+       <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20View%20from%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20View%20from%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20View%20from%20balcony.jpg 1920w" alt="Villa Saanti - View from balcony" class="lazyload" />  
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Saanti.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Outstanding%20location.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Saanti%20-%20Outstanding%20location.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Saanti%20-%20Outstanding%20location.jpg 1920w" alt="Villa Saanti - Outstanding location" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

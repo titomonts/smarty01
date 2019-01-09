@@ -1,0 +1,111 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    
+                    <div class="wrapper">						
+                        <div class="the-content">
+							<h1 class="entry-title">{$data.heading}</h1>
+							<ul class="poi">
+								<li id="poi-1">Absolute <br>Beachfront</li>
+								<li id="poi-2">Private<br> Chef</li>
+								<li id="poi-3">Private<br> Pool</li>
+								<li id="poi-4">Wedding<br> & Event</li>								
+							</ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+					
+					<div class="wrapper">						
+                       <div class="the-content">					   
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Baan Puri - Poolside loungers.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Baan Puri - Poolside loungers.jpg" alt="Baan Puri - Poolside loungers" class="lazyload" /></div>
+							
+							<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Baan Puri - Peony poolside suite outlook.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Baan Puri - Peony poolside suite outlook.jpg" alt="Baan Puri - Peony poolside suite outlook" class="lazyload" /></div>
+							
+				            {if $data.content_id != ''}
+								{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+							
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+							
+							<div class="clear"></div>
+							
+						</div>
+						
+						
+						
+					</div>
+					
+					<div class="the-content">
+						<div class="content-inner">
+							<div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Baan Puri - Dining setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Baan Puri - Dining setting.jpg" alt="Baan Puri - Dining setting" class="lazyload" /></div>
+							<div class="wrapper">
+							<h2 class="entry-title">Fresh cuisine.<br /> Prepared especially for you.</h2>
+                            {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=1 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+							<a href="/dining.html" class="btn">Read More</a>
+							</div>		
+						</div>
+						<div class="content-inner">
+							<div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Baan Puri - Attentive staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Baan Puri - Attentive staff.jpg" alt="Baan Puri - Attentive staff" class="lazyload" /></div>
+							<div class="wrapper">
+							<h2 class="entry-title">Personalised service,<br /> provided by dedicated staff.</h2>
+                            {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=1 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+							<a href="/staff.html" class="btn">Read More</a>
+							</div>		
+						</div>
+					</div>
+					
+				</div>				
+            </div>
+			
+        </div>
+        
+        <div class="buttons-container">
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-baan-puri', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'lipa-noi-koh-samui', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+        </div>		            
+{include file="footer.html"}

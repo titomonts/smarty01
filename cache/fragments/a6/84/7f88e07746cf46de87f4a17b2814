@@ -1,0 +1,8 @@
+
+var gkey='AIzaSyCnwT0s5r_NZ4Sb8Mc5AYkqcmZq5vAgIwM';var dir='/resources/belongdua';var lat=-8.64472180;var long=115.11416660;var infocontent='Villa Belong Dua';var redirectURL='/seseh-bali.html';var markerWidth=75;var markerHeight=99;var markerXanchor=37.5;var markerYanchor=99;
+
+function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+if(!window.HTMLPictureElement||!('sizes'in document.createElement('img'))){loadJS("/resources/{$data.theme}/lazysizes/ls.respimg.min.js");}
+
+WebFontConfig={google:{families:['Prata','Maven+Pro:400,600']}};(function(){var wf=document.createElement('script');wf.src=('https:'==document.location.protocol?'https':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf,s);var loadDeferredStyles=function(){var addStylesNode=document.getElementById("deferred-styles");var replacement=document.createElement("div");replacement.innerHTML=addStylesNode.textContent;document.body.appendChild(replacement)
+addStylesNode.parentElement.removeChild(addStylesNode);};var raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;if(raf)raf(function(){window.setTimeout(loadDeferredStyles,0);});else window.addEventListener('load',loadDeferredStyles);})();

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00232">
+  <Contents>
+    <Content contentid="4405" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master suite]]></Heading>
+          <Description><![CDATA[<ul><li>Corner room with elegant double-door entrance, terrazzo floor, rich silk drapes</li><li>Superb sea and pool views with floor-to-ceiling sliding doors across the front </li><li>Sitting area with soft grey sofa and dresser</li><li>King-sized bed with crisp white linens </li><li>Study desk set behind the bed </li><li>Ensuite bathroom with walk-in wardrobe, twin basins, rain shower and freestanding double bathtub </li><li>Satellite channel TV and DVD player</li><li>Air conditioning  </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Junior master bedroom]]></Heading>
+          <Description><![CDATA[<ul><li>Private bedroom set in its own pavilion beside the pool</li><li>Prime sea and pool views with floor-to-ceiling windows across three sides </li><li>King-sized bed with crisp white linens </li><li>Study desk set behind the bed </li><li>Ensuite bathroom with wardrobe, twin basins, rain shower </li><li>Satellite channel TV </li><li>Air conditioning</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest bedrooms 3 and 4]]></Heading>
+          <Description><![CDATA[<ul><li>Two mirror-image bedrooms with easy access to the pool</li><li>Sea and pool views with floor-to-ceiling windows across the front </li><li>King-sized bed with crisp white linens </li><li>Study desk set behind the bed </li><li>Ensuite bathroom with wardrobe, twin basins, rain shower </li><li>Satellite channel TV and DVD player</li><li>Air conditioning</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4406" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Yamu Villa Bua is an inspiring escape in exclusive Cape Yamu on Phuket’s east coast. With sweeping views of the sea and sunsets, this haven of elegance and tranquillity, designed by Philippe Starck and Jean-Michel Gathy, flawlessly blends modern grandeur with the lush tropical surrounds. The villa offers four lavish sea-view bedrooms, a cinema room and multiple areas to dine and relax in style. Its expansive 18-metre infinity pool extends towards the turquoise sea, with panoramic views. </p><p>With its own conference room, the villa is a great choice for incentive trips, small company retreats or workshops. Unforgettable nuptials can be celebrated at the estate’s wedding chapel, and other special events can be held at the COMO Point Yamu resort nearby (extra charges apply).</p><p>Only 20 minutes from Phuket International airport, Yamu Villa Bua is within easy reach of some of Asia’s best golf courses and marinas, and is less than a 30-minute drive from the cultural sights and dining scene of Phuket Town. Villa guests have complimentary access to the tennis court within the estate (bring your own equipment), and a beautiful beach – ideal for watching the sunrise over Phang Nga Bay or SUP paddling – is just a short walk away. For a small fee, villa guests could also make use of the fitness and spa facilities of COMO Point Yamu, or the hotel’s beach club on nearby Naka Yai island. </p><p>A driver with minivan is available for up to eight hours a day for those who wish to explore the island, while the dedicated full-time manager, villa attendants and chef provide five-star care.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4407" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Grand entrance foyer leading to vaulted reception lounge overlooking the bay </li><li>Conference room with long meeting table, flat-screen TV and printer</li><li>Dining room with seating for 10 and a cosy loveseat</li><li>Bright, fully equipped, modern guest kitchen; large island and breakfast bar with six stools; discreet staff kitchen behind.</li><li>Family room furnished with L-shaped sofa, recliner and armchair; equipped with Apple TV </li><li>Lounge room with sofa-bed and folding glass doors that open to pool terrace </li><li>Soundproofed cinema room with L-shaped sofa that converts to double bed</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>18-metre infinity pool with sea and sunset views</li><li>Furnished terrazzo terraces and tropical gardens extending across the front and sides of the villa’s two floors</li><li>Large pool deck with sunbeds and outdoor shower </li><li>Poolside dining sala with kitchenette and seating for 10 </li><li>Dining sala on top-floor terrace </li><li>Poly-rattan lounge set and smaller dining table on terrace in front of dining room</li><li>Car park and Zen rock garden entry</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4408" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Cape Yamu, Phuket, Thailand.  </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>8 guests (4 bedrooms, each with king-sized beds). Sofas that convert to beds in the cinema room and lounge can accommodate up to 4 more guests, for an extra charge.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Reception lounge, formal dining room, family room, outdoor dining sala, conference room, cinema room, pool lounge, pool deck with sunbeds, poolside dining and bar pavilion. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>18m x 5m. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager/concierge; private chef; housekeeping and service staff; driver with minivan. 24-hour estate security. Additional staff (babysitter, massage therapist) available on request for extra charges.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>The villa chef is available to prepare all guest meals from an in-villa Thai set menu. Dietary restrictions and special requests are accommodated whenever possible.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>Complimentary WiFi internet access; printer.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Cinema room; satellite TVs; Apple TV; DVD players; bluetooth speakers; book selection.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For Families]]></Heading>
+          <Description><![CDATA[<p>Yamu Villa Bua welcomes families, with in-villa facilities including a baby cot, high chair and pool toys. <br /></p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>Massage bed for in-villa massage; use of estate tennis court; standup paddleboards on request. Facilities of COMO Point Yamu resort including a day spa, fully equipped gym and pool available for an extra charge.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>A 10-passenger minivan with driver is available on a complimentary basis for up to 8 hours a day (petrol on guest account).&nbsp; Complimentary airport transfer (conditions apply). <br /></p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional Facilities]]></Heading>
+          <Description><![CDATA[<p>Conference room; safety deposit boxes; barbecue.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>1,350 square metres (villa); 1,650 sqm (land).<br /><br /></p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://www.elitehavens.com" target="_blank" title="The Elite Havens Group">The Elite Havens Group. </a></p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4410" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Found on Phuket’s idyllic east coast overlooking Sapam Bay, Yamu Villa Bua is a hillside escape in the exclusive Cape Residences estate. The villa is positioned along the western fringe of Cape Yamu to offer sunset views over the sea and forested hills. Just a short walk away within the estate is a small beach, a wonderful spot to stroll the soft sands, catch a sunrise view across Phang Nga Bay or arrange for a standup paddle session to explore the mangrove-lined shore. Swimming is possible, but only during high tide in this shallow bay. A tennis court in the estate is also available for guests. COMO Point Yamu resort with its spa, gym and restaurants is just a few hundred metres away within the estate, as well as Breeze restaurant. Speedboat tours to nearby islands depart from Yamu Pier, which can be seen from the villa. </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Como Point Yamu Resort]]></Heading>
+          <Description><![CDATA[0.30 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Phuket Elephant Sanctuary]]></Heading>
+          <Description><![CDATA[7 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bang Pae Waterfall]]></Heading>
+          <Description><![CDATA[10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Royal Phuket Marina]]></Heading>
+          <Description><![CDATA[13 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mission Hills Golf Club]]></Heading>
+          <Description><![CDATA[16 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bang Tao Beach]]></Heading>
+          <Description><![CDATA[17 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Surin Beach]]></Heading>
+          <Description><![CDATA[19 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Central Festival Shopping Mall]]></Heading>
+          <Description><![CDATA[20 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4411" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Yamu Villa Bua is ideally located for exploring Phuket’s peaceful east coast and the magical islands and beaches of Phang Nga Bay. Beyond the beaches, Phuket also has a rich cultural and dining scene centred around its Old Town streets. Here are a few ideas for activities to enjoy around the island.&nbsp; </p><br /><ul><li>Spend the day gliding past the towering islands of <span style="font-weight: bold;">Phang Nga Bay </span>on a yacht or speedboat charter that could include paddling kayaks into sea caves and a visit to the floating Panyi village. </li><li>Arrange a visit to <span style="font-weight: bold;">COMO Beach Club</span> on Naka Yai Island, just a just a short boat ride away from Cape Yamu. A reasonably priced day pass gives you access to its beach and facilities including kayaks, kids’ club, spa, swimming pool and restaurant.</li><li>Join a <span style="font-weight: bold;">heritage walking tour around Old Phuket Town</span> to discover the rich history behind its vibrant Sino-Portuguese shophouses and delicious cuisine. Or weave your way through the crowds at the Lard Yai Sunday market where the streets are closed to traffic to make way for a night bazaar with local art, handicrafts and food for sale.</li><li>Take a tour around <span style="font-weight: bold;">Phuket Elephant Sanctuary</span> to observe the fascinating daily rhythms of these gentle giants. No harmful riding or bathing activities are permitted. </li><li>Explore the jungle trails and waterfall of <span style="font-weight: bold;">Khao Phra Thaeo</span> <span style="font-weight: bold;">national par</span>k, and be sure to stop by the <span style="font-weight: bold;">Gibbon Rehabilitation Project</span> at the entrance to see the rescued primates and hear their haunting calls.</li><li>Indulge in some <span style="font-weight: bold;">culinary exploratio</span>n at some of the restaurants nearby including Nahmyaa Thai restaurant at COMO Point Yamu, just a short walk away in the estate, and Preang Pai restaurant near Khao Phra Thaeo park for authentic local fare and views of the jungly hills. </li><li>Learn the secrets behind the making of your favourite dishes in a <span style="font-weight: bold;">Thai cookery class</span>. Some recommended classes include The Slate resort in Nai Yang, COMO Point Yamu resort, and by Thailand’s Iron Chef Tammasak “Noi” Chootong of Suay restaurant.</li><li>Hone your wave-riding skills with <span style="font-weight: bold;">surfing lessons</span> and board rental available at several Phuket west-coast beaches including Bang Tao and Kamala. Or go for some thrills and spills in a <span style="font-weight: bold;">kite boarding</span> lesson at Nai Yang Beach. </li><li>Enjoy some scenic and challenging rounds of golf at one of <span style="font-weight: bold;">Phuket’s golf clubs</span> including Mission Hills, Red Mountain and Blue Canyon Country Club.&nbsp; </li><li>Go for a wellness boost at one of Phuket’s <span style="font-weight: bold;">luxury day spas</span> including the COMO Shambhala Retreat nearby or the acclaimed Banyan Tree Spa near Bang Tao Beach. </li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4525" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>With sublime sea and sunset views from its lush hillside perch, Yamu Villa Bua at Cape Yamu is an elegant escape on Phuket’s east coast. This fully staffed, four-bedroom villa offers groups and families a flawless retreat with an 18m pool, sumptuous indoor and outdoor living areas, cinema room, meeting room and lavish bedrooms. Leisure seekers are spoilt for choice with a tennis court and quiet sandy beach in the estate, access to COMO Point Yamu resort’s spa and fitness facilities (additional charges apply), scenic parks and golf courses nearby, and magical Phang Nga Bay for exploration by yacht or kayak. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4526" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Named after the lotus, a sacred flower in Thai Buddhist mythology that represents the path to Nirvana, Yamu Villa Bua is an ocean-view retreat of elegance, comfort and tranquillity in Cape Yamu. </p><p>This impeccable four-bedroom villa is situated on the hillside in the exclusive Cape Residences estate with majestic views of Sapam Bay, sunsets and jungle-clad hills. Its glamorous design was born of the inventive mind of designer Philippe Starck with architect Jean-Michel Gathy, who is celebrated for his mastery in creating dramatically stunning resorts and villas in harmony with their landscapes. </p><p>High drama is certainly the mood that Yamu Villa Bua exudes upon arrival, with its airy double-height entry and columned reception lounge with cathedral-like ceilings and awe-inspiring views of the tropical panorama. Exquisite indoor and outdoor spaces over two floors lend themselves to days spent relaxing, dining and gathering with friends, family or colleagues in a private, serene setting. </p><p>This is a versatile villa that appeals to leisure and business travellers alike with its 18-metre pool, lavish bedrooms, cinema room, modern guest kitchen and multiple areas to dine, plus free access to a tennis court and the estate beach. One of the few Phuket villas with its own conference room, it’s an enticing choice for those planning an incentive trip, company retreat or workshop. Host a romantic event using the wedding chapel in the estate, or try out the superb beach club, spa and fitness facilities of the nearby COMO Point Yamu resort (extra charges apply).</p><p>A chauffeured minivan is available on a complimentary basis for up to eight hours a day for exploring the island, perhaps to see and be seen at a west-coast beach club or discover the cultural sights and delicious dining scene of Phuket Town.</p><p>The villa’s east coast location is ideal for exploring Phuket’s quieter side and its natural wonders including Phang Nga Bay, lush national parks and animal sanctuaries. Whatever your dream of a perfect holiday Nirvana, Yamu Villa Bua offers many paths to get there. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4527" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Two-storey Yamu Villa Bua has a palatial top-floor entry with tall double doors that open to its elegant vaulted foyer and reception lounge. Spread across this top level is the dining room, guest kitchen, family room and staff kitchen fronted by a wide furnished terrace, with a conference room hidden away behind the dining area. An interior staircase leads down to the cinema room and all four bedrooms. A lounging area, the master suite and two guest bedrooms all open to the pool terrace with its stunning 18-metre infinity pool, a stand-alone bedroom pavilion and a dining sala with kitchen and pantry.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4528" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>The villa’s two master suites and two guest bedrooms are havens of comfort, each with superb sea views, air-conditioning, flat-screen TVs, ensuite bathrooms, rich silk black-out curtains, study desks and spacious wardrobes with safes. Sliding doors open directly to the pool terrace, with screened doors allowing the rooms to be cooled by the sea breezes if preferred. All of the bedrooms are king-bedded, while the sofas in the cinema room and lounge area both convert into double beds to accommodate up to four more guests (extra charges apply). </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Suite]]></Heading>
+          <Description><![CDATA[<p>Located at the far corner of the villa’s lower floor for utmost privacy, this generous sized bedroom suite has a comfy sitting area and sliding glass doors that open to the pool terrace. The lavish ensuite bathroom has a walk-in wardrobe, standalone double bathtub, double vanity sets and a rain shower.&nbsp; </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Junior Master Suite]]></Heading>
+          <Description><![CDATA[<p>The best room for avid swimmers, this ultra-private suite lies in its own pavilion on the terrace just a few steps away from the pool. Windows span three sides of the pavilion offering prime sea and sunset views. Its large ensuite bathroom features a wardrobe and ottoman, double vanity and rain shower.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedrooms 3 and 4]]></Heading>
+          <Description><![CDATA[<p>These two mirror-image retreats are bright and airy with views of the pool and the sea beyond. Both rooms open directly to the pool terrace and each have ensuite bathrooms with a wardrobe and ottoman, double vanity and rain shower.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4529" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<p>Yamu Villa Bua’s interior spaces with rich timber ceiling details, cool terrazzo floors flowing from one room to the next and tasteful décor accents, enhance the sense of harmony and refinement. Vast windows that open to the terraces allow for sea-to-sky views and bathe the villa with warm tropical light. The reception lounge with soft sand-toned sofas is a breathtaking space with a vaulted ceiling and double-height glass front adding a sense of grandeur and connection to the tropical surrounds. </p><p>More shared living areas extend across the entire top floor, at the centre of which a formal dining room seats 10 guests. The guest kitchen is large and modern with a central island offering enough space to prepare elaborate meals while friends and family gather at the six-stool breakfast bar. But with a skilled villa chef on hand to cook meals in the staff kitchen to the rear, this gleaming guest kitchen may remain unused.</p><p>In front of the kitchen is a large family room sprinkled with sofas and soft chairs for easy ocean-view relaxation and an Apple TV. Behind the dining room is the villa’s private conference room, equipped with a flat-screen TV, printer and long meeting table.</p><p>Movie fans will surely find their way to the cinema room on the lower floor. This cosy room has sound-proofed walls, soft lighting and dark curtains to offer the full cinema experience, along with its surround-sound home theatre system. Its sofa is convertible to a double bed, offering extra sleeping space. </p><p>A bright lounging area with a sofa and bookshelf sits at the focal point between the cinema room and two guest bedrooms, with folding glass doors that open to the pool terrace. The sofa folds out to a double bed for additional guests (charges apply for over 8 guests). </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>Alfresco lounging and dining choices abound at Yamu Villa Bua, with gorgeous sea views to enjoy from every corner of its two levels of terracing. A fan-cooled dining sala with seating for 10 sits at the front corner of the top level, with a smaller dining table and poly-rattan lounge seating offering more space to relax and enjoy some drinks in the fresh air. </p><p>Extending towards the horizon on the bottom level is the 18-metre infinity pool, lined by a sleek terrazzo sundeck with sun loungers. Sunseekers need never leave the pool area for refreshments, with an open-air dining pavilion with seating for 10 and a bar and pantry set along the side of the pool. The perfect spot to gather for sunset cocktails, a barbecue sizzle or a casual family meal.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4530" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>Personalised five-star care by the villa’s dedicated staff is a key highlight of staying at Yamu Villa Bua, which has an exceptional team offering thoughtful and friendly service. Meals are prepared and presented by the chef with flair, and no detail is overlooked from the gracious welcome on arrival with flower garlands to a choice of drinking water infused with fresh cucumber or lime.&nbsp;&nbsp; </p><p>We tailor our staff presence to suit guest needs, whether you’re more comfortable having staff on hand to offer help throughout the day or prefer more limited hours of contact for privacy.&nbsp; </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa manager]]></Heading>
+          <Description><![CDATA[<p>The villa’s full-time manager is in charge of all aspects of the villa experience, including staffing and services. She will liaise with the chef and other staff, and help with any guest requests in the villa and beyond including arranging transport and tours.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>Yamu Villa Bua’s chef is adept at Thai and Western dishes, and prepares meals from the villa’s set menu and the large menu of Ceramic Kitchen restaurant. The chef and service staff handle all the shopping as well as the preparation of breakfast, lunch and dinner.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chauffeur]]></Heading>
+          <Description><![CDATA[<p>A complimentary 10-seater minivan with driver is available for up to 8 hours daily for guests who wish to explore the island beyond the villa.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Villa attendant&nbsp;&nbsp;&nbsp; ]]></Heading>
+          <Description><![CDATA[<p>All the daily cleaning and tidying duties at the villa are handled by a villa attendant, who also assists the chef with kitchen and dining services. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool &amp; Garden]]></Heading>
+          <Description><![CDATA[<p>The villa’s pool and gardens are serviced regularly by estate staff.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>Estate security staff work on rotating shifts 24 hours a day.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4531" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Yamu Villa Bua’s chef is a wizard in the kitchen and adept in preparing both Thai and Western cuisine. The villa’s diverse menu features Thai set menu choices as well as the full menu of Ceramic Kitchen, a well-regarded restaurant in nearby Cherng Talay run by a local family who also create a fine range of ceramic décor items in an attached studio. The villa’s wine list draws from the restaurant’s well stocked wine cellar. </p><p>The Thai menu highlights an array of Thailand’s most delectable flavours, with fiery tom yam soup and rich curries among the choices. Ask the chef for any seasonal recommendations and be sure to advise of any particular taste preferences or dietary restrictions among your group.</p><p>The villa’s modern kitchen is a well-equipped and bright space to self-cater, though it’s more likely to be used simply for gathering at the breakfast bar for coffee or as a staging area for cooking demonstrations by the chef on request. </p><p>All groceries and beverages are charged at market price plus a 20% handling fee. Guests will be asked to provide money for groceries upfront, and the staff will do the shopping and keep the receipts for reference. To ensure the chef and staff have sufficient time to prepare, guests are encouraged to plan meals at least one day in advance.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4532" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>With its ample space, privacy and facilities, Yamu Villa Bua is a superb tropical escape for families. Thailand is a welcoming place for children, and the villa is exceptionally so with its friendly team of staff dedicated to ensuring the kids have sweet memories of their Thai holiday adventure.</p><p>Families can tap into the villa manager’s local expertise to find out the must-see tours and sights to include on their visit as well as suggestions for kid-friendly activities and dining spots beyond the villa. In-villa dining is a breeze with meals that can be planned in advance with the chef, who might even be able to coax the pickiest eaters to try new dishes with all the delicious Thai choices available. Kids tend to love such dishes as pad Thai noodles, satay chicken skewers and tod man goong (fried prawn cakes) with sweet plum dipping sauce. And for families who wish to make their own meals or snacks, the modern guest kitchen is fully equipped and an inviting spot to gather. </p><p>The whole family will enjoy the magnificent 18-metre pool. Pool toys are provided and the dining sala offers a shady spot for poolside drinks and snacks. Young children and toddlers will need to be watched closely, however, since the pool lacks a safety fence. Indoor entertainment includes the ultra-cosy cinema room plus TVs in every bedroom and the family room. </p><p>For adventures beyond the villa, families can stroll down to the small beach in the estate to run around on the spongy sand and build sandcastles. Arrange for the villa’s three standup paddle boards to be brought to the beach for a family paddle along the mangrove-dotted coastline. Active families might want to play a few rounds at the estate tennis court, or spend the day at the COMO Beach Club on nearby Naka Yai Island (day passes available for an additional charge). For further exploration and family-friendly activities, be sure to check our <a href="./the-locale/things-to-do.html" target="_blank" title=" Things to do">Things to do</a> page.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4533" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>A visit to Thailand is not complete without indulging in a soothing spa session, and the villa’s tropical surrounds are perfect for restoring the body and mind in total privacy. Let us arrange to bring in recommended local spa therapists to work their healing magic and enjoy a massage in your bedroom suite or at the poolside to enjoy the sea breezes. </p><p>See the villa’s spa menu for the full range of services, but here’s just a sampling of what’s on offer (extra charges apply):</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Traditional Thai massage]]></Heading>
+          <Description><![CDATA[<p>A vigorous healing technique that will leave you energised and refreshed, Thai massage uses stretching, manipulations and rhythmic compressions to stimulate and unblock flow in the body’s meridians without using oil.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Aromatherapy oil massage]]></Heading>
+          <Description><![CDATA[<p>A holistic massage technique that uses blends of essential oils customised to each individual’s personal needs, such as anxiety relief or an energy boost.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Head and hands massage]]></Heading>
+          <Description><![CDATA[<p>The head and hands are rich with acupressure points yet they’re often the most neglected areas of the body. A refreshing and enlivening treatment.</p><p> More treatments are available at COMO Point Yamu resort’s day spa, just a short walk away. The resort also has a gym and tennis courts available for a small fee, while there’s a tennis court in the estate – with a great sea view! – accessible to villa guests for no extra charge.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4534" contenttypeid="EVT" desc="Event">
+      <Description><![CDATA[<p>Although wedding ceremonies and receptions cannot be held at Yamu Villa Bua itself, a unique feature of The Cape Residences estate is its purpose-built wedding chapel, a lovely white glass-fronted building in a vaulted-roof design that echoes that of the villa. The air-conditioned chapel can accommodate up to 80 guests and is just steps away from the open-air Breeze restaurant with sunset views that could serve as a reception venue. COMO Point Yamu resort also has event and dining facilities that could be booked for a wedding or party. </p><p>Tell us your plans in advance and let our villa team assist you in recommending local services from florists to birthday cake specialists to wedding celebrants.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Romantic Escapes]]></Heading>
+          <Description><![CDATA[<p>Yamu Villa Bua’s magical setting is perfect for marking those special occasions in life that require a dash of wonder and beauty. Talk with our team to help you celebrate these memorable moments with style and skill, whether planning an intimate dinner with friends and family, an anniversary escape or a romantic marriage proposal. </p><p>A unique feature of The Cape Residences estate is its purpose-built wedding chapel, a lovely white glass-fronted building in a vaulted-roof design that echoes that of the villa. The air-conditioned chapel can accommodate up to 80 guests and is just steps away from the open-air Breeze restaurant with sunset views that could serve as a reception venue. COMO Point Yamu resort also has event and dining facilities that could be booked for a wedding or party. </p><p>Tell us your plans in advance and let our villa team assist you in recommending local services from florists to birthday cake specialists to wedding celebrants.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Corporate Retreats]]></Heading>
+          <Description><![CDATA[<p>Motivate, inspire and reward your staff and executives on a corporate retreat in paradise! The perfect venue for a meeting or workshop, Yamu Villa Bua's private conference room is fully air conditioned and equipped with a wall-mounted TV, meeting table and a printer. A separate entrance from the car park keeps the villa’s business facilities separate from its living spaces for more privacy. </p><p>For breaks between meetings, the villa’s cinema room, luxurious dining and lounging areas and sea-view pool are inviting areas to unwind and recharge. The in-villa staff are on hand to keep everyone comfortable and well fed throughout, while yoga teachers or fitness trainers could be brought in to lead some wellness sessions, for an additional charge.&nbsp; </p><p>Talk with our villa team for any additional services required including catering, equipment hire, Phuket tours and transport. </p><p>If more bedrooms are needed beyond Yamu Villa Bua’s capacity, some excellent rental choices are available at neighbouring villas in the estate including four-bedroom <a target="_blank" title="Naam Sawan" href="http://www.naamsawan.com">Naam Sawan</a> and five-bedroom <a href="http://www.baanmaprao.com" target="_blank" title="Baan Maprao">Baan Maprao</a><a href="http://www.baanmaprao.com" target="_blank" title="Baan Maprao"></a>. Contact us for more information on accommodation and facilities for meetings and incentive trips at Yamu Villa Bua.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Yamu Villa Bua</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="CapeYamu">Cape Yamu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Phuket">Phuket</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="TH">Thailand</Country>
+    <Address contenttypeid="EI_ADDRESS">The Cape Residences, 222 Moo 7, Cape Yamu, T. Paklok, A. Thalang, Phuket, Thailand 83110</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>7.98722180</Latitude>
+        <Longitude>98.42027710</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">An elegant 4-bedroom villa in peaceful Cape Yamu with superb sea views and an 18m pool, meeting room, private chef, driver and ample leisure facilities.</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>4 bedroom</RoomName>
+        <MinRate>1250.00++</MinRate>
+        <MaxRate>2800.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Yamu Villa Bua - Villa layout</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/1. Yamu Villa Bua - Villa layout.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Panoramic view from pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/2. Yamu Villa Bua - Panoramic view from pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Dining area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/3. Yamu Villa Bua - Dining area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Villa Terrace</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/4. Yamu Villa Bua - Villa Terrace.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Living area design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/5. Yamu Villa Bua - Living area design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Entertainment room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/6. Yamu Villa Bua - Entertainment room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Downstairs living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/7. Yamu Villa Bua - Downstairs living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Modern kitchen</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/8. Yamu Villa Bua - Modern kitchen.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/9. Yamu Villa Bua - Master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Ensuite bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/10. Yamu Villa Bua - Ensuite bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Master living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/11. Yamu Villa Bua - Master living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Outdoor dining area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/12. Yamu Villa Bua - Outdoor dining area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Villa view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/13. Yamu Villa Bua - Villa view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Stunning dusk view from pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/14. Yamu Villa Bua - Stunning dusk view from pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Yamu Villa Bua - Cozy living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00232/15. Yamu Villa Bua - Cozy living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

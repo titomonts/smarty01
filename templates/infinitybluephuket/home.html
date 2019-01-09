@@ -1,0 +1,72 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item"> 
+				
+                    <div class="group">
+						<div class="group-wrapper">	
+							<div class="half bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Infinity Blue Phuket - Designer touch.jpg">
+								<div class="firts-img">
+									 <ul class="poi">
+										<li id="poi-1">Step to The Beach</li> 
+										<li id="poi-3">Family Friendly</li>
+										<li id="poi-4">Private Pool</li>
+									</ul> 
+								</div>
+							</div>
+							<div class="half half-content bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Infinity Blue Phuket - Amazing view from pool and outdoor dining area.jpg">
+								<h1 class="entry-title">{$data.heading}</h1>
+							</div>
+						</div>
+					</div>
+					
+					<div class="wrapper">
+						<div class="the-content">
+						{parsedata folder=$data.theme cache=$data.cache content="INTRO"}					 
+							{if 'desc'|array_key_exists:$content[0]}
+								{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+								{section name=s loop=$contentPart}
+									 {$contentPart[s]}									 
+								{/section}
+							{/if}
+							{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents}
+									<h2>{$content[0].SubContents[s].Heading}</h2>
+									{$content[0].SubContents[s].Description}
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+
+							{/if}
+						</div>
+					</div>
+					
+                </div>  
+                
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-infinity-blue-phuket', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

@@ -1,0 +1,81 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Tirta Nila Beach House - Absolute beachfront villa" class="lazyload" />
+        </div>
+		
+		<div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Glorious%20sunset%20view%20at%20the%20ocean%20deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Glorious%20sunset%20view%20at%20the%20ocean%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Glorious%20sunset%20view%20at%20the%20ocean%20deck.jpg 1920w" alt="Villa Tirta Nila - Glorious sunset view at the ocean deck" class="lazyload" />            
+        </div>
+		
+		<div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Oceanfront%20bedroom%20outdoor%20terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Oceanfront%20bedroom%20outdoor%20terrace.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Oceanfront%20bedroom%20outdoor%20terrace.jpg 1920w" alt="Villa Tirta Nila - Oceanfront bedroom outdoor terrace" class="lazyload" />
+        </div>
+		
+		<div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Pond%20with%20balinese%20statues%20and%20fountains.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Pond%20with%20balinese%20statues%20and%20fountains.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Pond%20with%20balinese%20statues%20and%20fountains.jpg 1920w" alt="Villa Tirta Nila - Pond with balinese statues and fountains" class="lazyload" />            
+        </div>
+		
+	</div>
+    {else}
+    <div class="hero">
+    
+       {if $data.page == 'about-tirta-nila'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Interior%20details.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Interior%20details.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Interior%20details.jpg 1920w" alt="Tirta Nila - Pool features" class="lazyload" />
+
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Outdoor%20dining%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Outdoor%20dining%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Outdoor%20dining%20setting.jpg 1920w" alt="Tirta Nila - Outdoor dining setting" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Families.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Families.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Families.jpg 1920w" alt="Tirta Nila - Families" class="lazyload" />
+
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Upstairs%20bedroom%20bathroom%20with%20jungle%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Upstairs%20bedroom%20bathroom%20with%20jungle%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Upstairs%20bedroom%20bathroom%20with%20jungle%20view.jpg 1920w" alt="Tirta Nila - Upstairs bedroom bathroom with jungle view" class="lazyload" />
+
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Infinity%20view%20from%20pool%20deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Infinity%20view%20from%20pool%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Infinity%20view%20from%20pool%20deck.jpg 1920w" alt="Tirta Nila - Infinity view from pool deck" class="lazyload" />
+
+        {elseif $data.page == 'candidasa-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Outdoor%20dining%20hanging%20above%20crystal%20clear%20waters.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Outdoor%20dining%20hanging%20above%20crystal%20clear%20waters.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Outdoor%20dining%20hanging%20above%20crystal%20clear%20waters.jpg 1920w" alt="Tirta Nila - Outdoor dining hanging above crystal clear waters" class="lazyload" />            
+
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20View%20of%20the%20house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20View%20of%20the%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20View%20of%20the%20house.jpg 1920w" alt="Tirta Nila - Poolside relaxation" class="lazyload" />            
+
+        {elseif $data.page == 'press'}
+
+        {elseif $data.page == 'photo-gallery'}
+        
+        {elseif $data.page == 'video'}        
+
+        {elseif $data.page == 'floorplan'}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20-%20View%20from%20the%20poolside%20bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tirta%20Nila%20-%20View%20from%20the%20poolside%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20-%20Poolside%20bale.jpg 1920w" alt="Tirta Nila - View from the poolside bale" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Quick%20fact.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20Quick%20fact.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20Quick%20fact.jpg 1920w" alt="Villa Tirta Nila - Quick fact" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20View%20of%20guest%20bedrooms.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Tirta%20Nila%20-%20View%20of%20guest%20bedrooms.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Tirta%20Nila%20-%20View%20of%20guest%20bedrooms.jpg 1920w" alt="Tirta Nila - Guest bedroom" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Tirta Nila Beach House - Absolute beachfront villa" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Tirta Nila Beach House - Absolute beachfront villa" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tirta%20Nila%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Tirta Nila Beach House - Absolute beachfront villa" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

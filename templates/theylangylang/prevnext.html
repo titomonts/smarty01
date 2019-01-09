@@ -1,0 +1,15 @@
+<div class="prevnext">
+    <div class="wrapper">
+        <div class="group">
+            <div class="">
+                {prevnext page=$data.page}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$prev}" class="prev">
+                	{$prev_label}
+                </a>
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$next}" class="next">
+                	{$next_label}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

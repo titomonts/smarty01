@@ -1,0 +1,60 @@
+{if $data.page|in_array:['home', 'index']}
+{* <div class="hero-container"><div class="promo-wrapper wrapper"><a href="/rates.html" class="promo-banner"></a></div></div> *}
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-zelie'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg 1920w" alt="Villa Zelie - Villa entrance" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Villa%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20features.jpg 1920w" alt="Villa Zelie - Villa features" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Stunning%20detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Stunning%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Stunning%20detail.jpg 1920w" alt="Villa Zelie - Stunning detail" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Bar.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Bar.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Bar.jpg 1920w" alt="Villa Zelie - Bar" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Bar.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Bar.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Bar.jpg 1920w" alt="Villa Zelie - Bar" class="lazyload" />
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Local%20fisherman.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Local%20fisherman.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Local%20fisherman.jpg 1920w" alt="Villa Zelie - Local fisherman" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Happy%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Happy%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Happy%20staff.jpg 1920w" alt="Villa Zelie - Happy staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Chef%20and%20his%20foods.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Chef%20and%20his%20foods.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Chef%20and%20his%20foods.jpg 1920w" alt="Villa Zelie - Chef and his foods" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Beautiful%20furnishings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Beautiful%20furnishings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Beautiful%20furnishings.jpg 1920w" alt="Villa Zelie - Beautiful furnishings" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Massage%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Massage%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Massage%20room.jpg 1920w" alt="Villa Zelie - Massage room" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20book.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Villa%20book.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20book.jpg 1920w" alt="Villa Zelie - Villa book" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Magnificent%20pool%20and%20garden%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Magnificent%20pool%20and%20garden%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Magnificent%20pool%20and%20garden%20setting.jpg 1920w" alt="Villa Zelie - Magnificent pool and garden setting" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Living%20area%20view%20from%20the%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Living%20area%20view%20from%20the%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Living%20area%20view%20from%20the%20entrance.jpg 1920w" alt="Villa Zelie - Living area view from the entrance" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg 1920w" alt="Villa Zelie - Villa entrance" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg 1920w" alt="Villa Zelie - Villa entrance" class="lazyload" /> 
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Zelie%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Zelie%20-%20Villa%20entrance.jpg 1920w" alt="Villa Zelie - Villa entrance" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Voyage</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Voyage</villa_name>
+		<google_analytics>UA-32859031-1</google_analytics>
+		<location>Bali</location>
+		<sublocation> Nusa Lembongan</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'Voyage', 'Bali', 'Nusa Lembongan', '5br'</hrental_id>
+		<ehgLocation>Bali, Nusa Lembongan</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

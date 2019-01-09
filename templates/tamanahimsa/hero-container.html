@@ -1,0 +1,45 @@
+{if $data.page|in_array:['home', 'index']}
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-taman-ahimsa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1920w" alt="Taman Ahimsa - Pool beachfront" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Office.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Office.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Office.jpg 1920w" alt="Taman Ahimsa - Office" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Poolside.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Poolside.jpg 1920w" alt="Taman Ahimsa - Poolside" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Upstairs%20living%20balcony.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Upstairs%20living%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Upstairs%20living%20balcony.jpg 1920w" alt="Taman Ahimsa - Upstairs living balcony" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Wedding%20rings.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Wedding%20rings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Wedding%20rings.jpg 1920w" alt="Taman Ahimsa - Wedding rings" class="lazyload" />
+        
+        {elseif $data.page == 'cemagi-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Beach.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Beach.jpg 1920w" alt="Taman Ahimsa - Beach" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg 1920w" alt="Taman Ahimsa - Office" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Swimming%20pool.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Swimming%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Swimming%20pool.jpg 1920w" alt="Taman Ahimsa - Swimming pool" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1920w" alt="Taman Ahimsa - Pool beachfront" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1920w" alt="Taman Ahimsa - Pool beachfront" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Pool%20beachfront.jpg 1920w" alt="Taman Ahimsa - Pool beachfront" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Taman%20Ahimsa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Office.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Taman%20Ahimsa%20-%20Office.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Taman%20Ahimsa%20-%20Office.jpg 1920w" alt="Taman Ahimsa - Office" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}

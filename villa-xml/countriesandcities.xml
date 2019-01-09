@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COUNTRIES>
+  <COUNTRY id="ID" name="Indonesia">
+    <LOCATIONS>
+      <LOCATION id="Bali" name="Bali">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Amed" name="Amed-Tulamben" country="indonesia" area="bali" />
+          <SUBLOCATION id="Bukit" name="The Bukit" country="indonesia" area="bali" />
+          <SUBLOCATION id="Candi Dasa" name="Candidasa" country="indonesia" area="bali" />
+          <SUBLOCATION id="Canggu" name="Canggu" country="indonesia" area="bali" />
+          <SUBLOCATION id="Gianyar" name="Gianyar" country="indonesia" area="bali" />
+          <SUBLOCATION id="Jimbaran" name="Jimbaran" country="indonesia" area="bali" />
+          <SUBLOCATION id="Kerobokan" name="Umalas-Kerobokan" country="indonesia" area="bali" />
+          <SUBLOCATION id="Ketewel" name="Sanur-Ketewel" country="indonesia" area="bali" />
+          <SUBLOCATION id="North Bali" name="North Bali" country="indonesia" area="bali" />
+          <SUBLOCATION id="nusa dua tanjung benoa" name="Nusa Dua-Tanjung Benoa" country="indonesia" area="bali" />
+          <SUBLOCATION id="Nusa Lembongan" name="Nusa Lembongan" country="indonesia" area="bali" />
+          <SUBLOCATION id="Pemuteran" name="Pemuteran" country="indonesia" area="bali" />
+          <SUBLOCATION id="Seminyak" name="Seminyak" country="indonesia" area="bali" />
+          <SUBLOCATION id="Tabanan Regency" name="Tabanan" country="indonesia" area="bali" />
+          <SUBLOCATION id="Tanah Lot" name="Seseh-Tanah Lot" country="indonesia" area="bali" />
+          <SUBLOCATION id="Ubud" name="Ubud" country="indonesia" area="bali" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="Lombok" name="Lombok">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Gili Islands" name="Gili Islands" country="indonesia" area="lombok" />
+          <SUBLOCATION id="Malimbu" name="Malimbu" country="indonesia" area="lombok" />
+          <SUBLOCATION id="Senggigi " name="Senggigi" country="indonesia" area="lombok" />
+          <SUBLOCATION id="Tanjung" name="Tanjung" country="indonesia" area="lombok" />
+        </SUBLOCATIONS>
+      </LOCATION>
+    </LOCATIONS>
+  </COUNTRY>
+  <COUNTRY id="LK" name="Sri Lanka">
+    <LOCATIONS>
+      <LOCATION id="Hill Country-Sri Lanka" name="Hill Country">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Bandarawela" name="Bandarawela" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Ella" name="Ella" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Haputale" name="Haputale" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Hatton" name="Hatton" country="srilanka" area="hill country" />
+          <SUBLOCATION id="Kandy Region" name="Kandy Region" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Nuwara Eliya" name="Nuwara Eliya" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Pussellawa" name="Pussellawa" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Sinharaja" name="Sinharaja" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="The Knuckles" name="The Knuckles" country="srilanka" area="hillcountry" />
+          <SUBLOCATION id="Victoria Reservoir" name="Victoria Reservoir" country="srilanka" area="hillcountry" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="North West-Sri Lanka" name="North West Coast">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Gampaha" name="Gampaha" country="srilanka" area="northwestcoast" />
+          <SUBLOCATION id="Kalpitiya" name="Kalpitiya" country="srilanka" area="northwestcoast" />
+          <SUBLOCATION id="Negombo" name="Negombo" country="srilanka" area="northwestcoast" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="South Coast-Sri Lanka" name="South Coast">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Ahangama" name="Ahangama" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Dickwella" name="Dickwella" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Galle" name="Galle" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Inland Galle" name="Inland Galle" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Koggala" name="Habaraduwa -Koggala" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Matara" name="Matara" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Mirissa" name="Mirissa" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Rekawa Ussangoda Kalametiya" name="Rekawa-Ussangoda-Kalametiya" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Talpe" name="Talpe" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Tangalle" name="Tangalle" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Unawatuna" name="Unawatuna" country="srilanka" area="southcoast" />
+          <SUBLOCATION id="Weligama" name="Weligama" country="srilanka" area="southcoast" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="West Coast-Sri Lanka" name="West Coast">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Ambalangoda" name="Ambalangoda" country="srilanka" area="westcoast" />
+          <SUBLOCATION id="Bentota" name="Bentota" country="srilanka" area="westcoast" />
+          <SUBLOCATION id="Bolgoda Lake" name="Bolgoda Lake" country="srilanka" area="westcoast" />
+          <SUBLOCATION id="Hikkaduwa" name="Hikkaduwa" country="srilanka" area="westcoast" />
+          <SUBLOCATION id="Kalutara" name="Kalutara" country="srilanka" area="westcoast" />
+        </SUBLOCATIONS>
+      </LOCATION>
+    </LOCATIONS>
+  </COUNTRY>
+  <COUNTRY id="MV" name="Maldives">
+    <LOCATIONS>
+      <LOCATION id="NorthIslands" name="Maldives">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="BaaAtollMaldives" name="Maldives" country="maldives" area="northislands" />
+        </SUBLOCATIONS>
+      </LOCATION>
+    </LOCATIONS>
+  </COUNTRY>
+  <COUNTRY id="PH" name="Philippines">
+    <LOCATIONS>
+      <LOCATION id="Palawan" name="Palawan">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Calamian Islands" name="Calamian Islands" country="philippines" area="palawan" />
+        </SUBLOCATIONS>
+      </LOCATION>
+    </LOCATIONS>
+  </COUNTRY>
+  <COUNTRY id="TH" name="Thailand">
+    <LOCATIONS>
+      <LOCATION id="Chiang Mai" name="Chiang Mai Province">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Chiang Mai" name="Chiang Mai City" country="thailand" area="chiangmai" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="Koh Samui" name="Koh Samui">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Bangrak" name="Bang Rak-Big Buddha" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Bophut" name="Bo Phut" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Chaweng" name="Chaweng" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Chaweng Hills" name="Chaweng Hills" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Choeng Mon" name="Choeng Mon" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Laem Set" name="Laem Set" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Laem Sor" name="Laem Sor" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Lamai" name="Lamai" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Lipa Noi" name="Lipa Noi" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Mae Nam" name="Mae Nam" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Nathon" name="Bang Por-Nathon" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Plai Laem" name="Plai Laem" country="thailand" area="kohsamui" />
+          <SUBLOCATION id="Taling Ngam" name="Taling Ngam" country="thailand" area="kohsamui" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="Pattaya" name="Pattaya">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Sattahip District" name="Sattahip District" country="thailand" area="pattaya" />
+        </SUBLOCATIONS>
+      </LOCATION>
+      <LOCATION id="Phuket" name="Phuket">
+        <SUBLOCATIONS>
+          <SUBLOCATION id="Bang Tao" name="Bang Tao Beach" country="thailand" area="phuket" />
+          <SUBLOCATION id="Cape Panwa" name="Cape Panwa" country="thailand" area="phuket" />
+          <SUBLOCATION id="CapeYamu" name="Cape Yamu" country="thailand" area="phuket" />
+          <SUBLOCATION id="Kamala" name="Kamala" country="thailand" area="phuket" />
+          <SUBLOCATION id="Kata" name="Kata" country="thailand" area="phuket" />
+          <SUBLOCATION id="Layan Beach" name="Layan Beach" country="thailand" area="phuket" />
+          <SUBLOCATION id="Nai Harn" name="Nai Harn" country="thailand" area="phuket" />
+          <SUBLOCATION id="Naithon" name="Nai Thon" country="thailand" area="phuket" />
+          <SUBLOCATION id="Natai" name="Natai Beach" country="thailand" area="phuket" />
+          <SUBLOCATION id="Patong" name="Patong" country="thailand" area="phuket" />
+          <SUBLOCATION id="Phang Nga" name="Natai Beach-Phang Nga" country="thailand" area="phuket" />
+          <SUBLOCATION id="Sapam" name="Sapam Bay" country="thailand" area="phuket" />
+          <SUBLOCATION id="Surin" name="Surin" country="thailand" area="phuket" />
+        </SUBLOCATIONS>
+      </LOCATION>
+    </LOCATIONS>
+  </COUNTRY>
+</COUNTRIES>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00157">
+  <Contents>
+    <Content contentid="4509" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>With the golden sands of Natai Beach at its doorstep, Villa Nandana is an elegant beachfront haven of seclusion and serenity. Designed to inspire as well as provide ample comforts for families and groups, this four-bedroom villa offers an enchanting holiday filled with tropical sunsets, refreshing dips in the sea and quiet strolls along the sands that stretch up the Andaman coast for more than 10 kilometers.</p><p>Along with its four luxurious bedrooms, Nandana provides an exceptional range of facilities including its glorious 20-metre pool with beach views, a spa room, gym, lavish indoor and outdoor living areas, satellite TV entertainment, a sea-view alfresco dining <span style="font-style: italic;">sala</span> and a modern kitchen. A friendly, full-time team of staff take care of all guest needs including delicious meals prepared daily by a skilled Thai chef.&nbsp;&nbsp; </p><p>Nandana means &quot;paradise&quot; in Sanskrit and with its picturesque beachside setting and superb design, the villa certainly lives up to its name. Beyond the delights of Natai, the natural wonders of Thailand's Andaman coast are within easy reach from the villa, including magical Phang Nga Bay, jungle-clad parks and the Similan islands. And most amazingly, this dreamy paradise villa is a mere 30 minutes away from Phuket airport. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4510" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Guest bedrooms]]></Heading>
+          <Description><![CDATA[<ul><li>Four king-bedded suites, two of which can be converted to twin beds</li><li>Equipped with air-conditioner, TV with satellite channels, safety deposit box and hairdryers</li><li>All rooms have ensuite bathrooms with indoor showers, plus a double bathtub in the master suite</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4511" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<ul><li>Living room with high-vaulted ceiling</li><li>TV lounge </li><li>Dining area with an eight-seater table </li><li>Modern kitchen with Smeg oven</li><li>Private massage room and spa, and well-equipped gym</li><li>Air-conditioning and ceiling fans throughout </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<ul><li>20-metre private swimming pool with six sun loungers</li><li>Sea-view dining <span style="font-style: italic;">sala </span>with seating for 12 cooled by ceiling fan</li><li>Barbecue facilities</li><li>Beachfront lawn shaded by palm trees </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4512" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location ]]></Heading>
+          <Description><![CDATA[<p>Natai Beach, Phang Nga, Phuket, Thailand.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>8 guests (4 king-bedded suites, two of which can be converted to twin). </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Air-conditioned living areas; outdoor sitting areas; main dining table hosting 8 guests; modern state-of-the-art kitchen.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>20 x 4 x 1.4m.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; private chef; housekeeper.&nbsp; Additional staff (babysitters, masseuses) on request at extra charge.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Western, Chinese, Asian, vegetarian and children’s dishes.&nbsp; Requests accommodated (including special diets).&nbsp; Grocery cost is charged 20% handling fee which is subject to tax at the prevailing rate.<br /></p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>Complimentary Wi-Fi internet access; landline for local calls.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>TV with satellite channels; iPod dock; Sonos speaker.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families]]></Heading>
+          <Description><![CDATA[<p>Villa Nandana is well equipped for families and provides complimentary baby cot and high chair.&nbsp; Other baby facilities may be rented from reputable suppliers on guest account.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>Private spa room offering treatments selected from a comprehensive spa menu can be carried out by professional therapists (extra cost applies). </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gym]]></Heading>
+          <Description><![CDATA[<p>Enjoy workouts in the villa’s private gym equipped with a stationary bike, free weights, elliptical trainer and plenty of space for fitness training and yoga.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>The villa manager can arrange for a safe and reputable car and driver rental service at reasonable cost on guest account.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Barbecue; safety deposit box. </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>2,000 sqm (land).</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed &amp; marketed by]]></Heading>
+          <Description><![CDATA[<a href="http://www.elitehavens.com" target="_blank" title="The Elite Havens Group">The Elite Havens Group.</a> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4513" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Natai is a beautiful beach of soft golden sands that sweep up the Andaman coast for 10 kilometers. The beach lies within Phang Nga province, just across the bridge from Phuket Island,. Strict building laws have limited development in the area, and only a handful of luxury villas and small upscale resorts are sprinkled along the beachfront. Inland, a quiet rural landscape remains intact with lush coconut groves and green fields where water buffalo roam. The nearest town of Kokkloy has a few banks and shops, but for shopping and nightlife, it’s best to take a drive to Phuket. Beyond the villa, find some excellent upscale dining spots at nearby beachfront resorts, while some of Thailand’s most enchanting sights are easily reached, including Phang Nga Bay and the Similan islands.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Baba Beach Club]]></Heading>
+          <Description><![CDATA[2 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Sarasin Bridge]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Yacht Haven Manila]]></Heading>
+          <Description><![CDATA[22 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Blue Canyon Country Club]]></Heading>
+          <Description><![CDATA[26 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Phuket International Airport]]></Heading>
+          <Description><![CDATA[28 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Phang Nga Bay Park]]></Heading>
+          <Description><![CDATA[40 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Khao Lak National Park]]></Heading>
+          <Description><![CDATA[50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Central Festival Shopping Mall]]></Heading>
+          <Description><![CDATA[51 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Phuket Town]]></Heading>
+          <Description><![CDATA[52 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Patong Beach]]></Heading>
+          <Description><![CDATA[55 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4514" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Though Villa Nandana’s ample comforts offer a complete holiday escape, there are many sights and activities in the vicinity that offer tempting reasons to explore beyond the villa. The natural wonders of Phang Nga are breathtaking, while Phuket Island offers myriad nightlife, shopping and cultural attractions. </p><p>Here are just a few ideas for things to see and do:&nbsp; <br /></p><ul><li>Natai Beach has attracted some luxury resorts to its shores, making it a new destination for fine dining and sunset cocktails. The restaurants at <span style="font-weight: bold;">Iniala and Aleenta resorts</span> have both earned acclaim, while<span style="font-weight: bold;"> Baba Beach Club</span> is a lively place with tasty Thai and Japanese menus, DJ nights and a swim-up bar. </li><li>Venture into the <span style="font-weight: bold;">jungles of Phang Nga</span> with its scenic waterfall parks, river rafting adventures and ATV rides. Or rise before dawn to visit <span style="font-weight: bold;">Samet Nangshe viewpoint</span> in time to catch the spectacular sunrise views over Phang Nga Bay.</li><li>After enjoying a bird’s eye view of it, hire a yacht or long-tail boat and explore <span style="font-weight: bold;">Phang Nga Bay</span> and its dramatically steep limestone islands and floating village. Or navigate by sea kayak for a paddle through hidden lagoons and caves. </li><li>Discover Thailand’s exotic wildlife with a visit to some of the animal rescue centres in the area. <span style="font-weight: bold;">Phuket Elephant Sanctuary</span> in northern Phuket lets visitors observe elephants in their natural habitat, while at the nearby <span style="font-weight: bold;">Gibbon Rehabilitation Project</span>, rescued gibbons can be seen at rest and swinging around their large enclosures at the edge of Khao Phra Thaeo national park.</li><li>With dazzling white sands and crystal-clear waters, the <span style="font-weight: bold;">Similan Islands</span> are known to be a top diving and snorkeling destination. Join a day trip or hire a private yacht to explore this vibrant marine wonderland. Note that the Similans are open to visitors from 15 October to 15 May only. </li><li>The history behind the restored Sino-Portuguese boutique shops and cafes in <span style="font-weight: bold;">Phuket’s Old Town</span> is as colourful as the pastel-toned exteriors. Join a walking tour to learn more about the island’s culture, or simply wander around the Old Town area to shop, eat and soak up the lively street scenes. The walls of several buildings have also been splashed with large eye-catching murals.&nbsp; </li><li>For those who are keen to recreate the flavours of Thai cuisine in their own kitchens, a visit to Phuket offers an ideal time to learn with a real Thai chef! Thai<span style="font-weight: bold;"> cookery classes</span> are available at nearby Aleenta resort, the JW Marriott Phuket resort on Mai Khao Beach and The Slate hotel at Nai Yang Beach, with some courses including a visit to a local market.</li><li><span style="font-weight: bold;">Golf </span>enthusiasts will find some challenging courses to try just a short drive away from the villa. The Tab Lamu Thai Navy course is the nearest place to play, while Mission Hills Phuket Golf Club and Blue Canyon Country Club are found over the bridge in northern Phuket. Be sure to book tee-off times early in the morning before the tropical heat sets in for the day. </li><li>While the Andaman Sea offers endless aquatic adventures, some fun alternatives can be found inland. <span style="font-weight: bold;">Splash Jungle water park</span> near Mai Khao Beach offers water slide thrills and a wave pool, while wakeboarding lessons and rentals on a lake are available at <span style="font-weight: bold;">Anthem Wake Park</span>. And for some indoor wall climbing challenges, visit <span style="font-weight: bold;">Rebel Rock Climbing</span> just next door to Anthem – a good rainy-day activity.</li><li>Spend a few hours hunting<br /> for souvenirs and more in Phuket’s many <span style="font-weight: bold;">shopping centres and markets</span>. In Patong Beach, find some bargains in the lively street markets or wander in air-conditioned comfort in Jungceylon mall. Phuket Town offers plenty of places to shop including the busy Naka Weekend Market, Lard Yai Sunday street market in the Old Town and Central Festival mall.&nbsp; </li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4578" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>With a magical setting along the sands of Natai Beach, Villa Nandana is an exceptional holiday escape for families or groups. This elegant four-bedroom haven offers a private gym and spa, as well as sumptuous living areas inside and out for soaking up the superb sea views and relaxing in peace and privacy. Enjoy cooling dips in the 20-metre pool or retreat to the stylish bedrooms – each with a luxurious ensuite bathroom. The villa’s staff team, which includes a skilled Thai chef, offer friendly and attentive care while spectacular waterfalls, jungle-clad parks and the stunning seascapes of this idyllic Andaman coastline are all within easy reach, as is Phuket’s international airport, just a 30-minute drive to the south. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4579" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Nandana means ‘paradise’ in Sanskrit, and this luxurious four-bedroom private villa truly lives up to its name. Surrounded by the spectacular beauty of the Andaman coast, Nandana feels a million miles away from the tourist crowds, yet it’s just a 30-minutes drive from Phuket airport. </p><p>At Nandana, discerning families and groups can savour days that unfold with strolls on the endless sands of near-deserted Natai Beach, dips in the 20-metre pool and vivid sunsets over the sea. Enjoy a workout in the villa’s private gym, followed by a soothing massages in the spa, or relax in the majesty of the living room with its floor-to-ceiling windows and dramatically pitched timber ceiling. A cosier area, with a TV lounge and indoor dining, lies near the modern kitchen, while the expansive pool terrace, beachfront lawn and dining <span style="font-style: italic;">sala</span> offer some relaxing alfresco alternatives – all with fabulous views. Each room has an opulent aura with eye-catching art and extensive use of natural materials, including marble, wood and stone. </p><p>Nandana’s three ensuite guest bedrooms are each spacious, comfortable retreats, while the poolside master suite offers sea views and a large marble bathtub overlooking a lovely walled garden for an extra dash of romance. </p><p>The villa is staffed with a chef and housekeeper who are on hand all day to prepare meals and keep everything clean and tidy, while a villa manager is on-call to assist with transport, excursions, restaurant bookings, spa treatments and golf tee-off times.</p><p>The area surrounding Villa Nandana offers a true getaway from hectic modern life, with many natural wonders to discover including the steep karst islands of Phang Nga Bay, the Similan islands, jungle parks, waterfalls and tranquil rural landscapes of towering coconut palms and water buffalo. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4580" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa Nandana’s living areas and bedrooms are arranged in a series of pavilions. The generous living room is at the heart of the villa in a central pavilion, with the pool terrace and lawn extending towards the beach. A pavilion housing the indoor dining area and TV room sits off to the side, with the kitchen behind it, while an open-air dining <span style="font-style: italic;">sala</span> near the pool offers fine sea views. The sea-view master suite is at the opposite end of the pool, while the spa room, gym and three more bedrooms are towards the rear of the villa. Every room is at ground-floor level with the exception of one guest bedroom, which sits above the spa room and gym.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4581" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>Villa Nandana’s four bedrooms are each bright, elegant retreats with flat-screen TVs, wardrobes and luxurious ensuite bathrooms. Every bedroom has ceiling fans and air conditioning, with sliding glass doors that open to a balcony, garden or terrace.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Bedroom]]></Heading>
+          <Description><![CDATA[<p>With fantastic sea views, this king-bedded poolside room will suit those who like to be at the heart of the action. Sliding glass doors open to the pool terrace, while a study desk and armchair add to the comfort of the room. Its ensuite bathroom is a showcase of luxury, featuring a walk-in wardrobe and a double bathtub encased in marble, with picture windows that offer views to a private walled garden.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedroom 1]]></Heading>
+          <Description><![CDATA[<p>The only upper-floor room at the villa, this king-bedded retreat is the most private of the villa’s bedrooms. Floor-to-ceiling glass doors open to a private balcony, and an armchair and study desk offer added comfort. Its ensuite bathroom is beautifully fitted with a walk-in wardrobe, grey terrazzo double vanity set and a rain shower in cool black slate.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedrooms 2 and 3]]></Heading>
+          <Description><![CDATA[<p>These two mirror-image bedrooms are on the ground floor near the gym and spa. Both offer flexibility with king-sized beds that can be converted to twin beds if preferred, as well as spacious ensuite bathrooms with rain showers. Sliding glass doors open to a tropical garden patio. </p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4582" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<p>At the heart of Villa Nandana is a sophisticated living area; a welcoming room in subtle earth tones set under a vaulted timber ceiling and furnished with four sofas and a bar/entertaining area. Floor-to-ceiling windows overlook a reflecting pool at the back, and slide open at the front to connect the room to the terrace and pool. In a separate pavilion to one side is an open-plan room housing a dining table for eight and a cosy TV lounge with a home theatre system. Behind is the villa’s modern kitchen with a large black granite island and a Smeg oven and range. The villa’s stylish gym and spa are set beside one another on the ground floor. The gym has a good range of fitness equipment and a large flat-screen TV, while the spa has two treatment beds, Bose speakers and a luxurious bathroom.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>The 20-metre swimming pool forms the focal point of Villa Nandana’s outdoor space, surrounded by sand-washed terracing and with a stretch of coconut-palm shaded lawn between the pool and beach. A dining sala and barbecue entertaining area are set at the corner of the pool, with a round dining table large enough to seat 12. The sala is cooled with a ceiling fan – along with the sea breezes – and outdoor speakers are installed to help set the mood. A lily pond connects the villa’s entrance to the main living area while manicured tropical gardens with palm and frangipani trees flow between the various pavilions.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4583" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>A stay at Nandana is made all the more special thanks to the care and attention of the villa staff. A full-time chef and a housekeeper assure five-star service with characteristic Thai friendliness blended with professional hospitality training. And your villa manager, whilst not based on site, is always available by phone.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa Manager]]></Heading>
+          <Description><![CDATA[<p>Your English-speaking villa manager is just a phone call away and ready to assist with any guest needs including booking taxi service, tours or activities beyond the villa.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s full-time chef is available to prepare all the daily meals. Choose from the villa suggestion menu, which is focused on Thai cuisine with some Asian and Western choices. The chef is open to accommodate any special requests or dietary requirements.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Housekeeping]]></Heading>
+          <Description><![CDATA[<p>A full-time housekeeper looks after all the cleaning and tidying duties at the villa, and also assists the chef with meal service.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4584" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Dining at Villa Nandana is a cultural journey in itself, with the chance to explore the delights of Thai cuisine under the expert guidance of your full-time chef. </p><p>The villa’s extensive suggestion menu includes a choice of delicious Thai dishes that can be tailored to suit your group’s tastes.&nbsp; Choose from a <span style="font-style: italic;">tom yum</span> prawn soup, <span style="font-style: italic;">laab moo</span> (pork salad with chili) or a green chicken curry for some fiery flavours, and, to enjoy the freshest tastes of the region, be sure to ask the chef about any seasonal or local specialties.&nbsp; There’s also a limited selection of Asian and Western dishes available, together with a list of wines to accompany your meals.&nbsp; </p><p>Continental breakfast is included in the villa rate and the chef will source provisions for all other meals charged at market price plus a 20% handling fee and a government tax, with a minimum shopping fee of THB 750.&nbsp; Guests will be requested to provide money for groceries in advance, and receipts will be kept for reference.&nbsp; To ensure the chef has sufficient time to prepare, guests are encouraged to plan meals at least a day in advance.</p><p>The well-equipped kitchen is also available to those who would prefer to self-cater.&nbsp; However, it’s more than likely that the gleaming appliances will remain untouched by guests, given the talents of the villa chef.&nbsp; That said, it’s worth sneaking into the kitchen now and then to watch the chef prepare those delicious Thai dishes!</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4585" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Staying in a luxury villa offers the ideal holiday escape for families, with a swimming pool, living areas and entertainment choices available for their exclusive use, and the freedom to relax, dine and play in privacy. Villa Nandana, with its enviable beachfront location, is especially well suited for families who wish to spend some quality time together in the great outdoors. </p><p>The 20-metre pool is sure to provide endless hours of joy for guests of all ages, with the soft sands of Natai just a few steps away for sandcastle building and dips in the sea. The large living room and TV room offer cool and comfy spots to retreat from the sun, while each of the spacious bedrooms is equipped with a TV, so no need for battles over the remote control! </p><p>Families are certain to savour mealtimes at Villa Nandana, too. Whether the kids are excited to try new foods or are the pickiest of eaters, the chef will be pleased to customise dishes to help whet their appetites. Such delicious child-friendly Thai dishes as <span style="font-style: italic;">gai haw bai toey</span> (deep-fried chicken wrapped in pandan leaf), <span style="font-style: italic;">satay gai </span>(grilled chicken on skewers) or <span style="font-style: italic;">pad thai</span> (fried noodles) might even coax the most unadventurous diners to have a taste.&nbsp; </p><p>We understand that travel can be cumbersome for families with young children, so a high chair and baby cot are provided free of charge. We can also help arrange hire of other items from reputable local agencies, as well as organise babysitters should mums and dads fancy a night out on the town (extra fees apply).</p><p>Beyond the villa, there are plenty of sights and activities for families to enjoy. See our Things to Do page for a few ideas, most of which are family-friendly, and be sure to contact your villa manager should you want help booking transport and tours.&nbsp;&nbsp; </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4586" contenttypeid="SPAGYM" desc="Spa &amp; Gym">
+      <Description><![CDATA[<p>With its own luxurious spa room and gym, Villa Nandana is a haven for health and wellness. Enjoy a holiday workout, or ask us to help hire a yoga teacher or fitness trainer to run some sessions at the villa. The gym is air conditioned with a garden view, and equipped with these items:</p><ul><li>Bench and free weights</li><li>Stationary bicycle</li><li>Treadmill</li><li>Elliptical trainer</li><li>Yoga ball and mats</li><li>Flat-screen TV and sound system</li></ul><p>Go for a soothing massage or other healing treatment in the air-conditioned spa room, equipped with music system, two treatment beds and a shower, with stately Buddha statues setting a cool, calming mood. Browse the villa’s spa menu and ask the staff to help arrange for a personal treatment by a local massage and spa specialist. Below is just a sample of the treatments on offer at Villa Nandana. (extra charges apply) </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Thai Massage]]></Heading>
+          <Description><![CDATA[<p>Traditional Thai massage is a healing technique that involves stretches, manipulations and rhythmic compressions to stimulate flow along the ‘meridians’ of the body without using oil. Also known as assisted yoga, it’s an invigorating treatment that will leave you feeling refreshed.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Aromatherapy Massage]]></Heading>
+          <Description><![CDATA[<p>Using a blend of essential oils customised to each individual’s needs, this is a soothing and restorative treatment. Fragrant oils are kneaded into the skin to help relieve muscle tension, pains and anxiety, or simply to help revive the body and mind.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/Pedicure]]></Heading>
+          <Description><![CDATA[<p>This popular beauty treatment works on just a small part of the body, but the results can help lift one’s mood for days and weeks on end. Give those fingers and toes a bit of beach-ready sparkle and shine, along with a healing hand or foot massage, in the privacy and comfort of the villa.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Nandana</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Natai">Natai Beach</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Phuket">Phuket</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="TH">Thailand</Country>
+    <Address contenttypeid="EI_ADDRESS">23/7 Moo 5, Natai Beach, T. Khok Kloi, A. Thakua Thung, Phang Nga, Thailand 82140</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>8.26877710</Latitude>
+        <Longitude>98.27813820</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">A luxurious four-bedroom, staffed villa on beautiful Natai Beach near Phuket. An ideal escape for families or groups with a spa, gym and 20m pool.&lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>4 bedroom</RoomName>
+        <MinRate>1300.00++</MinRate>
+        <MaxRate>2800.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Nandana - A tranquil location to relax</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/1. Villa Nandana - A tranquil location to relax.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Amazing location</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/2. Villa Nandana - Amazing location.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Living area with beach view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/3. Villa Nandana - Living area with beach view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Master bedroom setting</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/4. Villa Nandana - Master bedroom setting.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Perfect retreat for romance</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/5. Villa Nandana - Perfect retreat for romance.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Pool and the sun loungers</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/6. Villa Nandana - Pool and the sun loungers.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Perfect getaway</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/7. Villa Nandana - Perfect getaway.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Beach view lounge</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/8. Villa Nandana - Beach view lounge.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - A perfect tropical getaway</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/9. Villa Nandana - A perfect tropical getaway.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - TV on media room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/10. Villa Nandana - TV on media room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Wonderful service</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/11. Villa Nandana - Wonderful service.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Dine with stunning view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/12. Villa Nandana - Dine with stunning view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Wonderful escape</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/13. Villa Nandana - Wonderful escape.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - Villa pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/14. Villa Nandana - Villa pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Nandana - The villa</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00157/15. Villa Nandana - The villa.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

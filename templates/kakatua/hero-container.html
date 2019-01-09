@@ -1,0 +1,66 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1920w" alt="Villa Kakatua - Villa, pool and gardens" class="lazyload" />
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-kakatua'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Entrance%20walkway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Entrance%20walkway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Entrance%20walkway.jpg 1920w" alt="Villa Kakatua - Entrance walkway" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Entrance.jpg 1920w" alt="Villa Kakatua - Entrance" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1920w" alt="Villa Kakatua - Villa, pool and gardens" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Upstairs%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Upstairs%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Upstairs%20bathroom.jpg 1920w" alt="Villa Kakatua - Upstairs bathroom" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Upstairs%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Upstairs%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Upstairs%20bathroom.jpg 1920w" alt="Villa Kakatua - Upstairs bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Veranda%20for%20bedrooms%203%20&%204.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Veranda%20for%20bedrooms%203%20&%204.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Veranda%20for%20bedrooms%203%20&%204.jpg 1920w" alt="Villa Kakatua - Veranda for bedrooms 3 & 4" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Probably%20the%20best%20private%20villa%20chefs%20in%20Bali.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Probably%20the%20best%20private%20villa%20chefs%20in%20Bali.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Probably%20the%20best%20private%20villa%20chefs%20in%20Bali.jpg 1920w" alt="Villa Kakatua - Probably the best private villa chefs in Bali" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Dining%20room%20at%20night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Dining%20room%20at%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Dining%20room%20at%20night.jpg 1920w" alt="Villa Kakatua - Dining room at night" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Midday%20by%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Midday%20by%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Midday%20by%20the%20pool.jpg 1920w" alt="Villa Kakatua - Midday by the pool" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Garden%20bal%C3%A9%20and%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Garden%20bal%C3%A9%20and%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Garden%20bal%C3%A9%20and%20pool.jpg 1920w" alt="Villa Kakatua - Garden balé and pool" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Sun%20loungers%20and%20relaxation%20bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Sun%20loungers%20and%20relaxation%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Sun%20loungers%20and%20relaxation%20bale.jpg 1920w" alt="Villa Kakatua - Sun loungers and relaxation bale" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Guest%20bedroom%204.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Guest%20bedroom%204.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Guest%20bedroom%204.jpg 1920w" alt="Villa Kakatua - Guest bedroom 4" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Upstairs%20guest%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Upstairs%20guest%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Upstairs%20guest%20bedroom.jpg 1920w" alt="Villa Kakatua - Upstairs guest bedroom" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1920w" alt="Villa Kakatua - Villa, pool and gardens" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1920w" alt="Villa Kakatua - Villa, pool and gardens" class="lazyload" />  
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kakatua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kakatua%20-%20Villa%2C%20pool%20and%20gardens.jpg 1920w" alt="Villa Kakatua - Villa, pool and gardens" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

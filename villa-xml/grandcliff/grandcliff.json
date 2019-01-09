@@ -1,0 +1,398 @@
+[
+	{
+		"page_title":"",
+		"label":"Home",
+		"page_header":"Welcome to <span>Grand Cliff Villas</span>",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"" 
+	}, 
+	{
+		"page_title":"Grand Cliff Ungasan",
+		"label":"Ungasan Villa",
+		"page_header":"About Grand Cliff Ungasan",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+        "villaID":"P00121",
+        "sub_villa":"grand-cliff-ungasan",
+		"page_identifier":"grand-cliff-ungasan",
+		"children":[
+					{
+						"page_title":"About Grand Cliff Ungasan",
+						"label":"About",
+						"page_header":"About Grand Cliff Ungasan",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00121",
+						"page_identifier":"grand-cliff-ungasan",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Grand Cliff Ungasan",
+						"label":"Explore",
+						"page_header":"Explore Grand Cliff Ungasan",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00121",
+						"parent":"grand-cliff-ungasan",
+						"page_identifier":"explore-the-villa",
+						"level":"internal",
+						"body_class":"explore"
+					},					
+					{
+						"page_title":"Ungasan Experience",
+						"label":"Location",
+						"page_header":"Location",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00121",
+						"parent":"grand-cliff-ungasan",
+						"page_identifier":"ungasan-bali",
+						"level":"internal",
+						"body_class":"locale"
+					},
+                    {
+						"page_title":"Quick Facts Grand Cliff Ungasan",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Grand Cliff Ungasan",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00121",
+						"parent":"grand-cliff-ungasan",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					},
+                    {
+                        "page_title":"Dining Grand Cliff Ungasan",
+                        "label":"Dining",
+                        "page_header":"Dining",
+                        "template":"page-template.html",
+                        "content_id":"DNNG",
+						"villaID":"P00121",
+						"parent":"grand-cliff-ungasan",
+                        "page_identifier":"dining",
+                        "level":"internal",
+                        "body_class":"experience"
+                    },
+                    {
+                        "page_title":"Spa Grand Cliff Ungasan",
+                        "label":"Spa",
+                        "page_header":"Spa",
+                        "template":"page-template.html",
+                        "content_id":"SPAGYM",
+						"villaID":"P00121",
+						"parent":"grand-cliff-ungasan",
+                        "page_identifier":"spa",
+                        "level":"internal",
+                        "body_class":"experience"
+                    } 
+		],
+		"menu_location":"main",
+		"special_menu":"true",
+		"what":"grand-cliff-ungasan",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Grand Cliff Nusa Dua",
+		"label":"Nusa Dua Villa",
+		"page_header":"About Grand Cliff Nusa Dua",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+        "villaID":"P00226",
+        "sub_villa":"grand-cliff-nusa-dua",
+		"page_identifier":"grand-cliff-nusa-dua",
+		"children":[
+					{
+						"page_title":"About Grand Cliff Nusa Dua",
+						"label":"About",
+						"page_header":"About Grand Cliff Nusa Dua",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00226",
+						"page_identifier":"grand-cliff-nusa-dua",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Grand Cliff Nusa Dua",
+						"label":"Explore",
+						"page_header":"Explore Grand Cliff Nusa Dua",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00226",
+						"parent":"grand-cliff-nusa-dua",
+						"page_identifier":"explore-the-villa",
+						"level":"internal",
+						"body_class":"explore"
+					},					
+					{
+						"page_title":"Nusa Dua Experience",
+						"label":"Location",
+						"page_header":"Location",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00226",
+						"parent":"grand-cliff-nusa-dua",
+						"page_identifier":"nusa-dua-bali",
+						"level":"internal",
+						"body_class":"locale"
+					},
+                    {
+						"page_title":"Quick Facts Grand Cliff Nusa Dua",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Grand Cliff Nusa Dua",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00226",
+						"parent":"grand-cliff-nusa-dua",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					},
+                    {
+                        "page_title":"Dining Grand Cliff Nusa Dua",
+                        "label":"Dining",
+                        "page_header":"Dining",
+                        "template":"page-template.html",
+                        "content_id":"DNNG",
+						"villaID":"P00226",
+						"parent":"grand-cliff-nusa-dua",
+                        "page_identifier":"dining",
+                        "level":"internal",
+                        "body_class":"experience"
+                    },
+                    {
+                        "page_title":"Spa & Gym Grand Cliff Nusa Dua",
+                        "label":"Spa & Gym",
+                        "page_header":"Spa & Gym",
+                        "template":"page-template.html",
+                        "content_id":"SPAGYM",
+						"villaID":"P00226",
+						"parent":"grand-cliff-nusa-dua",
+                        "page_identifier":"spa",
+                        "level":"internal",
+                        "body_class":"experience"
+                    }
+		],
+		"menu_location":"main",
+		"special_menu":"true",
+		"what":"grand-cliff-nusa-dua",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+					{
+						"page_title":"Photo Gallery",
+						"label":"Photo Gallery",
+						"page_header":"Gallery",
+						"template":"photo-gallery.html",
+						"content_id":"",
+						"page_identifier":"photo-gallery",
+						"level":"top",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Video",
+						"label":"Video",
+						"page_header":"Video",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"video",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"video"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"floorplan"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Staff",
+		"label":"Experience",
+		"page_header":"Staff",
+		"template":"page-template.html",
+		"content_id":"STAFF",
+		"page_identifier":"staff",
+		"children":[
+                    {
+                        "page_title":"Staff",
+                        "label":"Staff",
+                        "page_header":"Staff",
+                        "template":"page-template.html",
+                        "content_id":"STAFF",
+                        "page_identifier":"staff",
+                        "level":"top",
+                        "body_class":"experience"
+                    },
+                    {
+                        "page_title":"Families",
+                        "label":"Families",
+                        "page_header":"Families",
+                        "template":"page-template.html",
+                        "content_id":"FAM",
+                        "page_identifier":"families",
+                        "level":"top",
+                        "body_class":"experience"
+                    },
+                    {
+                        "page_title":"Press",
+                        "label":"Press",
+                        "page_header":"Press <span></span>",
+                        "template":"page-template.html",
+                        "content_id":"",
+                        "page_identifier":"press",
+                        "level":"top",
+                        "body_class":"press"
+                    }
+        ],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"staff experience"
+	},	
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},	
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links" 
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Villa Layout",
+		"template":"page-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"",
+		"body_class":"villa-layout explore"
+	},
+	{
+		"page_title":"Bedrooms",
+		"label":"Bedrooms",
+		"page_header":"Bedrooms",
+		"template":"page-template.html",
+		"content_id":"BDR",
+		"page_identifier":"bedrooms",
+		"menu_location":"",
+		"body_class":"bedrooms explore"
+	},
+	{
+		"page_title":"Living Areas",
+		"label":"Living Areas",
+		"page_header":"Living Areas",
+		"template":"page-template.html",
+		"content_id":"LVA",
+		"page_identifier":"living-areas",
+		"menu_location":"",
+		"body_class":"living-areas explore"
+	},
+	{
+		"page_title":"The Locale",
+		"label":"The Locale",
+		"page_header":"The Locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"menu_location":"",
+		"body_class":"the-locale locale"
+	},
+	{
+		"page_title":"Things to Do",
+		"label":"Things to Do",
+		"page_header":"Things to Do",
+		"template":"page-template.html",
+		"content_id":"TTD",
+		"page_identifier":"things-to-do",
+		"menu_location":"",
+		"body_class":"things-to-do locale"
+	}
+]
+		

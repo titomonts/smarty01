@@ -1,0 +1,49 @@
+<div class="avail-cal">
+	<ul>
+    	{section name=t loop=$data.teaser_complex_data}
+    	<li><a href="#{$data.teaser_complex_data[t].villa_id}">{$data.teaser_complex_data[t].villa_name}</a></li>
+        {/section}
+    </ul>
+    
+    {section name=c loop=$data.teaser_complex_data}
+    <div id="{$data.teaser_complex_data[c].villa_id}">
+		<div class="gallery">
+			<ul class="gallery-container">
+				{section name=g loop=$data.teaser_data.Villa.Info[0].Images.Image}
+                {if $data.teaser_complex_data[c].villa_id == $data.teaser_data.Villa.Info[0].Images.Image[g].VillaID}
+				<li>
+					<a rel="gallery" href="{$data.teaser_data.Villa.Info[0].Images.Image[g].Url}" title="{$data.teaser_data.Villa.Info[0].Images.Image[g].Caption}"  >
+						<img title="{$data.teaser_data.Villa.Info[0].Images.Image[g].Caption}" alt="{$data.teaser_data.Villa.Info[0].Images.Image[g].Caption}" data-src="{$data.teaser_data.Villa.Info[0].Images.Image[g].Url}" class="lazyload" height="132" width="248" />
+						<p>{$data.teaser_data.Villa.Info[0].Images.Image[g].Caption}</p>
+					</a>
+				</li>
+                {/if}
+				{/section}
+			</ul>
+			<div class="gallery-pagination">
+			{if $data.cur_page > 1}
+			<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+			{/if}
+			{section name=pg loop=$data.num_pages}
+			{if $data.cur_page == $smarty.section.pg.index+1}
+			<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+			{else}
+			<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+			{/if}
+			{/section}
+			{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+			<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+			{/if}
+			</div>
+        </div>
+    </div>
+    {/section}
+</div>
+
+
+<script type='text/javascript' src='/js/jquery-1.7.1.js'></script>
+<script type='text/javascript' src='/js/jquery-ui-1.8.js'></script>
+<script>
+$('.avail-cal').tabs();
+$('.avail-cal, .avail-cal ul, .avail-cal div, .avail-cal li').removeClass('ui-helper-clearfix ui-widget-header ui-corner-top ui-corner-bottom ui-helper-reset ui-corner-all ui-widget ui-widget-content');
+</script>

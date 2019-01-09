@@ -1,0 +1,126 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>                            
+                            
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {$content[0].desc}
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <ul class="poi">
+                            <li id="poi-1">Private <br/>Pool Oasis</li>
+                            <li id="poi-2">Three ensuite <br/>Bedrooms</li>
+                            <li id="poi-3">Beaches <br/>Within 5km</li>
+                            <li id="poi-4">Beloved <br/>By Families</li>
+                            <li id="poi-5">Remarkable <br/>Staff</li>
+                        </ul> 
+                    </div>
+                </div>  
+                <div class="content-item">
+                    <div class="group">
+                        <div class="first-img">	
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Mako - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mako - 5 stars service.jpg" alt="Villa Mako - 5 stars service" class="lazyload">
+                            <h3>Personalised service provided by dedicated staff.</h3>
+                            {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=1 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+                            <a href="/staff.html">Read more</a>
+
+                        </div>
+
+                        <div class="second-img">							
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Mako - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mako - Pool stairs.jpg" alt="Villa Mako - Pool stairs" class="lazyload">
+
+                            <h3>The family friendly advantages of a villa holiday</h3>
+                            {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=1 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+                            <a href="/families.html">Read more</a>
+                        </div>
+
+                        <div class="third-img">								
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Mako - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mako - Fabulous dish.jpg" alt="Villa Mako - Fabulous dish" class="lazyload">								
+                            <h3>Fresh cuisine. <br>Prepared especially for you.</h3>
+                            {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=1 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+                            <a href="/dining.html">Read more</a>
+                        </div>
+                    </div>
+				</div>
+                <div class="content-item">
+                    <div class="wrapper">
+                        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mako - Bali Room layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Mako%20-%20Bali%20Room%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Mako%20-%20Bali%20Room%20layout.jpg 1920w" alt="Villa Mako - Bali Room layout" class="lazyload" /></div>
+                        
+                        <h2>Each of Villa Mako’s three bedrooms presents a different and equally luxurious theme.</h2>
+                        <p>Each has an ensuite bathroom and is equipped with air conditioning, ceiling fans, a mini-bar/fridge and safe deposit box. The two master bedrooms enjoy soaring roofs and magnificent views together with sunny balconies, furnished with daybeds, overlooking the garden and pool.  Fitted with ceiling fans, the balconies are perfect for whiling away the hours with a book or relaxing over morning tea or evening cocktails.</p>
+                        
+                        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mako - Rice field.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Mako%20-%20Rice%20field.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Mako%20-%20Rice%20field.jpg 1920w" alt="Villa Mako - Rice field" class="lazyload" /></div>
+                        
+                        <h2> Rests just beyond the borders of Canggu and Pererenan.</h2>
+                        <p> Amongst the rice fields which extend all the way down to the beach, you will not only find some of the most luxurious private residences on the island, but also a great selection of eclectic restaurants, cafes, bakeries, boutiques and beach bars – especially along Jalan Batu Bolong, which runs right down to the beach.</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-mako', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

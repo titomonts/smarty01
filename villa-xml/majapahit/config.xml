@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Majapahit</villa_id>
+		<estate_id vids="MajapahitMaya4BR,Nataraja,Raj">Majapahit</estate_id>
+		<villa_name>Majapahit</villa_name>
+		<google_analytics>UA-960190-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Sanur-Ketewel</sublocation>
+		<bedrooms>3</bedrooms>
+		<hrental_id>'Maya', 'Bali', '3br'</hrental_id>
+		<ehgLocation>Bali, Sanur-Ketewel</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>estate</ehgPageType>
+		</Source>
+		</Configuration>

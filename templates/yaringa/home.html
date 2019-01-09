@@ -1,0 +1,84 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+			
+				 <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20Sun%20loungers.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div> 
+				
+				 <div class="content-item">  
+                    <div class="the-content">
+                        <div class="grids">
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Yaringa - Fully Staffed.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Yaringa%20-%20Fully%20Staffed.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20Fully%20Staffed.jpg 700w" class="lazyload" alt="Villa Yaringa - Fully Staffed"><span>Fully <br />staffed</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Yaringa - Personal Chef.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Yaringa%20-%20Personal%20Chef.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20Personal%20Chef.jpg 700w" class="lazyload" alt="Villa Yaringa - Personal Chef"><span>Personal <br />chef</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Yaringa - Absolute Beachfront.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Yaringa%20-%20Absolute%20Beachfront.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20Absolute%20Beachfront.jpg 700w" class="lazyload" alt="Villa Yaringa - Absolute Beachfront"><span>Absolute <br />beachfront</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Yaringa - Family Friendly.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Yaringa%20-%20Family%20Friendly.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20Family%20Friendly.jpg 700w" class="lazyload" alt="Villa Yaringa - Family Friendly"><span>Family <br />friendly</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Yaringa - Infinity Pools.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Yaringa%20-%20Infinity%20Pools.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20Infinity%20Pools.jpg 700w" class="lazyload" alt="Villa Yaringa - Infinity Pools"><span>Infinity <br />pool</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Yaringa - A place to relax.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Yaringa%20-%20A%20place%20to%20relax.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Yaringa%20-%20A%20place%20to%20relax.jpg 700w" class="lazyload" alt="Villa Yaringa - A place to relax"><span>A place <br />to relax</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                    
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-yaringa', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

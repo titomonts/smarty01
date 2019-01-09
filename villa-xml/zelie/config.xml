@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Zelie</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Zelie</villa_name>
+		<google_analytics>UA-107789997-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Canggu</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'Zelie', 'Bali', '5br'</hrental_id>
+		<ehgLocation>Bali, Canggu</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource> 
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Mako</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Mako</villa_name>
+		<google_analytics>UA-1743435-1</google_analytics>
+		<location>Bali</location>
+		<sublocation> Canggu</sublocation>
+		<bedrooms>3</bedrooms>
+		<hrental_id>'Mako', 'Bali', 'Canggu', '3br'</hrental_id>
+		<ehgLocation>Bali, Canggu</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

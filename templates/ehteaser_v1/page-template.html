@@ -1,0 +1,66 @@
+{include file="header.html"}
+{if $data.page|in_array:['rates'] && $data.complex == 'yes'}
+{literal}
+<style type="text/css">
+div.inclusions{width: 10%;float: right;padding-right: 25px;}
+</style>
+{/literal}
+{/if}
+<div id="content" class="site-content">
+
+    <div id="primary" class="content-area container_12 clearfix">
+        <main id="main" class="site-main">
+            <article id="post-21" class="post-21 page type-page status-publish hentry">
+                <div class="container_12 clearfix">
+                    <header class="entry-header grid_6">
+                        <h1 class="entry-title">
+                        {if $data.complex == 'yes'}
+                        {$data.teaser_data.Villa.Info[0].Name}
+                        {else}
+                        {$data.teaser_data.Villa.Info.Name}
+                        {/if}
+                        </h1>
+                    </header>
+                    <div class="headright grid_6">
+                        <h1 class="entry-title">
+                        {if $data.page == 'availability-calendar'}
+                        {#AVAIL_LABEL#}
+                        {elseif $data.page == 'photo-gallery'}
+                        {#GALLERY_LABEL#}
+                        {elseif $data.page == 'rates'}
+                        {#RATES_LABEL#}
+                        {elseif $data.page == 'reservations'}
+                        {#CONTACT_LABEL#}
+                        {else}
+                        {/if}
+                        </h1>
+                    </div>
+                </div>
+                
+               	{include file="hero-container.html"}
+        
+                <div class="entry-content grid_12">
+                {if $data.page == 'availability-calendar'}
+                	{if $data.complex == 'yes'}
+                    	{include file="calendars.html"}
+                    {else}
+                    	<div class="iframe-wrapper">
+						{$data.site_calendar_iframe}
+                        </div>
+                    {/if}
+                {elseif $data.page == 'rates'}
+                	{if $data.complex == 'yes'}
+                    	{include file="rates.html"}
+                    {else}
+                    	{$content}
+                    {/if}
+                {else}
+                {$content}
+                {/if}
+                </div><!-- .entry-content -->
+            </article><!-- #post-## -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+</div><!-- #content -->
+{include file="footer.html"}

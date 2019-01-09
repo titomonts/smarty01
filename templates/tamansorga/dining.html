@@ -1,0 +1,52 @@
+{include file="header.html"}
+<body class="page-id-20 page-child parent-pageid-18 page-template-default">
+{$gtm}
+	<div id="container">
+	{include file="menu.html"}
+	
+	{include file="banner.html"}	
+
+	<div class="wrapper">
+	<div class="contentwrap_br">
+		
+		<div class="btn-wrap">
+			{include file="book-now.html"}
+			<div class="clear"></div>
+		</div>		
+		
+		<div class="content_br">
+			<div class="maincol_br">
+				<h1 class="entry-title">{#HEADING_DINING#}</h1>
+				{if 'desc'|array_key_exists:$content[0]}
+                {$content[0].desc}
+                {/if}
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h3>{$content[0].SubContents[s].Heading}</h3>
+                        <p>{$content[0].SubContents[s].Description}</p>
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        	<p>
+                            	<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl}" rel="gallery" class="pirobox_gall">
+                                	<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl}" border="0" width="238" height="158" />
+                                </a>
+                            </p>
+                        {/if}
+                	{/section}
+                {/if}
+			</div>
+			<!-- /maincol -->
+		</div>
+		<!-- /content -->
+
+		<div id="dine_rightpics">
+			<img class="right_image1" src="/resources/tamansorga/content/dining-right-pic.jpg" alt="Dining" />		</div>
+		<div class="clear"></div>
+
+	</div>
+	<!-- /contentwrap -->
+	</div>
+	<div class="clear"></div>
+	
+	{include file="next-prev.html"}
+
+	{include file="footer.html"}

@@ -1,0 +1,181 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+               
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=7}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower|replace:'/':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half"> 
+            {section name=s start=7 loop=$content[0].SubContents}
+            {* if $smarty.section.s.index neq $smarty.section.s.last *}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|replace:'/':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {* /if *}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['subscribed-malaiwana']}
+	<h1 class="entry-title">Thank you for signing up</h1>                
+	<p>We will keep you updated with the latest news, best deal and hot off the press info for this spectacular property.</p>
+
+{elseif $data.page|in_array:['invest']}
+	<h1 class="entry-title">Invest</h1>                
+	<section>		
+		<p><strong>OWN A PIECE OF PARADISE</strong></p>
+		<p>Malaiwana presents a once in a lifetime opportunity for you to own an incredible villa or residence at one of Asia’s most exclusive addresses.</p>
+		<p>This is a rare opportunity to own a desirable piece of Phuket property. Fully managed for your convenience, you can simply come and go knowing your exquisite villa/residence is taken care of the rest of the time.</p>
+		<p>Please contact us at <a href="mailto:residences@malaiwana.com" style="text-decoration: underline;" target="_blank">residences@malaiwana.com</a> for more information or to arrange an appointment.</p>
+	</section>
+	
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+		<h1 class="entry-title">{$data.heading}</h1>
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/Malaiwana-Villas---Prestige-Design-Magazine.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Malaiwana-Villas---Prestige-Design-Magazine.jpg" class="imgleft"></a>
+            “Surrounded by lush vegetation, the views of the ocean are awe-inspiring.”
+            <a href="/resources/{$data.theme}/pdfs/Malaiwana-Villas---Prestige-Design-Magazine.pdf" target="_blank"><em></em><strong>Prestige Design Magazine </strong>, Volume 15 Number 3.</a>
+        </div>
+		
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/The-Asia-Collectiv---Best-Luxury-Villas-in-Thailand.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/The-Asia-Collectiv---Best-Luxury-Villas-in-Thailand.jpg" class="imgleft"></a>
+            “Villa Malaiwana has been voted 1 of the best luxury villas in Thailand. Find out why.”
+            <a href="/resources/{$data.theme}/pdfs/The-Asia-Collectiv---Best-Luxury-Villas-in-Thailand.pdf" target="_blank"><em></em><strong>The Asia Collective</strong>, published October 4, 2017.</a>
+        </div>
+		
+		
+       
+    </div>
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews hide_this_year="2010,2011,2012,2013,2014" order="c,n,d"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+    
+{elseif $data.page|in_array:['general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+	<h1 class="entry-title">{$data.heading}</h1>
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+	<h1 class="entry-title">Sitemap</h1>                
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location neq '' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+					{if $pages[p].special_menu eq 'true'}
+						{if $pages[p].sub_villa neq ''}
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+						{else}
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].what  sibling=$pages[p].page_identifier}">{$pages[p].label}</a>
+						{/if}
+					{else}
+						<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].page_identifier}">{$pages[p].label}</a>
+					{/if}
+                
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-malaiwana' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+						<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].children[sp].parent sibling=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+						<a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+						{if $pages[p].children[sp].page_identifier eq $pages[p].page_identifier}
+							{if $pages[p].children[sp].sub_villa neq '' }
+								<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">
+							{else}
+								<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].children[sp].page_identifier}">
+							{/if}						
+						{else}		
+							{if $pages[p].children[sp].sub_villa neq '' }
+								<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+							{else}
+								<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].children[sp].parent sibling=$pages[p].children[sp].page_identifier}">
+							{/if}
+							
+						{/if}
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents[0]}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

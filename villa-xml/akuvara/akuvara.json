@@ -1,0 +1,310 @@
+[
+	{
+		"page_title":"",
+		"label":"Homepage",
+		"page_header":"Welcome to <span>Akuvara</span>",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":""
+	},
+	{
+		"page_title":"Explore",
+		"label":"Explore",
+		"page_header":"Explore",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+		"page_identifier":"about-akuvara",
+		"children":[
+					{
+						"page_title":"About Akuvara",
+						"label":"About Akuvara",
+						"page_header":"About Akuvara",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"page_identifier":"about-akuvara",
+						"level":"top",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore the Villa",
+						"label":"Explore the Villa",
+						"page_header":"<strong>Explore</strong> the Villa", 
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"explore-the-villa",
+						"level":"sub",
+						"parent":"about-akuvara",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Quick Facts",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"page_identifier":"quick-facts",
+						"level":"sub",
+						"parent":"about-akuvara",
+						"body_class":"quick-facts"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+					{
+						"page_title":"Photo Gallery",
+						"label":"Photo Gallery",
+						"page_header":"Gallery",
+						"template":"photo-gallery.html",
+						"content_id":"",
+						"page_identifier":"photo-gallery",
+						"level":"top",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Video",
+						"label":"Video",
+						"page_header":"Video",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"video",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"video"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"floorplan"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},
+    {
+        "page_title":"Location",
+        "label":"Location",
+        "page_header":"Location",
+        "template":"page-template.html",
+        "content_id":"",
+        "page_identifier":"lipa-noi-koh-samui",
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"locale"
+    },
+	{
+		"page_title":"Weddings",		
+		"label":"Weddings",
+		"page_header":"Weddings at <strong>Akuvara</strong>",
+		"template":"page-template.html",
+		"content_id":"EVT",
+		"page_identifier":"weddings",
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"weddings"
+	},
+	{
+		"page_title":"Staff",
+		"label":"Experience",
+		"page_header":"Staff",
+		"template":"page-template.html",
+		"content_id":"STAFF",
+		"page_identifier":"staff",
+		"children":[
+                    {
+                        "page_title":"Staff",
+                        "label":"Staff",
+                        "page_header":"Staff",
+                        "template":"page-template.html",
+                        "content_id":"STAFF",
+                        "page_identifier":"staff",
+                        "level":"top",
+                        "body_class":"staff experience"
+                    },
+                    {
+                        "page_title":"Dining",
+                        "label":"Dining",
+                        "page_header":"Dining",
+                        "template":"page-template.html",
+                        "content_id":"DNNG",
+                        "page_identifier":"dining",
+                        "level":"top",
+                        "body_class":"dining experience"
+                    },
+                    {
+                        "page_title":"Families",
+                        "label":"Families",
+                        "page_header":"Families",
+                        "template":"page-template.html",
+                        "content_id":"FAM",
+                        "page_identifier":"families",
+                        "level":"top",
+                        "body_class":"families experience"
+                    },
+                    {
+                        "page_title":"Spa",
+                        "label":"Spa",
+                        "page_header":"Spa",
+                        "template":"page-template.html",
+                        "content_id":"SPA",
+                        "page_identifier":"spa",
+                        "level":"top",
+                        "body_class":"spa experience"
+                    }
+        ],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"staff experience"
+	},
+	{
+		"page_title":"Guest Reviews",		
+		"label":"Reviews",
+		"page_header":"Guest Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"guest-reviews"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},	
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links" 
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Villa Layout",
+		"template":"page-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"",
+		"body_class":"villa-layout explore"
+	},
+	{
+		"page_title":"Bedrooms",
+		"label":"Bedrooms",
+		"page_header":"Bedrooms",
+		"template":"page-template.html",
+		"content_id":"BDR",
+		"page_identifier":"bedrooms",
+		"menu_location":"",
+		"body_class":"bedroomst explore"
+	},
+	{
+		"page_title":"Living Areas",
+		"label":"Living Areas",
+		"page_header":"Living Areas",
+		"template":"page-template.html",
+		"content_id":"LVA",
+		"page_identifier":"living-areas",
+		"menu_location":"",
+		"body_class":"living-areast explore"
+	},
+	{
+		"page_title":"The Locale",
+		"label":"The Locale",
+		"page_header":"The Locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"menu_location":"",
+		"body_class":"the-locale locale"
+	},
+	{
+		"page_title":"Things to Do",
+		"label":"Things to Do",
+		"page_header":"Things to Do",
+		"template":"page-template.html",
+		"content_id":"TTD",
+		"page_identifier":"things-to-do",
+		"menu_location":"",
+		"body_class":"things-to-do locale"
+	}
+]
+		

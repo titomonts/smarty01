@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>
+{if $data.title != ''}
+    {$data.title} | {#TITLE_HOME#}
+{else}
+	{#TITLE_HOME#}
+{/if}    	
+</title>
+        
+<link rel="stylesheet" type="text/css" media="all" href="/resources/majapahit/majapahit.css" />
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='foobox-min-css'  href='/resources/common/fooboxV2/css/foobox.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='/resources/common/nextgen-gallery/css/nggallery.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='/resources/common/nextgen-gallery/shutter/shutter-reloaded.css' type='text/css' media='screen' />
+<!--
+<script async="async" type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script async="async" type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js'></script>
+<script async="async" type='text/javascript' src='/resources/common/js/jquery.cookie-1.4.1.min.js'></script>
+<script async="async" type='text/javascript' src='/resources/common/js/initCookie.js'></script>
+<script defer="defer" type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script defer="defer" type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js'></script>
+-->
+<script type='text/javascript' src='/resources/common/js/jquery-1.7.1.js'></script>
+<script type='text/javascript' src='/resources/common/js/jquery-ui-1.8.js'></script>
+{literal}
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+{/literal}
+<script async="async" type='text/javascript' src='/resources/common/nextgen-gallery/shutter/shutter-reloaded.js'></script>
+<script async="async" type='text/javascript' src='/resources/common/nextgen-gallery/js/jquery.cycle.all.min.js'></script>
+<script async="async" type='text/javascript' src='/resources/common/nextgen-gallery/js/ngg.slideshow.min.js'></script>
+<script defer="defer" type='text/javascript' src='/resources/common/fooboxV2/js/foobox.min.js'></script>
+{literal}
+<script type="text/javascript">/* Run FooBox (v2.3.1.1) */
+(function( FOOBOX, $, undefined ) {
+  FOOBOX.o = {wordpress: { enabled: true }, deeplinking : { enabled: true, prefix: "foobox" }, hideScrollbars:false, showCount:false, captions: { onlyShowOnHover:true, overrideTitle:true, titleSource:'image_alt', overrideDesc:true, descSource:'anchor', animation:'fade' }, excludes:'.fbx-link,.nofoobox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }, slideshow: { enabled:false }, social: { enabled: true, excludes: ['iframe','html'], onlyShowOnHover:true, position: 'fbx-below', links: [ { css: 'fbx-facebook', title: 'Facebook', url: 'http://www.facebook.com/sharer.php?u={url}'  }, { css: 'fbx-twitter', title: 'Twitter', url: 'https://twitter.com/share?url={url}&text={title}'  }, { css: 'fbx-pinterest', title: 'Pinterest', url: 'https://pinterest.com/pin/create/bookmarklet/?media={img!}&url={url}&is_video={is_video}&description={title}'  } ] }, html: { showCaptions:true }, iframe: { showCaptions:true }};
+  FOOBOX.init = function() {
+    $(".fbx-link").removeClass("fbx-link");
+    $(".ngg-galleryoverview, .ngg-widget").foobox(FOOBOX.o);
+    $(".imgContent").foobox(FOOBOX.o);
+    $(".foobox, [target=\"foobox\"]").foobox(FOOBOX.o);
+
+  };
+}( window.FOOBOX = window.FOOBOX || {}, jQuery ));
+
+jQuery(function() {
+  //preload the foobox font
+  jQuery("body").append("<span style=\"font-family:'foobox'; color:transparent; position:absolute; top:-1000em;\">f</span>");
+  FOOBOX.init();
+  jQuery(document).trigger("foobox-after-init");
+
+});
+</script>
+<!-- <meta name="NextGEN" version="1.9.10" /> -->
+{/literal}
+<link rel="icon" type="image/x-icon" href="/resources/majapahit/favicon.ico" />
+{$ga}
+</head>

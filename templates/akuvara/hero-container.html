@@ -1,0 +1,78 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Your private beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Your%20private%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Your%20private%20beach.jpg 1920w" alt="Akuvara - Your private beach" class="lazyload" />          
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/AAkuvara - The villa from top view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20The%20villa%20from%20top%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20The%20villa%20from%20top%20view.jpg 1920w" alt="Akuvara - The villa from top view" class="lazyload" />        
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-akuvara'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Beach swing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Beach%20swing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Beach%20swing.jpg 1920w" alt="Akuvara - Beach swing" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/AAkuvara - The villa from top view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20The%20villa%20from%20top%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20The%20villa%20from%20top%20view.jpg 1920w" alt="Akuvara - The villa from top view" class="lazyload" />   
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Your private beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Your%20private%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Your%20private%20beach.jpg 1920w" alt="Akuvara - Your private beach" class="lazyload" />  
+
+        {elseif $data.page == 'photo-gallery'}
+        {*  *}
+
+        {elseif $data.page == 'video'}
+        {*  *}
+
+        {elseif $data.page == 'floorplan'}
+        {*  *}
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Fisherman boats.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Fisherman%20boats.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Fisherman%20boats.jpg 1920w" alt="Akuvara - Fisherman boats" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - In-villa chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20In-villa%20chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20In-villa%20chef.jpg 1920w" alt="Akuvara - In-villa chef" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - All day dining at cost.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20All%20day%20dining%20at%20cost.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20All%20day%20dining%20at%20cost.jpg 1920w" alt="Akuvara - All day dining at cost" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Outdoor activities by the beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Outdoor%20activities%20by%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Outdoor%20activities%20by%20the%20beach.jpg 1920w" alt="Akuvara - Outdoor activities by the beach" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Outdoor bath.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Outdoor%20bath.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Outdoor%20bath.jpg 1920w" alt="Akuvara - Outdoor bath" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Weddings.jpg 1920w" alt="Akuvara - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - In-villa private yoga.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20In-villa%20private%20yoga.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20In-villa%20private%20yoga.jpg 1920w" alt="Akuvara - In-villa private yoga" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        {*  *}
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Outstanding setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Outstanding%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Outstanding%20setting.jpg 1920w" alt="Akuvara - Outstanding setting" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Master bedroom table side decoration.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Master%20bedroom%20table%20side%20decoration.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Master%20bedroom%20table%20side%20decoration.jpg 1920w" alt="Akuvara - Master bedroom table side decoration" class="lazyload" />    
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Your private beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Your%20private%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Your%20private%20beach.jpg 1920w" alt="Akuvara - Your private beach" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Your private beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Your%20private%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Your%20private%20beach.jpg 1920w" alt="Akuvara - Your private beach" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Akuvara - Your private beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Akuvara%20-%20Your%20private%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Akuvara%20-%20Your%20private%20beach.jpg 1920w" alt="Akuvara - Your private beach" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

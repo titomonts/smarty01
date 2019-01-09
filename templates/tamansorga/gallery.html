@@ -1,0 +1,74 @@
+{include file="header.html"}
+<body class="page-child parent-pageid-14 page-template page-template-page-gallery page-template-page-gallery-php">
+{$gtm}
+	<div id="container">
+	{include file="menu.html"}
+	
+	{include file="banner.html"}
+	
+	<div class="wrapper">
+		<div class="contentwrap_gal">
+			
+			<div class="btn-wrap">
+				{include file="book-now.html"}
+				<div class="clear"></div>
+			</div>		
+			
+			<div class="content_gal">
+				<div class="maincol_gal">
+					
+				{if $data.page == 'virtual-tour'}
+					<h1 class="entry-title">{#HEADING_VIRTUAL_TOUR#}</h1>
+					<p><iframe width="785" height="550" src="/resources/tamansorga/vr/movie.php"></iframe></p>
+				{elseif $data.page == 'photo-gallery'}
+					<h1 class="entry-title">{#HEADING_GALLERY#}</h1>
+					<div id="photo-gallery-wrapper">
+						<div class="ngg-galleryoverview fbx-instance" id="ngg-gallery-1-14">
+							
+							<div id="gallery">
+								<ul class="gallery-list">	
+									<!-- Thumbnails -->
+									{section name=g loop=$gallery}
+								    <li>
+								    	<a class="fbx-link" rel="gallery" href="{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+											<img title="{$gallery[g].title}" alt="{$gallery[g].alt}" src="{$gallery[g].thumbnail_src}" height="200" width="335" />
+											<div class="img-overlay"></div>
+										</a>
+								    </li>
+								    {/section}
+								</ul>
+								<div class="clear"></div>
+
+								<!-- Pagination -->
+								<div class='ngg-navigation'>
+									{if $data.cur_page > 1}
+								    	<a class="prev" id="ngg-prev-1" href="/gallery/photo-gallery.html?nggpage={$data.cur_page-1}">&#9668;</a>
+								    {/if}
+									{section name=pg loop=$data.num_pages}
+								    {if $data.cur_page == $smarty.section.pg.index+1}
+								    	<span class="current">{$data.cur_page}</span>
+								    {else}
+								    	<a class="page-numbers" href="/gallery/photo-gallery.html?nggpage={$smarty.section.pg.index+1}">{$smarty.section.pg.index+1}</a>
+								    {/if}
+								    {/section}
+								    {if $data.cur_page >= 1 && $data.cur_page < $data.num_pages}
+								    	<a class="next" id="ngg-next-2" href="/gallery/photo-gallery.html?nggpage={$data.cur_page+1}">&#9658;</a>
+								    {/if}
+								</div> 	
+							</div>
+							<div class="clear"></div>
+
+						</div>
+					</div>
+				</div>
+				{/if}
+			</div>
+			<!-- /maincol -->
+		</div>
+		<!-- /content -->
+		
+	</div>
+	<!-- /contentwrap -->
+</div>
+<div class="clear"></div>
+{include file="footer.html"}

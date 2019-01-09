@@ -1,0 +1,74 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20View%20of%20pool%20from%20children's%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20View%20of%20pool%20from%20children's%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20View%20of%20pool%20from%20children's%20room.jpg 1920w" alt="Villa San - View of pool from children's room" class="lazyload" />       
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Garden%20statue.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Garden%20statue.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Garden%20statue.jpg 1920w" alt="Villa San - Garden statue" class="lazyload" />         
+        </div>
+        <div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Bale-new.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Bale-new.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Bale-new.jpg 1920w" alt="Villa San - Bale" class="lazyload" />         
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+        {if $data.page == 'about-villa-san'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20View%20of%20villa%20from%20bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20View%20of%20villa%20from%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20View%20of%20villa%20from%20bale.jpg 1920w" alt="Villa San - View of villa from bale" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20View%20from%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20View%20from%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20View%20from%20entrance.jpg 1920w" alt="Villa San - View from entrance" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Garden%20and%20guest%20rooms.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Garden%20and%20guest%20rooms.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Garden%20and%20guest%20rooms.jpg 1920w" alt="Villa San - Garden and guest rooms" class="lazyload" />
+        
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Kitchen,%20dining%20and%20media%20rooms.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Kitchen,%20dining%20and%20media%20rooms.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Kitchen,%20dining%20and%20media%20rooms.jpg 1920w" alt="Villa San - Kitchen, dining and media rooms" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Entrance.jpg 1920w" alt="Villa San - Entrance" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Pool%20view%20from%20outside%20dining%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Pool%20view%20from%20outside%20dining%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Pool%20view%20from%20outside%20dining%20room.jpg 1920w" alt="Villa San - Pool view from outside dining room" class="lazyload" />
+        
+        {elseif $data.page == 'ubud-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Entrance.jpg 1920w" alt="Villa San - Entrance" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Living%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Living%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Living%20room.jpg 1920w" alt="Villa San - Living room" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Kitchen.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Kitchen.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Kitchen.jpg 1920w" alt="Villa San - Kitchen" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Children's%20play%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Children's%20play%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Children's%20play%20room.jpg 1920w" alt="Villa San - Children's play room" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Master%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Master%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Master%20bathroom.jpg 1920w" alt="Villa San - Master bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Kitchen,%20dining%20and%20media%20rooms.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Kitchen,%20dining%20and%20media%20rooms.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Kitchen,%20dining%20and%20media%20rooms.jpg 1920w" alt="Villa San - Kitchen, dining and media rooms" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Bale%20at%20night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Bale%20at%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Bale%20at%20night.jpg 1920w" alt="Villa San - Bale at night" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Meeting%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg 1920w" alt="Villa San - Meeting room" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Meeting%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg 1920w" alt="Villa San - Meeting room" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Meeting%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg 1920w" alt="Villa San - Meeting room" class="lazyload" /> 
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20San.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20San%20-%20Meeting%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20San%20-%20Meeting%20room.jpg 1920w" alt="Villa San - Meeting room" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

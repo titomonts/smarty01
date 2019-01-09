@@ -1,0 +1,170 @@
+<!-- VILLA RODNAYA -->
+{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya' && $data.url_lvl_3 eq ''}
+<div class="content-item odd about rodnaya" id="about">   
+	<div class="wrapper">
+		<div class="the-content">
+			{parsedata folder=$data.theme cache="P00154" content="ABTV"}
+				<div class="des-logo">
+						<img src="{$data.cdn}/resources/{$data.theme}/images/Rodnaya%20-%20Logo.png" alt="Villa Rodnaya - Logo" class="lazyload"/>
+						<h3 class="entry-title">Rodnaya</h3>
+				</div>
+				<h1 class="entry-title">About Villa Rodnaya</h1>                 
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+					{section name=s loop=$contentPart start=0 max=3}
+						 <p>{$contentPart[s]}</p>
+					{/section}	
+				
+				{/if}
+		</div>
+	</div> 
+	<div class="clear"></div>
+	<div class="content-item">
+		<div class="content-inner">
+			 <div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/thumb/Malaiwana%20Villa%20R.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/Malaiwana%20Villa%20R%20-%20Deck%20chairs%20amd%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/small/Malaiwana%20Villa%20R%20-%20Deck%20chairs%20amd%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/about/Malaiwana%20Villa%20R%20-%20Deck%20chairs%20amd%20view.jpg 1920w" alt="Malaiwana Villa R - Deck chairs amd view" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/thumb/Malaiwana%20Villa%20R.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/Malaiwana%20Villa%20R%20-%20Glorious.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/small/Malaiwana%20Villa%20R%20-%20Glorious.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/about/Malaiwana%20Villa%20R%20-%20Glorious.jpg 1920w" alt="Malaiwana Villa R - Glorious" class="lazyload" />
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="group">
+				<div class="group-wrapper"> 
+					<div class="half lazyload">						
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/thumb/Malaiwana%20Villa%20R.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/Malaiwana%20Villa%20R%20-%20Stunning%20villa%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/about/small/Malaiwana%20Villa%20R%20-%20Stunning%20villa%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/about/Malaiwana%20Villa%20R%20-%20Stunning%20villa%20layout.jpg 1920w" alt="Malaiwana Villa R - Stunning villa layout" class="lazyload" />
+					</div>
+					<div class="half half-content">
+						<div class="des">
+							{section name=s loop=$contentPart start=3}
+							<p>{$contentPart[s]}</p>
+							{/section}
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya' && $data.url_lvl_3 == 'gallery-villa-rodnaya'}
+<div class="content-item {$contentClass}">
+		<div class="wrapper">                                
+			<div class="the-content">
+				<h1 class="entry-title">Gallery - Villa Rodnaya</h1>
+				{get_album vid="P00154"}
+				<ul class="gallery-container">
+					{section name=g loop=$gallery}
+					<li>
+						<a rel="gallery" href="{$gallery[g].path}/{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+							<img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="{$gallery[g].path}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload"  />
+							<p>{$gallery[g].title}</p>
+						</a>
+					</li>
+					{/section}
+				</ul>
+				<div class="gallery-pagination">
+				{if $data.cur_page > 1}
+				<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+				{/if}
+				{section name=pg loop=$data.num_pages}
+				{if $data.cur_page == $smarty.section.pg.index+1}
+				<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+				{else}
+				<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+				{/if}
+				{/section}
+				{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+				<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				{/if}
+				</div>
+			</div>
+		</div>
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya' && $data.url_lvl_3 == 'rates-villa-rodnaya'}
+<div class="content-item {$contentClass} rates">
+		<div class="wrapper">                                
+			<div class="the-content">
+				<h1 class="entry-title">Rates - Villa Rodnaya</h1>
+				{include file="part-guarantee.html"}
+				{rates vid="P00154" folder=$data.theme}
+				{$content}
+			</div>
+		</div>
+</div>
+{/if}
+
+
+{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya' && $data.url_lvl_3 == 'explore-villa-rodnaya'}
+<div class="content-item {$contentClass} explore">
+
+	<div class="wrapper subtitle">                                
+		<div class="the-content ">
+			<h1 class="entry-title">Explore</h1>
+		</div>
+	</div>
+	<!-- Villa Layout -->
+	<!-- Living Areas -->
+	<!-- Bedroom -->
+	{include file="content-fragment.html"} 
+	
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya' && $data.url_lvl_3 == 'experience-the-villa'}
+<div class="content-item {$contentClass} experience">
+
+	<div class="wrapper subtitle">                                
+		<div class="the-content ">
+			<h1 class="entry-title">Experience</h1>						
+		</div>
+	</div>
+	<!-- Dining -->
+	<!-- Families -->
+	<!-- Gym -->
+	<!-- Spa -->
+	{include file="content-fragment.html"} 
+				
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya' && $data.url_lvl_3 == 'quick-facts'}
+<div class="content-item {$contentClass} quick-facts">
+	<div class="wrapper">                                
+		<div class="the-content ">
+			<h1 class="entry-title">Quick Facts</h1>
+			{parsedata folder=$data.theme cache="P00154" content="QF"}								
+			 {if 'SubContents'|array_key_exists:$content[0]}
+				<div class="group">
+					<div class="half">
+					{section name=s loop=7}
+					<div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower|replace:'/':'-'|lower}">
+						<strong>{$content[0].SubContents[s].Heading}</strong>
+						{$content[0].SubContents[s].Description}
+					</div>
+					{/section}
+					</div>
+
+					<div class="half"> 
+					{section name=s start=7 loop=$content[0].SubContents}
+					{* if $smarty.section.s.index neq $smarty.section.s.last *}
+					<div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|replace:'/':'-'|lower}">
+						<strong>{$content[0].SubContents[s].Heading}</strong>
+						{$content[0].SubContents[s].Description}
+					</div>
+					{* /if *}
+					{/section}
+					</div>
+			   </div>  
+			{/if}
+		</div>
+	</div>
+</div>
+{/if}

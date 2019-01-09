@@ -1,0 +1,527 @@
+{if $data.page|in_array:['about-villa-the-beji']}
+<div class="content-item odd about" id="about">
+    <div class="wrapper">
+        <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+            <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc regex="default"}
+                {section name=s loop=$contentPart}
+                {$contentPart[s]}
+                {/section}
+
+            {/if}
+
+            {if 'SubContents'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents}
+                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+
+            {/if} 
+        </div>
+    </div>
+    <div class="wrapper wrapper-wide">   
+		<div class="group">
+			<div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa The Beji - Laze away in luxury.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Villa%20The%20Beji%20-%20Laze%20away%20in%20luxury.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Villa%20The%20Beji%20-%20Laze%20away%20in%20luxury.jpg 1920w" alt="Villa The Beji - Laze away in luxury" class="lazyload" />        
+			</div>
+			<div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa The Beji - Guest suite 6 balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Villa%20The%20Beji%20-%20Guest%20suite%206%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Villa%20The%20Beji%20-%20Guest%20suite%206%20balcony.jpg 1920w" alt="Villa The Beji - Guest suite 6 balcony" class="lazyload" />      
+			</div>
+		</div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+	<div class="wrapper">
+		<h1 class="entry-title"><span>{$data.heading}</span></h1> 
+	</div>
+	
+	<div class="wrapper wrapper-wide">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa The Beji - Flower decoration.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20The%20Beji%20-%20Flower%20decoration.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20The%20Beji%20-%20Flower%20decoration.jpg 1920w" alt="Villa The Beji - Flower decoration" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa The Beji - Wedding dress.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20The%20Beji%20-%20Wedding%20dress.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20The%20Beji%20-%20Wedding%20dress.jpg 1920w" alt="Villa The Beji - Wedding dress" class="lazyload" />
+			</div>
+		</div>
+	</div>
+    <div class="wrapper">		
+        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>"] explode="</p>"} 
+			{section name=s loop=$contentPart max=2}
+				<p>{$contentPart[s]|replace:'<br />': ''}</p>
+			{/section}
+
+        {if 'desc'|array_key_exists:$content[0]}    
+		<div class="group">			   
+				<ul class="capacity">
+					{section name=s loop=$contentPart start=2 }
+						{contentpart content=$contentPart[s] explode="<br />"} 
+						{section name=s loop=$contentPart}
+							<li>{$contentPart[s]|replace:['<p>','</p>']:['', '']}</li>
+						{/section}
+					{/section}
+
+				</ul>
+				
+				 
+				 <div class="guidelines">
+					{contentpart content=$content[0].desc strip=["<p>"] explode="</p>"} 
+					{section name=s loop=$contentPart start=3}
+						
+						{contentpart content=$contentPart[s] regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+						{section name=s loop=$contentPart start=1}
+							{$contentPart[s]|replace:'<br />': ''}
+						{/section} 
+					{/section}
+				</div>
+				
+				<div class="clear"></div>
+			{/if}
+
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+			{/section}
+
+		
+		</div>
+		
+		{/if}
+    </div>
+	<div class="wrapper wrapper-wide">
+		<div class="img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa The Beji - Flower.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa The Beji - Flower.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20The%20Beji%20-%20Flower.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20The%20Beji%20-%20Flower.jpg 1920w" alt="Villa The Beji - Flower" class="lazyload" />
+		</div>
+	</div>
+	
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+    <div class="wrapper">   
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        </div>
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+    <div class="wrapper">
+        <div class="the-content">
+           
+            {parsedata folder=$data.theme cache=$data.cache content="LVA"}
+            <h2 class="entry-title"><span>Living Areas</span></h2>                
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc explode="<br /><br />"}
+                {section name=s loop=$contentPart}
+                {$contentPart[s]}
+                {/section}
+
+            {/if}
+
+            {if 'SubContents'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {contentpart content=$content[0].SubContents[s].Description explode="<br /><br />"}
+                    {section name=sc loop=$contentPart}
+                    {$contentPart[sc]}
+                    {/section}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+
+            {/if} 
+        </div>
+    </div>
+    <div class="wrapper wrapper-wide">   
+		<div class="group">
+			<div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa The Beji - Comfortable living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa The Beji - Comfortable living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20The%20Beji%20-%20Comfortable%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20The%20Beji%20-%20Comfortable%20living%20area.jpg 1920w" alt="Villa The Beji - Comfortable living area" class="lazyload" />        
+			</div>
+			<div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa The Beji - Guests suite 4 balcony.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa The Beji - Guests suite 4 balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20The%20Beji%20-%20Guests%20suite%204%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20The%20Beji%20-%20Guests%20suite%204%20balcony.jpg 1920w" alt="Villa The Beji - Guests suite 4 balcony" class="lazyload" />      
+			</div>
+		</div>
+    </div>
+	 
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+
+	<div class="wrapper">
+        <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+            <h2 class="entry-title"><span>Bedrooms</span></h2>   
+        </div>
+    </div>   
+    
+    <div class="wrapper wrapper-wide">
+		<div class="img">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa The Beji - Master suite setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa The Beji - Master suite setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20The%20Beji%20-%20Master%20suite%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20The%20Beji%20-%20Master%20suite%20setting.jpg 1920w" alt="Villa The Beji - Master suite setting" class="lazyload" />
+        </div>       
+    </div>
+
+	<div class="wrapper">
+        <div class="the-content">
+                 
+            {if 'desc'|array_key_exists:$content[0]}
+                {$content[0].desc}
+            {/if}
+
+            {if 'SubContents'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {contentpart content=$content[0].SubContents[s].Description explode="<br /><br />"}
+                    {section name=sc loop=$contentPart}
+                    {$contentPart[sc]} 
+                    {/section}
+                   
+                {/section}
+
+            {/if} 
+        </div>
+    </div>
+            
+    <div class="wrapper wrapper-wide">
+        
+        <div class="group">
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa The Beji - Guest suite 6.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa The Beji - Guest suite 6.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20The%20Beji%20-%20Guest%20suite%206.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20The%20Beji%20-%20Guest%20suite%206.jpg 1920w" alt="Villa The Beji - Guest suite 6" class="lazyload" />
+            </div>
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa The Beji - Guests suite 3 twin beds.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa The Beji - Guests suite 3 twin beds.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20The%20Beji%20-%20Guests%20suite%203%20twin%20beds.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20The%20Beji%20-%20Guests%20suite%203%20twin%20beds.jpg 1920w" alt="Villa The Beji - Guests suite 3 twin beds" class="lazyload" />
+            </div>
+        </div>
+    </div>   
+    	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+        <div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+			<h1 class="entry-title"><span>Staff</span></h1>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			
+        </div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+			<dl class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+		<div class="clear"></div>
+    </div>
+    <div class="wrapper wrapper-wide">
+        <div class="group">
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa The Beji - Our chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20The%20Beji%20-%20Our%20chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20The%20Beji%20-%20Our%20chef.jpg 1920w" alt="Villa The Beji - Our chef" class="lazyload" />
+            </div>
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa The Beji - Our friendly staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20The%20Beji%20-%20Our%20friendly%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20The%20Beji%20-%20Our%20friendly%20staff.jpg 1920w" alt="Villa The Beji - Our friendly staff" class="lazyload" />
+            </div>
+        </div>
+    </div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+        <div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+			<h1 class="entry-title"><span>Dining</span></h1>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc strip=[] explode="<br />"}
+				{section name=s loop=$contentPart}
+				{$contentPart[s]}
+				{/section}
+
+			{/if}
+			
+        </div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents}
+                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+
+            {/if} 
+		<div class="clear"></div>
+    </div>
+    <div class="wrapper wrapper-wide">
+        <div class="group">
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa The Beji - Dining table setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20The%20Beji%20-%20Dining%20table%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20The%20Beji%20-%20Dining%20table%20setup.jpg 1920w" alt="Villa The Beji - Dining table setup" class="lazyload" />
+            </div>
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa The Beji - BBQ prep.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20The%20Beji%20-%20BBQ%20prep.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20The%20Beji%20-%20BBQ%20prep.jpg 1920w" alt="Villa The Beji - BBQ prep" class="lazyload" />				
+            </div>
+        </div>
+    </div>   
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+        <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+            <h1 class="entry-title"><span>Families</span></h1>     
+                 
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc explode="<br /><br />"}
+                {section name=s loop=$contentPart}
+                {$contentPart[s]}
+                {/section}
+
+            {/if}
+
+            {if 'SubContents'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents}
+                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+
+            {/if} 
+                 
+        </div>
+    </div>
+    <div class="wrapper wrapper-wide">
+        <div class="group">
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa The Beji - Enjoy playing at the lawn.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20The%20Beji%20-%20Enjoy%20playing%20at%20the%20lawn.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20The%20Beji%20-%20Enjoy%20playing%20at%20the%20lawn.jpg 1920w" alt="Villa The Beji - Enjoy playing at the lawn" class="lazyload" />
+            </div>
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa The Beji - Fun time in the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20The%20Beji%20-%20Fun%20time%20in%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20The%20Beji%20-%20Fun%20time%20in%20the%20pool.jpg 1920w" alt="Villa The Beji - Fun time in the pool" class="lazyload" />
+            </div>
+        </div>
+    </div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+        <div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="SPA"}
+			<h1 class="entry-title"><span>Spa</span></h1>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			
+        </div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+			<dl class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+		<div class="clear"></div>
+    </div>
+    <div class="wrapper wrapper-wide">
+        <div class="group">
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa The Beji - Spa Massage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20The%20Beji%20-%20Spa%20Massage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20The%20Beji%20-%20Spa%20Massage.jpg 1920w" alt="Villa The Beji - Spa Massage" class="lazyload" />
+            </div>
+            <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa The Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa The Beji - Complements relax.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20The%20Beji%20-%20Complements%20relax.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20The%20Beji%20-%20Complements%20relax.jpg 1920w" alt="Villa The Beji - Complements relax" class="lazyload" />
+            </div>
+        </div>
+    </div>
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['canggu-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The Locale</span></h2>
+            
+        <div class="map_div" id="map_div_locale"></div>
+        
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+                {$contentPart[s]}
+            {/section}
+
+        {/if}
+        
+        </div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+            <dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+		<div class="clear"></div>
+    </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['canggu-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h2 class="entry-title"><span>Things to Do</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc regex="default"}          
+            {section name=s loop=$contentPart max=1}
+				{$contentPart[0]} 
+            {/section}
+        {/if}
+         
+        </div> 
+    </div>
+    <div class="wrapper">
+        <div class="group">
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc|replace:"</ul><ul>":"" regex="/<ul>(.*?)<\/ul>/s"}
+            {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+            {if $smarty.section.s.index mod 2}
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/The%20Beji%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/The%20Beji%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            {else}
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/The%20Beji%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/The%20Beji%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            {/if}
+            {/section}
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+        {/if}
+        </div>
+    </div>
+</div>
+{/if}

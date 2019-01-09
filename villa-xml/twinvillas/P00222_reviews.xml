@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <SDate>2018-10-04T00:00:00+08:00</SDate>
+    <EDate>2018-10-04T00:00:00+08:00</EDate>
+    <RHighlight><p>The total serenity of South Villa combined with its vibrant seafront location and sunset views makes it the place of tropical holiday dreams. This is a thoughtfully designed villa that really makes the most of its fabulous beachfront location. Open, bright and breezy – we were happy just to relax poolside and let every worry wash away with sound of the ocean waves.</p></RHighlight>
+    <RSurroundArea />
+    <VillaID>P00222</VillaID>
+    <ROverallComments><p>Even before we arrived at South Villa, as we drove along the quiet coconut-grove lined coastal roads of Natai Beach we knew we were in store for a peaceful holiday surrounded by nature. Somehow this incredibly long and idyllic stretch of sand has escaped the tourist crowds, so we felt like we’d really discovered a secret treasure. </p><p>The villa’s design is modern and fresh, and its glass frontage, vaulted roof and subtle tones really capture the Andaman seaside’s magical light and colours. It’s a very versatile villa, too, with sumptuous lounging areas inside and out for those who simply want to unwind, while those wanting a more active holiday could make use of the villa’s kayaks, bicycles, swimming pool and beach volleyball equipment. And if five bedrooms aren’t enough, groups and extended families could book this together with next-door North Villa for a 10-bedroom retreat. Sliding doors connect the two villa’s living areas.&nbsp; </p><p>Our only regret is that our visit was too brief to enjoy all that the villa has to offer – we missed the chance to paddle around in the kayaks, and we would have loved to try more of the chef’s amazing Thai meals!</p></ROverallComments>
+    <RUnpleasantSurprise><p>Families with young children will need to keep a close watch on them on the terrace since the pool lacks a safety fence.&nbsp; Having a common lawn area with North Villa means that South Villa guests might have to share the space with others if they don’t book both villas.</p></RUnpleasantSurprise>
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>8.20</RIOverAll>
+    <RICharacter>8</RICharacter>
+    <RILocation>9</RILocation>
+    <RIOutsideArea>8</RIOutsideArea>
+    <RILivingArea>8</RILivingArea>
+    <RIKitchen>8</RIKitchen>
+    <RIBedRm>8</RIBedRm>
+    <RIBathRm>8</RIBathRm>
+    <RIFacility>8</RIFacility>
+    <RIStaff>9</RIStaff>
+    <RIValue>8</RIValue>
+    <RIDate>2018-10-04T00:00:00+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+</REVIEWS>

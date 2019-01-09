@@ -1,0 +1,353 @@
+[
+	{
+		"page_title":"",
+		"label":"Homepage",
+		"page_header":"Welcome to <span>Seseh Beach Villas</span>",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":""
+	},
+	{
+		"page_title":"About the Villas",
+		"label":"Explore",
+		"page_header":"About Seseh Beach Villas",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+        "villaID":"sesehbeachvillas",
+        "sub_villa":"about-seseh-beach-villas",
+		"page_identifier":"about-seseh-beach-villas",
+		"children":[
+					{
+						"page_title":"Seseh Beach Villas",
+						"label":"About the Villas",
+						"page_header":"Seseh Beach Villas",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"sesehbeachvillas",
+						"page_identifier":"about-seseh-beach-villas",
+						"level":"top",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Seseh Beach Villa I",
+						"label":"Seseh Beach Villa I",
+						"page_header":"Seseh Beach Villa I",
+						"template":"page-template.html",
+						"content_id":"",
+						"villaID":"P00004",
+						"parent":"about-seseh-beach-villas",
+						"level":"sub",
+						"page_identifier":"seseh-beach-villa-i",
+						"body_class":"explore"
+					},	
+					{
+						"page_title":"Seseh Beach Villa II",
+						"label":"Seseh Beach Villa II",
+						"page_header":"Seseh Beach Villa II",
+						"template":"page-template.html",
+						"content_id":"",
+						"villaID":"P00006",
+						"parent":"about-seseh-beach-villas",
+						"level":"sub",
+						"page_identifier":"seseh-beach-villa-ii",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Connecting Villas",
+						"label":"Connecting Villas",
+						"page_header":"Connecting Villas",
+						"template":"page-template.html",
+						"content_id":"CONVILL",
+						"villaID":"sesehbeachvillas",
+						"parent":"about-seseh-beach-villas",
+						"level":"sub",
+						"page_identifier":"connecting-villas",
+						"body_class":"about"
+					}
+		],
+		"menu_location":"main",
+		"special_menu":"true",
+		"what":"about-seseh-beach-villas",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+					{
+						"page_title":"Photo Gallery",
+						"label":"Photo Gallery",
+						"page_header":"Gallery",
+						"template":"photo-gallery.html",
+						"content_id":"",
+						"page_identifier":"photo-gallery",
+						"level":"top",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"floorplan"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Weddings",
+		"label":"Weddings",
+		"page_header":"Weddings",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"weddings",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"weddings"
+	},
+	{
+		"page_title":"Seseh Experience",
+		"label":"Location",
+		"page_header":"Seseh Experience",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"seseh-beach-experience",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"locale"
+	},
+	{
+		"page_title":"Staff",
+		"label":"Experience",
+		"page_header":"Staff",
+		"template":"page-template.html",
+		"content_id":"STAFF",
+		"page_identifier":"staff",
+		"children":[
+                    {
+                        "page_title":"Staff",
+                        "label":"Staff",
+                        "page_header":"Staff",
+                        "template":"page-template.html",
+                        "content_id":"STAFF",
+                        "page_identifier":"staff",
+                        "level":"top",
+                        "body_class":"staff experience"
+                    },
+                    {
+                        "page_title":"Dining",
+                        "label":"Dining",
+                        "page_header":"Dining",
+                        "template":"page-template.html",
+                        "content_id":"DNNG",
+                        "page_identifier":"dining",
+                        "level":"top",
+                        "body_class":"dining experience"
+                    },
+                    {
+                        "page_title":"Families",
+                        "label":"Families",
+                        "page_header":"Families",
+                        "template":"page-template.html",
+                        "content_id":"FAM",
+                        "page_identifier":"families",
+                        "level":"top",
+                        "body_class":"families experience"
+                    },
+                    {
+                        "page_title":"Spa",
+                        "label":"Spa",
+                        "page_header":"Spa",
+                        "template":"page-template.html",
+                        "content_id":"SPAGYM",
+                        "page_identifier":"spa",
+                        "level":"top",
+                        "body_class":"spa experience"
+                    }
+        ],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"staff experience"
+	},
+	{
+		"page_title":"Guest Reviews",
+		"label":"Reviews",
+		"page_header":"Guest Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"children":[
+						{
+							"page_title":"Guest reviews",
+							"label":"Guest Reviews",
+							"page_header":"Guest reviews",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"guest-reviews",
+							"level":"top",
+							"body_class":"guest-reviews"
+							
+						},
+						{
+							"page_title":"Press",
+							"label":"Press",
+							"page_header":"Press",
+							"template":"page-template.html",
+							"content_id":"TTD",
+							"page_identifier":"press",
+							"level":"sub",
+							"parent":"guest-reviews",
+							"body_class":"press"
+						}		
+					],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"guest-reviews"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},	
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links" 
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Villa Layout",
+		"template":"page-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"",
+		"body_class":"villa-layout explore"
+	},
+	{
+		"page_title":"Bedrooms",
+		"label":"Bedrooms",
+		"page_header":"Bedrooms",
+		"template":"page-template.html",
+		"content_id":"BDR",
+		"page_identifier":"bedrooms",
+		"menu_location":"",
+		"body_class":"bedrooms explore"
+	},
+	{
+		"page_title":"Living Areas",
+		"label":"Living Areas",
+		"page_header":"Living Areas",
+		"template":"page-template.html",
+		"content_id":"LVA",
+		"page_identifier":"living-areas",
+		"menu_location":"",
+		"body_class":"living-areas explore"
+	},	
+	{
+		"page_title":"Quick Facts",
+		"label":"Quick Facts",
+		"page_header":"Quick Facts",
+		"template":"page-template.html",
+		"content_id":"QF",
+		"villaID":"sesehbeachvillas",
+		"page_identifier":"quick-facts",
+		"menu_location":"",
+		"body_class":"quick-facts explore"
+	},
+	{
+		"page_title":"The Locale",
+		"label":"The Locale",
+		"page_header":"The Locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"menu_location":"",
+		"body_class":"the-locale locale"
+	},
+	{
+		"page_title":"Things to Do",
+		"label":"Things to Do",
+		"page_header":"Things to Do",
+		"template":"page-template.html",
+		"content_id":"TTD",
+		"page_identifier":"things-to-do",
+		"menu_location":"",
+		"body_class":"things-to-do locale"
+	}
+]
+		

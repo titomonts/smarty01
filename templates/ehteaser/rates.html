@@ -1,0 +1,25 @@
+<div id="rates-tabs" class="tabs">
+    <ul>
+    	{section name=t loop=$data.complex_calendars}
+        <li><a href="#rates-{$data.complex_calendars[t].site_villa_id}">{$data.complex_calendars[t].site_villa_name}</a></li>
+        {/section}
+        <li><a href="#rates-{$data.complex_calendars[0].site_estate_id}">{$data.teaser_data.Villa.Info[0].Name}</a></li>
+    </ul>
+    {section name=c loop=$data.complex_calendars}
+    <div id="rates-{$data.complex_calendars[c].site_villa_id}">
+        {rates vid={$data.complex_calendars[c].site_villa_id} folder=$data.theme}
+    </div>
+    {/section}
+    <div id="rates-{$data.complex_calendars[0].site_estate_id}">
+        {rates vid={$data.complex_calendars[0].site_estate_id} folder=$data.theme}
+    </div>
+</div>
+
+<script type='text/javascript' src='/js/jquery-1.7.1.js'></script>
+<script type='text/javascript' src='/js/jquery-ui-1.8.js'></script>
+{literal}
+<script>
+$('#rates-tabs').tabs();
+$('#rates-tabs, #rates-tabs ul, #rates-tabs div, #rates-tabs li').removeClass('ui-helper-clearfix ui-widget-header ui-corner-top ui-corner-bottom ui-helper-reset ui-corner-all ui-widget ui-widget-content');
+</script>
+{/literal}

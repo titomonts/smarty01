@@ -1,0 +1,173 @@
+{include file="header.html"}
+
+<body class="home page-template page-template-home-page page-template-home-page-php page page-id-8 idq-no-js">
+{$gtm}        
+
+        <a class="promo-rates" href="rates.html"><span>Promo Rates</span></a>
+                <!--<div id="flags">
+                <ul>
+                <li><a href="#" target="_blank"><img src="http://www.deavillas-bali.com/wp-content/themes/deavillas/images/fr.png" /></a></li>
+                <li><a href="#" target="_blank"><img src="http://www.deavillas-bali.com/wp-content/themes/deavillas/images/tw.png" /></a></li>
+                <li><a href="#" target="_blank"><img src="http://www.deavillas-bali.com/wp-content/themes/deavillas/images/rrc.png" /></a></li>
+            </ul>
+        </div>-->
+        <div class="main-wrapper" id="main-wrapper">
+            <div class="topheader">	
+                <div class="header">  
+                    {include file="menu.html"}		
+                </div>
+            </div>
+	<div id="slider_wrapper">
+
+	 <div id="idq-hacc" class="idq-hacc wp-night" style="" rel="wp-night">
+     	<div style="position: absolute; top : -10000px;" class="idq-hacc-holder">
+        	<ul class="hpanels">
+            	<li class="hpanel">
+                	<h3 class="wp-tab-title">Villa Radha <span class="slide-count">#1</span></h3>
+                    <div style="background : url('{$data.home_uri}/resources/uploads/sites/74/2014/06/radha3.jpg');-moz-background-size : cover; -webkit-background-size : cover; -o-background-size : cover; -ms-background-size : cover; background-size : cover; ;" class="wp-tab-content">
+                    	<p><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="radha-villa-layout"}">VILLA RADHA<br />1 BEDROOM</a></p>
+					</div><!-- end div.wp-tab-content -->
+                </li> 
+                <li class="hpanel">
+                	<h3 class="wp-tab-title">Villa AMY<span class="slide-count">#2</span></h3>
+                    <div style="background : url('{$data.home_uri}/resources/uploads/sites/74/2014/06/amy3.jpg');-moz-background-size : cover; -webkit-background-size : cover; -o-background-size : cover; -ms-background-size : cover; background-size : cover; ;" class="wp-tab-content">
+                    	<p><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="amy-villa-layout"}">VILLA AMY<br />3 BEDROOMS</a></p>
+					</div><!-- end div.wp-tab-content -->
+                </li>
+                <li class="hpanel">
+                	<h3 class="wp-tab-title">Villa sati<span class="slide-count">#3</span></h3>
+                    <div style="background : url('{$data.home_uri}/resources/uploads/sites/74/2014/06/sati3.jpg');-moz-background-size : cover; -webkit-background-size : cover; -o-background-size : cover; -ms-background-size : cover; background-size : cover; ;" class="wp-tab-content">
+                    	<p><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="sati-villa-layout"}">VILLA SATI<br />4 BEDROOMS</a></p>
+					</div><!-- end div.wp-tab-content -->
+                 </li>
+                 <li class="hpanel">
+                 	<h3 class="wp-tab-title">Villa Sarasvati<span class="slide-count">#4</span></h3>
+                    <div style="background : url('{$data.home_uri}/resources/uploads/sites/74/2014/06/sarasvati3.jpg');-moz-background-size : cover; -webkit-background-size : cover; -o-background-size : cover; -ms-background-size : cover; background-size : cover; ;" class="wp-tab-content">
+                    	<p><a hef="{$data.home_uri}/{seo_optimize urls=$seo_urls page="sarasvati-villa-layout"}">VILLA SARASVATI<br />4 BEDROOMS</a></p>
+					</div><!-- end div.wp-tab-content -->
+                 </li>
+			</ul>
+		</div><!-- end div.idq-hacc-holder -->
+        <div style="height: 490;" class="idq-loading"></div>
+	</div><!-- end div.idq-hacc -->
+    {literal}
+	<script type="text/javascript"> 
+		jQuery( function( $ ) { 
+			$( '#idq-hacc' ).hAcc( {	
+									"height":"490",
+									"minheight":false,
+									"event":"mouseover",
+									"autoplay":false,
+									"interval":"3",
+									"reverse":false,
+									"starton":"2",
+									"mousewheel":false,
+									"keyboard":false,
+									"hashchange":true,
+									"mode":"horizontal",
+									"hCalcMethod":"loose",
+									"dynaFit":true,
+									"controlsType":"player",
+									"bgs":[
+											"\/resources\/uploads\/sites\/74\/2014\/06\/radha3.jpg",
+											"\/resources\/uploads\/sites\/74\/2014\/06\/amy3.jpg",
+											"\/resources\/uploads\/sites\/74\/2014\/06\/sati3.jpg",
+											"\/resources\/uploads\/sites\/74\/2014\/06\/sarasvati3.jpg"
+											],
+									"pauseon":{
+												"hover":false,
+												"focus":false,
+												"panelselect":false
+											}
+									} 
+								); 
+			});
+    </script> 
+	{/literal}
+	</div>
+
+	<div class="Middle-content-wrapper">
+
+	<div class="Middle-content">
+
+	<div id="welcome-text">
+	<h2 style="text-align: center;">{$data.heading}</h2>
+    
+	{if 'desc'|array_key_exists:$content[0]}
+        {$content[0].desc}
+    {/if}
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+    {/if}
+
+	</div>
+
+	<div class ="sidebar" id="execphp-4"><h4>For Groups &#038; Events</h4>			
+			<div class="execphpwidget">
+                <p>
+                    The four villas can either be linked or remain totally separate and private, thereby offering guests 12, 11, 9, 8, 7, 5, 4, 3 and 1-bedroom renting options. 
+                </p>
+			</div>
+	</div>		
+        
+        <div class="villa-page-img-home">
+        	<div class ="page_bottom_sidebar" id="widget_sp_image-2">
+            	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="radha-villa-layout"}" id="" target="_self" class="widget_sp_image-image-link" title="">
+                	<img width="165" height="290" alt="" class="attachment-full" style="max-width: 100%;" src="/resources/uploads/sites/74/2014/06/Villa-sarasvati-4-bedrooms.jpg" />
+                </a>
+                <div class="widget_sp_image-description">
+                    <p align="center" class="onthumbs">
+                        <span class="thumb-caps">Villa Radha</span>
+                        <br />1 bedroom
+                    </p>
+				</div>
+          	</div>
+			<div class ="page_bottom_sidebar" id="widget_sp_image-3">
+            	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="amy-villa-layout"}" id="" target="_self" class="widget_sp_image-image-link" title="">
+                	<img width="165" height="290" alt="" class="attachment-full" style="max-width: 100%;" src="/resources/uploads/sites/74/2014/06/VILLA-AMY-3-BDROOMS.jpg" />
+                </a>
+                <div class="widget_sp_image-description" >
+                	<p align="center" class="onthumbs">
+                    	<span class="thumb-caps">VILLA AMY</span>
+                        <br />3 BEDROOMS
+                    </p>
+				</div>
+           	</div>
+			<div class ="page_bottom_sidebar" id="widget_sp_image-4">
+            	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="sati-villa-layout"}" id="" target="_self" class="widget_sp_image-image-link" title="">
+                	<img width="165" height="290" alt="" class="attachment-full" style="max-width: 100%;" src="/resources/uploads/sites/74/2014/06/Villa-Sati-4-bedrooms.jpg" />
+                </a>
+                <div class="widget_sp_image-description" >
+                	<p align="center" class="onthumbs">
+                    	<span class="thumb-caps">Villa Sati</span>
+                        <br />4 Bedrooms
+                    </p>
+				</div>
+         	</div>
+			<div class ="page_bottom_sidebar" id="widget_sp_image-5">
+            	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="sarasvati-villa-layout"}" id="" target="_self" class="widget_sp_image-image-link" title="">
+                	<img width="165" height="290" alt="" class="attachment-full" style="max-width: 100%;" src="/resources/uploads/sites/74/2014/06/Villa-Radha-4-Bedrooms.jpg" />
+                </a>
+                <div class="widget_sp_image-description" >
+                	<p align="center" class="onthumbs">
+                    	<span class="thumb-caps">Villa Sarasvati</span>
+                        <br />4 Bedrooms
+                    </p>
+				</div>
+           	</div>
+		</div>
+	</div>
+	
+	</div>
+	</div> 
+{include file="footer.html"}

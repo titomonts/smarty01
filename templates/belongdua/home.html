@@ -1,0 +1,80 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+                                {section name=s loop=$contentPart}
+                                <p>{$contentPart[s]|replace:'<br />':''}</p>
+                                {/section}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <ul class="poi">
+                            <li id="poi-1">Honeymoon<br/> hideaway</li>
+                            <li id="poi-2">Walk<br/> to the beach</li>
+                            <li id="poi-3">2 ensuite<br/> bedrooms</li>
+                            <li id="poi-4">Traditional<br/> style</li>
+                            <li id="poi-5">Fully<br/> staffed</li>
+                        </ul> 
+                    
+                    </div>
+                </div>  
+                <div class="content-item">
+                    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Belong Dua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Belong Dua - The poolside belong.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Belong%20Dua%20-%20The%20poolside%20belong.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Belong%20Dua%20-%20The%20poolside%20belong.jpg 1920w" alt="Villa Belong Dua - The poolside belong" class="lazyload"></div>
+                    <div class="wrapper">
+                        <h2>Immersed in village life </h2>
+                        <p>The village still retains the customs and culture of old Bali. Here, you will see the rice being planted and harvested in the fields, fishing boats returning with the night’s catch, as well as frequent, colourful processions to the large beachside temple.</p>
+                    </div>
+                    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Belong Dua.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Belong Dua - Making a traditional offering.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Belong%20Dua%20-%20Making%20a%20traditional%20offering.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Belong%20Dua%20-%20Making%20a%20traditional%20offering.jpg 1920w" alt="Villa Belong Dua - Making a traditional offering" class="lazyload"></div>
+                    <div class="wrapper">
+                        <h2>Brimming with Balinese charm </h2>
+                        <p>Villa Belong Dua is an ideal destination for those who want to get lost in the beauty of the countryside and engage with the local people to gain privileged insights into the Balinese Hindu lifestyle: the people of Seseh encourage and welcome congenial visitors.</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-belong-dua', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

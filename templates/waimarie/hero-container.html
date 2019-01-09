@@ -1,0 +1,75 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Paradise%20dream%20view%20edited.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Paradise%20dream%20view%20edited.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Paradise%20dream%20view%20edited.jpg 1920w" alt="Waimarie - Paradise dream view edited" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Beach%20swing%20in%20front%20of%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Beach%20swing%20in%20front%20of%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Beach%20swing%20in%20front%20of%20the%20villa.jpg 1920w" alt="Waimarie - Beach swing in front of the villa" class="lazyload" /></div>
+		<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Astonishing%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Astonishing%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Astonishing%20landscape.jpg 1920w" alt="Waimarie - Astonishing landscape" class="lazyload" /></div>
+		<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Dedicated%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Dedicated%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Dedicated%20staff.jpg 1920w" alt="Waimarie - Dedicated staff" class="lazyload" /></div>
+       
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-waimarie'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Perfect%20villa%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Perfect%20villa%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Perfect%20villa%20features.jpg 1920w" alt="Waimarie - Perfect villa features" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20View%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20View%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20View%20from%20the%20pool.jpg 1920w" alt="Waimarie - View from the pool" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Fisherman%20boat.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Fisherman%20boat.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Fisherman%20boat.jpg 1920w" alt="Waimarie - Fisherman boat" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Wall%20sculpture.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Wall%20sculpture.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Wall%20sculpture.jpg 1920w" alt="Waimarie - Wall sculpture" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Spectacular%20view%20from%20the%20top.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Spectacular%20view%20from%20the%20top.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Spectacular%20view%20from%20the%20top.jpg 1920w" alt="Waimarie - Spectacular view from the top" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Weddings.jpg 1920w" alt="Waimarie - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Private%20beach%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Private%20beach%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Private%20beach%20loungers.jpg 1920w" alt="Waimarie - Private beach loungers" class="lazyload" />
+        
+        {elseif $data.page == 'plastic-free'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Garden%20statue.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Garden%20statue.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Garden%20statue.jpg 1920w" alt="Waimarie - Garden statue" class="lazyload" />
+		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Pool%20perfections.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Pool%20perfections.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Pool%20perfections.jpg 1920w" alt="Waimarie - Pool perfections" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Dining%20and%20kitchen%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Dining%20and%20kitchen%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Dining%20and%20kitchen%20area.jpg 1920w" alt="Waimarie - Dining and kitchen area" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Staff%20service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Staff%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Staff%20service.jpg 1920w" alt="Waimarie - Staff service" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%205%20stars%20service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%205%20stars%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%205%20stars%20service.jpg 1920w" alt="Waimarie - 5 stars service" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Astonishing%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Astonishing%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Astonishing%20landscape.jpg 1920w" alt="Waimarie - Astonishing landscape" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Astonishing%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Astonishing%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Astonishing%20landscape.jpg 1920w" alt="Waimarie - Astonishing landscape" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Villa%20from%20the%20top.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Villa%20from%20the%20top.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Villa%20from%20the%20top.jpg 1920w" alt="Waimarie - Villa from the top" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20King%20guest%20room%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20King%20guest%20room%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20King%20guest%20room%201.jpg 1920w" alt="Waimarie - King guest room 1" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20King%20guest%20room%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20King%20guest%20room%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20King%20guest%20room%201.jpg 1920w" alt="Waimarie - King guest room 1" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20King%20guest%20room%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20King%20guest%20room%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20King%20guest%20room%201.jpg 1920w" alt="Waimarie - King guest room 1" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Waimarie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Wall%20sculpture.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Waimarie%20-%20Wall%20sculpture.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Waimarie%20-%20Wall%20sculpture.jpg 1920w" alt="Waimarie - Wall sculpture" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

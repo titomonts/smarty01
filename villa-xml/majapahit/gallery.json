@@ -1,0 +1,332 @@
+[
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/villa-maya.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_villa-maya.jpg",
+		"alt":"Villa Maya",
+		"title":"Villa Maya"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-living-and-dining.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-living-and-dining.jpg",
+		"alt":"Maya - Living and dining",
+		"title":"Maya - Living and dining"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-garden-pool-sundeck-and-sea.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-garden-pool-sundeck-and-sea.jpg",
+		"alt":"Maya - Garden pool sundeck and sea",
+		"title":"Maya - Garden pool sundeck and sea"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-bridal-suite-dining.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-bridal-suite-dining.jpg",
+		"alt":"Maya - Joglo suite dining",
+		"title":"Maya - Joglo suite dining"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-master-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-master-bedroom.jpg",
+		"alt":"Maya - Master bedroom",
+		"title":"Maya - Master bedroom"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/bathroom-during-day.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_bathroom-during-day.jpg",
+		"alt":"Maya - Bathroom during day",
+		"title":"Maya - Bathroom during day"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-bridal-suite-pool-garden-and-event-space.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-bridal-suite-pool-garden-and-event-space.jpg",
+		"alt":"Maya - Joglo suite pool garden and event space",
+		"title":"Maya - Joglo suite pool garden and event space"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/bathroom-at-night.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_bathroom-at-night.jpg",
+		"alt":"Maya - Bathroom at night",
+		"title":"Maya - Bathroom at night"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/majapahit-entrance.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_majapahit-entrance.jpg",
+		"alt":"Maya - Majapahit entrance",
+		"title":"Maya - Majapahit entrance"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-alfresco-dining.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-alfresco-dining.jpg",
+		"alt":"Maya - Alfresco dining",
+		"title":"Maya - Alfresco dining"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-bale-dining.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-bale-dining.jpg",
+		"alt":"Maya - Bale dining",
+		"title":"Maya - Bale dining"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-bridal-suite-kitchen.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-bridal-suite-kitchen.jpg",
+		"alt":"Maya - Joglo suite kitchen",
+		"title":"Maya - Joglo suite kitchen"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-bridal-suite-view-of-garden.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-bridal-suite-view-of-garden.jpg",
+		"alt":"Maya - Joglo suite view of garden",
+		"title":"Maya - Joglo suite view of garden"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-bridal-suite.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-bridal-suite.jpg",
+		"alt":"Maya - Joglo suite",
+		"title":"Maya - Joglo suite"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-guest-bedroom-1.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-guest-bedroom-1.jpg",
+		"alt":"Maya - Guest bedroom",
+		"title":"Maya - Guest bedroom"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-guest-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-guest-bedroom.jpg",
+		"alt":"Maya - Guest bedroom",
+		"title":"Maya - Guest bedroom"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-master-bedroom-shuttering.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-master-bedroom-shuttering.jpg",
+		"alt":"Maya - Master bedroom shuttering",
+		"title":"Maya - Master bedroom shuttering"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-ocean-sunbags.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-ocean-sunbags.jpg",
+		"alt":"Maya - Ocean sunbags",
+		"title":"Maya - Ocean sunbags"
+	},
+	
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-spa.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-spa.jpg",
+		"alt":"Maya - Spa",
+		"title":"Maya - Spa"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-view-from-within-villa.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-view-from-within-villa.jpg",
+		"alt":"Maya - View from within villa",
+		"title":"Maya - View from within villa"
+	},
+	{
+		"villaID":"MajapahitMaya4BR",
+		"image_src":"/resources/majapahit/gallery/maya/maya-view-of-villa-from-the-sea.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/maya/thumbs/thumbs_maya-view-of-villa-from-the-sea.jpg",
+		"alt":"Maya - View of villa from the sea",
+		"title":"Maya - View of villa from the sea"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-villa.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-villa.jpg",
+		"alt":"Villa Raj",
+		"title":"Villa Raj"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-living-room.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-living-room.jpg",
+		"alt":"Raj - Living room",
+		"title":"Raj - Living room"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-garden-pool-and-bale.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-garden-pool-and-bale.jpg",
+		"alt":"Raj - Garden pool and bale",
+		"title":"Raj - Garden pool and bale"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-dining-room.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-dining-room.jpg",
+		"alt":"Raj - Dining room",
+		"title":"Raj - Dining room"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-master-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-master-bedroom.jpg",
+		"alt":"Raj - Master bedroom",
+		"title":"Raj - Master bedroom"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-bathroom-during-day.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-bathroom-during-day.jpg",
+		"alt":"Raj - Bathroom during day",
+		"title":"Raj - Bathroom during day"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-alfresco-dining.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-alfresco-dining.jpg",
+		"alt":"Raj - Alfresco dining",
+		"title":"Raj - Alfresco dining"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-beach-deck.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-beach-deck.jpg",
+		"alt":"Raj - Living room",
+		"title":"Raj - Living room"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-living-and-stairs-to-master-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-living-and-stairs-to-master-bedroom.jpg",
+		"alt":"Raj - Living and stairs to master bedroom",
+		"title":"Raj - Living and stairs to master bedroom"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-stairs.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-stairs.jpg",
+		"alt":"Raj - Stairs",
+		"title":"Raj - Stairs"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-view-from-sunloungers.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-view-from-sunloungers.jpg",
+		"alt":"Raj - View from sunloungers",
+		"title":"Raj - View from sunloungers"
+	},
+	{
+		"villaID":"Raj",
+		"image_src":"/resources/majapahit/gallery/raj/raj-view-of-villa-from-bale.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/raj/thumbs/thumbs_raj-view-of-villa-from-bale.jpg",
+		"alt":"Raj - View of villa from bale",
+		"title":"Raj - View of villa from bale"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-villa.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-villa.jpg",
+		"alt":"Villa Nataraja",
+		"title":"Villa Nataraja"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-living-room.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-living-room.jpg",
+		"alt":"Nataraja - Living room",
+		"title":"Nataraja - Living room"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-garden-sunloungers.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-garden-sunloungers.jpg",
+		"alt":"Nataraja - Garden sunloungers",
+		"title":"Nataraja - Garden sunloungers"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-dining-room.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-dining-room.jpg",
+		"alt":"Nataraja - Dining room",
+		"title":"Nataraja - Dining room"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-master-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-master-bedroom.jpg",
+		"alt":"Nataraja - Master bedroom",
+		"title":"Nataraja - Master bedroom"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/raj-bathroom-during-day.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_raj-bathroom-during-day.jpg",
+		"alt":"Nataraja - Bathroom during day",
+		"title":"Nataraja - Bathroom during day"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-view-from-master-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-view-from-master-bedroom.jpg",
+		"alt":"Nataraja - View from master bedroom",
+		"title":"Nataraja - View from master bedroom"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-alfresco-dining.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-alfresco-dining.jpg",
+		"alt":"Nataraja - Alfresco dining",
+		"title":"Nataraja - Alfresco dining"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-view-from-guest-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-view-from-guest-bedroom.jpg",
+		"alt":"Nataraja - View from guest bedroom",
+		"title":"Nataraja - View from guest bedroom"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-living-and-stairs-to-master-bedroom.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-living-and-stairs-to-master-bedroom.jpg",
+		"alt":"Nataraja - Living and stairs to master bedroom",
+		"title":"Nataraja - Living and stairs to master bedroom"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-sunloungers-and-bale.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-sunloungers-and-bale.jpg",
+		"alt":"Nataraja - Sunloungers and bale",
+		"title":"Nataraja - Sunloungers and bale"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-view-from-sunloungers.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-view-from-sunloungers.jpg",
+		"alt":"Nataraja - View from sunloungers",
+		"title":"Nataraja - View from sunloungers"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/nataraja-view-of-villa-from-bale.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_nataraja-view-of-villa-from-bale.jpg",
+		"alt":"Nataraja - View of villa from bale",
+		"title":"Nataraja - View of villa from bale"
+	},
+	{
+		"villaID":"Nataraja",
+		"image_src":"/resources/majapahit/gallery/nataraja/raj-beach-deck.jpg",
+		"thumbnail_src":"/resources/majapahit/gallery/nataraja/thumbs/thumbs_raj-beach-deck.jpg",
+		"alt":"Nataraja - Beach deck",
+		"title":"Nataraja - Beach deck"
+	}
+]

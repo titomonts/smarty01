@@ -1,0 +1,492 @@
+{if $data.page|in_array:['about-infinity-blue-phuket']}
+<div class="content-item odd about" id="about">   
+	<div class="wrapper">
+        <div class="the-content">
+			<h1 class="entry-title"><span>About <small>{$data.villa_name}</small></span></h1> 
+			{parsedata folder=$data.theme cache=$data.cache content="ABTV"}					 
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+				{section name=s loop=$contentPart}
+					 {$contentPart[s]}
+					 {if $smarty.section.s.index eq 1}
+						<div class="first-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Infinity%20Blue%20Phuket%20-%20Modern%20villa%20interior.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Infinity%20Blue%20Phuket%20-%20Modern%20villa%20interior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/Infinity%20Blue%20Phuket%20-%20Modern%20villa%20interior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Infinity%20Blue%20Phuket%20-%20Modern%20villa%20interior.jpg 1920w" alt="Infinity Blue Phuket - Modern villa interior" class="lazyload" />
+						</div>					
+					 {/if}		
+					 
+				{/section}
+			{/if}
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+		</div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+		<h1 class="entry-title"><span>{$data.heading}</span></h1>      
+		{parsedata folder=$data.theme cache=$data.cache content="EVT"}		
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc strip=["<p>"] explode="</p>"} 
+			{section name=s loop=$contentPart max=4}
+				<p>{$contentPart[s]|replace:'<br />': ''}</p>
+			{/section}
+    </div>
+
+    <div class="wrapper"> 
+		
+		{if 'desc'|array_key_exists:$content[0]}   
+				<h2>A day to remember</h2>
+				<small>Life together begins at the most beautiful places on earth.</small>
+
+				<div class="group">
+			   
+				<ul class="capacity">
+					{section name=s loop=$contentPart start=4 }
+						{contentpart content=$contentPart[s] explode="<br />"} 
+						{section name=s loop=$contentPart max=2}
+							<li>{$contentPart[s]|replace:['<p>','</p>']:['', '']}</li>
+						{/section}
+					{/section}
+
+				</ul>
+				 <div class="guidelines">
+					{contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+					{section name=s loop=$contentPart}
+						{$contentPart[s]|replace:'<br />': ''}
+					{/section} 
+				</div>
+				
+				<div class="clear"></div>
+			{/if}
+
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+			</div>
+		{/if}
+			
+		<div class="photo-album">
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Infinity Blue Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Infinity Blue Phuket - Wedding 1.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Infinity Blue Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Infinity Blue Phuket - Wedding 2.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Infinity Blue Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Infinity Blue Phuket - Wedding 3.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Infinity Blue Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Infinity Blue Phuket - Wedding 4.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Infinity Blue Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Infinity Blue Phuket - Wedding 5.jpg" class="lazyload"></div>
+		</div>
+		<div class="photo-album-thumbs">
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Infinity Blue Phuket - Wedding 1.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Infinity Blue Phuket - Wedding 2.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Infinity Blue Phuket - Wedding 3.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Infinity Blue Phuket - Wedding 4.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Infinity Blue Phuket - Wedding 5.jpg" class="lazyload"></div>
+		</div>
+		
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Walkways.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Walkways.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Walkways.jpg 1920w" alt="Infinity Blue Phuket - Walkways" class="lazyload" /></div>
+			<div class="half half-content">
+				{parsedata folder=$data.theme cache=$data.cache content="LYT"}
+				<h2 class="entry-title"><span>Villa Layout</span></h2>
+				{if 'desc'|array_key_exists:$content[0]}
+
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart} 
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+
+				{section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</div>
+		</div>
+	</div>
+    <div class="wrapper">   
+        {include file="floorplan.html"}
+    </div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+	
+	<div class="wrapper">   
+        <div class="content-item">
+			<div class="first-img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket%20-%20Living%20area%20layout.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Living%20area%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Living%20area%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Living%20area%20layout.jpg 1920w" alt="Infinity Blue Phuket - Living area layout" class="lazyload" />
+			</div>
+			<h2 class="entry-title"><span>Living Areas</span></h2>
+			{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc}
+				{section name=s loop=$contentPart} 
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			
+			{section name=s loop=$content[0].SubContents}			
+			
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+				
+				{if $smarty.section.s.index eq 0}
+					<div class="second-img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket%20-%20Villa%20pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Villa%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Villa%20pool.jpg 1920w" alt="Infinity Blue Phuket - Villa pool" class="lazyload" />
+					</div>	
+				{/if}
+				
+			{/section}
+		</div>
+    </div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Work%20space%20with%20artwork.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Work%20space%20with%20artwork.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Work%20space%20with%20artwork.jpg 1920w" alt="Infinity Blue Phuket - Work space with artwork" class="lazyload" /></div>
+			<div class="half half-content">
+				<h2 class="entry-title"><span>Bedrooms</span></h2>
+				{parsedata folder=$data.theme cache=$data.cache content="BDR"}				
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart} 
+					<p>{$contentPart[s]}</p>
+					{/section}
+				{/if}
+			</div>
+		</div>
+	</div>
+	
+	<div class="wrapper">
+		<div class="content-item">
+			<div class="img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg 1920w" alt="Infinity Blue Phuket - Modern design guest bedroom" class="lazyload" />				
+			</div>
+			{section name=s loop=$content[0].SubContents}
+				{if $smarty.section.s.index eq 1}
+					<div class="img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket%20-%20Bedroom%20with%20work%20space.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Bedroom%20with%20work%20space.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Bedroom%20with%20work%20space.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Bedroom%20with%20work%20space.jpg 1920w" alt="Infinity Blue Phuket - Bedroom with work space" class="lazyload" />						
+					</div>
+				{/if}
+				{if $smarty.section.s.index eq 2}
+					<div class="img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket%20-%20Guest%20bedroom%20and%20tv.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Guest%20bedroom%20and%20tv.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Guest%20bedroom%20and%20tv.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Guest%20bedroom%20and%20tv.jpg 1920w" alt="Infinity Blue Phuket - Guest bedroom and tv" class="lazyload" />						
+					</div>
+				{/if}
+				{if $smarty.section.s.index eq 3}
+					<div class="img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Infinity%20Blue%20Phuket%20-%20Modern%20design%20guest%20bedroom.jpg 1920w" alt="Infinity Blue Phuket - Modern design guest bedroom" class="lazyload" />
+					</div>
+				{/if}
+				
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}	
+				
+			{/section}
+		</div>
+	</div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+	<div class="wrapper">
+		<div class="the-content">	
+		<h1 class="entry-title"><span>Staff <small>{$data.villa_name}</small></span></h1>
+		{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+		{if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc strip=["<p>", "</p>"]}
+			{section name=s loop=$contentPart}
+			<p>{$contentPart[s]}</p>
+			{/section}
+
+		{/if}
+		{if 'SubContents'|array_key_exists:$content[0]}
+			<dl class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+		<div class="first-img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Infinity%20Blue%20Phuket%20-%20Attentive%20service.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Infinity%20Blue%20Phuket%20-%20Attentive%20service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/Infinity%20Blue%20Phuket%20-%20Attentive%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Infinity%20Blue%20Phuket%20-%20Attentive%20service.jpg 1920w" alt="Infinity Blue Phuket - Attentive service" class="lazyload" />
+		</div>
+
+		<div class="clear"></div>
+		</div>
+	</div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+	<div class="wrapper">
+		<div class="the-content">
+			<h1 class="entry-title"><span>Dining <small>{$data.villa_name}</small></span></h1>	
+			{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+				{section name=s loop=$contentPart}
+					 {$contentPart[s]}
+					 {if $smarty.section.s.index eq 1}
+						<div class="first-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Infinity%20Blue%20Phuket%20-%20Dining%20with%20view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Infinity%20Blue%20Phuket%20-%20Dining%20with%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/Infinity%20Blue%20Phuket%20-%20Dining%20with%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Infinity%20Blue%20Phuket%20-%20Dining%20with%20view.jpg 1920w" alt="Infinity Blue Phuket - Dining with view" class="lazyload" />
+						</div>					
+					 {/if}		
+					 
+				{/section}
+			{/if}
+			{if 'SubContents'|array_key_exists:$content[0]}
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				<p>{$content[0].SubContents[s].Description}</p>
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+			{/if}
+		</div>
+	</div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+	<div class="wrapper">
+		<div class="the-content">
+			<h1 class="entry-title"><span>{$data.heading} <small>{$data.villa_name}</small></span></h1> 
+			{parsedata folder=$data.theme cache=$data.cache content="FAM"}					 
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+				{section name=s loop=$contentPart}
+					 {$contentPart[s]}
+					 {if $smarty.section.s.index eq 1}
+						<div class="first-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Infinity%20Blue%20Phuket%20-%20Pool%20and%20the%20view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Infinity%20Blue%20Phuket%20-%20Pool%20and%20the%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/Infinity%20Blue%20Phuket%20-%20Pool%20and%20the%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Infinity%20Blue%20Phuket%20-%20Pool%20and%20the%20view.jpg 1920w" alt="Infinity Blue Phuket - Pool and the view" class="lazyload" />
+						</div>					
+					 {/if}		
+					 
+				{/section}
+			{/if}
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+		</div>
+	</div>
+
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">	
+	<div class="wrapper">
+		<div class="the-content">
+			<h1 class="entry-title"><span>{$data.heading} <small>{$data.villa_name}</small></span></h1>  
+			{parsedata folder=$data.theme cache=$data.cache content="SPA"}				         
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"<br />":"" explode="</p>"}
+				{section name=s loop=$contentPart}
+					 {$contentPart[s]}
+					 {if $smarty.section.s.index eq 0}
+						<div class="first-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Infinity%20Blue%20Phuket%20-%20relax%20and%20relish.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Infinity%20Blue%20Phuket%20-%20relax%20and%20relish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/Infinity%20Blue%20Phuket%20-%20relax%20and%20relish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Infinity%20Blue%20Phuket%20-%20relax%20and%20relish.jpg 1920w" alt="Infinity Blue Phuket - relax and relish" class="lazyload" />
+						</div>					
+					 {/if}		
+					 
+				{/section}
+			{/if}
+			{if 'SubContents'|array_key_exists:$content[0]}
+				  <dl class="details">
+					{section name=s loop=$content[0].SubContents}
+						<dt>{$content[0].SubContents[s].Heading}</dt>
+						<dd>{$content[0].SubContents[s].Description}</dd>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				</dl>
+			{/if}
+		</div>
+	</div>	
+</div>
+{/if}
+
+{if $data.page|in_array:['natai-beach-phuket', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="group">
+		<div class="group-wrapper">	
+			<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Infinity Blue Phuket - Outdoor dining with ocean view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Outdoor%20dining%20with%20ocean%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Infinity%20Blue%20Phuket%20-%20Outdoor%20dining%20with%20ocean%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Outdoor%20dining%20with%20ocean%20view.jpg 1920w" alt="Infinity Blue Phuket - Outdoor dining with ocean view" class="lazyload" /></div>
+			<div class="half half-content">
+			 {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+				<h2 class="entry-title"><span>The Locale</span></h2>
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">      
+		<div class="map_div" id="map_div_locale"></div>
+		{if 'SubContents'|array_key_exists:$content[0]}
+			<h3>Distances</h3>
+			<dl class="distances">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+		<div class="clear"></div>
+		<div class="first-img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Infinity%20Blue%20Phuket%20-%20Comfortable%20living%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Comfortable%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Comfortable%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Comfortable%20living%20area.jpg 1920w" alt="Infinity Blue Phuket - Comfortable living area" class="lazyload" />
+		</div>	
+	</div>
+	
+</div>   
+{/if}
+
+{if $data.page|in_array:['natai-beach-phuket', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+	<div class="wrapper">
+		<div class="the-content">			
+			<h2 class="entry-title"><span>Things to Do</span></h2>
+			{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc explode="</p>"}
+				{section name=s loop=$contentPart max=1}
+					<p>{$contentPart[s]}</p> 
+				{/section}
+			{/if}
+		</div>
+	</div>
+	<div class="wrapper">
+        <div class="group">
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc|replace:"</ul><ul>":"" regex="/<ul>(.*?)<\/ul>/s"}
+            {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+            {if $smarty.section.s.index mod 2}
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Infinity%20Blue%20Phuket%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            {else}
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Infinity%20Blue%20Phuket%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Infinity%20Blue%20Phuket%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            {/if}
+            {/section}
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+        {/if}
+        </div>
+    </div>
+</div>
+{/if}

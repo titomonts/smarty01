@@ -1,0 +1,143 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Tawantok Beach Villas - The villa and local boat feature.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+							<ul class="poi">
+								<li id="poi-1">Steps to<br> The Beach</li>
+								<li id="poi-2">Private<br>Chef</li>
+								<li id="poi-3">Fully<br>Staffed</li>
+								<li id="poi-4">Family<br>Friendly</li>								
+							</ul>
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>    
+                {* <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div> *}
+				
+				 <div class="content-item">  
+						<div class="content">
+							<div class="group">
+							
+								<div class="content-item">  
+									<div class="wrapper">
+										<div class="the-content"> 	
+											<h2 class="entry-title">Personalised service provided by dedicated staff.</h2>
+											{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+											{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+											{section name=s start=0 max=1 loop=$contentPart}
+											  {$contentPart[s]}. 
+											{/section}
+											
+											<div>
+											<a href="/staff.html" class="btn-home" >Read more</a>
+											</div>
+										</div>
+									</div>
+									 <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Tawantok Beach Villas - Staff cleaning the beach for you.jpg"></div>
+								</div>
+								
+								<div class="content-item">
+									 <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Tawantok Beach Villas - Food preparation.jpg"></div>
+									<div class="wrapper">
+										<div class="the-content"> 		
+										<h2 class="entry-title">Our private chef is at your service to prepare daily breakfast, lunch and dinner.</h2>
+										{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+										{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+										{section name=s start=0 max=1 loop=$contentPart}
+										  {$contentPart[s]}. 
+										{/section}
+										<div>
+										<a href="/dining.html" class="btn-home" >Read more</a>
+										</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="content-item">
+									 <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Tawantok Beach Villas - Beach activity.jpg"></div>
+									<div class="wrapper">
+										<div class="the-content">
+										<h2 class="entry-title">Relax and enjoy the peaceful private oceanfront ambience.</h2>
+										{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+										{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+										{section name=s start=0 max=1 loop=$contentPart}
+										  {$contentPart[s]}. 
+										{/section}
+										<div>
+										<a href="/families.html" class="btn-home" >Read more</a>
+										</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+                 </div>
+            </div>
+        </div>
+		
+        <div class="content-item combine-villa">  
+			<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/general/Tawantok Beach Villas - Local fisherman boat.jpg">
+				<div class="wrapper">
+					<div class="the-content"> 
+						<div class="des">
+							<div>
+								<h2 class="entry-title">Tawantok Beach Villas</h2>
+								<p>Select a villa or combine to make up to ten bedrooms</p>
+							</div>
+							<a href="/reservations.html">Enquire</a>
+						</div>						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="buttons-container">
+
+            {* include file="part-buttons.html" *}
+
+            {if $data.page|in_array:['about', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'lipa-noi-koh-samui', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+		
+		
+            
+{include file="footer.html"}

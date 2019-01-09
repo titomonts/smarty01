@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Voyage">
+  <Contents>
+    <Content contentid="1040" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>
+ On call for our guests is a team of well-trained massage and spa therapists who can provide various treatments on guest account within the comfort and privacy of Villa Voyage &ndash; in the shade of the pergola, by the pool, on the balcony or in the cool of the bedroom. Here&rsquo;s a sample of what you&rsquo;ll find on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Balinese massage]]></Heading>
+          <Description><![CDATA[<p>
+ Just the ticket for releasing tension accumulated before the vacation, Balinese massage incorporates gentle stretches, skin rolling and percussion strokes &ndash; techniques passed down through many generations &ndash; to stimulate the flow of oxygen and induce a profound state of relaxation.</p>
+]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Fresh seaweed scrub]]></Heading>
+          <Description><![CDATA[<p>
+ Enjoy a 45-minute massage followed by a natural body scrub made from fresh local seaweed, Aloe Vera and sea salt to remove dead skin, then sink into a warm bath strewn with flowers. You&rsquo;ll emerge rejuvenated, rehydrated and glowing with health, ready to be served a cup of ginger tea.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure and pedicure]]></Heading>
+          <Description><![CDATA[<p>
+ A flash of pink or crimson on well-groomed nails after a feel-good mani-pedi is the perfect foil for a tropical tan.</p>
+]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Papaya body mask]]></Heading>
+          <Description><![CDATA[<p>
+ After a 45-minute traditional massage, you&rsquo;ll be slathered with a body mask made of fresh papaya and peppermint oil then wrapped in a blanket and left to rest for a while. The treatment finished with a warm bath scented with flowers. This is a great treatment to calm sunburnt skin.</p>
+]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="108" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p> Villa Voyage’s five spacious bedroom suites are equipped with 2 king and 3 queen-size beds, ensuite bathrooms and either balconies or garden terraces.&nbsp; King Koil goose down pillows, deep foam mattresses and designer bed linen ensure a good night’s sleep – with rooms offering the choice of air-conditioning or overhead fan.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Voyage – mezzanine ocean suite]]></Heading>
+          <Description><![CDATA[<p>
+ Each of the two identical and enormous mezzanine ocean suites expresses the villa&rsquo;s luxury tented safari theme to perfection; a queen-size bed is cocooned under a floating canvas tent suspended from the apex of the alang-alang roof, and the rooms are furnished with wardrobe &lsquo;tents&rsquo; in the dressing area, a folding writing desk, day bed, and steamer trunks. Coconut-wood walls and floors continue the rustic&ndash;luxe look, and large Pucci print cushions add a dash of blue to the otherwise neutral palette of browns and creams. A soaring triangular wall of glass to the front opens onto a large private ironwood balcony furnished with a round table and chairs and a pair of sun loungers and stunning sea views. To the rear of the bedroom, cunningly concealed behind screens of canvas, is a large open-plan bathroom with double basins and mirrors and glazed terrazzo enclosure with rain shower.</p>]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Voyage – mezzanine ocean suite]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/thumbs/thumbs_voyage-right-side-mezzanine-ocean-suite.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/voyage-right-side-mezzanine-ocean-suite.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Voyage – master suite]]></Heading>
+          <Description><![CDATA[<p>
+ Below, the master suite continues the &lsquo;luxury under canvas&rsquo; theme, with a four-poster queen bed bedecked with canvas and leather trim, a steamer trunk acting as a media cabinet for the flat-screen 40-inch TV, a canvas seating area that conceals a spare bed, and canvas-backed directors chairs set before sliding doors delightfully opening onto the pool deck. Beyond the bedroom is a dressing area lined with leather-trimmed rattan clothes storage and shelving designed to accommodate the most profligate packer. This leads into the bathroom with double basins, patio with open-air shower and, taking pride of place before sliding doors to the beachside deck, a sculptured terrazzo bathtub.</p>]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Voyage – master suite]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/thumbs/thumbs_voyage-master-bedroom.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/voyage-master-bedroom.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Voyage – garden suite]]></Heading>
+          <Description><![CDATA[<p>
+ Next door, facing away from the sea, is the garden suite. The contemporary four-poster bed laden with colourful cushions faces a small courtyard and, on one side, a balcony with table and chairs. A particular feature is the traditional leather travelling desk which doubles as a dressing table. The large ensuite bathroom has a wardrobe of rattan and leather, double basins and, set in a sun-filled patio, an open-air shower.</p>]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Voyage – garden suite]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/thumbs/thumbs_voyage-kamils-bedroom.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/voyage-kamils-bedroom.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Voyage – garden pavilion suite]]></Heading>
+          <Description><![CDATA[<p>
+ The garden pavilion suite stands alone, surrounded by white sand in the villa grounds. Its&rsquo; harem-style silken ceiling calls to mind Bedouin tents and desert hospitality, and such romance continues in the soft furnishings and decorations. Walls of glass offer glimpses of the sea and lead onto a private deck. The ensuite bathroom is discreetly tucked around the corner of the walled garden deck.</p>
+]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Voyage – garden pavilion suite]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/thumbs/thumbs_voyage-garden-pavilion-suite.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/voyage/gallery/voyage-garden-pavilion-suite.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1097" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[ <p>
+ Guests of Villa Voyage are looked after with flair by a dedicated team of professionals drawn from the local community, under the direction of the villa manager. They are trained to anticipate guests&rsquo; every whim with typical Balinese charm and a ready smile, and are very much part of the villa experience.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa Manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]]></Heading>
+          <Description><![CDATA[<p> Sura is responsible for the effective day-to-day running of Villa Voyage. Fluent in English, he introduces guests to the villa on arrival and is at the end of a phone for special requests.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p> Villa Voyage's Chef is well versed in resort and villa cuisine. Most of his recipes come from the owners’ vast travels and love of food. He puts together cool picnics, is a dab hand at dinner parties and is happy to discuss special menus and accommodate dietary requests.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Butlers]]></Heading>
+          <Description><![CDATA[<p> A butler and two housekeepers take care of cleaning and tidying the villa in shifts from 7am to 11pm. They also assist in the kitchen, and serve as waiters for indoor and alfresco dining.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gardener/pool attendant]]></Heading>
+          <Description><![CDATA[<p> The garden and pool at Villa Voyage is well tended by a team of gardeners.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa/massage]]></Heading>
+          <Description><![CDATA[<p> Villa Voyage has a special arrangement with local fully trained therapists who can visit the villa to provide a range of treatments (prices on request).</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p> Night-time security is provided from 7pm.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1153" contenttypeid="TRNSPRT" desc="Transport">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Travelling from Bali to Nusa Lembongan]]></Heading>
+          <Description><![CDATA[<p>Guests can travel from Sanur harbour on Bali to Nusa Lembongan island on one of the recommended public ferries whose services are detailed in the website links below. Your villa manager will be pleased to assist with ferry bookings. </p><p>It should be noted, however, that if arriving on a late afternoon or evening flight, guests will require overnight accommodation in Sanur as crossings to Nusa Lembongan after 5pm are not recommended. Sanur accommodation and ferry charges are not included in the villa rate.</p><p>On arrival at Mushroom Bay, Nusa Lembongan, a complimentary private buggy will transfer guests to Villa Voyage.</p><p><span style="font-style: italic;">Nusa Lembongan ferry services:</span><br /><a href=" http://www.scootcruise.com" target="_blank" title="Scoot Cruise">Scoot Cruises</a><br /><a href="http://www.rockyfastcruise.com " target="_blank" title="Rocky Fast Cruise">Rocky Fast Boat</a> <br /></p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1239" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>The villa and operations managers are happy to share a wealth of information about nearby places of interest, and will help arrange transport and make any bookings required. Do also ask the villa manager about the local area, to gain interesting insights into some of the fascinating aspects of life on Nusa Lembongan and neighbouring island Nusa Penida. <br /></p><p><span style="font-weight: bold;">Nusa Lembongan</span></p><ul><li>Stroll along the beach and across the rocks to <span style="font-weight: bold;">Devil’s Tear</span>, a craggy limestone outcrop on the southern tip of Sandy Bay; on a clear day you can see Bali’s sacred mountain Gunung Agung looming in the distance behind Villa Voyage.</li><li><span style="font-weight: bold;">Cruise the coastline in Villa Voyage’s <span style="font-style: italic;">jukung</span></span>, a colorfully painted outrigger fishing boat fitted out with designer cushions for decadent comfort. Visit deserted beaches such as Gamat Bay on the neighboring island Nusa Penida, enjoy a spot of snorkeling (fins and masks provided); you may even get to see pods of dolphins frolicking alongside!</li><li>As your chef to prepare a <span style="font-weight: bold;">“Voyage Picnic”</span> of fresh bread, charcuterie and salad, presented in traditional Tiffin boxes and accompanied by a bottle of wine cooled in a silver ice bucket.</li><li>Head for<span style="font-weight: bold;"> Dream Beach</span>, a 10-minute walk southwards along the cliff path, for a swim in a cove of shallow sloping sand, followed by lunch at Café Pandan, set on the cliff top above the beach.</li><li>Visit the deserted beaches and blue lagoons of Nusa Lembongan’s tiny neighbour, <span style="font-weight: bold;">Nusa Ceningan</span>, and experience island life unchanged over the centuries.</li><li>Adrenaline junkies, visit <span style="font-weight: bold;">Mahana Point</span> on Nusa Ceningan, and hurl yourself off the cliff top into the sea! Or order a cold Bintang beer from the café and watch the surfers cresting huge rollers below.</li><li>Take a leisurely <span style="font-weight: bold;">cycle tour </span>of the island on Villa Voyage’s bicycles: visiting temples, mangroves, beaches and the villages of Lembongan and Jungutbatu.</li><li>Stroll into Mushroom Bay one evening for a <span style="font-weight: bold;">romantic beachfront dinner </span>at Café Bali. Or pop next door to the <span style="font-weight: bold;">Beach Club at Sandy Bay</span> for an evening cocktail and barbecue of fresh fish and meats.</li><li>Visit the <span style="font-weight: bold;">Underground House</span> in Lembongan Village, a labyrinth of caves excavated from the limestone rock by local farmer and priest Made Biasa using only a hammer, chisel – and 15 years patience and hard work.</li><li>Climb the steps to Pura Puncak Sari, a <span style="font-weight: bold;">sacred hilltop temple</span> which commands fabulous views over the neighboring islands and Bali’s east coast.</li></ul><p><span style="font-weight: bold;">Nusa Penida</span></p><ul><li>Don’t miss the spectacular natural rock arch over the turquoise waters of <span style="font-weight: bold;">Broken Beach</span> (Pasih Uug). Hike or bike to get to this amazing cove on Nusa Penida’s north west tip – and don’t forget your camera. Although you can’t actually swim here as there’s no access to the water, you’ll be able to cool off at nearby Angel’s Billabong. </li><li><span style="font-weight: bold;">Angel’s Billabong</span> (Kolam Para Bidadari) is a natural infinity pool of crystal clear river water flowing into the sea, framed by craggy rocks and cliffs overlooking the ocean. Take a dip with the angels and enjoy the stunning scenery.</li><li>Watch out as waves hit the rocks and send great plumes of water into the sky at <span style="font-weight: bold;">Smoky Beach</span> (Pasih Andus) – just the place for a refreshing shower!</li><li>Take your mask and snorkel to <span style="font-weight: bold;">Crystal Bay</span> (Surganya Pecinta) where the water is clear, the waves are calm and beautiful clusters of coral – home to colourful tropical fish – are waiting to be discovered. </li><li>It’s a long steep climb down to the white sands and crystal-clear waters of <span style="font-weight: bold;">Kelingking Beach</span>, but even if you just visit to take photos of the unique T-Rex-shaped cliff formation from the top, your trip will be worth it. </li><li>Nusa Penida is a wonderful destination for divers. Let our manager <span style="font-weight: bold;">book a few dives</span> with Villa Voyage’s recommended dive center for your chance to get up close and personal with magnificent <span style="font-weight: bold;">Manta rays</span> at the eponymously named Manta Point or, from late July to November, <span style="font-weight: bold;">Mola-Mola</span>, huge oceanic sunfish. For the less experienced diver, there are easier flat reef and wall dives in the crystal clear waters around Nusa Lembongan.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1304" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>
+ Welcome to Villa Voyage</p>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="249" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p>Food and beverage charges</p>]]></Heading>
+          <Description><![CDATA[<p> The chef and the staff are happy to arrange the purchase of all provisions (whether for preparation by the chef or at a guest’s request), including wines, spirits, beer and soft drinks. We recommend that the chef is provided with a ‘float’ to start with. Groceries and beverages are charged at cost price plus 20%++ handling fee. Guests will be requested to provide grocery money in advance and the staff will do the shopping and keep the receipts for reference.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p>Menus</p>]]></Heading>
+          <Description><![CDATA[<p>Good food – and being effortlessly and well catered for – is key to a relaxing and rewarding holiday experience. Villa Voyage guests can enjoy delicious home-cooked food whenever – and wherever – they want.</p><p>Alternatively, the villa has a special arrangement with the neighbouring Beach Club at Sandy Bay and Café Bali on Mushroom Bay to provide home deliveries from their menus on request. Alcoholic drinks can also be delivered from the Beach Club bar.<br /></p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p>The  system</p>]]></Heading>
+          <Description><![CDATA[<p>
+ We recommend that guests meet with the chef at the start of their stay to chat about menus and preferred food. The chef is happy to put together menus, try out dishes, or even to cook alongside guests who are so inclined. It is also necessary to agree meals in advance (ideally 48 hours) to allow adequate time for provisioning, because nearly all the ingredients are specially ordered from the mainland and brought in by boat every morning. This also applies if the choice is to self-cater.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2618" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[INDOOR LIVING]]></Heading>
+          <Description><![CDATA[Villa Voyage’s magnificent living room is open-plan for easy entertaining, its walls of glass doors leading onto the pool terrace and highlighting the stunning tropical beachfront setting.&nbsp; (The doors fold back completely for open-air sea-breeze living, or can be closed to create air-conditioned comfort.)&nbsp; Within the double-height central section, four over-size cream upholstered sofas are arranged around a sectional coffee table set before a console with 60-inch LED TV, Apple TV, DVD and iPod.<br /><br />The owners’ exquisite taste and design influence is everywhere:&nbsp; Louis Vuitton trunks provide voyage-themed displays; Thai, lacquer ware offering bowls provide red accents and richly scented candles tease the senses; lavishly illustrated books on Balinese customs, exotic travel and the best of international interiors engage the mind.&nbsp; Above, a halo of over-size canvas lampshades lures the eye towards the mezzanine gallery – noted designer, Ari Saski Wekku, also created the cigar-shaped driftwood statement lamp over the entrance.&nbsp; On the far side of the living pavilion are two dining tables of reclaimed limed teakwood, each with six canvas director’s chairs.&nbsp; An island of teakwood and marble acts as buffet, bar and cooking station for when guests wish to whip up a gourmet meal themselves.&nbsp; Behind is the chef’s kitchen, equipped with everything required to lavishly entertain 20-plus people.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[OUTDOOR LIVING]]></Heading>
+          <Description><![CDATA[Bridging the pavilion and the beach is an huge ironwood deck overlooking the turquoise waters of Sandy Bay, with a 15m x 5m free-form tension-edge pool big enough for swimming laps yet with a shallow platform for relaxation.&nbsp; Equally evident here is the exquisite attention to design detail found within the villa.&nbsp; Poolside beanbags, sun loungers and daybeds invite indolence, and a shoreline pergola provides shade for two defined areas:&nbsp; an over-size daybed platform inches away from the beach for sea-breeze siestas and sunset cocktails, and semi-circular seating curved around a teak table laden with shells – the perfect spot for a leisurely breakfast.&nbsp; Stylized animal-print cushions add just the right touch of glamour, and at night the area is transformed by clever ambient lighting that illuminates the palms and bathes the pool in changing colours.<br /><br />A few steps down from the deck is a sand garden where offerings are placed daily at a Balinese temple tucked under the canopy of a sacred <span style="font-style: italic;">banang-banang</span> tree; shaded beneath its bowers is an antique daybed and a few paces away a gate set in the low dry-stone boundary wall leads directly onto the beach. ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2619" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[The family friendly advantages of a villa holiday are many, including access to your own private facilities and the freedom to use them whenever you want.&nbsp; Knowing that the kids can run around happily and independently, without worrying about disturbing other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too.<br /><br />Villa Voyage is great for families.&nbsp; Children will love the oceanside pool, and the beach is beautiful for sand-play and rock-pool exploration (note that swimming is strongly discouraged as currents can be fierce).&nbsp; The flexibility of bedroom configuration allows privacy and independence for families (a baby cot can be provided. Click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank" title="Children's equipment - Elite Havens">here</a> to see list of available hire items) and there are plenty of activities on the island to keep kids of all ages well amused throughout the holiday.<br /><br />The team of friendly staff at Villa Voyage will make children feel as welcome as adults, and having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds (full-time babysitting incurs a small extra cost).<br /><br />Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest; the chef can customise all meals to suit children’s taste buds.]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2939" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a href="./reservations.html" target="_self" title="Villa Voyage - booking enquiry">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />To view our availability calendar, click <a href="./availability-calendar.html" target="_self" title="Villa Voyage - availability">here</a>.<br /><br />Bali: +62 361 737498<br />Singapore: +65 3108 0520<br />Manila: +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a href="./general-enquiries.html" target="_self" title="Villa Voyage - general enquiry">here</a> to send us a message.<br /><br />Villa Voyage is marketed on behalf of its owners by <a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group</a>, who also handle all the villa reservations.  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="302" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Voyage Mezzanine Ocean Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Tented Safari-themed room with queen-sized bed under a tented canopy</li><li>Triangular wall of glass opening onto a large private ironwood balcony</li><li>Large open-plan ensuite with double basins and mirrors and glazed terrazzo enclosure with rain shower</li><li>Air-conditioning and ceiling fan</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Voyage Master Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Tented Safari-themed room with queen-sized bed under a tented canopy with leather trim</li><li>Large sliding doors open onto pool deck</li><li>Flat-screen 40inch TV</li><li>Dressing room</li><li>Ensuite with double basins, patio with open-air shower and sculptured terrazzo bathtub</li><li>Air-conditioning and ceiling fan</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Voyage Garden Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Four-poster queen-sized bed facing a small courtyard</li><li>Furnished balcony</li><li>Travelling desk and dressing table</li><li>Large ensuite bathroom with rattan and leather wardrobes, double basins &ndash; set in a patio with open-air shower</li><li>Air-conditioning and ceiling fan</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Voyage Garden Pavilion Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Stand-alone harem- style pavilion suite on the white sands of the villa ground</li><li>Queen-sized bed with crisp white linens</li><li>Glass doors lead onto a private deck with ocean glimpses</li><li>Ensuite</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="374" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[<p> INDOOR LIVING:<br /> - Open-plan living room with walls of glass doors leading onto the pool terrace giving guests the option of open-air or air-conditioned comfort<br /> - Oversized cream sofas<br /> - 60inch LED TV, Apple TV, DVD and iPod<br /> - Two dining tables of reclaimed teakwood, seating six each<br /> - Teakwood island serves as a buffet, bar and cooking station<br /> - Fully-equipped chef’s kitchen capable of serving 20 guests<br /> <br /> <br /> OUTDOOR LIVING:<br /> - 15m x 5m free-form tension-edge swimming pool<br /> - Expansive ironwood deck bridging the main living pavilion and the beach furnished with poolside beanbags, sun loungers and daybeds<br /> - A shoreline pergola with oversized daybed and semi-circular seating area<br /> - Gardens and lawn leading directly onto the beach</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Open-plan living room with walls of glass doors leading onto the pool terrace giving guests the option of open-air or air-conditioned comfort</li><li> Oversized cream sofas</li><li>60inch LED TV, Apple TV, DVD and iPod</li><li>Two dining tables of reclaimed teakwood, seating six each</li><li>Teakwood island serves as a buffet, bar and cooking station</li><li>Fully-equipped chef&rsquo;s kitchen capable of serving 20 guests</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>15m x 5m free-form tension-edge swimming pool</li><li>Expansive ironwood deck bridging the main living pavilion and the beach furnished with poolside beanbags, sun loungers and daybeds</li><li>A shoreline pergola with oversized daybed and semi-circular seating area</li><li>Gardens and lawn leading directly onto the beach</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="446" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[                                        <p> Villa Voyage is a once-in-a-lifetime experience. Located on absolute beachfront property in the idyllic tropical island setting of Nusa Lembongan, this five-bedroom villa boasts gorgeous sea vistas, glamorous ‘luxe nomad’ themed interiors, gourmet cuisine, and professional staff focused on spoiling their guests.</p><p>This beautifully designed luxury beachfront villa is set on the crescent of Sandy Bay in Nusa Lembongan, 30-minutes’ boat ride off the east coast of Bali and was created as a luxury beach home for couples, groups of friends and extended families.</p><p>Farah Khan, whose fashion creations are favoured by many Hollywood celebrities, has styled Voyage as a barefoot luxury abode, while maintaining the old world charm of coconut-wood floors, bamboo, thatched alang-alang roof and driftwood lamps in a tropical island setting metres from the white-sand beach.</p><p>Space and freedom abound in the contemporary interiors, with comfortable sofas and tables crafted from reclaimed limed teakwood set before walls of glass framing the sea view beyond the deck. Accenting the neutral colour palette are couture designer touches and decorative flourishes supporting the glamour travel theme – vintage Louis Vuitton monogram steamer trunks; Prada, Tods, Aigner, and various other designer luggage. Amplifying the luxury safari look is canvas and leather furniture from the Esprite Nomade collection, including their renowned bespoke tents that float over Voyage’s supremely comfortable beds.</p><p>Inside Villa Voyage guests can expect to be cosseted by the villa’s charming staff. As a designer beach retreat, Villa Voyage is incomparable. It is particularly suited to couples, groups of friends and extended families, and will be appreciated by lovers of design aesthetics and effortless chic.</p><p>Guests arriving in Bali late afternoon or evening should arrange  overnight accommodation in Sanur and ferry transfers to Nusa Lembongan  the following morning as sea crossings after 5pm are not recommended.&nbsp; A  complimentary buggy will meet guests at Mushroom Bay on Nusa Lembongan  for transfers to the villa.</p>                                     ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="567" contenttypeid="FCLT" desc="Facilities">
+      <Description><![CDATA[<ul> <li>  Private swimming pool (15m x 5m)</li> <li>  Five air-conditioned bedrooms</li> <li>  Child-friendly villa</li> <li>  Fully staffed, including cook, housekeepers and security</li> <li>  WiFi broadband internet connection (from September 2012)</li> <li>  Safety deposit box in all bedrooms</li> <li>  iPod dock; 60-inch flat-screen satellite LED TV and DVD player; Apple TV</li> <li>  DVD, CD &amp; book collection</li> <li>  A complimentary 3-hour cruise on the villa's private jukung outrigger (snorkelling equipment included); complimentary arrival and departure transfers in the villa's buggy.&nbsp; Both the outrigger and buggy can be hired for other trips on guest account.</li> <li>  Four bicycles included</li> <li>  Back-up generator</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="695" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Villa Voyage accords one of those rare once-in-a-lifetime experiences: a right-on-the-beach tropical island setting, gorgeous sea vistas, and professional staff focused on spoiling their guests.</p><p>Created as a luxury beach home for couples, groups of friends and extended families, this beautifully designed five-bedroom beachfront villa is set on the crescent of Sandy Bay in Nusa Lembongan, 30-minutes’ boat ride off the east coast of Bali.&nbsp; Completed in 2012, it is unquestionably the finest villa on Lembongan Island.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="72" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p> Welcome to Villa Voyage – a spectacular five-bedroom villa according absolute beachfront luxury in laid-back Nusa Lembongan, off Bali’s eastern coast.<br /> <br /> Voyage implies a journey, an adventure, an odyssey. It suggests the era of grand sojourns, of cruise ships and safaris, and is the perfect name for a villa whose owner loves to travel the globe: Farah Khan, whose fashion creations are favoured by many Hollywood celebrities, has styled Voyage as a barefoot luxury abode, while maintaining the old world charm of coconut-wood floors, bamboo, thatched alang-alang roof and driftwood lamps in a tropical island setting metres from the white-sand beach.<br /> <br /> There’s a sense of space and freedom in the contemporary interiors, with comfortable sofas and tables crafted from reclaimed limed teakwood set before walls of glass framing the sea view beyond the deck. Accenting the neutral colour palette of creams and greys are couture designer touches and decorative flourishes supporting the glamour travel theme.<br /> <br /> Beyond the villa walls, Voyage keeps true to its luxury adventure theme. On an island that has few cars, the villa has its own safari-style open-sided buggy for land transfers, and also available to villa guests for island expeditions is the Voyage jukung, a traditional outrigger fishing boat that has been complete with Emilio Pucci print cushions and gourmet picnic baskets. Of course, as in the days of grand travel where one was accompanied by a retinue of helpers, guests can expect to be cosseted by the villa’s charming staff.<br /> <br /> As a designer beach retreat, Villa Voyage is incomparable. It is particularly suited to couples, groups of friends and extended families, and will be appreciated by lovers of design aesthetics and effortless chic.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="786" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p> Villa Voyage commands prime position on a small, sandy cove in the south-west corner of Nusa Lembongan; other than Nusa Dua on mainland Bali, from where a string of lights sparkle across the sea at night, the nearest landfall is Australia!&nbsp; Voyage is part of a small, exclusive community comprising a handful of private villas along the beach and raised on the cliff.&nbsp; Next door is the Beach Club at Sandy Bay with it’s charming, quiet, beachfront restaurant and brand, new Glo spa.&nbsp; Across the bay is the spectacular rock formation of Devil’s Tear, scene of crashing waves and plumes of white-tipped foam.&nbsp; A pleasant ten minute stroll along the cliff-top path – populated by pandan plants and the occasional cow – is Dream Beach with it’s popular café and swimming beach; a fifteen minute walk in the other direction are the restaurants and bars of Mushroom Beach.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Dream Beach]]></Heading>
+          <Description><![CDATA[0.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mushroom Beach]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Underground House]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Lembongan Village]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Nusa Ceningan]]></Heading>
+          <Description><![CDATA[2.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mahana Point]]></Heading>
+          <Description><![CDATA[4.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mangroves]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="844" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>
+ Villa Voyage is an imposing double-height pavilion oriented along the beachfront to make the most of the magnificent sea vistas &ndash; 26 metres of bi-fold and sliding doors open onto a spacious ironwood deck with free-form infinity pool, beyond which turquoise-tipped breakers claim the fine white sand. The open-plan living area takes up the lion&rsquo;s share of the pavilion. At one end is the dining area, bar and guests&rsquo; kitchen and, beyond, the chef&rsquo;s kitchen; at the opposite end is the master bedroom suite and a second bedroom suite. Stairs lead to the mezzanine level where a galleried walkway overlooking the sitting area below leads to the two mezzanine ocean suites at either end.<br />
+ <br />
+ A separate pavilion set in the garden within the villa&rsquo;s walled compound houses the fifth bedroom suite, and a third discreetly placed building by the villa&rsquo;s entrance is used as staff quarters.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="985" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Nusa Lembongan, Bali, Indonesia.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p> 10 adults (in 5 queen-bedded rooms with ensuite bathrooms).<br /></p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Double height open-plan sitting room; indoor dining for 12; outdoor dining for 10 in gazebo; pool deck with multiple seating.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>15m x 5m. 0.5m-1.6m depth.<br /></p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; chef; butler; 3 housekeepers; gardener; guard providing night security. Masseuse, spa therapist and babysitters – extra, on request.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>A suggestion menu of Western, Asian, vegetarian and children’s dishes.&nbsp; Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.<br /><br /></p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi internet access; printer available for guest use.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>60-inch flat-screen LED TV; books; games; portable speaker (JBL).</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>Villa guests can reach Villa Voyage via the Sanur–Nusa Lembongan ferries which run regularly through the day.&nbsp; Guests arriving in Sanur later than 5pm will require overnight accommodation on Mainland Bali as crossings are not recommended at night.&nbsp; Your villa manager can help with ferry bookings (on guest account).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>A car is included for arrival and departure transfers and can also be rented at other times (extra charge) also included is a private&nbsp;jukung&nbsp;outrigger for a one time 3 hour trip to Gamat Bay or Yellow Bridge area. The jukung has a maximum capacity of 6 passengers, excluding the driver.<br /></p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>19 are.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed &amp; marketed by]]></Heading>
+          <Description><![CDATA[<p></p><p><a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group.</a></p> <p></p>   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Voyage</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Nusa Lembongan">Nusa Lembongan</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Sunset Beach</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.68836070</Latitude>
+        <Longitude>115.42974930</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">A stunning five-bedroom property found in Nusa Lembongan, a tropical paradise just 30-minutes from Bali. Villa Voyage is known for its jukung facility, perfect for an adventurous island-cruising experience.&lt;br /&gt;
+</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>5-bedroom</RoomName>
+        <MinRate>895.00++</MinRate>
+        <MaxRate>1350.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Voyage - Voyage in Sandy Bay</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/01-Voyage - Voyage in Sandy Bay.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Aerial of Voyage</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/02-Voyage - aerial of Voyage.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Pool decking</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/03-Voyage - pool decking.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Alfresco dining</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/04-Voyage - alfresco dining.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Living room view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/05-Voyage - living room view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Corner view of living and dining rooms</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/06-Voyage - corner view of living and dining rooms.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Dining room at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/07-Voyage - dining room at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Kitchen</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/08-Voyage - kitchen.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Master suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/09-Voyage - master suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Voyage - Master suite's bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/10-Voyage - master suites bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Right side mezzanine ocean suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/11-Voyage - right side mezzanine ocean suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Right side mezzanine ocean suite bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/12-Voyage - right side mezzanine ocean suite bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Voyage - The Garden Suite's bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/13-Voyage - the Garden Suites bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Voyage - The Garden Suite's bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/14-Voyage - the Garden Suites bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Voyage - Villa at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Voyage/15-Voyage - villa at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

@@ -1,0 +1,34 @@
+<div class="floorplan">
+    {if $data.page eq 'villa-gu'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/villa-gu-floorplan.jpg" alt="Villa Gu Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=villa-gu-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'villa-vida'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/villa-vida-floorplan.jpg" alt="Villa Vida Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=villa-vida-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'villa-boa'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/villa-boa-floorplan.jpg" alt="Villa Boa Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=villa-boa-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'floorplan'}
+   
+    <div id="tabs" class="tabs spy-tabs">
+        <ul>
+            <li><a href="#floorplan-gu">Villa Gu</a></li>
+            <li><a href="#floorplan-vida">Villa Vida</a></li>
+            <li><a href="#floorplan-boa">Villa Boa</a></li>
+        </ul>
+        <div id="floorplan-gu">           
+			 <img data-src="{$data.cdn}/resources/{$data.theme}/images/villa-gu-floorplan.jpg" alt="Villa Gu Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=villa-gu-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+        <div id="floorplan-vida">
+			<img data-src="{$data.cdn}/resources/{$data.theme}/images/villa-vida-floorplan.jpg" alt="Villa Vida Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=villa-vida-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+        <div id="floorplan-boa">
+			<img data-src="{$data.cdn}/resources/{$data.theme}/images/villa-boa-floorplan.jpg" alt="Villa Boa Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=villa-boa-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+    </div>
+    
+    {/if}
+</div>

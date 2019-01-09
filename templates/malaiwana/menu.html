@@ -1,0 +1,80 @@
+			<div class="header-container">
+                <div class="header">
+                    <button class="toggler">
+                        <span></span>
+                    </button>
+
+                    <div class="wrapper">
+                        <div class="logo">
+							{if $data.page|in_array:['index']}
+								 <a href="{$data.home_uri}"><img data-src="{$data.cdn}/resources/{$data.theme}/images/logo-malaiwana.png" alt="{$data.villa_name}" class="lazyload" /></a>
+							{elseif $data.url_lvl_1|in_array:['the-villas']}
+								  <a href="{$data.home_uri}/the-villas.html"><img data-src="{$data.cdn}/resources/{$data.theme}/images/The Villas - Logo.png" alt="{$data.villa_name}" class="lazyload" /></a>
+							{elseif $data.url_lvl_1|in_array:['the-residences'] }
+								  <a href="{$data.home_uri}/the-residences.html"><img data-src="{$data.cdn}/resources/{$data.theme}/images/The Residences - Logo.png" alt="{$data.villa_name}" class="lazyload" /></a>
+							{else}  							
+								<a href="{$data.home_uri}"><img data-src="{$data.cdn}/resources/{$data.theme}/images/logo-malaiwana.png" alt="{$data.villa_name}" class="lazyload" /></a>
+							{/if}  							
+                            
+                        </div>
+                        <div class="nav">
+                            <ul>
+                            {section name=p loop=$pages}
+                            {if $pages[p].menu_location == $data.origin || $pages[p].menu_location == $data.page || $pages[p].page_identifier eq 'index'}
+                                {if $pages[p].page_identifier neq ''}
+                                    {if $pages[p].page_identifier eq $data.child}
+                                    {assign var=class value=' class="active"'}
+                                    {else}
+                                    {assign var=class value=''}
+                                    {/if}
+                                {else} 
+                                {assign var=class value=''}
+                                {/if}
+                                {if $data.page == $pages[p].page_identifier}
+                                {assign var=bodeh_class value=$pages[p].body_class}
+                                {/if}
+                                <li{$class}>
+                                    {if 'parent'|array_key_exists:$pages[p]}
+										{if 'special_menu'|array_key_exists:$pages[p]}										
+											<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].what sibling=$pages[p].page_identifier}">{$pages[p].label}</a>
+										{else}
+											<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].page_identifier}">{$pages[p].label}</a>
+										{/if}
+                                    {else}
+										{if $pages[p].page_identifier eq 'index'}
+											<a href="{$data.home_uri}/">{$pages[p].label}</a>
+										{else}
+											<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+										{/if}
+                                    {/if}
+                                    
+                                    {if 'children'|array_key_exists:$pages[p] && 'what'|array_key_exists:$pages[p]}
+                                    <ul class="subnav">
+                                    	{section name=sp loop=$pages[p].children}
+                                        <li>
+											{if $pages[p].children[sp].level == 'sub' }
+												<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].children[sp].parent sibling=$pages[p].children[sp].page_identifier}">
+												{$pages[p].children[sp].label}
+												</a>
+											{elseif $pages[p].children[sp].parent neq '' && $pages[p].children[sp].level == 'top'}
+												<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+												{$pages[p].children[sp].label}
+												</a>												
+											{else} 
+												<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">
+												{$pages[p].children[sp].label}
+												</a>
+                                            {/if}
+                                        </li>
+                                        {/section}
+                                    </ul>
+                                    {/if}
+                                </li>
+                            {/if}
+                            {/section}
+                            </ul>
+                            <input type="hidden" id="bodeh_class" name="bodeh_class" value="{$bodeh_class}" />
+                        </div>
+                    </div>
+                </div>
+            </div>

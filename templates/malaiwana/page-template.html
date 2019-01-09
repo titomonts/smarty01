@@ -1,0 +1,168 @@
+{include file="header.html"}
+
+{if  $data.url_lvl_3 neq ''}
+		{assign var=pagelast value=$data.url_lvl_3}
+{elseif $data.url_lvl_2 neq ''}
+		{assign var=pagelast value=$data.url_lvl_2}
+{elseif $data.url_lvl_1 neq ''}
+		{assign var=pagelast value=$data.url_lvl_1}
+{/if}
+
+{section name=p loop=$pages}	 
+    {if $pagelast == $pages[p].page_identifier}
+    	{assign var=bodeh_class value=$pages[p].body_class}
+    {/if}
+    {if 'children'|array_key_exists:$pages[p]}
+    	{section name=sp loop=$pages[p].children}
+            {if $pagelast == $pages[p].children[sp].page_identifier}
+                {* assign var=bodeh_class value=$pages[p].children[sp].body_class *}			
+                {assign var= bodeh_class value=("{$pages[p].parent} {$pages[p].children[sp].body_class}")}			
+            {/if}
+        {/section}
+	
+    {/if}	
+{/section}					
+
+<body class="{$bodeh_class}">	
+	{$gtm}	
+	{* <p>url 1 = {$data.url_lvl_1} <br /> url 2 = {$data.url_lvl_2}<br />	url 3 = {$data.url_lvl_3}<br /> </p> *}
+	
+    <div class="container">
+        {include file="menu.html"}
+		
+		{if $data.page|in_array:['index'] || $data.child|in_array:['the-villas','the-residences'] && $data.sibling == ''}
+			{include file="hero-container.html"}
+		{/if}  
+		
+		{section name=p loop=$pages}
+			{if 'menu_location'|array_key_exists:$pages[p]}
+				{if $pages[p].menu_location eq '' && $pages[p].page_identifier eq $data.origin || $pages[p].menu_location eq 'footer' && $pages[p].page_identifier eq $data.origin}
+					{include file="hero-container.html"}
+				{/if}
+			{/if}			
+		{/section} 
+		
+		{section name=p loop=$pages}
+			{if 'children'|array_key_exists:$pages[p]}
+				{if $pages[p].page_identifier eq $data.url_lvl_2} 
+					{if $data.url_lvl_3 eq 'thanyapura'}
+					{else}
+						{assign var="containerClass" value="scroll"}				
+					{/if}
+					
+				{/if}
+			{/if}
+		{/section} 	  
+		
+       <div class="content-container {$containerClass}">
+            <div class="content">
+                {if $data.page|in_array:['reservations']}
+                    {assign var="contentClass" value=""}
+                {else}
+                    {assign var="contentClass" value="odd"}
+                {/if}
+                
+                {if $data.child|in_array:['the-villas','the-residences','naithon-phuket','guest-reviews','reservations','floorplans'] && $data.sibling == '' ||  $data.url_lvl_3|in_array:['rates-villa-haleana','rates-villa-rodnaya','rates-villa-m','rates-penthouse','rates-duplex','gallery-villa-haleana','gallery-villa-rodnaya','gallery-villa-m','gallery-penthouse','gallery-duplex','thanyapura'] || $data.page|in_array:['villa-layout', 'bedrooms', 'living-areas', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+    				
+                {else}
+					<!-- Template Content Single-->
+                    <div class="content-item {$contentClass}">
+                        <div class="wrapper">                                
+                            <div class="the-content">
+								{section name=p loop=$pages}
+										{if $pages[p].page_identifier eq $data.url_lvl_2 } 
+											<h2 class="entry-title">{$pages[p].label}</h2>
+										{/if}
+								{/section} 
+								
+								{include file="submenu.html"}								
+								
+                                {if $data.page|in_array:['general-enquiries']}
+                                    {include file="part-guarantee.html"}
+                                {/if}			
+								
+                                {if $data.page|in_array:['explore-the-villa', 'villa-experience', 'villa-layout', 'bedrooms', 'living-areas', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa','reservations','guest-reviews']}
+                                {else} 
+                                    {include file="content-single.html"}
+                                {/if} 
+				
+								
+                            </div>
+                        </div>
+                    </div>
+                {/if}
+				
+				<!-- Template The Villas -->
+				{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 eq '' && $data.url_lvl_3 eq '' || $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 neq '' && $data.url_lvl_3 eq ''|| $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 neq '' && $data.url_lvl_3 eq 'thanyapura'}
+					<div class="content-seo">
+						{include file="content-villas.html"} 
+					</div>
+				{/if}
+				
+				{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-haleana'}
+					<div class="content-seo">
+						{include file="content-haleana.html"}
+					</div>
+				{/if}
+								
+				{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya'}
+					<div class="content-seo">
+						{include file="content-rodnaya.html"}
+					</div>
+				{/if}
+				
+				{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-m'}
+					<div class="content-seo">
+						{include file="content-villa-m.html"}
+					</div>
+				{/if}
+				<!-- End Template The Villas -->
+				
+				<!-- Template The Residences -->
+				{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 eq '' && $data.url_lvl_3 eq '' || $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 neq '' && $data.url_lvl_3 eq '' || $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 neq '' && $data.url_lvl_3 eq 'thanyapura'}
+					<div class="content-seo">
+						{include file="content-residences.html"} 
+					</div>
+				{/if}
+				
+				{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse'}
+					<div class="content-seo">
+						{include file="content-penthouse.html"}
+					 
+				{/if}
+								
+				{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'duplex'}
+					<div class="content-seo">
+						
+						{include file="content-duplex.html"}
+						</div>
+					</div>
+				{/if}
+							
+				<!-- End Template The Residences -->
+				
+				<!-- Page SEO -->
+				{if $data.page|in_array:['villa-layout', 'bedrooms', 'living-areas', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+					<div class="content-seo">
+						<div class="content-item {$contentClass} explore">
+						{include file="content-fragment.html"}
+						</div>
+					</div>
+				{/if} 
+				
+            </div>
+        </div>
+
+       {if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 neq 'reservations' || $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 neq 'reservations'}
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {* if $data.page|in_array:['about-malaiwana', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'tabanan-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if *}
+
+        </div>
+        {/if}
+            
+{include file="footer.html"}

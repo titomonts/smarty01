@@ -1,0 +1,68 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1920w" alt="Villa Yaringa - Villa by the beach" class="lazyload" /></div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-yaringa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20outlook.jpg 1920w" alt="Villa Yaringa - Villa outlook" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Pool%20and%20villa.jpg 1920w" alt="Villa Yaringa - Pool and villa" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20landscape.jpg 1920w" alt="Villa Yaringa - Villa landscape" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        
+
+        {elseif $data.page == 'floorplan'}
+        
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Weddings.jpg 1920w" alt="Villa Yaringa - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'natai-beach-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Breathtaking%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Breathtaking%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Breathtaking%20view.jpg 1920w" alt="Villa Yaringa - Breathtaking view" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Staff.jpg 1920w" alt="Villa Yaringa - Staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Dining.jpg 1920w" alt="Villa Yaringa - Dining" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Families.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Families.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Families.jpg 1920w" alt="Villa Yaringa - Families" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Aromatic%20bathtub.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Aromatic%20bathtub.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Aromatic%20bathtub.jpg 1920w" alt="Villa Yaringa - Aromatic bathtub" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        
+        
+        {elseif $data.page == 'press'}
+        
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Exceptional%20vacation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Exceptional%20vacation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Exceptional%20vacation.jpg 1920w" alt="Villa Yaringa - Exceptional vacation" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20layout.jpg 1920w" alt="Villa Yaringa - Villa layout" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1920w" alt="Villa Yaringa - Villa by the beach" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+       <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1920w" alt="Villa Yaringa - Villa by the beach" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Yaringa%20-%20Villa%20by%20the%20beach.jpg 1920w" alt="Villa Yaringa - Villa by the beach" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

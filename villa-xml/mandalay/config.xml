@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Mandalay</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Mandalay</villa_name>
+		<google_analytics>UA-48763027-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Seseh-Tanah Lot</sublocation>
+		<bedrooms>7</bedrooms>
+		<hrental_id>'Mandalay', 'Bali', '7br'</hrental_id>
+		<ehgLocation>Bali, Seseh-Tanah Lot</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource> 
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

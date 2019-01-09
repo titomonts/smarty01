@@ -1,0 +1,73 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Villa overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Villa%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Villa%20overview.jpg 1920w" alt="Villa Abiente - Villa overview" class="lazyload" />          
+        </div>
+        <!-- div id="slide-2" style="display: none;">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Beautiful CapeYamu.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Beautiful%20CapeYamu.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Beautiful%20CapeYamu.jpg 1920w" alt="Villa Abiente - Beautiful CapeYamu" class="lazyload" />   
+            <div class="caption"><big>Stunning rural</big> <small>CapeYamu location</small></div>        
+        </div>
+        <div id="slide-3" style="display: none;">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Exceptional luxury.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Exceptional%20luxury.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Exceptional%20luxury.jpg 1920w" alt="Villa Abiente - Exceptional luxury" class="lazyload" />   
+            <div class="caption"><big>Fully staffed</big> <small>with private chef</small></div>        
+        </div>
+        <div id="slide-4" style="display: none;">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Master suite two.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Master%20suite%20two.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Master%20suite%20two.jpg 1920w" alt="Villa Abiente - Master suite two" class="lazyload" />   
+            <div class="caption"><big>Four elegant</big> <small>ensuite bedrooms</small></div>        
+        </div -->
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">   
+    
+        {if $data.page == 'about-villa-abiente'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Luxurious experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Luxurious%20experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Luxurious%20experience.jpg 1920w" alt="Villa Abiente - Luxurious experience" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Pool deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Pool%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Pool%20deck.jpg 1920w" alt="Villa Abiente - Pool deck" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa-Abiente---Breathtaking-view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg 1920w" alt="Villa-Abiente---Breathtaking-view" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa-Abiente---Breathtaking-view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg 1920w" alt="Villa-Abiente---Breathtaking-view" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Table-decoration-detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa-Abiente---Table-decoration-detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Table-decoration-detail.jpg 1920w" alt="Villa-Abiente---Table-decoration-detail" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Luxurious experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Luxurious%20experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Luxurious%20experience.jpg 1920w" alt="Villa Abiente - Luxurious experience" class="lazyload" />
+        
+        {elseif $data.page == 'cape-yamu'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Villa scenary.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Villa%20scenary.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Villa%20scenary.jpg 1920w" alt="Villa Abiente - Villa scenary" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Night Fall.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Night%20Fall.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Night%20Fall.jpg 1920w" alt="Villa Abiente - Night Fall" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Guest-Experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Guest-Experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Guest-Experience.jpg 1920w" alt="Guest-Experience" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Rates.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Rates.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Rates.jpg 1920w" alt="Villa Abiente - Rates" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Abiente - Bedroom interior design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Abiente%20-%20Bedroom%20interior%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Abiente%20-%20Bedroom%20interior%20design.jpg 1920w" alt="Villa Abiente - Bedroom interior design" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa-Abiente---Breathtaking-view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg 1920w" alt="Villa-Abiente---Breathtaking-view" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa-Abiente---Breathtaking-view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg 1920w" alt="Villa-Abiente---Breathtaking-view" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Abiente.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa-Abiente---Breathtaking-view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa-Abiente---Breathtaking-view.jpg 1920w" alt="Villa-Abiente---Breathtaking-view" class="lazyload" />
+        {/if}
+        </div>
+    </div>
+</div>
+{/if}
+
+{include file="part-booking.html"}

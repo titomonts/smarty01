@@ -1,0 +1,33 @@
+<div class="prevnext">
+    <div class="wrapper">
+        <div class="group">
+            <div class="half">
+                {prevnext page=$data.page}
+                
+                {if $prev eq 'index'}
+                <a href="{$data.home_uri}/" class="prev">
+                    <i class="fa fa-arrow-left"></i>{$prev_label}
+                </a>
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$next}" class="next">
+                    {$next_label}<i class="fa fa-arrow-right"></i>
+                </a>         
+                {elseif $next eq 'index'}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$prev}" class="prev">
+                    <i class="fa fa-arrow-left"></i>{$prev_label}
+                </a>
+                <a href="{$data.home_uri}/" class="next">
+                    {$next_label}<i class="fa fa-arrow-right"></i>
+                </a> 
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$prev}" class="prev">
+                    <i class="fa fa-arrow-left"></i>{$prev_label}
+                </a>
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$next}" class="next">
+                    {$next_label}<i class="fa fa-arrow-right"></i>
+                </a> 
+                {/if}    
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+{include file="header.html"}
+    <!--[if lte IE 6]>
+    <iframe src="http://www.browserupgrade.info/ie6-upgrade/?lang=en&title=Villa Maharaj&fx3=true&more-info-at=http://www.browserupgrade.info" frameborder="no" style="height: 81px; width: 100%; border: none;"></iframe>
+    <![endif]-->
+{$gtm}
+    
+                        <div id="container">
+            <div class="header_fix">
+                <div id="headerwrap">
+                    <div class="menu-fix">
+                        <div id="topheader">
+                            {include file="menu.html"}
+                            <!-- /main navigation -->
+                        </div>
+                    </div>
+                    <!-- /topheader -->
+                </div>
+            </div>
+            <!-- /headerwrap -->	<div id="contentwrap">
+		<div id="headerimg">
+			<div class="header-loader">
+                <div class="slideshow">
+                    <img src="/resources/villamaharaj/headers/homepage-villa-maharaj-decking-and-pool.jpg" alt="villa-maharaj-decking-and-pool" />
+                    <img src="/resources/villamaharaj/headers/homepage-villa-maharaj-chill-out-by-the-pool.jpg" alt="villa-maharaj-chill-out-by-the-pool" />
+                    <img src="/resources/villamaharaj/headers/homepage-villa-maharaj-spa-bale.jpg" alt="villa-maharaj-spa-bale" />
+                </div>
+    <!-- /slideshow -->
+			</div>
+			<div class="ornament"></div>
+		</div>
+		<!-- /headerimg -->
+		<div id="maincol">
+			<h1 class="entry-title">{$data.heading}</h1>
+			<div class="two-btn" >
+				<a class="button availability" href="http://www.villamaharaj.com/availability-calendar.html">Availability</a>
+					<a class="button book" href="http://www.villamaharaj.com/reservations.html">Book now</a>			</div>
+						<div id="content">
+				<div id="content-inner">
+					{if 'desc'|array_key_exists:$content[0]}
+                    {$content[0].desc}
+                    {/if}
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2>{$content[0].SubContents[s].Heading}</h2>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/maharaj':'/resources/villamaharaj'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                            {$content[0].SubContents[s].Description}
+                        {/section}
+                    {/if}
+					<div class="clear"></div>
+				</div>
+				<!-- /content-inner -->
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /maincol -->
+	</div>
+	<!-- /contentwrap -->
+{include file="footer.html"}

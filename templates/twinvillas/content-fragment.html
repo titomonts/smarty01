@@ -1,0 +1,770 @@
+{if $data.page|in_array:['about-twin-villas-natai']}
+<div class="content-item about" id="about"> 
+	<div class="wrapper">
+		<div class="the-content">
+			
+			{parsedata folder=$data.theme cache=$data.cache content="ABTV"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+				{$content[0].desc|replace:'<br />': ''}
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if} 
+				{/section}
+
+			{/if}
+		</div>
+	</div>
+	<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Twin Villas Natai - Stunning escape.jpg"></div>   
+
+</div>
+<div class="clear"></div>
+<div class="content-item floorplan" id="floorplan">    
+    <div class="wrapper">
+        {include file="floorplan.html"}
+    </div>
+</div>
+<div class="clear"></div>
+{/if}
+
+{if $data.page|in_array:['villa-layout']}
+    <div class="content-item"><h1 class="entry-title">Villa Layout</h1></div>
+{elseif $data.page|in_array:['bedrooms']}
+    <div class="content-item"><h1 class="entry-title">Bedrooms</h1></div>
+{elseif $data.page|in_array:['living-areas']}
+    <div class="content-item"><h1 class="entry-title">Living Areas</h1></div>
+{elseif $data.page|in_array:['the-locale']}
+    <div class="content-item"><h1 class="entry-title">The Locale</h1></div>
+{elseif $data.page|in_array:['things-to-do']}
+    <div class="content-item"><h1 class="entry-title">Things to Do</h1></div>
+{/if}
+
+{if ($data.page|in_array:['villa-north'] and $data.origin|in_array:['about-twin-villas-natai']) or $data.page|in_array:['villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+        <div class="wrapper">
+            <div class="the-content">
+			
+            {parsedata folder=$data.theme cache="P00221" content="LYT"}
+            {if $data.page|in_array:['villa-layout']}
+            <h2 class="entry-title"><span>Twin Villas Natai</span></h2>
+            {else}
+            <h2 class="entry-title"><span>Villa Layout</span></h2>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {$content[0].desc}
+
+            {/if}
+
+            {section name=s loop=$content[0].SubContents}
+                <h4>{$content[0].SubContents[s].Heading}</h4>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+			
+            {include file="floorplan.html"}
+            </div>
+        </div>
+		
+</div> 
+{/if}
+
+{if ($data.page|in_array:['villa-south'] and $data.origin|in_array:['about-twin-villas-natai']) or $data.page|in_array:['villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+        <div class="wrapper">
+            <div class="the-content">
+			
+            {parsedata folder=$data.theme cache="P00222" content="LYT"}
+            {if $data.page|in_array:['villa-layout']}
+            <h2 class="entry-title"><span>South Villa</span></h2>
+            {else}
+            <h2 class="entry-title"><span>Villa Layout</span></h2>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+
+                <p>{$content[0].desc}</p>
+
+            {/if}
+
+            {section name=s loop=$content[0].SubContents}
+                <h4>{$content[0].SubContents[s].Heading}</h4>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+			
+             {include file="floorplan.html"}
+            </div>
+        </div>
+		
+</div> 
+{/if}
+
+{if ($data.page|in_array:['villa-north'] and $data.origin|in_array:['about-twin-villas-natai']) or $data.page|in_array:['living-areas']}
+<div class="content-item living-areas" id="living-areas">
+
+	<div class="wrapper">
+		<div class="the-content">
+            {if $data.page|in_array:['living-areas']}
+            <h2 class="entry-title"><span>Twin Villas Natai</span></h2>
+            {else}
+            <h2 class="entry-title"><span>Living Areas</span></h2>
+            {/if}
+            {parsedata folder=$data.theme cache="P00221" content="LVA"}
+
+
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc regex="default"}
+                {section name=s loop=$contentPart}
+                <p>{$contentPart[s]}</p>
+                {/section}
+
+            {/if}
+            {section name=s loop=$content[0].SubContents}
+                {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+				<div class="group">						
+
+                    {if $smarty.section.s.index eq 0}
+                    <div class="half">
+                        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/north/thumb/Twin Villas Natai - Living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/north/Twin Villas Natai - Living area.jpg" alt="Twin Villas Natai - Living area" class="lazyload" /></div>
+                    </div>
+                    {/if}	
+
+                    <div class="half half-content">
+                    <h4>{$content[0].SubContents[s].Heading}</h4>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+
+                    {/if}
+                    </div>
+
+                    {if $smarty.section.s.index eq 1}
+                    <div class="half">
+                        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/north/thumb/Twin Villas Natai - Fresh water pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/north/Twin Villas Natai - Fresh water pool.jpg" alt="Twin Villas Natai - Fresh water pool" class="lazyload" /></div>
+                    </div>
+                    {/if}						
+						
+				</div>    
+				{/if}    
+			{/section}
+		</div>
+	</div>
+    
+</div> 
+{/if}
+
+{if ($data.page|in_array:['villa-south'] and $data.origin|in_array:['about-twin-villas-natai']) or $data.page|in_array:['living-areas']}
+<div class="content-item living-areas" id="living-areas">
+
+	<div class="wrapper">
+		<div class="the-content">
+            {if $data.page|in_array:['living-areas']}
+            <h2 class="entry-title"><span>South Villa</span></h2>
+            {else}
+            <h2 class="entry-title"><span>Living Areas</span></h2>
+            {/if}
+            {parsedata folder=$data.theme cache="P00222" content="LVA"}
+
+
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {$content[0].desc}
+
+            {/if}
+            {section name=s loop=$content[0].SubContents}
+                {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+				<div class="group">						
+
+                    {if $smarty.section.s.index eq 0}
+                    <div class="half">
+                        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/south/thumb/Twin Villas Natai - Intimate living space.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/south/Twin Villas Natai - Intimate living space.jpg" alt="Twin Villas Natai - Intimate living space" class="lazyload" /></div>
+                    </div>
+                    {/if}	
+
+                    <div class="half half-content">
+                    <h4>{$content[0].SubContents[s].Heading}</h4>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+
+                    {/if}
+                    </div>
+
+                    {if $smarty.section.s.index eq 1}
+                    <div class="half">
+                        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/south/thumb/Twin Villas Natai - Poolside bliss.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/south/Twin Villas Natai - Poolside bliss.jpg" alt="Twin Villas Natai - Poolside bliss" class="lazyload" /></div>
+                    </div>
+                    {/if}						
+						
+				</div>    
+				{/if}    
+			{/section}
+            
+		</div>
+	</div>
+    
+</div> 
+{/if}
+
+{if ($data.page|in_array:['villa-north'] and $data.origin|in_array:['about-twin-villas-natai']) or $data.page|in_array:['bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache="P00221" content="BDR"}
+            {if $data.page|in_array:['bedrooms']}
+            <h2 class="entry-title"><span>Twin Villas Natai</span></h2>
+            {else}
+            <h2 class="entry-title"><span>Bedrooms</span></h2>
+            {/if}
+
+            {if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+            {/if}
+
+			{section name=s loop=$content[0].SubContents}
+                {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+				<div class="group">						
+
+                    {if $smarty.section.s.index eq 0}
+                    <div class="half">
+                        <div class="first-img important"><img src="{$data.cdn}/resources/{$data.theme}/content/north/thumb/Twin Villas Natai - Spacious ocean view bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/north/Twin Villas Natai - Spacious ocean view bedroom.jpg" alt="Twin Villas Natai - Spacious ocean view bedroom" class="lazyload" /></div>
+                    </div>
+                    {/if}					
+
+                    {if $smarty.section.s.index eq 2}
+                    <div class="half">
+                        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/north/thumb/Twin Villas Natai - Bunk bedroom details.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/north/Twin Villas Natai - Bunk bedroom details.jpg" alt="Twin Villas Natai - Bunk bedroom details" class="lazyload" /></div>
+                    </div>
+                    {/if}
+
+                    <div class="half half-content">
+                    <h4>{$content[0].SubContents[s].Heading|replace:'Bunk Bedroom':'Guest Bedroom'}</h4>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+
+                    {/if}
+                    </div>
+
+                    {if $smarty.section.s.index eq 1}
+                    <div class="half">
+                        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/north/thumb/Twin Villas Natai - Twin bedroom setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/north/Twin Villas Natai - Twin bedroom setting.jpg" alt="Twin Villas Natai - Twin bedroom setting" class="lazyload" /></div>
+                    </div>
+                    {/if}						
+						
+				</div>    
+				{/if}    
+			{/section}
+			<div class="clear"></div>
+		
+            </div>
+			
+        </div>
+   
+</div> 
+{/if}
+
+{if ($data.page|in_array:['villa-south'] and $data.origin|in_array:['about-twin-villas-natai']) or $data.page|in_array:['bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache="P00222" content="BDR"}
+            {if $data.page|in_array:['bedrooms']}
+            <h2 class="entry-title"><span>South Villa</span></h2>
+            {else}
+            <h2 class="entry-title"><span>Bedrooms</span></h2>
+            {/if}
+
+            {if 'desc'|array_key_exists:$content[0]}
+			    {$content[0].desc}
+            {/if}
+
+			{section name=s loop=$content[0].SubContents}
+                {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+				<div class="group">						
+
+                    {if $smarty.section.s.index eq 0}
+                    <div class="half">
+                        <div class="first-img important"><img src="{$data.cdn}/resources/{$data.theme}/content/south/thumb/Twin Villas Natai - Spacious ocean view bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/south/Twin Villas Natai - Spacious ocean view bedroom.jpg" alt="Twin Villas Natai - Spacious ocean view bedroom" class="lazyload" /></div>
+                    </div>
+                    {/if}						
+
+                    {if $smarty.section.s.index eq 2}
+                    <div class="half">
+                        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/south/thumb/Twin Villas Natai - Perfect place for family vacation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/south/Twin Villas Natai - Perfect place for family vacation.jpg" alt="Twin Villas Natai - Bunk bedroom details" class="lazyload" /></div>
+                    </div>
+                    {/if}	
+
+                    <div class="half half-content">
+                    <h4>{$content[0].SubContents[s].Heading|replace:'Bunk Bedroom':'Guest Bedroom'}</h4>
+                    <p>{$content[0].SubContents[s].Description}</p>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+
+                    {/if}
+                    </div>
+
+                    {if $smarty.section.s.index eq 1}
+                    <div class="half">
+                        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/south/thumb/Twin Villas Natai - Comfortable garden view bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/south/Twin Villas Natai - Comfortable garden view bedroom.jpg" alt="Twin Villas Natai - Comfortable garden view bedroom" class="lazyload" /></div>
+                    </div>
+                    {/if}						
+						
+				</div>    
+				{/if}    
+			{/section}
+			<div class="clear"></div>
+		
+            </div>
+			
+        </div>
+   
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+	
+    <div class="wrapper">
+        <div class="the-content">
+			<h1 class="entry-title">{$data.heading}</h1>
+			<div class="first-img">
+			    <img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Twin Villas Natai - Dedicated staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Twin Villas Natai - Dedicated staff.jpg" alt="Twin Villas Natai - Dedicated staff" class="lazyload" />
+            </div>
+			
+			{parsedata folder=$data.theme cache=$data.cache content="STAFF"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+
+				<p>{$content[0].desc}</p>
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+			
+			<div class="clear"></div>
+        </div>
+    </div>
+	
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    
+    <div class="wrapper">
+        <div class="the-content">
+			<h1 class="entry-title">{$data.heading}</h1>
+			{parsedata folder=$data.theme cache=$data.cache content="DNNG"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc explode="</p>"}
+				{section name=s loop=$contentPart max=1}
+					<p>{$contentPart[s]|replace:'<br />': ''}</p>
+                {/section}                
+			
+				<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Twin Villas Natai North Villa - Dining table.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Twin Villas Natai North Villa - Dining table.jpg" alt="Twin Villas Natai North Villa - Dining table" class="lazyload" />
+				</div>
+				
+				{section name=s loop=$contentPart start=1}
+					<p>{$contentPart[s]|replace:'<br />': ''}</p>
+                {/section}
+
+            <div class="group">
+                <div class="half">
+                    <img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Twin Villas Natai - Perfect romantic retreat.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Twin Villas Natai - Perfect romantic retreat.jpg" alt="Twin Villas Natai - Perfect romantic retreat" class="lazyload" />
+                </div>
+                <div class="half">
+                    <img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Twin Villas Natai - Perfect retreat for romance.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Twin Villas Natai - Perfect retreat for romance.jpg" alt="Twin Villas Natai - Perfect retreat for romance" class="lazyload" />
+                </div>
+            </div>
+			
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2 class="entry-title">{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+			
+			<div class="clear"></div>
+        </div>
+    </div>    
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    
+    <div class="wrapper">
+        <div class="the-content">
+			<h1 class="entry-title">{$data.heading}</h1>
+			{parsedata folder=$data.theme cache=$data.cache content="FAM"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+               
+                {contentpart content=$content[0].desc explode="</p>"}
+				{section name=s loop=$contentPart max=1}
+					<p>{$contentPart[s]|replace:'<br />': ''}</p>
+                {/section} 
+				
+				<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Twin Villas Natai - Family getaway.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Twin Villas Natai - Family getaway.jpg" alt="Twin Villas Natai - Family getaway" class="lazyload" />
+				</div>
+				
+				{section name=s loop=$contentPart start=1}
+					<p>{$contentPart[s]|replace:'<br />': ''}</p>
+                {/section}                
+			{/if}
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2 class="entry-title">{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+			
+			<div class="clear"></div>
+        </div>
+    </div>
+   
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">    
+    <div class="wrapper">
+        <div class="the-content">
+		<h1 class="entry-title">{$data.heading}</h1>
+			{parsedata folder=$data.theme cache=$data.cache content="SPAYOGA"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+               
+                {contentpart content=$content[0].desc explode="</p>"}
+				{section name=s loop=$contentPart max=1}
+					<p>{$contentPart[s]|replace:'<br />': ''}</p>
+                {/section} 
+				
+				<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Twin Villas Natai - Spa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Twin Villas Natai - Spa.jpg" alt="Twin Villas Natai - Spa" class="lazyload" />
+				</div>
+				
+				{section name=s loop=$contentPart start=1}
+					<p>{$contentPart[s]|replace:'<br />': ''}</p>
+                {/section}                
+			{/if}
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+			<div class="clear"></div>
+        </div>
+    </div>  
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['natai-beach-phuket', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+            <h3 class="entry-title"><span>The Locale</span></h3>
+
+            {if 'desc'|array_key_exists:$content[0]}
+            <div class="group">
+                <div class="half hide">
+                    <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Twin Villas Natai - Summer breeze.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Twin Villas Natai - Summer breeze.jpg" alt="Twin Villas Natai - Summer breeze" class="lazyload" />
+                </div>
+                <div class="half half-content">
+                    {contentpart content=$content[0].desc explode="no nightlife in the area"}
+                    {$contentPart[0]}
+                    Baba Beach Club (2km) and Iniala Resort (3km) offer excellent nightlife options, cocktails, dinner and good brunches.
+                </div>
+            </div>
+            <div class="group">
+                <div class="half half-content">
+        			<div class="area">
+        				{if 'SubContents'|array_key_exists:$content[0]}
+        					<h4>Distances</h4>
+        					<dl class="distances">
+        						{section name=s loop=$content[0].SubContents}
+        							<dt>{$content[0].SubContents[s].Heading}</dt>
+        							<dd>{$content[0].SubContents[s].Description}</dd>
+        							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+        								<p>
+        									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+        										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+        									</a>
+        								</p>
+        							{/if}
+        						{/section}
+        					</dl>
+        				{/if}
+        			</div>
+                </div>
+                <div class="half">
+                    <div class="map_div" id="map_div_locale"></div>
+                    </div>                
+                </div>
+
+            </div>
+            {/if}
+
+
+        </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['natai-beach-phuket', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+  
+	<div class="wrapper">
+		<div class="the-content">
+		{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h3 class="entry-title"><span>Things to Do</span></h3>
+        {if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+			{section name=s loop=$contentPart}
+                {$contentPart[s]|replace:'families and groups. But for those who wish to venture beyond the beach and':'families and groups including a walk to a nearby pier, but for those who wish to venture beyond the beach and'}
+			{/section}
+		{/if}
+
+            <div class="first-img">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Twin Villas Natai - Exceptional vacation spot.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Twin Villas Natai - Exceptional vacation spot.jpg" alt="Twin Villas Natai - Exceptional vacation spot" class="lazyload" />
+            </div>
+		</div>
+		 
+		{if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+			{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}			
+			<div class="group">
+				<div class="half half-content">
+					{section name=s loop=$contentPart max=4}
+					<p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+					{/section}
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Twin Villas Natai - Things to do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Twin Villas Natai - Things to do 1.jpg" alt="Twin Villas Natai - Things to do 1" class="lazyload" />
+				</div>
+			</div>
+			
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Twin Villas Natai - Things to do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Twin Villas Natai - Things to do 2.jpg" alt="Twin Villas Natai - Things to do 2" class="lazyload" />
+				</div>
+				<div class="half half-content">
+					{section name=s loop=$contentPart start=4}
+					<p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+					{/section}
+				</div>
+			</div>.
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+			
+		{/if}
+	</div>
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['about-twin-villas-natai','villa-north','villa-south','quick-facts']}
+   
+    {parsedata folder=$data.theme cache=$data.cache content="QF"}
+    {if 'SubContents'|array_key_exists:$content[0]}
+	<div class="content-item quick-facts" id="quick-facts">
+        <div class="wrapper">
+            <h2 class="entry-title">Quick facts</h2>
+            <div class="group">
+                <div class="half">
+                {section name=s loop=8}
+                {if $content[0].SubContents[s].Heading eq 'Entertainment'}
+                    <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:'&nbsp;':''|replace:'&':''|replace:' ':'-'|replace:'/':'-'|replace:'&nbsp;':''|lower}">
+                        <strong>{$content[0].SubContents[s].Heading}</strong>
+                        TOT IPTV and Bose speakers in the living room, TVs in all bedrooms.
+                    </div>                
+                {else}
+                    <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:'&nbsp;':''|replace:'&':''|replace:' ':'-'|replace:'/':'-'|replace:'&nbsp;':''|lower}">
+                        <strong>{$content[0].SubContents[s].Heading}</strong>
+                        {$content[0].SubContents[s].Description|replace:['<br />']:['']}
+                    </div>
+                {/if}
+                {/section}
+                </div>
+
+                <div class="half"> 
+                {section name=s start=8 loop=$content[0].SubContents}
+
+                {if $content[0].SubContents[s].Heading eq 'Entertainment'}
+                <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:'&nbsp;':''|replace:'&':''|replace:' ':'-'|replace:'/':'-'|replace:'&nbsp;':''|lower}">
+                    <strong>{$content[0].SubContents[s].Heading}</strong>
+                    TOT IPTV and Bose speakers in the living room, TVs in all bedrooms.
+                </div>
+                
+                {else}
+                    {* if $smarty.section.s.index neq $smarty.section.s.last *}
+                <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:'&nbsp;':''|replace:'&':''|replace:' ':'-'|replace:'/':'-'|replace:'&nbsp;':''|lower}">
+                    <strong>{$content[0].SubContents[s].Heading}</strong>
+                    {$content[0].SubContents[s].Description|replace:['<br />']:['']}
+                </div>
+                    {* /if *}
+                {/if}
+
+                {/section}
+                </div>
+           </div>  
+       </div>  
+   </div>  
+    {/if}
+
+{/if}
+
+{if $data.page|in_array:['weddings']}
+	<div class="content-item weddings" id="weddings">
+    
+    <div class="wrapper">
+        <div class="the-content">
+		<h1 class="entry-title">WEDDINGS</h1>
+		{parsedata folder=$data.theme cache=$data.cache content="EVT"}		
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc strip=["<p>"] explode="</p>"} 
+			{section name=s loop=$contentPart max=4}
+				<p>{$contentPart[s]|replace:'<br />': ''}</p>
+			{/section}
+		</div>
+	</div>
+	<div class="wrappers">
+		<div class="the-content">
+            <div class="photo-album">
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Twin Villas Natai - Wedding.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Twin Villas Natai - Beautiful wedding setup.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Twin Villas Natai - Wedding.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Twin Villas Natai - Dream wedding.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Twin Villas Natai - Wedding.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Twin Villas Natai - Perfect romantic retreat.jpg" class="lazyload"></div>
+            </div>
+            <div class="photo-album-thumbs">
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Twin Villas Natai - Beautiful wedding setup.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Twin Villas Natai - Dream wedding.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Twin Villas Natai - Perfect romantic retreat.jpg" class="lazyload"></div>
+            </div>
+
+			
+			
+			{if 'desc'|array_key_exists:$content[0]}           
+				
+				<h2>A day to remember</h2>
+				<small>Life together begins at the most beautiful places on earth.</small>
+
+				<div class="group">
+			   
+				<ul class="capacity">
+					{section name=s loop=$contentPart start=4 }
+						{contentpart content=$contentPart[s] explode="<br />"} 
+						{section name=s loop=$contentPart}
+							<li>{$contentPart[s]|replace:['<p>','</p>']:['', '']}</li>
+						{/section}
+					{/section}
+
+				</ul>
+				 <div class="guidelines">
+					{contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+					{section name=s loop=$contentPart}
+						{$contentPart[s]|replace:'<br />': ''}
+					{/section} 
+				</div>
+				
+				<div class="clear"></div>
+			{/if}
+
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+
+		{/if}
+		</div>
+	</div>
+	</div>
+{/if}  

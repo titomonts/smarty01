@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Waimarie" countryid="TH">
+  <GenInclusions><![CDATA[]]></GenInclusions>
+  <Promotions>
+    <Promo promoid="0" discounttypeid="SD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="3" checkinwithin="0" advancedays="0" sortorder="0" bedrooms="6" displaytype="1">
+      <PromoName><![CDATA[Stay before 31st October and enjoy 20% off]]></PromoName>
+      <Description><![CDATA[Stay anytime from 1st July until 31th October and enjoy a special 25% discount.<br /><br />Terms and conditions:<br />- Only valid for stays from 1st July to 31th October 2018 <br />- Only valid for new bookings received from 29 June 2018 <br />- Not valid with any other discounts or offers<br />]]></Description>
+      <ValidFrom>2018-07-01</ValidFrom>
+      <ValidTo>2018-10-31</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+      <TermsCond><![CDATA[]]></TermsCond>
+    </Promo>
+  </Promotions>
+  <Discounts>
+    <Discount discountid="97998" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2018-07-01</ValidFrom>
+      <ValidTo>2018-08-31</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="97999" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2018-09-01</ValidFrom>
+      <ValidTo>2018-09-27</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98000" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2018-09-28</ValidFrom>
+      <ValidTo>2018-10-07</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98001" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2018-10-08</ValidFrom>
+      <ValidTo>2018-12-13</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98002" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2018-12-14</ValidFrom>
+      <ValidTo>2018-12-20</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98003" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (PK)]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="98004" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-01-31</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98005" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-02-01</ValidFrom>
+      <ValidTo>2019-02-10</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98006" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-03-28</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98007" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-03-29</ValidFrom>
+      <ValidTo>2019-04-22</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98009" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-04-23</ValidFrom>
+      <ValidTo>2019-06-30</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98010" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-07-01</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98011" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-09-26</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98012" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2019-09-27</ValidFrom>
+      <ValidTo>2019-10-07</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98013" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2019-10-08</ValidFrom>
+      <ValidTo>2019-12-12</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98014" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2019-12-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="98015" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (PK)]]></Description>
+      <ValidFrom>2019-12-20</ValidFrom>
+      <ValidTo>2020-01-11</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="102977" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-01-22</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="102978" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2020-01-23</ValidFrom>
+      <ValidTo>2020-02-01</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="102979" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2020-02-02</ValidFrom>
+      <ValidTo>2020-03-27</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="102980" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2020-03-28</ValidFrom>
+      <ValidTo>2020-04-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="102981" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2020-04-26</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="97939" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-01-14</ValidFrom>
+      <ValidTo>2018-12-20</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="97940" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="97941" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="102976" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="0">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="97943" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-01-14</ValidFrom>
+      <ValidTo>2020-01-11</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103104" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="0">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97950" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-07-01</ValidFrom>
+      <ValidTo>2018-08-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97951" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-09-01</ValidFrom>
+      <ValidTo>2018-09-27</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97952" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-09-28</ValidFrom>
+      <ValidTo>2018-10-07</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97953" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-10-08</ValidFrom>
+      <ValidTo>2018-12-13</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97954" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-14</ValidFrom>
+      <ValidTo>2018-12-20</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97955" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="%">0.00</Rate>
+    </Discount>
+    <Discount discountid="97956" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-01-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97957" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-02-01</ValidFrom>
+      <ValidTo>2019-02-10</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97958" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-03-28</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97959" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-03-29</ValidFrom>
+      <ValidTo>2019-04-22</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97961" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-04-23</ValidFrom>
+      <ValidTo>2019-06-30</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97962" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-07-01</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97963" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-09-26</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97964" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-09-27</ValidFrom>
+      <ValidTo>2019-10-07</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97965" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-10-08</ValidFrom>
+      <ValidTo>2019-12-12</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97966" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-12-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="97967" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-12-20</ValidFrom>
+      <ValidTo>2020-01-11</ValidTo>
+      <Rate ratetype="%">0.00</Rate>
+    </Discount>
+    <Discount discountid="103103" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="0">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+  </Discounts>
+  <DiscountSummary>
+    <Discount discounttypeid="EB" requirednights="1" checkinwithin="0" advancedays="150" sortorder="">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Rate ratetype="%">15.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+    <Discount discounttypeid="LM" requirednights="1" checkinwithin="15" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Rate ratetype="%">10.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+    <Discount discounttypeid="LS" requirednights="10" checkinwithin="0" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Rate ratetype="%">10.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+  </DiscountSummary>
+  <Rooms>
+    <Room roomid="970" bedrooms="6" maxoccupancy="14" maxadult="10" maxchild="4">
+      <RoomName><![CDATA[6 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="748">
+          <RateName><![CDATA[Standard Rate (6BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2018">
+              <SDate>2018-07-01</SDate>
+              <EDate>2018-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-01</SDate>
+              <EDate>2018-09-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-28</SDate>
+              <EDate>2018-10-07</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,950.00</DisplayRate>
+              <NRate>2,295.15</NRate>
+              <LS14DiscountedRate>1,950.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,755.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-10-08</SDate>
+              <EDate>2018-12-13</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-14</SDate>
+              <EDate>2018-12-20</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-21</SDate>
+              <EDate>2019-01-12</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,900.00</DisplayRate>
+              <NRate>3,413.30</NRate>
+              <LS14DiscountedRate>2,900.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">2,900.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-01-13</SDate>
+              <EDate>2019-01-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,950.00</DisplayRate>
+              <NRate>2,295.15</NRate>
+              <LS14DiscountedRate>1,950.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,755.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-01</SDate>
+              <EDate>2019-02-10</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-11</SDate>
+              <EDate>2019-03-28</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,950.00</DisplayRate>
+              <NRate>2,295.15</NRate>
+              <LS14DiscountedRate>1,950.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,755.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-03-29</SDate>
+              <EDate>2019-04-22</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>
+	Daily breakfast</li>
+<li>
+	WiFi internet access</li>
+<li>
+	One roundtrip airport transfer</li>
+<li>
+	2 night stay or more: complimentary 2 x 60 min in-villa massage</li>
+<li>
+	5 night stay or more: complimentary 1 x 4 hour van rental</li>
+<li>
+	Welcome fruit bowl, restocked daily</li>
+<li>
+	Kids welcome pack</li>
+<li>
+	Personal service by the villa staff including full time manager, housekeeper, chef, security</li>
+<li>
+	Exclusive use of the whole villa and listed facilities</li>
+]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-23</SDate>
+              <EDate>2019-06-30</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-07-01</SDate>
+              <EDate>2019-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>
+	Daily breakfast</li>
+<li>
+	WiFi internet access</li>
+<li>
+	One roundtrip airport transfer</li>
+<li>
+	2 night stay or more: complimentary 2 x 60 min in-villa massage</li>
+<li>
+	5 night stay or more: complimentary 1 x 4 hour van rental</li>
+<li>
+	Welcome fruit bowl, restocked daily</li>
+<li>
+	Kids welcome pack</li>
+<li>
+	Personal service by the villa staff including full time manager, housekeeper, chef, security</li>
+<li>
+	Exclusive use of the whole villa and listed facilities</li>
+]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-01</SDate>
+              <EDate>2019-09-26</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-27</SDate>
+              <EDate>2019-10-07</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,950.00</DisplayRate>
+              <NRate>2,295.15</NRate>
+              <LS14DiscountedRate>1,950.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,755.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-10-08</SDate>
+              <EDate>2019-12-12</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-13</SDate>
+              <EDate>2019-12-19</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-20</SDate>
+              <EDate>2020-01-11</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,900.00</DisplayRate>
+              <NRate>3,413.30</NRate>
+              <LS14DiscountedRate>2,900.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">2,900.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li>  Daily breakfast</li> <li>  WiFi internet access</li> <li>  One roundtrip airport transfer</li> <li>  2 night stay or more: complimentary 2 x 60 min in-villa massage</li> <li>  5 night stay or more: complimentary 1 x 4 hour van rental</li> <li>  Welcome fruit bowl, restocked daily</li> <li>  Kids welcome pack</li> <li>  Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>  Exclusive use of the whole villa and listed facilities</li> ]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-12</SDate>
+              <EDate>2020-01-22</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,950.00</DisplayRate>
+              <NRate>2,295.15</NRate>
+              <LS14DiscountedRate>1,950.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,755.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-23</SDate>
+              <EDate>2020-02-01</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-02-02</SDate>
+              <EDate>2020-03-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,950.00</DisplayRate>
+              <NRate>2,295.15</NRate>
+              <LS14DiscountedRate>1,950.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,755.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-28</SDate>
+              <EDate>2020-04-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,200.00</DisplayRate>
+              <NRate>2,589.40</NRate>
+              <LS14DiscountedRate>2,200.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,980.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-26</SDate>
+              <EDate>2020-06-30</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+    <Room roomid="1482" bedrooms="5" maxoccupancy="10" maxadult="10" maxchild="0">
+      <RoomName><![CDATA[5 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="1576">
+          <RateName><![CDATA[Standard Rate (5BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2018">
+              <SDate>2018-07-01</SDate>
+              <EDate>2018-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-01</SDate>
+              <EDate>2018-09-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,500.00</DisplayRate>
+              <NRate>1,765.50</NRate>
+              <LS14DiscountedRate>1,500.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,350.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-28</SDate>
+              <EDate>2018-10-07</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-10-08</SDate>
+              <EDate>2018-12-13</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,500.00</DisplayRate>
+              <NRate>1,765.50</NRate>
+              <LS14DiscountedRate>1,500.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,350.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-14</SDate>
+              <EDate>2018-12-20</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-21</SDate>
+              <EDate>2019-01-12</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,900.00</DisplayRate>
+              <NRate>3,413.30</NRate>
+              <LS14DiscountedRate>2,900.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">2,900.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-01-13</SDate>
+              <EDate>2019-01-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-01</SDate>
+              <EDate>2019-02-10</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-11</SDate>
+              <EDate>2019-03-28</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-03-29</SDate>
+              <EDate>2019-04-22</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>
+	Daily breakfast</li>
+<li>
+	WiFi internet access</li>
+<li>
+	One roundtrip airport transfer</li>
+<li>
+	2 night stay or more: complimentary 2 x 60 min in-villa massage</li>
+<li>
+	5 night stay or more: complimentary 1 x 4 hour van rental</li>
+<li>
+	Welcome fruit bowl, restocked daily</li>
+<li>
+	Kids welcome pack</li>
+<li>
+	Personal service by the villa staff including full time manager, housekeeper, chef, security</li>
+<li>
+	Exclusive use of the 5BR villa and listed facilities</li>
+]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-23</SDate>
+              <EDate>2019-06-30</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,500.00</DisplayRate>
+              <NRate>1,765.50</NRate>
+              <LS14DiscountedRate>1,500.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,350.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-07-01</SDate>
+              <EDate>2019-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>
+	Daily breakfast</li>
+<li>
+	WiFi internet access</li>
+<li>
+	One roundtrip airport transfer</li>
+<li>
+	2 night stay or more: complimentary 2 x 60 min in-villa massage</li>
+<li>
+	5 night stay or more: complimentary 1 x 4 hour van rental</li>
+<li>
+	Welcome fruit bowl, restocked daily</li>
+<li>
+	Kids welcome pack</li>
+<li>
+	Personal service by the villa staff including full time manager, housekeeper, chef, security</li>
+<li>
+	Exclusive use of the 5BR villa and listed facilities</li>
+]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-01</SDate>
+              <EDate>2019-09-26</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,500.00</DisplayRate>
+              <NRate>1,765.50</NRate>
+              <LS14DiscountedRate>1,500.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,350.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-27</SDate>
+              <EDate>2019-10-07</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-10-08</SDate>
+              <EDate>2019-12-12</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,500.00</DisplayRate>
+              <NRate>1,765.50</NRate>
+              <LS14DiscountedRate>1,500.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,350.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-13</SDate>
+              <EDate>2019-12-19</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-20</SDate>
+              <EDate>2020-01-11</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,900.00</DisplayRate>
+              <NRate>3,413.30</NRate>
+              <LS14DiscountedRate>2,900.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">2,900.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-12</SDate>
+              <EDate>2020-01-22</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-23</SDate>
+              <EDate>2020-02-01</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-02-02</SDate>
+              <EDate>2020-03-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,700.00</DisplayRate>
+              <NRate>2,000.90</NRate>
+              <LS14DiscountedRate>1,700.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,530.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-28</SDate>
+              <EDate>2020-04-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,925.00</DisplayRate>
+              <NRate>2,265.72</NRate>
+              <LS14DiscountedRate>1,925.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,733.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-26</SDate>
+              <EDate>2020-06-30</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,500.00</DisplayRate>
+              <NRate>1,765.50</NRate>
+              <LS14DiscountedRate>1,500.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,350.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li><li>Welcome fruit bowl, restocked daily</li><li>Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li> <li>Exclusive use of the 5BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+    <Room roomid="1325" bedrooms="4" maxoccupancy="8" maxadult="8" maxchild="0">
+      <RoomName><![CDATA[4 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="1414">
+          <RateName><![CDATA[Standard Rate (4BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2018">
+              <SDate>2018-07-01</SDate>
+              <EDate>2018-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-01</SDate>
+              <EDate>2018-09-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,250.00</DisplayRate>
+              <NRate>1,471.25</NRate>
+              <LS14DiscountedRate>1,250.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,125.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-28</SDate>
+              <EDate>2018-10-07</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,450.00</DisplayRate>
+              <NRate>1,706.65</NRate>
+              <LS14DiscountedRate>1,450.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,305.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-10-08</SDate>
+              <EDate>2018-12-13</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,250.00</DisplayRate>
+              <NRate>1,471.25</NRate>
+              <LS14DiscountedRate>1,250.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,125.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-14</SDate>
+              <EDate>2018-12-20</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-21</SDate>
+              <EDate>2019-01-12</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,900.00</DisplayRate>
+              <NRate>3,413.30</NRate>
+              <LS14DiscountedRate>2,900.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">2,900.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-01-13</SDate>
+              <EDate>2019-01-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,450.00</DisplayRate>
+              <NRate>1,706.65</NRate>
+              <LS14DiscountedRate>1,450.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,305.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-01</SDate>
+              <EDate>2019-02-10</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-11</SDate>
+              <EDate>2019-03-28</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,450.00</DisplayRate>
+              <NRate>1,706.65</NRate>
+              <LS14DiscountedRate>1,450.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,305.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-03-29</SDate>
+              <EDate>2019-04-22</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>
+	Daily breakfast</li>
+<li>
+	WiFi internet access</li>
+<li>
+	One roundtrip airport transfer</li>
+<li>
+	2 night stay or more: complimentary 2 x 60 min in-villa massage</li>
+<li>
+	5 night stay or more: complimentary 1 x 4 hour van rental</li>
+<li>
+	Welcome fruit bowl, restocked daily</li>
+<li>
+	Kids welcome pack</li>
+<li>
+	Personal service by the villa staff including full time manager, housekeeper, chef, security</li>
+<li>
+	Exclusive use of the 4BR villa and listed facilities</li>
+]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-23</SDate>
+              <EDate>2019-06-30</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,250.00</DisplayRate>
+              <NRate>1,471.25</NRate>
+              <LS14DiscountedRate>1,250.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,125.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-07-01</SDate>
+              <EDate>2019-08-31</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>
+	Daily breakfast</li>
+<li>
+	WiFi internet access</li>
+<li>
+	One roundtrip airport transfer</li>
+<li>
+	2 night stay or more: complimentary 2 x 60 min in-villa massage</li>
+<li>
+	5 night stay or more: complimentary 1 x 4 hour van rental</li>
+<li>
+	Welcome fruit bowl, restocked daily</li>
+<li>
+	Kids welcome pack</li>
+<li>
+	Personal service by the villa staff including full time manager, housekeeper, chef, security</li>
+<li>
+	Exclusive use of the 4BR villa and listed facilities</li>
+]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-01</SDate>
+              <EDate>2019-09-26</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,250.00</DisplayRate>
+              <NRate>1,471.25</NRate>
+              <LS14DiscountedRate>1,250.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,125.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-27</SDate>
+              <EDate>2019-10-07</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,450.00</DisplayRate>
+              <NRate>1,706.65</NRate>
+              <LS14DiscountedRate>1,450.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,305.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-10-08</SDate>
+              <EDate>2019-12-12</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,250.00</DisplayRate>
+              <NRate>1,471.25</NRate>
+              <LS14DiscountedRate>1,250.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,125.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-13</SDate>
+              <EDate>2019-12-19</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-20</SDate>
+              <EDate>2020-01-11</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,900.00</DisplayRate>
+              <NRate>3,413.30</NRate>
+              <LS14DiscountedRate>2,900.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">2,900.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-12</SDate>
+              <EDate>2020-01-22</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,450.00</DisplayRate>
+              <NRate>1,706.65</NRate>
+              <LS14DiscountedRate>1,450.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,305.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-23</SDate>
+              <EDate>2020-02-01</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-02-02</SDate>
+              <EDate>2020-03-27</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,450.00</DisplayRate>
+              <NRate>1,706.65</NRate>
+              <LS14DiscountedRate>1,450.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,305.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-28</SDate>
+              <EDate>2020-04-25</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,625.00</DisplayRate>
+              <NRate>1,912.62</NRate>
+              <LS14DiscountedRate>1,625.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,463.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-26</SDate>
+              <EDate>2020-06-30</EDate>
+              <PublishedRate>0.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,250.00</DisplayRate>
+              <NRate>1,471.25</NRate>
+              <LS14DiscountedRate>1,250.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,125.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li>Daily breakfast</li><li>WiFi internet access</li><li>One roundtrip airport transfer</li><li>2 night stay or more: complimentary 2 x 60 min in-villa massage</li><li>5 night stay or more: complimentary 1 x 4 hour van rental</li>  <li>Welcome fruit bowl, restocked daily</li><li> Kids welcome pack</li><li>Personal service by the villa staff including full time manager, housekeeper, chef, security</li><li>Exclusive use of the 4BR villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+  </Rooms>
+  <Packages>
+  </Packages>
+</Villa>

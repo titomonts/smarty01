@@ -1,0 +1,19 @@
+{reviews hide_this_year="2010" order="d,c,n" villa_id="P00121,P00226"}
+{if $data.page eq 'nusa-dua-bali' or $data.origin eq 'grand-cliff-nusa-dua'}
+<div class="reviews-container lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/general/Grand Cliff Nusa Dua - Beautiful view.jpg"> 
+{else}
+<div class="reviews-container lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/general/Grand Cliff Front Residence - Flower table aerial.jpg"> 
+{/if}
+    <div class="reviews">
+        <div class="wrapper">
+            <div class="group">
+                <div class="content home-reviews">
+                    <h2 id="guestreview"><span>Guest Reviews</span></h2>
+                    {$reviews}
+                    
+                    <a href="/guest-reviews.html">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

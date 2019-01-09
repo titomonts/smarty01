@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00221" countryid="TH">
+  <GenInclusions><![CDATA[<span style="font-weight: bold;">This villa comes with every conceivable luxury – and then some.</span><br />Enjoy  the exclusive use of the whole villa, its private swimming pool and  unlimited WiFi and the flawless service of its team of staff, including a  personal chef, villa manager, housekeepers and security.<br />]]></GenInclusions>
+  <Promotions>
+    <Promo promoid="0" discounttypeid="SD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="0" sortorder="0" bedrooms="5" displaytype="1">
+      <PromoName><![CDATA[Save $1000 US off listed rate and flexible minimum night stay]]></PromoName>
+      <Description><![CDATA[Book now and jump on a plane to grab the deal of a lifetime.<br />Twin Villas Natai, 5 bedroom luxury beachfront villa, is available for only 1,800USD++ per night, with flexible minimum nights stay.<br /> <br />Terms and conditions:<br />- Offer applicable for peak season dates only<br />- Only valid for new bookings received from 21th December 2018<br />- Applicable to all stays completed before 12th January 2019<br />- Combinable with other offers and discounts<br />]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="$">1000.00</Rate>
+      <TermsCond><![CDATA[]]></TermsCond>
+    </Promo>
+  </Promotions>
+  <Discounts>
+    <Discount discountid="103535" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS -EB (PK)]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="102267" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-01-31</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="102246" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2019-02-01</ValidFrom>
+      <ValidTo>2019-02-10</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103564" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-03-02</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103565" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2019-03-03</ValidFrom>
+      <ValidTo>2019-03-28</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="102248" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2019-03-29</ValidFrom>
+      <ValidTo>2019-04-11</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103566" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2019-04-12</ValidFrom>
+      <ValidTo>2019-04-21</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="117393" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2019-04-22</ValidFrom>
+      <ValidTo>2019-06-30</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="102271" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2019-07-01</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103540" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-09-26</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="103507" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2019-09-27</ValidFrom>
+      <ValidTo>2019-10-07</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="117441" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2019-10-08</ValidFrom>
+      <ValidTo>2019-10-31</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="117418" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2019-11-01</ValidFrom>
+      <ValidTo>2019-12-12</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="102250" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2019-12-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103526" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS -EB (PK)]]></Description>
+      <ValidFrom>2019-12-20</ValidFrom>
+      <ValidTo>2020-01-11</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="117395" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-01-23</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="102273" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-01-24</ValidFrom>
+      <ValidTo>2020-02-01</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103509" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-02-02</ValidFrom>
+      <ValidTo>2020-02-29</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="117431" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (SH)]]></Description>
+      <ValidFrom>2020-03-01</ValidFrom>
+      <ValidTo>2020-03-28</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="102252" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-03-29</ValidFrom>
+      <ValidTo>2020-04-08</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103543" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-04-09</ValidFrom>
+      <ValidTo>2020-04-18</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103528" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (HI)]]></Description>
+      <ValidFrom>2020-04-19</ValidFrom>
+      <ValidTo>2020-04-26</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="102253" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS - EB (LO)]]></Description>
+      <ValidFrom>2020-04-27</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="124807" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2020-07-01</ValidFrom>
+      <ValidTo>2020-08-31</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="124808" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2020-09-01</ValidFrom>
+      <ValidTo>2020-09-30</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="124809" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2020-10-01</ValidFrom>
+      <ValidTo>2020-10-11</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="124810" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (LO)]]></Description>
+      <ValidFrom>2020-10-12</ValidFrom>
+      <ValidTo>2020-10-31</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="124811" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (SH)]]></Description>
+      <ValidFrom>2020-11-01</ValidFrom>
+      <ValidTo>2020-12-10</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="124812" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long Stay plus Early Bird Discount]]></DiscountName>
+      <Description><![CDATA[LS (10) - EB (HI)]]></Description>
+      <ValidFrom>2020-12-11</ValidFrom>
+      <ValidTo>2020-12-17</ValidTo>
+      <Rate ratetype="%">19.00</Rate>
+    </Discount>
+    <Discount discountid="103562" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[PK]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="103563" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-01-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103537" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-02-01</ValidFrom>
+      <ValidTo>2019-02-10</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103538" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-02-11</ValidFrom>
+      <ValidTo>2019-03-02</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="102269" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-03-03</ValidFrom>
+      <ValidTo>2019-03-28</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103539" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-03-29</ValidFrom>
+      <ValidTo>2019-04-11</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="117401" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-04-12</ValidFrom>
+      <ValidTo>2019-04-21</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="102249" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-04-22</ValidFrom>
+      <ValidTo>2019-06-30</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="102238" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-07-01</ValidFrom>
+      <ValidTo>2019-08-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103567" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-09-01</ValidFrom>
+      <ValidTo>2019-09-26</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="103525" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-09-27</ValidFrom>
+      <ValidTo>2019-10-07</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="117394" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2019-10-08</ValidFrom>
+      <ValidTo>2019-10-31</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="102272" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2019-11-01</ValidFrom>
+      <ValidTo>2019-12-12</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103568" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2019-12-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="117409" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[PK]]></Description>
+      <ValidFrom>2019-12-20</ValidFrom>
+      <ValidTo>2020-01-11</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="102251" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-01-23</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103569" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-01-24</ValidFrom>
+      <ValidTo>2020-02-01</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103527" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-02-02</ValidFrom>
+      <ValidTo>2020-02-29</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="117396" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-03-01</ValidFrom>
+      <ValidTo>2020-03-28</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103570" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-03-29</ValidFrom>
+      <ValidTo>2020-04-08</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103519" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-04-09</ValidFrom>
+      <ValidTo>2020-04-18</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="117416" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-04-19</ValidFrom>
+      <ValidTo>2020-04-26</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="102275" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-04-27</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="124799" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-07-01</ValidFrom>
+      <ValidTo>2020-08-31</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="124800" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-09-01</ValidFrom>
+      <ValidTo>2020-09-30</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="124801" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-10-01</ValidFrom>
+      <ValidTo>2020-10-11</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="124802" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO]]></Description>
+      <ValidFrom>2020-10-12</ValidFrom>
+      <ValidTo>2020-10-31</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="124803" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[SH]]></Description>
+      <ValidFrom>2020-11-01</ValidFrom>
+      <ValidTo>2020-12-10</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="124804" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Description><![CDATA[HI]]></Description>
+      <ValidFrom>2020-12-11</ValidFrom>
+      <ValidTo>2020-12-17</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="102245" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-21</ValidFrom>
+      <ValidTo>2019-01-12</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103541" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="117421" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-12-20</ValidFrom>
+      <ValidTo>2020-01-11</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103544" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="124805" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-07-01</ValidFrom>
+      <ValidTo>2020-12-17</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103508" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2019-01-13</ValidFrom>
+      <ValidTo>2019-12-19</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="103571" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2020-01-12</ValidFrom>
+      <ValidTo>2020-06-30</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="124806" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Description><![CDATA[LO - HI]]></Description>
+      <ValidFrom>2020-07-01</ValidFrom>
+      <ValidTo>2020-12-17</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+  </Discounts>
+  <DiscountSummary>
+    <Discount discounttypeid="EB" requirednights="1" checkinwithin="0" advancedays="150" sortorder="">
+      <DiscountName><![CDATA[Early Bird Discount Rate]]></DiscountName>
+      <Rate ratetype="%">15.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+    <Discount discounttypeid="LM" requirednights="1" checkinwithin="15" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Last Minute Discount Rate]]></DiscountName>
+      <Rate ratetype="%">10.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+    <Discount discounttypeid="LS" requirednights="10" checkinwithin="0" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Long Stay Discount Rate]]></DiscountName>
+      <Rate ratetype="%">10.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+  </DiscountSummary>
+  <Rooms>
+    <Room roomid="1619" bedrooms="5" maxoccupancy="10" maxadult="10" maxchild="0">
+      <RoomName><![CDATA[5 bedroom ]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="1715">
+          <RateName><![CDATA[Standard Rate (5BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2018">
+              <SDate>2018-12-21</SDate>
+              <EDate>2019-01-12</EDate>
+              <PublishedRate>2,800.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,800.00</DisplayRate>
+              <NRate>3,295.60</NRate>
+              <LS14DiscountedRate>2,800.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="0">2,800.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>1</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-01-13</SDate>
+              <EDate>2019-01-31</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-01</SDate>
+              <EDate>2019-02-10</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-02-11</SDate>
+              <EDate>2019-03-02</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-03-03</SDate>
+              <EDate>2019-03-28</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-03-29</SDate>
+              <EDate>2019-04-11</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-12</SDate>
+              <EDate>2019-04-21</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-04-22</SDate>
+              <EDate>2019-06-30</EDate>
+              <PublishedRate>1,150.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,150.00</DisplayRate>
+              <NRate>1,353.55</NRate>
+              <LS14DiscountedRate>1,150.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,035.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-07-01</SDate>
+              <EDate>2019-08-31</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-01</SDate>
+              <EDate>2019-09-26</EDate>
+              <PublishedRate>1,150.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,150.00</DisplayRate>
+              <NRate>1,353.55</NRate>
+              <LS14DiscountedRate>1,150.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,035.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-09-27</SDate>
+              <EDate>2019-10-07</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-10-08</SDate>
+              <EDate>2019-10-31</EDate>
+              <PublishedRate>1,150.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,150.00</DisplayRate>
+              <NRate>1,353.55</NRate>
+              <LS14DiscountedRate>1,150.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,035.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-11-01</SDate>
+              <EDate>2019-12-12</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-13</SDate>
+              <EDate>2019-12-19</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2019">
+              <SDate>2019-12-20</SDate>
+              <EDate>2020-01-11</EDate>
+              <PublishedRate>2,800.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">2,800.00</DisplayRate>
+              <NRate>3,295.60</NRate>
+              <LS14DiscountedRate>2,800.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="0">2,800.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>10</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-12</SDate>
+              <EDate>2020-01-23</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-01-24</SDate>
+              <EDate>2020-02-01</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-02-02</SDate>
+              <EDate>2020-02-29</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-01</SDate>
+              <EDate>2020-03-28</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-03-29</SDate>
+              <EDate>2020-04-08</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-09</SDate>
+              <EDate>2020-04-18</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-19</SDate>
+              <EDate>2020-04-26</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-04-27</SDate>
+              <EDate>2020-06-30</EDate>
+              <PublishedRate>1,150.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,150.00</DisplayRate>
+              <NRate>1,353.55</NRate>
+              <LS14DiscountedRate>1,150.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,035.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-07-01</SDate>
+              <EDate>2020-08-31</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-09-01</SDate>
+              <EDate>2020-09-30</EDate>
+              <PublishedRate>1,150.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,150.00</DisplayRate>
+              <NRate>1,353.55</NRate>
+              <LS14DiscountedRate>1,150.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,035.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-10-01</SDate>
+              <EDate>2020-10-11</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-10-12</SDate>
+              <EDate>2020-10-31</EDate>
+              <PublishedRate>1,150.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,150.00</DisplayRate>
+              <NRate>1,353.55</NRate>
+              <LS14DiscountedRate>1,150.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,035.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-11-01</SDate>
+              <EDate>2020-12-10</EDate>
+              <PublishedRate>1,350.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,350.00</DisplayRate>
+              <NRate>1,588.95</NRate>
+              <LS14DiscountedRate>1,350.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,215.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2020">
+              <SDate>2020-12-11</SDate>
+              <EDate>2020-12-17</EDate>
+              <PublishedRate>1,680.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">1,680.00</DisplayRate>
+              <NRate>1,977.36</NRate>
+              <LS14DiscountedRate>1,680.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">1,512.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">7.00</TaxRate>
+              <SCRate ratetype="%">10.00</SCRate>
+              <TotalExtraChargesPercentage>17.7</TotalExtraChargesPercentage>
+              <MinDayStay>3</MinDayStay>
+              <Inclusions><![CDATA[<li> Daily continental breakfast </li><li>WiFi internet access</li><li>1 x airport pickup and dropoff (single van for 11 pax)</li><li>Welcome drinks and towels</li><li>Personal service by the villa staff including full time villa manager, housekeeper, chef/cook and gardener</li><li>Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+  </Rooms>
+  <Packages>
+  </Packages>
+</Villa>

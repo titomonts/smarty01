@@ -1,0 +1,70 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+			  <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20White%20sand%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20White%20sand%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20White%20sand%20beach.jpg 1920w" alt="Ban Suriya - White sand beach" class="lazyload" /></div>
+			 
+			  <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Pool%20and%20sun%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Pool%20and%20sun%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Pool%20and%20sun%20loungers.jpg 1920w" alt="Ban Suriya - Pool and sun loungers" class="lazyload" /></div>
+	</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-ban-suriya'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20About.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20About.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20About.jpg 1920w" alt="Ban Suriya - About" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Outstanding%20villa%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Outstanding%20villa%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Outstanding%20villa%20setting.jpg 1920w" alt="Ban Suriya - Outstanding villa setting" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Top%20view%20of%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Top%20view%20of%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Top%20view%20of%20the%20villa.jpg 1920w" alt="Ban Suriya - Top view of the villa" class="lazyload" />
+
+         {elseif $data.page == 'photo-gallery'}
+		
+        {elseif $data.page == 'floorplan'}
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Weddings.jpg 1920w" alt="Ban Suriya - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Local%20fisherman.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Local%20fisherman.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Local%20fisherman.jpg 1920w" alt="Ban Suriya - Local fisherman" class="lazyload" />
+              
+		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Plenty%20of%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Plenty%20of%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Plenty%20of%20staff.jpg 1920w" alt="Ban Suriya - Plenty of staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Dining%20table%20setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Dining%20table%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Dining%20table%20setup.jpg 1920w" alt="Ban Suriya - Dining table setup" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Children%20villa%20activity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Children%20villa%20activity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Children%20villa%20activity.jpg 1920w" alt="Ban Suriya - Children villa activity" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Suriya%20-%20Staff%20preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Suriya%20-%20Staff%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Suriya%20-%20Staff%20preparation.jpg 1920w" alt="Baan Suriya - Staff preparation" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+     <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Family%20friendly%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Family%20friendly%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Family%20friendly%20villa.jpg 1920w" alt="Ban Suriya - Family friendly villa" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+     <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Swimming%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg 1920w" alt="Ban Suriya - Swimming time" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Beach%20children%20friendly%20activity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Beach%20children%20friendly%20activity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Beach%20children%20friendly%20activity.jpg 1920w" alt="Ban Suriya - Beach children friendly activity" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+     <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Children%20play%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Children%20play%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Children%20play%20time.jpg 1920w" alt="Ban Suriya - Children play time" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+       <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Swimming%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg 1920w" alt="Ban Suriya - Holiday heaven" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+       <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Swimming%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg 1920w" alt="Ban Suriya - Holiday heaven" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Ban%20Suriya%20-%20Swimming%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Ban%20Suriya%20-%20Swimming%20time.jpg 1920w" alt="Ban Suriya - Holiday heaven" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

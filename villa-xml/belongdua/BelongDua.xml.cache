@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="BelongDua">
+  <Contents>
+    <Content contentid="1056" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>
+ The friendly and experienced staff team at Belong Dua is dedicated to making your stay enjoyable and relaxed. They are also keen to introduce you to the local culture; from practicing Indonesian cooking to making Balinese prayer offerings.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p> Manager</p>]]></Heading>
+          <Description><![CDATA[<p> Belong Dua’s full-time manager meets and greets guests on arrival and is responsible for the overall operation of the villa, including staffing, special guest requests and guest satisfaction.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Chef</p>]]></Heading>
+          <Description><![CDATA[<p>The villa’s skilled chef is experienced in local and international cuisine. At the villa daily to prepare delicious home-cooked meals, and to oversee grocery and market shopping, the chef is happy to accommodate any special requests or dietary needs.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Butlers</p>]]></Heading>
+          <Description><![CDATA[<p> Three butlers attend daily to all cleaning and tidying requirements at Villa Belong Dua. The same team are skilled waiters/waitresses and will assist the kitchen at mealtimes.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Gardener/Pool attendant</p>]]></Heading>
+          <Description><![CDATA[<p> The villa’s gardener and pool attendant works discreetly to maintain the landscape and the pool without disturbing the guests.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Security</p>]]></Heading>
+          <Description><![CDATA[<p> The villa provides two night-time security guards.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1117" contenttypeid="TRNSPRT" desc="Transport">
+      <Description><![CDATA[<p>
+ A car with driver can be organised at a reasonable extra cost for guests who would like to have their own private transport &ndash; either for a few hours or for their entire holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1195" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p> Belong Dua’s manager will have a wealth of information about places of interest and will help arrange transport and make any bookings required. Do also ask the staff about the area too. Most will live nearby and can give an interesting insight into some of the fascinating aspects of local Bali life.<br /> <br /> In the meantime, here’s a taste of the many and varied activities on offer within reach of Villa Belong Dua.</p><ul> <li>  Explore the charming <strong>Tabanan regency</strong>, revealing terraced rice fields of emerald green, volcanic mountains and black-sand beaches dotted with fishing communities. Or head north to explore the <strong>volcanic lakes </strong>near the mountain town of Bedugul, including Lake Bratan with its photogenic and stunningly positioned Pura Ulun Danu – one of Bali’s most important temples.</li> <li>  Discover the scenic rice-field landscape and rural villages on one of the villa’s <span style="font-weight: bold;">bicycles</span>; a great way to get under the skin of the ‘real’ Bali. Stop off at a local <em>warung </em>(café) to sample some basic Balinese fare or cool off with a cold drink.</li> <li>  With its warm seas, almost year-round season, relatively uncrowded beach and reef breaks and suitability for all levels of experience, Bali surfing is world renowned. The beaches around Canggu (11km) are known for their <strong>world-class surf breaks</strong>, offering an exposed reef break with consistent surf. May to October (dry season) is the favoured time for waves.</li> <li>  Ask the villa manager to arrange a dawn <strong>fishing expedition </strong>with one of the local fisherman in his traditional <em>jukung </em>and get the chef to cook up your catch for lunch.</li> <li>  The villa is close to the famous sea temple at <strong>Tanah Lot</strong>. Although renowned for its sunset vistas, going early in the morning provides a better idea of the power of the location and the chance to see it undisturbed, apart from perhaps an offering ceremony.</li> <li>  A nice sunset alternative is to head down to <strong>Echo Beach </strong>where a number of cafés offer good sunset views and cold beer. <strong>Hotel Tugu</strong>, a very stylish and eclectic boutique hotel a few minutes further down the coast is also a good sunset spot. Note that the beach along this section of the coast is dark volcanic sand and the waters are better suited to surfing than swimming.</li> <li>  Fashionistas, trendies shop-a-holics and foodies should hot-foot it down to <strong>Seminyak</strong>, Bali’s most cosmopolitan enclave. Here, you can indulge for hours in the glut of stylish, chic boutiques and international restaurants and bars including, Potato Head Beach club, La Lucciola and Bali’s infamously trendy Ku Dé Ta. For furniture, antiques and homeware stores go for a wander around the streets of nearby <strong>Kerobokan</strong>.</li>  <li>  If you are a bold and brave bargain hunter, a spree within the heart of Bali’s bustling provincial capital is an exciting and rewarding experience. Visit the vibrant <strong>Denpasar markets</strong>, where everything and anything is available.</li> <li>  Go horse riding along the sparkling black sands of <span style="font-weight: bold;">Yeh Gangga</span> beach (12km) with Bali Island Horse.  This well-run establishment also offers ATV, dirt bike and bicycle tours.  Great for all ages and abilities and particularly beautiful at sunset.</li> <li>  <a href="http://www.pulaugroup.co.id/"><strong>Pulau Dive Charters </strong></a>offers luxury boat charters around the beautiful islands and waters surrounding Bali. They specialise in private fishing, surfing and diving charters and also offer unique personalised day trips to Nusa Lembongan. Perfect for a family day out on the water or with a group of friends.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1255" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>
+ Welcome to Villa Belong Dua</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="141" contenttypeid="CHLDRN" desc="Children">
+      <Description><![CDATA[<p>
+ Villa holidays are an excellent option for families. Advantages include having access to your own private facilities, such as a swimming pool, living space and gardens, and having the freedom to use them whenever you want.&nbsp; Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus &ndash; and one that means parents are certain to have a more relaxed holiday too.<br />
+ <br />
+ Villa Belong Dua has a safely enclosed garden with bags of space, a great swimming pool with shallow section, a playhouse with a difference in the <em>jineng&nbsp; </em>rice barn, and a TV/media room complete with childrens&rsquo; games, books and movies.<br />
+ <br />
+ The team of friendly staff will go out of their way to make children feel as welcome as adults &ndash; whether its baking cookies in the kitchen, organising a tea party in the rice barn or inviting in some local dancers to entertain the troops. Having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds (full-time babysitting incurs a small extra cost).<br />
+ <br />
+ Don&rsquo;t worry about packing all that cumbersome kids&rsquo; equipment for your stay. Just let us know what you need, and anything we don&rsquo;t have in-house (villa facilities include a baby cot and highchair) we can hire on your behalf (click <a href="http://www.marketingvillas.com/children's-equipment-for-hire.pdf">here </a>to see list of available hire items). And when the excitement of exploring the villa starts to wear off, check out our <a href="http://www.villabelongdua.com/location/things-to-do.html">Things to do </a>page; there&rsquo;s plenty in the area to keep kids of all ages amused throughout the holiday.</p>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1421" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[Belong Dua’s <span style="font-weight: bold;">living pavilion</span> is located close to the villa’s entrance, overlooking the garden and pool. Distinguished by a vaulted roof supported by eight wooden pillars, and open on three sides, it is furnished with a huge, comfortable, built-in sofa and a low dining table sourced from a Javanese <span style="font-style: italic;">warung</span> (café), surrounded by floor cushions. A large mirror reflects the sunny garden, and the pavilion is beautifully lit at night. Behind the living pavilion is an air-conditioned <span style="font-weight: bold;">media room</span> which doubles as an office. Furnished with built-in desks and a comfortable brown leather sofa, this room is equipped with a satellite-channel TV, DVD player and iPod dock. <br /><br />The semi-open-air <span style="font-weight: bold;">dining room</span> shares a pavilion with the kitchen, the two rooms are creatively screened from each other with rows of earthenware bottles. The dining room is furnished with an antique table, six chairs and an antique wooden chest on wheels, known as a <span style="font-style: italic;">gerobog</span>, originally used for storing rice. Fascinating maps and prints hang on the walls, and a captivating portrait of an old Indonesian gentleman takes pride of place at one end of the room. This room, which is cooled by ceiling fans and natural breezes, has the provision of electric blinds on its two open sides in case of inclement weather and is equipped with an iPod and dock. A guest washroom is positioned to one side of the dining room. <br /><br />The immaculate polished-concrete <span style="font-weight: bold;">kitchen</span> is fully equipped with a five-burner gas hob, oven, microwave, fridge, and everything else that the cook needs to create delicious meals.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[The fragrant <span style="font-weight: bold;">landscaped garden</span> at Villa Belong Dua is characterised by mature trees, a velvety lawn and open skies, and is planted with coconut palms, frangipani, lemon and mango trees, pineapple plants, ginger and lemongrass. It is surrounded by a rustic wall crafted from crushed paras stone applied by hand and unpainted. A Balinese temple shrine sits in the north-east corner. <br /><br />The dazzling 20 x 4 metre <span style="font-weight: bold;">swimming pool</span> is the garden’s central feature. The slate-lined pool is presided over by a Buddha head statue; it presents a separate shallow section for children and is bordered by a candi stone deck furnished with one double and two single Sunbrella sun beds. An outdoor pool shower is thoughtfully provided here. <br /><br />Resting beside the swimming pool is an <span style="font-weight: bold;">antique <span style="font-style: italic;">balé</span> gede</span> from Bali’s Gianyar regency. Originally a traditional two-bedroomed family home, this (now open-sided) pavilion comprises twelve wooden pillars which rest on paras stone plinths and support a roof of radiating beam work crowned with alang-alang thatch. Still furnished with the two original timber bed frames, some step stools taken from an old sugar cane press and a prayer table, it’s a perfect spot for couples to enjoy a massage, or just relax with a good book.   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1422" contenttypeid="PRESS" desc="In The Press">
+      <Description><![CDATA[in the press]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[frv                                                                             ]]></Heading>
+          <Description><![CDATA[                                        “It is probably the sweetest and most bona fide Balinese villa that you will find anywhere on the island.” <a target="_blank" href="http://uat.villabelongdua.com/docs/belongdua/frv 7.2 aug-sep10 - belong dua.pdf"><span style="font-style: italic;">Villa Belong Dua, A Sense of Belonging</span>, <span style="font-style: italic;">FRV Travel</span>, Edition 7.2 Aug – Sep 2010</a>.”]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                                                                avg                                                                          ]]></Heading>
+          <Description><![CDATA[                                        “Located in the heart of a charming village, encompassed by the chatter of everyday life, laughing children, birdsong and ritual temple chants, the romantic Villa Belong Dua (the name means ‘two water vessels’ in Balinese) celebrates the here and now of the real Bali.”<span style="font-style: italic;"> <a target="_blank" href="http://uat.villabelongdua.com/docs/belongdua/The Asia Villa Guide - Belong Dua - 2011.pdf">Villa Belong Dua</a></span><a target="_self" href="http://uat.villabelongdua/com/docs/belongdua/The Asia Villa Guide - Belong Dua - 2011.pdf">, <span style="font-weight: bold;">The Asia Villa Guide</span>, First Edition 2011</a>.”&nbsp;&nbsp;                                      ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="17" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Villa Belong Dua offers guests total immersion in the beauty of the Bali countryside; an opportunity to gain privileged insights into the Balinese Hindu lifestyle and experience the warm hospitality, history and culture of this unique tropical island.<br /><br />Not so long ago, stone water vessels (<span style="font-style: italic;">belongs</span>) could be found in every Balinese household; used to store water for drinking and washing. These essential household accoutrements are showcased within the grounds of Villa Belong Dua along with a traditional thatched Balinese rice barn from the village; now more often used as a playhouse, but once a symbol of social status indicating the ownership of precious rice-fields.</p><p>Built based on a time-honoured Balinese compound design, Villa Belong Dua offers guests the luxuries of space, comfort and privacy. Two charming bedroom pavilions and open-sided living and dining areas are adorned with black and white prints of rural life, ancient maps of Dutch Batavia and enchanting portraits, and all are encircled by a delightful, mature walled garden planted with mango, lemon, avocado and jackfruit trees. A generous, 20-metre-long swimming pool stretches out alongside an antique <span style="font-style: italic;">balé gede</span> (originally built as a two-bedroom village home). Facilities within the villa include complimentary WiFi internet, LCD screen satellite-channel TVs and DVD players, an iPod with three docking stations, and a well-equipped kitchen.<br /> <br />A team of experienced staff, including a skilled chef, extend their hospitality to guests, providing full housekeeping services and preparing meals from a suggestion menu of Asian and Western fare. The villa manager is also on hand to assist guests and ensure that all expectations are met – if not exceeded.<br /> <br />Belong Dua is located in the charming seaside village of Seseh, home to a revered beach temple where colourful ceremonies are regularly held. A nearby pathway offers walks to the river, rice fields, temple and beach, which is only 300 metres from the villa.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="243" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[The menu]]></Heading>
+          <Description><![CDATA[<p> Guests at Villa Belong Dua can enjoy delicious home-cooked food – Asian and Western – prepared where and when they like.&nbsp; The chef loves to delight visitors with his beautifully presented dishes – from Balinese chicken curry, to nasi goreng (fried rice), to steak and chips. Italian cuisine is his speciality, so ask him to whip up a pizza or pasta dish. He is happy to try out new dishes and even to share his kitchen with guests – especially if they can show him how to prepare their favourite foods.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Food and beverage charges]]></Heading>
+          <Description><![CDATA[<p> Daily breakfast for up to four adults is included in the villa rate, but all other provisions will be purchased by the chef and charged to guests at cost plus 20 % handling fee which is also subject to taxes and service charges. Receipts will be provided either daily or at the end of the stay – as preferred.&nbsp; It is also requested that the chef be given a float to cover the grocery shopping.</p> <p>Wine, beer, spirits and soft drinks are also available on request and will be charged for at the end of your stay.</p>     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[The system]]></Heading>
+          <Description><![CDATA[<p> Suggestion menus are available at the villa but it is highly recommended that guests meet with the villa manager and chef at the start of their stay to discuss food preferences, special dietary needs and meal schedules.&nbsp; An open dialogue will keep both chef and guests happy! It is also necessary to discuss meals in advance (ideally 24 hours) to allow the chef the time he needs to prepare and provision.</p> <p>Guests are welcome to self-cater and buy their own groceries should they prefer; just let the chef know that his services will not be required.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="258" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedrooms]]></Heading>
+          <Description><![CDATA[<ul><li>Two king-sized bedrooms housed in stand-alone pavilions</li><li>Featuring king four-poster beds, cream coloured walls, wooden floors and soaring roofs</li><li>Front terrace lit by colonial-style bell-jar lanterns and furnished with antique daybed leading from glass sliding doors onto the bedroom</li><li>Spacious dressing rooms</li><li>Wall-mounted LCD satellite TV, DVD player and iPod dock</li><li>Air-conditioned and fan-cooled</li><li>Air-conditioned ensuite bathroom with sculptured terrazzo bathtub, double washbasins, glass doors leading to alfresco area with outdoor rain shower in a private walled courtyard</li><li>Additional single bed can be configured upon request<br /></li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2598" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p> Villa holidays are an excellent option for families. Advantages include having access to your own private facilities, such as a swimming pool, living space and gardens, and having the freedom to use them whenever you want.&nbsp; Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too.<br /> <br /> Villa Belong Dua has a safely enclosed garden with bags of space, a great swimming pool with shallow section, a playhouse with a difference in the <em>jineng&nbsp; </em>rice barn, and a TV/media room complete with childrens’ games, books and movies.<br /> <br /> The team of friendly staff will go out of their way to make children feel as welcome as adults – whether its baking cookies in the kitchen, organising a tea party in the rice barn or inviting in some local dancers to entertain the troops. Having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds (full-time babysitting incurs a small extra cost).<br /> <br /> Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest. Pancakes for breakfast? Toasties for tea? No problem. The chef can customise all meals to suit children’s taste buds.<br /> <br />Don’t worry about packing all that cumbersome kids’ equipment for your stay. Just let us know what you need, and anything we don’t have in-house (villa facilities include a baby cot and highchair) we can hire on your behalf (click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank" title="Children's equipment - Elite Havens">here</a> to see list of available hire items). And when the excitement of exploring the villa starts to wear off, check out our <a href="../things-to-do.html">Things to do</a> page; there’s plenty in the area to keep all the family amused throughout the holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2710" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a href="./reservations.html" target="_self" title="Villa Belong Dua - booking enquiry">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />To view our availability calendar, click <a href="./availability-calendar.html" target="_self" title="Villa Belong Dua - availability">here</a>.<br /><br />Bali: +62 361 737498<br />Singapore: +65 3108 0520<br />Manila: +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a href="./general-enquiries.html" target="_self" title="Villa Belong Dua - general enquiry">here</a> to send us a message.<br /><br />Villa Belong Dua is marketed on behalf of its owners by <a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group</a>, who also handle all the villa reservations.  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="330" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[<p>
+ INDOOR LIVING:<br />
+ - Living pavilion with high-vaulted roof, open on three sides and overlooking the garden with comfortable couches, daybeds and cushions<br />
+ - Air-conditioned media room which doubles as a study and is equipped with satellite TV, DVD player and iPod dock<br />
+ - Semi-open-air dining room furnished with antique table for six and cooled by ceiling fans<br />
+ - Immaculate polished-concrete kitchen with all modern facilities and adjoining the dining area by a service bar which can be closed for privacy<br />
+ <br />
+ OUTDOOR LIVING:<br />
+ - 20m x 4m swimming pool with shallow end for children<br />
+ - Candi stone deck furnished with on double and two single sun loungers<br />
+ - Outdoor pool shower<br />
+ - Antique bal&eacute; gede from Bali&rsquo;s Gianyar Regency furnished with two daybeds for relaxation or enjoying a massage</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Living pavilion with high-vaulted roof, open on three sides and overlooking the garden with comfortable couches, daybeds and cushions</li><li>Air-conditioned media room which doubles as a study and is equipped with satellite TV, DVD player and iPod dock</li><li>Semi-open-air dining room furnished with antique table for six and cooled by ceiling fans</li><li>Immaculate polished-concrete kitchen with all modern facilities and adjoining the dining area by a service bar which can be closed for privacy</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>20m x 4m swimming pool with shallow end for children</li><li>Candi stone deck furnished with on double and two single sun loungers</li><li>Outdoor pool shower</li><li>Antique bal&eacute; gede from Bali&rsquo;s Gianyar Regency furnished with two daybeds for relaxation or enjoying a massage</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="402" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[                                                                                <p> Set in the tiny fishing village of Seseh on the island’s southwest coast, lies Villa Belong Dua an enchanting two-bedroom holiday villa in beautiful Bali. Resting on a large estate in a beautiful walled garden Villa Belong Dua features a series of five pavilions – positioned in accordance with ancient cosmology, which house the villa’s charming living areas, along with stunning swimming pool. The traditional architecture and artefacts of Villa Belong Dua celebrate the heritage of Bali, incorporating the symbolic elements of Balinese Hinduism across the contemporary, stylish interiors and modern facilities.</p><p>While relatively new, Villa Belong Dua is designed around the time-honoured Balinese compound style, offering guests the luxuries of space, comfort and privacy in two charming bedroom pavilions and open-sided living and dining areas, all encircled by a delightful, mature walled garden featuring a 20-metre-long swimming pool alongside a delightful bale gede (relaxation pavilion). Facilities within the villa include Wifi throughout, LCD flat-screen satellite TV and DVD players, an iPod with three docking stations, and a modern, well-equipped western kitchen.</p><p>Guests at Belong Dua are treated to five-star service by a warm and friendly team of staff including a villa manager and team of experienced staff including a private chef and full housekeeping services. Villa Belong Dua is the perfect destination for those who want to get lost in the beauty of the Bali countryside, immerse themselves in the Balinese Hindu lifestyle and experience the warm hospitality, history and culture of this unique tropical island.</p>                                                                          ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="639" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Villa Belong Dua is an enchanting two-bedroom holiday villa in Bali, located in the heart of the tiny fishing village of Seseh on the island’s south-west coast. Resting on 1,600 square metres of land in a beautiful walled garden complete with 20-metre swimming pool, Belong Dua’s traditional architecture and artefacts celebrate the heritage of Bali, incorporating the symbolic elements of Balinese Hinduism.<br /> <br /> A series of five pavilions, positioned in accordance with ancient cosmology, offer contemporary, stylish and romantic interiors enhanced by both modern and antique furnishings and equipped with 21st century facilities.<br /> <br /> Guests at Belong Dua are warmly welcomed and well cared for by a villa manager and team of experienced staff.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="712" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p> The fishing village of Seseh grew in importance in 18th century Bali when it became home to the major temple of the former Kingdom of Mengwi. At that time it was also a small trading port, inhabited by a number of families of Chinese decent.<br /> <br /> The village still retains the customs and culture of old Bali. Here, you will see the rice being planted and harvested in the fields, fishing boats returning with the night’s catch, as well as frequent, colourful processions to the large beachside temple.<br /> <br /> Today, Seseh is an ideal destination for those who want to get lost in the beauty of the countryside and engage with the local people to gain privileged insights into the Balinese Hindu lifestyle: the people of Seseh encourage and welcome congenial visitors.<br /> <br /> There are no international restaurants here, but the villa is only 30 minutes’ drive (15km) from the many restaurants and shops of cosmopolitan Seminyak.&nbsp; The renowned surfers’ haunt of Echo Beach is also within easy reach (8.5km by road or just a pleasant 1.5km walk along the beach), where guests can enjoy the laidback vibe, an ice-cold beer or seafood barbecue at The Beach House, and some incredible sunsets.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Seseh Beach]]></Heading>
+          <Description><![CDATA[0.30 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pererenan Beach]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Echo Beach]]></Heading>
+          <Description><![CDATA[1.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tanah Lot sea temple]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Canggu]]></Heading>
+          <Description><![CDATA[10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kerobokan]]></Heading>
+          <Description><![CDATA[11 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[14 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta	]]></Heading>
+          <Description><![CDATA[19 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[23 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud	]]></Heading>
+          <Description><![CDATA[30 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mt Batukaru ]]></Heading>
+          <Description><![CDATA[39 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="80" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p> Accommodation at Villa Belong Dua comprises two bedrooms in stand-alone pavilions named <em>Menaga </em>and <em>Bangkat</em>. These names go back to the time when the village of Seseh was much bigger and administratively divided into <span style="font-style: italic;">banjars </span>or local village councils.<br /> <br /> Each bedroom pavilion features a terrace at the front lit by colonial-style bell-jar lanterns and furnished with an antique daybed. Sliding doors lead into romantic air-conditioned and fan-cooled bedrooms with cream coloured walls, wooden floors and soaring roofs. Each is furnished with a king-size netted four-poster bed backed by terracotta tiling, and equipped with a wall-mounted LCD screen satellite-channel TV, DVD player and iPod dock.<br /> <br /> The delightful air-conditioned ensuite bathrooms are decorated in earthy tones and fitted with a sculptured terrazzo bathtub for two, and double washbasins upon a terrazzo vanity unit which faces a window to ensure plenty of natural light. Glass doors can be opened for a semi-alfresco bathing experience, complete with an outdoor rain shower set in a private walled courtyard with a pebbled floor and a serene Buddha statue. There is also a handheld shower in the bathtub, and a circular skylight that channels the moonshine. Both rooms also feature a spacious dressing room furnished with a wardrobe, chair and dressing table that doubles as a desk.<br /> <br /> An additional single bed with mosquito net can be assembled in <span style="font-style: italic;">Bangkat</span> on request.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="801" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p> An imposing replica of a Hindu temple gate at Angkor Wat in Cambodia marks the entrance to Villa Belong Dua, to the other side of which a lily pond complete with a bubbling water feature and a Balinese guardian statue welcomes guests to the villa.<br /> <br />In keeping with traditional Balinese style, each room within this peaceful compound occupies its own detached pavilion. Open-sided, fan-cooled living and dining pavilions survey the mature tropical walled gardens and pool, either side of which lie the air-conditioned master bedrooms. The cosy media room, which doubles as a peaceful study, is tucked behind the living pavilion.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="901" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p> Seseh village, south-west Bali, Indonesia.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>4 adults (2 ensuite bedrooms with king-sized beds).&nbsp; 3 extra beds may be set up on guest request at additional charge.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p> Open-sided, fan-cooled living and dining pavilions; air-conditioned media room; poolside&nbsp;<span style="font-style: italic;">balé gede</span>.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p> 20m x 4m. 1.3m-1.5m depth.<br /></p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p> Villa manager; chef; 3 butlers; gardener/pool attendant; 2 security guards. Spa therapists and babysitters available at extra charge.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>The villa’s suggestion menu includes a wide variety of Western and Asian dishes. Requests accommodated (including special diets). Rate includes complimentary daily breakfast. Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p> WiFi Broadband internet connection; IDD, local landline available; mobile phone coverage.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Satellite TV, DVD and iPod docks in each bedroom; Satellite TV, DVD, CD, iPod dock and book collection in media room.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families                                     ]]></Heading>
+          <Description><![CDATA[<p> Cot; high chair; shallow pool area; DVDs, books, games and toys. </p>                                       ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Generator backup; 4 bicycles with helmets. Barbecue.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>1600 sqm.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://www.elitehavens.com" target="_blank">The Elite Havens Group.</a></p>  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="997" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p> Massage and spa services can be provided within the privacy of the villa by professional therapists from a nearby spa at very reasonable prices, and villa staff are on hand to assist with appointments.</p><p> Alongside the pool, the antique <span style="font-style: italic;">balé gede </span>makes a delightful spot for a massage. Here's an example of what's on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p> Balinese massage</p>]]></Heading>
+          <Description><![CDATA[<p> Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Foot reflexology</p>]]></Heading>
+          <Description><![CDATA[<p> Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet which correspond to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Body scrub</p>]]></Heading>
+          <Description><![CDATA[<p> A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Manicure/pedicure</p>]]></Heading>
+          <Description><![CDATA[<p> Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Belong Dua</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Tanah Lot">Seseh-Tanah Lot</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Pantai Seseh, Banjar Seseh, Mengwi</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.64472180</Latitude>
+        <Longitude>115.11416660</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">An enchanting fully staffed villa just 5 minutes from Seseh Beach and 30 minutes from Seminyak, with a beautiful garden, large pool and two romantic bedroom pavilions.</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>2 bedroom</RoomName>
+        <MinRate>300.00++</MinRate>
+        <MaxRate>510.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Belong Dua - Pool at dusk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/01-Villa Belong Dua - Pool at dusk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Pool and bale</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/02-Villa Belong Dua - Pool and bale.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Bale across the pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/03-Villa Belong Dua - Bale across the pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Dining room table setting</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/04-Villa Belong Dua - Dining room table setting.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Outdoor living area seating</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/05-Villa Belong Dua - Outdoor living area seating.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Living area dining table</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/06-Villa Belong Dua - Living area dining table.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Master bedroom view to veranda</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/07-Villa Belong Dua - Master bedroom view to veranda.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Master bedroom veranda</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/08-Villa Belong Dua - Master bedroom veranda.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Master ensuite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/09-Villa Belong Dua - Master ensuite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/10-Villa Belong Dua - Master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Media room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/11-Villa Belong Dua - Media room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - View from garden bale</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/12-Villa Belong Dua - View from garden bale.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/13-Villa Belong Dua - Pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Traditional life</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/14-Villa Belong Dua - Traditional life.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Belong Dua - Proximity to the sea</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BelongDua/15-Villa Belong Dua - Aerial - Proximity to the sea.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

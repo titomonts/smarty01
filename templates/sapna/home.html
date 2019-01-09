@@ -1,0 +1,72 @@
+ {include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper"> 
+						<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Sapna - Luxury awaits.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Sapna - Luxury awaits.jpg" alt="Villa Sapna - Luxury awaits" class="lazyload intro" />
+						
+                         <h1 class="entry-title">{$data.heading}</h1>
+						{if $data.content_id != ''}
+						{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+						{/if}
+						{if 'desc'|array_key_exists:$content[0]}
+
+							{contentpart content=$content[0].desc strip=["<p>", "</p>", "&nbsp;"] explode="."}
+							{section name=s loop=1}
+							<p>{$contentPart[s]}.</p>
+							{/section}
+							<p>
+							{section name=s loop=$contentPart start=1}
+							{if $smarty.section.s.index neq $smarty.section.s.last}
+							{$contentPart[s]}. 
+							{/if}
+							{/section}
+							</p>
+
+						{/if}
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="wrapper accordion shortcut group">
+							<div class="box-container">       
+								<div class="box">
+									<div class="sub-villa-des">
+										<a href="/about-villa-sapna.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About the Villa']);">                                
+											<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Sapna - Room C outlook.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Sapna - Room C outlook.jpg" alt="Villa Sapna - Room C outlook" class="lazyload" />
+											<strong>Fully staffed, including professional chef </strong>
+										</a>
+									</div>
+								</div>
+							   
+								<div class="box">
+									<div class="sub-villa-des">
+										<a href="/about-villa-sapna/explore-the-villa.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore the Villa']);">                                
+											<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Sapna - A new kind of luxury.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Sapna - A new kind of luxury.jpg" alt="Villa Sapna - A new kind of luxury" class="lazyload" />
+											<strong>Infinity pool, tropical gardens, and private gym </strong>
+										</a>
+									</div>
+								</div>
+							   
+								<div class="box">
+									<div class="sub-villa-des">
+										<a href="/villa-experience.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">                                
+											<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Sapna - Night features.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Sapna - Night features.jpg" alt="Villa Sapna - Night features" class="lazyload" />
+											<strong>Spectacular views, sunset and sunrise </strong>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+                </div>
+            </div>
+        </div>
+            
+{include file="footer.html"}

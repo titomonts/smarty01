@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00231</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Saffron &amp; Blue</villa_name>
+		<google_analytics>UA-123980968-1</google_analytics>
+		<location>West Coast</location>
+		<sublocation> Bentota</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'P00231', 'West Coast', 'Bentota', '4br'</hrental_id>
+		<ehgLocation>West Coast, Bentota</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

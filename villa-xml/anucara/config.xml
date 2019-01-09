@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>OmbakPutih</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Anucara</villa_name>
+		<google_analytics>UA-25986498-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Cemagi</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'OmbakPutih', 'Bali', '5br'</hrental_id>
+		<ehgLocation>Bali, Cemagi</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource> 
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

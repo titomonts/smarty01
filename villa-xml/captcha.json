@@ -1,0 +1,20 @@
+[
+	{
+		"range_start":"akuvarasamui.com",
+		"range_end":"taman-ahimsa.com",
+		"site_key":"6Le5lW8UAAAAAOiG30eeqTwIc3kn2qu5gekvYoLD",
+		"secret_key":"6Le5lW8UAAAAAPbgEfpVZzw93SNFtnFwsEBPyCrr"
+	},
+	{
+		"range_start":"tawantokbeachvillas.com",
+		"range_end":"villalevi.com",
+		"site_key":"6Lcvkm8UAAAAAIsQVkrsNokIbgdpfG48ye8LFbln",
+		"secret_key":"6Lcvkm8UAAAAAAztYqBD-pkkhXNna8vmuhU1zedN"
+	},
+	{
+		"range_start":"villalilibel.com",
+		"range_end":"winduvillas.com",
+		"site_key":"6Lehk28UAAAAANMasop6TzAn7XhZtV8AWAh1_vYO",
+		"secret_key":"6Lehk28UAAAAAG4y_iXwps_yF4-rrtnrD87Fwa_l"
+	}
+]

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Hansa">
+  <Contents>
+    <Content contentid="1001" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[Feel like a body scrub or massage?&nbsp; Just ask our staff to bring the spa to your own room.&nbsp; We can recommend deluxe treatments carried out by fully trained therapists from a reputable local spa (extra charges will apply).&nbsp; Here’s a sample of what’s on the menu:]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p> Massage</p>]]></Heading>
+          <Description><![CDATA[Release built up tension with a traditional Balinese massage.&nbsp; Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body you will feel totally relaxed in no time.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Foot reflexology</p>]]></Heading>
+          <Description><![CDATA[Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet corresponding to every part of the body.&nbsp; Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Body scrub</p>]]></Heading>
+          <Description><![CDATA[A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth.&nbsp; A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Manicure/pedicure</p>]]></Heading>
+          <Description><![CDATA[Our hands and feet work hard for us every day but rarely get the attention they deserve.&nbsp; Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage. ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1060" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[One of the greatest experiences of staying in a villa is the personalised service provided by a dedicated staff.&nbsp; Villa Hansa has a team of professionals led by a long-serving villa manager who also acts as the villa’s spiritual advisor, arranging the temple ceremonies that form part of the villa’s day-to-day rituals.&nbsp; Feel free to ask him about everything from meal times to organising a traditional dance performance at the villa.&nbsp; You can also talk to him about the level of service or staff presence you prefer.&nbsp; For example would you like staff visibly present to serve refreshments throughout the day or just to have them available to serve at meal times? ]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p> Villa manager<br /></p>]]></Heading>
+          <Description><![CDATA[<p>Villa Hansa’s friendly manager is responsible for the overall operation of the villa.&nbsp; His job is to oversee and coordinate the staff and property and to assist guests during their stay.  </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Chef/cook</p>]]></Heading>
+          <Description><![CDATA[<p>The villa’s private cooks are trained in local and international cuisine and are in charge of the market shopping and preparation of all guest meals.&nbsp; They will happily prepare dishes from the villa’s suggestion menu, as well accommodating special requests and dietary requirements.   </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Villa attendants<br /></p>]]></Heading>
+          <Description><![CDATA[<p>Attendants look after the daily cleaning and tidying requirements at the villa.&nbsp; The same team are skilled waiters/waitresses and will assist the kitchen at mealtimes.  </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Garden &amp; pool<br /></p>]]></Heading>
+          <Description><![CDATA[Gardeners maintain Villa Hansa’s lush gardens and swimming pool. ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Security guards</p>]]></Heading>
+          <Description><![CDATA[Villa Hansa is kept safe and secure 24 hours a day by security staff working on shifts. ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1121" contenttypeid="TRNSPRT" desc="Transport">
+      <Description><![CDATA[<p> A car and driver is available at a special rate of US$ 25++ for up to eight hours a day excluding petrol. Extra hours additional.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1199" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[Villa Hansa is fabulously located for an exciting range of activities to suit all ages and tastes.&nbsp; Chat with the villa manager, who lives locally and is happy to offer suggestions and share his insights about the local places of interest and Balinese culture.&nbsp; You may find yourself invited to a unique and unforgettable Balinese Hindu ceremony. <br /><br />Meanwhile, here are a few suggestions to get your vacation started.&nbsp; The villa manager will happily arrange to transport and specialist tours too.<br /><ul><li>Learn to surf at <span style="font-weight: bold;">Echo Beach</span> or Batu Bolong.</li><li>Spend a lazy afternoon at the hip <span style="font-weight: bold;">Old Man’s beach bar</span> on Batu Bolong, where local hero DJ’s spin their stuff. It’s great for kids with table tennis and other games.</li><li>The most exclusive <span style="font-weight: bold;">Bali trekking tour </span>promises breath-taking vistas and heart-warming encounters while supporting sustainable social change in the once-forgotten villages of Muntigunung. Elite Havens is a proud partner of <a href="http://www.magazine.elitehavens.com/private-bali-trek-muntigunung/" target="_blank" title="Muntigunung Community Social Enterprise.">Muntigunung Community Social Enterprise.</a></li><li>On Canggu Beach, be sure to visit mystical <strong>Hotel Tugu </strong>Bali.  Bali’s first museum/hotel is studded with priceless Indonesian artworks  and antiques and its award-winning spa offers age-old Eastern  therapies. If you’re planning a honeymoon, this makes a wonderful first  night venue before continuing on with your villa stay.</li><li>While in Bedugul visit the UNESCO listed <span style="font-weight: bold;">rice terraces of Jati Luwih </span>and beautiful<span style="font-weight: bold;"> water temple of Pure Ulun Danau Bratan</span>.</li><li>Feed rescued Sumatran elephants at the superb <span style="font-weight: bold;">Elephant Safari Park</span> in the lush mountains of Taro.</li><li>Make the de rigueur pilgrimage to sacred <strong>Pura Tanah Lot</strong>,  one of Bali’s biggest tourist magnets. Perched high on a craggy,  wave-lashed rock, this ancient sea temple is best savoured at sunset; be  sure to receive a blessing from the Hindu priests.</li><li>Gallop along the beach, or trek through the rice fields and villages of Canggu with Kuda P, a well-established, Australian-owned and operated<span style="font-weight: bold;"> horse riding stables</span>, catering to all ages and abilities. </li><li>Covering 3.8 hectares of tropical parkland in Kuta, <span style="font-weight: bold;">Waterbom </span>Bali has 16 water slides (including The Climax with its 360 degree loop) to entertain the young and the young at heart. A great family day out, but go early to beat the crowds.<br /><br /></li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1259" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>
+ Welcome to Villa Hansa</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1769" contenttypeid="PRESS" desc="In The Press">
+      <Description><![CDATA[“Visited Bali before? Looking for something different to extend your  thoughts beyond the swimming pool and the fantastic food? Here’s an  idea: sample a little culture and community at VILLA HANSA in Canggu.”<a target="_blank" href="http://www.hansabali.com/wp-content/themes/hansa/press/Expat%20Living%20-%20Hansa%20-%20April%2011%20-%20Go%20Green.pdf"><em>Expat Living Singapore,</em> <strong>Villa Hansa; Go Green in Bali</strong>, Edition April ’11</a>.<br /><br />“Spirituality and wellness, though, is a core element, with practically everywhere offering a ‘zen moment’…”<a target="_blank" href="http://www.hansabali.com/wp-content/themes/hansa/press/FRV_7.2_Villa_Hansa.pdf"><em>FRV Travel,</em> <strong>Villa Hansa; Kindred Spirits</strong>, Edition 7.5, Feb – Mar ’11</a>.<br /><br /><p><small>To view the full article please click on the link under the name of the article and publication.</small></p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="22" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[The heavy antique gates of Villa Hansa immediately set a tone of exquisite style.&nbsp; The gates open to a stone staircase flanked by fish- and lotus-flower-filled-ponds and fragrant frangipani trees.&nbsp; An ancient timber <span style="font-style: italic;">joglo </span>is repurposed to create a chic living space adorned with a stunning collection of precious Indonesian artefacts.&nbsp; Ceiling-to-floor glass overlooks a lush slice of this delicious estate, and beyond to traditionally farmed rice terraces. <br /><br />Seven luxurious bedrooms are spaced throughout the estate, providing an ideal arrangement for extended families or groups of friends to enjoy blissful privacy.&nbsp; Expansive lawns separate the buildings, dotted with shady daybeds set within the established tropical gardens that also forge secluded spaces.<br /><br />At the centre of Villa Hansa is an 16-metre swimming pool, which is crowned by an open-fronted entertainment space and bordered by sun loungers, cushioned daybeds and a freshwater shower carved from stone.&nbsp; Beyond the pool a large <span style="font-style: italic;">balé </span>with charming views of the river and surrounding rice fields houses a pool table, abundant seating and a barbecue.<br /><br />The epic master suite presides over an entire wing of the villa in a converted joglo overlooking a private 12-metre swimming pool flanked with sun decks and a <span style="font-style: italic;">balé</span>.&nbsp; This suite is connected to a movie room that adjoins a timber <span style="font-style: italic;">gladak</span>, which makes a perfect bedroom for young children. <br /><br />A team of ten staff ensures seamless service while the chef prepares gorgeous Indonesian and western meals.&nbsp; The manager is a spiritual guide and every full moon at Villa Hansa is celebrated with centuries old ceremonies at the riverside temple.&nbsp; Guests can enjoy days of relaxation by the pool and easy strolls to the beach offering an abundance of intriguing local scenes, from farmers tending their rice fields to the making of bamboo leaf <span style="font-style: italic;">cenang </span>offerings and children practising traditional dances.]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="244" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[Villa Hansa’s kitchen is staffed by two cooks who provide delicious meals from morning until night.<br /><br />The villa offers an extensive suggestion menu of delicious home-style meals featuring Asian and international dishes to cater to all tastes, with a wonderful selection of vegetarian and children’s options.&nbsp; The cooks are also more than happy to tailor meals to accommodate any special dietary requirements.&nbsp; A stay is not complete without sampling the wonderful chicken curry with a <span style="font-style: italic;">tantalising urap</span> (mixed Balinese vegetables with shredded coconut and chilli) or <span style="font-style: italic;">pisang goreng</span> (fried banana) with ice cream.&nbsp; The fresh seasonal fruit served at breakfast time is divine.<br /><br />Groceries and beverages are charged at cost price plus 20% handling fee which is subject to service charge and tax at the prevailing rate.&nbsp; Guests are requested to provide grocery money in advance, and the staff will do the shopping and keep the receipts for reference.&nbsp; To make the most of the kitchen and give staff time to shop, it is a good idea to plan meals the evening before.]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="263" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Located in a quiet and lush corner away from the main living areas</li><li>Teak flooring and king-size bed below a rare central <span style="font-style: italic;">joglo </span>carving</li><li>Dressing room</li><li>Air conditioned vanity area</li><li>Open-sided bathroom with a rain shower, sunken bath and elegant lounge and seating</li><li>Access to TV room that connects with a <span style="font-style: italic;">gladak </span>bedroom</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gladak Rooms]]></Heading>
+          <Description><![CDATA[<ul><li>Gladak rooms</li><li>Two air-conditioned and fan cooled rooms</li><li><span style="font-style: italic;">Gladak </span>1 connects to the master suite and has a queen-size daybed</li><li> <span style="font-style: italic;">Gladak 2</span> has a single daybed but can be set up with a double bed (extra charge)</li><li><span style="font-style: italic;">Gladak </span>1 features an ensuite with a deep rectangular volcanic stone bathtub while <span style="font-style: italic;">Gladak </span>2 has a rain shower.</li><li>Both lead onto beautiful lawns that are bordered by tropical gardens</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Riverview Suites]]></Heading>
+          <Description><![CDATA[<ul><li>Two air-conditioned and fan cooled contemporary bedrooms</li><li>King-size four-poster netted beds</li><li>Walk-in wardrobes</li><li>Private ensuite bathrooms with a round travertine tubs</li><li>Large picture windows looking onto the garden</li><li>Each has a sitting area</li><li>The ground floor bedroom has a garden terrace</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool Suites]]></Heading>
+          <Description><![CDATA[<ul><li>Two rooms furnished with king-size four-poster beds</li><li>Air-conditioned and fan-cooled </li><li>Hip stylish interiors with a chilled vibe</li><li>A sofa in each room</li><li>Ensuite bathroooms with round tubs, showers and internal gardens with flowering tropical plants</li><li>Dressing rooms</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2835" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a href="./reservations.html" target="_self" title="Villa Hansa - booking enquiry">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />Bali: +62 361 737498<br />Singapore: +65 3108 0520<br />Manila: +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a href="./general-enquiries.html" target="_self" title="Villa Hansa - general enquiry">here</a> to send us a message.<br /><br />Villa Hansa is managed &amp; marketed on behalf of its owners by <a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group</a>, who also handle all the villa reservations.    ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="3261" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<p>At Villa Hansa’s heart is a repurposed antique timber <span style="font-style: italic;">joglo </span>with floor-to-ceiling windows and cool air conditioning.&nbsp; A deep cushioned sofa and soft chairs are positioned below an ornately carved timber<span style="font-style: italic;"> tampung sari </span>(the heavily stepped and sculpted centre of the <span style="font-style: italic;">joglo </span>ceiling) while a two-metre-long table hewn from a single piece of wood is housed in a cool corner.&nbsp; A guest kitchen and service counter lies behind a bar that has comfortable stool seating for four people.&nbsp; Antiques and rare artefacts, including a beautiful old china cabinet and rattan rooster cages, give this room a sleek and polished ambiance.</p><p>Overlooking Villa Hansa’s swimming pool is a casual open-fronted, fan-cooled pavilion that is perfect for relaxed dining, board games and simply chilling.&nbsp; The main kitchen, where staff create gourmet meals and brew delicious ginger tea, is in this pavilion, which is bordered by gardens – both water and flowering - and is decorated with quirky pieces, including a series of chicken statues.&nbsp; The dining table here seats 12 people and several low-slung chairs provide a comfy base from which to relax and watch over pool shenanigans.&nbsp; The polished timber floors are bordered with white stone and the vibe is shabby chic. </p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>Villa Hansa’s 18-metre swimming pool is deep at one end and very shallow at the other, making it perfect for morning laps, a spot of diving or a place for little people to splash.&nbsp; Elegant daybeds and sun loungers surround the pool - some under the shade of umbrellas.&nbsp; A fresh water shower, carved in the image of a Hindu goddess, is recessed into the garden borders.</p><p>A large <span style="font-style: italic;">balé</span>, facing the river and rice fields at the far side of the gardens, makes a great space for lazy barbecue lunches interspersed by cooling dips in the pool and friendly tournaments at the full size pool table.</p><p>Tucked into a quite corner by the river is the spacious yoga studio.&nbsp; This is the perfect place to spend a quiet morning of meditation and asanas, or to watch a traditional Balinese dance performance, which the manager will happy arrange.  </p>  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="3263" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[The family friendly advantages of a villa holiday are many, including access to your own private facilities and the freedom to use them whenever you want.&nbsp; Villa Hansa is wonderful for families with older children, but those with toddlers will need to be vigilant given the riverside location and the many fishponds and water features.<br /><br />The team of friendly staff at Villa Hansa will make children feel as welcome as adults, and having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds. If parents require full-time babysitters, the villa manager can arrange for the service at a small extra cost. <br /><br />Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will be happy to do this for you – just talk through your requirements and meal schedules with the villa manager or cooks and they will take care of the rest.&nbsp; Pancakes by the pool for breakfast?&nbsp; Toasties for tea?&nbsp; No problem.&nbsp; The chefs will customise all meals to suit children’s taste buds. <br /><br />Don’t worry about packing all that cumbersome kids’ equipment for your stay. Just let us know what you need, and anything we don’t have in-house (villa facilities include a baby cot, highchair and games) we can hire on your behalf (click <a title="Children's equipment - Elite Havens" target="_blank" href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf">here</a> to see list of available hire items).<br /><br />And when the excitement of exploring the villa starts to wear off, check out our <a title="Villa Hansa - things to do" target="_self" href="../the-locale/things-to-do.html">Things to do</a> page – there’s plenty in the area to keep all the family amused throughout the holiday.]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="335" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[INDOOR LIVING<br />-&nbsp; A large dining room with seating for up to 20 guest<br />-&nbsp; Dining for up to eight guests in the <span style="font-style: italic;">joglo</span><br />-&nbsp; Bar with seating for four people<br />-&nbsp; Air conditioned <span style="font-style: italic;">joglo </span>house with sofa and chairs<br /><br />OUTDOOR LIVING<br />-&nbsp; Established tropical gardens with manicured lawns and seating<br />-&nbsp; Comfortable <span style="font-style: italic;">balé </span>with barbecue and seating area<br />-&nbsp; Timber terraces furnished with daybeds<br />-&nbsp; 16-metre infinity pool with sun loungers and umbrellas<br />-&nbsp; Riverside yoga studio<br />-&nbsp;&nbsp; 12-metre private pool alongside master suite]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>A large dining room with seating for up to 20 guest</li><li>Dining for up to eight guests in the <span style="font-style: italic;">joglo</span></li><li>Bar with seating for four people</li><li>Air conditioned <span style="font-style: italic;">joglo </span>house with sofa and chairs</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Established tropical gardens with manicured lawns and seating</li><li>Comfortable <span style="font-style: italic;">balé </span>with barbecue and seating area</li><li>Timber terraces furnished with daybeds</li><li>16-metre infinity pool with sun loungers and umbrellas</li><li>Riverside yoga studio</li><li>12-metre private pool alongside master suite</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="407" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Stretching alongside a quiet river in a serene village, Villa Hansa is a divine retreat of refined privacy, vast space and delightful service; all just moments from the glittering volcanic sands of Pererenan beach.</p><p>This chic seven-bedroom villa is an elegant blend of tropical style and cool luxury overlooking a swathe of verdant rice paddies.&nbsp; It is a superb choice for extended families or groups of friends, with bedroom arrangements offering seclusion, interconnectedness or clusters.&nbsp; A professional team of staff including a private chef are on hand to prepare chilled drinks, delicious meals and give first-rate service.</p><p>The diamond in Villa Hansa’s crown is a huge antique Javanese <span style="font-style: italic;">joglo </span>housing a lounge and dining area, private kitchen and bar, which has been restored into a luxurious living space packed with exquisite artefacts.&nbsp; Deep comfortable chairs sit beneath an extraordinary carved teak structure and ceiling-to-floor to glass captures the lush views.</p><p>An 16-metre pool, surrounded by sun loungers and stylish Indonesian daybeds, is positioned between the <span style="font-style: italic;">joglo </span>and four bedrooms with king-size beds.&nbsp; A large open-fronted dining and living space with a big kitchen forms the casual social hub of the estate.&nbsp; In the gardens sits a shingle-roofed <span style="font-style: italic;">balé </span>with a pool table and barbecue perfect for riverside cocktails, and an open-sided yoga studio is tucked alongside a Balinese temple that is tended to daily with flower offerings and incense.</p><p>Villa Hansa’s master suite occupies a lush corner of the grounds.&nbsp; Luxuriously adapted from a second repurposed <span style="font-style: italic;">joglo</span>, the suite contains a king-size bed and features a private 12-metre pool, a quiet walled garden, and a chic bathroom with polished concrete, gorgeous hand-made tiles and a stone bath set within a fishpond.&nbsp; An adjoining TV room connects to an antique timber <span style="font-style: italic;">gladak</span> furnished with elegant antiques and a four-poster netted daybed.&nbsp; Set on lawns in this quiet corner of the estate is a second timber <span style="font-style: italic;">gladak </span>house that is ideal for teens or a guests who enjoy seclusion.&nbsp; This wonderfully romantic traditional Indonesian home has twin netted beds, an ensuite shower room and its own shaded veranda.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="605" contenttypeid="IDA" desc="Indoor Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[
+<p>
+ Yoga &amp; entertainment room</p>]]></Heading>
+          <Description><![CDATA[<p>
+ The stand-alone yoga room is situated behind the kitchen and accessed via a high-walled stone corridor and up a staircase. Sunlight streams into this glass-encased, lofty-ceilinged room which comes tastefully decorated with antique pieces and furniture, including a Javanese carved wood table and Buddhist stone statue. Floors are of polished dark woods, littered with Balinese floor cushions. Continuing the spiritual theme, a striking chandelier-style ceiling lamp features 108 miniature Buddhist characters in individual glass pieces.<br />
+ <br />
+ Although designed for yoga (several yoga mats are supplied), this multi-functional room also contains the villa&rsquo;s only TV (29-inch plasma TV with 380 channels), plus DVD / CD player and Bose sound system. DVDs are also provided.</p>
+]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p>
+ Living, dining &amp; kitchen</p>]]></Heading>
+          <Description><![CDATA[
+<p>
+ The property&rsquo;s heart, an open-plan and open-sided living pavilion, is edged at the rear by a stunning water-wall feature which provides a constant soothing backdrop.&nbsp; A lounge area on the right is furnished with two white leather sofas and contrasting antique wood chairs and table, all arranged on warm Borneo-wood flooring; Indonesian artifacts, stone statues and vases of exotic blooms add a decorative touch. From the traditional vaulted ceiling hangs a huge lamp made with Tibetan characters encased in shell pieces &ndash; this Tibetan element is a recurring theme throughout Villa Hansa.<br />
+ <br />
+ The central dining area comprises an expansive table crafted from solid teak wood, seating ten. To the left and on a lower level, the open-plan kitchen is contemporary in style and well equipped; a small guest washroom plus staff quarter&rsquo;s leads off from here.<br />
+ <br />
+ Being open to the elements, this pavilion doesn&rsquo;t have air conditioning, but is kept cool by ceiling fan and natural breezes; bamboo blinds run along the entire front length, which looks out across the garden and pool. In keeping with the spiritual ambiance of the villa, this pavilion is without a TV or DVD player, but an iPod and dock is provided for musical diversion.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="644" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[The seductively exotic Villa Hansa lays claim to an exclusive riverside position overlooking south-west Bali’s luscious rice terraces.&nbsp; This luxurious private villa is set in the beautiful village of Pererenan, where bohemian cafés meet traditional Balinese life within a stone’s throw of the ever-popular Echo Beach and its revered surf break. <br /><br />A chic contemporary pavilion and antique timber <span style="font-style: italic;">joglos </span>elegantly adapted for luxury living house Villa Hansa’s seven bedrooms.&nbsp; Sweeping lawns, gorgeous tropical gardens, two swimming pools and dining areas, a barbecue and billiard <span style="font-style: italic;">balé</span>, yoga studio, garden grottos and a full team of professional staff coalesce to create a chilled and extravagant habitat.<br />]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="717" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[Villa Hansa is situated alongside a gentle river bordered by beautiful rice terraces in rural Pererenan.&nbsp; The immediate vicinity offers a smattering of hip cafes as well as traditional local haunts, and the many new and exciting dining and shopping establishments of Canggu’s Jalan Batu Bolong area are only a couple of kilometres away. <br /><br />A short stroll from the villa brings you to the glittering black sands of Pererenan beach, and it’s famous surf breaks.&nbsp; Visitors to this area will meet locals and be blessed with an insight into the extraordinary religious lifestyle of the Balinese.&nbsp; Echo Beach with its casual dining scene and cool surfside restaurants is just a short walk along the sand. Just ten kilometres away is the famed Tanah Lot sea temple. The fabulous international dining choices and irresistible shops of Seminyak are just 12 kilometres away.]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Perenenan Beach]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Echo Beach]]></Heading>
+          <Description><![CDATA[1.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuda P horse riding stables]]></Heading>
+          <Description><![CDATA[2 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Waterbom Water Park]]></Heading>
+          <Description><![CDATA[18 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[21 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud]]></Heading>
+          <Description><![CDATA[28 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mount Batukaru]]></Heading>
+          <Description><![CDATA[38 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="805" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Enter Villa Hansa via a glamorous foliage-fringed staircase leading to a stunning Javanese <span style="font-style: italic;">joglo</span> living space with a guest kitchen and bar.&nbsp; To the left is the pool, from which sun decks and gardens lead to an open-sided dining pavilion.&nbsp; Upstairs behind a garden is a massage room. Four luxurious bedrooms border the pool and beyond these is the barbecue <span style="font-style: italic;">balé</span>.&nbsp; The master suite, movie room and adjoining timber <span style="font-style: italic;">gladak </span>bedroom lie to one side of the estate, with the yoga studio below and another <span style="font-style: italic;">gladak </span>bedroom at the rear.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="83" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[Villa Hansa’s seven luxurious bedrooms are housed beneath elegant ironwood-shingle roofs with ceilings of exposed beams and woven rattan.&nbsp; Ensuite bathrooms feature private walled garden spaces that epitomise chic tropical elan.&nbsp; From large windows views of lush green landscapes predominate.&nbsp; Four of the villa’s guest bedrooms are named after the Hindu gods Brahma, Wisnu, Siwa and Ganesha; all featuring netted four-poster king-size beds and cooled by fans and air conditioning.]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p> Master <span style="font-style: italic;">joglo</span><br /></p>]]></Heading>
+          <Description><![CDATA[<p>The master suite offers unrivalled luxury and privacy with a California king-size bed positioned below a rare 400-year old joglo carving.&nbsp; Bedside lighting controls are integrated into the teak bedframe and café-style seating is provided at two tables.&nbsp; A sundeck leads to a 12-metre infinity pool and wraps around to a secluded walled courtyard.&nbsp; The bathroom features a huge sunken bath surrounded by a fish-filled pond.&nbsp; A private television room lies behind the master suite.   </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> <span style="font-style: italic;">Gladak </span>1<br /></p>]]></Heading>
+          <Description><![CDATA[<p>This beautifully earthy antique Indonesian building makes an ideal kids bedroom.&nbsp; The room features timber shuttered windows and slatted walls plus a sweet veranda.&nbsp; A wonderfully preserved four-poster queen-size daybed makes a gorgeous centrepiece to the room, which also has an antique wardrobe, desk and chair plus a cushioned wooden bench seat.&nbsp; The ensuite bathroom is fitted with a rectangular volcanic stone bathtub, unique hand crafted tiles, separate shower and vanity.&nbsp; It is connected to the master suite via the television room.   </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<span style="font-style: italic;">Gladak </span>2]]></Heading>
+          <Description><![CDATA[<p>This is another wonderful example of a preserved traditional Indonesian timber house with a single daybed making it particularly suitable for kids, teens or friends sharing.&nbsp; This <span style="font-style: italic;">gladak </span>is located on grassy lawns and surrounded by mature gardens.&nbsp; The ensuite bathroom has an outdoor shower.     </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Riverview suites (Siwa and Ganesha)]]></Heading>
+          <Description><![CDATA[<p>This building has two bedrooms – Siwa on the ground floor and Ganesha upstairs.&nbsp; Both are furnished with netted four-poster king-size beds and feature dressing rooms and sitting areas.&nbsp; Siwa boasts a small private terrace overlooking the tropical gardens and river, while the Ganesha suite has a shockingly green outlook from large windows.&nbsp; Both ensuites are fitted with round travertine baths and indoor showers.   </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool suites (Wisnu and Brahma)]]></Heading>
+          <Description><![CDATA[<p>The Wisnu and Brahma suites both overlook the pool and have comfortable king-size four-poster beds and separate dressing rooms.&nbsp; Interiors here are more hip than traditional, and have a chilled vibe.&nbsp; Both rooms are furnished with sofas and feature interesting statuary.&nbsp; Ensuites are fitted with circular tubs and the private garden in Wisnu’s bathroom is an extraordinary riot of tropical flowers, including heliconia, torch ginger and an ancient frangipani tree.  </p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="909" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Pererenan village, Canggu, south-west Bali.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>13 people (7 bedrooms: 5 king-size beds and 1 queen-sized bed plus a daybed in the TV room).&nbsp; Extra beds are available at additional cost.</p>     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p><span style="font-style: italic;">Joglo </span>living pavilion with guest kitchen and bar; dining and kitchen pavilion with seating for 12; barbecue pavilion; TV room off master suite; riverside yoga studio/performance space.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>Main pool: 16m x 6m. 0.4m-2.4m depth; Secondary pool: 12m x 4m x 1.5m.</p>     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; cooks; housekeeping; security.&nbsp; Additional staff (babysitters, masseuses) available on request.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Suggestion menu of Western, Asian, vegetarian and children’s dishes.&nbsp; Requests accommodated including special diets. Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi internet access; guest mobile phone for local calls; mobile phone coverage (additional cost for credit); printer; fax.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Satellite TV; DVD player; iPod dock.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families                                     ]]></Heading>
+          <Description><![CDATA[<p>Villa Hansa is exceptionally well equipped for families.&nbsp; Facilities include: baby cot; high chair; DVDs; board games, pool table and table tennis. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>In villa treatments may be selected from a comprehensive spa menu and can be carried out by professional beauty therapists by arrangement (extra cost applies).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>A private chauffeured car is available to hire for up to 8 hours a day at a special daily rate of US$ 35++.&nbsp; Parking space is available within the villa compound for self-drivers.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Barbecue; yoga studio; pool table; table tennis; bicycle; massage room; safety deposit box.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>3100sqm (villa).&nbsp; 4200sqm (land).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed &amp; marketed by]]></Heading>
+          <Description><![CDATA[<p><a title="The Elite Havens Group." target="_blank" href="http://www.elitehavens.com/">The Elite Havens Group.</a> </p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Hansa</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Canggu">Canggu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Pantai Pererenan, Banjar Delod Padunan, Badung</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.64299960</Latitude>
+        <Longitude>115.12799930</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Ten staff, seven bedrooms, two pools, multiple spaces to socialise or escape, all flanking a serene river in picturesque Pererenan, equals the artefact-packed Villa Hansa.</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>7 bedroom</RoomName>
+        <MinRate>920.00++</MinRate>
+        <MaxRate>1460.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>5 bedroom</RoomName>
+        <MinRate>740.00++</MinRate>
+        <MaxRate>1460.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Hansa - Pool area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/01-Villa Hansa - Pool area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - View from the pool to master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/02-Villa Hansa - View from the pool to master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Master bedroom outlook</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/03-Villa Hansa - Master bedroom outlook.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Master bedroom elegantly designed</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/04-Villa Hansa - Master bedroom elegantly designed.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Relaxing cushions</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/05-Villa Hansa - Relaxing cushions.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Villa entrance</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/06-Villa Hansa - Villa entrance.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Stylish joglo bedroom design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/07-Villa Hansa - Stylish joglo bedroom design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Kitchen crew</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/08-Villa Hansa - Kitchen crew.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Dining table</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/09-Villa Hansa - Dining table.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - The beach</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/10-Villa Hansa - The beach.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Our crew</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/11-Villa Hansa - Our crew.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Guest suite joglo desk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/12-Villa Hansa - Guest suite joglo desk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Unique kitchen design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/13-Villa Hansa - Unique kitchen design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - The locale</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/14-Villa Hansa - The locale.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Hansa - Stunning tv room design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Hansa/15-Villa Hansa - Stunning tv room design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

@@ -1,0 +1,76 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div id="slide-1">
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Pool%20overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Pool%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Pool%20overview.jpg 1920w" alt="Noku Beach House - The villa" class="lazyload" />
+		</div>
+		<div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Walkway%20to%20main%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Walkway%20to%20main%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Walkway%20to%20main%20pool.jpg 1920w" alt="Noku Beach House - Master bedroom outlook" class="lazyload" />
+        </div>
+		<div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Exquisite%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Exquisite%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Exquisite%20design.jpg 1920w" alt="Noku Beach House - Pool deck" class="lazyload" />
+        </div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Overhead%20views.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Overhead%20views.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Overhead%20views.jpg 1920w" alt="Noku Beach House - The villa" class="lazyload" />
+
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Exquisite%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Exquisite%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Exquisite%20design.jpg 1920w" alt="Noku Beach House - The villa" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Outdoor%20pool%20bar.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Outdoor%20pool%20bar.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Outdoor%20pool%20bar.jpg 1920w" alt="Noku Beach House - Swimming" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Backyard%20Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Backyard%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Backyard%20Poolside.jpg 1920w" alt="Noku Beach House - Swimming" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Views%20abound.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Views%20abound.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Views%20abound.jpg 1920w" alt="Noku Beach House - Living area outlook" class="lazyload" />
+
+        {elseif $data.page == 'video'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Seating%20area%20overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Seating%20area%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Seating%20area%20overview.jpg 1920w" alt="Noku Beach House - Living area outlook" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Poolside%20beachside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Poolside%20beachside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Poolside%20beachside.jpg 1920w" alt="Noku Beach House - Poolside area" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Perfect%20wedding%20location.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Perfect%20wedding%20location.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Perfect%20wedding%20location.jpg 1920w" alt="Noku Beach House - Perfect wedding location" class="lazyload" />
+        
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Surfs%20up.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Surfs%20up.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Surfs%20up.jpg 1920w" alt="Noku Beach House - Sunbathing" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Proffesional%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Proffesional%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Proffesional%20staff.jpg 1920w" alt="Noku Beach House - Fabulous food" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Chef%20made.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Chef%20made.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Chef%20made.jpg 1920w" alt="Noku Beach House - Chef made" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Fun%20on%20the%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Fun%20on%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Fun%20on%20the%20beach.jpg 1920w" alt="Noku Beach House - Fun on the beach" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Massage%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Massage%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Massage%20area.jpg 1920w" alt="Noku Beach House - Dreamy bathtub" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Dining%20area%20with%20tropical%20ambience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Dining%20area%20with%20tropical%20ambience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Dining%20area%20with%20tropical%20ambience.jpg 1920w" alt="Noku Beach House - Master bedroom outlook" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Pool%20deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Pool%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Pool%20deck.jpg 1920w" alt="Noku Beach House - Pool deck" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Noku Beach House - Absolute beachfront villa" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Noku Beach House - Absolute beachfront villa" class="lazyload" />
+        
+        {else}
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Noku%20Beach%20House.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20The%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Noku%20Beach%20House%20-%20The%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Noku%20Beach%20House%20-%20The%20villa.jpg 1920w" alt="Noku Beach House - The villa" class="lazyload" /></div>
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

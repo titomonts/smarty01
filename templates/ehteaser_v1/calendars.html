@@ -1,0 +1,20 @@
+<div class="avail-cal">
+	<ul>
+    	{section name=t loop=$data.complex_calendars}
+    	<li><a href="#{$data.complex_calendars[t].site_villa_id}">{$data.complex_calendars[t].site_villa_name}</a></li>
+        {/section}
+    </ul>
+    
+    {section name=c loop=$data.complex_calendars}
+    <div id="{$data.complex_calendars[c].site_villa_id}">{$data.complex_calendars[c].site_iframe_calendar}</div>
+    {/section}
+</div>
+
+<script type='text/javascript' src='/js/jquery-1.7.1.js'></script>
+<script type='text/javascript' src='/js/jquery-ui-1.8.js'></script>
+{literal}
+<script>
+$('.avail-cal').tabs();
+$('.avail-cal, .avail-cal ul, .avail-cal div, .avail-cal li').removeClass('ui-helper-clearfix ui-widget-header ui-corner-top ui-corner-bottom ui-helper-reset ui-corner-all ui-widget ui-widget-content');
+</script>
+{/literal}

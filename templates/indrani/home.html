@@ -1,0 +1,131 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item section-one">                      
+                    <div class="wrapper">
+                        <div class="group">
+                            <div class="the-content"> 							
+                                <h1 class="entry-title">{$data.heading}</h1>
+                                {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+
+                                    {contentpart content=$content[0].desc|replace:['<p>','</p>']:['',''] explode="."}
+                                    <p>{$contentPart[0]}.</p>
+
+                                {/if}
+
+                                {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                                    {$content[0].SubContents[s].Description}
+                                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                        <p>
+                                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                            </a>
+                                        </p>
+                                    {/if}
+                                    {/section}
+                                {/if}
+
+                                <div class="clear"></div>
+                            </div>
+                            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Indrani - Serving tropical fruit.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Indrani - Serving tropical fruit.jpg" alt="Villa Indrani - Serving tropical fruit" class="lazyload"></div>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="content-item section-two">
+                    <div class="wrapper">
+                        <div class="group">
+                            <ul class="poi lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Indrani - Details of kimono.jpg">
+                                <li id="poi-1">Private<br> chef</li>
+                                <li id="poi-2">5 bedroom<br> villa</li>
+                                <li id="poi-3">Family<br> friendly</li>
+                                <li id="poi-4">Private<br> pool</li>									
+                            </ul>
+                            <div class="the-content">                            
+                                <p>
+                                {section name=s start=1 loop=$contentPart}
+                                {if ! $smarty.section.s.last}
+                                {$contentPart[s]}.
+                                {/if}
+                                {/section} 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="content-item section-three">
+                    <div class="wrapper">
+                        <div class="group">
+                            <div class="first-img">	
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Indrani - Our staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Indrani - Our staff.jpg" alt="Villa Indrani - Our staff" class="lazyload">
+                                <h3>Fully staffed</h3>
+                                {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+                                    </p>
+                                {/if}
+
+                            </div>
+
+                            <div class="second-img">							
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Indrani - Upstair bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Indrani - Upstair bedroom.jpg" alt="Villa Indrani - Upstair bedroom" class="lazyload">
+
+                                <h3>5 bedroom villa</h3>
+                                {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+                                    </p>
+                                {/if}
+                            </div>
+
+                            <div class="third-img">								
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Indrani - Relaxing at the pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Indrani - Relaxing at the pool.jpg" alt="Villa Indrani - Relaxing at the pool" class="lazyload">								
+                                <h3>Family activities</h3>
+                                {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+                                    </p>
+                                {/if}
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-indrani', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

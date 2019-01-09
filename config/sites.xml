@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domains>
+	<domain complex="no">
+		<villa_id>tamansorga</villa_id>
+		<estate_id vids=""></estate_id>
+		<url>dev.tamansorga.com</url>
+		<site_title>Villa Taman Sorga, Sanur 6 bedroom luxury villa, Bali</site_title>
+		<theme>tamansorga</theme>
+		<responsive>no</responsive>
+		<google_analytics>UA-17704967-1</google_analytics>
+		<site_configuration>tamansorga.conf</site_configuration>
+		<site_structure>tamansorga.json</site_structure>
+		<gallery_image_per_page>9</gallery_image_per_page>
+	</domain>
+	
+	<domain complex="no">
+		<villa_id>Maharaj</villa_id>
+		<estate_id vids=""></estate_id>
+		<url>dev.villamaharaj.com</url>
+		<site_title>Villa Maharaj - Seminyak 4 bedroom luxury villa, Bali</site_title>
+		<theme>villamaharaj</theme>
+		<responsive>no</responsive>
+		<google_analytics>UA-28690978-2</google_analytics>
+		<site_configuration>villamaharaj.conf</site_configuration>
+		<site_structure>Maharaj.json</site_structure>
+		<gallery_image_per_page>6</gallery_image_per_page>
+	</domain>
+	
+	<domain complex="yes">
+		<villa_id>Majapahit</villa_id>
+		<estate_id vids="MajapahitMaya4BR,Nataraja,Raj">Majapahit</estate_id>
+		<url>dev.majapahitbeachvillas.com</url>
+		<site_title>Majapahit Beach Villas - Sanur beachfront villas, Bali</site_title>
+		<theme>majapahit</theme>
+		<responsive>no</responsive>
+		<google_analytics>UA-960190-1</google_analytics>
+		<site_configuration>majapahit.conf</site_configuration>
+		<site_structure>majapahit.json</site_structure>
+		<gallery_image_per_page>6</gallery_image_per_page>
+	</domain>
+	
+	<domain complex="yes">
+		<villa_id>P00011</villa_id>
+		<estate_id vids="Amy,DeaVillas-Sati,GladakHouse-Sarasvati,Sarasvati">dea villas</estate_id>
+		<url>dev.deavillas-bali.com</url>
+		<site_title>Dea Villas - Canggu 5 bedroom villas for rent, Bali</site_title>
+		<theme>deavillas</theme>
+		<responsive>no</responsive>
+		<google_analytics>UA-52357355-1</google_analytics>
+		<site_configuration>deavillas.conf</site_configuration>
+		<site_structure>deavillas.json</site_structure>
+		<gallery_image_per_page>12</gallery_image_per_page>
+	</domain>
+</domains>

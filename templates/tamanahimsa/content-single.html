@@ -1,0 +1,215 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['about-taman-ahimsa']}
+    <div class="first-img">
+    <img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Taman%20Ahimsa%20-%20Svadhistana%20bathroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Taman%20Ahimsa%20-%20Svadhistana%20bathroom.jpg" alt="Taman Ahimsa - Svadhistana bathroom" class="lazyload" />
+    </div>
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+{/if}
+
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=7}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half">
+            {section name=s start=7 loop=$content[0].SubContents}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+        <div class="press-item current"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/cover-starfish.jpg" class="imgleft">“There’s always the madding  crowd, boutiques and bars of Seminyak just down the road; but during our visit  we were quite content to simply lounge and linger in the peace and tranquility  that Taman Ahimsa does so well.” <a href="/resources/{$data.theme}/pdfs/Starfish-Tamanahimsa-march192013.pdf" target="_blank"><em>Taman Ahimsa: Hidden Garden by the Sea,</em> <strong>The Starfish</strong>, Published March 19, 2013.</a></div>
+    </div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+    
+{elseif $data.page|in_array:['weddings']}
+
+    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Taman%20Ahimsa%20-%20Wedding%20ornament.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Taman%20Ahimsa%20-%20Wedding%20ornament.jpg" alt="Taman Ahimsa - Wedding ornament" class="lazyload" /></div>
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc regex="default"}
+        {contentpart content=$contentPart[0] strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}                                
+
+        {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+        <div class="group">
+            <div class="guidelines">
+            {contentpart content=$content[0].desc strip=["<br />"] regex="default"}
+            {section name=s start=1 loop=$contentPart}
+            {$contentPart[s]|replace:['<p>','</p>']:['', '']}
+            {/section} 
+            </div>
+            <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Taman%20Ahimsa%20-%20Wedding%20bouquet.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Taman%20Ahimsa%20-%20Wedding%20bouquet.jpg" alt="Taman Ahimsa - Wedding bouquet" class="lazyload" /></div>
+            <div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Taman%20Ahimsa%20-%20Flowers.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Taman%20Ahimsa%20-%20Flowers.jpg" alt="Taman Ahimsa - Flowers" class="lazyload" /></div>
+        </div>
+
+    {/if}
+
+    {section name=s loop=$content[0].SubContents}
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+        {$content[0].SubContents[s].Description}
+
+        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if}
+    {/section}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews order="d,c,n"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservation-sent']}
+
+    <p>Your Reservation Enquiry Form has been successfully sent for Taman Ahimsa.</p>
+    <p>The Elite Havens Group, luxury villa rentals, manage all the reservations for Taman Ahimsa. One of our villa specialists will be in touch shortly.</p>
+    <p>Your Reference I.D. is <strong style="font-weight:bold;">{$smarty.get.VillabkID}</strong></p>
+    <p>The Elite Havens Group presents a stunning portfolio of luxury private villas throughout Bali and Lombok in Indonesia, Thailand and Sri Lanka. Staffed to the highest quality, each villa offers a blissfully relaxing and highly individual experience. Ranging in size from one to nine bedrooms and boasting private pools, luxurious living spaces, equipped kitchens (with chef) and tropical gardens, our villas are situated in the heart of the action, beside blissful beaches, upon jungle-clad hillsides and amongst idyllic rural landscapes ensuring the perfect holiday experience for all.</p>
+
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul>
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

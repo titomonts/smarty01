@@ -1,0 +1,317 @@
+[
+	{
+		"page_title":"",
+		"label":"Homepage",
+		"page_header":"Twin Villas Natai <span>Experience the Luxury</span>",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":""
+	},
+	{
+		"page_title":"About the Villas",
+		"label":"About",
+		"page_header":"About <span>Twin Villas Natai</span>",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+        "villaID":"P00223",
+        "sub_villa":"about-twin-villas-natai",
+		"page_identifier":"about-twin-villas-natai",
+		"children":[
+					{
+						"page_title":"Twin Villas Natai",
+						"label":"Twin Villas Natai",
+						"page_header":"Twin Villas Natai",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00223",
+						"page_identifier":"about-twin-villas-natai",
+						"level":"top",
+						"body_class":"about"
+					},
+					{
+						"page_title":"North Villa",
+						"label":"North Villa",
+						"page_header":"North Villa",
+						"template":"page-template.html",
+						"content_id":"",
+						"villaID":"P00221",
+						"parent":"about-twin-villas-natai",
+						"level":"sub",
+						"page_identifier":"villa-north",
+						"body_class":"explore"
+					},	
+					{
+						"page_title":"South Villa",
+						"label":"South Villa",
+						"page_header":"South Villa",
+						"template":"page-template.html",
+						"content_id":"",
+						"villaID":"P00222",
+						"parent":"about-twin-villas-natai",
+						"level":"sub",
+						"page_identifier":"villa-south",
+						"body_class":"explore"
+					}
+		],
+		"menu_location":"main",
+		"special_menu":"true",
+		"what":"about-twin-villas-natai",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+					{
+						"page_title":"Photo Gallery",
+						"label":"Photo Gallery",
+						"page_header":"Gallery",
+						"template":"photo-gallery.html",
+						"content_id":"",
+						"page_identifier":"photo-gallery",
+						"level":"top",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"floorplan"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},	
+	{
+		"page_title":"Natai Beach Experience",
+		"label":"Location",
+		"page_header":"Natai Beach Experience",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"natai-beach-phuket",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"locale"
+	},
+	{
+		"page_title":"Weddings",
+		"label":"Weddings",
+		"page_header":"Weddings",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"weddings",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"weddings"
+	},
+	{
+		"page_title":"Staff",
+		"label":"Experience",
+		"page_header":"Staff",
+		"template":"page-template.html",
+		"content_id":"STAFF",
+		"page_identifier":"staff",
+		"children":[
+                    {
+                        "page_title":"Staff",
+                        "label":"Staff",
+                        "page_header":"Staff",
+                        "template":"page-template.html",
+                        "content_id":"STAFF",
+                        "page_identifier":"staff",
+                        "level":"top",
+                        "body_class":"staff experience"
+                    },
+                    {
+                        "page_title":"Dining",
+                        "label":"Dining",
+                        "page_header":"Dining",
+                        "template":"page-template.html",
+                        "content_id":"DNNG",
+                        "page_identifier":"dining",
+                        "level":"top",
+                        "body_class":"dining experience"
+                    },
+                    {
+                        "page_title":"Families",
+                        "label":"Families",
+                        "page_header":"Families",
+                        "template":"page-template.html",
+                        "content_id":"FAM",
+                        "page_identifier":"families",
+                        "level":"top",
+                        "body_class":"families experience"
+                    },
+                    {
+                        "page_title":"Spa",
+                        "label":"Spa",
+                        "page_header":"Spa",
+                        "template":"page-template.html",
+                        "content_id":"SPAGYM",
+                        "page_identifier":"spa",
+                        "level":"top",
+                        "body_class":"spa experience"
+                    }
+        ],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"staff experience"
+	},	
+	{
+		"page_title":"Reviews",
+		"label":"Reviews",
+		"page_header":"Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"guest-reviews"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},	
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links" 
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Villa Layout",
+		"template":"page-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"",
+		"body_class":"villa-layout explore"
+	},
+	{
+		"page_title":"Bedrooms",
+		"label":"Bedrooms",
+		"page_header":"Bedrooms",
+		"template":"page-template.html",
+		"content_id":"BDR",
+		"page_identifier":"bedrooms",
+		"menu_location":"",
+		"body_class":"bedrooms explore"
+	},
+	{
+		"page_title":"Living Areas",
+		"label":"Living Areas",
+		"page_header":"Living Areas",
+		"template":"page-template.html",
+		"content_id":"LVA",
+		"page_identifier":"living-areas",
+		"menu_location":"",
+		"body_class":"living-areas explore"
+	},	
+	{
+		"page_title":"Quick Facts",
+		"label":"Quick Facts",
+		"page_header":"Quick Facts",
+		"template":"page-template.html",
+		"content_id":"QF",
+		"villaID":"P00223",
+		"page_identifier":"quick-facts",
+		"menu_location":"",
+		"body_class":"quick-facts explore"
+	},
+	{
+		"page_title":"The Locale",
+		"label":"The Locale",
+		"page_header":"The Locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"menu_location":"",
+		"body_class":"the-locale locale"
+	},
+	{
+		"page_title":"Things to Do",
+		"label":"Things to Do",
+		"page_header":"Things to Do",
+		"template":"page-template.html",
+		"content_id":"TTD",
+		"page_identifier":"things-to-do",
+		"menu_location":"",
+		"body_class":"things-to-do locale"
+	}
+]
+		

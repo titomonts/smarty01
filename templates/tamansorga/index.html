@@ -1,0 +1,93 @@
+{include file="header.html"}
+<body class="home page-id-2 page-template page-template-index page-template-index-php">
+{$gtm}	
+	<div id="container">
+	{include file="menu.html"}
+	
+	<div class="headerimg">
+<div class="flexslider">
+<ul class="slides">
+	<li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+    	<img src="/resources/tamansorga/headers/home1.jpg" alt="Villa Taman Sorga" draggable="false">
+    </li>
+	<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">
+    	<img src="/resources/tamansorga/headers/home2.jpg" alt="Villa Taman Sorga" draggable="false">
+    </li>
+	<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;" class="flex-active-slide">
+    	<img src="/resources/tamansorga/headers/home3.jpg" alt="Villa Taman Sorga" draggable="false">
+    </li>
+</ul><!-- .slides -->
+<ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="http://www.tamansorga.com/#">Previous</a></li><li class="flex-nav-next"><a class="flex-next" href="http://www.tamansorga.com/#">Next</a></li></ul></div><!-- .flexslider -->
+
+</div>	<div class="clear"></div>	
+	<div id="contentwrap_homepage">
+		<div id="content_homepage" style="background-position: 0px 35px;">
+			<div id="maincol_homepage">
+				<h1 class="entry-title">{#HEADING_HOME#}</h1>
+				{if 'desc'|array_key_exists:$content[0]}
+                {$content[0].desc}
+                {/if}
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h3>{$content[0].SubContents[s].Heading}</h3>
+                        <p>{$content[0].SubContents[s].Description}</p>
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        	<p>
+                            	<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl}" rel="gallery" class="pirobox_gall">
+                                	<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl}" border="0" width="238" height="158" />
+                                </a>
+                            </p>
+                        {/if}
+                	{/section}
+                {/if}
+			</div>
+			<div id="content_pic_right">
+				<ul class="caption-style-4">
+					<li>
+                    	<img class="home-sqr-pic1" src="/resources/tamansorga/content/home-pic-square1.jpg" alt="Welcome to <br /><span class='hstrongbig'>Villa Taman Sorga</span>">
+					</li>
+					<li>
+                    	<img class="home-sqr-pic2" src="/resources/tamansorga/content/home-pic-square2.jpg" alt="Welcome to <br /><span class='hstrongbig'>Villa Taman Sorga</span>">
+					</li>
+					<li>
+                    	<img class="home-sqr-pic3" src="/resources/tamansorga/content/home-pic-square3.jpg" alt="Welcome to <br /><span class='hstrongbig'>Villa Taman Sorga</span>">
+						<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="photo-gallery"}">
+							<div class="caption">
+								<div class="blur"></div>
+								<div class="caption-text">Photo <br>Gallery</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+						<div id="tripad-entry-wrapper" class="tripadv">
+			
+		<div class="flex-viewport" style="overflow: hidden; position: relative; height: 250px;"><ul class="slides" style="height: 800%; position: absolute; width: 100%; transition-duration: 0s; transform: translate3d(0px, -250px, 0px);"><li class="clone" aria-hidden="true" style="display: block;">
+					<div class="tripad-reviewer"><span class="tripad-title">"Everyone's idea of paradise"</span><br><span class="tripad-name">Vivienne-young</span><br>Cardiff, United Kingdom<br><img src="./assets/tripadlogo.png" width="40" height="23" draggable="false"></div>
+					<div class="tripad-review" style="margin-top:10px;">Taman Sorga was everyone's idea of paradise! The architecture, decor and gardens were gorgeous and the staff and service was fantastic. 
+We had the vacation of a lifetime and wouldn't hesitate to recommend Taman Sorga to even the most discerning of our friends.</div>
+					<div class="clear"></div>
+				</li>
+				<li class="flex-active-slide" style="display: block;">
+					<div class="tripad-reviewer"><span class="tripad-title">"Fabulous holiday for all"</span><br><span class="tripad-name">Janet M.</span><br>Melbourne, Australia <br><img src="./assets/tripadlogo.png" width="40" height="23" draggable="false"></div>
+					<div class="tripad-review" style="margin-top:10px;">We have just returned from having the most amazing time at the Taman Sorga. We were a party of 11 including 5 small children and the accomodation and facilites were first rate. Even better than that the staff were unbelieveable, always ready to help and assist in any way they could. </div>
+					<div class="clear"></div>
+				</li>
+				<li class="" style="display: block;">
+					<div class="tripad-reviewer"><span class="tripad-title">"Everyone's idea of paradise"</span><br><span class="tripad-name">Vivienne-young</span><br>Cardiff, United Kingdom<br><img src="./assets/tripadlogo.png" width="40" height="23" draggable="false"></div>
+					<div class="tripad-review" style="margin-top:10px;">Taman Sorga was everyone's idea of paradise! The architecture, decor and gardens were gorgeous and the staff and service was fantastic. 
+We had the vacation of a lifetime and wouldn't hesitate to recommend Taman Sorga to even the most discerning of our friends.</div>
+					<div class="clear"></div>
+				</li>
+			<li class="clone" aria-hidden="true" style="display: block;">
+					<div class="tripad-reviewer"><span class="tripad-title">"Fabulous holiday for all"</span><br><span class="tripad-name">Janet M.</span><br>Melbourne, Australia <br><img src="./assets/tripadlogo.png" width="40" height="23" draggable="false"></div>
+					<div class="tripad-review" style="margin-top:10px;">We have just returned from having the most amazing time at the Taman Sorga. We were a party of 11 including 5 small children and the accomodation and facilites were first rate. Even better than that the staff were unbelieveable, always ready to help and assist in any way they could. </div>
+					<div class="clear"></div>
+				</li></ul></div></div>		</div>
+		<div id="tripad"><img src="./assets/bg-tripad.jpg"></div>
+	</div>
+	<!-- /contentwrap -->
+	<div class="clear"></div>
+        
+{include file="footer.html"}

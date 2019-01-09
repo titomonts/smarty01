@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Estate estateid="SesehBeachVillas" estatename="Seseh Beach Villas">
+  <Villa villaid="P00004" villaname="Seseh Beach Villa I" isinternaluse="N">
+    <RateName ratenameid="996" ratename="Standard Rate (5BR)" bedrooms="5" roomname="5 bedroom">
+      <Rates>
+        <Year year="2019">
+          <Season id="1" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2019-01-06</From>
+              <To>2019-02-01</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-02-11</From>
+              <To>2019-04-04</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-22</From>
+              <To>2019-06-14</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-09-01</From>
+              <To>2019-12-14</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2019-02-02</From>
+              <To>2019-02-10</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-17</From>
+              <To>2019-04-21</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-22</From>
+              <To>2019-08-17</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-12-15</From>
+              <To>2019-12-25</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2019-04-05</From>
+              <To>2019-04-16</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-15</From>
+              <To>2019-06-21</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-08-18</From>
+              <To>2019-08-31</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="4" seasonid="PK" seasonlabel="Peak Season">
+            <Rate>
+              <From>2019-12-26</From>
+              <To>2020-01-04</To>
+              <NRate>2356.20</NRate>
+              <GRate>2040.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2040.00</DisplayRate>
+              <MinimumNightStay>7</MinimumNightStay>
+              <LSGRate minnights="10">1734.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1836.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+        <Year year="2020">
+          <Season id="1" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2020-01-24</From>
+              <To>2020-01-31</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-09</From>
+              <To>2020-04-13</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-27</From>
+              <To>2020-08-23</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-12-15</From>
+              <To>2020-12-25</To>
+              <NRate>1951.95</NRate>
+              <GRate>1690.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1690.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1437.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1521.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2020-01-05</From>
+              <To>2020-01-23</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-02-01</From>
+              <To>2020-03-27</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-05-03</From>
+              <To>2020-06-19</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-09-06</From>
+              <To>2020-12-14</To>
+              <NRate>1524.60</NRate>
+              <GRate>1320.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1320.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1122.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1188.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2020-03-28</From>
+              <To>2020-04-08</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-14</From>
+              <To>2020-05-02</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-20</From>
+              <To>2020-06-26</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-08-24</From>
+              <To>2020-09-05</To>
+              <NRate>1732.50</NRate>
+              <GRate>1500.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1500.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1275.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1350.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+      </Rates>
+    </RateName>
+  </Villa>
+  <Villa villaid="P00006" villaname="Seseh Beach Villa II" isinternaluse="N">
+    <RateName ratenameid="1066" ratename="Standard Rate (6BR)" bedrooms="6" roomname="6 bedroom">
+      <Rates>
+        <Year year="2019">
+          <Season id="1" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2019-01-06</From>
+              <To>2019-02-01</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-02-11</From>
+              <To>2019-04-04</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-22</From>
+              <To>2019-06-14</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-09-01</From>
+              <To>2019-12-14</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2019-02-02</From>
+              <To>2019-02-10</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-17</From>
+              <To>2019-04-21</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-22</From>
+              <To>2019-08-17</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-12-15</From>
+              <To>2019-12-25</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2019-04-05</From>
+              <To>2019-04-16</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-15</From>
+              <To>2019-06-21</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-08-18</From>
+              <To>2019-08-31</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="4" seasonid="PK" seasonlabel="Peak Season">
+            <Rate>
+              <From>2019-12-26</From>
+              <To>2020-01-04</To>
+              <NRate>2402.40</NRate>
+              <GRate>2080.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2080.00</DisplayRate>
+              <MinimumNightStay>7</MinimumNightStay>
+              <LSGRate minnights="10">1768.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1872.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+        <Year year="2020">
+          <Season id="1" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2020-01-24</From>
+              <To>2020-01-31</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-09</From>
+              <To>2020-04-13</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-27</From>
+              <To>2020-08-23</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-12-15</From>
+              <To>2020-12-25</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2020-01-05</From>
+              <To>2020-01-23</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-02-01</From>
+              <To>2020-03-27</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-05-03</From>
+              <To>2020-06-19</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-09-06</From>
+              <To>2020-12-14</To>
+              <NRate>1686.30</NRate>
+              <GRate>1460.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1460.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1241.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1314.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2020-03-28</From>
+              <To>2020-04-08</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-14</From>
+              <To>2020-05-02</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-20</From>
+              <To>2020-06-26</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-08-24</From>
+              <To>2020-09-05</To>
+              <NRate>1882.65</NRate>
+              <GRate>1630.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1630.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1386.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1467.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+      </Rates>
+    </RateName>
+    <RateName ratenameid="1070" ratename="Standard Rate (5BR)" bedrooms="5" roomname="5 bedroom">
+      <Rates>
+        <Year year="2019">
+          <Season id="1" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2019-01-06</From>
+              <To>2019-02-01</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-02-11</From>
+              <To>2019-04-04</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-22</From>
+              <To>2019-06-14</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-09-01</From>
+              <To>2019-12-14</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2019-02-02</From>
+              <To>2019-02-10</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-17</From>
+              <To>2019-04-21</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-22</From>
+              <To>2019-08-17</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-12-15</From>
+              <To>2019-12-25</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2019-04-05</From>
+              <To>2019-04-16</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-15</From>
+              <To>2019-06-21</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-08-18</From>
+              <To>2019-08-31</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="4" seasonid="PK" seasonlabel="Peak Season">
+            <Rate>
+              <From>2019-12-26</From>
+              <To>2020-01-04</To>
+              <NRate>2402.40</NRate>
+              <GRate>2080.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2080.00</DisplayRate>
+              <MinimumNightStay>7</MinimumNightStay>
+              <LSGRate minnights="10">1768.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1872.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+        <Year year="2020">
+          <Season id="1" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2020-01-24</From>
+              <To>2020-01-31</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-09</From>
+              <To>2020-04-13</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-27</From>
+              <To>2020-08-23</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-12-15</From>
+              <To>2020-12-25</To>
+              <NRate>2055.90</NRate>
+              <GRate>1780.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1780.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">1513.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1602.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2020-01-05</From>
+              <To>2020-01-23</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-02-01</From>
+              <To>2020-03-27</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-05-03</From>
+              <To>2020-06-19</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-09-06</From>
+              <To>2020-12-14</To>
+              <NRate>1432.20</NRate>
+              <GRate>1240.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1240.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">1054.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1116.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2020-03-28</From>
+              <To>2020-04-08</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-14</From>
+              <To>2020-05-02</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-20</From>
+              <To>2020-06-26</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-08-24</From>
+              <To>2020-09-05</To>
+              <NRate>1640.10</NRate>
+              <GRate>1420.00</GRate>
+              <DisplayRate is_sctaxincluded="N">1420.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">1207.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">1278.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of 5 bedrooms and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+      </Rates>
+    </RateName>
+  </Villa>
+  <Villa villaid="SesehBeachVillas" villaname="Seseh Beach Villas" isinternaluse="Y">
+    <RateName ratenameid="1042" ratename="Standard Rate (11BR)" bedrooms="11" roomname="11 bedroom">
+      <Rates>
+        <Year year="2019">
+          <Season id="1" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2019-01-06</From>
+              <To>2019-02-01</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-02-11</From>
+              <To>2019-04-04</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-22</From>
+              <To>2019-06-14</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-09-01</From>
+              <To>2019-12-14</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2019-02-02</From>
+              <To>2019-02-10</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-04-17</From>
+              <To>2019-04-21</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-22</From>
+              <To>2019-08-17</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-12-15</From>
+              <To>2019-12-25</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2019-04-05</From>
+              <To>2019-04-16</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-06-15</From>
+              <To>2019-06-21</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2019-08-18</From>
+              <To>2019-08-31</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="4" seasonid="PK" seasonlabel="Peak Season">
+            <Rate>
+              <From>2019-12-26</From>
+              <To>2020-01-04</To>
+              <NRate>4282.74</NRate>
+              <GRate>3708.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3708.00</DisplayRate>
+              <MinimumNightStay>7</MinimumNightStay>
+              <LSGRate minnights="10">3152.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">3337.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+        <Year year="2020">
+          <Season id="1" seasonid="HI" seasonlabel="High Season">
+            <Rate>
+              <From>2020-01-24</From>
+              <To>2020-01-31</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-09</From>
+              <To>2020-04-13</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-27</From>
+              <To>2020-08-23</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-12-15</From>
+              <To>2020-12-25</To>
+              <NRate>3607.06</NRate>
+              <GRate>3123.00</GRate>
+              <DisplayRate is_sctaxincluded="N">3123.00</DisplayRate>
+              <MinimumNightStay>5</MinimumNightStay>
+              <LSGRate minnights="10">2655.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2811.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="2" seasonid="LO" seasonlabel="Low Season">
+            <Rate>
+              <From>2020-01-05</From>
+              <To>2020-01-23</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-02-01</From>
+              <To>2020-03-27</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-05-03</From>
+              <To>2020-06-19</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-09-06</From>
+              <To>2020-12-14</To>
+              <NRate>2889.81</NRate>
+              <GRate>2502.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2502.00</DisplayRate>
+              <MinimumNightStay>2</MinimumNightStay>
+              <LSGRate minnights="10">2127.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2252.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+          <Season id="3" seasonid="SH" seasonlabel="Shoulder Season">
+            <Rate>
+              <From>2020-03-28</From>
+              <To>2020-04-08</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-04-14</From>
+              <To>2020-05-02</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-06-20</From>
+              <To>2020-06-26</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+            <Rate>
+              <From>2020-08-24</From>
+              <To>2020-09-05</To>
+              <NRate>3253.64</NRate>
+              <GRate>2817.00</GRate>
+              <DisplayRate is_sctaxincluded="N">2817.00</DisplayRate>
+              <MinimumNightStay>3</MinimumNightStay>
+              <LSGRate minnights="10">2394.00</LSGRate>
+              <LMGRate maxdaystocheckin="15" discountpercentage="10.00">2535.00</LMGRate>
+              <TaxRate>10.00</TaxRate>
+              <SCRate>5.00</SCRate>
+              <TotalExtraChargesPercentage>15.50</TotalExtraChargesPercentage>
+              <Inclusions><li> WiFi Internet access </li><li>Complimentary 7-seater car with driver for 8 hours/day (excluding petrol)</li> <li> Welcome drink and fruit basket</li><li> Turndown service</li> <li> Personal service by the villa staff including full time villa manager, housekeeper, chef/cook, security and attendants</li> <li> Exclusive use of the whole villa and listed facilities</li><li> Airport transfers (Conditions apply)</li></Inclusions>
+            </Rate>
+          </Season>
+        </Year>
+      </Rates>
+    </RateName>
+  </Villa>
+</Estate>

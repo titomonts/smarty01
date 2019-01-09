@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00153</villa_id>
+		<estate_id vids="P00146,P00154,P00181,P00145,P00143">Malaiwana</estate_id>
+		<villa_name>Malaiwana</villa_name>
+		<google_analytics>UA-97194014-1</google_analytics>
+		<location>Phuket</location>
+		<sublocation> Nai Thon</sublocation>
+		<bedrooms>99</bedrooms>
+		<hrental_id>'P00153', 'Phuket', 'Nai Thon', '99br'</hrental_id>
+		<ehgLocation>Phuket, Nai Thon</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>estate</ehgPageType>
+		</Source>
+		</Configuration>

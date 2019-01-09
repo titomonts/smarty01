@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <SDate>2018-07-15T00:00:00+08:00</SDate>
+    <EDate>2018-07-15T00:00:00+08:00</EDate>
+    <RHighlight><p>This really is a spectacular villa in one of the most beautiful settings we have seen. The huge gardens grassy lawns dotted with statuary, meandering pathways and myriad ponds with waterfalls and fountains, not to mention two swimming pools, make a truly magical setting — idyllic for kids who will find the entire property an adventure, and for wellness aficionados who will appreciate the calm and beauty.</p></RHighlight>
+    <RSurroundArea><p>
+	There is nothing of note within walking distance of the villa. Just outside the estate gates, however, at Taman Spa, villa guests are offered a 40% discount. But the estate is very peaceful and, with 24-hour security, very secure. The owners provide a very useful, family-focussed file containing information about nearby beaches, restaurants, activities, shops and spas (including journey times), and listing personal recommendations based on their own discoveries over the last 15 years. There are also a few bicycles available for use &ndash; great to take to Nusa Dua and ride up and down the scenic seafront promenade.</p>
+</RSurroundArea>
+    <VillaID>Waru</VillaID>
+    <ROverallComments><p>Its safe environment, spacious garden and loads of different living spaces make Villa Waru an absolute dream for large families. The garden is truly enchanting; full of little artistic touches; secreted statues, brightly painted doorways, timber carvings and stone gargoyles. Adventurous kids will love these surroundings and there’s plenty to keep them amused inside too; big TVs, DVDs, pool table, foosball table, board games etc. For parents’ extra peace of mind, a lifeguard can even attend at the villa (extra charge).</p><p>With such a generous scattering of living and dining space, everyone will be able to find their own favourite corner — ours was the Sparkle suite’s veranda floating above the pond, and the second-level open-sided living area looking out over the glorious gardens created by Bali landscaping supremo Made Widjaya. Waru’s two residences are joined by a pathway through the garden making it ideal for two families (or even three) holidaying together. We also think it would be the ideal space for yoga and wellbeing retreats — and a magical venue for weddings and special celebrations.</p><p>Visiting seven years after the first review, we were able to appreciate this extraordinary villa from a different perspective. So many newer-build villas sit in small gardens hemmed in by neighbours. In contrast, the multi-pavilion Waru offers the space, privacy and imaginatively furnished interiors of a bygone age — a rare privilege that we can’t wait to repeat.</p><p>We thought that the villa staff did a great job under the caring eye of Ibu Rai, the villa supervisor, preparing meals from an extensive menu of Indonesian and western dishes (provisions on guest account at cost plus a 25% service fee). Waru has a permanent team of staff and more are brought in when the villa is fully occupied.</p></ROverallComments>
+    <RUnpleasantSurprise><p>The location was a revelation — who knew that such a private and well established hilltop estate existed in southern Bali! You do need a car and driver to reach restaurants, beaches, supermarkets, etc. But they are only five kilometres away, and thanks to the new cross-sea highway, you can actually get to some of Bali’s most popular tourist spots such as Ubud much more quickly than from, say, Seminyak.</p></RUnpleasantSurprise>
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>7.50</RIOverAll>
+    <RICharacter>8</RICharacter>
+    <RILocation>6</RILocation>
+    <RIOutsideArea>8</RIOutsideArea>
+    <RILivingArea>8</RILivingArea>
+    <RIKitchen>8</RIKitchen>
+    <RIBedRm>7</RIBedRm>
+    <RIBathRm>7</RIBathRm>
+    <RIFacility>8</RIFacility>
+    <RIStaff>7</RIStaff>
+    <RIValue>8</RIValue>
+    <RIDate>2018-07-15T00:00:00+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+</REVIEWS>

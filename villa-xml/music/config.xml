@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00227</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Music</villa_name>
+		<google_analytics>UA-121416166-1</google_analytics>
+		<location>Phuket</location>
+		<sublocation>Cape Yamu</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'P00227', 'Phuket', '4br'</hrental_id>
+		<ehgLocation>Phuket, Cape Yamu</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

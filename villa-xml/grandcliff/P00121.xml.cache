@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00121">
+  <Contents>
+    <Content contentid="4399" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Villa Grand Cliff Ungasan is a contemporary-styled, five-bedroom residence, with wonderful ocean views, a 20 x 8m private swimming pool, breezy terraces and balconies, a cinema room, a billiard table, a lower deck with an alfresco jacuzzi tub, and relaxation gazebo.</p>  <p>This fabulous fully staffed villa in Bali is located in the grounds of an exclusive cliff-top resort on the spectacular Bukit Peninsula in south Bali. Here, guests can enjoy all the benefits of a luxury holiday home, including butler service and a personal chef. In addition to all of this, guests are entitled to use the five-star facilities of the boutique-style resort, which includes access – via a funicular cabin – to a beach club set on pristine white-sand complete with a beachside restaurant, as well as a complimentary kids’ club. Other amenities include a gourmet cliff-top restaurant, the resort’s main swimming pool and a delightful cliff-top spa offering spellbinding views of the Indian Ocean.</p><p>The villa is ideal for large families and groups of friends. Its size, flexible bedroom configuration and family-friendly layout, mean that privacy is ensured and there are plenty of spots to be alone. The abundance of indoor and outdoor space makes it perfect for a small and elegant gathering against the unforgettable backdrop of the Indian Ocean.</p> ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4400" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Expansive pool-level air-conditioned living area with large comfortable couch, 65-inch TV/DVD player and entertainment system</li><li>Formal dining table for 12</li> <li>Top floor landing with billiard table</li><li>Cinema room on lower level with Nintendo Wii; international TV channels; a Blu-ray DVD player and a large projector screen.</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Stone pool deck with sun loungers</li> <li>20 x 8m infinity-edge pool</li><li>Contemporary shaded relaxation pavilion on lower ground level</li><li>12-seater table and 8-seater table for tropical outdoor dining</li> <li>Barbecue area</li><li>Deck on lower level with jacuzzi</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4401" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[2 Master Suites]]></Heading>
+          <Description><![CDATA[<ul><li>Situated on the upper level</li><li>King-size beds</li><li>Walk-through dressing rooms, TVs, office areas</li><li>Sliding doors onto private balconies</li><li>Ensuite bathrooms with tubs and rain showers</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Suite 1]]></Heading>
+          <Description><![CDATA[<ul><li>Situated on the upper level</li> <li>Queen-size bed</li><li>Adjoins one of the Master Suites</li><li>Sitting area and TV</li><li>Ensuite bathroom with rain shower</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Suite 2]]></Heading>
+          <Description><![CDATA[<ul><li>Situated on the lower level</li> <li>Queen-size bed</li><li>Adjacent to the cinema room</li><li>Direct access to the jacuzzi tub</li><li>Ensuite bathroom with rain shower</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Suite 3]]></Heading>
+          <Description><![CDATA[<ul><li>Situated on the lower level</li> <li>Twin beds</li><li>TV</li><li>Ensuite bathroom with tub and rain shower</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4421" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Welcome to Villa Grand Cliff Ungasan on the spectacular Bukit Peninsula in south Bali. If you are seeking space, privacy, personal service and a comfortable base where you can unwind and escape with your family or a group of friends, then our majestic, five-bedroom holiday home has everything you’re looking for.</p>  <p>You will be blown away by the villa’s spell-binding views of the Indian Ocean, and the service of our “nothing is too much trouble” team of friendly staff, including a manager, personal butler and a private chef, who will do everything they can to make your stay as memorable and enjoyable as possible.</p><p>From the villa’s breezy terraces and balconies, its enticing swimming pool and a lower deck with a jacuzzi and relaxation gazebo, to its dedicated home cinema room equipped with surround-sound and a massive projector screen, this villa is big enough for a group of ten people to lose each other within its many rooms and hangouts.</p>  <p>At Villa Grand Cliff Ungasan you will not only have all the comforts of your own splendid holiday home but the five-star facilities of a luxurious boutique resort are also at your disposal. The villa rests within the safe gated environment of the cliff-top resort with every amenity that you could wish for, including an access via a funicular cabin to a beach club set on pristine white-sand as well as the Three Monkeys Kids’ Club, and the resort’s main swimming pool. The resort also features a cliff-top gourmet restaurant, a beachside restaurant and a fabulous cliff-top spa offering yet more of those intoxicating sea views.</p>  <p>For an equally indulgent villa stay, you may also wish to visit our sister property, <a target="_self" href="/grand-cliff-nusa-dua.html" title="Grand Cliff Nusa Dua, 5 bedroom villa">Villa Grand Cliff Nusa Dua</a>.</p>  ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4422" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Three-storey Villa Grand Cliff Ungasan comprises five ensuite bedrooms, terraces and balconies, a cinema room, 20-metre pool, and jacuzzi deck. The villa is entered via its middle floor, which is also home to a large living/dining room with a bar, and to the pool and pool deck.  The two master suites and one guest room are on the top floor. Two more bedrooms and the home cinema can be found on the lower level, which is also home to an open-air jacuzzi tub, a furnished timber deck, and a large relaxation gazebo. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4423" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Suites 1 &amp; 2]]></Heading>
+          <Description><![CDATA[<p>The villa’s two air-conditioned master suites are situated on the upper floor, both with walk-through dressing rooms, TVs, and office areas. Each of these bedrooms is a dream in white, ensuring that nothing detracts from the spectacular views of the ocean from the king-size beds. Glass doors open to private balconies furnished with funky chairs. Each master suite features a sophisticated black tiled bathroom with twin washbasins, a soaking tub and a walk-in rain shower.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Suite 1]]></Heading>
+          <Description><![CDATA[<p>Next to one of the masters is a sitting area and a small guest room  furnished with a queen-size bed. Equipped with air-conditioning and a TV, and completed with an ensuite bathroom  and a private balcony, this room is ideal for children but also suitable for a couple. </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Suite 2]]></Heading>
+          <Description><![CDATA[<p>Located on the lower floor, furnished with a queen-size bed and adjoined by a bathroom, this suite invites you to enjoy the luxury of the adjacent cinema room, while also tempting you to step directly into the jacuzzi tub on the terrace outside. A quirky feature here is a subterranean window that looks directly into the swimming pool.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Suite 3]]></Heading>
+          <Description><![CDATA[<p>The sleeping arrangements on the lower floor work well for families with the provision of this second suite, which is furnished with twin beds, equipped with a TV and completed with its own private bathroom.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4424" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<p>Grand Cliff Ungasan’s entrance door opens onto the villa’s middle level, which is its social hub and home to an expansive glass-fronted living and dining room that spills out onto the sheltered pool terrace.  The air-conditioned living area features a bar and a comfy modular sofa positioned around a large international-channel TV complete with a Blu-ray DVD player. A dining table for 12 dominates one side of the room, and is perfect for a social dinner.</p>   <p>The best place to watch an epic movie is on the villa’s lower floor, where you will find a dedicated home cinema room equipped with surround-sound; a Nintendo Wii; a Blu-ray DVD player and a massive projector screen. Completed with four leather La-Z-Boy reclining chairs, a plush deep-pile carpet, sound-proofed walls and a bar table, this room is as good as it gets for a real cinematic experience. </p><p>For less sedentary entertainment, challenge your fellow guests to a game of billiards at the table in the glass-walled atrium on the upper floor. </p>  <p>The kitchen is fully equipped for self-catering, which is a blessing if you have kids, and a great opportunity to impress your companions with your cooking skills. Alternatively, you can just sit back, relax and leave it all to your own personal chef.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<p>A furnished stone deck borders the 20-metre pool at Villa Grand Cliff Ungasan. This multi-function outdoor space is wired for sound with top-quality speakers. Here, you’ll find two alfresco dining tables – one seating 12, and a more intimate one for eight. Both are ideal for breakfast, a casual lunch, dinner under the stars, or simply for telling stories over cocktails as the sun goes down.</p>   <p>If you want to escape from your companions, head down to the villa’s lower level, where you will find a jacuzzi tub, a timber deck, also furnished with sun loungers and umbrellas, and a large relaxation gazebo with cushioned seating. Both the jacuzzi and the gazebo are perched on the edge of the cliff and blessed with magnificent views.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4425" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Karma Kandara Resort, Ungasan, Bali, Indonesia.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>10 adults and 2 children  in 5 ensuite bedrooms (2 with king beds; 2 with queen beds, 1 with twin beds). 2 extra beds available (additional charge).</p><p> </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>1 air-conditioned living/dining room at pool level; indoor dining table for 12; outdoor dining tables seating 12 and 8; cliff-side relaxation pavilion.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>20-metre x 8-metre cliff-edge infinity pool; ocean-view jacuzzi.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; private chef; housekeeping; security and driver. Additional staff (babysitters, masseuses) available on request.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Western, Asian, vegetarian and children’s dishes. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi internet access</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>International-channel TVs in four bedrooms; home cinema with Dolby Digital, Nintendo Wii, international TV channels, Blu-ray DVD player and a large projector screen; DVD library; Indoor and outdoor speakers plus high-end portable speaker for lower deck; billiards table.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For Families]]></Heading>
+          <Description><![CDATA[<p>Villa Grand Cliff Ungasan is exceptionally well equipped for families. Facilities include: baby cot; high chair; car seat; DVDs; games.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>Spa treatments can be organised at the villa and guests also have access to the resort’s spa.<br /></p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>A villa manager can arrange a car and driver for guest use at a special rate of USD35++ for up to 8 hours a day (excludes petrol).</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional Facilities]]></Heading>
+          <Description><![CDATA[<p>Barbecue; diesel powered back-up generator; safety deposit boxes in each bedroom; surf boards.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property area]]></Heading>
+          <Description><![CDATA[<p>585sqm (villa); 1,100sqm (land). </p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://">The Elite Havens Group.</a></p>   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4440" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Your Villa Manager or Supervisor will have a wealth of information about nearby places of interest and will help arrange transport and make any required bookings. Do also ask the staff about the local area. Many of them live nearby and will be able to give an interesting insight into some of the fascinating aspects of Bali life. In the meantime, here is a taste of the many and varied activities on offer on The Bukit Peninsula and in Jimbaran.</p> <ul><li>Perched on a cliff 70m above the roaring Indian ocean, <span style="font-weight: bold;">Uluwatu Temple</span> (Pura Uluwatu) is one of Bali's nine key directional temples.  Facing west and with steep headlands on either side creating an unbelievably dramatic setting, sunsets over Uluwatu are a sight not to be missed.</li><li>There are two 18-hole golf courses close to the villa. <span style="font-weight: bold;">New Kuta Golf and Bukit Pandawa Golf &amp; Country Club</span> are both situated on the brilliant white limestone cliffs with spectacular views of the Indian Ocean. Try to get a morning booking and avoid playing in the sizzling midday sun.</li><li>From simple local eateries to world-class <span style="font-weight: bold;">fine dining</span> establishments, the Bukit Peninsula presents a wide choice of remarkable restaurants. Opt for top-notch resort dining experiences at the Italian <span style="font-weight: bold;">Il Ristorante at Bulgari Resort</span>, the multi-award-winning <span style="font-weight: bold;">Ju-Ma-Na at Banyan Tree</span>,<span style="font-weight: bold;"> Cire at Alila</span>, or <span style="font-weight: bold;">Sake no Hana</span>, the high-end Japanese restaurant at Omnia. Savour the freshest seafood at the cliff-side<span style="font-weight: bold;"> Kisik Bar &amp; Grill at Ayana </span>(awesome at sunset). </li><li>A <span style="font-weight: bold;">seafood feast at Jimbaran Beach</span> is a must for every holiday in Bali. Here, the glorious west-facing beach is home to a plethora of seafood ‘warung’; these simple cafés extend across the length of the beach and serve up the catch of the day, perfect for a sunset dinner.</li>  <li>Uluwatu is the place for <span style="font-weight: bold;">surfing</span> enthusiasts. Most of the breaks here are only suitable for advanced or expert surfers - the waves are big here. If you’d rather stay high and dry, stop at Single Fin restaurant on the cliff above to watch the fearless wave-riders performing their moves. Other surf spots on The Bukit include Green Bowl, Dreamland, Balangan, Padang-Padang, and Bingin/Impossibles.</li><li>At<span style="font-weight: bold;"> Jenggala Keramic in Jimbaran</span>, visitors can browse and buy from a vast range of handcrafted ceramics and glassware.  Jenggala also runs 'Make and Paint a Pot' sessions where 'Children' of all ages are encouraged to get creative.</li>  <li>A two-hour session in the <span style="font-weight: bold;">Thermes Marins Bali Aquatonic Pool </span>at Ayana Resort is an unforgettable journey through therapeutic jetstreams, microbubbles, water massages and aqua-beds.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4443" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Set amid the buzz and activities of prestigious boutique resort, complete with a funicular cabin to transport you to the gorgeous beach and beach club at the base of the cliff, you could be mistaken in believing that you’re not so far from the madding crowd. However, beyond the walls of the Resort in this rural part of Bali’s beautiful and rugged Bukit Peninsula, amenities are few and far between. Therefore, the reasonably day-rate services of the villa’s car and driver are essential if you wish to explore. Some of Bali’s best beaches are easily reached by car, as are some great restaurants, cultural activities, shops, cafes and golf courses.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Green Bowl Beach]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pandawa Beach]]></Heading>
+          <Description><![CDATA[8 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bukit Pandawa and Country Club]]></Heading>
+          <Description><![CDATA[8 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[New Kuta Golf]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Uluwatu Temple]]></Heading>
+          <Description><![CDATA[10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Jimbaran Sea Food Cafe]]></Heading>
+          <Description><![CDATA[11 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Nusa Dua Beach]]></Heading>
+          <Description><![CDATA[13 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[18 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta Beach]]></Heading>
+          <Description><![CDATA[21 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[21 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4445" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Your personal chef at Villa Grand Cliff Ungasan is at your service to prepare daily breakfast, lunch and dinner. The villa’s selection menu of delicious Indonesian, Asian and International dishes covering everything from porridge to pasta, <span style="font-style: italic;">pepes ikan</span> (fish steamed in banana leaf), to <span style="font-style: italic;">pisang goreng</span> (fried banana) served with honey or ice cream. </p><p> Home-style meals, including an excellent selection of vegetarian and children’s options, are catered to all tastes. Traditional Balinese and Indonesian dishes can be tailored to your taste buds, from mild and mellow to hot and spicy. The chef will also prepare meals to respect religious, medical and other dietary restrictions or requirements, and is happy to cook off-menu dishes to order.</p>  <p>Groceries and beverages are charged at market price (plus a 20% handling fee which is subject to service and tax at the prevailing rate). Guests will be requested to provide grocery money in advance, and the staff will do the shopping and keep the receipts for reference. To make the most of the kitchen and give staff time to shop, it is a good idea to plan meals the evening before.</p> ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4460" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>During your stay at Villa Grand Cliff Ungasan, be sure to make a booking at the resort’s on-site spa. Treatment rooms enjoy the sensations of a body scrub, or the twists and turns of a massage, accompanied by the hypnotic mantra of the waves as they dance upon the beach below.</p><p>Here’s a taster of what you’ll find on the spa menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p>Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet corresponding to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p>A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Grand Cliff Ungasan</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Bukit">The Bukit</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Villa Kandara, Banjar Wijaya Kusuma, Ungasan, Kuta Selatan, Badung</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.84666630</Latitude>
+        <Longitude>115.15222220</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Splendid, fully staffed, five-bedroom Bali villa with fabulous views, pool, jacuzzi and cinema room. Set in the grounds of a cliff-top resort with five-star facilities.</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>5 bedroom</RoomName>
+        <MinRate>1750.00++</MinRate>
+        <MaxRate>2250.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Breathtaking view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/1. Grand Cliff Front Residence - Breathtaking view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Dinner table pool side</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/2. Grand Cliff Front Residence - Dinner table pool side.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Bedroom sea view TV</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/3. Grand Cliff Front Residence - Bedroom sea view TV.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Jacuzzi view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/4. Grand Cliff Front Residence - Jacuzzi view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - TV screen</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/5. Grand Cliff Front Residence - TV screen.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Billiard table</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/6. Grand Cliff Front Residence - Billiard table.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Cinema room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/7. Grand Cliff Front Residence - Cinema room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Living room heart</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/8. Grand Cliff Front Residence - Living room heart.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Living room dinner table</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/9. Grand Cliff Front Residence - Living room dinner table.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Flower table pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/10. Grand Cliff Front Residence - Flower table pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Relaxing pool side</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/11. Grand Cliff Front Residence - Relaxing pool side.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Bedroom sea view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/12. Grand Cliff Front Residence - Bedroom sea view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Dinner table</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/13. Grand Cliff Front Residence - Dinner table.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Bathroom mirror</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/14. Grand Cliff Front Residence - Bathroom mirror.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Grand Cliff Front Residence - Sea view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00121/15. Grand Cliff Front Residence - Sea view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

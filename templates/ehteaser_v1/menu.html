@@ -1,0 +1,70 @@
+<div id="page" class="hfeed site">
+
+	<header id="header-wrapper" class="site-header">
+    <div id="header" class="container_12 clearfix">
+        
+		<div class="site-branding grid_5">
+        
+            <button class="toggler">
+                <span></span>
+            </button>
+
+			<h1 class="site-title"><a href="http://www.elitehavens.com" target="_blank">Grand Cliff Villas &#8211; Bali holiday villas in Ungasan and Nusa Dua</a></h1>
+		</div>
+
+        <div class="topright grid_7">complete website coming soon</div>
+
+	</div>
+    <div id="menu-wrapper">
+		<nav id="menu" class="container_12 clearfix">
+        	<div class="grid_12">
+            	<div class="menu-menu-1-container">
+                	<ul id="menu-menu-1" class="menu">
+					{section name=p loop=$pages}
+                    {if $pages[p].menu_location == 'main'}
+                        {if $pages[p].page_identifier eq $data.parent || $data.page eq $pages[p].page_identifier}
+                        {assign var=class value=' class="current_page_item current_page_item"'}
+                        {else}
+                        {assign var=class value='current_page_item'}
+                        {/if}
+                        {if $data.page == $pages[p].page_identifier}
+                        {assign var=bodeh_class value=$pages[p].body_class}
+                        {/if}
+                        <li class="{$class}">
+                        	{if $pages[p].page_identifier == 'index'}
+                            	{if $data.complex == 'yes'}
+                                	{assign var=menu_label value=$data.teaser_data.Villa.Info[0].Name}
+                                {else}
+                            		{assign var=menu_label value=$data.teaser_data.Villa.Info.Name}
+                                {/if}
+                            {else}
+                            {assign var=menu_label value=$pages[p].label}
+                            {/if}
+                            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$menu_label}</a>
+                            {if 'children'|array_key_exists:$pages[p]}
+                            <ul class="subnav">
+                                {section name=sp loop=$pages[p].children}
+                                {if $data.page == $pages[p].children[sp].page_identifier}
+                                {assign var=bodeh_class value=$pages[p].children[sp].body_class}
+                                {/if}
+                                <li>
+                                    {if $pages[p].children[sp].level == 'sub'}
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                                    {else}
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                                    {/if}
+                                    {$pages[p].children[sp].label}
+                                    </a>
+                                </li>
+                                {/section}
+                            </ul>
+                            {/if}
+                        </li>
+                    {/if}
+                    {/section}
+					</ul>
+				</div>
+			</div>
+		</nav><!-- #site-navigation -->
+    </div>
+	</header><!-- #masthead -->

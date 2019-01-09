@@ -1,0 +1,104 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/images/bg-accent.png">  
+				    
+					<div class="wrapper">
+                        <h1 class="entry-title">{$data.heading}</h1>
+                       
+                        <ul class="poi">
+                            <li id="poi-1">Absolute Beachfront</li> 
+                            <li id="poi-2">Personal Chef</li>
+                            <li id="poi-3">Family Friendly</li>
+                            <li id="poi-4">Private Pool</li>
+                        </ul> 
+					</div>
+					
+                </div>  
+                
+                <div class="content-item">
+                    <div class="wrapper">
+					
+						<div class="the-content">
+						{parsedata folder=$data.theme cache=$data.cache content="INTRO"}					 
+							{if 'desc'|array_key_exists:$content[0]}
+								{$content[0].desc}
+							{/if}
+							{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents}
+									<h2>{$content[0].SubContents[s].Heading}</h2>
+									{$content[0].SubContents[s].Description}
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+
+							{/if}
+						</div>
+                        
+                    </div>
+                </div>
+                
+                <div class="content-item">
+                    <div class="wrapper wrapper-wide">
+                        <div class="group lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/images/bg-accent.png">
+                            <div class="half half-content">
+                                <h2>LUXURIOUS HIDEAWAY VILLA</h2>
+                                <p>a true escape into opulence and tranquility</p>
+                                <a href="/about-villa-nandana.html">Explore</a>
+                            </div>
+                            <div class="half">	
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Nandana - Exceptional summer vacation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Nandana - Exceptional summer vacation.jpg" alt="Villa Nandana - Exceptional summer vacation" class="lazyload" />
+                            </div>
+                        </div>
+
+                        <div class="group lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/images/bg-accent.png">
+                            <div class="half">				
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Nandana - Perfect getaway.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Nandana - Perfect getaway.jpg" alt="Villa Nandana - Perfect getaway" class="lazyload" />
+                            </div>
+                            <div class="half half-content">							
+                                <h2>STUNNING PICTURE-PERFECT VIEWS</h2>
+                                <p>of white sand beaches and the Andaman sea</p>
+                                <a href="/natai-beach-phuket.html">Explore</a>
+                            </div>
+                        </div>
+
+                        <div class="group lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/images/bg-accent.png">
+                            <div class="half half-content">
+                                <h2>YOUR OWN PRIVATE CHEF</h2>
+                                <p>the chance to explore the delights of Thai cuisine</p>
+                                <a href="/dining.html">Explore</a>			
+                            </div>
+                            <div class="half">						
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Nandana - Chef made.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Nandana - Chef made.jpg" alt="Villa Nandana - Chef made" class="lazyload" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-nandana', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

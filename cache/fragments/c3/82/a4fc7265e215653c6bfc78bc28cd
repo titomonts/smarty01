@@ -1,0 +1,10 @@
+
+var dir='/resources/tamanahimsa';var lat=-8.64347180;var long=115.10675000;var infocontent='Taman Ahimsa';var redirectURL='/cemagi-bali.html';var markerWidth=46;var markerHeight=60;var markerXanchor=23;var markerYanchor=60;
+
+$(document).ready(function(){$('<div class="iframe-wrapper"><iframe id="iframeCalendar" src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&amp;Villaid=v9DYJqBPozCkmg8FZstJeQ==&amp;did=sk%2Bd8mGqzg6c%2BUOiy0ZXDuGiAEB%2FK2o4" height="280px" frameborder="0" width="590px" allowtransparency="true" scrolling="auto"></iframe></div>').insertBefore('#tabs');});
+
+function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+if(!window.HTMLPictureElement||!('sizes'in document.createElement('img'))){loadJS("/resources/tamanahimsa/lazysizes/ls.respimg.min.js");}
+
+WebFontConfig={google:{families:['Raleway:100,300,400','Roboto:100,300,400','Lato:100,300,400','Josefin+Sans:100,300,400']}};(function(){var wf=document.createElement('script');wf.src=('https:'==document.location.protocol?'https':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf,s);var loadDeferredStyles=function(){var addStylesNode=document.getElementById("deferred-styles");var replacement=document.createElement("div");replacement.innerHTML=addStylesNode.textContent;document.body.appendChild(replacement)
+addStylesNode.parentElement.removeChild(addStylesNode);};var raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;if(raf)raf(function(){window.setTimeout(loadDeferredStyles,0);});else window.addEventListener('load',loadDeferredStyles);})();

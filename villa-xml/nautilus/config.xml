@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00212</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Nautilus</villa_name>
+		<google_analytics>UA-121088645-1</google_analytics>
+		<location>Phuket</location>
+		<sublocation> Ao Po</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'P00212', 'Phuket', 'Ao Po', '5br'</hrental_id>
+		<ehgLocation>Phuket, Ao Po</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

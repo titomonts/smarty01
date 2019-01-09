@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00017</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Kaba Kaba Estate</villa_name>
+		<google_analytics>UA-53161665-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Tabanan</sublocation>
+		<bedrooms>8</bedrooms>
+		<hrental_id>'P00017', 'Bali', '8br'</hrental_id>
+		<ehgLocation>Bali, Tabanan</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource> 
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

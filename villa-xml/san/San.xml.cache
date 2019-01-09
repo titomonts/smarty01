@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="San">
+  <Contents>
+    <Content contentid="102" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p> Villa San’s six spacious bedrooms all feature large, luxuriously comfortable beds dressed in fine white linen and with plump feather-filled pillows. Exquisite hand-crafted bed runners from Africa and Indonesia add the finishing touch. Fine artworks and more carefully selected handicrafts grace the walls. Each room is equipped with ceiling fans, air conditioners and iPod docks and furnished with a desk, bedside tables and reading lights.</p><p>Villa San’s master suite, comprises two very generous sized bedrooms (two king–bedded, one of which is convertible to twin) separated by a similarly large and comfortable family room, with three inviting sofas and a state-of-the-art home entertainment system. The well-appointed ensuite bathrooms, accessed through large dressing rooms with floor-to-ceiling mirrors, are full of light from windows facing onto gardens on two sides.</p><p>In separate buildings around the main living pavilion, eight more adults can be accommodated in two king-size bedrooms and two&nbsp; twin bedroom (convertible to king), each with ensuite bathrooms featuring large tubs and showers. Two extra beds are available for children, on request.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1031" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>Feel like a body scrub or massage? Just ask our staff to bring the spa to you! We can recommend deluxe treatments, carried out by fully trained therapists (extra charges apply), in one of the many peaceful corners tucked within the grounds of Villa San or in the privacy of your room. Here’s a sample of what’s on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body you will feel totally relaxed in no time.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p>Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet that correspond to every part of the body.  Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p>A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth.  A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Our hands and feet work hard for us every day but rarely get the attention they deserve.  Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1087" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>
+ Most of the 11 Balinese staff at Villa San have lived in the Ubud area all their lives, and are very willing to share their vast knowledge of this fascinating part of Bali with villa guests. Though no staff members live on site, there are at least two staff on the property around the clock.</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Full time manager]]></Heading>
+          <Description><![CDATA[<p> Villa San’s manager coordinates the running of the villa and is a mine of information about the area. He can also arrange for excellent spa, massage or yoga therapists to attend the villa. The Villa Manager's hours are 9am to 5pm but he is on call outside those hours.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Full time chef]]></Heading>
+          <Description><![CDATA[<p> Villa San’s chef has experience with the Puri Santrian Hotel, Peninsula Hotel and Purmanttur Cruise Ship, and as such can turn his hand to just about any dish a guest may desire. Breakfast is served from 8am and guests can select lunch and dinner from the villa’s delicious suggestion menu. Villa San’s chef and kitchen staff can also cater and help plan for dinner parties and other special events.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Butler and housekeeping]]></Heading>
+          <Description><![CDATA[<p> The villa’s butler and two housekeeping staff discreetly keep all living and private areas clean and tidy. Whether you wish to choose your meals from the villa menu or ask the staff to purchase provisions on your behalf, your butler is on hand to serve you throughout the day.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gardener and pool attendant]]></Heading>
+          <Description><![CDATA[<p> A full-time gardener and pool attendant ensure Villa San’s grounds look their best, without ever intruding on guests’ privacy.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p> Villa San is kept safe and secure by two security staff working from 3pm to 7am. They will conduct regular patrols around the property, and also inside the grounds, unless otherwise requested by guests.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa staff/masseuse]]></Heading>
+          <Description><![CDATA[<p> Villa San has a special arrangement with local fully trained spa therapists who can visit the villa to provide a range of spa and massage treatments (prices on request).</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Yoga/meditation teachers]]></Heading>
+          <Description><![CDATA[<p> Fully trained, off-site professionals in a range of yoga disciplines can be booked to visit the villa.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1230" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>
+ Villa San&rsquo;s manager has a wealth of information about nearby places of interest and will help arrange transport and make any bookings required. Do also ask the staff about the local area too. Several of them live nearby and can give an interesting insight into some of the fascinating aspects of Balinese life.<br />
+ <br />
+ In the meantime, here is a taste of the many and varied activities on offer within reach of the villa.</p>
+<ul>
+ <li>
+  Escape the afternoon heat and watch the antics of the long-tailed macaque monkeys at Ubud&rsquo;s Sacred Monkey Forest. And mind your belongings, these monkeys are skilled pick-pockets!</li>
+ <li>
+  No visit to Ubud is complete without seeing at least one traditional dance performance.&nbsp; This is a great opportunity to see classic Hindu legends being told through dancers in colorful, Balinese costumes.</li>
+ <li>
+  The many spas and meditation centres of Ubud offer a wide range of eastern and western therapies from reiki to acupuncture, and yoga to herbal scrubs.</li>
+ <li>
+  In March, Ubud hosts the Bali Spirit Festival of Yoga, Dance and World Music. Five days of yoga and music workshops, three nights of inspirational world music.</li>
+ <li>
+  Join amateur and professional artists from around the word, on Wednesday or Saturday morning, for Life Drawing session at Pranoto&rsquo;s Art Gallery opposite Goa Gajah Caves</li>
+ <li>
+  See some of Bali&rsquo;s best scenery on a daytrip to volcanic Mount Batur. The largest crater lake in Bali fills part of Mount Batur&rsquo;s caldera while small villages cling to the rim. The views from the nearby village of Penelokan are well worth making the trip.</li>
+ <li>
+  Soar above the spectacular southern coastline of Bali on a paraglider.&nbsp; Paragliding courses, tandem and solo flights are available.</li>
+ <li>
+  Tour the Karangasem Palace at Amlapura, visited for its unique combination of Balinese, Chinese and European architectures.</li>
+ <li>
+  Being in the centre of the Island, Ubud isn&rsquo;t the place to base yourself if you&rsquo;re after a beach holiday!&nbsp; But if you fancy a day trip down to the coast, Sanur (25 kms) is probably the best option although Candi Dasa (35 kms) is less crowded. To make a full day of it, drop in at the Bali Marine and Safari Park and the traditional village of Tenganan en route.</li>
+ <li>
+  Pulau Dive Charters offers luxury boat charters around the beautiful islands and waters surrounding Bali. They specialise in private fishing, surfing and diving charters and also offer unique personalised day trips to Nusa Lembongan. Perfect for a family day out on the water or with a group of friends.</li>
+</ul>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1295" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>
+ Welcome to Villa San</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="168" contenttypeid="CHLDRN" desc="Children">
+      <Description><![CDATA[<p>Villa holidays are an excellent option for families, where advantages include having access to your own private facilities, such as swimming pool, living space and gardens and having the freedom to use them whenever you want. </p><p>Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too. Villa San has a long lawn for Frisbees and ball games, a great swimming pool with shallow section and two TV/entertainment rooms. There’s also a dedicated playroom with toys, games and pool equipment. </p><p>A particular highlight at Villa San is the kid-friendly staff who will make children feel welcome as adults, and full-time babysitters can be organised (extra charge) if parents want the freedom to do their own exploring beyond the villa grounds. </p><p>Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest.  The chef can customise all meals to suit children’s taste buds. </p><p> Don’t worry about packing all that cumbersome kids’ equipment for your stay.&nbsp; Just let us know what you need, and anything we don’t have in-house, we can hire on your behalf (click <a title="Children's equipment - Elite Havens" target="_blank" href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf">here</a> to see list of available hire items).</p><p> And when the excitement of exploring the villa starts to wear off, check out our <a href=".. /location/things-to-do.html" target="_self" title="Villa San - Things to do">Things to do</a> page – there’s plenty in the area to keep all the family amused throughout the holiday. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="228" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p> The villa offers a suggestion menu (including Asian and Western dishes) to make ordering easier but guests are welcome to chat with the chef if there are other items they would like to try. With excellent experience from the Puri Santrian Hotel, Peninsula Hotel and Purmanttur Cruise Ship, the chef is willing and able to accommodate most requests.<br /> <br /> To get the best out of the kitchen, it is a good idea to plan meals with the chef the evening before, or over breakfast, allowing plenty of time for deliveries and shopping to be done. Groceries and beverages are charged at cost price plus 20%++ handling fee (to cover pick-ups/delivery and stock ingredients). Meat is sourced from quality suppliers and other ingredients are bought from the market daily. The owners suggest leaving a kitty/float with the manager who will keep a track of spending.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2845" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a title="Villa San - booking enquiry" href="./reservations.html" target="_self">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />To view our availability calendar, click <a title="Villa San - availability" href="./availability-calendar.html" target="_self">here</a>.<br /><br />Bali:     +62 361 737498<br />Singapore:+65 3108 0520<br />Manila:   +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a title="Villa San - general enquiry" href="./general-enquiries.html" target="_self">here</a> to send us a message.<br /><br />Villa San is managed&nbsp;and marketed on behalf of its owners by <a title="The Elite Havens Group." href="http://www.elitehavens.com/" target="_blank">The Elite Havens Group</a>, who also handle all the villa reservations.   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2858" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<p> Villa San’s air conditioned <span style="font-weight: bold;">entertainment lounge</span> features one of the property’s two state of the art home theatre systems, incorporating a large flat-screen satellite TV, DVD player and stereo system.&nbsp; Guests can sit back and relax on one of the big comfy sofas and look out over the property through floor-to-ceiling windows.&nbsp; Glass doors from the entertainment lounge open directly to the open-sided living area, furnished with more comfortable sofas and an unusual collection of wood and glass sculptures. Just a few steps away from the living area is a professionally equipped <span style="font-weight: bold;">gym</span>, while to the right is a casual <span style="font-weight: bold;">dining area</span>, the <span style="font-weight: bold;">kids’ playroom</span> and finally the green, spacious lawns and sparkling swimming pool area beyond.<br /> <br /> While most of the cooking is done behind the scenes in the staff kitchen, no expense has been spared in the <span style="font-weight: bold;">open-plan ‘front’ kitchen</span>, where the chef makes his final meal preparations and where guests are welcome to indulge in their own culinary creations. You’ll be delighted by the bright, chunky Spanish-style crockery, the range of appliances and the sizable wine fridge.&nbsp; Separated from the kitchen area by a timber-topped breakfast bar, the <span style="font-weight: bold;">dining area</span> is open on three sides, looking out onto gardens and the swimming pool lawn.&nbsp; Its long wooden table with comfortable seating can accommodate up to 14 dinner guests.<br /> <br />Upstairs, an artist's studio with wide glass windows provides a private, quiet hideaway. An adjacent <span style="font-weight: bold;">function room</span> is a perfect place to practice yoga, meditate, have a massage or host a small meeting or presentation.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p> Pool loungers, hammocks and casual seating shaded by sun umbrellas are comfortably arranged throughout Villa San’s well-kept gardens, while a <span style="font-weight: bold;">covered gazebo</span> seating 12-15 lies at the far end of the pool.<br /> <br /> Villa San’s sparkling 25 x 5m <span style="font-weight: bold;">pool </span>is just perfect for swimming laps. For lazier times, there’s a lounging ledge at the deep end (1.8m), while the steps at the shallow end (1.3m) are wide and safe for younger swimmers.<br /> <br /> Tucked away in a quiet corner behind the master suite is a <span style="font-weight: bold;">tree-shaded terrace</span> for yoga practice, suitable for groups of up to 15 people.&nbsp; Behind it, a traditional stone <span style="font-style: italic; font-weight: bold;">stupa </span>(a Buddhist meditation building known as the Serene room) offers the perfect place for moments of peaceful reflection.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="293" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[<p> MASTER SUITE:<br /> - Comprises two generous sized bedrooms (one king and one twin room) adjoined by a family/entertainment room with state-of-the-art entertainment and lounge<br /> - Separate ensuites are accessed through large dressing rooms for both rooms<br /> - Air-conditioning and ceiling fan<br /> - iPod dock<br /> <br /> GUEST BEDROOMS:<br /> - Located in separate pavilions around the main building, eight more adults are accommodated in two king bedrooms and two twin bedrooms convertible king (two extra beds are available upon request)<br /> - Each room has an ensuite with large tubs and showers<br /> - Air-conditioning and ceiling fans<br /> - iPod dock</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Comprises two generous sized bedrooms (one king and one twin room) adjoined by a family/entertainment room with state-of-the-art entertainment and lounge</li><li>Separate ensuites are accessed through large dressing rooms for both rooms</li><li>Air-conditioning and ceiling fan</li><li>iPod dock</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedrooms]]></Heading>
+          <Description><![CDATA[<ul><li>Located in separate pavilions around the main building, eight more adults are accommodated in three king bedrooms and one twin bedroom convertible king (two extra beds are available upon request)</li><li>Each room has an ensuite with large tubs and showers</li><li>Air-conditioning and ceiling fans</li><li>iPod dock</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2946" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa holidays are an excellent option for families, where advantages include having access to your own private facilities, such as swimming pool, living space and gardens and having the freedom to use them whenever you want. </p><p>Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too. Villa San has a long lawn for Frisbees and ball games, a great swimming pool with shallow section and two TV/entertainment rooms. There’s also a dedicated playroom with toys, games and pool equipment. </p><p>A particular highlight at Villa San is the kid-friendly staff who will make children feel welcome as adults, and full-time babysitters can be organised (extra charge) if parents want the freedom to do their own exploring beyond the villa grounds. </p><p>Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest.  The chef can customise all meals to suit children’s taste buds. </p><p> Don’t worry about packing all that cumbersome kids’ equipment for your stay.  Just let us know what you need, and anything we don’t have in-house, we can hire on your behalf (click <a title="Children's equipment - Elite Havens" target="_blank" href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf">here</a> to see list of available hire items).</p><p> And when the excitement of exploring the villa starts to wear off, check out our <a href=".. /location/things-to-do.html" target="_self" title="Villa San - Things to do">Things to do</a> page – there’s plenty in the area to keep all the family amused throughout the holiday. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="365" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[<p> INDOOR LIVING:<br /> - Open-sided living area with comfortable lounging areas<br /> - Two media rooms; one off the main living area and featuring a state-of-the-art home theatre system, the other in the master suite<br /> - Casual dining area<br /> - Fully-equipped gym<br /> - Children’s playroom<br /> - Open-plan kitchen adjoining breakfast bar and dining area with table for 14 guests<br /> - Artists studio on the top level<br /> - Function room for small events and stargazing at night<br /> <br /> OUTDOOR LIVING:<br /> - 25m x 5m pool with shallow (1.3m) and deep (1.8m) ends<br /> - Covered gazebo seating 12-15 people<br /> - Sun loungers and umbrellas throughout<br /> - Tree-shaded terrace – ideal for yoga/meditation accommodating up to 15 people</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Open-sided living area with comfortable lounging areas</li><li>Two media rooms; one off the main living area and featuring a state-of-the-art home theatre system, the other in the master suite</li><li>Casual dining area</li><li>Fully-equipped gym</li><li>Children’s playroom</li><li>Open-plan kitchen adjoining breakfast bar and dining area with table for 14 guests</li><li>Artists studio on the top level</li><li>Function room for small events and stargazing at night</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>25m x 5m pool with shallow (1.3m) and deep (1.8m) ends</li><li>Covered gazebo seating 12-15 people</li><li>Sun loungers and umbrellas throughout</li><li> Tree-shaded terrace – ideal for yoga/meditation accommodating up to 15 people</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="437" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[                                        <p> In Bali’s spiritual heart of Ubud, lies the private and serene Villa San. This six-bedroom luxury villa accommodates up to twelve people set across lush gardens that centre around a 25m lap pool and incorporate elegant sculptures and a tranquil meditation terrace. Showcasing an impressive array of artworks and handicrafts originating from China, Africa and Indonesia, Villa San is only minutes from sensational shopping, superb spas, classic cultural performances and luxuriant rice fields.</p><p>The spacious grounds of this Ubud retreat offer freedom and flexibility for both families and large groups sharing, with hammocks and sun loungers arranged around the 25m x 5m pool and a pool pavilion seating up to 15 people. Inside, as well as the living and dining spaces, there are two well-equipped entertainment rooms, a gym and a children’s playroom. French doors from all of Villa San’s six large bedrooms – three king bedded and three twins - look out over tranquil gardens, only steps away from the long sloping lawn and the inviting pool.</p><p>Guests at Villa San are spoiled for choice when it comes to ways to relax. Reflecting the owners’ artistic and spiritual leanings, there’s the loft studio for painting, a telescope for star-gazing from the function room at night, and a Buddhist stupa and yoga terrace tucked in a quiet corner of the property for group or individual meditation and yoga practice.</p><p>A friendly, helpful team of staff are on hand around the clock, with a butler and chef available to meet every request. They are knowledgeable about the local Hindu culture, art galleries and the many options for exploring and learning about the region and will recommend the best of local restaurants, cafés and spas.</p>                                     ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="509" contenttypeid="EVT" desc="Event">
+      <Description><![CDATA[<p>Villa San is ideally suited for a casual cocktail or pool party for up to 50 people. A sit-down luncheon or dinner can also be arranged for up to 50 people with a marquee set up on the spacious lawns adjacent to the pool. Permissions and licenses can be obtained on behalf of guests, from local authorities.<br /> <br /> Maximum people sitting: 50<br /> Maximum people standing: 50<br /> </p><ul class="event-specs"><li><a target="_blank" href="http://cdn.elitehavens.com/docs/eventguidelines/indonesia/EH-Event-Guidelines_Indonesia.pdf" title="Elite Havens General Guidelines for Events">Elite Havens General Guidelines for Events</a></li><li><a target="_blank" href="http://cdn.elitehavens.com/docs/eventguidelines/indonesia/Villa-San-Event-Guidelines.pdf" title="Villa San - event guidelines">Event Guidelines for Villa San</a></li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="61" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p> Guests at Villa San are spoiled for choice when it comes to ways to relax. Reflecting the owners’ artistic and spiritual leanings, there’s the loft studio for painting, a telescope for star-gazing from the function room at night, and a Buddhist stupa and yoga terrace tucked in a quiet corner of the property for group or individual meditation and yoga practice.</p><p>The spacious grounds offer freedom and flexibility for both families and groups of friends, with hammocks and sun loungers arranged around the 25 x 5m pool and a pool pavilion seating up to 15 people. Inside, as well as the living and dining spaces, there are two well-equipped entertainment rooms – one is part of the two bedroom master suite, the other adjacent the informal dining room – a gym and a children’s playroom. The villa showcases some exquisite art and handicrafts from China, Ghana and Indonesia.</p><p> Villa San comprises six large bedrooms – three king bedded and three twins. French doors from all the bedroom pavilions look out over tranquil gardens, only steps away from the long sloping lawn and the inviting pool.</p><p> A friendly, helpful team of staff are on hand around the clock, with a butler and chef available to meet every request. They are knowledgeable about local Hindu cultural activities, art galleries and the myriad options for exploring and learning about the region (guests can take a craft or cooking class, or book an in-house meditation or yoga session) and will recommend the best of local restaurants, cafés and spas.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="684" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p> Less than 300 metres north of Ubud’s Royal Palace lies Villa San, a private and serene oasis in central Bali. Designed as a labour of love, the villa is only minutes from sensational shopping, superb spas, classic cultural performances and luxuriant rice fields.<br /> <br /> Showcasing an impressive array of artworks and handicrafts originating from China, Africa and Indonesia, Villa San comfortably accommodates 12 people in six large bedrooms (three king bedded, three twins). These buildings are nestled around a 25m lap pool and set within lush gardens which incorporate elegant sculptures and a tranquil meditation terrace.<br /> <br /> Friendly professional staff will quickly make guests feel totally relaxed at this spacious villa which is particularly suitable for an extended family or a group of friends.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="775" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p> Villa San is a stone’s throw from Ubud’s Royal Palace – where cultural performances are held nightly – and very convenient for many of Ubud’s favourite treasures and attractions. While the property itself is very quiet and private, a vast, bustling local market is only 300m from the front door while a delightful variety of high quality restaurants and cafés can be found in and around the centre of town.<br /> <br /> Ubud and her surrounding small villages are rich with culture and art. Many villages focus on a specific craft – such as woodworking, stone carving, ikat weaving or batik painting. These crafts are not just for the tourists, they have formed the livelihoods of these Balinese villagers for several hundred years. Guests can visit, watch and in many cases take classes – learning to cook local food, carve a wooden mask, dye a batik scarf, dance in a traditional performance, play an ancient brass musical instrument, or attend a life drawing session.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Royal Palace]]></Heading>
+          <Description><![CDATA[0.20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud Market]]></Heading>
+          <Description><![CDATA[0.20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud Botanic Gardens]]></Heading>
+          <Description><![CDATA[2 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Petulu]]></Heading>
+          <Description><![CDATA[3 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mas]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Neka Art Museum]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Batubulan]]></Heading>
+          <Description><![CDATA[8 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tegallalang]]></Heading>
+          <Description><![CDATA[10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Celuk]]></Heading>
+          <Description><![CDATA[10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali Bird Park]]></Heading>
+          <Description><![CDATA[11 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Elephant Safari Park]]></Heading>
+          <Description><![CDATA[16 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Sanur]]></Heading>
+          <Description><![CDATA[25 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[37 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[37 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mt Batur/Kintamani]]></Heading>
+          <Description><![CDATA[40 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[41 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Nusa Dua]]></Heading>
+          <Description><![CDATA[47 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Jimbaran]]></Heading>
+          <Description><![CDATA[106 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="835" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p> At the heart of Villa San lies a two-storey living pavilion whose crisp modern lines and eclectic collection of wooden art pieces draw the eye from the moment you step into the villa. The pavilion houses the lounge, dining and entertainment areas as well as a playroom, artist studio, function room and the kitchen. White casual seating, chrome and glass desks and crisp white walls are perfect foil for the exquisite Balinese, Chinese and African handicrafts in bedrooms and living areas.<br /> <br /> The six bedroom suites, all with spacious walk-in wardrobes and luxurious bathrooms, are built in an L-shape around this living pavilion; each a discreet distance from its neighbour.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="863" contenttypeid="ODA" desc="Outdoor Area">
+      <Description><![CDATA[<p> Pool loungers, hammocks and casual seating shaded by sun umbrellas are comfortably arranged throughout Villa San’s well-kept gardens, while a covered gazebo seating 12-15 lies at the far end of the pool.<br /> <br /> Villa San’s sparkling 25 x 5m pool is just perfect for swimming laps. For lazier times, there’s a lounging ledge at the deep end (1.8m), while the steps at the shallow end (1.3m) are wide and safe for younger swimmers.<br /> <br /> Tucked away in a quiet corner behind the master suite is a tree-shaded terrace for yoga practice, suitable for groups of up to 15 people. Behind it, a traditional stone stupa (a Buddhist meditation building known as the Serene room) offers the perfect place for moments of peaceful reflection.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="973" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p> Ubud, central Bali, Indonesia.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>12 adults (2 master suites with king bed, one of which is convertible to twin; two king-bedded guest rooms; and two twin-bedded guestroom convertible to king); 2 extra beds available on request for children.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Open-sided living area; dining area for 14; entertainment lounge; gym; playroom; studio; garden <span style="font-style: italic;">balé</span> and function room.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>25m x 5m. 1.3m-1.8m depth.<br /></p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>On-site villa manager; chef; butler; 2 gardeners; 3 household staff; pool attendant; 2 security guards. Yoga instructor, masseuse and babysitters on request (charged extra).</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Chef available to prepare breakfast, lunch and dinner from delicious international menu by prior arrangement. Butler available to shop if guests prefer to self-cater.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>IDD; internet (WiFi) in every room.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>iPod dock and speakers in every room; 2 home theatre systems incorporating satellite flat-screen TV, DVD Player and stereo system; books; games; gym equipment; BBQ.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Events]]></Heading>
+          <Description><![CDATA[<p>Suitable for casual, poolside wedding receptions and parties of up to 50 people.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Families]]></Heading>
+          <Description><![CDATA[<p> Dedicated playroom with DVDs, books and games; pool toys; cots; highchairs. </p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transportation]]></Heading>
+          <Description><![CDATA[<p>A car and driver can be arranged at a special rate of USD35++ daily for 8 consecutive hours (excluding petrol).  </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Full back-up diesel powered electrical generator. Safety deposit box in each bedroom.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>2500sqm (land).</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed & marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group.</a></p>    ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa San</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Ubud">Ubud</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Suweta No. 24</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.50283330</Latitude>
+        <Longitude>115.26438880</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Near Ubud, family-friendly, six-bedroomed Villa San offers tropical open-air living living plus entertainment lounge, gym, playroom and 25m pool. Professional staff includes a skilled chef.&lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>6-bedroom</RoomName>
+        <MinRate>850.00++</MinRate>
+        <MaxRate>1350.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>4-bedroom</RoomName>
+        <MinRate>710.00++</MinRate>
+        <MaxRate>1350.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa San - View of villa from bale</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/01-Villa San - View of villa from bale.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - View of pool from children's room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/02-Villa San - View of pool from childrens room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Children's play room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/03-Villa San - Childrens play room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Kitchen, dining and media rooms</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/04-Villa San - Kitchen, dining and media rooms.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Outside living room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/05-Villa San - Outside living room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Media room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/06-Villa San - Media room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - The gym</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/07-Villa San - The gym.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Living room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/08-Villa San - Living room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/09-Villa San - Master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Master bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/10-Villa San - Master bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Twin bedroom next to master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/11-Villa San - Twin bedroom next to master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Guest twin bedroom 4</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/12-Villa San - Guest twin bedroom 4.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Guest twin bedroom 6</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/13-Villa San - Guest twin bedroom 6.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Meeting room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/14-Villa San - Meeting room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa San - Villa at dusk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/San/15-Villa San - Villa at dusk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00230">
+  <Contents>
+    <Content contentid="4409" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Villa Grand Cliff Nusa Dua and Villa Grand Cliff Ungasan give families and groups of friends the opportunity to experience two of Bali’s finest destination villas complete with jaw-dropping ocean views, welcoming interiors, stylish furnishings and excellent service. Both villas comprise five ensuite bedrooms, semi-open-air living and dining areas, large swimming pools and air-conditioned home theatres. <br /></p><p>Villa Grand Cliff Nusa Dua – complete with its own private gym, spa, sauna, and a sophisticated games room and bar, rests on The Bukit Peninsula within the exclusive and secure Asmara Estate, above a honey-coloured beach, five-kilometres south-west of Nusa Dua.</p>  <p>Ten kilometres west of Villa Grand Cliff Nusa Dua, Villa Grand Cliff Ungasan lies within an exclusive boutique-style resort. Here, you can enjoy the privacy, personal service and comforts of your luxury holiday home as well as all the benefits of the resort’s outstanding facilities, including a beach club, kids’ club, gourmet restaurant and cliff-top spa.</p> ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4436" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>The staff at Grand Cliff Villas, from the manager to the gardener, are a true team, who know their jobs and perform them admirably to ensure that your stay will be as perfect as can be. </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa Manager]]></Heading>
+          <Description><![CDATA[<p>Your villa manager is on hand to oversee the staff, ensure smooth running of the villa, and assist you during your stay.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s skilled private chef will treat your palate to some delectable Asian and Western cuisine during your stay. Preparing breakfast, lunch and dinner dishes from the villa menu, the chef is also happy to cater to special requests and dietary requirements. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Butler]]></Heading>
+          <Description><![CDATA[<p>Your butler will make your holiday as carefree as possible, delivering  and collecting your laundry, summoning your private chauffeur, reserving  a table at the restaurant, or booking a massage or treatment for you at  the spa. </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Housekeeping]]></Heading>
+          <Description><![CDATA[<p>Daily housekeeping services at Grand Cliff Ungasan are provided by the resort staff, who can also provide babysitters and massage therapists (at extra charge). </p><p>Skilled staff at Grand Cliff Nusa Dua will make your days a seamless exercise in relaxation – keeping the villa spotless and providing first class services.<br /></p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Garden and Maintenance]]></Heading>
+          <Description><![CDATA[<p>A gardener maintains the outdoor areas, and a maintenance man will tend to the pool and fix any problems that may occur at the villa. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>24-hour security guards will provide piece of mind. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Driver]]></Heading>
+          <Description><![CDATA[<p>A car with driver can easily be arranged by your villa manager for up to 8 hours a day at a prevailing rate.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4437" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>The Balinese are known for their love of children and extended families, and the team at Villa Grand Cliff Villas will greet kids and grannies alike with open hearts and experienced practical hands. Children aren't just accepted here, they're treated as valued guests. </p><p>You are welcome to use the fully equipped kitchen guest kitchen if you wish to prepare food for babies or extra-fussy toddlers – although the kitchen staff will be happy to take this on. The villa is geared for families with the provision of a twin-bedded room and extra beds if required, while the exciting games room will offer hours of fun, especially for older children. </p><p>Don’t worry about packing all that cumbersome kids’ equipment for your stay. Just let us know what you need, and anything we don’t have in-house can be hired on your behalf (click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf?_ga=2.144873268.181999741.1531707327-1738552978.1503629452" target="_blank">here</a> to see list of available hire items).</p><p>And should the excitement of exploring the villa start to wear off, check out our <a href="./the-locale/things-do-to.html" target="_self">Things to do</a> page – there’s plenty in the area to keep all the family amused throughout the holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+  </Contents>
+</Villa>

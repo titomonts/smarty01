@@ -1,0 +1,81 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Villa feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Villa%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Villa%20feature.jpg 1920w" alt="Villa Indrani - Villa feature" class="lazyload" />          
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Our staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Our%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Our%20staff.jpg 1920w" alt="Villa Indrani - Our staff" class="lazyload" />         
+        </div>
+        <div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Temple at villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Temple%20at%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Temple%20at%20villa.jpg 1920w" alt="Villa Indrani - Temple at villa" class="lazyload" />    
+        </div>
+        <div id="slide-4">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Modern touch of the villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Modern%20touch%20of%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Modern%20touch%20of%20the%20villa.jpg 1920w" alt="Villa Indrani - Modern touch of the villa" class="lazyload" />     
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+     
+        {if $data.page == 'about-villa-indrani'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Modern touch of the villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Modern%20touch%20of%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Modern%20touch%20of%20the%20villa.jpg 1920w" alt="Villa Indrani - Modern touch of the villa" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Villa pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Villa%20pool.jpg 1920w" alt="Villa Indrani - Villa pool" class="lazyload" />       
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Temple at villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Temple%20at%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Temple%20at%20villa.jpg 1920w" alt="Villa Indrani - Temple at villa" class="lazyload" /> 
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Walkway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Walkway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Walkway.jpg 1920w" alt="Villa Indrani - Walkway" class="lazyload" /> 
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Wooden touch in bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Wooden%20touch%20in%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Wooden%20touch%20in%20bedroom.jpg 1920w" alt="Villa Indrani - Wooden touch in bedroom" class="lazyload" /> 
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Footprints in the sand.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Footprints%20in%20the%20sand.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Footprints%20in%20the%20sand.jpg 1920w" alt="Villa Indrani - Footprints in the sand" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Our staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Our%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Our%20staff.jpg 1920w" alt="Villa Indrani - Our staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Classy outdoor dining setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Classy%20outdoor%20dining%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Classy%20outdoor%20dining%20setup.jpg 1920w" alt="Villa Indrani - Classy outdoor dining setup" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Living area with tv.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Living%20area%20with%20tv.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Living%20area%20with%20tv.jpg 1920w" alt="Villa Indrani - Living area with tv" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Double sink and wardrobe.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Double%20sink%20and%20wardrobe.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Double%20sink%20and%20wardrobe.jpg 1920w" alt="Villa Indrani - Double sink and wardrobe" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Weddings.jpg 1920w" alt="Villa Indrani - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - The media room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20The%20media%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20The%20media%20room.jpg 1920w" alt="Villa Indrani - The media room" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Deck chairs.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Deck%20chairs.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Deck%20chairs.jpg 1920w" alt="Villa Indrani - Deck chairs" class="lazyload" />   
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Preparing bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Preparing%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Preparing%20bedroom.jpg 1920w" alt="Villa Indrani - Preparing bedroom" class="lazyload" /> 
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Room service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Room%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Room%20service.jpg 1920w" alt="Villa Indrani - Room service" class="lazyload" />   
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Villa feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Villa%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Villa%20feature.jpg 1920w" alt="Villa Indrani - Villa feature" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Villa feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Villa%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Villa%20feature.jpg 1920w" alt="Villa Indrani - Villa feature" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Indrani.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Indrani - Villa feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Indrani%20-%20Villa%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Indrani%20-%20Villa%20feature.jpg 1920w" alt="Villa Indrani - Villa feature" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

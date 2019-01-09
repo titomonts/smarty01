@@ -1,0 +1,69 @@
+{include file="header.html"}
+<body class="page-template page-template-page-villa page-template-page-villa-php page-id page-child parent-pageid">
+{$gtm}
+        <div id="container" style="width: 100%; height: 100%;">
+            <div id="logo">
+            <a href="{$data.home_uri}" title="{#TITLE_HOME#}" rel="home">
+            {#TITLE_HOME#}
+            </a>
+            </div>
+            {include file="menu.html"}
+            <div class="clear"></div>
+            
+            {include file="page_image.html"}			
+			
+            <div class="clear"></div>
+			<!-- /rightcol -->
+			<div class="contentwrap">
+			<div class="villa-menu">
+			{include file="villa-menu.html"}
+			
+			<div class="clear"></div>
+			<div class="content">
+				<div class="maincol">
+					<h1 class="entry-title">{$data.heading}</h1>
+					<div class="ngg-galleryoverview" id="ngg-gallery">
+        				<div id="gallery">
+                        <ul id="gallery" class="gallery">	
+                        {section name=g loop=$gallery}
+                        {if $data.cache == $gallery[g].villaID}
+                        <li>
+                        	<a href="{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+								<img title="{$gallery[g].title}" alt="{$gallery[g].alt}" src="{$gallery[g].thumbnail_src}"  />
+								<div><span>{$gallery[g].title}</span></div>
+							</a>
+                        </li>
+                        {/if}
+                        {/section}
+                        </ul>
+                        </div>
+                        <div class='ngg-navigation'>
+                            {if $data.cur_page > 1}
+                            <a class="prev" id="ngg-prev-1" href="/{$data.origin}/{$data.page}.html?nggpage={$data.cur_page-1}">&#9668;</a>
+                            {/if}
+                            {section name=pg loop=$data.num_pages}
+                            {if $data.cur_page == $smarty.section.pg.index+1}
+                            <span class="current">{$data.cur_page}</span>
+                            {else}
+                            <a class="page-numbers" href="/{$data.origin}/{$data.page}.html?nggpage={$smarty.section.pg.index+1}">{$smarty.section.pg.index+1}</a>
+                            {/if}
+                            {/section}
+                            {if $data.cur_page >= 1 && $data.cur_page < $data.num_pages}
+                            <a class="next" id="ngg-next-2" href="/{$data.origin}/{$data.page}.html?nggpage={$data.cur_page+1}">&#9658;</a>
+                            {/if}
+                            </div> 	
+                        </div>
+                    </div>
+				</div>
+				<!-- /maincol -->
+			</div>
+			<!-- /content -->
+			</div>
+			<!-- /contentwrap -->
+			<div class="clear"></div>
+            <div class="bottomwrap">
+                <a href="http://www.elitehavens.com/aboutus.aspx" target="_blank">
+                    <img src="/resources/majapahit/images/logo-eh.png" alt="an elite haven" title="an elite haven" />
+                </a>
+            </div>
+{include file="footer.html"}

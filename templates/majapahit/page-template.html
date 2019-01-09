@@ -1,0 +1,295 @@
+{include file="header.html"}
+<body class="{if $data.page=='index'}home{/if} page-template page-template-index page-template-index-php">
+{$gtm}
+    <div id="container" style="width: 100%; height: 100%;">
+        <div id="logo">
+        <a href="{$data.home_uri}" title="{#TITLE_HOME#}" rel="home">
+        {#TITLE_HOME#}
+        </a>
+        </div>
+        {include file="menu.html"}
+        <div class="clear"></div>
+        
+        {include file="page_image.html"}
+        
+        <div class="clear"></div>
+        <div class="contentwrap">
+        
+        <div class="content">
+            <div class="maincol">
+            <h1 class="entry-title">{$data.heading}</h1>
+            {if $data.page != 'index' && $data.page != 'rates' && $data.page != 'availability-calendar' }
+            <div class="btn-wrap">
+            	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">{#BTN_LABEL_AVAILABILITY#}</a>
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}">{#BTN_LABEL_BOOK_NOW#}</a>
+            </div>
+            {elseif $data.page|in_array:['availability-calendar','rates']}
+            	{if $data.page == 'rates'}
+                {literal}
+                <style>.maincol ul li {color: #fff;}</style>
+                {/literal}
+                {/if}
+				<div class="best-rates">
+                    <a href="#" class="tooltip">
+                        <span class="classic">
+                        Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.
+                        </span>
+                    </a>
+                </div>
+                <div class="pata-logo">
+                    <img src="/resources/majapahit/images/pata-logo.png" alt="PATA" />
+                </div>
+            {/if}
+            {if 'desc'|array_key_exists:$content[0]}
+                {$content[0].desc}
+            {/if}
+            {if 'SubContents'|array_key_exists:$content[0]}
+                {if $data.page|in_array:['quick-facts','staff','the-locale']}
+                	{if $data.page == 'the-locale'}
+                        {assign var=cl value='class="short" style="margin-bottom: 25px;"'}
+                        <h3 style="margin: 15px 0;">Distances</h3>
+                    {else}
+                    	{assign var=cl value=''}
+                    {/if}
+                    <dl {$cl}>
+                        {section name=s loop=$content[0].SubContents}
+                            <dt>{$content[0].SubContents[s].Heading}</dt>
+                            <dd>{$content[0].SubContents[s].Description}</dd>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+                    </dl>
+                    {if $data.page == 'the-locale'}
+                    <div class="thelocalemap">
+                        <a href="/resources/majapahit/images/majapahit-bali-map.jpg">
+                            <img class="alignleft" alt="Villa Majapahit - bali map" src="/resources/majapahit/images/majapahit-bali-map-thumb.jpg" width="315" />
+                        </a>
+                        <a href="/resources/majapahit/images/majapahit-location-map.jpg">
+                            <img class="alignleft" alt="Villa Majapahit - location map" src="/resources/majapahit/images/majapahit-location-map-thumb.jpg" width="315" />
+                        </a>
+                    </div>
+                    {/if}
+                {else}
+                    {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                    {/section}
+                {/if}
+            {/if}
+            
+            {if $data.page == 'floorplan'}
+            <div class="aligncenter">
+                <div style="background: #fff; margin-bottom: 10px; text-align: center;">
+                    <img alt="majapahit complex floorplan" src="/resources/majapahit/images/floorplan-majapahit-complex.jpg" width="960" />
+                </div>
+                <p style="text-align:center;">
+                    <a href="/resources//majapahit/images/floorplan-majapahit-complex-highres.jpg" target="_blank">
+                        Download in high resolution
+                    </a>
+                </p>
+            </div>
+            {/if}
+            
+            {if $data.page == 'guest-book'}
+				<script type="text/javascript" src="/resources/majapahit/js/swfobject.js"></script>
+                <div id="pageflipbookContent" style="clear: both; width:860px; height: 472px; margin:0 auto; background-image:url('/resources/majapahit/testimonials/background.jpg');">
+                <p>To see the animation of the interactive catalog you must install the last version of <a href="http://adobe.com/go/getflashplayer">Flash player</a>.</p>
+                </div>
+                {literal}
+                <script type="text/javascript">
+                var so = new SWFObject("/resources/majapahit/testimonials/swf/book.swf", "book", "860", "475", "8");
+                so.addVariable("xmlFile","/resources/majapahit/testimonials/xml/pageflipbook.xml");
+                so.addParam("wmode", "transparent");
+                so.write("pageflipbookContent");
+                </script>
+            	{/literal}
+			{/if}
+	            
+            {if $data.page == 'press'}
+            <div>
+                <p>
+                    <a href="/resources/majapahit/pdfs/Dream Wedding Bali Style - Majapahit.pdf" target="_blank">
+                        <img class="alignleft" title="Majapahit" src="/resources/majapahit/pdfs/dreamweddingbalistyle.jpg" alt="Majapahit in Luxury Travel Magazine" />
+                    </a>&#8220;Few places in the world have elevated bathing (mandi) into a sensual art form like Bali. DWBS bares all in its search of Bali’s most romantic bathing experiences&#8221;.  
+                    <a href="/resources/majapahit/pdfs/Dream Wedding Bali Style - Majapahit.pdf">
+                        <em>Dream Weddings Bali Style,</em>, <strong>The Art of Mandi,</strong>,Edition November 2012 – February 2013
+                    </a>
+                    <br />
+                    <br class="clear" />
+                </p>
+                <p>
+                    <a href="/resources/majapahit/pdfs/Smarttrip.ru-Pushpapuri Majapahit.pdf" target="_blank">
+                        <img class="alignleft" title="Majapahit" src="/resources/majapahit/pdfs/smarttriplogo.jpg" alt="Majapahit in Luxury Travel Magazine" />
+                    </a>&#8221; Это четыре виллы, две из которых расположены прямо на кромке прибоя, а две скрываются в тени пальм, но также имеют выход на деревянную палубу с видом на океан, где можно заказывать завтраки или массажи. 
+                    <a href="/resources/majapahit/pdfs/Smarttrip.ru-Pushpapuri Majapahit.pdf">
+                        <em>Индонезия: В деревню? На Бали&#8230; В Санур!</em>, <strong>smarttrip.ru</strong>, Published in July 2012
+                    </a>
+                    <br />
+                    <br class="clear" />
+                </p>
+                
+                <p>
+                    <a href="/resources/majapahit/pdfs/Luxury Travel Magazine - Bali Highlife 2011_Majapahit - Maya.pdf" target="_blank">
+                        <img class="alignleft" title="Majapahit" src="/resources/majapahit/pdfs/Luxury-travel.jpg" alt="Majapahit in Luxury Travel Magazine" />
+                    </a>&#8220;Luxury villas in Bali are now serious competitors to the island&#8217;s resorts for holidaymakers travelling in groups, but how do you decide if a villa stay is right for you? Susan Borham and Lucy Jones report. 
+                    <a href="/resources/majapahit/pdfs/Luxury Travel Magazine - Bali Highlife 2011_Majapahit - Maya.pdf">
+                        <em>Bali High Life</em>, <strong>Luxury Travel Magazine</strong>, Edition 46 Autumn 2011
+                    </a>
+                    <br />
+                    <br class="clear" />
+                </p>
+                
+                <p>
+                    <a href="/resources/majapahit/pdfs/Expat Living Singapore Travel Guide - BHM Villas  - Edition 2009 2010.pdf" target="_blank">
+                        <img class="alignleft" title="Press Release" src="/resources/majapahit/pdfs/expatliving_logo-forweb.jpg" alt="Press Release" />
+                    </a>&#8220;For all their bespoke luxury, villas in Bali are considerably cheaper than hotels in terms of price per room for size and service.&#8221; 
+                    <a href="/resources/majapahit/pdfs/Expat Living Singapore Travel Guide - BHM Villas  - Edition 2009 2010.pdf">
+                        <em>Private Villa Rentals in Bali</em>, <strong>Expat Living Travel</strong>, Edition 2009 &#8211; 2010
+                    </a>.&#8221;
+                    <br />
+                    <br class="clear" />
+                </p>
+                
+                <p>
+                    <a href="/resources/majapahit/pdfs/asia paradise 2007-2008 - majapahit beach villas.pdf" target="_blank">
+                        <img class="alignleft" title="Majapahit" src="/resources/majapahit/pdfs/asianparadises0708-logo.jpg" alt="Majapahit in Asian Paradises" />
+                    </a>&#8220;An exclusive complex awaits you at Majapahit Beach Villas. 
+                    <a href="/resources/majapahit/pdfs/asia paradise 2007-2008 - majapahit beach villas.pdf">
+                        <em>Majapahit Beach Villas</em>, <strong>Asian Paradises</strong>, Edition 2007 &#8211; 2008
+                    </a>.
+                    <br />
+                    <br class="clear" />
+                </p>
+                
+                <p>
+                    <a href="/resources/majapahit/pdfs/The Yacht - Majapahit.pdf" target="_blank">
+                        <img class="alignleft" title="Press Release" src="/resources/majapahit/pdfs/villayachtlogo-forweb.jpg" alt="Press Release" />
+                    </a>&#8220;The landscaping and contemporary architecture of the shingle-roofed villas is based on traditional Balinese principles, utilising local materials and incorporating the essential elements of Balinese Hindu philosophy and symbolism.&#8221; 
+                    <a href="/resources/majapahit/pdfs/The Yacht - Majapahit.pdf">
+                        <em>Property Search : Majapahit Beach Villas </em>, 
+                    </a>
+                    <a href="/resources/majapahit/pdfs/VillanYacht Vol2issue3 - Majapahit.pdf">
+                        <strong>Villa &amp; Yacht</strong>
+                    </a>
+                    <a href="/resources/majapahit/pdfs/The Yacht - Majapahit.pdf">, Volume 2 Issue 4, 2007</a>.&#8221;<br />
+                    <br class="clear" />
+                </p>
+                
+                <p>
+                    <a href="/resources/majapahit/pdfs/VillanYacht Vol2issue3 - Majapahit.pdf" target="_blank">
+                        <img class="alignleft" title="Majapahit" src="/resources/majapahit/pdfs/villayachtlogo-forweb.jpg" alt="Majapahit in Asian Paradises" />
+                    </a>&#8220;&#8230;it is on absolute beachfront, hidden away from the busy world outside, providing one with the privacy and exclusivity one would expect from a luxury island getaway. 
+                    <a href="/resources/majapahit/pdfs/VillanYacht Vol2issue3 - Majapahit.pdf"><em>The Empire Of The Sun</em>, <strong>Villa &amp; Yacht</strong>, Vol 2 Issue 3 2007.</a>
+                    <br />
+                    <br class="clear" />
+                    <p>&nbsp;<br />
+                    <em>To view the full article please click on the link under the name of the article and publication</em>
+                </p>
+            </div>
+            {/if}
+            
+            {if $data.page|in_array:['guest-reviews','availability-calendar','rates','reservations','general-enquiries','links','reservation-sent','contact-sent']}
+            	{if $data.page == 'reservations'}
+                {literal}
+				<script type="text/javascript">
+                $(document).ready(function() {
+					$.datepicker.setDefaults({dateFormat:"d MM yy",changeMonth: true,changeYear: true});
+					$("#txtArrivalDate").datepicker({
+						dateFormat:"d MM yy",
+						changeYear: true,
+						minDate: 0,
+							onSelect: function(dateText, inst) {
+						$('#txtDepartDate').val("");
+							var actualDate = new Date(dateText);
+							var newDate = new Date(actualDate.getFullYear(), actualDate.getMonth(), actualDate.getDate()+1);
+							$('#txtDepartDate').datepicker('option', 'minDate', newDate, 'dateFormat', 'd MM yy' );
+						$('#txtDepartDate').datepicker({minDate:newDate,dateFormat:'d MM yy'} );
+							}
+					});
+                });
+                </script>
+                {/literal}
+                {/if}
+				{$content}
+            {/if}        
+            
+            {if $data.page == 'availability-calendar'}
+            <div class="cal-legend">
+                <ul>
+                    <li class="available">Available</li>
+                    <li class="on-request">On request</li>
+                    <li class="booked">Booked</li>
+                </ul>
+            </div>
+            
+            <div style="width: 100%; margin-top: 0px;"><iframe id="calendarinfo" src="http://www.marketingvillas.com/db/index.php?c=iframe&amp;m=calendar&amp;url={$data.home_uri|replace:'http://':''}&amp;style=/resources/majapahit/majapahit.css&amp;rsv=/reservations.html&amp;enquiry=/general-enquiries.html" height="250" width="100%" frameborder="0" scrolling="no"></iframe></div>
+            {/if}
+            
+            {if $data.page == 'index'}
+            <div class="featured">
+				<h2>Majapahit Beach Villas</h2>
+				<div class="listfeat">
+                    <a href="/villa-maya/villa-layout.html">
+                        <img src="/resources/majapahit/images/img-maya.jpg" alt="Villa Maya"  />
+                        <h3>Villa Maya - four bedrooms</h3>
+                    </a>
+                    <p></p>
+                </div>
+                
+                <div class="listfeat">
+                    <a href="/villa-raj/villa-layout.html">
+                        <img src="/resources/majapahit/images/img-raj.jpg" alt="Villa Raj"  />
+                        <h3>Villa Raj - three bedrooms</h3>
+                    </a>
+                    <p></p>
+                </div>
+                
+                <div class="listfeat">
+                    <a href="/villa-nataraja/villa-layout.html">
+                        <img src="/resources/majapahit/images/img-nataraja.jpg" alt="Villa Nataraja"  />
+                        <h3>Villa Nataraja - three bedrooms</h3>
+                    </a>
+                    <p></p>
+                </div>
+                
+                <div class="feat">
+                    <h3>
+                        For celebrations, families and groups<br/>
+                        <div style="font-size:18px; margin-top:15px;">
+                            combine the villas for up to 10 bedrooms
+                        </div>
+                    </h3>
+                    <p>The versatile design and layout of the three villas at Majapahit allow guests the convenience of choosing any combination of bedrooms to suit, be it a honeymoon couple, a small family of four or a large group requiring ten rooms.</p>
+                    <p>One and two bedrooms - Villas Raj or Nataraja<br>
+                    Three bedrooms - Villas Raj, Nataraja or Maya<br>
+                    Four bedrooms - Villa Maya</p>
+                    <p>Majapahit beach villas are the only villas in Bali with a private Hindu temple for ceremonies and a<br> private boat for guests.</p>
+                    <a href="/villa-combinations.html"><img src="/resources/majapahit/images/img-majapahit.jpg" alt="Villa Majapahit"  /></a>
+                    <p></p>
+                </div>
+            {/if}
+            </div>
+            <!-- /maincol -->
+        </div>
+        <!-- /content -->
+        </div>
+        <!-- /contentwrap -->
+        <div class="clear"></div>
+        <div class="bottomwrap">
+            <a href="http://www.elitehavens.com/aboutus.aspx" target="_blank">
+                <img src="/resources/majapahit/images/logo-eh.png" alt="an elite haven" title="an elite haven" />
+            </a>
+        </div>
+{include file="footer.html"}

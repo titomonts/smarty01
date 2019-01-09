@@ -1,0 +1,79 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Anucara - Pool perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20perfection.jpg 1920w" alt="Villa Anucara - Pool perfection" class="lazyload" />          
+        </div>
+		<div id="slide-2">            
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Anucara - Stylish villa entrance header.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1920w" alt="Villa Anucara - Stylish villa entrance header" class="lazyload" />           
+		</div>
+		<div id="slide-3">            
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Anucara - View from poolside living area header.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20View%20from%20poolside%20living%20area%20header.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20View%20from%20poolside%20living%20area%20header.jpg 1920w" alt="Villa Anucara - View from poolside living area header" class="lazyload" />           
+		</div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-anucara'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Pool%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20deck.jpg 1920w" alt="Villa Anucara - Pool deck" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20The%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20The%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20The%20villa.jpg 1920w" alt="Villa Anucara - The villa" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Pool%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20house.jpg 1920w" alt="Villa Anucara - Pool house" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20pool%20decking.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20pool%20decking.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20pool%20decking.jpg 1920w" alt="Villa Anucara - pool decking" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20The%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20The%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20The%20villa.jpg 1920w" alt="Villa Anucara - The villa" class="lazyload" />
+        
+        {elseif $data.page == 'cemagi-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Local%20colour.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Local%20colour.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Local%20colour.jpg 1920w" alt="Villa Anucara - Local colour" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Attentive%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Attentive%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Attentive%20staff.jpg 1920w" alt="Villa Anucara - Attentive staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Dining%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Dining%20area.jpg 1920w" alt="Villa Anucara - Dining area" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Poolside%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Poolside%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Poolside%20living%20area.jpg 1920w" alt="Villa Anucara - Poolside living area" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Bath%20with%20great%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Bath%20with%20great%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Bath%20with%20great%20view.jpg 1920w" alt="Villa Anucara - Bath with great view" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Wedding%20settings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Wedding%20settings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Wedding%20settings.jpg 1920w" alt="Villa Anucara - Wedding settings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Pool%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20deck.jpg 1920w" alt="Villa Anucara - Pool deck" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Pool%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20house.jpg 1920w" alt="Villa Anucara - Pool house" class="lazyload" />
+        
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Pool%20perfection.jpg 1920w" alt="Villa Anucara - Pool perfection" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20View%20from%20poolside%20living%20area%20header.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20View%20from%20poolside%20living%20area%20header.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20View%20from%20poolside%20living%20area%20header.jpg 1920w" alt="Villa Anucara - View from poolside living area header" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1920w" alt="Villa Anucara - Stylish villa entrance header" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1920w" alt="Villa Anucara - Stylish villa entrance header" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Anucara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Anucara%20-%20Stylish%20villa%20entrance%20header.jpg 1920w" alt="Villa Anucara - Stylish villa entrance header" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

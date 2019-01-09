@@ -1,0 +1,64 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Tranquil%20place%20to%20relax.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Tranquil%20place%20to%20relax.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Tranquil%20place%20to%20relax.jpg 1920w" alt="Villa Kavaya - Tranquil place to relax" class="lazyload" /></div>        		
+		<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Aesthetically%20pleasing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Aesthetically%20pleasing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Aesthetically%20pleasing.jpg 1920w" alt="Villa Kavaya - Aesthetically pleasing" class="lazyload" /></div>
+		<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Relax%20and%20relish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Relax%20and%20relish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Relax%20and%20relish.jpg 1920w" alt="Villa Kavaya - Relax and relish" class="lazyload" /></div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-kavaya'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Relax%20and%20relish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Relax%20and%20relish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Relax%20and%20relish.jpg 1920w" alt="Villa Kavaya - Relax and relish" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Enjoy%20the%20natural%20serenity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Enjoy%20the%20natural%20serenity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Enjoy%20the%20natural%20serenity.jpg 1920w" alt="Villa Kavaya - Enjoy the natural serenity" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Laze%20away%20the%20day.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Laze%20away%20the%20day.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Laze%20away%20the%20day.jpg 1920w" alt="Villa Kavaya - Laze away the day" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20The%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20The%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20The%20entrance.jpg 1920w" alt="Villa Kavaya - The entrance" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Aesthetically%20pleasing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Aesthetically%20pleasing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Aesthetically%20pleasing.jpg 1920w" alt="Villa Kavaya - Aesthetically pleasing" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Swim%20under%20the%20clear%20blue%20sky.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Swim%20under%20the%20clear%20blue%20sky.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Swim%20under%20the%20clear%20blue%20sky.jpg 1920w" alt="Villa Kavaya - Swim under the clear blue sky" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Dedicated%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Dedicated%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Dedicated%20staff.jpg 1920w" alt="Villa Kavaya - Dedicated staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Wonderful%20service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Wonderful%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Wonderful%20service.jpg 1920w" alt="Villa Kavaya - Wonderful service" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Another%20day%20in%20paradise.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Another%20day%20in%20paradise.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Another%20day%20in%20paradise.jpg 1920w" alt="Villa Kavaya - Another day in paradise" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Bedroom%20two%20ensuite%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Bedroom%20two%20ensuite%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Bedroom%20two%20ensuite%20bathroom.jpg 1920w" alt="Villa Kavaya - Bedroom two ensuite bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Antique%20gladak.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Antique%20gladak.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Antique%20gladak.jpg 1920w" alt="Villa Kavaya - Antique gladak" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1920w" alt="Villa Kavaya - Elegant master bedroom design" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1920w" alt="Villa Kavaya - Elegant master bedroom design" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1920w" alt="Villa Kavaya - Elegant master bedroom design" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kavaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kavaya%20-%20Elegant%20master%20bedroom%20design.jpg 1920w" alt="Villa Kavaya - Elegant master bedroom design" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

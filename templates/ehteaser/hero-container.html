@@ -1,0 +1,18 @@
+<div id="slideshow" class="container_12 clearfix">
+    <div class="grid_12">
+    	<div class="headerimg">
+            {if $data.complex != 'yes'}
+                {capture}{$data.teaser_data.Villa.Info.Images.Image|@shuffle}{/capture}
+                {assign var=img value=$data.teaser_data.Villa.Info.Images.Image[0].Url}
+                {assign var=caption value=$data.teaser_data.Villa.Info.Images.Image[0].Caption}
+            {else}
+                {capture}{$data.teaser_data.Villa.Info[0].Images.Image|@shuffle}{/capture}
+                {assign var=img value=$data.teaser_data.Villa.Info[0].Images.Image[0].Url}
+                {assign var=caption value=$data.teaser_data.Villa.Info[0].Images.Image[0].Caption}
+            {/if}
+               
+            <img src="{$img}" data-src="{$img}" data-sizes="auto" data-srcset="{$img} 1400w, {$img} 1920w" alt="{$caption}" class="lazyload"  />
+            <!-- width="658" height="338" -->
+    	</div>
+    </div>
+</div>

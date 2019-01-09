@@ -1,0 +1,69 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper"> 
+                        <div class="group">
+                            <div class="half">
+                                <h1 class="entry-title">{$data.heading}</h1>
+                                {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>", "&nbsp;"] explode="."}
+                                    {section name=s loop=1}
+                                    <p>{$contentPart[s]}.</p>
+                                    {/section}
+                                    <p>
+                                    {section name=s loop=$contentPart start=1}
+                                    {if $smarty.section.s.index neq $smarty.section.s.last}
+                                    {$contentPart[s]}. 
+                                    {/if}
+                                    {/section}
+                                    </p>
+
+                                {/if}
+                            </div>
+                            <div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Aqua - Living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Aqua - Living area.jpg" alt="Villa Aqua - Living area" class="lazyload" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="wrapper"> 
+                        <div class="grids group">
+                            <div class="grid">
+                                <a href="/about-villa-aqua.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About the Villa']);">                                
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Aqua - Stunning living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Aqua - Stunning living area.jpg" alt="Villa Aqua - Stunning living area" class="lazyload" />
+                                    <strong>Stylish modern interiors</strong>
+                                </a>
+                            </div>
+                            <div class="grid">
+                                <a href="/about-villa-aqua/explore-the-villa.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore the Villa']);">                                
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Aqua - Beautiful ocean scenery.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Aqua - Beautiful ocean scenery.jpg" alt="Villa Aqua - Beautiful ocean scenery" class="lazyload" />
+                                    <strong>Steps from the beach</strong>
+                                </a>
+                            </div>
+                            <div class="grid">
+                                <a href="/villa-experience.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">                                
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Aqua - Bedroom layout.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Aqua - Bedroom layout.jpg" alt="Villa Aqua - Bedroom layout" class="lazyload" />
+                                    <strong>4 luxurious bedrooms</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+{include file="footer.html"}

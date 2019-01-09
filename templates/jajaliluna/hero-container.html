@@ -1,0 +1,76 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Jajaliluna - main pavilion.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20main%20pavilion.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20main%20pavilion.jpg 1920w" alt="Villa Jajaliluna - main pavilion" class="lazyload" />          
+        </div>
+		<div id="slide-2">            
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Jajaliluna - view from entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Jajaliluna%20-%20view%20from%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20view%20from%20entrance.jpg 1920w" alt="Jajaliluna - view from entrance" class="lazyload" />          
+		</div>
+		<div id="slide-3">            
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Jajaliluna - downstairs guest room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Jajaliluna%20-%20downstairs%20guest%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20downstairs%20guest%20room.jpg 1920w" alt="Jajaliluna - downstairs guest room" class="lazyload" />          
+		</div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-jajaliluna'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1920w" alt="Villa Jajaliluna - alfresco dining & media pavilions" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20upstairs%20landing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Jajaliluna%20-%20upstairs%20landing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20upstairs%20landing.jpg 1920w" alt="Jajaliluna - upstairs landing" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20view%20of%20villa%20from%20living%20pavilion.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20view%20of%20villa%20from%20living%20pavilion.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20view%20of%20villa%20from%20living%20pavilion.jpg 1920w" alt="Villa Jajaliluna - view of villa from living pavilion" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20pool%20decking.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20pool%20decking.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20pool%20decking.jpg 1920w" alt="Villa Jajaliluna - pool decking" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20aerial%20view%20of%20Jajaliluna.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20aerial%20view%20of%20Jajaliluna.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20aerial%20view%20of%20Jajaliluna.jpg 1920w" alt="Villa Jajaliluna - aerial view of Jajaliluna" class="lazyload" />
+        
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20Antique%20stores.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Jajaliluna%20-%20Antique%20stores.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20Antique%20stores.jpg 1920w" alt="Jajaliluna - Antique stores" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20Staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Jajaliluna%20-%20Staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Jajaliluna%20-%20Staff.jpg 1920w" alt="Jajaliluna - Staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20kitchen%20and%20dining%20pavilion.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20kitchen%20and%20dining%20pavilion.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20kitchen%20and%20dining%20pavilion.jpg 1920w" alt="Villa Jajaliluna - kitchen and dining pavilion" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20Families.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20Families.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20Families.jpg 1920w" alt="Villa Jajaliluna - Families" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20view%20of%20villa%20from%20living%20pavilion.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20view%20of%20villa%20from%20living%20pavilion.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20view%20of%20villa%20from%20living%20pavilion.jpg 1920w" alt="Villa Jajaliluna - view of villa from living pavilion" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20walled%20garden%20at%20rear%20of%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20walled%20garden%20at%20rear%20of%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20walled%20garden%20at%20rear%20of%20villa.jpg 1920w" alt="Villa Jajaliluna - walled garden at rear of villa" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20sunloungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20sunloungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20sunloungers.jpg 1920w" alt="Villa Jajaliluna - sunloungers" class="lazyload" />
+        
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20pool%20between%20media%20and%20dining%20rooms.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20pool%20between%20media%20and%20dining%20rooms.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20pool%20between%20media%20and%20dining%20rooms.jpg 1920w" alt="Villa Jajaliluna - pool between media and dining rooms" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1920w" alt="Villa Jajaliluna - alfresco dining & media pavilions" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1920w" alt="Villa Jajaliluna - alfresco dining & media pavilions" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1920w" alt="Villa Jajaliluna - alfresco dining & media pavilions" class="lazyload" /> 
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Jajaliluna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Jajaliluna%20-%20alfresco%20dining%20&%20media%20pavilions.jpg 1920w" alt="Villa Jajaliluna - alfresco dining & media pavilions" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

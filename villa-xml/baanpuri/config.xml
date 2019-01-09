@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>BaanPuri</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Baan Puri</villa_name>
+		<google_analytics>UA-122733735-1</google_analytics>
+		<location>Koh Samui</location>
+		<sublocation> Lipa Noi</sublocation>
+		<bedrooms>6</bedrooms>
+		<hrental_id>'BaanPuri', 'Koh Samui', 'Lipa Noi', '6br'</hrental_id>
+		<ehgLocation>Koh Samui, Lipa Noi</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

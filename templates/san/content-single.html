@@ -1,0 +1,144 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=6}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half"> 
+            {section name=s start=6 loop=$content[0].SubContents}
+            {if $smarty.section.s.index neq $smarty.section.s.last}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/if}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/San_6SEPT2016.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/San_6SEPT2016.jpg" class="imgleft"></a>“Neatly tucked in Bali’s spiritual heart of Ubud is a luxurious six-bedroom fully staffed Villa San. The spacious grounds of this Ubud retreat offer freedom and ﬂexibility for both families and large groups sharing, with hammocks, sun loungers arranged around the 25m x 5m lap pool and a pool pavilion setting up to 15 people.“ <a href="/resources/{$data.theme}/pdfs/San_6SEPT2016.pdf" target="_blank"><em>Serene Seclusion at Villa San</em>, <strong>Elite Havens Press Release</strong>, Published September 2016.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/Expat-Living-June-2012---San-Chalina.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Expat-Living-June-2012---San-Chalina.jpg" class="imgleft"></a>“This location means you can punctuate more distant visits to rice-paddy terraces (think Eat, Pray, Love), coffee and spice farms, art galleries or white-water rafting with a nearby dance performance, an exploration of the palace, great food and awesome bargain hunting in the market.“ <a href="/resources/{$data.theme}/pdfs/Expat-Living-June-2012---San-Chalina.pdf" target="_blank"><em> Country & Coast: A Tale of Two Villas</em>, <strong>Expat Living</strong>, June 2012.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/The-Bud.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/The-Bud.jpg" class="imgleft"></a>“GUESTS at Villa San are spoiled for choice when it comes to ways to relax, reflecting the owners’ artistic and spiritual leanings.“ <a href="/resources/{$data.theme}/pdfs/The-Bud.pdf" target="_blank"><em>Sunny San</em>, <strong>The Bud</strong>, Volume 12 issue 31, April – June 2012.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/FRV-Travel-8.4---Villa-San---Win-2-nights.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/FRV-Travel-8.4---Villa-San---Win-2-nights.jpg" class="imgleft"></a>“Win Two Nights at Villa San in Bali’s cultural capital of Ubud.” <a href="/resources/{$data.theme}/pdfs/FRV-Travel-8.4---Villa-San---Win-2-nights.pdf" target="_blank"><em>Win Two Nights</em>, <strong>FRV Travel</strong>, Edition 8.4, December 2011 – January 2012.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/FRV-Travel-8.4---Villa-San.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/FRV-Travel-8.4---Villa-San.jpg" class="imgleft"></a>“In central Bali, near Ubud’s Royal Palace and only minutes from great shopping, superb spas,cultural performances and luxuriant rice fields, Villa San is a private and serene oasis…” <a href="/resources/{$data.theme}/pdfs/FRV-Travel-8.4---Villa-San.pdf" target="_blank"><em>Villa San</em>, <strong>FRV Travel</strong>, Edition 8.4, December 2011 – January 2012.</a></div>
+    </div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews order="c,n,d"}
+        {$reviews}
+    </div>
+    <!--<div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>-->
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-villa-san' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

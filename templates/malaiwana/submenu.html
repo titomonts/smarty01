@@ -1,0 +1,26 @@
+<div class="spy">
+    <ul>         
+        {section name=p loop=$pages}
+        	{if 'children'|array_key_exists:$pages[p]}
+            	{section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].level == 'internal' && $pages[p].children[sp].parent == $data.child}
+                	{if $pages[p].children[sp].page_identifier eq $data.url_lvl_3}
+                    {assign var=class value=' class="active"'}
+                    {else}
+                    {assign var=class value=''}
+                    {/if}
+                    <li{$class}>
+                    	{if $pages[p].children[sp].label != 'About'}
+                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].children[sp].parent sibling=$pages[p].children[sp].page_identifier}">
+                        {elseif $pages[p].children[sp].label == 'About'}
+                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].parent child=$pages[p].children[sp].page_identifier}">
+                        {/if}
+                        {$pages[p].children[sp].label}
+                        </a>
+                    </li>
+                {/if}
+                {/section}
+            {/if}          
+        {/section}       
+    </ul> 
+</div>

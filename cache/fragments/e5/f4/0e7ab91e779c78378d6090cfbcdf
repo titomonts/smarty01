@@ -1,0 +1,8 @@
+
+var gkey='AIzaSyCnwT0s5r_NZ4Sb8Mc5AYkqcmZq5vAgIwM';var dir='/resources/theylangylang';var lat=-8.61486110;var long=115.31694370;var infocontent='The Ylang Ylang';
+
+var iframe=`<div class="iframe-wrapper iframe-booking"><div class="availability_calendar_checker"><form action="about:blank"method="get"target="bookingTarget"><input type="hidden"id="villaID"name="pid"value="YlangYlang"><input type="hidden"id="curl"name="curl"value="http://www.theylangylang.com/reservation-sent.html"><div class="availability_calendar_form-input"id="input-dates"><div class="availability_calendar_form-control"><span class="availability_calendar_input"><label for="txtArrivalDate">check-in</label><input type="text"name="ci"id="YlangYlangtxtArrivalDate_plugin"readonly required=""></span><span class="availability_calendar_input"><label for="txtDepartDate">check-out</label><input type="text"name="co"id="YlangYlangtxtDepartDate_plugin"readonly required=""></span><button type="submit">Check availability</button></div></div></form></div></div>`;
+
+defer(function(){jQuery(iframe).insertBefore('#tabs');});function defer(method){if(window.jQuery){method();}else{setTimeout(function(){defer(method)},1);}}
+
+$(document).ready(function(){$.datepicker.setDefaults({dateFormat:"d MM yy",changeMonth:true,changeYear:true});$("#txtPreArriveDate").datepicker({dateFormat:"d MM yy",changeYear:true,minDate:0,onSelect:function(dateText,inst){$('#txtPreDepartDate').val("");var actualDate=new Date(dateText);var newDate=new Date(actualDate.getFullYear(),actualDate.getMonth(),actualDate.getDate()+1);$('#txtPreDepartDate').datepicker('option','minDate',newDate,'dateFormat','d MM yy');$('#txtPreDepartDate').datepicker({minDate:newDate,dateFormat:'d MM yy'});}});});

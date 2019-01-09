@@ -1,0 +1,68 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Pool, villa and staircase to the entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1920w" alt="Villa Alamanda - Pool, villa and staircase to the entrance" class="lazyload" />
+        </div> 
+	</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-alamanda'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Pool overspill.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Pool%20overspill.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Pool%20overspill.jpg 1920w" alt="Villa Alamanda - Pool overspill" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Pool stairs leading to villa entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Pool%20stairs%20leading%20to%20villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Pool%20stairs%20leading%20to%20villa%20entrance.jpg 1920w" alt="Villa Alamanda - Pool stairs leading to villa entrance" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Gardens.jpg 1920w" alt="Villa Alamanda - Gardens" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}		
+        {elseif $data.page == 'floorplan'}
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Weddings.jpg 1920w" alt="Villa Alamanda - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'ubud-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Corner view of pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Corner%20view%20of%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Corner%20view%20of%20pool.jpg 1920w" alt="Villa Alamanda - Corner view of pool" class="lazyload" />
+              		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Tea time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Tea%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Tea%20time.jpg 1920w" alt="Villa Alamanda - Tea time" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Dinner spread.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Dinner%20spread.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Dinner%20spread.jpg 1920w" alt="Villa Alamanda - Dinner spread" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - TV room interior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20TV%20room%20interior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20TV%20room%20interior.jpg 1920w" alt="Villa Alamanda - TV room interior" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Master bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Master%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Master%20bathroom.jpg 1920w" alt="Villa Alamanda - Master bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Cinnamon Room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Cinnamon%20Room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Cinnamon%20Room.jpg 1920w" alt="Villa Alamanda - Cinnamon Room" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Cinnamon Room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Cinnamon%20Room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Cinnamon%20Room.jpg 1920w" alt="Villa Alamanda - Cinnamon Room" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Afternoon tea time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Afternoon%20tea%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Afternoon%20tea%20time.jpg 1920w" alt="Villa Alamanda - Afternoon tea time" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Poolside at night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Poolside%20at%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Poolside%20at%20night.jpg 1920w" alt="Villa Alamanda - Poolside at night" class="lazyload" />        
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Pool, villa and staircase to the entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1920w" alt="Villa Alamanda - Pool, villa and staircase to the entrance" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Pool, villa and staircase to the entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1920w" alt="Villa Alamanda - Pool, villa and staircase to the entrance" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Alamanda.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Alamanda - Pool, villa and staircase to the entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Alamanda%20-%20Pool%2C%20villa%20and%20staircase%20to%20the%20entrance.jpg 1920w" alt="Villa Alamanda - Pool, villa and staircase to the entrance" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

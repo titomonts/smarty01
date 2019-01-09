@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Asta</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Asta</villa_name>
+		<google_analytics>UA-150076-7</google_analytics>
+		<location>Bali</location>
+		<sublocation> Seminyak</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'Asta', 'Bali', 'Seminyak', '5br'</hrental_id>
+		<ehgLocation>Bali, Seminyak</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

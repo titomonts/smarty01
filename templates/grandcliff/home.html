@@ -1,0 +1,166 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item section-one">  
+                    <div class="wrapper">
+                        <div class="the-content"> 	
+							<div class="intro">
+								<div class="group">
+									<div class="half">
+										<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Grand Cliff Nusa Dua - Ocean lounge.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Nusa Dua - Ocean lounge.jpg" alt="Grand Cliff Nusa Dua - Ocean lounge" class="lazyload" />
+									</div>
+									<div class="half half-content">
+										<h1 class="entry-title">{$data.heading}</h1>
+										{if $data.content_id != ''}
+										{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+										{/if}
+										{if 'desc'|array_key_exists:$content[0]}
+
+											{$content[0].desc}
+
+										{/if}
+
+										{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents}
+											<h2>{$content[0].SubContents[s].Heading}</h2>
+											{$content[0].SubContents[s].Description}
+											{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+												<p>
+													<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+														<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+													</a>
+												</p>
+											{/if}
+											{/section}
+										{/if}
+									</div>
+								</div>
+							</div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="content-item section-four">
+				    <div class="group">
+				        <div class="half">
+				            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="grand-cliff-ungasan" child="ungasan-bali"}">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/villas/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/villas/Grand Cliff Front Residence - Ocean view from the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/villas/small/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/villas/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool.jpg 1920w" alt="Grand Cliff Front Residence - Ocean view from the pool" class="lazyload" />
+														
+								<div class="img">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/villas/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/villas/Grand Cliff Ungasan.png" alt="Grand Cliff Ungasan" class="lazyload" />
+								</div>
+							</a>
+							
+							<h2>Grand Cliff <span>Ungasan</span></h2>
+							{parsedata folder=$data.theme cache="P00121" content="ABTV"}
+							{contentpart content=$content[0].desc explode="</p>"}
+							{section name=s start=0 max=1 loop=$contentPart}
+							  {$contentPart[s]}
+							{/section}
+							
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="grand-cliff-ungasan" child="ungasan-bali"}" class="btn-default">Explore</a>			
+							
+				        </div>
+				        <div class="half">
+				            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="grand-cliff-nusa-dua" child="nusa-dua-bali"}">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/villas/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/villas/Grand Cliff Nusa Dua - Beautiful view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/villas/small/Grand%20Cliff%20Nusa%20Dua%20-%20Beautiful%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/villas/Grand%20Cliff%20Nusa%20Dua%20-%20Beautiful%20view.jpg 1920w" alt="Grand Cliff Nusa Dua - Beautiful view" class="lazyload" />
+                               
+								<div class="img">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/villas/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/villas/Grand Cliff Nusa Dua.png" alt="Grand Cliff Nusa Dua" class="lazyload" />
+								</div>
+							 </a>
+							<h2>Grand Cliff <span>Nusa Dua</span></h2>
+							{parsedata folder=$data.theme cache="P00226" content="ABTV"}
+							{contentpart content=$content[0].desc explode="</p>"}
+							{section name=s start=0 max=1 loop=$contentPart}
+							  {$contentPart[s]}
+							{/section}
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="grand-cliff-nusa-dua" child="nusa-dua-bali"}" class="btn-default">Explore</a>			
+							
+				        </div>
+				    </div>
+				</div>
+				
+                <div class="content-item section-two">  
+                    <div class="wrapper wrapper-wide">
+                        <div class="group">
+							<div class="half">
+								<a href="/rates.html">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool1.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool1.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool1.jpg 1920w" alt="Grand Cliff Front Residence - Ocean view from the pool1" class="lazyload bg-img"/>
+									<div class="des">
+										<div class="border">
+											<img src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Villas - Front beach.png" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Villas - Front beach.png" alt="Grand Cliff Villas - Front beach" class="lazyload" />
+											<h3 class="entry-title">Tranquil getaway, <span>cliff top vista.</span></h3>
+											{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+											{contentpart content=$content[0].desc explode="</p>"}
+											{section name=s start=0 max=1 loop=$contentPart}
+											  {$contentPart[s]}
+											{/section}
+										</div>
+									</div>
+								</a>
+								
+							</div>
+							<div class="half">
+								<a href="/grand-cliff-ungasan/dining.html">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand%20Cliff%20Nusa%20Dua%20-%20%20Georgeous%20dining%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20Georgeous%20dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Grand%20Cliff%20Nusa%20Dua%20-%20%20Georgeous%20dining%20area.jpg 1920w" alt="Grand Cliff Nusa Dua -  Georgeous dining area" class="lazyload bg-img" />
+									<div class="des">
+										<div class="border">
+											<img src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Villas - Cheff.png" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Villas - Cheff.png" alt="Grand Cliff Villas - Cheff" class="lazyload" />
+											<h3 class="entry-title">Exquisite cuisine, <span>special for you.</span></h3>
+											{parsedata folder=$data.theme cache="P00121" content="DNNG"}
+											{contentpart content=$content[0].desc explode="."}
+											{section name=s start=0 start=1 max=1 loop=$contentPart}
+											  <p>{$contentPart[s]}.</p>
+											{/section}
+											
+											{* parsedata folder=$data.theme cache="P00226" content="DNNG"}
+											{contentpart content=$content[0].desc explode="</p>"}
+											{section name=s start=0 max=1 loop=$contentPart}
+											  {$contentPart[s]}
+											{/section *}
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="half">
+								<a href="/staff.html">
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand%20Cliff%20Nusa%20Dua%20-%20Pool%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Grand%20Cliff%20Nusa%20Dua%20-%20Pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Grand%20Cliff%20Nusa%20Dua%20-%20Pool%20view.jpg 1920w" alt="Grand Cliff Nusa Dua - Pool view" class="lazyload bg-img" />
+									<div class="des">
+										<div class="border">
+											<img src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Villas - Staff.png" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Grand Cliff Villas - Staff.png" alt="Grand Cliff Villas - Staff" class="lazyload" />
+											<h3 class="entry-title">Personalised service, <span>dedicated staff.</span></h3>
+											{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+											{contentpart content=$content[0].desc explode="</p>"}
+											{section name=s start=0 max=1 loop=$contentPart}
+											  {$contentPart[s]}
+											{/section}
+										</div>
+									</div>
+								</a>
+							</div>                           
+                        </div>				
+                    </div>				
+                </div>
+                             
+            </div>
+        </div>
+        
+        {* <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['grand-cliff-ungasan', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'ungasan-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>	*}	            
+{include file="footer.html"}

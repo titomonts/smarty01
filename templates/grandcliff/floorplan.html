@@ -1,0 +1,27 @@
+<div class="floorplan">
+    {if $data.origin eq 'grand-cliff-ungasan'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/grand-cliff-villas-ungasan-floorplan.jpg" alt="Grand Cliff Villas Ungasan Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=grand-cliff-villas-ungasan-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.origin eq 'grand-cliff-nusa-dua'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/grand-cliff-villas-nusa-dua-floorplan.jpg" alt="Grand Cliff Villas Nusa Dua Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=grand-cliff-villas-nusa-dua-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'floorplan'}
+   
+    <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#floorplan-seminyak">Grand Cliff Ungasan</a></li>
+            <li><a href="#floorplan-ubud">Grand Cliff Nusa Dua</a></li>
+        </ul>
+        <div id="floorplan-seminyak">
+           
+			  <img data-src="{$data.cdn}/resources/{$data.theme}/images/grand-cliff-villas-ungasan-floorplan.jpg" alt="Grand Cliff Villas Ungasan Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=grand-cliff-villas-ungasan-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+        <div id="floorplan-ubud">
+			<img data-src="{$data.cdn}/resources/{$data.theme}/images/grand-cliff-villas-nusa-dua-floorplan.jpg" alt="Grand Cliff Villas Nusa Dua Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=grand-cliff-villas-nusa-dua-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+    </div>
+    
+    {/if}
+</div>

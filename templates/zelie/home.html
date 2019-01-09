@@ -1,0 +1,141 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - Attentive staff.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>    
+                {* <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div> *}
+                <div class="content-item">  
+                    <div class="the-content">
+                        <div class="grids">
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - Dining prep.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Zelie%20-%20Dining%20prep.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Zelie%20-%20Dining%20prep.jpg 700w" class="lazyload" alt="Villa Zelie - Dining prep"><span>Professionally <br />trained <br />staff</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - In-villa chef.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Zelie%20-%20In-villa%20chef.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Zelie%20-%20In-villa%20chef.jpg 700w" class="lazyload" alt="Villa Zelie - In-villa chef"><span>Foodies' <br />paradise <br />found</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - Master bedroom joglo.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Zelie%20-%20Master%20bedroom%20joglo.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Zelie%20-%20Master%20bedroom%20joglo.jpg 700w" class="lazyload" alt="Villa Zelie - Master bedroom joglo"><span>Beautiful <br />traditional <br /> joglos</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - Decoration detail.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Zelie%20-%20Decoration%20detail.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Zelie%20-%20Decoration%20detail.jpg 700w" class="lazyload" alt="Villa Zelie - Decoration detail"><span>Rustic-chic <br />designer <br />interiors</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - Absolute tropical living.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Zelie%20-%20Absolute%20tropical%20living.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Zelie%20-%20Absolute%20tropical%20living.jpg 700w" class="lazyload" alt="Villa Zelie - Absolute tropical living"><span>Lush <br />tropical <br />paradise</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Zelie - Villa book.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Zelie%20-%20Villa%20book.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Zelie%20-%20Villa%20book.jpg 700w" class="lazyload" alt="Villa Zelie - Villa book"><span>Adored <br />by our <br />guests</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="content-item">  
+                    <div class="wrapper shortcut">
+                        <div class="box-container"> 
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Zelie - Local fisherman.jpg" alt="Villa Zelie - Local fisherman" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Beach</h3>
+                                    <p>Two minute stroll <br />to the white sands of Kayu Putih beach.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Zelie - Stunning detail.jpg" alt="Villa Zelie - Stunning detail" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Artifacts</h3>
+                                    <p>Antiquity galore to feast your eyes <br />and intrigue your soul.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Zelie - Chess table.jpg" alt="Villa Zelie - Chess table" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Backgammon and Chess</h3>
+                                    <p>Wile away the hours <br />in the tranquility of the grounds.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Zelie - Villa features.jpg" alt="Villa Zelie - Villa features" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Pool</h3>
+                                    <p>Morning lengths, <br />then breakfast on the submersed sundeck.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Zelie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Zelie - Private cinema.jpg" alt="Villa Zelie - Private cinema" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Cinema screen</h3>
+                                    <p>Absolute repose <br />in your private movie theatre.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-zelie', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

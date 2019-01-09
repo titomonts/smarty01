@@ -1,0 +1,45 @@
+{include file="header.html"}
+<body class="gallery">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+                        <h1 class="entry-title">{$data.heading}</h1>
+                        <ul class="gallery-container">
+                            {section name=g loop=$gallery}
+                            <li>
+                                <a rel="gallery" href="/gallery/{$data.villa_id}/{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+                                    <img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="/gallery/{$data.villa_id}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload"  />
+                                    <p>{$gallery[g].title}</p>
+                                </a>
+                            </li>
+                            {/section}
+                        </ul>
+                        <div class="gallery-pagination">
+                        {if $data.cur_page > 1}
+                        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                        {/if}
+                        {section name=pg loop=$data.num_pages}
+                        {if $data.cur_page == $smarty.section.pg.index+1}
+                        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+                        {else}
+                        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+                        {/if}
+                        {/section}
+                        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+                        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                        {/if}
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+        </div>
+
+{include file="footer.html"}

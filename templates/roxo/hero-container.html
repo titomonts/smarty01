@@ -1,0 +1,69 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Luxury%20awaits.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Luxury%20awaits.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Luxury%20awaits.jpg 1920w" alt="Villa Roxo - Luxury awaits" class="lazyload" />
+        </div>
+		<div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Ocean%20view%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Ocean%20view%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Ocean%20view%20bedroom.jpg 1920w" alt="Villa Roxo - Ocean view bedroom" class="lazyload" />
+        </div>
+		<div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Golden%20sand%20and%20tropical%20breeze.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Golden%20sand%20and%20tropical%20breeze.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Golden%20sand%20and%20tropical%20breeze.jpg 1920w" alt="Villa Roxo - Golden sand and tropical breeze" class="lazyload" />
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-roxo'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Breathtaking%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Breathtaking%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Breathtaking%20view.jpg 1920w" alt="Villa Roxo - Breathtaking view" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Spacious%20dining%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Spacious%20dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Spacious%20dining%20area.jpg 1920w" alt="Villa Roxo - Spacious dining area" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Relaxing%20bedroom%20ambience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Relaxing%20bedroom%20ambience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Relaxing%20bedroom%20ambience.jpg 1920w" alt="Villa Roxo - Relaxing bedroom ambience" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Roxo%20-%20Tranquility.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Roxo%20-%20Tranquility.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Roxo%20-%20Tranquility.jpg 1920w" alt="Roxo - Tranquility" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Stunning%20view%20from%20the%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Stunning%20view%20from%20the%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Stunning%20view%20from%20the%20bedroom.jpg 1920w" alt="Villa Roxo - Stunning view from the bedroom" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Ocean%20view%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Ocean%20view%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Ocean%20view%20bedroom.jpg 1920w" alt="Villa Roxo - Ocean view bedroom" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Roxo%20-%20Wedding%20destination.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Roxo%20-%20Wedding%20destination.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Roxo%20-%20Wedding%20destination.jpg 1920w" alt="Roxo - Wedding destination" class="lazyload" />
+        
+        {elseif $data.page == 'natai-beach-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bedroom's%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Bedroom's%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bedroom's%20balcony.jpg 1920w" alt="Villa Roxo - Bedroom's balcony" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Living%20spaces%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Living%20spaces%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Living%20spaces%20layout.jpg 1920w" alt="Villa Roxo - Living spaces layout" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Roxo%20-%20Bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Roxo%20-%20Bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Roxo%20-%20Bedroom%20design.jpg 1920w" alt="Roxo - Bedroom design" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Luxury%20awaits.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Luxury%20awaits.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Luxury%20awaits.jpg 1920w" alt="Villa Roxo - Luxury awaits" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Bbq%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg 1920w" alt="Villa Roxo - Bbq area" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Bbq%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg 1920w" alt="Villa Roxo - Bbq area" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Bbq%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg 1920w" alt="Villa Roxo - Bbq area" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Roxo.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Roxo%20-%20Bbq%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Roxo%20-%20Bbq%20area.jpg 1920w" alt="Villa Roxo - Bbq area" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

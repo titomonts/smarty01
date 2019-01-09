@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>BaanTawantokEstate</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Tawantok Beach Villas</villa_name>
+		<google_analytics>UA-105892338-1</google_analytics>
+		<location>Koh Samui</location>
+		<sublocation>Lipa Noi</sublocation>
+		<bedrooms>99</bedrooms>
+		<hrental_id>'BaanTawantokEstate', 'Koh Samui', 'Lipa Noi','99br'</hrental_id>
+		<ehgLocation>Koh Samui, Lipa Noi</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource> 
+		<ehgPageType>estate</ehgPageType>
+		</Source>
+		</Configuration>

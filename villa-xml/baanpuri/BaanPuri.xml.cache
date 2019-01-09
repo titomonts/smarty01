@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="BaanPuri">
+  <Contents>
+    <Content contentid="4336" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<ul><li>The villa’s main pavilion is an air-conditioned indoor area with an option to open glass sliding doors for a fresh sea breeze</li><li>Huge comfortable sofas face a media projector connected with an Andriod box and a DVD player providing a home-cinema</li><li>The dining area is furnished with a table seating for 14 guests</li><li>A guest kitchen for simple food preparation</li></ul><br />      ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<ul><li>A 29-metre salt-filtered private infinity pool with kid’s shallow zone</li><li>Half-sunken pool loungers on one side of the swimming pool</li><li>Sun beds with sunbrellas on the pool deck</li><li>Beachfront<span style="font-style: italic;"> sala</span> with cushioned wooden sofas</li><li>An outdoor dining area with a table that seats 14 guests</li><li>Terrace with sitting areas  </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4337" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master bedroom (Lotus)]]></Heading>
+          <Description><![CDATA[<ul><li>Absolute beachfront with glass sliding doors and easy access to the pool and beach</li><li>Four-poster king-size bed, a trundle for 2 kids and a coffee table</li><li>Ensuite bathroom with direct access to the swimming pool</li><li>Sunken <span style="font-style: italic;">terrazzo </span>bathtub overlooking the swimming pool and with partial ocean view</li><li>Fully air-conditioned  </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Poolside suite (Peony)]]></Heading>
+          <Description><![CDATA[<ul><li>A poolside suite with ensuite bathroom</li><li>A four-poster king-size bed, a trundle for 2 kids and a loveseat</li><li>Ensuite bathroom with twin basins and a sunken <span style="font-style: italic;">terrazzo</span> bathtub with direct pool access</li><li>Fully air-conditioned  </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest bedrooms (Gardenia and Orchid)]]></Heading>
+          <Description><![CDATA[<ul><li>Privately located on the ground floor</li><li>The Orchid suite is furnished with twin-beds</li><li>The Garden suite has a king-size bed</li><li>Ensuite bathrooms with twin sinks and indoor and outdoor showers</li><li>Fully air-conditioned   </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ocean View Suites (Frangipani and Magnolia)]]></Heading>
+          <Description><![CDATA[<ul><li>Two ocean view suites located on the upper floor</li><li>Both suites furnished with king-size beds</li><li>Sun terraces with wooden lounges that overlooks the pool and the beach</li><li>Ensuite bathrooms with twin sinks, bathtub and a separate shower stall</li><li>Fully air-conditioned </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4338" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Baan Puri is an absolute beachfront villa on Koh Samui’s quietest beach, Lipa Noi. This Samui villa has views of the Gulf of Siam. It is just few minutes from Samui’s capital, Nathon (good for easy basic shopping) and less than half hour drive from Chaweng, a must for shopping, dining and nightlife. Lipa Noi is an enjoyable 50-minute drive from Koh Samui airport.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Nikki Beach Koh Samui]]></Heading>
+          <Description><![CDATA[2 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Nathon ( capital of Koh Samui)]]></Heading>
+          <Description><![CDATA[6 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Lamai Beach ]]></Heading>
+          <Description><![CDATA[15 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chaweng Beach and Shopping Cen]]></Heading>
+          <Description><![CDATA[31.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Samui International Airport]]></Heading>
+          <Description><![CDATA[32.50 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4339" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Lipa Noi Beach, west coast, Koh Samui, Thailand</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>12 adults plus 4 kids (6 bedrooms: 5 with king-size beds and 1 with twin bed, 2 trundle beds for 4 kids).  An extra bed may be set up for an additional adult (extra charge applies).</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Living and dining area with spacious lounge (indoor cinema), modern open kitchen with breakfast bar, indoor and outdoor dining areas, pool terrace with sun loungers, poolside-bar, lounge <span style="font-style: italic;">sala.</span></p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool ]]></Heading>
+          <Description><![CDATA[<p>Length 29m x width 6m x depth 1.25 - 1.70m (children's zone  -  depth 60cm).</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager, chef, housekeeping and service staff, 24-hour security.  Additional staff such as nanny/babysitter, masseuse and driver are available upon request at extra charge.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>A resident chef is skilled in preparing Thai and Western dishes to be enjoyed in the indoor and outdoor dining areas, or as a candlelit dinner by the beach.  Guest requests are accommodated as far as possible, including special diets.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>Complimentary WiFi in all areas, including the beach.  Complimentary mobile phone for guest use on local calls. </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Indoor cinema, DVD player, Digital Music Library, Ipod, Sonos speaker, Bluetooth speakers, Android Box.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For Families]]></Heading>
+          <Description><![CDATA[<p>Baan Puri is extremely well equipped and located for families with children of all ages.  Activities include: kayaking, paddle boarding, football, beach volleyball and other games.  Amenities include: high-chairs, baby cots, baby bath, pool toys and beach toys.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gym]]></Heading>
+          <Description><![CDATA[<p>Access to the nearby Chai Talay Gym at a special rate of THB 500++/day or THB2,000++/week. Gym is open from 7am to 7pm.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>Massages and a range of beauty treatments can be arranged by the villa staff and enjoyed in various locations in and around the villa.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>Complimentary airport transfers.&nbsp; Baan Puri is located at Lipa Noi beach which is 50 minutes from Samui International Airport and 40 minutes from the main tourist area of Chaweng.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Weddings &amp; Events]]></Heading>
+          <Description><![CDATA[<p>Events for up to 40 guest seated or 70 guests standing can be arranged at Baan Puri with prior notice (event fee applies).</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p> Massage; barbecue. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property area]]></Heading>
+          <Description><![CDATA[<p>2,200sqm (land).</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed and marketed by]]></Heading>
+          <Description><![CDATA[<style> /* Style Definitions */ table.MsoNormalTable{mso-style-name:"Table Normal";mso-tstyle-rowband-size:0;mso-tstyle-colband-size:0;mso-style-noshow:yes;mso-style-priority:99;mso-style-parent:"";mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-para-margin-top:0in;mso-para-margin-right:0in;mso-para-margin-bottom:8.0pt;mso-para-margin-left:0in;line-height:107%;mso-pagination:widow-orphan;font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;}</style>  <p class="MsoNormal"><a href="http://">The Elite Havens Group.</a><br /></p>  <!--[if gte mso 9]><xml> <o:DocumentProperties>  <o:Version>16.00</o:Version> </o:DocumentProperties> <o:OfficeDocumentSettings>  <o:RelyOnVML></o:RelyOnVML>  <o:AllowPNG></o:AllowPNG> </o:OfficeDocumentSettings></xml><![endif]--><!--[if gte mso 9]><xml> <w:WordDocument>  <w:View>Normal</w:View>  <w:Zoom>0</w:Zoom>  <w:TrackMoves></w:TrackMoves>  <w:TrackFormatting></w:TrackFormatting>  <w:DoNotShowRevisions></w:DoNotShowRevisions>  <w:DoNotPrintRevisions></w:DoNotPrintRevisions>  <w:DoNotShowMarkup></w:DoNotShowMarkup>  <w:DoNotShowComments></w:DoNotShowComments>  <w:DoNotShowInsertionsAndDeletions></w:DoNotShowInsertionsAndDeletions>  <w:DoNotShowPropertyChanges></w:DoNotShowPropertyChanges>  <w:PunctuationKerning></w:PunctuationKerning>  <w:ValidateAgainstSchemas></w:ValidateAgainstSchemas>  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>  <w:DoNotPromoteQF></w:DoNotPromoteQF>  <w:LidThemeOther>EN-US</w:LidThemeOther>  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>  <w:Compatibility>   <w:BreakWrappedTables></w:BreakWrappedTables>   <w:SnapToGridInCell></w:SnapToGridInCell>   <w:WrapTextWithPunct></w:WrapTextWithPunct>   <w:UseAsianBreakRules></w:UseAsianBreakRules>   <w:DontGrowAutofit></w:DontGrowAutofit>   <w:SplitPgBreakAndParaMark></w:SplitPgBreakAndParaMark>   <w:EnableOpenTypeKerning></w:EnableOpenTypeKerning>   <w:DontFlipMirrorIndents></w:DontFlipMirrorIndents>   <w:OverrideTableStyleHps></w:OverrideTableStyleHps>  </w:Compatibility>  <m:mathPr>   <m:mathFont m:val="Cambria Math"></m:mathFont>   <m:brkBin m:val="before"></m:brkBin>   <m:brkBinSub m:val="--"></m:brkBinSub>   <m:smallFrac m:val="off"></m:smallFrac>   <m:dispDef></m:dispDef>   <m:lMargin m:val="0"></m:lMargin>   <m:rMargin m:val="0"></m:rMargin>   <m:defJc m:val="centerGroup"></m:defJc>   <m:wrapIndent m:val="1440"></m:wrapIndent>   <m:intLim m:val="subSup"></m:intLim>   <m:naryLim m:val="undOvr"></m:naryLim>  </m:mathPr></w:WordDocument></xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"  DefSemiHidden="false" DefQFormat="false" DefPriority="99"  LatentStyleCount="375">  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"></w:LsdException>  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 2"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 3"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 4"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 5"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 6"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 7"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 8"></w:LsdException>  <w:LsdException Locked="false" Priority="9" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="heading 9"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 6"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 7"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 8"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index 9"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 1"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 2"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 3"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 4"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 5"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 6"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 7"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 8"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" Name="toc 9"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Normal Indent"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="footnote text"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="annotation text"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="header"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="footer"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="index heading"></w:LsdException>  <w:LsdException Locked="false" Priority="35" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="caption"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="table of figures"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="envelope address"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="envelope return"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="footnote reference"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="annotation reference"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="line number"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="page number"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="endnote reference"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="endnote text"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="table of authorities"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="macro"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="toa heading"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Bullet"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Number"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Bullet 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Bullet 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Bullet 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Bullet 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Number 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Number 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Number 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Number 5"></w:LsdException>  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Closing"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Signature"></w:LsdException>  <w:LsdException Locked="false" Priority="1" SemiHidden="true"   UnhideWhenUsed="true" Name="Default Paragraph Font"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text Indent"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Continue"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Continue 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Continue 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Continue 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="List Continue 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Message Header"></w:LsdException>  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Salutation"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Date"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text First Indent"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text First Indent 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Note Heading"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text Indent 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Body Text Indent 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Block Text"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Hyperlink"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="FollowedHyperlink"></w:LsdException>  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"></w:LsdException>  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Document Map"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Plain Text"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="E-mail Signature"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Top of Form"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Bottom of Form"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Normal (Web)"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Acronym"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Address"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Cite"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Code"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Definition"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Keyboard"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Preformatted"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Sample"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Typewriter"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="HTML Variable"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Normal Table"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="annotation subject"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="No List"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Outline List 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Outline List 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Outline List 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Simple 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Simple 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Simple 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Classic 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Classic 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Classic 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Classic 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Colorful 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Colorful 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Colorful 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Columns 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Columns 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Columns 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Columns 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Columns 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 6"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 7"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Grid 8"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 4"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 5"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 6"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 7"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table List 8"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table 3D effects 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table 3D effects 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table 3D effects 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Contemporary"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Elegant"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Professional"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Subtle 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Subtle 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Web 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Web 2"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Web 3"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Balloon Text"></w:LsdException>  <w:LsdException Locked="false" Priority="39" Name="Table Grid"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Table Theme"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"></w:LsdException>  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"></w:LsdException>  <w:LsdException Locked="false" Priority="34" QFormat="true"   Name="List Paragraph"></w:LsdException>  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"></w:LsdException>  <w:LsdException Locked="false" Priority="30" QFormat="true"   Name="Intense Quote"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="19" QFormat="true"   Name="Subtle Emphasis"></w:LsdException>  <w:LsdException Locked="false" Priority="21" QFormat="true"   Name="Intense Emphasis"></w:LsdException>  <w:LsdException Locked="false" Priority="31" QFormat="true"   Name="Subtle Reference"></w:LsdException>  <w:LsdException Locked="false" Priority="32" QFormat="true"   Name="Intense Reference"></w:LsdException>  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"></w:LsdException>  <w:LsdException Locked="false" Priority="37" SemiHidden="true"   UnhideWhenUsed="true" Name="Bibliography"></w:LsdException>  <w:LsdException Locked="false" Priority="39" SemiHidden="true"   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"></w:LsdException>  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"></w:LsdException>  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"></w:LsdException>  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"></w:LsdException>  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"></w:LsdException>  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"></w:LsdException>  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"></w:LsdException>  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"></w:LsdException>  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"></w:LsdException>  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="Grid Table 1 Light Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="Grid Table 6 Colorful Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="Grid Table 7 Colorful Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="Grid Table 1 Light Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="Grid Table 6 Colorful Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="Grid Table 7 Colorful Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="Grid Table 1 Light Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="Grid Table 6 Colorful Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="Grid Table 7 Colorful Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="Grid Table 1 Light Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="Grid Table 6 Colorful Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="Grid Table 7 Colorful Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="Grid Table 1 Light Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="Grid Table 6 Colorful Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="Grid Table 7 Colorful Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="Grid Table 1 Light Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="Grid Table 6 Colorful Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="Grid Table 7 Colorful Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"></w:LsdException>  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"></w:LsdException>  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="List Table 1 Light Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="List Table 6 Colorful Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="List Table 7 Colorful Accent 1"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="List Table 1 Light Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="List Table 6 Colorful Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="List Table 7 Colorful Accent 2"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="List Table 1 Light Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="List Table 6 Colorful Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="List Table 7 Colorful Accent 3"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="List Table 1 Light Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="List Table 6 Colorful Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="List Table 7 Colorful Accent 4"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="List Table 1 Light Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="List Table 6 Colorful Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="List Table 7 Colorful Accent 5"></w:LsdException>  <w:LsdException Locked="false" Priority="46"   Name="List Table 1 Light Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="51"   Name="List Table 6 Colorful Accent 6"></w:LsdException>  <w:LsdException Locked="false" Priority="52"   Name="List Table 7 Colorful Accent 6"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Mention"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Smart Hyperlink"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Hashtag"></w:LsdException>  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"   Name="Unresolved Mention"></w:LsdException> </w:LatentStyles></xml><![endif]--><!--[if gte mso 10]><![endif]-->  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4341" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Koh Samui is a relatively small island at just under 230 square kilometres, and much of that is still pristine forest-covered hillside and palm plantations – but it offers a wealth of fun and interesting things to do.&nbsp; Let the staff know what sort of activities you’re interested in and your villa manager will help guide your choices and can also arrange transport to take you there.</p><p>Here are some highlights:&nbsp; </p><ul><li><span style="font-weight: bold;">Lipa Noi</span> offers a taste of the laid-back local Samui lifestyle, with numerous rustic, beachfront restaurants and cafés serving Thai and Western cuisines. It’s is also an up-and-coming lifestyle destination with attractions such as a the uber cool Mediterranean-style Nikki Beach Club, which is renowned for its poolside Sunday Brunches and entertainment. &nbsp;</li><li>If it’s shopping, dining and nightlife you’re looking for, Koh Samui has no shortage with the vibrant centres of <span style="font-weight: bold;">Chaweng, Lamai </span>and <span style="font-weight: bold;">Fisherman’s Village, Bophut</span>, just 30-40 minutes’ drive away. </li><li>The nearby ferry port of Nathon has a charming China town area as well as a ‘Walking Street’ <span style="font-weight: bold;">Night Market</span> on Thursdays or for a larger version, Fisherman’s Village Night Market in Bophut springs to life every Friday evening. </li><li>For <span style="font-weight: bold;">island hopping</span>! The Ang Thong National Marine Park encompasses a cluster of islands The heavily jungled islands are carefully controlled to keep them in pristine natural condition. A trip to them is a must. &nbsp;</li><li>Samui has a number of spectacular <span style="font-weight: bold;">waterfalls</span>. We would recommend starting with the Namuang Falls. Take your bathing costume; there’s a very inviting pool at the base of the falls.</li><li>Have an <span style="font-weight: bold;">adventure</span> atop Khao Pom mountain on ATVs or the zipline, or just gaze out at the scenery below from the viewpoint.</li><li>There’s a <span style="font-weight: bold;">kite surfing</span> school on the beach at Nathon where you can rent a rig or learn how to do it.</li><li>Regular <span style="font-weight: bold;">Thai boxing</span> tournaments are staged at the largest stadium on the island, the Petch Buncha near Chaweng. These are not tourist demo fights; they are the real thing.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4343" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>If you’re looking to get away from it all, feel the sand in between your toes and wonder at the incredible beauty of nature, then this is the Koh Samui villa for you.</p><p>Baan Puri in Lipa Noi, on the west coast of the island, is beachside living at its absolute best.</p><p>This tastefully designed villa is infused with Thai motifs and created as a discreet sanctuary on one of the island’s most beautiful beaches. Stunning views of the nearby Five Islands group and&nbsp; Thai coastline on the horizon, set this unique scene.</p><p>Six sumptuous<span style="font-style: italic;"> </span>ensuite bedrooms, where attention to detail never fails to impress, open either onto the beach or to the long rectangular infinity pool that stretches towards the sea.&nbsp; All bedroom interiors feature modern Thai-style design in light tropical woods and natural fabrics, large comfortable beds, and armchairs or daybeds for relaxing.</p><p>In the morning, the shaded beach invites you for a cool early stroll along silky white sand as the rising sun illuminates the dazzling views of the sea and islands. In the evening, Samui’s famous sunsets draw you down to the beach to catch what you can of these glorious spectacles. </p><p>Although the Baan Puri team of attentive staff, which includes skilled Thai chef and friendly villa manager, will make it hard to leave the villa, Lipa Noi has its local charms and the vibrant hotspots of this popular tropical island are just a short drive away.</p><p>But the likelihood is, that you will just want to linger and luxuriate and let the beauty of Baan Puri and its surroundings calm your mind and revitalize your spirits, as only the incredible beauty of Thailand and its people know how.</p> ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4446" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Baan Puri is a peaceful sanctuary of Thai-inspired pavilions set in lush tropical gardens surrounding a pool on the beachfront at Lipa Noi – one of the most beautiful beaches on Koh Samui’s tranquil west coast. With six luxurious ensuite bedrooms, this spacious villa is well suited for family holidays, parties of friends or retreat groups.</p><p>Rejoicing in glorious sunsets and stunning panoramic views over the picturesque Five Islands group, this idyllic hideaway is customised to relax and recharge – with friendly staff taking attentive care of you in true Thai style.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4447" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Baan Puri is an idyllic, private sanctuary for groups or families looking to get away from it all on a blissful tropical beach blessed with solitude and gorgeous sunsets.</p><p>Lush tropical gardens and a koi pond welcome guests to this discreet retreat comprising four ground-floor bedroom suites and a split-level living and dining pavilion with two upper-floor ensuite bedrooms.</p><p>An impressive pool and manicured lawn slopes down to the powder white-sand beach – one of the most beautiful in Koh Samui, with safe, shallow water bringing peace of mind to parents with young children.</p><p>The ground-floor bedrooms overlook the beach, pool and gardens, while the two upper-floor rooms enjoy a spectacular panorama from an inviting shared terrace. </p><p>As the rising sun illuminates dazzling views over the sea and distant islands, greet the day with a morning stroll along the inviting, shaded palm-fringed beach. In the cool of the evening, soak up the glorious spectacle of Lipa Noi’s famous sunsets.</p><p>Dining is eminently flexible, with Thai or western cuisine served in the dining pavilion, on an outdoor terrace, or by candlelight beside the beach…. beneath whispering palms and a twinkling starry night.</p><p>Far from the tourist crowds, Lipa Noi has its local charms of rustic, beachfront bars and the nearby trendy Nikki Beach Club; while the vibrant shopping and nightlife hotspots of Chaweng, Lamai and Fisherman’s Village night market in Bophut are just a 30-minute drive away. </p><p>In all likelihood you will probably just want to linger and luxuriate in the peace and tranquility of Baan Puri… calming your mind and revitalising your spirit in this blissful tropical paradise.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4448" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Baan Puri’s impressive entrance leads past a koi pond to the spacious living and dining pavilion where guests are greeted with spectacular views down the length of the 29-metre pool and out over the ocean. To the left of the living pavilion, stretching down towards the beach, are the four ground-floor bedroom suites, each offering privacy and luxury with differing outlooks over the sea, pool and tropical gardens. The two spacious upstairs bedrooms open on to a large terrace, catching the sea breezes and maximising the view. At the far end of the pool is a comfortably furnished sunken sala and swim-up bar fronted by a wide, beachside lawn.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4449" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>Six sumptuous air-conditioned ensuite bedrooms open either onto the beach, or overlook the pool and tropical gardens. Interiors feature modern Thai-style design with large comfortable beds, armchairs and daybeds.</p><p>Throughout the villa, a tasteful collection of Thai art works and sculptures provide a serene sense of place for guests of the villa.&nbsp; </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master bedroom (Lotus)]]></Heading>
+          <Description><![CDATA[<p>Lotus is the villa’s master bedroom, providing a luxury beachfront living experience.&nbsp; Opening onto its own private terrace just steps from the seashore, this beautifully appointed suite offers the most stunning views. </p><p>The bedroom features a king-size four-poster bed, a trundle bed for two children, with easy chairs and indoor and outdoor daybeds. The bathroom and dressing area features a terrazzo bathtub with screen which pulls back to offer access to the swimming pool.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Poolside Suite (Peony)]]></Heading>
+          <Description><![CDATA[<p>The poolside Peony Suite enjoys a serene view of the pool and garden sala and has access to a secluded garden, shared with the Lotus master bedroom, for alfresco massages and spa treatments. </p><p>This suite also features a four-poster king-size bed, a trundle for two children and a loveseat.&nbsp; The ensuite bathroom includes a dressing area and terrazzo bathtub with direct pool access.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest bedrooms (Gardenia and Orchid)]]></Heading>
+          <Description><![CDATA[<p>Privately located behind the pool area, the Orchid and Gardenia bedrooms are surrounded by the beauty of the villa’s lush gardens and tastefully arranged Thai art works.&nbsp; </p><p>The Orchid suite features ample twin beds while the Gardenia suite has a king-size bed. Ensuite bathrooms in both bedrooms feature twin sinks and generous indoor and outdoor showers. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ocean view bedrooms (Frangipani and Magnolia)]]></Heading>
+          <Description><![CDATA[Located on the upper level of the main pavilion, the two ocean view bedrooms open onto a wide shared terrace with wooden loungers that overlooks the pool and the beach. <br /><p>These two rooms feature king-size beds and ensuite bathrooms with twin sinks, bathtubs and separate showers. </p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4450" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<p>Baan Puri offers a number of inviting venues for dining, socializing or just relaxing.</p><p>The main pavilion is devoted to a sleek, state-of-the art open-guest-kitchen servicing both indoor and outdoor dining areas, and a lounge with large comfortable sofas and a drop down screen which converts to a home cinema. For more formal dining, an impressive dining table can seat up to 12 people. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>To the front of the living pavilion is a covered, fan-cooled dining terrace, which is ideal for breakfast and casual meals overlooking the pool and view. At the beach end of the pool, a sunken <span style="font-style: italic;">sala </span>is a shady retreat during the day and the place for early evening cocktails with a poolside bar and large cushioned wooden sofas and armchairs. </p><p>On the lawn, oversized sofas and armchairs, become a magical place to watch the sunset or for a candlelight dinner under a canopy of soaring palms and a star-filled sky.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4451" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>The true luxury of staying in a villa such as Baan Puri is being taken care of by our welcoming, dedicated Thai staff whose only objective is to make your stay as comfortable and enjoyable as possible. The level of attention is up to you, and our staff will tailor their presence to suit your preferences.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa manager]]></Heading>
+          <Description><![CDATA[<p>Baan Puri’s highly experience villa manager is responsible for the overall operation of the villa. The manager’s job is to oversee and coordinate the staff and property and to assist guests during their stay.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s resident chef is trained in local and international cuisine and oversees the market shopping and preparation of all guest meals. The chef will happily prepare dishes from the villa’s suggestion menu, as well accommodating special culinary requests and dietary requirements.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Villa attendants]]></Heading>
+          <Description><![CDATA[<p>Two attendants take care of the daily cleaning and tidying of the villa. The same team are skilled waiters/waitresses and will assist the kitchen and service at mealtimes.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Garden and pool]]></Heading>
+          <Description><![CDATA[<p>A gardener maintains Baan Puri’s lush gardens and swimming pool and is up early to make sure that the beach in front of the villa is clean and ready for guests to enjoy. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>Baan Puri is kept safe and secure 24 hours a day by security staff working rotating shifts.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4452" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Dining at Baan Puri is a moveable feast with your own private chef to prepare your favourite Thai and Western dishes, to order. The villa menu offers a wide choice of popular specialties, including children’s favourites, and chef will also accommodate your own specific menu requests and dietary needs as far as possible.&nbsp;&nbsp;&nbsp; </p><p>Breakfast, which is included in the villa rate, is served on the breezy dining terrace or in the dining room as weather permits. Expect a spectacular spread of fresh local fruits and juices, freshly baked breads and pastries, and cooked breakfast with eggs and all the trimmings to order. Or you can choose to enjoy it in bed or on your private terrace.&nbsp; Lunch is served on the main dining terrace, lawn, or by the pool. </p><p>In the evenings, you can opt for a more formal dinner in the main pavilion or on the outdoor terrace, light snacks served with cocktails in the <span style="font-style: italic;">sala</span>, a beachside barbecue, or candlelight dinner beneath a canopy of towering palms and a star-filled night sky.&nbsp; </p><p>Drinks, along with groceries for meals other than breakfast, are charged at market price plus a 20% handling fee and a government tax, with a minimum shopping fee of THB 750.&nbsp; Staff will do the shopping and provide receipts for reference.&nbsp; To ensure this can be done in a timely manner, we advise you to plan your meals the evening before.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4453" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Baan Puri is a beachside paradise for families, with plenty to occupy all ages from tots to teenagers.</p>The long swimming pool features a safe shallow zone for younger children and a variety of pool toys to play with. Beyond the pool, energetic youngsters will love the villa’s magnificent beachfront lawn, which opens onto a white sandy beach and shallow blue sea for endless hours of fun and enjoyment. &nbsp;<br /><p>The aim of the villa staff is to make sure that both parents and their children enjoy a memorable holiday. From taking care of the little ones while the adults enjoy a meal or massage, setting up nets for a game of beach volleyball or soccer on the soft grass, to booking babysitters if required, genuine Thai hospitality is always present.</p>For indoor entertainment in the evenings, or when some respite from the sun is called for, the villa’s home cinema is a big hit with families, offering an endless choice of movies, TV series and games for all ages, in a comfortable, air-conditioned sitting area.&nbsp; &nbsp;&nbsp;<br /><p>When it comes to dining, young guests can expect the same 5-star service as their parents, choosing from their own special menu of local and international dishes, including favourites such as chicken nuggets and fish fingers, as well as a taste of Thai cuisine with items such as spring rolls and prawn cakes, not to mention an abundance of exotic and delicious fruits – always popular with young guests. </p>&nbsp;And Baan Puri’s superb guest-kitchen is always available for parents to prepare their own children’s meals if they prefer.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<br /><p>Although it will be hard to drag the youngsters away from the pool and the beach at Baan Puri, Koh Samui offers families a wide range of leisure, cultural sports and adventure experiences for all ages.&nbsp; See ‘<a target="_blank" title="Thing to do" href="./the-locale/things-to-do.html">Thing to do</a> in Samui’.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4454" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>Baan Puri is an idyllic and inspiring setting that lends itself to relaxation and revitalization.</p><p>Massages, yoga and exercise sessions, and a range of beauty treatments by professional therapists can be arranged for you by the villa staff and enjoyed in the privacy of your own suite, or in various locations around the villa such as your private terrace, by the pool, or on the beach, where the sound of the waves and the wind in the palms will lull you into a peaceful, sybaritic state-of-mind.</p><p>Here are just a few examples of what’s available: </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>A visit to Thailand would be incomplete without experiencing the pleasures of a full Thai massage.&nbsp; Skilled masseuses manipulate the body in a firm but gentle manner, smoothing and massaging the skin with aromatic oils created from the bounty of Thailand’s nature. As a finale to your massage, hot herbal compresses are applied strategically around the body to leave you totally relaxed and rejuvenated.</p><p>If a full-body massage is not for you, therapists will also pamper you with a soothing head and shoulders massage with aromatic oils, or invigorate you with a firm lower-leg and reflexology foot massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrubs]]></Heading>
+          <Description><![CDATA[<p>The Thai body scrub is an exceptional experience for anyone seeking a smoother, glowing skin. Using local salts and minerals, herbal and aromatic oils, the therapist will exfoliate your body in a gentle soothing manner to leave you feeling refreshed and invigorated.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Exercise]]></Heading>
+          <Description><![CDATA[<p>The beauty of this setting is sure to inspire you to a walk or jog on the beach, or to roll out your yoga mat to reconnect your body and mind with nature. Our villa manager can arrange a one-on-one yoga session with a professional instructor, or a group session for you and your party.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/Pedicure]]></Heading>
+          <Description><![CDATA[<p>And finally, nails. Spoil your hands and feet with a mani-pedi, polished off with acrylic or gel nails.<br /><br /></p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4455" contenttypeid="EVT" desc="Event">
+      <Description><![CDATA[<p>Baan Puri lends itself to gatherings such as romantic weddings, birthday celebrations, anniversaries and special family occasions.&nbsp;&nbsp; </p><p>A variety of indoor and outdoor venues for dining and special set-up includes the main pavilion and outdoor terrace, beachfront lawn and gardens and of course, the beach itself.&nbsp; </p><p>Events for up to 40 guest seated or 70 guests standing&nbsp; can be arranged at Baan Puri with prior notice (event fee applies).</p><p>Elite Havens can assist in organizing events by recommending expert event organisers, florists, decorators and caterers so you can focus on relaxing and celebrating with your guests.</p><a href="http://cdn.elitehavens.com/docs/eventguidelines/thailand/EH-General-Event-Guidelines-Koh-Samui.pdf" target="_blank" title="Elite Havens General Event Guidelines, Koh Samui">Elite Havens General Event Guidelines</a><br /><a href="http://cdn.elitehavens.com/docs/eventguidelines/thailand/Baan-Puri-Event-Guidelines.pdf" target="_blank" title="Baan Puri Event Guidelines">Baan Puri Event Guidelines</a>]]></Description>
+      <SubContents />
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Baan Puri</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Lipa Noi">Lipa Noi</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Koh Samui">Koh Samui</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="TH">Thailand</Country>
+    <Address contenttypeid="EI_ADDRESS">57/5 Moo 2, Lipa Noi, Koh Samui, Surat Thani, Thailand 84140</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>9.48749960</Latitude>
+        <Longitude>99.92433260</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Baan Puri is an idyllic, staffed, beachfront villa sanctuary for families, parties or groups at Lipa Noi, one of Koh Samui’s most beautiful, west-coast beaches.&lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>6 bedroom</RoomName>
+        <MinRate>1700.00++</MinRate>
+        <MaxRate>3200.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>5 bedroom</RoomName>
+        <MinRate>1450.00++</MinRate>
+        <MaxRate>3200.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>4 bedroom</RoomName>
+        <MinRate>1200.00++</MinRate>
+        <MaxRate>3200.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Baan Puri - Stunnning view across the sea</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/1. Baan Puri - Stunnning view across the sea.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Tropical surrounding</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/2. Baan Puri - Tropical surrounding.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Alfresco dining</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/3. Baan Puri - Alfresco dining.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Peony poolside suite outlook</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/4. Baan Puri - Peony poolside suite outlook.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri- Attentive Staff</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/5. Baan Puri - Attentive staff.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Ultimate luxe</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/6. Baan Puri - Ultimate luxe.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Outstanding facade</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/7. Baan Puri - Outstanding facade.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Luxury awaits</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/8. Baan Puri - Luxury awaits.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Magnificent view from ocean view suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/9. Baan Puri - Magnificent view from ocean view suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Cinema room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/10. Baan Puri - Cinema room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Tropical luxe</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/11. Baan Puri - Tropical luxe.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Massage area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/12. Baan Puri - Massage area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Lotus Beachfront Suite view to the pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/13. Baan Puri - Lotus Beachfront Suite view to the pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Beachfront dining night setting</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/14. Baan Puri - Beachfront dining night setting.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Baan Puri - Stunning view from ocean view suites</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/BaanPuri/15. Baan Puri - Stunning view from ocean view suites.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

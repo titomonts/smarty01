@@ -1,0 +1,2 @@
+
+defer(function(){jQuery('<div class="iframe-wrapper"><iframe id="iframeCalendar" src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&Villaid=edJV33mmgu8=&did=rSKHLr3698mcsL2vtzAN%2B3AwZwiYCKok" height="280px" frameBorder="0" width="590px" allowtransparency="true" scrolling="auto"></iframe></div>').insertBefore('#tabs');});function defer(method){if(window.jQuery){method();}else{setTimeout(function(){defer(method)},50);}}

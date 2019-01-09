@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>SesehBeachVillas</villa_id>
+		<estate_id vids="P00004, P00006">SesehBeachVillas</estate_id>
+		<villa_name>Seseh Beach Villas</villa_name>
+		<google_analytics>UA-50802751-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Seseh-TanahLot</sublocation>
+		<bedrooms>99</bedrooms>
+		<hrental_id>'P00004', 'Bali', 'Seseh-Tanah Lot', '99br'</hrental_id>
+		<ehgLocation>Bali, Seseh-Tanah Lot</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>estate</ehgPageType>
+		</Source>
+		</Configuration>

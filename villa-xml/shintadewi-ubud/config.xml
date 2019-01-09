@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00028</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Shinta Dewi Ubud</villa_name>
+		<google_analytics>UA-XXX</google_analytics>
+		<location>Bali</location>
+		<sublocation>Ubud</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'P00028', 'Bali', 'Ubud', '4br'</hrental_id>
+		<ehgLocation>Bali, Ubud</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

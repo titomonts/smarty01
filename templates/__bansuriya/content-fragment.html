@@ -1,0 +1,319 @@
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+        <h2 class="entry-title"><span>Living areas</span></h2>
+       
+        <div class="first-img"><img src="{$data.cdn}/resources/bansuriya/content/explore/thumb/Ban Suriya - Spacious living area.jpg" data-src="{$data.cdn}/resources/bansuriya/content/explore/Ban Suriya - Spacious living area.jpg" alt="Ban Suriya - Spacious living area" class="lazyload" /></div>
+        
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/bansuriya/content/explore/thumb/Ban Suriya - The Peacock bedroom.jpg" data-src="{$data.cdn}/resources/bansuriya/content/explore/Ban Suriya - The Peacock bedroom.jpg" alt="Ban Suriya - The Peacock bedroom" class="lazyload" /></div>
+        
+        {if 'desc'|array_key_exists:$content[0]}
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+        {/if}
+                
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        <div class="second-img"><img src="{$data.cdn}/resources/bansuriya/content/explore/thumb/Ban Suriya - Outstanding bedroom interior.jpg" data-src="{$data.cdn}/resources/bansuriya/content/explore/Ban Suriya - Outstanding bedroom interior.jpg" alt="Ban Suriya - Outstanding bedroom interior" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/bansuriya/content/explore/thumb/Ban Suriya - Bedroom outlook.jpg" data-src="{$data.cdn}/resources/bansuriya/content/explore/Ban Suriya - Bedroom outlook.jpg" alt="Ban Suriya - Bedroom outlook" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+        <h2 class="entry-title"><span>Staff</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Our team.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Our team.jpg" alt="Ban Suriya - Our team" class="lazyload" /></div>
+        
+        {if 'SubContents'|array_key_exists:$content[0]}
+        	<dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+        
+        <div class="clear"></div>
+    </div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+        <h2 class="entry-title"><span>Dining</span></h2>
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Private chef.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Private chef.jpg" alt="Ban Suriya - Private chef" class="lazyload" /></div>
+        
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        <div class="second-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Attentive staff.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Attentive staff.jpg" alt="Ban Suriya - Attentive staff" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Thai beef salad.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Thai beef salad.jpg" alt="Ban Suriya - Thai beef salad" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+        <h2 class="entry-title"><span>Families</span></h2>
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Pool table.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Pool table.jpg" alt="Ban Suriya - Pool table" class="lazyload" /></div>
+        
+		{if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        <div class="second-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Kids room football table.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Kids room football table.jpg" alt="Ban Suriya - Kids room football table" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Chess board.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Chess board.jpg" alt="Ban Suriya - Chess board" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="SPAGYM"}
+        <h2 class="entry-title"><span>Spa</span></h2>
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Massage room.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Massage room.jpg" alt="Ban Suriya - Massage room" class="lazyload" /></div>
+        
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {if 'SubContents'|array_key_exists:$content[0]}
+        	<dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+        <div class="second-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Spa room.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Spa room.jpg" alt="Ban Suriya - Spa room" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/bansuriya/content/experience/thumb/Ban Suriya - Bedroom design.jpg" data-src="{$data.cdn}/resources/bansuriya/content/experience/Ban Suriya - Bedroom design.jpg" alt="Ban Suriya - Bedroom design" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['lipa-noi-koh-samui', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        <div class="map_div" id="map_div_locale"></div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+        	<dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+    </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['lipa-noi-koh-samui', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h2 class="entry-title"><span>Things to do</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+        	
+        	{contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+            <div class="group">
+        	{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+        	{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+            {if $smarty.section.s.index mod 2}
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>']:['', '']}
+            </div>
+            <div class="half">
+            <img src="{$data.cdn}/resources/bansuriya/content/locale/thumb/Ban%20Suriya%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" data-src="{$data.cdn}/resources/bansuriya/content/locale/Ban%20Suriya%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            {else}
+            <div class="half">
+            <img src="{$data.cdn}/resources/bansuriya/content/locale/thumb/Ban%20Suriya%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" data-src="{$data.cdn}/resources/bansuriya/content/locale/Ban%20Suriya%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>']:['', '']}
+            </div>
+            {/if}
+            {/section}
+            </div>
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+    </div>
+</div>
+{/if}

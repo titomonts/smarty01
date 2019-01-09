@@ -1,0 +1,82 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+
+    {if $smarty.server.HTTP_USER_AGENT|strpos:"Chrome" or $smarty.server.HTTP_USER_AGENT|strpos:"CriOS" or $smarty.server.HTTP_USER_AGENT|strpos:"Safari" or $smarty.server.HTTP_USER_AGENT|strpos:"AppleWebKit"}
+    {$mute = '&mute=1'}   
+    {else}
+    {$mute = ''} 
+    {/if}
+    <div class="media">
+        <div class="video">
+            <iframe id="yt_video" name="yt_video" width="100%" class="yt_video" src="https://www.youtube.com/embed/gS0FYhXkY8E?playlist=gS0FYhXkY8E&iv_load_policy=3&enablejsapi=1&disablekb=1&autoplay=1&controls=0&showinfo=0&rel=0&loop=1&autohide=1&color=white&modestbranding=1{$mute}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+        </div>
+        <div class="hero">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Epic%20scenery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Epic%20scenery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Epic%20scenery.jpg 1920w" alt="Villa Nautilus - Epic scenery" class="lazyload" />  
+        </div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-nautilus'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20A%20slice%20of%20paradise.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20A%20slice%20of%20paradise.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20A%20slice%20of%20paradise.jpg 1920w" alt="Villa Nautilus - A slice of paradise" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Exceptional%20yoga%20experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Exceptional%20yoga%20experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Exceptional%20yoga%20experience.jpg 1920w" alt="Villa Nautilus - Exceptional yoga experience" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Wonderful%20escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Wonderful%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Wonderful%20escape.jpg 1920w" alt="Villa Nautilus - Wonderful escape" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Bar%20timer.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Bar%20timer.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Bar%20timer.jpg 1920w" alt="Villa Nautilus - Bar timer" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Splashing%20good%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Splashing%20good%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Splashing%20good%20time.jpg 1920w" alt="Villa Nautilus - Splashing good time" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Enchanting%20setup%20with%20beautiful%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Enchanting%20setup%20with%20beautiful%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Enchanting%20setup%20with%20beautiful%20view.jpg 1920w" alt="Villa Nautilus - Enchanting setup with beautiful view" class="lazyload" />
+        
+        {elseif $data.page == 'ao-po-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1920w" alt="Villa Nautilus - Yoga with great view" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Private%20chef%20during%20your%20stay.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Private%20chef%20during%20your%20stay.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Private%20chef%20during%20your%20stay.jpg 1920w" alt="Villa Nautilus - Private chef during your stay" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Alluring%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Alluring%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Alluring%20view.jpg 1920w" alt="Villa Nautilus - Alluring view" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Play%20golf%20with%20breathtaking%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Play%20golf%20with%20breathtaking%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Play%20golf%20with%20breathtaking%20view.jpg 1920w" alt="Villa Nautilus - Play golf with breathtaking view" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Relax%20and%20refresh.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Relax%20and%20refresh.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Relax%20and%20refresh.jpg 1920w" alt="Villa Nautilus - Relax and refresh" class="lazyload" />
+        
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Relax%20and%20refresh.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Living%20area%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Living%20area%20outlook.jpg 1920w" alt="Villa Nautilus - Living area outlook" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Relax%20and%20refresh.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Living%20area%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Living%20area%20outlook.jpg 1920w" alt="Villa Nautilus - Living area outlook" class="lazyload" />
+        
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Wonderful%20scenery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Wonderful%20scenery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Wonderful%20scenery.jpg 1920w" alt="Villa Nautilus - Wonderful scenery" class="lazyload" />
+        
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1920w" alt="Villa Nautilus - Paradise on earth" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1920w" alt="Villa Nautilus - Paradise on earth" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Yoga%20with%20great%20view.jpg 1920w" alt="Villa Nautilus - Paradise on earth" class="lazyload" />
+        
+        {else}
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Epic%20scenery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nautilus%20-%20Epic%20scenery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nautilus%20-%20Epic%20scenery.jpg 1920w" alt="Villa Nautilus - Epic scenery" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

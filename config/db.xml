@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+	<connection>
+		<host>localhost</host>
+		<username>root</username>
+		<password>hcnom2031055</password>
+		<database>aws_smarty</database>
+	</connection>
+</database>

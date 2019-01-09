@@ -1,0 +1,508 @@
+{if $data.page|in_array:['about-villa-kayajiwa']}
+<div class="content-item odd about" id="about">
+    
+	<div class="wrapper">
+		<div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+			<h1 class="entry-title"><span>{$data.heading}</span></h1>                
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc regex="default"}
+				{section name=s loop=$contentPart}
+				{$contentPart[s]}
+				{/section}
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			{/if}
+		</div>
+	</div>
+	<div class="group">
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa%20Kayajiwa%20-%20Immersive%20nature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Villa%20Kayajiwa%20-%20Immersive%20nature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Villa%20Kayajiwa%20-%20Immersive%20nature.jpg 1920w" alt="Villa Kayajiwa - Immersive nature" class="lazyload" /></div>
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa%20Kayajiwa%20-%20Personal%20space.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Villa%20Kayajiwa%20-%20Personal%20space.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Villa%20Kayajiwa%20-%20Personal%20space.jpg 1920w" alt="Villa Kayajiwa - Personal space" class="lazyload" /></div>
+    </div>
+
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+        <h1 class="entry-title"><span>{$data.heading}</span></h1>      
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            {if empty($contentPart[s]|strstr:"</a>")} 
+            {contentpart content=$contentPart[s] explode="<br /> <br />"}
+            {section name=s max=1 loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}                
+            {/if}
+            {/section} 
+        {/if}
+    </div>
+    <div class="group">
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Kayajiwa%20-%20Ring%20exchange.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Kayajiwa%20-%20Ring%20exchange.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Kayajiwa%20-%20Ring%20exchange.jpg 1920w" alt="Villa Kayajiwa - Ring exchange" class="lazyload" /></div>
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Kayajiwa%20-%20Bouquet.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Kayajiwa%20-%20Bouquet.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Kayajiwa%20-%20Bouquet.jpg 1920w" alt="Villa Kayajiwa - Bouquet" class="lazyload" /></div>
+    </div>
+    <div class="wrapper">        
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc regex="default"}
+        {section name=s loop=$contentPart}
+        {if empty($contentPart[s]|strstr:"</a>")} 
+        {contentpart content=$contentPart[s] explode="<br /> <br />"}
+        {section name=s start=1 loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}                
+        {/if}
+        {/section} 
+    {/if}
+    {if 'desc'|array_key_exists:$content[0]}           
+
+        <div class="group">
+        {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+        {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+        <ul class="capacity">
+        {section name=s loop=$contentPart}
+        {$contentPart[s]|replace:'<br />': ''}
+        {/section}
+        </ul>
+
+        <div class="guidelines">
+        {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+        {section name=s loop=$contentPart}
+        {$contentPart[s]|replace:'<br />': ''}
+        {/section} 
+        </div>
+        </div>
+
+        <div class="photo-album">
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Kayajiwa - Wedding 1.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Kayajiwa - Wedding 2.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Kayajiwa - Wedding 3.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Kayajiwa - Wedding 4.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Kayajiwa - Wedding 5.jpg" class="lazyload"></div>
+        </div>
+        <div class="photo-album-thumbs">
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Kayajiwa - Wedding 1.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Kayajiwa - Wedding 2.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Kayajiwa - Wedding 3.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Kayajiwa - Wedding 4.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Kayajiwa - Wedding 5.jpg" class="lazyload"></div>
+        </div>
+
+        {* <h3>Get in touch.</h3>
+
+        <a href="/reservations.html" class="button">Contact us.</a> *}
+
+        <div class="clear"></div>
+    {/if}
+
+    {section name=s loop=$content[0].SubContents}
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+        {$content[0].SubContents[s].Description}
+
+        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if}
+    {/section}
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+    <div class="wrapper">   
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        </div>
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+   
+    <h2 class="entry-title"><span>Living Areas</span></h2>
+    
+    <div class="group">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Calm%20atmosphere.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Kayajiwa%20-%20Calm%20atmosphere.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Calm%20atmosphere.jpg 1920w" alt="Villa Kayajiwa - Calm atmosphere" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Sun%20lounger.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Kayajiwa%20-%20Sun%20lounger.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Sun%20lounger.jpg 1920w" alt="Villa Kayajiwa - Sun lounger" class="lazyload" /></div>
+	</div>
+    
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LVA"}
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            {$contentPart[s]}
+            {/section}
+        {/if}
+        </div>
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description|replace:'<br />': ''}
+            {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if *}
+        {/section}
+    </div>
+    
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+
+    <div class="wrapper">       
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+        {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+       {* 
+	   <div class="the-content">
+        
+
+        {if 'desc'|array_key_exists:$content[0]}
+        {contentpart content=$content[0].desc explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+        {/if}
+        </div>
+	   *} 
+    </div>
+	{contentpart content=$content[0].desc explode="</p>"}
+    {section name=s loop=$contentPart max= 3}
+    <div class="group">
+        <div class="group-wrapper">
+       
+		{if $smarty.section.s.index eq 0}
+        <div class="half">
+            <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Entire%20prenium%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Kayajiwa%20-%20Entire%20prenium%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Entire%20prenium%20bedroom.jpg 1920w" alt="Villa Kayajiwa - Entire prenium bedroom" class="lazyload" /></div>
+        </div>
+        {elseif $smarty.section.s.index eq 2}
+        <div class="half">
+            <div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Red%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Kayajiwa%20-%20Red%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Red%20bedroom.jpg 1920w" alt="Villa Kayajiwa - Red bedroom" class="lazyload" /></div>
+        </div>
+        {/if}
+
+        <div class="half half-content">
+			{$contentPart[s]}
+        </div>
+		
+		{if $smarty.section.s.index eq 1}
+        <div class="half">
+            <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Master%20blue%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Kayajiwa%20-%20Master%20blue%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Master%20blue%20room.jpg 1920w" alt="Villa Kayajiwa - Master blue room" class="lazyload" /></div>
+        </div>
+        {elseif $smarty.section.s.index eq 3}
+        <div class="half">
+            <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Balinese%20touch.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Kayajiwa%20-%20Balinese%20touch.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Kayajiwa%20-%20Balinese%20touch.jpg 1920w" alt="Villa Kayajiwa - Balinese touch" class="lazyload" /></div>
+        </div>
+        {/if}
+        
+        </div>
+    </div>    
+    {/section}
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+        <h1 class="entry-title"><span>Staff</span></h1>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+
+        <div class="clear"></div>
+        </div>
+    </div>
+    
+    <div class="group">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Kayajiwa%20-%20Grateful%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Kayajiwa%20-%20Grateful%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Kayajiwa%20-%20Grateful%20staff.jpg 1920w" alt="Villa Kayajiwa - Grateful staff" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Kayajiwa%20-%20Garden%20shape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Kayajiwa%20-%20Garden%20shape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Kayajiwa%20-%20Garden%20shape.jpg 1920w" alt="Villa Kayajiwa - Garden shape" class="lazyload" /></div>
+	</div>
+	
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+        <h1 class="entry-title"><span>Dining</span></h1>
+
+        {if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			{/if}	
+		
+    </div>
+	
+    <div class="group">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Kayajiwa%20-%20Selection%20of%20the%20best%20product.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Kayajiwa%20-%20Selection%20of%20the%20best%20product.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Kayajiwa%20-%20Selection%20of%20the%20best%20product.jpg 1920w" alt="Villa Kayajiwa - Selection of the best product" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Kayajiwa%20-%20Extraordinary%20dish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Kayajiwa%20-%20Extraordinary%20dish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Kayajiwa%20-%20Extraordinary%20dish.jpg 1920w" alt="Villa Kayajiwa - Extraordinary dish" class="lazyload" /></div>
+	</div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+        <h1 class="entry-title"><span>Families</span></h1>
+
+        {if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2>{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			{/if}
+        <div class="clear"></div>
+    </div>
+    
+    <div class="group">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa%20Kayajiwa%20-%20Pool%20side%20perspective.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Kayajiwa%20-%20Pool%20side%20perspective.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Kayajiwa%20-%20Pool%20side%20perspective.jpg 1920w" alt="Villa Kayajiwa - Pool side perspective" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa%20Kayajiwa%20-%20Bedroom%20entertainment%20(2).jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Kayajiwa%20-%20Bedroom%20entertainment%20(2).jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Kayajiwa%20-%20Bedroom%20entertainment%20(2).jpg 1920w" alt="Villa Kayajiwa - Bedroom entertainment (2)" class="lazyload" /></div>
+	</div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="SPA"}
+        <h1 class="entry-title"><span>Spa</span></h1>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+
+        <div class="clear"></div>
+    </div>    
+    
+    <div class="group">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Kayajiwa%20-%20Personal%20local%20massage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Kayajiwa%20-%20Personal%20local%20massage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Kayajiwa%20-%20Personal%20local%20massage.jpg 1920w" alt="Villa Kayajiwa - Personal local massage" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Kayajiwa%20-%20Master%20white%20bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Kayajiwa%20-%20Master%20white%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Kayajiwa%20-%20Master%20white%20bathroom.jpg 1920w" alt="Villa Kayajiwa - Master white bathroom" class="lazyload" /></div>
+	</div>
+</div>
+{/if}
+
+{if $data.page|in_array:['canggu-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The Locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        <div class="clear"></div>
+        </div>
+        <div class="map_div" id="map_div_locale"></div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+            <dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+    </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['canggu-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="the-content">
+        <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h2 class="entry-title"><span>Things to Do</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            {if ($contentPart[s]|strstr:"<br />")}
+                {contentpart content=$contentPart[s] explode="<br />"}
+                {$contentPart[0]}
+            {else}
+            {$contentPart[s]}
+            {/if}
+            {/section}
+        {/if}
+        </div> 
+    </div>
+	
+	<div class="group">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiew%20-%20Bali%20enchanting%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Kayajiew%20-%20Bali%20enchanting%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiew%20-%20Bali%20enchanting%20view.jpg 1920w" alt="Villa Kayajiew - Bali enchanting view" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiwa%20-%20dining%20out.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Kayajiwa%20-%20dining%20out.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiwa%20-%20dining%20out.jpg 1920w" alt="Villa Kayajiwa - dining out" class="lazyload" /></div>
+	</div>
+	
+    <div class="wrapper">
+        <div class="group">
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+            {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+			<ul>
+				{section name=s loop=$contentPart}
+					{$contentPart[s]|replace:['<br />']:['']}
+				{/section}
+			</ul>
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+        {/if}
+        </div>
+    </div>
+	
+	<div class="group last">
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiwa%20-%20Tanah%20Lot.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Kayajiwa%20-%20Tanah%20Lot.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiwa%20-%20Tanah%20Lot.jpg 1920w" alt="Villa Kayajiwa - Tanah Lot" class="lazyload" /></div>
+		<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiwa%20-%20Muntigunung%20trekking%20activity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Kayajiwa%20-%20Muntigunung%20trekking%20activity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Kayajiwa%20-%20Muntigunung%20trekking%20activity.jpg 1920w" alt="Villa Kayajiwa - Muntigunung trekking activity" class="lazyload" /></div>
+	</div>
+	
+</div>
+{/if}

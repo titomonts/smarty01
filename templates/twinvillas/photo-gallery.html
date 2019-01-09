@@ -1,0 +1,120 @@
+{include file="header.html"}
+<body class="gallery">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+					<h1 class="entry-title">{$data.heading}</h1>
+                    <div class="wrapper">      
+                        <div class="tabs">
+                            <ul>
+                                <li><a href="#natai">Twin Villas Natai</a></li>
+                                <li><a href="#twin-villas-villa-north">North Villa</a></li>
+                                <li><a href="#twin-villas-villa-south">South Villa</a></li>
+                            </ul>
+                            
+                            <div id="natai">
+                                {get_album vid="P00223"}
+                                <ul class="gallery-container">
+                                    {section name=g loop=$gallery}
+                                    <li>
+                                        <a rel="gallery" href="{$gallery[g].path}/{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+                                            <img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="{$gallery[g].path}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload"  />
+                                            <p>{$gallery[g].title}</p>
+                                        </a>
+                                    </li>
+                                    {/section}
+                                </ul>
+                                <div class="gallery-pagination">
+                                {if $data.cur_page > 1}
+                                <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                                {/if}
+                                {section name=pg loop=$data.num_pages}
+                                {if $data.cur_page == $smarty.section.pg.index+1}
+                                <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+                                {else}
+                                <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+                                {/if}
+                                {/section}
+                                {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+                                <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                {/if}
+                                </div>
+                            </div>
+                            
+                            <div id="twin-villas-villa-north">
+                                {get_album vid="P00221"}
+                                <ul class="gallery-container">
+                                    {section name=g loop=$gallery}
+                                    <li>
+                                        <a rel="gallery" href="{$gallery[g].path}/{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+                                            <img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="{$gallery[g].path}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload"  />
+                                            <p>{$gallery[g].title}</p>
+                                        </a>
+                                    </li>
+                                    {/section}
+                                </ul>
+                                <div class="gallery-pagination">
+                                {if $data.cur_page > 1}
+                                <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                                {/if}
+                                {section name=pg loop=$data.num_pages}
+                                {if $data.cur_page == $smarty.section.pg.index+1}
+                                <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+                                {else}
+                                <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+                                {/if}
+                                {/section}
+                                {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+                                <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                {/if}
+                                </div>
+                            </div>
+                            
+                            <div id="twin-villas-villa-south">
+                                {get_album vid="P00222"}
+                                <ul class="gallery-container">
+                                    {section name=g loop=$gallery}
+                                    <li>
+                                        <a rel="gallery" href="{$gallery[g].path}/{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+                                            <img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="{$gallery[g].path}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload"  />
+                                            <p>{$gallery[g].title}</p>
+                                        </a>
+                                    </li>
+                                    {/section}
+                                </ul>
+                                <div class="gallery-pagination">
+                                {if $data.cur_page > 1}
+                                <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                                {/if}
+                                {section name=pg loop=$data.num_pages}
+                                {if $data.cur_page == $smarty.section.pg.index+1}
+                                <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+                                {else}
+                                <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+                                {/if}
+                                {/section}
+                                {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+                                <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                {/if}
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>  
+                {* <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div> *}                
+            </div>
+        </div>
+
+        <div class="buttons-container">
+            {include file="part-buttons.html"}
+            {include file="part-prevnext.html"}
+        </div>
+
+{include file="footer.html"}

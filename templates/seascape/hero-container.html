@@ -1,0 +1,83 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Pool.jpg 1920w" alt="Villa Seascape - Pool" class="lazyload" />
+        </div> 
+		
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Fress cuisine.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Fress%20cuisine.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Fress%20cuisine.jpg 1920w" alt="Villa Seascape - Fress cuisine" class="lazyload" />
+        </div>
+
+		<div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Pool view on beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Pool%20view%20on%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Pool%20view%20on%20beach.jpg 1920w" alt="Villa Seascape - Pool view on beach" class="lazyload" />
+        </div>
+		
+		<div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Triangle table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Triangle%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Triangle%20table.jpg 1920w" alt="Villa Seascape - Triangle table" class="lazyload" />
+        </div>
+		
+	</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-seascape'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Living room view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Living%20room%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Living%20room%20view.jpg 1920w" alt="Villa Seascape - Living room view" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Dinner table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Dinner%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Dinner%20table.jpg 1920w" alt="Villa Seascape - Dinner table" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Wood bathtub window.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Wood%20bathtub%20window.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Wood%20bathtub%20window.jpg 1920w" alt="Villa Seascape - Wood bathtub window" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Living room table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Living%20room%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Living%20room%20table.jpg 1920w" alt="Villa Seascape - Living room table" class="lazyload" />
+		
+        {elseif $data.page == 'floorplan'}
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Weddings.jpg 1920w" alt="Villa Seascape - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'nusa-lembongan-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Circle table seaview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Circle%20table%20seaview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Circle%20table%20seaview.jpg 1920w" alt="Villa Seascape - Circle table seaview" class="lazyload" />
+              		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Fress cuisine.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Fress%20cuisine.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Fress%20cuisine.jpg 1920w" alt="Villa Seascape - Fress cuisine" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Living room dinner table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Living%20room%20dinner%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Living%20room%20dinner%20table.jpg 1920w" alt="Villa Seascape - Living room dinner table" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Pool view on beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Pool%20view%20on%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Pool%20view%20on%20beach.jpg 1920w" alt="Villa Seascape - Pool view on beach" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Blue bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Blue%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Blue%20bathroom.jpg 1920w" alt="Villa Seascape - Blue bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Relaxing by the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Relaxing%20by%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Relaxing%20by%20the%20pool.jpg 1920w" alt="Villa Seascape - Relaxing by the pool" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Relaxing by the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Relaxing%20by%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Relaxing%20by%20the%20pool.jpg 1920w" alt="Villa Seascape - Relaxing by the pool" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Wood bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Wood%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Wood%20bedroom.jpg 1920w" alt="Villa Seascape - Wood bedroom" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Triangle table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Triangle%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Triangle%20table.jpg 1920w" alt="Villa Seascape - Triangle table" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Pool.jpg 1920w" alt="Villa Seascape - Pool" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Pool.jpg 1920w" alt="Villa Seascape - Pool" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Seascape - Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Seascape%20-%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Seascape%20-%20Pool.jpg 1920w" alt="Villa Seascape - Pool" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

@@ -1,0 +1,56 @@
+<div class="villa-navigation">
+    <ul id="menu-secondary-navigation" class="secondary-menu">
+    {assign var=cur_page value=''}
+    {section name=vm loop=$pages}
+    {if $pages[vm].menu_location == 'internal'}
+    	{if $data.origin == $pages[vm].parent}
+            {assign var=vclass value='current-menu-item page_item page-item current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children'}
+        {else}
+            {assign var=vclass value=''}
+        {/if}
+        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page {$vclass} menu-item">
+            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[vm].parent child=$pages[vm].page_identifier}">{$pages[vm].label}</a>
+            
+        </li>
+    {/if}
+    {/section}
+    </ul>
+</div>
+<div id="sub-menu">
+    <div class="sub-menu">
+        <div id="subnav" style="display:block !important;">
+            {section name=sm loop=$pages}
+                {if $data.origin == $pages[sm].parent}
+                    {if 'children'|array_key_exists:$pages[sm]}
+                        <ul class="sub-menu">
+                            {assign var=vsubclass value=''}
+                            {section name=vp loop=$pages[sm].children}
+                            {if $data.page == $pages[sm].children[vp].page_identifier}
+                            {assign var=vsubclass value='current-menu-item current_page_item'}
+                            {else}
+                            {assign var=vsubclass value=''}
+                            {/if}
+                            <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item {$vsubclass}">
+                                {if $pages[sm].children[vp].level == 'sub'}
+                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[sm].children[vp].parent child=$pages[sm].children[vp].page_identifier}">
+                                {else}
+                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[sm].page_identifier}">
+                                {/if}
+                                {$pages[sm].children[vp].label}
+                                </a>
+                            </li>
+                            {/section}
+                        </ul>
+                    {/if}
+                {/if}
+            {/section}
+        </div>
+        
+        <div class="btn-wrap">
+            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">{#BTN_LABEL_AVAILABILITY#}</a>
+            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}">{#BTN_LABEL_BOOK_NOW#}</a>
+        </div>
+        
+        </div>
+    </div>
+</div>

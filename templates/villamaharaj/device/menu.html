@@ -1,0 +1,36 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" style=" background-color: transparent; border-color: transparent;">
+    <div class="container">
+        <div class="navbar-header" style=" background-color: transparent;position: absolute;text-align: right;float: right;right: 15px;top: 100%;">
+            <button type="button" style=" z-index: 999999;  "class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul id="menu-mobile-menu" class="nav navbar-nav">
+            	<li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                	<a href="{$data.home_uri}">
+                    	Home
+                    </a>
+                </li>
+            {section name=p loop=$pages}
+        	{if $pages[p].menu_location == 'mobile'}
+            {section name=sp loop=$pages[p].children}
+            	<li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                	{if $pages[p].children[sp].page_identifier != 'call'}
+                	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    	{$pages[p].children[sp].label}
+                    </a>
+                    {else}
+                    <a href="tel:+62361737498">Call</a>
+                    {/if}
+                </li>
+            {/section}
+            {/if}
+            {/section}
+    		</ul>
+		</div>
+    </div>
+</nav>

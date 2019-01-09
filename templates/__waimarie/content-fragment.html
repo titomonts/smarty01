@@ -1,0 +1,392 @@
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/waimarie/content/weddings/Villa Waimarie - Rings.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>      
+                {if 'desc'|array_key_exists:$content[0]}
+        
+                    {contentpart content=$content[0].desc explode="</p>"}
+                    {section name=s loop=$contentPart}
+                    {if empty($contentPart[s]|strstr:"<br />")} 
+                    <p>{$contentPart[s]}</p>
+                    {else}
+                    {assign var="content_capacity" value=$contentPart[s]}
+                    {/if}
+                    {/section} 
+                {/if}
+				
+				 {if 'desc'|array_key_exists:$content[0]}     
+					<div class="group">
+					{contentpart content=$content_capacity remove=["/<p>(.*?)<\/p>/s"] explode="<br />"}
+						<ul class="capacity">
+							{section name=s loop=$contentPart max=2}
+							<li>{$contentPart[s]}</li>
+							{/section}
+						</ul>
+
+						<div class="guidelines">
+							{contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+							{section name=s loop=$contentPart}
+							{$contentPart[s]|replace:'<br />': ''}
+							{/section} 
+						</div>
+					</div>
+				{/if}
+				
+				{section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					{$content[0].SubContents[s].Description}
+
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}				
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+		<div class="third-img"><img src="{$data.cdn}/resources/waimarie/content/explore/thumb/Villa%20Waimarie%20-%20Spacious%20bedroom.jpg" data-src="{$data.cdn}/resources/waimarie/content/explore/Villa%20Waimarie%20-%20Spacious%20bedroom.jpg" alt="Villa Waimarie - Spacious bedroom" class="lazyload" /></div>		
+
+        {if 'desc'|array_key_exists:$content[0]}
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+        {/if}
+        
+		{section name=s loop=$content[0].SubContents}
+			<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+		{/section}
+		
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/explore/thumb/Villa%20Waimarie%20-%20Bedroom%20features.jpg" data-src="{$data.cdn}/resources/waimarie/content/explore/Villa%20Waimarie%20-%20Bedroom%20features.jpg" alt="Villa Waimarie - Bedroom features" class="lazyload" /></div>
+		<div class="second-img"><img src="{$data.cdn}/resources/waimarie/content/explore/thumb/Villa%20Waimarie%20-%20Living%20area.jpg" data-src="{$data.cdn}/resources/waimarie/content/explore/Villa%20Waimarie%20-%20Living%20area.jpg" alt="Villa Waimarie - Living area" class="lazyload" /></div>
+		<div class="clear"></div>
+	</div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+        <h2 class="entry-title"><span>Living areas</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/explore/thumb/Villa%20Waimarie%20-%20Beachfront%20living%20area.jpg" data-src="{$data.cdn}/resources/waimarie/content/explore/Villa%20Waimarie%20-%20Beachfront%20living%20area.jpg" alt="Villa Waimarie - Beachfront living area" class="lazyload" /></div>
+        <div class="second-img"><img src="{$data.cdn}/resources/waimarie/content/explore/thumb/Villa%20Waimarie%20-%20Living%20area.jpg" data-src="{$data.cdn}/resources/waimarie/content/explore/Villa%20Waimarie%20-%20Living%20area.jpg" alt="Villa Waimarie - Living area" class="lazyload" /></div>
+        
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+        <h2 class="entry-title"><span>Staff</span></h2>	
+		
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {if 'SubContents'|array_key_exists:$content[0]}
+        	<dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Waimarie%20crew.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Waimarie%20crew.jpg" alt="Villa Waimarie - Waimarie crew" class="lazyload" /></div>
+		<div class="second-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Happy%20staff.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Happy%20staff.jpg" alt="Villa Waimarie - Happy staff" class="lazyload" /></div>
+		<div class="clear"></div>
+    </div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+        <h2 class="entry-title"><span>Dining</span></h2>
+		
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Food%20perfection.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Food%20perfection.jpg" alt="Villa Waimarie - Food perfection" class="lazyload" /></div>
+		
+        {if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		
+        <div class="second-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Thai%20food%20at%20the%20villa.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Thai%20food%20at%20the%20villa.jpg" alt="Villa Waimarie - Thai food at the villa" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Delicate%20breakfast.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Delicate%20breakfast.jpg" alt="Villa Waimarie - Delicate breakfast" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+        <h2 class="entry-title"><span>Families</span></h2>
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Kids%20pool%20time.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Kids%20pool%20time.jpg" alt="Villa Waimarie - Kids pool time" class="lazyload" /></div>
+		{if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		
+		<div class="second-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Kids%20play%20time.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Kids%20play%20time.jpg" alt="Villa Waimarie - Kids play time" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Playground.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Playground.jpg" alt="Villa Waimarie - Playground" class="lazyload" /></div>
+        <div class="clear"></div>
+		
+    </div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="SPAGYM"}
+        <h2 class="entry-title"><span>Spa & Gym</span></h2>
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/experience/thumb/Villa%20Waimarie%20-%20Tennis%20court.jpg" data-src="{$data.cdn}/resources/waimarie/content/experience/Villa%20Waimarie%20-%20Tennis%20court.jpg" alt="Villa Waimarie - Tennis court" class="lazyload" /></div>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {if 'SubContents'|array_key_exists:$content[0]}
+        	<dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+        
+        <div class="clear"></div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['lipa-noi-koh-samui', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        <div class="map_div" id="map_div_locale"></div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+        	<dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+    </div>
+	
+</div>   
+<div class="clear"></div>
+{/if}
+
+{if $data.page|in_array:['lipa-noi-koh-samui', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h2 class="entry-title"><span>Things to do</span></h2>
+		
+		<div class="first-img"><img src="{$data.cdn}/resources/waimarie/content/locale/thumb/Villa%20Waimarie%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/waimarie/content/locale/Villa%20Waimarie%20-%20Things%20to%20do.jpg" alt="Villa Waimarie - Things to do" class="lazyload" /></div>
+		{if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		<div class="second-img"><img src="{$data.cdn}/resources/waimarie/content/locale/thumb/Villa%20Waimarie%20-%20Things%20to%20do%2001.jpg" data-src="{$data.cdn}/resources/waimarie/content/locale/Villa%20Waimarie%20-%20Things%20to%20do%2001.jpg" alt="Villa Waimarie - Things to do" class="lazyload" /></div>
+		<div class="third-img"><img src="{$data.cdn}/resources/waimarie/content/locale/thumb/Villa%20Waimarie%20-%20Things%20to%20do%2002.jpg" data-src="{$data.cdn}/resources/waimarie/content/locale/Villa%20Waimarie%20-%20Things%20to%20do%2002.jpg" alt="Villa Waimarie - Things to do" class="lazyload" /></div>
+        <div class="clear"></div>
+		<!-- {if 'desc'|array_key_exists:$content[0]}
+        	
+        	{contentpart content=$content[0].desc regex="default"}
+        	{contentpart content=$contentPart[0] strip=["<p>", "</p>"] explode="<br /> <br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+            <div class="group">
+        	{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+        	{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+				{if $smarty.section.s.index mod 2}
+					<div class="half half-content">
+					{$contentPart[s]|replace:['<li>','</li>']:['', '']}
+					</div>
+					<div class="half">
+					<img src="{$data.cdn}/resources/waimarie/content/locale/thumb/Villa%20Waimarie%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" data-src="{$data.cdn}/resources/waimarie/content/locale/Villa%20Waimarie%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+					</div>
+				{else}
+					<div class="half">
+					<img src="{$data.cdn}/resources/waimarie/content/locale/thumb/Villa%20Waimarie%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" data-src="{$data.cdn}/resources/waimarie/content/locale/Villa%20Waimarie%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+					</div>
+					<div class="half half-content">
+					{$contentPart[s]|replace:['<li>','</li>']:['', '']}
+					</div>
+				{/if}
+            {/section}
+            </div>
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/waimarie':'{$data.cdn}/resources/waimarie'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section} -->		
+		
+    </div>
+</div>
+{/if}

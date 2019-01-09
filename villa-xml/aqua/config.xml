@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Sava7</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Sava Beach Villas - Villa Aqua</villa_name>
+		<google_analytics>UA-107714360-1</google_analytics>
+		<location>Phuket</location>
+		<sublocation> Natai Beach</sublocation>
+		<bedrooms>99</bedrooms>
+		<hrental_id>'Sava7', 'Phuket', 'Natai Beach', '99br'</hrental_id>
+		<ehgLocation>Phuket, Natai Beach</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>estate</ehgPageType>
+		</Source>
+		</Configuration>

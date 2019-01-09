@@ -1,0 +1,81 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Pool and villa aerial.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1920w" alt="Villa Waru - Pool and villa aerial" class="lazyload" />          
+        </div>      
+		<div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Main pool cabana.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Main%20pool%20cabana.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Main%20pool%20cabana.jpg 1920w" alt="Villa Waru - Main pool cabana" class="lazyload" />  
+        </div>  
+		<div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Teak suite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Teak%20suite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Teak%20suite.jpg 1920w" alt="Villa Waru - Teak suite" class="lazyload" />
+        </div>  		
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-waru'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Antique chair and table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Antique%20chair%20and%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Antique%20chair%20and%20table.jpg 1920w" alt="Villa Waru - Antique chair and table" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Beautiful pool setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Beautiful%20pool%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Beautiful%20pool%20setting.jpg 1920w" alt="Villa Waru - Beautiful pool setting" class="lazyload" />   
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Main pool cabana.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Main%20pool%20cabana.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Main%20pool%20cabana.jpg 1920w" alt="Villa Waru - Main pool cabana" class="lazyload" />  
+
+        {elseif $data.page == 'photo-gallery'}
+			<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - The golden suite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20The%20golden%20suite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20The%20golden%20suite.jpg 1920w" alt="Villa Waru - The golden suite" class="lazyload" />  
+ 
+        {elseif $data.page == 'floorplan'} 
+        
+
+        {elseif $data.page == 'video'}
+        {*  *}
+        
+        {elseif $data.page == 'nusa-dua-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Aerial of villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Aerial%20of%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Aerial%20of%20villa.jpg 1920w" alt="Villa Waru - Aerial of villa" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Friendly staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Friendly%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Friendly%20staff.jpg 1920w" alt="Villa Waru - Friendly staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Mouth watering dishes.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Mouth%20watering%20dishes.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Mouth%20watering%20dishes.jpg 1920w" alt="Villa Waru - Mouth watering dishes" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Entertainment room outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Entertainment%20room%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Entertainment%20room%20outlook.jpg 1920w" alt="Villa Waru - Entertainment room outlook" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - lucky eight bathroom ensuite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20lucky%20eight%20bathroom%20ensuite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20lucky%20eight%20bathroom%20ensuite.jpg 1920w" alt="Villa Waru - lucky eight bathroom ensuite" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Wedddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Wedddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Wedddings.jpg 1920w" alt="Villa Waru - Wedddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Antiques dressing table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Antiques%20dressing%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Antiques%20dressing%20table.jpg 1920w" alt="Villa Waru - Antiques dressing table" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Antiques dressing table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Antiques%20dressing%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Antiques%20dressing%20table.jpg 1920w" alt="Villa Waru - Antiques dressing table" class="lazyload" />
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Teak suite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Teak%20suite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Teak%20suite.jpg 1920w" alt="Villa Waru - Teak suite" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Teak suite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Living%20area.jpg 1920w" alt="Villa Waru - Teak suite" class="lazyload" />    
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Pool and villa aerial.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1920w" alt="Villa Waru - Pool and villa aerial" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Pool and villa aerial.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1920w" alt="Villa Waru - Pool and villa aerial" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Waru - Pool and villa aerial.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Waru%20-%20Pool%20and%20villa%20aerial.jpg 1920w" alt="Villa Waru - Pool and villa aerial" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

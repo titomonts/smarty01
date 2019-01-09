@@ -1,0 +1,159 @@
+<!-- PENTHOUSE !-->
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse' && $data.url_lvl_3 eq ''}
+<div class="content-item odd about penthouse" id="about">   
+	<div class="wrapper">
+		<div class="the-content">
+			{parsedata folder=$data.theme cache="P00145" content="ABTV"}				
+				<h1 class="entry-title">About Malaiwana Penthouse</h1>                 
+				{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+				{section name=s loop=$contentPart start=0 max=2}
+					 <p>{$contentPart[s]}</p>
+				{/section}					
+				{/if}
+		</div>
+	</div> 
+	<div class="clear"></div>
+	
+	<div class="content-item">
+		<div class="content-inner">
+			<div class="img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/about/thumb/Malaiwana%20Estate%20-%20Stunning%20beach%20setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/about/Malaiwana%20Estate%20-%20Stunning%20beach%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/about/small/Malaiwana%20Estate%20-%20Stunning%20beach%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/about/Malaiwana%20Estate%20-%20Stunning%20beach%20setting.jpg 1920w" alt="Malaiwana Estate - Stunning beach setting" class="lazyload" />
+			</div>
+			<div class="group">
+				<div class="group-wrapper"> 
+					<div class="half lazyload">						
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/about/thumb/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/about/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/about/small/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/about/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg 1920w" alt="Malaiwana Penthouse - Outdoor entertaining" class="lazyload" />
+					</div>
+					<div class="half half-content">
+						<div class="des">
+							{section name=s loop=$contentPart start=2}
+							<p>{$contentPart[s]}</p>
+							{/section}
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse' && $data.url_lvl_3 == 'gallery-penthouse'}
+<div class="content-item {$contentClass}">
+		<div class="wrapper">                                
+			<div class="the-content">
+				<h1 class="entry-title">Gallery - Penthouse</h1>
+				{get_album vid="P00145"}
+				<ul class="gallery-container">
+					{section name=g loop=$gallery}
+					<li>
+						<a rel="gallery" href="{$gallery[g].path}/{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+							<img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="{$gallery[g].path}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload"  />
+							<p>{$gallery[g].title}</p>
+						</a>
+					</li>
+					{/section}
+				</ul>
+				<div class="gallery-pagination">
+				{if $data.cur_page > 1}
+				<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+				{/if}
+				{section name=pg loop=$data.num_pages}
+				{if $data.cur_page == $smarty.section.pg.index+1}
+				<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+				{else}
+				<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+				{/if}
+				{/section}
+				{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+				<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				{/if}
+				</div>
+			</div>
+		</div>
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse' && $data.url_lvl_3 == 'rates-penthouse'}
+<div class="content-item {$contentClass} rates">
+		<div class="wrapper">                                
+			<div class="the-content">
+				<h1 class="entry-title">Rates - Villa Penthouse</h1>
+				{include file="part-guarantee.html"}
+				{rates vid="P00145" folder=$data.theme}
+				{$content}
+			</div>
+		</div>
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse' && $data.url_lvl_3 == 'explore-penthouse'}
+<div class="content-item {$contentClass} explore">
+
+	<div class="wrapper subtitle">                                
+		<div class="the-content ">
+			<h1 class="entry-title">Explore</h1>
+		</div>
+	</div>
+	<!-- Villa Layout -->
+	<!-- Living Areas -->
+	<!-- Bedroom -->
+	{include file="content-fragment.html"} 			
+	
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse' && $data.url_lvl_3 == 'penthouse-experience'}
+<div class="content-item {$contentClass} experience">
+	
+	<div class="wrapper subtitle">                                
+		<div class="the-content ">
+			<h1 class="entry-title">Experience</h1>						
+		</div>
+	</div>
+	<!-- Dining -->
+	<!-- Families -->
+	<!-- Gym -->
+	<!-- Spa -->
+	{include file="content-fragment.html"} 
+				
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse' && $data.url_lvl_3 == 'quick-facts'}
+<div class="content-item {$contentClass} quick-facts">
+	<div class="wrapper">                                
+		<div class="the-content ">
+			<h1 class="entry-title">Quick Facts</h1>
+			{parsedata folder=$data.theme cache="P00145" content="QF"}								
+			 {if 'SubContents'|array_key_exists:$content[0]}
+				<div class="group">
+					<div class="half">
+					{section name=s loop=7}
+					<div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower|replace:'/':'-'|lower}">
+						<strong>{$content[0].SubContents[s].Heading}</strong>
+						{$content[0].SubContents[s].Description}
+					</div>
+					{/section}
+					</div>
+
+					<div class="half"> 
+					{section name=s start=7 loop=$content[0].SubContents}
+					{* if $smarty.section.s.index neq $smarty.section.s.last *}
+					<div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|replace:'/':'-'|lower}">
+						<strong>{$content[0].SubContents[s].Heading}</strong>
+						{$content[0].SubContents[s].Description}
+					</div>
+					{* /if *}
+					{/section}
+					</div>
+			   </div>  
+			{/if}
+		</div>
+	</div>
+</div>
+{/if}

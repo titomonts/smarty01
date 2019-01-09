@@ -1,0 +1,63 @@
+{include file="header.html"}
+    <!--[if lte IE 6]>
+    <iframe src="http://www.browserupgrade.info/ie6-upgrade/?lang=en&title=Villa Maharaj&fx3=true&more-info-at=http://www.browserupgrade.info" frameborder="no" style="height: 81px; width: 100%; border: none;"></iframe>
+    <![endif]-->
+    <body id="maharaj" class="page page-id-32 page-template-default">
+{$gtm}
+                        <div id="container">
+            <div class="header_fix">
+                <div id="headerwrap">
+                    <div class="menu-fix">
+                        <div id="topheader">
+                            {include file="menu.html"}<!-- /main navigation -->
+                        </div>
+                    </div>
+                    <!-- /topheader -->
+                </div>
+            </div>
+            <!-- /headerwrap -->	<div id="contentwrap">
+		{include file="page_image.html"}
+		<!-- /headerimg -->
+		<div id="maincol">
+			<h1 class="entry-title">{$data.heading}</h1>
+			<div class="two-btn" >
+				<a class="button availability" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">Availability</a>
+					<a class="button book" href="http://www.villamaharaj.com/reservations.html">Book now</a>			</div>
+						<div id="content">
+				<div id="content-inner">
+					<div class="menu-main-navigation-container">
+                    <ul id="sitemap" class="menu">
+                    {section name=p loop=$pages}
+                    {if $pages[p].menu_location == 'main'}
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                            {if 'children'|array_key_exists:$pages[p]}
+                            <ul class="sub-menu">
+                                {section name=sp loop=$pages[p].children}
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                                    {if $pages[p].children[sp].level == 'sub'}
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                                    {else}
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">
+                                    {/if}
+                                    {$pages[p].children[sp].label}
+                                    </a>
+                                </li>
+                                {/section}
+                            </ul>
+                            {/if}
+                        </li>
+                    {/if}
+                    {/section}
+                    </ul>
+                    </div>
+                    <div class="clear"></div>
+				</div>
+				<!-- /content-inner -->
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /maincol -->
+	</div>
+	<!-- /contentwrap -->
+{include file="footer.html"}    

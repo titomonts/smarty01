@@ -1,0 +1,27 @@
+<div class="floorplan">
+    {if $data.origin eq 'villa-shinta-dewi-seminyak'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/shinta-dewi-seminyak-floorplan.jpg" alt="Villa Shinta Dewi Seminyak Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=shinta-dewi-seminyak-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.origin eq 'villa-shinta-dewi-ubud'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/shinta-dewi-ubud-floorplan.jpg" alt="Villa Shinta Dewi Ubud Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=shinta-dewi-ubud-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'floorplan'}
+   
+    <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#floorplan-seminyak">Villa Shinta Dewi Seminyak</a></li>
+            <li><a href="#floorplan-ubud">Villa Shinta Dewi Ubud</a></li>
+        </ul>
+        <div id="floorplan-seminyak">
+           
+			  <img data-src="{$data.cdn}/resources/{$data.theme}/images/shinta-dewi-seminyak-floorplan.jpg" alt="Villa Shinta Dewi Seminyak Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=shinta-dewi-seminyak-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+        <div id="floorplan-ubud">
+			<img data-src="{$data.cdn}/resources/{$data.theme}/images/shinta-dewi-ubud-floorplan.jpg" alt="Villa Shinta Dewi Ubud Floorplan" class="lazyload" />
+            <a href="{$data.home_uri}/download.php?filename=shinta-dewi-ubud-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+    </div>
+    
+    {/if}
+</div>

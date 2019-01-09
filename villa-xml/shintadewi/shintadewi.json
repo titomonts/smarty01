@@ -1,0 +1,393 @@
+[
+	{
+		"page_title":"",
+		"label":"Home",
+		"page_header":"Welcome to Villa Shinta Dewi",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Seminyak Villa",
+		"label":"Seminyak Villa",
+		"page_header":"Seminyak Villa",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+        "villaID":"ShintaDewi",
+        "sub_villa":"villa-shinta-dewi-seminyak",
+		"page_identifier":"villa-shinta-dewi-seminyak",
+		"children":[
+					{
+						"page_title":"About Villa Shinta Dewi Seminyak",
+						"label":"About",
+						"page_header":"About <span>Villa Shinta Dewi</span> <strong>Seminyak</strong>",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"ShintaDewi",
+						"page_identifier":"villa-shinta-dewi-seminyak",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Villa Shinta Dewi Seminyak",
+						"label":"Explore",
+						"page_header":"Explore Villa Shinta Dewi Seminyak",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"ShintaDewi",
+						"parent":"villa-shinta-dewi-seminyak",
+						"page_identifier":"explore-the-villa",
+						"level":"internal",
+						"body_class":"explore"
+					},					
+					{
+						"page_title":"Seminyak Experience",
+						"label":"Location",
+						"page_header":"Location",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"ShintaDewi",
+						"parent":"villa-shinta-dewi-seminyak",
+						"page_identifier":"seminyak-bali",
+						"level":"internal",
+						"body_class":"locale"
+					},
+                    {
+						"page_title":"Quick Facts Villa Shinta Dewi Seminyak",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Villa Shinta Dewi Seminyak",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"ShintaDewi",
+						"parent":"villa-shinta-dewi-seminyak",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					}
+		],
+		"menu_location":"main",
+		"special_menu":"true",
+		"what":"villa-shinta-dewi-seminyak",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Ubud Villa",
+		"label":"Ubud Villa",
+		"page_header":"Ubud Villa",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+        "villaID":"P00028",
+        "sub_villa":"villa-shinta-dewi-ubud",
+		"page_identifier":"villa-shinta-dewi-ubud",
+		"children":[
+					{
+						"page_title":"About Villa Shinta Dewi Ubud",
+						"label":"About",
+						"page_header":"About <span>Villa Shinta Dewi</span> <strong>Ubud</strong>",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"villaID":"P00028",
+						"page_identifier":"villa-shinta-dewi-ubud",
+						"level":"internal",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore Villa Shinta Dewi Ubud",
+						"label":"Explore",
+						"page_header":"Explore Villa Shinta Dewi Ubud",
+						"template":"page-template.html",
+						"content_id":"LVA",
+						"villaID":"P00028",
+						"parent":"villa-shinta-dewi-ubud",
+						"page_identifier":"explore-the-villa",
+						"level":"internal",
+						"body_class":"explore"
+					},					
+					{
+						"page_title":"Ubud Experience",
+						"label":"Location",
+						"page_header":"Location",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00028",
+						"parent":"villa-shinta-dewi-ubud",
+						"page_identifier":"ubud-bali",
+						"level":"internal",
+						"body_class":"locale"
+					},
+                    {
+						"page_title":"Quick Facts Villa Shinta Dewi Ubud",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts Villa Shinta Dewi Ubud",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"villaID":"P00028",
+						"parent":"villa-shinta-dewi-ubud",
+						"page_identifier":"quick-facts",
+						"level":"internal",
+						"body_class":"quick-facts"
+					}
+		],
+		"menu_location":"main",
+		"special_menu":"true",
+		"what":"villa-shinta-dewi-ubud",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+					{
+						"page_title":"Photo Gallery",
+						"label":"Photo Gallery",
+						"page_header":"Gallery",
+						"template":"photo-gallery.html",
+						"content_id":"",
+						"page_identifier":"photo-gallery",
+						"level":"top",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"floorplan"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Staff",
+		"label":"Experience",
+		"page_header":"Staff",
+		"template":"page-template.html",
+		"content_id":"STAFF",
+		"page_identifier":"staff",
+		"children":[
+                    {
+                        "page_title":"Staff",
+                        "label":"Staff",
+                        "page_header":"Staff",
+                        "template":"page-template.html",
+                        "content_id":"STAFF",
+                        "page_identifier":"staff",
+                        "level":"top",
+                        "body_class":"staff experience"
+                    },
+                    {
+                        "page_title":"Dining",
+                        "label":"Dining",
+                        "page_header":"Dining",
+                        "template":"page-template.html",
+                        "content_id":"DNNG",
+                        "page_identifier":"dining",
+                        "level":"top",
+                        "body_class":"dining experience"
+                    },
+                    {
+                        "page_title":"Families",
+                        "label":"Families",
+                        "page_header":"Families",
+                        "template":"page-template.html",
+                        "content_id":"FAM",
+                        "page_identifier":"families",
+                        "level":"top",
+                        "body_class":"families experience"
+                    },
+                    {
+                        "page_title":"Spa",
+                        "label":"Spa",
+                        "page_header":"Spa",
+                        "template":"page-template.html",
+                        "content_id":"SPAGYM",
+                        "page_identifier":"spa",
+                        "level":"top",
+                        "body_class":"spa experience"
+                    },
+                    {
+                        "page_title":"Combination holidays in Seminyak and Ubud",
+                        "label":"Combine",
+                        "page_header":"Combination holidays <br />in Seminyak and Ubud",
+                        "template":"page-template.html",
+                        "content_id":"ABTV",
+                        "page_identifier":"combine",
+                        "level":"top",
+                        "body_class":"combine experience"
+                    }
+        ],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"staff experience"
+	},
+	{
+		"page_title":"Guest Reviews",		
+		"label":"Reviews",
+		"page_header":"Guest Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"children":[
+                    {
+                        "page_title":"Guest Reviews",
+                        "label":"Guest Reviews",
+                        "page_header":"Guest Reviews",
+                        "template":"page-template.html",
+                        "content_id":"",
+                        "page_identifier":"guest-reviews",
+                        "level":"top",
+                        "body_class":"guest-reviews"
+                    },
+                    {
+                        "page_title":"Press",
+                        "label":"Press",
+                        "page_header":"Press",
+                        "template":"page-template.html",
+                        "content_id":"",
+                        "page_identifier":"press",
+                        "level":"sub",
+                        "parent":"guest-reviews",
+                        "body_class":"press"
+                    }
+        ],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"guest-reviews"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},	
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links" 
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Villa Layout",
+		"template":"page-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"",
+		"body_class":"villa-layout explore"
+	},
+	{
+		"page_title":"Bedrooms",
+		"label":"Bedrooms",
+		"page_header":"Bedrooms",
+		"template":"page-template.html",
+		"content_id":"BDR",
+		"page_identifier":"bedrooms",
+		"menu_location":"",
+		"body_class":"bedrooms explore"
+	},
+	{
+		"page_title":"Living Areas",
+		"label":"Living Areas",
+		"page_header":"Living Areas",
+		"template":"page-template.html",
+		"content_id":"LVA",
+		"page_identifier":"living-areas",
+		"menu_location":"",
+		"body_class":"living-areas explore"
+	},
+	{
+		"page_title":"The Locale",
+		"label":"The Locale",
+		"page_header":"The Locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"menu_location":"",
+		"body_class":"the-locale locale"
+	},
+	{
+		"page_title":"Things to Do",
+		"label":"Things to Do",
+		"page_header":"Things to Do",
+		"template":"page-template.html",
+		"content_id":"TTD",
+		"page_identifier":"things-to-do",
+		"menu_location":"",
+		"body_class":"things-to-do locale"
+	}
+]
+		

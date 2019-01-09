@@ -1,0 +1,70 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+        
+        <div class="content-container">
+            <div class="content">
+                <div class="wrapper"> 
+                    <div class="content-item">  
+
+                        <h1 class="entry-title">{$data.heading}</h1>
+                                
+                        <ul class="poi">
+                            <li id="poi-1">4 ensuite <br/>bedrooms</li>
+                            <li id="poi-2">100m from <br/>the beach</li>
+                            <li id="poi-3">Professional <br/>staff & chef</li>
+                            <li id="poi-4">11m private <br/>pool</li>
+                        </ul> 
+
+                        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Kakatua - Entrance.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Kakatua - Entrance.jpg" alt="Villa Kakatua - Entrance" class="lazyload" /></div>
+                        
+                    </div>
+                    <div class="content-item">  
+
+                        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Kakatua - Upstairs guest bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Kakatua - Upstairs guest bedroom.jpg" alt="Villa Kakatua - Upstairs guest bedroom" class="lazyload" /></div>
+
+                        {if $data.content_id != ''}
+                        {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                        {/if}
+                        {if 'desc'|array_key_exists:$content[0]}
+                            
+                            {$content[0].desc}
+
+                        {/if}
+
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2>{$content[0].SubContents[s].Heading}</h2>
+                            {$content[0].SubContents[s].Description}
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                            {/section}
+                        {/if}
+
+                        <div class="clear"></div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-kakatua', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

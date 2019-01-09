@@ -1,0 +1,153 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    
+                    <div class="wrapper">		
+                        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Yamu Villa Bua - Living area design.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Yamu Villa Bua - Living area design.jpg" alt="Yamu Villa Bua - Living area design" class="lazyload" /></div>				
+                        <div class="the-content">
+							<h1 class="entry-title">{$data.heading}</h1>
+							<ul class="poi">
+								<li id="poi-1">Absolute <br>Beachfront</li>
+								<li id="poi-2">Private<br> Chef</li>
+								<li id="poi-3">Fully<br> Staffed</li>	
+								<li id="poi-4">Private<br> Pool</li>							
+							</ul>
+                    
+                            {if $data.content_id != ''}
+								{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+									</p>
+									 <p>
+                                    {section name=s loop=$contentPart start=1 }
+                                        {$contentPart[s]}
+                                    {/section}
+									.</p>
+                            {/if}
+							
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content//themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content//themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+							
+							<div class="clear"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="content-item"> 
+                    
+                    <div class="wrapper">
+					
+                        <div class="group">
+                            <div class="half">
+                                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Yamu Villa Bua - Panoramic view from pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Yamu Villa Bua - Panoramic view from pool.jpg" alt="Yamu Villa Bua - Panoramic view from pool" class="lazyload" /></div>
+                                <div class="des">
+									<h2 class="entry-title">Access to your own private facilities and the freedom to use them whenever you want.</h2>
+									{parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+									{if 'desc'|array_key_exists:$content[0]}
+										{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+										<p>
+										{section name=s loop=$contentPart start=0 max=1 }
+											{$contentPart[s]}.
+										{/section}
+										</p>
+									{/if}
+									<a href="/about-yamu-villa-bua.html" class="btn">Read More</a>	
+								</div>								
+                                
+                            </div>
+                            <div class="half">
+                                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Yamu Villa Bua - Business meeting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Yamu Villa Bua - Business meeting.jpg" alt="Yamu Villa Bua - Business meeting" class="lazyload" /></div>
+                                <div class="des">
+									<h2 class="entry-title">Yamu Villa Bua's private conference room is perfect for meetings or workshops.</h2>
+									
+									{parsedata folder=$data.theme cache=$data.cache content="EVT"}		
+									{if 'desc'|array_key_exists:$content[0]}
+									{* $contentPart[s] *}
+									{/if}
+									
+									{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents}
+											{if $smarty.section.s.index eq 1}
+												{contentpart content=$content[0].SubContents[s].Description strip=["<p>", "</p>"] explode="."}	
+												{section name=s loop=$contentPart start=0 max=1 }	
+													<p>{$contentPart[s]}.</p>
+												{/section}												
+											{/if}
+										{/section}
+									{/if} 
+									
+									<a href="/corporate.html" class="btn">Read More</a>	
+								</div>
+                                
+                            </div>
+                        </div>
+					
+					</div>
+					
+				</div>				
+				 <div class="content-item">                     
+                    <div class="wrapper">
+						<div class="img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Yamu Villa Bua - Villa Terrace.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Yamu Villa Bua - Villa Terrace.jpg" alt="Yamu Villa Bua - Villa Terrace" class="lazyload" />
+							<div class="des">
+								<h2 class="entry-title">The luxury property features lots of space to chill out and relax.</h2>
+								{parsedata folder=$data.theme cache=$data.cache content="LVA"}		
+								{if 'desc'|array_key_exists:$content[0]}
+								{* $contentPart[s] *}
+								{/if}
+								
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents}
+										{if $smarty.section.s.index eq 1}
+											{contentpart content=$content[0].SubContents[s].Description strip=["<p>", "</p>"] explode="."}	
+											{section name=s loop=$contentPart start=0 max=1 }	
+												<p>{$contentPart[s]}.</p>
+											{/section}												
+										{/if}
+									{/section}
+								{/if} 
+								<a href="/about-yamu-villa-bua/explore-the-villa.html#living-areas" class="btn">Read More</a>	
+							</div>
+						</div>
+					</div>
+				 </div>
+			
+			</div>
+			
+        </div>
+        
+        <div class="buttons-container">
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-yamu-villa-bua', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'cape-yamu-phuket', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+        </div>		            
+{include file="footer.html"}

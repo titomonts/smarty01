@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00166">
+  <Contents>
+    <Content contentid="4003" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>With modern flair and superb views – especially at sunrise, Villa Abiente is a three-bedroom holiday retreat in Cape Yamu on Phuket’s scenic east coast. Abiente offers couples and groups a chic hideaway with open-plan living areas and a 12-metre infinity pool and sun deck for optimal bay views. </p><p>Bright, sleek interiors that open up completely across the front make Villa Abiente a cool and calming place to unwind and enjoy the tropical breezes. This is easy island life at its best, with a stylish sunken outdoor lounge set poolside for refreshing drinks after a dip, and two poolside bedroom suites with fantastic sea views. All three bedrooms offer luxurious ensuite bathrooms, two with double bathtubs, while the cosy media room has a sofa bed and ensuite bathroom. The open-plan living area makes an inviting place to gather, with its stylish sitting room, dining table for eight and sparkling kitchen with a breakfast bar overlooking the pool. White and grey tones and floor-to-ceiling glass throughout give Abiente a modern shimmer, while the grand entry hall, featuring a large mural and Zen rock garden, creates an intriguing welcome. </p><p>A full team of friendly staff ease guests into Abiente’s warm embrace. The chef provides sumptuous breakfasts and delicious Thai meals and an English-speaking villa manager offers friendly assistance in the villa and beyond. Facilities available for guest use within the Baan Yamu estate include a restaurant and bar, a well-equipped gym and an Olympic-sized pool. Beyond the villa, the Phuket east coast idyll beckons with boat trips around spectacular Phang Nga Bay, golf, spas and waterfalls, all within easy reach. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4004" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[INDOOR LIVING:<br />- Open-plan kitchen, dining and living area with sea views, opening to balcony and pool terrace<br />- Dining area with table for 8<br />- Bright Western kitchen with breakfast bar and modern appliances<br />- Living area with chic grey sofa seating and TV<br />- Media room with TV and sofa bed<br /><br />OUTDOOR LIVING:<br />- 12-metre infinity pool with sea views <br />- Pool terrace with sundeck and sunbeds<br />- Sunken lounge <br />- Small lawn for outdoor play]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Open-plan kitchen, dining and living area with sea views, opening to balcony and pool terrace</li><li>Dining area with table for 8</li><li>Bright Western kitchen with breakfast bar and modern appliances</li><li>Living area with chic grey sofa seating and TV</li><li>Media room with TV and sofa bed</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>12-metre infinity pool with sea views</li><li>Pool terrace with sundeck and sunbeds</li><li>Sunken lounge</li><li>Small lawn for outdoor play</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4005" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Bedroom]]></Heading>
+          <Description><![CDATA[<ul><li>Sea-view suite with floor-to-ceiling sliding glass doors that open to the pool</li><li>Queen-sized bed, study desk and TV</li><li>Luxurious ensuite bathroom with double bathtub, shower and dressing room with vanity desk</li><li>Air conditioning</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedroom 1]]></Heading>
+          <Description><![CDATA[<ul><li>Sea-view suite with floor-to-ceiling sliding glass doors that open to the pool</li><li>Queen-sized bed and TV</li><li>Modern ensuite bathroom with shower </li><li>Air conditioning</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Bedroom 2]]></Heading>
+          <Description><![CDATA[<ul><li>Spacious bedroom suite with garden view just a few steps back from the pool</li><li>Queen-sized bed and TV</li><li>Modern ensuite bathroom with double bathtub and shower</li><li>Air conditioning</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4006" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Found within the exclusive and secure Baan Yamu estate on Cape Yamu, Villa Abiente offers a tranquil escape perfect for exploring Phuket’s east-coast sights. Within the estate is a modern collection of residences and villas, with a restaurant and bar, one of the island’s largest swimming pools, and an air-conditioned gym available for guests. Opposite Baan Yamu is a seaside promenade and small pier, a pleasant area for an evening stroll, and where kayaks and speedboats are available for hire. The sunrise views over the bay will encourage early morning starts, and Villa Abiente’s easy access to local marinas make a Phang Nga Bay cruise a must. Between the east coast’s calm bays dotted with long-tail fishing boats, lush forested hillsides and acres of rubber-plantations are some surprisingly upscale dining choices including top Phuket restaurant Breeze at Cape Yamu, renowned for its long lazy Sunday brunches.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Point Yamu by Como]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bang Pae Waterfall]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Royal Phuket Marina]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ao Po Grand Marina]]></Heading>
+          <Description><![CDATA[15 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Mission Hills Golf Club]]></Heading>
+          <Description><![CDATA[16 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bang Tao Beach]]></Heading>
+          <Description><![CDATA[17 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Surin Beach]]></Heading>
+          <Description><![CDATA[19 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Central Festival Shopping Mall]]></Heading>
+          <Description><![CDATA[19 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Phuket Town]]></Heading>
+          <Description><![CDATA[20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Phuket International Airport]]></Heading>
+          <Description><![CDATA[26 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4007" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Cape Yamu, Phuket, Thailand.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>6 guests (3 queen-bedded guest rooms).&nbsp; A&nbsp; foldout sofa bed may be set up in the media room for 1 extra guest at additional cost.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living areas]]></Heading>
+          <Description><![CDATA[<p>Open-plan room with kitchen, living and dining areas; indoor dining for 8; media room with sofa bed; pool terrace with sundeck and outdoor lounge with built-in sofas.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>12m x 4m x 1.5m infinity pool.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Full-time villa manager; housekeepers; chef and 24-hour estate security.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Complimentary daily breakfast.&nbsp; Suggestion menu with Thai specialties,  all prepared by the villa’s private chef.&nbsp; Special dietary requests  accommodated wherever possible.&nbsp; Grocery cost is charged 20% handling fee which is subject to tax at the prevailing rate.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi broadband internet.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Flat-screen satellite channel TVs; Bluetooth speakers.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families]]></Heading>
+          <Description><![CDATA[<p>Abiente is best suited for families with older children.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa and fitness]]></Heading>
+          <Description><![CDATA[<p>Abiente’s peaceful, breezy setting offers the perfect retreat for a soothing spa session. Guests are also welcome to use the estate’s well-equipped gym, open daily from 7am to 7pm, for no extra charge. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>One-way airport transfer is complimentary. Additional transfers can easily be arranged with your villa manager at small cost.<br /></p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Safety deposit box; sunken lounge.<br /></p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed &amp; marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://www.elitehavens.com" target="_blank" title="The Elite Havens Group.">The Elite Havens Group.</a></p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4008" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Wake each morning to a spectacular sunrise at Villa Abiente, a chic three-bedroom retreat in the Baan Yamu estate on scenic Cape Yamu. Ideally located for exploring Phuket’s quieter east coast and cruising among the dramatic limestone karsts of Phang Nga Bay, Abiente is a sea-view holiday haven with a 12-metre private pool, Western kitchen and sleek living areas perfect for couples or groups. Abiente’s friendly staff team, which includes a chef and villa manager, is ready to lavish guests with five-star care, while within the estate is a gym, restaurant and Olympic-sized pool.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4009" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Perfectly positioned to catch the sunrise, and with sea views from nearly every room, the three-bedroomed Villa Abiente is an ideal holiday choice for those looking to escape the crowds. Found on Cape Yamu, this modern east-coast sanctuary features a 12-metre pool, bright open-plan living spaces, a fully equipped kitchen and lavish bedroom suites.</p><p>Just 30 minutes away from Phuket International Airport, Villa Abiente is among a collection of private luxury homes in the Baan Yamu estate, which also features a glittering Olympic-sized swimming pool and gym for guests, plus a restaurant and bar just a short walk away from the villa. Unlike many of its more established west-coast cousins, Abiente lies off the tourist track and retains an exclusive getaway feel. Rubber and coconut plantations dominate the surrounding landscape and traditional long-tail fishing boats glide across the bay. This is the perfect place to discover Phuket’s lesser-visited charms.  </p><p>Back at the villa, a stylish, bright living and dining area, incorporating a well-equipped kitchen and breakfast bar, opens to a wraparound balcony, sunken outdoor lounge and pool terrace that optimises the sea views and tropical breezes. A media room tucked behind the living area can also serve as a child’s bedroom and comes with its own bathroom. The villa’s master suite and two guest bedrooms are stylish havens with king-sized beds and private bathrooms. Two of the bedrooms are poolside and boast sea views.  </p><p>Guests are treated to the Thai hospitality and professional service of a team of friendly staff including a chef for all meals and a villa manager who will help arrange cars, taxis and bookings for island attractions including yacht charters around majestic Phang Nga Bay, golf tee-off times, day spas and dining reservations.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4010" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa Abiente’s ground-floor entry hall is adorned with a Zen pebble-garden and a mix of modern and traditional art, including a huge, eye-catching mural of an architectural sketch. Staff rooms and the chef’s kitchen are also located on this floor. Up the staircase and through an imposing double door is the main living area housing the guest kitchen, living room and dining area. Just behind the living room is the cosy media room. The living area opens widely to the pool, sun terrace and an outdoor lounge. Two of the villa’s bedrooms are arranged along the pool’s length, with the third tucked just behind.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4011" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>All three comfortable bedrooms at Villa Abiente have ensuite bathrooms, are furnished with queen-size beds and equipped with air conditioning, TVs and plenty of storage space. Villa Abiente’s master suite lies at the corner of the villa and features floor-to-ceiling glass doors that slide open to the pool terrace presenting fabulous sea and sunrise views. The master’s ensuite bathroom is fitted with a chic white tub for two and a dressing room. The guest bedroom next to the master suite also has sea views and a poolside setting, while the third bedroom offers a peaceful garden view and also features a double tub in its bathroom.&nbsp; </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4012" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<p>Villa Abiente’s fresh white interiors contrast against the rich blues of the tropical sea and sky, to give the feel of a luxury yacht. The open-plan living spaces have an easy elegance, with the eight-seater dining table, guest kitchen, breakfast bar and lounge forming the heart of the villa.&nbsp; While the lounge is furnished with an inviting two-way sofa and TV, the media room just behind it offers a cosier setting for movie nights, and comes with its own bathroom and a sofa bed.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>A 12-metre infinity swimming pool bordered by a sundeck and a sunken lounge that makes the perfect setting for cocktails, assures relaxed tropical living at Villa Abiente. At ground level, a small lawn offers space to throw a Frisbee or set up the barbecue for a seafood feast.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4013" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>One of the distinctive pleasures of staying in a private villa is benefiting from the service of a team of staff dedicated entirely to making your holiday as perfect as possible. Villa Abiente’s staff have all been professionally trained and offer genuine Thai hospitality tailored to your needs.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa manager]]></Heading>
+          <Description><![CDATA[<p>Villa Abiente’s English-speaking manager attends to all guest requirements, liaising with the chef for meals, arranging in-villa services such as private spa sessions, and booking transport and excursions. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The skilled villa chef is available to prepare daily breakfast, lunch and dinner from a tempting suggestion menu with emphasis on Thai cuisine, and is happy to discuss any special dining requests or dietary requirements.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Villa attendants]]></Heading>
+          <Description><![CDATA[<p>Villa attendants handle all the daily housekeeping duties and assist the kitchen to provide service at mealtimes.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool &amp; garden]]></Heading>
+          <Description><![CDATA[<p>Estate staff keep the villa pool and gardens in pristine condition with regular service.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>Estate guards keep the villa secure 24 hours a day.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4014" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Private dining at Villa Abiente is a fine chance to explore Thai cuisine and meals can be fully customised to suit guests’ tastes, pace and level of spice. Daily breakfast is included in the villa rate and the chef is on hand to prepare all other meals from the suggestion menu, which features some delicious local dishes as well as kid-friendly, vegetarian and Western choices. </p><p>Villa Abiente has a fully equipped guest kitchen for those who wish to prepare their own meals or snacks, and a choice of dining areas. Whether you are in the mood for a formal meal in the bright dining room, a quick nibble at the breakfast bar, poolside tapas and cocktails in the sunken lounge, this villa has it covered. </p><p>Groceries are charged at market price plus a 20% handling fee and a government tax, with a minimum shopping fee of THB 750.&nbsp; Guests are encouraged to plan their meals at least a day in advance with a chef. Villa staff will take care of all the shopping and keep the receipts for reference. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4015" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>Villa Abiente is an ideal place to enjoy a soothing Thai massage or spa therapy in complete comfort and privacy. Your villa manager will be pleased to organise a recommended spa specialist to administer a revitalising treatment (extra charges apply). The villa’s poolside sunbeds offer an excellent makeshift spa bed for a breezy massage session followed by a refreshing dip, or treatments could be carried out in one of the air-conditioned bedrooms for a bit more peace and privacy.</p><p>Here's a sample of what's on the menu:<br /></p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Classic Thai massage]]></Heading>
+          <Description><![CDATA[<p>An ancient traditional art, this method of massage was originally administered on temple grounds by masters with healing abilities. By exerting pressure on specific points of the body and by manipulating muscles and ligaments, the spine is elongated and relieved of tension. The sense of well-being as energy and flexibility are brought back into your body is extraordinary.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Herbal oil massage]]></Heading>
+          <Description><![CDATA[<p>Our herbal oil massage – using blends of spice, citrus, aromatic and citronella oils – is a combination of a classic Thai and oil massage. This gentle massage will leave you feeling on top of the world, and is especially suitable for people with little experience of Thai massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Facial massage]]></Heading>
+          <Description><![CDATA[<p>The traditional way of purifying and nourishing your face using natural products, such as our herbal cream cleaner, and honey from the North of Thailand – as well as root masks and soft pressure point massage. This relaxing facial treatment will leave your skin feeling silky smooth, giving you a fresh and healthy glow. Our facial massage is popular with both men and women.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot massage]]></Heading>
+          <Description><![CDATA[<p>This is a treat for one of the body’s most important – and often neglected – parts. After the pressure point massage, herbal foot masque and herbal oil treatment, you’ll be back to full speed again.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Indulge, sit back and enjoy a quality manicure by a professional therapist. The pedicure includes a luxury foot soak, foot scrub and exfoliation to soften those weary feet.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4016" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[Villa Abiente is perfectly positioned for exploring Phuket’s rural east coast and for cruising the fabulous islands and waters of Phang Nga Bay. And its location just to the east of the island’s main north/south thoroughfare gives easy access to many popular beaches and to Phuket Town. Here’s just a sampling of some of our recommended sights and activities beyond the villa: <br /><br /><ol><li>Explore the iconic karst islands of Phang Nga Bay, made famous in the James Bond classic ‘The Man with the Golden Gun’. Cruise the scenic waters aboard a luxury yacht or paddle through the caves on a sea kayaking daytrip.</li><li>Indulge in a Long Lazy Sunday brunch with beautiful bay views at Breeze restaurant, just a five-minute drive from the villa. Enjoy a dozen or more selections with the menu refreshed regularly to ensure the best seasonal ingredients, all served with style at a single long table that seats 40 guests.</li><li>Go surfing at one of Phuket’s west-coast beaches including Kalim just north of Patong Beach and Kamala, or if conditions allow hire a SUP board and explore the coastline by paddle. Or head inland to the lake at Anthem Wake Park for some cable wakeboarding and, for the kids, an inflatable aqua park.</li><li>Take a stroll back through time with a walk around Phuket Old Town and its historic Sino-Portuguese shophouses, many of which have been converted into chic cafés and boutiques. On Sunday evenings the colourful streets host the lively Lard Yai market offering tasty local food, art and handicrafts for sale.</li><li>Learn the secrets of Thai cuisine in a cookery class offered by the talented chefs at the nearby Nahmyaa restaurant in Como Point Yamu resort, or try a class with the master of Thai fusion fare, Chef Tammasak “Noi” Chootong of Suay restaurant. </li><li>Phuket is home to two wildlife sanctuaries, both found on the east coast. At the Gibbon Rehabilitation Project, just inside the entrance to Khao Phra Thaeo national park, learn more about these endangered primates and the efforts to release gibbons saved from poachers back to the wild. Or book a tour of the Phuket Elephant Sanctuary to watch rescued elephants at play in their natural environment. </li><li>Tee-off at one of Phuket’s meticulously landscaped golf courses including Mission Hills, Laguna Phuket Golf Club and Blue Canyon Country Club.&nbsp; </li><li>Give your body and mind a restorative boost with a massage or beauty session at a Phuket luxury spa. Nearby is the COMO Shambhala Retreat at Point Yamu resort, or book into the Banyan Tree Spa for a truly royal treatment. </li><li>Browse for local crafts, beach fashions, brand-name clothing and more at one of Phuket’s shopping centres including Premium Outlet near Phuket Town, Jungceylon mall in Patong Beach and Boat Avenue near Bangtao Beach. </li><li>Discover the exotic marine life of the Andaman Sea on a scuba diving or snorkelling day trip to nearby islands including Koh Khai, the Similan islands, Koh Phi Phi and the Raya islands.</li></ol>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4133" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa Abiente offers a lavish holiday retreat for families, especially for those with older children. Kids will love splashing around in the villa’s private 12-metre pool and letting off steam with games on the lawn. But should extra space or new playmates be sought, there’s always the huge communal pool near the estate entrance. Inside, Villa Abiente has ample entertainment choices for families with each ensuite bedroom and the living room equipped with a flat-screen TV. In the cosy media room (which has its own ensuite bathroom) is a TV and a sofabed, so the space can easily be converted into an extra child’s bedroom if needed. </p><p>A skilled team of staff, including a chef, is on hand all day to cater exclusively to your family’s needs. The villa’s menu offers a fine introduction to Thai food, with several family friendly choices. The chef and villa manager will gladly discuss all your dining requirements and will help customise meals to satisfy even the pickiest of eaters. There’s also a fully equipped guest kitchen available for families who wish to prepare their own snacks or meals.</p><p>Villa Abiente is well located for families who wish to explore Phuket’s marine attractions, with the spectacular Phang Nga Bay just to the east of Cape Yamu. The beach closest to the villa isn’t ideal for swimming, but families will enjoy leisurely walks along the promenade, with great sunset views across the bay. And at the nearby pier, longtail boats, speedboats and kayaks are available for hire to explore the calm waters and nearby islands. Some of island’s best nature attractions including Bang Pae Waterfall, the Gibbon Rehabilitation centre and the Phuket Elephant Sanctuary are just minutes away from the villa, too. For more activity choices, be sure to check our <a href="./the-locale/things-to-do.html" target="_self" title="Things to do - Villa Abiente">Things to do</a> page, or ask the villa staff about their insights on family friendly attractions around the island. </p>]]></Description>
+      <SubContents />
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Abiente</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="CapeYamu">Cape Yamu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Phuket">Phuket</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="TH">Thailand</Country>
+    <Address contenttypeid="EI_ADDRESS">The Cape Residences, 171  Moo 7, Cape Yamu, T. Paklok, A. Thalang, Phuket, Thailand 83110</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>7.99363850</Latitude>
+        <Longitude>98.41500000</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">A modern three-bedroom villa on Phuket’s peaceful Cape Yamu with a 12m pool, sunrise sea views and a friendly team of staff including a chef.&lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>3 bedroom</RoomName>
+        <MinRate>760.00++</MinRate>
+        <MaxRate>1000.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>2 bedroom</RoomName>
+        <MinRate>650.00</MinRate>
+        <MaxRate>1000.00</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>1 bedroom</RoomName>
+        <MinRate>500.00</MinRate>
+        <MaxRate>1000.00</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Abiente - Magnificent pool setting</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/01-Villa Abiente - Magnificent pool setting.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Stunning view from the pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/02-Villa Abiente - Stunning view from the pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Stunning view from the villa</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/03-Villa Abiente - Stunning view from the villa.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Outstanding bedroom outlook</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/04-Villa Abiente - Outstanding bedroom outlook.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Poolside sitting area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/05-Villa Abiente - Poolside sitting area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Aerial view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/06-Villa Abiente - Aerial view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Contemporary design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/07-Villa Abiente - Contemporary design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Dining area at dusk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/08-Villa Abiente - Dining area at dusk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Gym</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/09-Villa Abiente - Gym.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Pool deck</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/10-Villa Abiente - Pool deck.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Dining area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/11-Villa Abiente - Dining area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Poolside relaxation</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/12-Villa Abiente - Poolside relaxation.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Outstanding setting</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/13-Villa Abiente - Outstanding setting.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - Pool perfection</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/14-Villa Abiente - Pool perfection.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Abiente - TV room stunning outlook</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00166/15-Villa Abiente - TV room stunning outlook.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

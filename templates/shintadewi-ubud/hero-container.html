@@ -1,0 +1,75 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Luxurious getaway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1920w" alt="Villa Shinta Dewi Ubud - Luxurious getaway" class="lazyload" />          
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Luxurious living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1920w" alt="Villa Shinta Dewi Ubud - Luxurious living" class="lazyload" />        
+        </div>
+        <div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Under the bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Under%20the%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Under%20the%20bale.jpg 1920w" alt="Villa Shinta Dewi Ubud - Under the bale" class="lazyload" />         
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-shinta-dewi-ubud'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Under the bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Under%20the%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Under%20the%20bale.jpg 1920w" alt="Villa Shinta Dewi Ubud - Under the bale" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Luxurious living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1920w" alt="Villa Shinta Dewi Ubud - Luxurious living" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Poolside.jpg 1920w" alt="Villa Shinta Dewi Ubud - Poolside" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {elseif $data.page == 'floorplan'}
+        
+        {elseif $data.page == 'ubud-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Stunning outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Stunning%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Stunning%20outlook.jpg 1920w" alt="Villa Shinta Dewi Ubud - Stunning outlook" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Perfect way to start the day.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Perfect%20way%20to%20start%20the%20day.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Perfect%20way%20to%20start%20the%20day.jpg 1920w" alt="Villa Shinta Dewi Ubud - Perfect way to start the day" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Your own personal chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Your%20own%20personal%20chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Your%20own%20personal%20chef.jpg 1920w" alt="Villa Shinta Dewi Ubud - Your own personal chef" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Upstairs living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Upstairs%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Upstairs%20living.jpg 1920w" alt="Villa Shinta Dewi Ubud - Upstairs living" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Sumptuous ensuite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Sumptuous%20ensuite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Sumptuous%20ensuite.jpg 1920w" alt="Villa Shinta Dewi Ubud - Sumptuous ensuite" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Weddings.jpg 1920w" alt="Villa Shinta Dewi Ubud - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Poolside relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Poolside%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Poolside%20relaxation.jpg 1920w" alt="Villa Shinta Dewi Ubud - Poolside relaxation" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Poolside relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Poolside%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Poolside%20relaxation.jpg 1920w" alt="Villa Shinta Dewi Ubud - Poolside relaxation" class="lazyload" />       
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Dining and entertaining spaces.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Dining%20and%20entertaining%20spaces.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Dining%20and%20entertaining%20spaces.jpg 1920w" alt="Villa Shinta Dewi Ubud - Dining and entertaining spaces" class="lazyload" />  
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Guest bedroom layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Guest%20bedroom%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Guest%20bedroom%20layout.jpg 1920w" alt="Villa Shinta Dewi Ubud - Guest bedroom layout" class="lazyload" />  
+                        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Luxurious getaway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1920w" alt="Villa Shinta Dewi Ubud - Luxurious getaway" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Luxurious getaway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1920w" alt="Villa Shinta Dewi Ubud - Luxurious getaway" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi Ubud.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi Ubud - Luxurious getaway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20getaway.jpg 1920w" alt="Villa Shinta Dewi Ubud - Luxurious getaway" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

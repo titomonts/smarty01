@@ -1,0 +1,186 @@
+{include file="part-reviews.html"}
+{include file="part-map.html"}
+{include file="part-villas.html"}
+       
+{if $data.page == 'index'}
+{* include file="part-eh.html" *}
+{/if}
+        <div class="footer-container">
+                <div class="footer">
+                    <div class="wrapper">
+                        <div class="column">
+                            <h3>Contact us</h3>
+                            <ul class="phone-numbers">
+                                <li>
+                                	{site_settings what="bali_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="hongkong_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="kohsamui_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="manila_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="phuket_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="sg_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="enquiries">For press and media enquiries please contact us <a href="/general-enquiries.html">here</a></p>
+                        </div>
+                        <div class="column">
+                            <h3>Follow us</h3>
+                            <div class="socials">
+                                <a href="{site_settings what="company_facebook"}{$set.set_value}" class="socmed fb" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_pinterest"}{$set.set_value}" class="socmed pt" target="_blank" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_gplus"}{$set.set_value}" class="socmed gp" target="_blank" title="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_instagram"}{$set.set_value}" class="socmed in" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_linkedin"}{$set.set_value}" class="socmed li" target="_blank" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_youtube"}{$set.set_value}" class="socmed yt" target="_blank" title="Youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                <a href="https://www.tripadvisor.com/VacationRentalReview-g311298-d2506995-Villa_Kedidi_an_elite_haven-Canggu_North_Kuta_Bali.html" class="socmed ta" target="_blank" title="Tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                            </div>
+                            {parsedata folder=$data.theme cache=$data.cache mobileData="yes"}
+                            <address>
+                                {$mdata.VillaName}<br />
+                                {$mdata.Address}, {$mdata.SubLocation}, {$mdata.Location}
+                            </address>
+                            <ul class="footer-nav">
+                                {section name=p loop=$pages}
+                                {if $pages[p].menu_location == 'footer'}
+                                <li>
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                                </li>
+                                {/if}
+                                {/section}
+                            </ul>
+                            <p class="copyright">Copyright &copy; {$data.copyright_date} {$data.villa_name}</p>
+                        </div>
+                        <div class="bottom">
+                            <a href="http://www.elitehavens.com/" target="_blank"><img data-src="{$data.cdn}/resources/{$data.theme}/images/logo-eh.png" class="lazyload" /></a>
+                            <p class="marketed">{$data.site_tag} by <a href="http://www.elitehavens.com/" target="_blank">The Elite Havens Group</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="top-arrow">Back to top</div>
+        
+        {if #BOOKING_ENGINE#}
+        {booking template='loader'}
+        {/if}
+
+        {asset_compile}
+        <script type="text/javascript"> 
+            var gkey = {site_settings what="gmap_key"} '{$set.set_value}';
+            var dir = '/resources/{$data.theme}';
+            var lat = {$coordinates['latitude']}; 
+            var long = {$coordinates['longitude']}; 
+            var infocontent = '{$data.villa_name}';			
+            var redirectURL = '/canggu-bali.html';			
+            var markerWidth = 41;
+            var markerHeight = 58;
+            var markerXanchor = 20.5;
+            var markerYanchor = 58;
+        </script>
+        
+        {literal}
+        <script>
+            function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+
+            if(!window.HTMLPictureElement || !('sizes' in document.createElement('img'))){
+                loadJS("/resources/{$data.theme}/lazysizes/ls.respimg.min.js");
+            }	
+        </script>
+        <script type="text/javascript" async>
+          WebFontConfig = {
+            google: { families: [ 'Raleway:300,400', 'Roboto:100,300,400', 'Open+Sans:300,400', 'Lora:300,400' ] }
+          };
+          (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+              '://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+              
+          var loadDeferredStyles = function() {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+          };
+          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+          if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+          else window.addEventListener('load', loadDeferredStyles);
+          })(); </script> 
+        {/literal}
+        <script src="/resources/{$data.theme}/js/jquery-1.12.4.min.js"></script>
+        <script src="/resources/{$data.theme}/js/jquery-ui.min.js"></script>
+        <script src="/resources/{$data.theme}/lazysizes/ls.unveilhooks.min.js"></script>
+        <script src="/resources/{$data.theme}/lazysizes/ls.bgset.min.js"></script>
+        <script src="/resources/{$data.theme}/lazysizes/lazysizes.min.js"></script>
+        <script type="text/javascript" src="/resources/{$data.theme}/owlcarousel/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="/resources/common/bookingbar/js/bookingbar.js"></script>
+        <script type="text/javascript" src="/resources/{$data.theme}/js/site.js"></script>
+        <script type="text/javascript" src="/resources/common/js/villa_new.js"></script>
+        {if #BOOKING_ENGINE#}
+        <script type="text/javascript" src="/js/calendar_script.js"></script>
+        {/if}
+        
+        {if $data.page == 'rates'}
+        {if #BOOKING_ENGINE#}
+		<script type="text/javascript" defer>
+            var iframe = `{strip}{booking template="availability" curl="reservation-sent"}{/strip}`;
+        </script>
+        {else}
+		<script type="text/javascript" defer>
+            var iframe = `{strip}{$data.site_calendar_iframe|unescape:"html"}{/strip}`;
+        </script>
+        {/if}
+        {literal}
+		<script type="text/javascript" defer>
+		defer(function () {            
+			jQuery(iframe).insertBefore('#tabs');
+		});
+        function defer(method) {
+            if (window.jQuery) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 1);
+            }
+        }
+		</script>
+        {/literal}
+        {/if}
+        {if $data.page == 'video'}
+        <script type="text/javascript" src="/resources/common/js/youtube_track.js"></script>
+        {/if}
+        {/asset_compile}
+    </body>
+</html>

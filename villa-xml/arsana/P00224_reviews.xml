@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <SDate>2018-06-29T00:00:00+08:00</SDate>
+    <EDate>2018-06-29T00:00:00+08:00</EDate>
+    <RHighlight>This is a perfect villa if you’re looking for a beautifully designed space that stands out from the crowd. Its architecture and interior design make this a very individual and Instagrammable choice. Set in a rice field, it’s a great little hideaway from the rest of the world where you can keep yourself entertained both day and night. It’s also super close to where the action is, and a great starting point for exploring everything Canggu and Bali have to offer.<br /></RHighlight>
+    <RSurroundArea />
+    <VillaID>P00224</VillaID>
+    <ROverallComments>I knew we’d be in for a treat the moment we arrived at the entrance of Villa Kayajiwa. The contemporary dark façade suggested something pretty unique and stylish would be hiding behind those walls. <br /><br />As a great fan of modern architecture and clever design, I could tell this villa was designed as a place to relax, entertain and impress. As far as we were concerned, it more than delivered on all three accounts.&nbsp; <br /><br />From the antique Balinese doors in the living room with door handles in the shape of a hand (door hand-le, get it?) to the original art work in every room, the owner has clearly put a lot of thought into choosing ornaments that each tell their own story. <br /><br />The villa is shaped around a large lawn and a beautiful 25-metre pool which flows into a spacious Jacuzzi, all providing the perfect backdrop for endless sunbathing, evening cocktails and morning laps. <br />The moat around the garden was one of my favourite design features. The gentle sound of running water created a sense of being in an oasis, far away from the stresses of daily life. <br /><br />We loved the big furnished roof terrace too. Not only is it a perfect sun trap during the day, but it also doubled up as a great spot for catching the sunset, as well as for some late-night handholding and stargazing. <br /><br />In fairness, the karaoke room was a little wasted on us. After about ten minutes of torture, my partner and I realised the singing was putting our relationship in jeopardy. Having said that, if karaoke is your thing or indeed if you’re a masochist, then this purpose-built room will give you an extra reason for choosing this villa.<br /><br />Not that you’ll need any more reasons. From the impressive modern design, the super helpful staff, the excellent location, this villa has incredible character and gets top marks from us. <br /></ROverallComments>
+    <RUnpleasantSurprise>The volcanic stone walls can give the indoor spaces a dark feel during the day. The clever and cozy lighting at night more than make up for that though. <br /><br />The jacuzzi is an extension of the pool and therefore not heated, making it a little too chilly to be used at night. <br /><br />The solid wooden dining room table is stunning, but the seats are a bit uncomfortable and were probably not designed with a tall person in mind. <br /></RUnpleasantSurprise>
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>8.80</RIOverAll>
+    <RICharacter>10</RICharacter>
+    <RILocation>9</RILocation>
+    <RIOutsideArea>9</RIOutsideArea>
+    <RILivingArea>9</RILivingArea>
+    <RIKitchen>7</RIKitchen>
+    <RIBedRm>9</RIBedRm>
+    <RIBathRm>9</RIBathRm>
+    <RIFacility>9</RIFacility>
+    <RIStaff>8</RIStaff>
+    <RIValue>9</RIValue>
+    <RIDate>2018-06-29T00:00:00+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+</REVIEWS>

@@ -1,0 +1,169 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['press']}
+
+    <div class="press-container">
+
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Sohamsa-Ocean-Estate__Grand-Cliff-Nusa-Dua__Kaba-kaba-Estate__Expatliving.sg__November.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/November/Sohamsa-Ocean-Estate__Grand-Cliff-Nusa-Dua__Kaba-kaba-Estate__Expatliving.sg__November.jpg" class="imgleft"></a>
+            <span>“Enjoy a seaside holiday this festive season at Grand Cliff Nusa Dua in Bali.” <a href="/resources/{$data.theme}/pdfs/2018/November/Sohamsa-Ocean-Estate__Grand-Cliff-Nusa-Dua__Kaba-kaba-Estate__Expatliving.sg__November.pdf" target="_blank"><strong>Expatliving.sg</strong>, November 08th ,2018.</a></span>
+        </div>
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/October/Grand-Cliff-Villas_Expatliving.sg_Oct-2018.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/October/Grand-Cliff-Villas_Expatliving.sg_Oct-2018.jpg" class="imgleft"></a>
+            <span>“Places to stay and play.” <a href="/resources/{$data.theme}/pdfs/2018/October/Grand-Cliff-Villas_Expatliving.sg_Oct-2018.pdf" target="_blank"><strong>Expatliving.sg</strong>, October 24th, 2018.</a></span>
+        </div>
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/October/Sohamsa-Ocean-Estate__Grand-Cliff-Nusa-Dua__Kaba-kaba-Estate__Expatliving.sg__October.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/October/Sohamsa-Ocean-Estate__Grand-Cliff-Nusa-Dua__Kaba-kaba-Estate__Expatliving.sg__October.jpg" class="imgleft"></a>
+            <span>“Keep the family happy and well - entertained at Grand Cliff Nusa Dua.” <a href="/resources/{$data.theme}/pdfs/2018/October/Sohamsa-Ocean-Estate__Grand-Cliff-Nusa-Dua__Kaba-kaba-Estate__Expatliving.sg__October.pdf" target="_blank"><strong>Expatliving.sg</strong>, October 24th, 2018.</a></span>
+        </div>
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/October/Grand-Cliff-Villas---Travmedia-Oct-2018.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/October/Grand-Cliff-Villas---Travmedia-Oct-2018.jpg" class="imgleft"></a>
+            <span>“Forget Staying on the Beach, Cliff Tops are where it’s at on Bali’s Beautiful Bukit Peninsula” <a href="/resources/{$data.theme}/pdfs/2018/October/Grand-Cliff-Villas---Travmedia-Oct-2018.pdf" target="_blank"><strong>Travmedia.com</strong>, October 08th, 2018.</a></span>
+        </div>
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/September/Grand-Cliff-Villas---Expat-Living-Magazine-Oct-2018.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Grand-Cliff-Villas---Expat-Living-Magazine-Oct-2018.jpg" class="imgleft"></a>
+            <span>“Bali’s Grand Cliff Ungasan and Grand Cliff Nusa Dua are two fantastic spots for getaways with family and friends” <a href="/resources/{$data.theme}/pdfs/2018/September/Grand-Cliff-Villas---Expat-Living-Magazine-Oct-2018.pdf" target="_blank"><strong>Expat Living Magazine</strong>, October, 2018.</a></span>
+        </div>
+               
+	</div> 
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+	
+{elseif $data.page|in_array:['guest-reviews']}
+	
+	<div id="tabs" class="tabs">
+		<ul>
+			<li><a href="#reviews-ungasan">Grand Cliff Ungasan</a></li>
+			<li><a href="#reviews-nusadua">Grand Cliff Nusa Dua</a></li>
+		</ul>
+		<div id="reviews-ungasan"  class="reviews-ungasan">
+			 <div class="reviews-container" >
+				{reviews hide_this_year="2010" order="c,n,d" villa_id="P00121"}
+				{$reviews}
+			</div>
+			
+		</div>
+		<div id="reviews-nusadua" class="reviews-nusadua">
+			 <div class="reviews-container">
+				{reviews hide_this_year="2010" order="c,n,d" villa_id="P00226"}
+				{$reviews}
+			</div>
+			
+		</div>
+		<div class="reviews-pagination">
+				{if $data.cur_page > 1}
+				<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+				{/if}
+				{section name=pg loop=$data.num_pages}
+				{if $data.cur_page == $smarty.section.pg.index+1}
+				<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+				{else}
+				<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+				{/if}
+				{/section}
+				{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+				<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				{/if}
+			</div>		
+	</div>
+	
+    
+{elseif $data.page|in_array:['rates']}
+   
+   
+    <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#rates-ungasan">Grand Cliff Ungasan</a></li>
+            <li><a href="#rates-nusadua">Grand Cliff Nusa Dua</a></li>
+        </ul>
+        <div id="rates-ungasan">
+            {rates vid="P00121" folder=$data.theme}
+        </div>
+        <div id="rates-nusadua">
+            {rates vid="P00226" folder=$data.theme}
+        </div>
+    </div>
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+				<ul class="subnav">
+					{section name=sp loop=$pages[p].children}
+					{if $data.page == $pages[p].children[sp].page_identifier}
+					{assign var=bodeh_class value=$pages[p].children[sp].body_class}
+					{/if}
+					
+					<li>						
+						{if $pages[p].children[sp].level eq 'linkout'}
+						<a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+						{elseif $pages[p].children[sp].level == 'sub'}
+						<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+						{elseif $pages[p].children[sp].level == 'internal' and ($pages[p].page_identifier neq $pages[p].children[sp].page_identifier)}
+						<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+						{else}
+						<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+						{/if}
+						{$pages[p].children[sp].label}
+						</a>
+					</li>
+					
+					{/section}
+				</ul>
+			{/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

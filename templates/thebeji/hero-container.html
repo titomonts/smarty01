@@ -1,0 +1,77 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Beautiful escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1920w" alt="Villa The Beji - Beautiful escape" class="lazyload" />
+        </div>
+		<div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Laze away the day.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Laze%20away%20the%20day.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Laze%20away%20the%20day.jpg 1920w" alt="Villa The Beji - Laze away the day" class="lazyload" />
+        </div>
+		<div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Pool overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Pool%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Pool%20overview.jpg 1920w" alt="Villa The Beji - Pool overview" class="lazyload" />
+        </div>		
+	</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-the-beji'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Pool overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Pool%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Pool%20overview.jpg 1920w" alt="Villa The Beji - Pool overview" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Expansive lawn and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Expansive%20lawn%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Expansive%20lawn%20and%20pool%20feature.jpg 1920w" alt="Villa The Beji - Expansive lawn and pool feature" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Expansive lawn and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Expansive%20lawn%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Expansive%20lawn%20and%20pool%20feature.jpg 1920w" alt="Villa The Beji - Expansive lawn and pool feature" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Luxury master suite semi outdoor bath.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Luxury%20master%20suite%20semi%20outdoor%20bath.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Luxury%20master%20suite%20semi%20outdoor%20bath.jpg 1920w" alt="Villa The Beji - Luxury master suite semi outdoor bath" class="lazyload" />
+		
+        {elseif $data.page == 'floorplan'}
+		
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Weddings.jpg 1920w" alt="Villa The Beji - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Rejuvenate your soul.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Rejuvenate%20your%20soul.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Rejuvenate%20your%20soul.jpg 1920w" alt="Villa The Beji - Rejuvenate your soul" class="lazyload" />
+              		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Attentive service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Attentive%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Attentive%20service.jpg 1920w" alt="Villa The Beji - Attentive service" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Beautiful high tea set up.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Beautiful%20high%20tea%20set%20up.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Beautiful%20high%20tea%20set%20up.jpg 1920w" alt="Villa The Beji - Beautiful high tea set up" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Immaculate lawn.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Immaculate%20lawn.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Immaculate%20lawn.jpg 1920w" alt="Villa The Beji - Immaculate lawn" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Guest suite six ensuite bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Guest%20suite%20six%20ensuite%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Guest%20suite%20six%20ensuite%20bathroom.jpg 1920w" alt="Villa The Beji - Guest suite six ensuite bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Fabulous setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Fabulous%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Fabulous%20setting.jpg 1920w" alt="Villa The Beji - Fabulous setting" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Fabulous setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Fabulous%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Fabulous%20setting.jpg 1920w" alt="Villa The Beji - Fabulous setting" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Stunning garden dinner setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Stunning%20garden%20dinner%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Stunning%20garden%20dinner%20setting.jpg 1920w" alt="Villa The Beji - Stunning garden dinner setting" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Laze away the day.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Laze%20away%20the%20day.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Laze%20away%20the%20day.jpg 1920w" alt="Villa The Beji - Laze away the day" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Beautiful escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1920w" alt="Villa The Beji - Beautiful escape" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Beautiful escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1920w" alt="Villa The Beji - Beautiful escape" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20The%20Beji.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa The Beji - Beautiful escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20The%20Beji%20-%20Beautiful%20escape.jpg 1920w" alt="Villa The Beji - Beautiful escape" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

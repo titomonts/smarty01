@@ -1,0 +1,147 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item section-one">  
+                    <div class="wrapper">
+                        <h1 class="entry-title">{$data.heading} <small>The six bedroom villa Puri Nirwana is set in beautifully landscaped gardens and enjoys an absolute location beachfront on the dramatic black sand surf beach of Cucukan.</small></h1>
+                        <div class="the-content">
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc regex="default"}
+                                {section name=s loop=$contentPart}
+                                {$contentPart[s]|replace:"<p>":"<p class=\"p-header\">"}
+                                {/section} 
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+                        </div>
+                                
+                        <ul class="poi lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Puri Nirwana - Garden sculptures.jpg">
+                            <li id="poi-1">Beachfront<br> Location</li>
+                            <li id="poi-2">Private<br> Chef</li>
+                            <li id="poi-3">Fully<br> Staffed</li>
+                            <li id="poi-4">Weddings<br> & Events</li>		
+                            <li id="poi-5">Family<br> Friendly</li>						
+                        </ul>      
+                    </div>
+                </div>
+		
+                <div class="content-item section-two">
+                    <div class="wrapper">
+                        <div class="group">
+                            <div class="half">
+                                <div class="img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Puri Nirwana - Kitchen and view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Puri Nirwana - Kitchen and view.jpg" alt="Puri Nirwana - Kitchen and view" class="lazyload" />
+                                </div>
+                            </div>
+                            <div class="half half-content">
+                                <div class="the-content">
+                                    <h2 class="entry-title">Exquisite cuisine,<br /> prepared especially for you.</h2>
+                                    <p>You can savour an exquisite cuisine prepared especially for you by our chef. To allow the kitchen staff time to shop and prepare, it’s necessary to order in advance.  Groceries and beverages are charged at cost and guests will be requested to provide a float for provisions.</p>
+                                    <div><a href="/dining.html" class="btn-home">Find out more</a></div>			
+                                </div>	
+                            </div>
+                        </div>  
+                        <div class="group">
+                            <div class="half half-content">
+                                <div class="the-content">
+                                    <h2 class="entry-title">Complimentary car and driver.</h2>
+                                    <p>Explore Bali hassle-free with your own private driver. Your driver is at your leisure to sight-see the island. Morning Tea in Ubud, Lunch at Uluwatu and then an afternoon of surfing in Canggu? It's up to you how you wish to arrange the day.</p>
+                                    <div><a href="/sanur-ketewel-bali.html" class="btn-home">Find out more</a></div>			
+                                </div>	
+                            </div>
+                            <div class="half">
+                                <div class="img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Puri Nirwana - Beach.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Puri Nirwana - Beach.jpg" alt="Puri Nirwana - Beach" class="lazyload" />
+                                </div>
+                            </div>
+                        </div>                     
+                    </div>                     
+                </div>
+                
+                <div class="content-item section-three">
+                    <div class="wrapper">
+                        <div class="group">
+                            <div class="first-img">	
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Puri Nirwana - Friendly staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Puri Nirwana - Friendly staff.jpg" alt="Puri Nirwana - Friendly staff" class="lazyload">
+                                <h3>Personalised service,<br /> provided by dedicated staff.</h3>
+                                {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+                                    </p>
+                                {/if}
+
+                            </div>
+
+                            <div class="second-img">							
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Puri Nirwana - Traditional fisherman boat.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Puri Nirwana - Traditional fisherman boat.jpg" alt="Puri Nirwana - Traditional fisherman boat" class="lazyload">
+                                <h3>Tranquil getaway,<br /> absolute beachfront paradise.</h3>
+                                {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+                                    </p>
+                                {/if}						
+                            </div>
+
+                            <div class="third-img">	
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Puri Nirwana - Spa amenities.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Puri Nirwana - Spa amenities.jpg" alt="Puri Nirwana - Spa amenities" class="lazyload">								
+                                <h3>Timeless therapy<br /> in sumptious luxury.</h3>
+                                {* parsedata folder=$data.theme cache=$data.cache content="SPA"}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                                    <p>
+                                    {section name=s loop=$contentPart start=0 max=1 }
+                                        {$contentPart[s]}.
+                                    {/section}
+                                    </p>
+                                {/if *}
+                                <p>Feel like a body scrub or massage? Just ask our staff to bring the spa to you! Enjoy deluxe treatments in Puri Nirwana’s antique spa joglo.</p>
+                            </div>	
+                        </div>
+                    </div>
+				</div>
+				
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-puri-nirwana', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'sanur-ketewel-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

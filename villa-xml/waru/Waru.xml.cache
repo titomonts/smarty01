@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Waru">
+  <Contents>
+    <Content contentid="4457" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Villa Waru will surely make you reassess everything you think you know about Bali villa holidays. This extraordinary seven-bedroom villa estate rests on a hilltop in an exclusive gated community above Nusa Dua – a private paradise worlds away from the built-up tourist areas yet less than 15 minutes from the airport. </p><p>The Made Widjaya-designed setting is stunning – mature gardens splashed with technicolour bougainvillaea and tropical blooms, emerald lawns with meandering paths and whimsical statues, and a huge water-garden of interlinking ponds with banks of lotus, koi fish and fountains. Interspersed within this verdant oasis are multiple alang-alang thatched sleeping and living pavilions – among them two air-conditioned living rooms, an upper level open-sided living room, garden living pavilion, yoga and meditation octagon, cellar bar, poolside and water garden bales and two dining terraces each seating up to 14 guests. The seven suites are equally generous, adorned with antique furniture and artwork curated by the well-travelled Asian expat owners who show impeccable taste and an appreciation for the island’s bounteous natural materials.</p><p>The accommodation is grouped into two distinct homes – the four-bedroom Garden Residence, and the three-bedroom Pond Residence, each with their own swimming pool. (Each residence can be rented independently from the other if you don’t need seven-plus bedroom; but they are never rented to two separate groups at the same time, so you will still enjoy complete privacy.)</p><p>With its multiple-pavilion layout and myriad facilities, the fully staffed Villa Waru is perfect for two or three families who love social space and breathing space in equal measure. The place is clearly a much-loved family home, and kids of all ages will be well entertained with the large pool, plunge pool, air-conditioned media room, table football, electronic keyboard and pool table. And for that special family reunion or romantic stop-the-clock wedding, this magical estate is matchless.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4458" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Garden Residence<br /><br />Golden Suite]]></Heading>
+          <Description><![CDATA[<ul></ul><ul><li>60sqm suite featuring a Venetian-style, queen-size, four-poster bed</li><li>Choice of air-conditioning or ceiling fan</li><li>Private garden terrace with sun-loungers and water feature</li><li>Garden bathroom with statement terrazzo bathtub in separate pavilion </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Teak Suite ]]></Heading>
+          <Description><![CDATA[<ul><li>50sqm upper-level suite with teak walls and floors and vaulted pavilion ceiling</li><li>Distressed-leather king-size bed under a net canopy, and antique furniture </li><li>Extensive, well-fitted dressing room </li><li>Choice of air-conditioning or ceiling fan</li><li>Ensuite shower room      </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gecko Suite ]]></Heading>
+          <Description><![CDATA[<ul><li>40sqm private retreat occupying its own pavilion within the garden</li><li>Queen-size four-poster bed</li><li>Choice of air-conditioning or ceiling fan</li><li>Ensuite bathroom with garden shower  </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Colorful Suite ]]></Heading>
+          <Description><![CDATA[<ul><li>Ground floor suite accessed from the TV room and the garden </li><li>Queen-size bed (convertible to twins) with trundle beds underneath for extra guests – perfect for the kids</li><li>Marble-walled shower room with single basin   </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pond Residence<br /><br />Sparkle Suite ]]></Heading>
+          <Description><![CDATA[<ul><li>Named for its stunning brass and crystal chandeliers</li><li>40sqm bedroom with vaulted ceiling, teakwood floor, and private garden entrance</li><li>Sliding doors opening onto deck over the pond</li><li>Queen-size canopy bed facing the garden and ponds</li><li>Choice of air-conditioning or ceiling fan</li><li>Ensuite bathroom with twin basins, statement bathtub and rain shower overlooking garden courtyard   </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Purple Suite ]]></Heading>
+          <Description><![CDATA[<ul><li>60sqm bedroom with teakwood floor, vaulted ceiling, and sliding doors onto the plunge pool</li><li>Huge four-poster bed made up of three single mattresses (in one frame)<br /></li><li>Seating area and pantry with bar fridge and microwave</li><li>Choice of air-conditioning or ceiling fan </li><li>Ensuite bathroom with hamam-style bathtub, rain shower and twin basins    </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Lucky Eight Suite ]]></Heading>
+          <Description><![CDATA[<ul><li>Octagonal shaped 50sqm bedroom with king-size four poster bed</li><li>Extensive dressing area with stairs to yoga and meditation room (can be used as an additional bedroom)</li><li>Choice of air-conditioning or ceiling fan</li><li>Large bathroom with Moroccan-style shower and private garden with statement bathtub set within a lotus pond  </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4461" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[The Garden Residence<br /><ul><li>Large air-conditioned living room with extensive seating</li><li>Upper  level open-sided living pavilion with dining table for eight, sofas and  chairs, and kitchenette with counter and bar stools</li><li>Air-conditioned TV room with 50-inch satellite TV/DVD player; dining table for six</li><li>Large professionally equipped kitchen with laundry and linen room</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[]]></Heading>
+          <Description><![CDATA[The Pond Residence<br /><ul><li>Sitting area between Sparkle and Purple suites</li><li>Air-conditioned living room (in Lucky Eight pavilion) with TV/ DVD player, and kitchenette</li><li>Air-conditioned ‘Tip Top’ yoga/meditation octagon (above Lucky Eight suite)</li><li>Cellar bar with pool table, projector and screen&nbsp; </li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[The Garden Residence<br /><ul><li>Dining terrace with extra-long table seating 14</li><li>Garden living pavilion with kitchenette </li><li>Pool bale with huge daybed, and seating area</li><li>15-metre swimming pool; sun terrace with loungers </li><li>Extensive gardens </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[]]></Heading>
+          <Description><![CDATA[The Pond Residence<br /><ul><li>Dining terrace with table for 12 outside Lucky Eight suite </li><li>Deck suspended over the pond, with dining and seating, accessed from Sparkle suite</li><li>Plunge pool, accessed from Purple and Sparkle suites </li><li>Water gardens with wooden bridge, island and relaxation bale </li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4462" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Taman Yasa Estate, Nusa Dua, Bali.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>14 guests (7 bedrooms: 1 super-king size bed; 2 king size beds; 4 queen beds, one of which is convertible to twin ).&nbsp; 2 trundle beds may accommodate 2 more guests while extra beds may be set up on request.&nbsp; Additional charge applies after 14 guests.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Upper level open-sided living pavilion; dining terrace; air-conditioned living room; air-conditioned TV room; open-sided garden living pavilion; upper level yoga/meditation octagon room; large poolside bale; lotus pond bale; lotus pond dining terrace; cellar bar and movie room.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>Main pool: 17m x 8m. 1.10m x 1.5m depth; Plunge pool: 7m x 5m x 1.5m.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[Villa supervisor; chef; butlers; garden and pool staff; engineer; security. Additional staff (babysitter, masseuse, driver, lifeguard) available on request. ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Extensive suggestion menu of Western, Asian, vegetarian and children’s dishes; requests accommodated (including special diets). </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>Fibre-optic internet with WiFi in Garden Residence, portable WiFi for Pond Residence; mobile phone coverage; in-room phone system.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>52-inch satellite channel TV in Garden Residence TV room; Bose speakers; table football; pool table; board games, books and magazines.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For Families]]></Heading>
+          <Description><![CDATA[<p>Villa Waru makes a great villa choice for families. A baby cot and high chair is included, and other equipment can be supplied on request for a small additional charge. <br /></p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Events]]></Heading>
+          <Description><![CDATA[<p>Fairytale weddings and celebrations for up to 50 guests (seated) and 80 (cocktails) can be arranged on request.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>In-villa massage can be arranged on request, using visiting therapists (extra cost applies). </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>A 7-seater car is available at a cost of US$35++ a day (including driver and petrol). Additional transport can be arranged; extra costs apply for longer distances and overtime/late hours.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional Facilities]]></Heading>
+          <Description><![CDATA[<p>Barbecue; safety deposit boxes; back-up generator.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>5,700sqm (land) 1,100sqm (build).</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://www.elitehavens.com" target="_blank" title="The Elite Havens Group">The Elite Havens Group.</a></p>  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4463" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Villa Waru stretches across the peak of the Taman Yasa estate, an exclusive enclave wrapping a hilltop above Nusa Dua and Benoa. This elite community of just 21 widely spread out luxury villas promises peace and tranquillity for its residents, who benefit from a guarded entrance gate and 24-hour security patrols, plus the estate’s communal pool and library. The white-sandy beaches of Nusa Dua and Jimbaran are a mere 15 minutes away, as are the shopping centres and restaurants of the myriad five-star resorts lining the shore. And thanks to the new cross-sea tollway at the base of the hill, the journey to the airport, Sanur and attractions further afield is quick and easy.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Nusa Dua Beach]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali National Golf Club]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Nusa Dua Convention Centre]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali Collection]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Jimbaran Beach]]></Heading>
+          <Description><![CDATA[6.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bukit Pandawa Golf Club]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta Beach]]></Heading>
+          <Description><![CDATA[14 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pura Uluwatu]]></Heading>
+          <Description><![CDATA[20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud]]></Heading>
+          <Description><![CDATA[42 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4465" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Villa Waru’s supervisor has a wealth of information about nearby places of interest and will help arrange transport and make any bookings required. Chat to the staff too; many have been attached to the villa for some time and are a great source of insider information. In the meantime, here’s a taste of the many and varied activities on offer within reach of the villa. <br /></p><ul><li><span style="font-weight: bold;">Nusa Dua beach</span> is one of the cleanest and longest in southern Bali. Here, as well as enjoying a swim in the calm reef-protected water, you can wind surf, kayak, jet ski and para-sail. Quicksilver run daily tours to Nusa Penida island (world-class diving destination and home of the fabulous mola-mola sunfish) from nearby too.</li><li>For <span style="font-weight: bold;">shopping</span>, visit Bali Collection, located within the Nusa Dua resort enclave. The mall is a multi-faceted complex of retail department stores, shops, an art market, and local and international restaurants and bars. If you would prefer to barter for some cheap clothing, check out Nusa Dua’s two tourist markets, one is situated on Jalan Pantai Mengiat (near Mengiat Beach) and the other is close to Melia Bali Resort.</li><li>At <span style="font-weight: bold;">Jenggala Keramic</span> in Jimbaran, visitors can browse and buy from a vast range of handcrafted ceramics and glassware. Jenggala also runs ‘Make and Paint a Pot’ sessions where ‘Children’ of all ages are encouraged to get creative.</li><li>Soar above the spectacular southern coastline of the Bukit Peninsula on a Paraglider. <span style="font-weight: bold;">Paragliding </span>courses and solo flying for the experienced are available as well as tandem flights in the safe hands of experienced instructors. The training centre is at Timbis Beach on the south coast of The Bukit.</li><li>Perched on a cliff 70m above the roaring Indian Ocean, <span style="font-weight: bold;">Uluwatu Temple</span> (Pura Uluwatu) is one of Bali’s nine key directional temples. Facing west and with steep headlands on either side creating an unbelievably dramatic setting, sunsets over Uluwatu are a sight not to be missed.</li><li>A <span style="font-weight: bold;">seafood feast at Jimbaran</span> is a must for every holiday in Bali – dozens of seafood warung (cafés) line this west-facing beach, perfect for a sunset dinner. Fine dining options are available at most of the big resort hotels in this area; notably Sundara at Four Seasons in Jimbaran, the lunch menu here offers wood-fired pizza, sushi and Balinese delights, while the dinner menu presents gourmet steak and seafood selections.</li><li>Uluwatu is the place for <span style="font-weight: bold;">surfing </span>enthusiasts. Most of the breaks here are only suitable for advanced or expert surfers – the waves are big here. Particular highlights are Uluwatu, Dreamland, Padang-Padang, Bingin/Impossibles and Suluban.</li><li>Golfers may wish to play a round at the award-winning 18-hole <span style="font-weight: bold;">Bali National Golf Club</span> or the stunning cliff-top Bukit Pandawa Golf &amp; Country Club.</li><li>An annual <span style="font-weight: bold;">international kite festival</span> takes place at Padang Galak beach (just north of Sanur) every July. Traditional Balinese giant kites up to ten metres in length are made and flown competitively by teams from different villages around Bali. Originally, these kites were intended to send a message to the Hindu Gods to create abundant crops and harvests. Aside from the festival itself, visitors will see many giant kites being flown in this area from June through to August.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4515" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>We defy you not to be spellbound the moment you walk through Villa Waru’s hand-painted entrance doors into its spectacular gardens. This is a rare chance to experience authentic Bali-style living – where thatched pavilions merge seamlessly with the landscape in pleasing harmony, blurring the boundaries between indoors and out.</p><p>Designed for an international expat family in the 1990s, and updated in 2013, this seven-bedroom villa (comprising two residences and rentable as a three, four or seven bedroom property) rests within enchanting water gardens created by landscaping legend Made Widjaya. Scattered around this sprawling oasis of lawns and lotus ponds, waterfalls and fountains, bougainvillaea and birdsong is a series of living and sleeping pavilions in the style of a traditional Balinese compound, each sensitively placed for verdant views and optimum privacy. The landmark design makes full use of natural materials and local craftmanship: <span style="font-style: italic;">alang-alang</span> thatched roofing, coral limestone and Palimanan stone walls, teakwood and terrazzo floors, elaborately carved traditional doors. Gracing the large, light-filled interiors is a whimsical collection of colonial-era furniture, Asian antiques, artefacts, carpets and curios that reveal the owners’ passion for Bali and shape Waru’s unique personality.</p><p>A much-loved family holiday home, Villa Waru is sure to appeal to kids of all ages. Cool off in one of the two pools, enjoy a massage in the bale, or meditate in the yoga octagon. Play foosball at the poolside, become immersed in a book, board game or film in the TV room, or enjoy a game of pool and some music in the underground cellar bar. Gather in one of the two huge dining terraces for convivial conversation and a gourmet meal prepared by the villa chef. Seek the privacy of your palatial suite for a petal-strewn bath, air-conditioned siesta or blissful night’s sleep. </p><p>With an extraordinary choice of both social and private space, the fully staffed Villa Waru is perfect for a few families holidaying together. It is also a sanctuary for yoga, health and wellbeing retreats, and a spectacular setting for special celebrations and stand-out weddings.&nbsp; </p><p>Villa Waru is hidden away within an exclusive residential enclave high above Nusa Dua in Southern Bali; you can be at the beach in 10 minutes. But we aim to give you little reason to leave our heavenly hilltop haven.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4516" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Welcome to Villa Waru, an enchanting seven-bedroom villa offering authentic (and increasingly rare) original Bali-style living in a hilltop hideaway high above the resort areas of Benoa and Nusa Dua. The villa’s seven huge bedrooms, multiple living spaces and two pools are scattered across stunning gardens in a series of <span style="font-style: italic;">alang-alang</span> thatched pavilions grouped into the three-bedroom Pond Residence and four-bedroom Garden Residence; book one or both, giving the option of from three to seven bedrooms.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4517" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa Waru comprises a series of pavilions, all oriented for privacy and with plenty of space in between. From the entrance, a path meanders past the swimming pool to the double-storey Garden Residence, with living room, TV room and two bedroom suites on the ground floor and a third bedroom suite and open-sided living area on its upper floor. Just across the lawn is the Garden Residence’s fourth bedroom. Close by is the kitchen pavilion, dining terrace and comfortably furnished poolside bale. Shielded by landscaping and set around a serene water garden is the Pond Residence, comprising one pavilion housing two bedroom suites fronted by a plunge pool, and an octagonal pavilion containing the third bedroom, living room, yoga room, kitchenette, cellar bar, and pond-edge bale.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4518" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>Villa Waru offers seven large individually styled bedroom suites, each oriented for privacy. Bedrooms are grouped within two residences: the three-bedroom Pond Residence and the four-bedroom Garden Residence. They feature teakwood or terrazzo floors under vaulted ceilings, with antique furniture and intriguing artefacts. All have air-conditioning, overhead fans and top-grade mattresses and bedding, as well as thoughtful extras such as in-bed reading lights and batik kimonos.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Golden Suite – the Garden Residence]]></Heading>
+          <Description><![CDATA[<p>Taking centre-stage in this spacious suite is a stunning Venetian-style four-poster bed, facing a pair of handsome antique armoires and looking onto a private terrace where two sunbeds lie by a lily pond. Thoughts don’t stray far from romance in this 60sqm haven, which even has a separate thatched bale for the stately terrazzo bath tub within the bathroom’s private courtyard garden.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Teak Suite – the Garden Residence]]></Heading>
+          <Description><![CDATA[<p>Crafted by a master ship-builder, the Teak Suite is a curved symphony in teakwood, echoing the captain’s cabin in a royal galleon. Age-worn leather chairs and bed-frame and an antique roll-top desk deepen the theme of this 50sqm suite, which has a walk-through dressing room with vanity and basin leading to a shower room and then onto an open-sided vaulted sitting area.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gecko Suite – the Garden Residence]]></Heading>
+          <Description><![CDATA[<p>The Gecko Suite enjoys the privacy of its own pavilion tucked away in the corner of the garden. The queen-size four-poster bed faces a koi pond through a wall of sliding doors, and the charm continues in the courtyard bathroom with alfresco shower. Close by is a living pavilion edged with a lotus pond which can be the exclusive preserve of the Gecko suite residents – as a honeymoon suite, for example – or enjoyed by all villa guests.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Colourful Suite – the Garden Residence]]></Heading>
+          <Description><![CDATA[<p>Accessed from the TV room as well as from the garden, this brightly coloured suite has two single beds with trundle beds under – perfect for up to four children or teens seeking freedom to roam and easy access to games and toys.&nbsp; Alternatively, the bed can be configured as a queen-size. Adjoining it is a marble-walled shower room.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Sparkle Suite – the Pond Residence]]></Heading>
+          <Description><![CDATA[<p>Contemporary chandeliers of hand-crafted crystal and brass, together with the shimmering light reflected from the pond, inspired the name of this 40sqm suite – one of two within a pond-edge pavilion with a furnished entrance area in between. In the centre, an imposing queen-size canopy bed looks onto a teakwood deck suspended above the pond – a private place for reading, relaxing and perhaps an intimate candle-lit dinner for two. A beautifully carved and painted wall panel from a heritage Mandara house opens onto a statue of the Goddess Lakshmi at the entrance to the ensuite bathroom, with twin basins, rain shower and recessed bathtub.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Purple Suite – the Pond Residence]]></Heading>
+          <Description><![CDATA[<p>Presiding over the Purple Suite is an impressive four-poster 3.4-metre-wide platform bed, comprising three single mattresses joined together in one bed frame – perfect for couples who appreciate extra space, or a bunch of kids. The suite is spacious and self-sufficient, with a seating area, pantry with microwave and bar fridge, and beyond sliding doors, a plunge pool. Within the bathroom is a sunken Moroccan-style bathtub, twin basins and rain shower.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Lucky Eight Suite – the Pond Residence]]></Heading>
+          <Description><![CDATA[<p>The largest of Villa Waru’s seven suites, the fabulous Lucky Eight offers fortunate guests the chance to stay in an octagonal bedroom with a king-size four-poster bed, walk-through dressing room, and huge bathroom with Turkish-inspired domed shower room and private garden with bathtub seemingly floating in a lotus pond.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4519" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[<p>Villa Waru has a choice of formal and casual living areas spread throughout the pavilions and garden, from party-worthy spaces to peaceful corners for those seeking privacy and a break from socializing.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living ]]></Heading>
+          <Description><![CDATA[<p>The Garden Residence’s air-conditioned <span style="font-weight: bold;">living room</span> offers a stylish space for socialising, with comfy sofas and Indonesian day bed. Above, and reached by both internal and external stairs, is a fan-cooled<span style="font-weight: bold;"> open-sided lounge</span>, with sofas and chairs, a pair of<span style="font-style: italic;"> chaises longues</span>, dining table seating eight, and bar counter and kitchenette.</p><p>Within Lucky Eight’s octagonal pavilion is an air-conditioned <span style="font-weight: bold;">living room</span> with antique day bed and stylish tub chairs where guests can watch a DVD on the 48-inch TV screen. Across the water garden is a furnished <span style="font-weight: bold;">entrance hall</span> between the Purple and Sparkle suites, where a marble-topped table and pair of cane chairs are framed by an antique Madura panel wall.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining areas]]></Heading>
+          <Description><![CDATA[<p>The villa’s main dining area occupies a wide covered terrace overlooking the swimming pool. Under eye-catching contemporary chandeliers is a huge table with benches seating 14 guests. Behind is the villa’s professional kitchen. A second dining terrace by the Pond Residence’s Lucky Eight pavilion accords 12 guests a view across the water gardens. (Smaller groups may prefer to dine in the Garden Residence’s breezy open-sided lounge or air-conditioned TV room).&nbsp; </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[TV room]]></Heading>
+          <Description><![CDATA[<p>The air-conditioned TV Room features a gilded antique Chinese opium bed facing the 50-inch TV (with satellite channels and DVD player) across large floor cushions and bean bags. Kids will gravitate to this room with its shelves of DVDs, books, board games and toys. There’s also an electronic piano and a table for six for those who wish to dine in air-conditioned comfort.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Cellar bar]]></Heading>
+          <Description><![CDATA[<p>With its stone floor and alcoves revealing the original coral limestone rock excavated during its build, Lucky Eight’s underground cellar is the place to turn up the noise. There’s a seating area, high leather stools set before a bar counter, projector and large screen for cosy movie sessions, and a pool table.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Yoga &amp; meditation room]]></Heading>
+          <Description><![CDATA[<p>The teakwood-lined Tip Top room above Lucky Eight is a wonderful space for yoga, meditation, and retreat circles. With the octagonal ceiling showing the underside of the <span style="font-style: italic;">alang-alang</span> thatching, this low-light space invites quiet contemplation. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>The villa’s alfresco focus is the 15-metre swimming pool with <span style="font-weight: bold;">sun terrace</span> complete with 10 cushioned loungers. Alongside is a large <span style="font-weight: bold;">poolside bale </span>furnished with a four-metre-wide daybed, table football, and a seating area at the water’s edge. The plunge pool to the front of the Purple Suite makes a cool, quiet alternative to the main pool.</p><p>Close by the Gecko suite is yet another breezy fan-cooled<span style="font-weight: bold;"> living pavilion</span> with more casual seating and a kitchenette – a quiet corner for reading, or for enjoying a massage.</p><p>Looking over the water gardens at the heart of the Pond Residence is a <span style="font-weight: bold;">relaxation bale</span> with deep cushions and privacy curtains. And suspended over the water in front of the Sparkle suite is a <span style="font-weight: bold;">deck </span>with more seating. </p><p>The gardens with their expanse of lawns, ponds and water gardens also reveal many hidden corners complete with intriguing sculptures and moss-covered statuary. </p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4520" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>One of the delights of staying in a private villa is the personalised service accorded to guests. Villa Waru’s well-trained and gracious staff are on hand when needed while keeping discreetly behind the scenes when not. As past reviews attest, their warm and distinctively Balinese hospitality has been a highlight of many guests’ stays.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa supervisor]]></Heading>
+          <Description><![CDATA[<p>The villa supervisor is responsible for the overall operation of Villa Waru, meeting guests on arrival and overseeing the staff to meet the expectations of guests during their stay. She is on hand at the villa every day to coordinate staff activities and enhance the guests’ experience.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s chef will happily prepare anything from an extensive suggestion menu of Western and Asian dishes, as well as accommodate special requests and dietary requirements. She looks after provisioning as well as food preparation.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Attendants]]></Heading>
+          <Description><![CDATA[<p>Our villa attendants look after guests, serve meals and beverages, and attend to daily housekeeping in shifts from 7am to 10pm.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Garden and pool]]></Heading>
+          <Description><![CDATA[<p>The gardening team maintains the swimming pool, ponds and extensive garden.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Engineering]]></Heading>
+          <Description><![CDATA[<p>Our engineer is on hand during the week to see to maintenance.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>Guests are kept safe and secure by the estate’s 24-hour security team, working in shifts. In addition to being in an exclusive community with gantry gate entry.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4521" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Why be confined to a series of hotel rooms (with all the associated additional costs) when you can have Villa Waru with its expanse of living space and gardens all to yourself, free to enjoy whenever and however you wish? This really is a wonderland for families, with kid-friendly facilities, and huge grounds with hidden corners to explore. Parents are certain to have a more relaxed holiday knowing that the kids can enjoy themselves independently and safely, without the worry of them disturbing other guests.</p><p>Thanks to the configuration of bedrooms in multiple pavilions across the two residences, this is an exceptional villa for a large multi-generation family, or for two or three families holidaying together. There’s plenty to amuse kids, including foosball, pool floats and lots of board games, books and toys. Older kids will relish the pool table in the Indiana Jones-style stone-lined cellar bar.</p><p>While the main swimming pool is a magnet for all ages, parents will have to keep an eye on toddlers – but it’s easy to do so from the comfort of the poolside bale. The same goes for the plunge pool in the Pond Residence where a parent can be sitting in air-conditioned comfort while kids splash around. Those with tiny ones needing more than a high chair and baby cot, click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank" title="here">here </a>to see list of available hire items. And the staff love making kids feel welcome. There’s a kids’ menu too – and the chef is always happy to make something off-menu for fussy eaters. </p><p>For adventures beyond the villa check out our <a target="_blank" title="Things to do" href="./the-locale/things-to-do.html">Things to do</a> page – there’s plenty in the area to keep all the family amused throughout the holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4522" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>Feel like a body scrub or massage? Just ask our staff to bring the spa to you! We can recommend deluxe treatments carried out in the privacy of your villa by fully trained independent therapists and those from a renowned local spa (extra charges will apply). Here’s a sample of what’s on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p>Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet corresponding to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p>A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4523" contenttypeid="EVT" desc="Event">
+      <Description><![CDATA[<p>Villa Waru’s extensive grounds create an enchanting space for exchanging vows surrounded by family, or gathering with friends for a special celebration. The open-sided living areas provide a choice of spaces for cocktails and canapes, while the large freeform pond with lotus flowers and fountains provides the perfect backdrop for the wedding dinner. And the lush tropical gardens, water features, moss-covered statues and colourful Balinese doors inspire picture-perfect, memories-to-last-a-lifetime photo opportunities. </p><p>While up to 20 guests may be accommodated within the villa itself (extra charges apply for over 14 guests), additional guests have a great choice of five-star hotels in Nusa Dua just a few kilometres away.</p><p>Maximum people sitting: 50 guests<br />Maximum people standing: 80 guests</p><p>We can recommend expert event organisers, florists, decorators and caterers so you can focus on relaxing and celebrating with your guests.</p><p><a href="http://cdn.elitehavens.com/docs/eventguidelines/indonesia/EH-Event-Guidelines_Indonesia.pdf" target="_blank" title="Elite Havens General Guidelines for Events">Elite Havens General Guidelines for Events<br /></a><a href="http://cdn.elitehavens.com/docs/eventguidelines/indonesia/Villa-Waru-Event-Guidelines.pdf" target="_blank" title="Event Guidelines for Villa Waru">Event Guidelines for Villa Waru</a></p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4524" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Discovering tasty Balinese and Indonesian dishes prepared by your personal chef is one of the pleasures of a private villa holiday. Villa Waru’s chef can prepare daily tropical and American breakfast as well as lunch and dinner. The suggested villa menu of delicious home-style meals includes Indonesian, Asian and international dishes caters to all tastes – everything from scrumptious soups, salads and club sandwiches to fragrant curries, fresh fish and roast lamb. </p><p>The menu includes detox juices and healthy lunches for wellbeing retreat participants, and there’s an option to order a weekly organic food box too. The chef is also happy to whip up off-menu dishes according to guests’ requirements, as well as tailor meals to accommodate any special dietary requirements. <br /></p><p>Groceries and beverages are charged at cost price plus 20%++ handling fee. Guests are requested to provide a grocery float in advance.&nbsp; Four hours notice is required for lunch and dinner selections.<br /></p>]]></Description>
+      <SubContents />
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Waru</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="NusaDua">Nusa Dua</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Taman Ayun, Complex Residence Taman Yasa, Lot 19, Taman Mumbul</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.79349960</Latitude>
+        <Longitude>115.20102770</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Fabulous fully staffed, multi-pavilion, seven-bedroom villa in Nusa Dua. Huge private gardens with two pools, offering the versatility of a three-, four- or seven-bedroom vacation. &amp;nbsp;&lt;br /&gt;&lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>7 bedroom</RoomName>
+        <MinRate>1140.00</MinRate>
+        <MaxRate>1725.00</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>4 bedroom</RoomName>
+        <MinRate>810.00</MinRate>
+        <MaxRate>1725.00</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>3 bedroom</RoomName>
+        <MinRate>660.00</MinRate>
+        <MaxRate>1725.00</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Waru - Amazing view of the pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/1. Villa Waru - Amazing view of the pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Spacious living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/2. Villa Waru - Spacious living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Villa dishes</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/3. Villa Waru - Villa dishes.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - The golden suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/4. Villa Waru - The golden suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Picturesque ponds and gardens</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/5. Villa Waru - Picturesque ponds and gardens.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Pool table</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/6. Villa Waru - Pool table.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Villa lounge</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/7. Villa Waru - Villa lounge.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - The pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/8. Villa Waru - The pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Cozy ambience</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/9. Villa Waru - Cozy ambience.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Preparing for dishes</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/10. Villa Waru - Preparing for dishes.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Water fountain</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/11. Villa Waru - Water fountain.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Entertainment room outlook</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/12. Villa Waru - Entertainment room outlook.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Lucky eight suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/13. Villa Waru - Lucky eight suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - lucky eight bathroom ensuite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/14. Villa Waru - lucky eight bathroom ensuite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Waru - Amazing villa feature</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Waru/15. Villa Waru - Amazing villa feature.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

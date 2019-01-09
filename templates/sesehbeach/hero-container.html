@@ -1,0 +1,73 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa.jpg 1920w" alt="Seseh Beach Villas" class="lazyload" />       
+            <div class="caption"><small></small></div>   
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-seseh-beach-villas'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Gardens%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Gardens%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Gardens%20and%20villa.jpg 1920w" alt="Seseh Beach Villa I - Gardens and villa" class="lazyload" />  
+        
+		{elseif $data.page == 'seseh-beach-villa-i'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Pool%20and%20villa.jpg 1920w" alt="Seseh Beach Villa I - Pool and villa" class="lazyload" />  
+		
+		{elseif $data.page == 'seseh-beach-villa-ii'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Relaxation%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Relaxation%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Relaxation%20pool.jpg 1920w" alt="Seseh Beach Villa I - Relaxation pool" class="lazyload" />
+
+        {elseif $data.page == 'connecting-villas'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Walkway%20to%20connecting%20door%20between%20the%20villas.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Walkway%20to%20connecting%20door%20between%20the%20villas.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Walkway%20to%20connecting%20door%20between%20the%20villas.jpg 1920w" alt="Seseh Beach Villa I - Walkway to connecting door between the villas" class="lazyload" />
+    
+        {elseif $data.page == 'about-seseh-beach-villas'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa South - Luxurious living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1920w" alt="Seseh Beach Villa I - Gardens and villa" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+
+        {elseif $data.page == 'floorplan'}
+
+        {elseif $data.page == 'seseh-beach-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villas%20-%20Get%20back%20to%20nature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villas%20-%20Get%20back%20to%20nature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villas%20-%20Get%20back%20to%20nature.jpg 1920w" alt="Seseh Beach Villas - Get back to nature" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Master%20bedroom%20shower%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Master%20bedroom%20shower%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Master%20bedroom%20shower%20room.jpg 1920w" alt="Seseh Beach Villa I - Master bedroom shower room" class="lazyload" />
+        		
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20The%20dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20The%20dining%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20The%20dining%20table.jpg 1920w" alt="Seseh Beach Villa I - The dining table" class="lazyload" />        
+		 
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Media%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Media%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Media%20room.jpg 1920w" alt="Seseh Beach Villa I - Media room" class="lazyload" />
+       		
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Guest%20bedroom%20three%20ensuite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Guest%20bedroom%20three%20ensuite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Guest%20bedroom%20three%20ensuite.jpg 1920w" alt="Seseh Beach Villa I - Guest bedroom three ensuite" class="lazyload" />       
+		 
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villas%20-%20Unforgetable%20Wedding.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villas%20-%20Unforgetable%20Wedding.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villas%20-%20Unforgetable%20Wedding.jpg 1920w" alt="Seseh Beach Villas - Unforgetable Wedding" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}    
+		
+		{elseif $data.page == 'press'}    
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Guest%20bedroom%20one.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Guest%20bedroom%20one.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Guest%20bedroom%20one.jpg 1920w" alt="Seseh Beach Villa I - Guest bedroom one" class="lazyload" />
+       		
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Hallway%20artwork.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20Hallway%20artwork.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20Hallway%20artwork.jpg 1920w" alt="Seseh Beach Villa I - Hallway artwork" class="lazyload" />  
+		
+        {elseif $data.page == 'links'}
+		
+        {elseif $data.page == 'sitemap'}
+		
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Seseh%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20The%20pool%20from%20above.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Seseh%20Beach%20Villa%20I%20-%20The%20pool%20from%20above.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Seseh%20Beach%20Villa%20I%20-%20The%20pool%20from%20above.jpg 1920w" alt="Seseh Beach Villa I - The pool from above" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

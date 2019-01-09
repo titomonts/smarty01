@@ -1,0 +1,76 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+                        <h1 class="entry-title">{$data.heading}</h1>
+                        <ul class="poi">
+                            <li id="poi-1">Stunning <br />Canggu location</li>
+                            <li id="poi-2">5 ensuite <br />bedrooms</li>
+                            <li id="poi-3">Private <br />5* chef</li>
+                            <li id="poi-4">Full set of <br />staff</li>
+                            <li id="poi-5">Private <br />tennis court</li>
+                            <li id="poi-6">Spectacular <br />wedding venue</li>
+                        </ul> 
+                        
+                    </div>
+                </div> 
+                <div class="content-item">  
+                    <div class="wrapper"> 
+                        <div class="first-img">
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Surya%20Damai%20-%20Bedroom.jpg" alt="Surya Damai - Bedroom" class="lazyload" />
+                        </div>
+                        <div class="second-img">
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Surya%20Damai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Surya%20Damai%20-%20Pool%20and%20villa.jpg" alt="Surya Damai - Pool and villa" class="lazyload" />
+                        </div>
+                        {if $data.content_id != ''}
+                        {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                        {/if}
+                        {if 'desc'|array_key_exists:$content[0]}
+
+                            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                            {section name=s loop=1}
+                            <p>{$contentPart[s]}.</p>
+                            {/section}
+                            <p>
+                            {section name=s loop=$contentPart start=1}
+                            {if $smarty.section.s.index neq $smarty.section.s.last}
+                            {$contentPart[s]}. 
+                            {/if}
+                            {/section}
+                            </p>
+
+                        {/if}
+
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2>{$content[0].SubContents[s].Heading}</h2>
+                            {$content[0].SubContents[s].Description}
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                            {/section}
+                        {/if}
+                        <div class="clear"></div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <div class="buttons-container">                
+            {include file="part-buttons.html"}
+        </div>
+            
+{include file="footer.html"}

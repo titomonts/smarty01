@@ -1,0 +1,65 @@
+[
+	{
+		"page_title":"",
+		"label":"",
+		"page_header":"",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"main",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Rates",
+		"label":"Rates",
+		"page_header":"Rates",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Gallery",
+		"page_header":"Photo Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Availability Calendar",
+		"label":"Availability Calendar",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"availability-calendar",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"Contact Us",
+		"label":"Contact Us",
+		"page_header":"Enquire Now",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	}
+]

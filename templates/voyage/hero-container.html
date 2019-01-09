@@ -1,0 +1,69 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20aerial%20of%20Voyage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20aerial%20of%20Voyage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20aerial%20of%20Voyage.jpg 1920w" alt="Voyage Beach House - Absolute beachfront villa" class="lazyload" />
+        </div>			
+	</div>
+    {else}
+    <div class="hero">
+    
+       {if $data.page == 'about-voyage'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20right%20side%20mezzanine%20ocean%20suite%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20right%20side%20mezzanine%20ocean%20suite%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20right%20side%20mezzanine%20ocean%20suite%20balcony.jpg 1920w" alt="Voyage - right side mezzanine ocean suite balcony" class="lazyload" />
+
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Gorgeous%20Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20Gorgeous%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Gorgeous%20Pool.jpg 1920w" alt="Voyage - Gorgeous Pool" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Pool.jpg 1920w" alt="Voyage - Pool" class="lazyload" />
+
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20Spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Spa.jpg 1920w" alt="Voyage - living room" class="lazyload" />
+
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Ready%20staff%20to%20serve.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20Ready%20staff%20to%20serve.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Ready%20staff%20to%20serve.jpg 1920w" alt="Voyage - Ready staff to serve" class="lazyload" />
+
+        {elseif $data.page == 'nusa-lembongan-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20headland%20rock%20pools.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20headland%20rock%20pools.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20headland%20rock%20pools.jpg 1920w" alt="Voyage - Outdoor dining hanging above crystal clear waters" class="lazyload" />            
+
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Pergola.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20Pergola.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Pergola.jpg 1920w" alt="Voyage - Pergola" class="lazyload" />                
+
+        {elseif $data.page == 'press'}
+
+        {elseif $data.page == 'photo-gallery'}
+        
+        {elseif $data.page == 'video'}        
+
+        {elseif $data.page == 'floorplan'}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20-%20View%20from%20the%20poolside%20bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tirta%20Nila%20-%20View%20from%20the%20poolside%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tirta%20Nila%20-%20Poolside%20bale.jpg 1920w" alt="Voyage - View from the poolside bale" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Living%20in%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20Living%20in%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Living%20in%20style.jpg 1920w" alt="Voyage - Living in style" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Villa%20facade%20by%20night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20Villa%20facade%20by%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20Villa%20facade%20by%20night.jpg 1920w" alt="Voyage - Villa facade by night" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20View%20across%20pool%20and%20Sandy%20Bay.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20View%20across%20pool%20and%20Sandy%20Bay.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20View%20across%20pool%20and%20Sandy%20Bay.jpg 1920w" alt="Voyage - View across pool and Sandy Bay" class="lazyload" />
+        
+        {elseif $data.page == 'reservations'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20View%20of%20villa%20from%20temple.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20View%20of%20villa%20from%20temple.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20View%20of%20villa%20from%20temple.jpg 1920w" alt="Voyage - View of villa from temple" class="lazyload" />
+
+        {elseif $data.page == 'general-enquiries'}
+        
+        {elseif $data.page == 'links'}
+        
+        {elseif $data.page == 'sitemap'}
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Voyage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20View%20of%20villa%20from%20temple.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Voyage%20-%20View%20of%20villa%20from%20temple.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Voyage%20-%20View%20of%20villa%20from%20temple.jpg 1920w" alt="Voyage - View of villa from temple" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

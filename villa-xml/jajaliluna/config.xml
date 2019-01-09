@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>jajaliluna</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Jajaliluna</villa_name>
+		<google_analytics>UA-1199846-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Seminyak</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'jajaliluna', 'Bali', '5br'</hrental_id>
+		<ehgLocation>Bali, Seminyak</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource> 
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

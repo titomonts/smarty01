@@ -1,0 +1,86 @@
+<div class="footerwrap">
+    <div class="footer center">
+        <div class="copyright">&copy; {$data.copyright_date} Majapahit Beach Villas - managed and marketed by <a href="http://www.elitehavens.com/" target="_blank">The Elite Havens Group</a>.</div>
+        <div class="menu-footer-navigation-container">
+        	<ul id="menu-footer-navigation" class="footernav">
+            	{section name=p loop=$pages}
+                {if $pages[p].menu_location == 'footer'}
+                <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                </li>
+                {/if}
+                {/section}
+			</ul>
+        </div>
+        <div class="social_media">
+            <ul id="socmed">
+                <li>
+                	<a target="_blank" class="socmed" title="Facebook" href="https://www.facebook.com/elitehavens?ref_type=bookmark">
+                    	<img class="socmed-img grayscale" title="Facebook" alt="Facebook" src="/resources/majapahit/images/facebook.png">
+                    </a>
+                </li>
+                <li>
+                	<a target="_blank" class="socmed" title="Pinterest" href="http://www.pinterest.com/elitehavensall/">
+                    	<img class="socmed-img grayscale" title="Pinterest" alt="Pinterest" src="/resources/majapahit/images/pinterest.png">
+                    </a>
+                </li>
+                <li>
+                	<a target="_blank" class="socmed" title="Google Plus" href="https://plus.google.com/110452875661394954138/posts?hl=en">
+                    	<img class="socmed-img grayscale" title="Google Plus" alt="Google Plus" src="/resources/majapahit/images/g+.png">
+                    </a>
+                </li>
+                <li>
+                	<a target="_blank" class="socmed" title="Instagram" href="http://instagram.com/elitehavens">
+                    	<img class="socmed-img grayscale" title="Instagram" alt="Instagram" src="/resources/majapahit/images/instagram.png">
+                    </a>
+                </li>
+                <li>
+                	<a target="_blank" class="socmed" title="LinkedIn" href="https://www.linkedin.com/company/elite-havens">
+                    	<img class="socmed-img grayscale" title="LinkedIn" alt="LinkedIn" src="/resources/majapahit/images/linkedin.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!-- /footerwrap -->
+</div>
+<!-- /container -->
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/datepicker.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/gen_validatorv4.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.event.hover.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/superfish.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.nivo.slider.pack.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.easyListSplitter.js"></script>
+<script async="async" type="text/javascript" src="/resources/tamansorga/js/jquery.flexslider-min.js"></script>
+<script async="async" type="text/javascript" src="/resources/majapahit/js/jquery.justifyNav.js"></script>
+<script async="async" type="text/javascript" src="/resources/majapahit/js/site.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/villa.js"></script>
+<script type="text/javascript">
+//term and condition popup dialog
+    $(function() {
+        $("#dialog").dialog({
+            autoOpen: false,
+            width: 755,
+            height: 400,
+            show: {
+                effect: "fade",
+                duration: 1000
+            },
+            hide: {
+                effect: "fade",
+                duration: 1000
+            }
+        });
+
+        $("#opener").click(function() {
+            $("#dialog").dialog("open");
+        });
+
+        //$(".ui-dialog-titlebar").hide();
+    });
+</script>
+</body>
+</html>

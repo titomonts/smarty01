@@ -1,0 +1,17 @@
+{if $data.page != 'guest-reviews'}
+{reviews hide_this_year="2010" order="d,c,n"}
+<div class="reviews-container lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/general/Villa Indrani - Buddha Ornament.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/general/small/Villa%20Indrani%20-%20Buddha%20Ornament.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/general/Villa%20Indrani%20-%20Buddha%20Ornament.jpg 1920w">
+    <div class="reviews">
+        <div class="wrapper">
+            <div class="group">
+                <div class="content home-reviews">
+                    <h2 id="guestreview"><span>Guest Reviews</span></h2>
+                    {$reviews}
+                    
+                    <a href="/guest-reviews.html">See more reviews</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/if}

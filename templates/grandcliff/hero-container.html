@@ -1,0 +1,100 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Breathtaking%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Breathtaking%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Breathtaking%20view.jpg 1920w" alt="Grand Cliff Front Residence - Breathtaking view" class="lazyload" />       
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Dinner%20table%20pool%20side.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Dinner%20table%20pool%20side.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Dinner%20table%20pool%20side.jpg 1920w" alt="Grand Cliff Front Residence - Dinner table pool side" class="lazyload" />
+        </div>
+		<div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20the%20pool.jpg 1920w" alt="Grand Cliff Nusa Dua - View from the pool" class="lazyload" />
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'grand-cliff-ungasan'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Dinner%20table%20pool%20side.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Dinner%20table%20pool%20side.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Dinner%20table%20pool%20side.jpg 1920w" alt="Grand Cliff Front Residence - Dinner table pool side" class="lazyload" />
+        
+        {elseif $data.page eq 'explore-the-villa' and $data.origin eq 'grand-cliff-ungasan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Living%20room%20heart.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Living%20room%20heart.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Living%20room%20heart.jpg 1920w" alt="Grand Cliff Front Residence - Living room heart" class="lazyload" />
+        
+        {elseif $data.page eq 'quick-facts' and $data.origin eq 'grand-cliff-ungasan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Outdoor%20dining%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Outdoor%20dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Outdoor%20dining%20area.jpg 1920w" alt="Grand Cliff Front Residence - Outdoor dining area" class="lazyload" />
+    
+        {elseif $data.page == 'grand-cliff-nusa-dua'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20the%20pool.jpg 1920w" alt="Grand Cliff Nusa Dua - View from the pool" class="lazyload" />
+        
+        {elseif $data.page eq 'explore-the-villa' and $data.origin eq 'grand-cliff-nusa-dua'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20Terrace%20with%20pool%20and%20beach%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20Terrace%20with%20pool%20and%20beach%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20Terrace%20with%20pool%20and%20beach%20view.jpg 1920w" alt="Grand Cliff Nusa Dua - Terrace with pool and beach view" class="lazyload" />
+        
+        {elseif $data.page eq 'quick-facts' and $data.origin eq 'grand-cliff-nusa-dua'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20Bale%20for%20relax%20and%20massage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20Bale%20for%20relax%20and%20massage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20Bale%20for%20relax%20and%20massage.jpg 1920w" alt="Grand Cliff Nusa Dua -  Bale for relax and massage" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20%20-%20Twin%20bedrrom%20and%20the%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20%20-%20Twin%20bedrrom%20and%20the%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20%20-%20Twin%20bedrrom%20and%20the%20view.jpg 1920w" alt="Grand Cliff Nusa Dua  - Twin bedrrom and the view" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+                
+        {elseif $data.page == 'ungasan-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Ocean%20view%20from%20the%20pool.jpg 1920w" alt="Grand Cliff Front Residence - Ocean view from the pool" class="lazyload" />
+                
+        {elseif $data.page == 'nusa-dua-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20Stunning%20view%20from%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20Stunning%20view%20from%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20Stunning%20view%20from%20pool.jpg 1920w" alt="Grand Cliff Nusa Dua -  Stunning view from pool" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20Villa%20staffs%20ready%20to%20serve%20you.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20Villa%20staffs%20ready%20to%20serve%20you.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20Villa%20staffs%20ready%20to%20serve%20you.jpg 1920w" alt="Grand Cliff Nusa Dua - Villa staffs ready to serve you" class="lazyload" />
+       
+		
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20Outdoor%20dining%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20Outdoor%20dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20Outdoor%20dining%20area.jpg 1920w" alt="Grand Cliff Nusa Dua - Outdoor dining area" class="lazyload" />
+        
+		 
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20Lounge%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20Lounge%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20Lounge%20view.jpg 1920w" alt="Grand Cliff Nusa Dua -  Lounge view" class="lazyload" />
+        
+		
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20%20-%20Ensuite%20bathub.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20%20-%20Ensuite%20bathub.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20%20-%20Ensuite%20bathub.jpg 1920w" alt="Grand Cliff Nusa Dua  - Ensuite bathub" class="lazyload" />
+         
+		 
+        {elseif $data.page == 'weddings'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Villas%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Villas%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Villas%20-%20Weddings.jpg 1920w" alt="Grand Cliff Villas - Weddings" class="lazyload" /> *}
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20terrace.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20terrace.jpg 1920w" alt="Grand Cliff Nusa Dua - View from terrace" class="lazyload" />
+  
+		
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand Cliff Nusa Dua - View from terrace.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20terrace.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20View%20from%20terrace.jpg 1920w" alt="Grand Cliff Nusa Dua - View from terrace" class="lazyload" />    
+
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Bedroom%20sea%20view%20tv.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Front%20Residence%20-%20Bedroom%20sea%20view%20tv.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Front%20Residence%20-%20Bedroom%20sea%20view%20tv.jpg 1920w" alt="Grand Cliff Front Residence - Bedroom sea view tv" class="lazyload" />  
+        
+		
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1920w" alt="Grand Cliff Nusa Dua -  View from master bedroom" class="lazyload" />         
+      
+		
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1920w" alt="Grand Cliff Nusa Dua -  View from master bedroom" class="lazyload" />         
+			{* <div class="caption"><small>Grand Cliff Villas Ungasan</small></div>   *}
+		
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1920w" alt="Grand Cliff Nusa Dua -  View from master bedroom" class="lazyload" />         
+       
+		
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Grand Cliff Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Grand%20Cliff%20Nusa%20Dua%20-%20%20View%20from%20master%20bedroom.jpg 1920w" alt="Grand Cliff Nusa Dua -  View from master bedroom" class="lazyload" />         
+		 
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

@@ -1,0 +1,34 @@
+<div class="floorplan">
+    {if $data.page eq 'about-twin-villas-natai'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/twin-villas-villa-floorplan.jpg" alt="Twin Villas Natai Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=twin-villas-villa-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'villa-north'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/twin-villas-villa-north-floorplan.jpg" alt="Twin Villas Natai Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=twin-villas-villa-north-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'villa-south'}
+    <img data-src="{$data.cdn}/resources/{$data.theme}/images/twin-villas-villa-south-floorplan.jpg" alt="Villa South Floorplan" class="lazyload" />
+    <a href="{$data.home_uri}/download.php?filename=twin-villas-villa-south-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+    {elseif $data.page eq 'floorplan'}
+   
+    <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#floorplan-villas">Twin Villas Natai</a></li>
+            <li><a href="#floorplan-north">North Villa</a></li>
+            <li><a href="#floorplan-south">South Villa</a></li>
+        </ul>
+        <div id="floorplan-villas">
+             <img data-src="{$data.cdn}/resources/{$data.theme}/images/twin-villas-villa-floorplan.jpg" alt="Twin Villas Natai Floorplan" class="lazyload" />
+			<a href="{$data.home_uri}/download.php?filename=twin-villas-villa-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+        <div id="floorplan-north">
+            <img data-src="{$data.cdn}/resources/{$data.theme}/images/twin-villas-villa-north-floorplan.jpg" alt="Twin Villas Natai Floorplan" class="lazyload" />
+			<a href="{$data.home_uri}/download.php?filename=twin-villas-villa-north-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+        <div id="floorplan-south">
+			<img data-src="{$data.cdn}/resources/{$data.theme}/images/twin-villas-villa-south-floorplan.jpg" alt="Villa South Floorplan" class="lazyload" />
+			<a href="{$data.home_uri}/download.php?filename=twin-villas-villa-south-floorplan-highres.jpg&path=resources/{$data.theme}/images/" target="_blank">Download in high resolution</a>
+        </div>
+    </div>
+    
+    {/if}
+</div>

@@ -1,0 +1,91 @@
+<div id="footer_wrapper">
+    <div id="footer">
+        <div class ="footer_sidebar" id="execphp-2">			
+			<div class="execphpwidget">
+            	<a href="http://elitehavens.com/" target="_blank">
+                	<img src="/resources/deavillas/images/an-eh.png">
+                </a>
+			</div>
+		</div>
+        <div class ="footer_sidebar" id="execphp-3">			
+			<div class="execphpwidget">
+            	<div id="footer_bottom">
+					<div id="copyright">
+                    	© 2014 Dea Villas - Managed and marketed by <a href="http://www.elitehavens.com" target="_blank">The Elite Havens Group</a>
+                    </div>
+					<div id="bottom_links">
+                    	<div class="menu-footer-container">
+                        	<ul id="menu-footer" class="menu">
+                            	{section name=p loop=$pages}
+                                {if $pages[p].menu_location == 'footer'}
+                                <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                                </li>
+                                {/if}
+                                {/section}
+							</ul>
+                        </div>
+                    </div>
+                    <div class="social_media">
+                        <ul id="socmed">
+                            <li>
+                                <a target="_blank" class="socmed" title="Facebook" href="https://www.facebook.com/elitehavens?ref_type=bookmark">
+                                    <img class="socmed-img grayscale" width="25" height="26" title="Facebook"  alt="Facebook" src="/resources/deavillas/images/facebook.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="socmed" title="Pinterest" href="http://www.pinterest.com/elitehavensall/">
+                                    <img class="socmed-img grayscale" title="Pinterest" width="25" height="26" alt="Pinterest" src="/resources/deavillas/images/pinterest.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="socmed" title="Google Plus" href="https://plus.google.com/110452875661394954138/posts?hl=en">
+                                    <img class="socmed-img grayscale" width="25" height="26" title="Google Plus" alt="Google Plus" src="/resources/deavillas/images/g+.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="socmed" title="Instagram" href="http://instagram.com/elitehavens">
+                                    <img class="socmed-img grayscale" title="Instagram" width="25" height="26" alt="Instagram" src="/resources/deavillas/images/instagram.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="socmed" title="LinkedIn" href="https://www.linkedin.com/company/elite-havens">
+                                    <img class="socmed-img grayscale" title="LinkedIn" width="25" height="26" alt="LinkedIn" src="/resources/deavillas/images/linkedin.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/resources/common/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.event.hover.js"></script>
+<script type="text/javascript" src="/resources/common/js/superfish.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.easyListSplitter.js"></script>
+<script type="text/javascript" src="/resources/common/js/gen_validatorv4.js"></script>
+<script type='text/javascript' src="/resources/common/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="/resources/deavillas/js/jquery.corner.js"></script>
+<script type="text/javascript" src="/resources/common/js/datepicker.js"></script>
+<script type="text/javascript" src="/resources/deavillas/js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="/resources/deavillas/js/wow_book.min.js"></script>
+<script type="text/javascript" src="/resources/deavillas/js/site.js"></script>
+<script type="text/javascript" src="/resources/common/js/villa.js"></script> 
+<script type="text/javascript">
+    $(window).load(function () {
+        $('.flexslider').flexslider({
+            animation: "fade",
+            direction: "horizontal",
+            slideshowSpeed: 4000,
+            animationSpeed: 600
+        });
+		$('ul.hpanels > li.hpanel > h3').removeClass('ui-widget-header ui-state-default ui-corner-all');
+    });
+</script>
+<script type="text/javascript">panopress.imagebox();</script>
+<link rel='stylesheet' id='idq-style-wp-night-css'  href='/resources/common/accordions-plus/css/themes/wp-night/style.css?ver=4.7.2' type='text/css' media='all' />
+</body>
+</html> 

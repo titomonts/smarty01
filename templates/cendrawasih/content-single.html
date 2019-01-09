@@ -1,0 +1,218 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['about-villa-cendrawasih']}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa%20Cendrawasih%20-%20Living%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa%20Cendrawasih%20-%20Living%20room.jpg" alt="Villa Cendrawasih - Living room" class="lazyload" /></div>  
+
+{elseif $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=7}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half">
+            {section name=s start=7 loop=$content[0].SubContents}
+            {if $smarty.section.s.index neq $smarty.section.s.last}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/if}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+        <div class="press-item current"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/cover-avg.jpg" class="imgleft">“Love in the rice fields, lobster on the menu and a wonderful sense of place define Surya Damai, a private hideaway that captures the essence of Bali in a timeless fashion.” <a href="/resources/{$data.theme}/pdfs/The%20Asia%20Villa%20Guide%20-%20Cendrawasih%20-%202011.pdf" target="_blank"><em>Villa Surya Damai</em> <strong>The Asia Villa Guide</strong>, First edition 2011.</a></div>
+        <div class="press-item"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/cover-expatliving.jpg" class="imgleft">“Yes, everyone goes to Bali, and with very good reason…” <a href="/resources/{$data.theme}/pdfs/Expat%20Living%20-%20Cendrawasih%20-%20Edition%20June%202011%20_%20BAli%20Beauty.pdf" target="_blank"><em>Villa Surya Damai</em> <strong>Expat Living Singapore</strong>, Edition June '11.</a></div>
+        <div class="press-item"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/cover-frv.jpg" class="imgleft">“Villa Surya Damai ticks all the boxes and promises a wonderful, perhaps too good, introduction to Bali villa living…” <a href="/resources/{$data.theme}/pdfs/FRV%208.1%20-%20Cendrawasih%20_Home%20Sweet%20Home.pdf" target="_blank"><em>Villa Surya Damai; Home Sweet Home</em> <strong>FRV Travel</strong>, Edition 8.1 June '11.</a></div>
+    </div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+    
+{elseif $data.page|in_array:['weddings']}
+    {if 'desc'|array_key_exists:$content[0]}
+        
+        <div class="group">
+        <div class="half half-content">
+            {contentpart content=$content[0].desc regex="default"}
+            {contentpart content=$contentPart[0] strip=["<p>", "</p>"] explode="<br /> <br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}   
+        </div>
+        <div class="half">
+            <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Cendrawasih%20-%20Wedding%20ring.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Cendrawasih%20-%20Wedding%20ring.jpg" alt="Cendrawasih - Wedding ring" class="lazyload" /></div>   
+        </div>                       
+        </div>                       
+           
+        <div class="group">
+        <div class="half">
+            <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Cendrawasih%20-%20Table%20set.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Cendrawasih%20-%20Table%20set.jpg" alt="Cendrawasih - Table set" class="lazyload" /></div>   
+        </div>  
+
+        <div class="half half-content">
+            {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+            {section name=s loop=$contentPart}
+            {$contentPart[s]|replace:['<ul>']:['<ul class="capacity">']}
+            {/section}
+
+            <div class="group">
+                <div class="guidelines">
+                {contentpart content=$content[0].desc strip=["<br />"] regex="/<ul class=\"event-specs\">(.*?)<\/ul>/s"}
+                {section name=s loop=$contentPart}
+                {$contentPart[s]|replace:['<p>','</p>']:['', '']}
+                {/section} 
+                </div>
+            </div>
+        </div>
+    {/if}
+
+    {section name=s loop=$content[0].SubContents}
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+        {$content[0].SubContents[s].Description}
+
+        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if}
+    {/section}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews order="d,c,n"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

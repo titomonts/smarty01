@@ -1,0 +1,91 @@
+{include file="header.html"}
+<body class="page-template page-template-page-villa page-template-page-villa-php page-id-9 page-child parent-pageid-6">
+{$gtm}
+        <div id="container" style="width: 100%; height: 100%;">
+            <div id="logo">
+            <a href="{$data.home_uri}" title="{#TITLE_HOME#}" rel="home">
+            {#TITLE_HOME#}
+            </a>
+            </div>
+            {include file="menu.html"}
+            <div class="clear"></div>
+
+            {include file="page_image.html"}
+						
+            <div class="clear"></div>
+			<!-- /rightcol -->
+			<div class="contentwrap">
+			<div class="villa-menu">
+			{include file="villa-menu.html"}
+    		
+			<div class="clear"></div>
+			<div class="content">
+				<div class="maincol">
+					<h1 class="entry-title">{$data.heading}</h1>
+					{if 'desc'|array_key_exists:$content[0]}
+                        {$content[0].desc}
+                    {/if}
+                    {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                    {/section}
+                    {if $data.origin == 'villa-maya'}
+                        {if $data.page == 'floorplan'}
+                            <div class="aligncenter">
+								<div style="background: #fff; margin-bottom: 10px; text-align: center;">
+									<img alt="maya floorplan" src="/resources/majapahit/images/floorplan-maya.jpg" width="960" />
+                                </div>
+								<p style="text-align:center;">
+									<a href="/resources//majapahit/images/floorplan-maya-highres.jpg">
+										Download in high resolution
+                                    </a>
+                                </p>
+							</div>
+                        {/if}
+                    {elseif $data.origin == 'villa-raj'}
+                        {if $data.page == 'floorplan'}
+                            <div class="aligncenter">
+                                <div style="background: #fff; margin-bottom: 10px; text-align: center;">
+                                	<img alt="raj floorplan" src="/resources/majapahit/images/floorplan-raj.jpg" width="960" />
+                                </div>
+                                <p style="text-align:center;">
+                                    <a href="/resources//majapahit/images/floorplan-raj-highres.jpg">
+                                    	Download in high resolution
+                                    </a>
+                                </p>
+                        	</div>
+                        {/if}
+                    {elseif $data.origin == 'villa-nataraja'}
+                        {if $data.page == 'floorplan'}
+                            <div class="aligncenter">
+								<div style="background: #fff; margin-bottom: 10px; text-align: center;">
+									<img alt="nataraja floorplan" src="/resources/majapahit/images/floorplan-nataraja.jpg" width="960" />
+                                </div>
+								<p style="text-align:center;">
+                                    <a href="/resources/majapahit/images/floorplan-nataraja-highres.jpg" target="_blank">
+                                    	Download in high resolution
+                                    </a>
+                                </p>
+							</div>
+                        {/if} 
+                    {/if}
+				</div>
+				<!-- /maincol -->
+			</div>
+			<!-- /content -->
+			</div>
+			<!-- /contentwrap -->
+			<div class="clear"></div>
+            <div class="bottomwrap">
+                <a href="http://www.elitehavens.com/aboutus.aspx" target="_blank">
+                    <img src="/resources/majapahit/images/logo-eh.png" alt="an elite haven" title="an elite haven" />
+                </a>
+            </div>
+{include file="footer.html"}

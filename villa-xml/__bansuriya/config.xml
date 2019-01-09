@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Suriya</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Ban Suriya</villa_name>
+		<google_analytics>UA-105852401-1</google_analytics>
+		<location>Koh Samui</location>
+		<sublocation>Lipa Noi</sublocation>
+		<bedrooms>6</bedrooms>
+		<hrental_id>'Suriya', 'Koh Samui', '6br'</hrental_id>
+		<ehgLocation>Koh Samui, Lipa Noi</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

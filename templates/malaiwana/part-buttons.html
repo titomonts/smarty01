@@ -1,0 +1,32 @@
+<div class="button">
+    <div class="wrapper">
+	
+		{if $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-haleana'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/{$data.url_lvl_2}/rates-villa-haleana.html">Availability</a>
+		{elseif $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-rodnaya'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/{$data.url_lvl_2}/rates-villa-rodnaya.html"  >Availability</a>
+		{elseif $data.url_lvl_1 == 'the-villas' && $data.url_lvl_2 == 'villa-m'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html"  >Book now</a>
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/{$data.url_lvl_2}/rates-villa-m.html" >Availability</a>
+		{elseif  $data.url_lvl_3 eq 'rates-villa-haleana' || $data.url_lvl_3 eq 'rates-villa-rodnaya' || $data.url_lvl_3 eq 'rates-villa-m'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+		{elseif  $data.url_lvl_1 eq 'the-villas'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+		{/if}
+		
+		{if $data.url_lvl_3 eq 'rates-penthouse' || $data.url_lvl_3 eq 'rates-duplex'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+		{elseif $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'penthouse'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/{$data.url_lvl_2}/rates-penthouse.html" >Availability</a>
+		{elseif $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'duplex'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/{$data.url_lvl_2}/rates-duplex.html.html" >Availability</a>
+		{elseif  $data.url_lvl_1 eq 'the-residences'}
+			<a href="{$data.home_uri}/{$data.url_lvl_1}/reservations.html" >Book now</a>
+		{/if}
+		
+    </div>
+</div>

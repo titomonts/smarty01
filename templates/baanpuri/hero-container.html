@@ -1,0 +1,76 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Tropical%20luxe.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Tropical%20luxe.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Tropical%20luxe.jpg 1920w" alt="Baan Puri - Tropical luxe" class="lazyload" />          
+        </div>
+		<div id="slide-2">     
+			 <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Infinity%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Infinity%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Infinity%20pool.jpg 1920w" alt="Baan Puri - Infinity pool" class="lazyload" />
+		</div>
+		<div id="slide-3">            
+			   <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Attentive%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Attentive%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Attentive%20staff.jpg 1920w" alt="Baan Puri - Attentive staff" class="lazyload" />               
+		</div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-baan-puri'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1920w" alt="Baan Puri - Stunning view from ocean view suites" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Infinity%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Infinity%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Infinity%20pool.jpg 1920w" alt="Baan Puri - Infinity pool" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Tropical%20surrounding.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Tropical%20surrounding.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Tropical%20surrounding.jpg 1920w" alt="Baan Puri - Tropical surrounding" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+       
+
+        {elseif $data.page == 'floorplan'}
+        
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunnning%20aerial%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Stunnning%20aerial%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunnning%20aerial%20view.jpg 1920w" alt="Baan Puri - Stunnning aerial view" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Attentive%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Attentive%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Attentive%20staff.jpg 1920w" alt="Baan Puri - Attentive staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Beachfront%20dining%20by%20night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Beachfront%20dining%20by%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Beachfront%20dining%20by%20night.jpg 1920w" alt="Baan Puri - Beachfront dining by night" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Ultimate%20luxe.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Ultimate%20luxe.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Ultimate%20luxe.jpg 1920w" alt="Baan Puri - Ultimate luxe" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Massage%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Massage%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Massage%20area.jpg 1920w" alt="Baan Puri - Massage area" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20walled%20garden%20at%20rear%20of%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20walled%20garden%20at%20rear%20of%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20walled%20garden%20at%20rear%20of%20villa.jpg 1920w" alt="Baan Puri - walled garden at rear of villa" class="lazyload" />
+        
+		{elseif $data.page == 'press'}        
+		
+		{elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Weddings.jpg 1920w" alt="Baan Puri - Weddings" class="lazyload" />        
+		
+        {elseif $data.page == 'rates'}        
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1920w" alt="Baan Puri - alfresco dining & media pavilions" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1920w" alt="Baan Puri - alfresco dining & media pavilions" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1920w" alt="Baan Puri - alfresco dining & media pavilions" class="lazyload" /> 
+        
+        {else}
+       <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Baan%20Puri.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Baan%20Puri%20-%20Stunning%20view%20from%20ocean%20view%20suites.jpg 1920w" alt="Baan Puri - Stunning view from ocean view suites" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

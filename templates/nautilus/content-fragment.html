@@ -1,0 +1,545 @@
+{if $data.page|in_array:['about-villa-nautilus']}
+<div class="content-item odd about" id="about">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Villa Nautilus - Exquisite view from bedroom.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    {$contentPart[s]}
+                    {/section}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+        <h1 class="entry-title"><span>{$data.heading}</span></h1>  
+		{if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc regex="default"}
+			{section name=s loop=$contentPart}
+			<p>{$contentPart[s]}</p>
+			{/section}
+		{/if}
+		 
+		
+		<div class="photo-album">
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Nautilus - Breathtaking atmosphere.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Nautilus - Special setting with fabulous view.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Nautilus - Special occasion with stunning view.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Nautilus - Enchanting setup with beautiful view.jpg" class="lazyload"></div>
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Nautilus.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Nautilus - Dine with stunning view.jpg" class="lazyload"></div>
+		</div>
+		<div class="photo-album-thumbs">
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Nautilus - Breathtaking atmosphere.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Nautilus - Special setting with fabulous view.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Nautilus - Special occasion with stunning view.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Nautilus - Enchanting setup with beautiful view.jpg" class="lazyload"></div>
+			<div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Nautilus - Dine with stunning view.jpg" class="lazyload"></div>
+		</div>
+		
+		<h2>A day to remember</h2>
+		<small>Life together begins at the most beautiful places on earth.</small>
+		
+		<div class="guidelines">
+		{parsedata folder=$data.theme cache=$data.cache content="EVT"}
+		{contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+		{section name=s loop=$contentPart}
+		{$contentPart[s]|replace:'<br />': ''}
+		{/section} 
+		</div>
+
+		
+		{if 'SubContents'|array_key_exists:$content[0]}
+			{section name=s loop=$content[0].SubContents}
+				<h2>{$content[0].SubContents[s].Heading}</h2>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+		{/if}
+
+	</div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Nautilus - Villa overview at dusk.jpg">
+        <div class="wrapper">
+            <div class="the-content">   	        
+                 <h2 class="entry-title"><span>Villa Layout</span></h2>
+				{parsedata folder=$data.theme cache=$data.cache content="LYT"}
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    <p>{$contentPart[s]}</p>
+                    {/section}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if}
+            </div>
+        </div>
+    </div>	
+	<div class="wrapper">  
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">   
+   
+    <div class="group">
+		
+		{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+		{if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc regex="default"}
+			{section name=s loop=$contentPart}
+			<p>{$contentPart[s]}</p>
+			{/section}
+
+		{/if}
+		{section name=s loop=$content[0].SubContents}
+			 <div class="group">
+				<div class="group-wrapper">
+					{if $smarty.section.s.index eq 0}
+					<div class="half">
+						<div class="first-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Nautilus%20-%20Exceptional%20comfort.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Exceptional%20comfort.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Nautilus%20-%20Exceptional%20comfort.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Exceptional%20comfort.jpg 1920w" alt="Villa Nautilus - Exceptional comfort" class="lazyload" />
+						</div>
+					</div>
+					{/if}
+			
+					<div class="half half-content">
+						{if $smarty.section.s.index eq 0}
+							<h2 class="entry-title"><span>Living Areas</span></h2>							
+						{/if}
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description|replace:'<br />': ''}</p>
+						{* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+								</a>
+							</p>
+						{/if *}
+					</div>
+			
+					{if $smarty.section.s.index eq 1}
+					<div class="half">
+						<div class="second-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Nautilus%20-%20Beautiful%20getaway.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Beautiful%20getaway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Nautilus%20-%20Beautiful%20getaway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Beautiful%20getaway.jpg 1920w" alt="Villa Nautilus - Beautiful getaway" class="lazyload" />
+						</div>
+					</div>
+					{/if}
+					
+					</div>
+				</div>
+        {/section}
+    </div>
+	
+   
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+	 <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Nautilus - Working space.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+                <h2 class="entry-title"><span>Bedrooms</span></h2>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    <p>{$contentPart[s]}</p>
+                    {/section}
+
+                {/if}
+                
+            </div>
+        </div>
+    </div>
+	
+	<div class="group">		
+		
+		{section name=s loop=$content[0].SubContents}
+			 <div class="group">
+				<div class="group-wrapper">
+					{if $smarty.section.s.index eq 0}
+					<div class="half">
+						<div class="first-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Nautilus%20-%20Guest%20bedroom%20with%20dazzling%20view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Guest%20bedroom%20with%20dazzling%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Nautilus%20-%20Guest%20bedroom%20with%20dazzling%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Guest%20bedroom%20with%20dazzling%20view.jpg 1920w" alt="Villa Nautilus - Guest bedroom with dazzling view" class="lazyload" />
+						</div>
+					</div>
+					{/if}
+			
+					<div class="half half-content">						
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description|replace:'<br />': ''}</p>						
+					</div>
+			
+					{if $smarty.section.s.index eq 1}
+					<div class="half">
+						<div class="second-img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Nautilus%20-%20Guest%20bedroom%20layout.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Guest%20bedroom%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Nautilus%20-%20Guest%20bedroom%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Nautilus%20-%20Guest%20bedroom%20layout.jpg 1920w" alt="Villa Nautilus - Guest bedroom layout" class="lazyload" />
+						</div>
+					</div>
+					{/if}
+					
+					</div>
+				</div>
+        {/section}
+    </div>
+	
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+
+	 <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/staff/Villa Nautilus - This paradise only for you.jpg" style="background-position: center 0;">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+				<h1 class="entry-title"><span>Staff</span></h1>
+				{if 'desc'|array_key_exists:$content[0]}
+
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+				
+				
+            </div>
+        </div>
+    </div>
+	
+	<div class="group">
+		<div class="group">
+			<div class="group-wrapper">
+				<div class="half half-content">						
+					{if 'SubContents'|array_key_exists:$content[0]}
+						<dl class="details">
+							{section name=s loop=$content[0].SubContents}
+								<dt>{$content[0].SubContents[s].Heading}</dt>
+								<dd>{$content[0].SubContents[s].Description}</dd>
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+									</p>
+								{/if}
+							{/section}
+						</dl>
+					{/if}						
+				</div>	
+
+				<div class="half">
+					<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa%20Nautilus%20-%20Parking%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Nautilus%20-%20Parking%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Nautilus%20-%20Parking%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Nautilus%20-%20Parking%20area.jpg 1920w" alt="Villa Nautilus - Parking area" class="lazyload" />
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>        
+    </div>
+    
+   
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/dining/Villa Nautilus - Another day in paradise.jpg" style="background-position: 0 center;">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    {$contentPart[s]}
+                    {/section}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if}
+            </div>
+        </div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+     <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/families/Villa Nautilus - Perfect place for your holiday.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    {$contentPart[s]}
+                    {/section}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+	
+	<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/spa/Villa Nautilus - Getting ready.jpg" style="background-position: center center;">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="SPAGYM"}
+				<h1 class="entry-title"><span>Spa</span></h1>
+				{if 'desc'|array_key_exists:$content[0]}
+
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+				
+				
+            </div>
+        </div>
+    </div>
+	
+	<div class="group">
+		<div class="group">
+			<div class="group-wrapper">
+				<div class="half half-content">						
+					{if 'SubContents'|array_key_exists:$content[0]}
+						<dl class="details">
+							{section name=s loop=$content[0].SubContents}
+								<dt>{$content[0].SubContents[s].Heading}</dt>
+								<dd>{$content[0].SubContents[s].Description}</dd>
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+									</p>
+								{/if}
+							{/section}
+						</dl>
+					{/if}						
+				</div>	
+
+				<div class="half">
+					<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa%20Nautilus%20-%20Pampering%20yourself.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Nautilus%20-%20Pampering%20yourself.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Nautilus%20-%20Pampering%20yourself.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Nautilus%20-%20Pampering%20yourself.jpg 1920w" alt="Villa Nautilus - Pampering yourself" class="lazyload" />
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>        
+    </div>
+	   
+</div>
+{/if}
+
+{if $data.page|in_array:['ao-po-phuket', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+        <div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+			<h2 class="entry-title"><span>The Locale</span></h2>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			<div class="clear"></div>
+        </div>		
+    </div>
+	
+	<div class="group">
+		<div class="group">
+			<div class="group-wrapper">
+				<div class="half">
+					<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Nautilus%20-%20Lounge%20with%20dazzling%20view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Nautilus%20-%20Lounge%20with%20dazzling%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Nautilus%20-%20Lounge%20with%20dazzling%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Nautilus%20-%20Lounge%20with%20dazzling%20view.jpg 1920w" alt="Villa Nautilus - Lounge with dazzling view" class="lazyload" />
+					</div>
+				</div>
+				
+				<div class="half half-content">						
+					{if 'SubContents'|array_key_exists:$content[0]}
+						<h3>Distances</h3>
+						<dl class="distances">
+							{section name=s loop=$content[0].SubContents}
+								<dt>{$content[0].SubContents[s].Heading}</dt>
+								<dd>{$content[0].SubContents[s].Description}</dd>
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						</dl>
+					{/if}						
+				</div>	
+				
+			</div>
+		</div>        
+    </div>
+	
+</div>   
+{/if}
+
+{if $data.page|in_array:['ao-po-phuket', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+   
+        <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/locale/Villa Nautilus - Experience the extraordinary golf.jpg">
+			<div class="wrapper">
+				<div class="the-content">
+					{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+					 <h2 class="entry-title"><span>Things to Do</span></h2>             
+					{if 'desc'|array_key_exists:$content[0]}
+
+						{contentpart content=$content[0].desc regex="default"}
+						{section name=s loop=$contentPart}
+						<p>{$contentPart[s]}</p>
+						{/section}
+
+					{/if}
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="wrapper">   
+            <div class="group">
+            {if 'desc'|array_key_exists:$content[0]}
+                {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+                {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+                {section name=s loop=$contentPart}
+                {if $smarty.section.s.index mod 2}
+                <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Nautilus%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Nautilus%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+                </div>
+                <div class="half half-content">
+                {$contentPart[s]|replace:['<li>','</li>']:['', '']}
+                </div>
+                {else}
+                <div class="half half-content">
+                {$contentPart[s]|replace:['<li>','</li>']:['', '']}
+                </div>
+                <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Nautilus%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Nautilus%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+                </div>
+                {/if}
+                {/section}
+                </div>
+
+                {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            {/if}
+        </div>
+		
+</div>
+{/if}

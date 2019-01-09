@@ -1,0 +1,102 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="group">
+                            <div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Akuvara - Absolute beachfront villa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Akuvara - Absolute beachfront villa.jpg" alt="Akuvara - Absolute beachfront villa" class="lazyload" />
+                            </div>
+                            <div class="half half-content">
+                                <h1 class="entry-title">{$data.heading}</h1>
+                                <ul class="poi">
+                                    <li id="poi-1">Absolute<br> Beachfront</li>
+                                    <li id="poi-2">Private<br> Chef</li>
+                                    <li id="poi-3">Fully<br> Staffed</li>
+                                    <li id="poi-4">Private<br> Pool</li>								
+                                </ul>
+                                {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+
+                                    {contentpart content=$content[0].desc regex="default"}
+                                    {section name=s loop=1}
+                                    {$contentPart[s]|replace:"<p>":"<p class=\"p-header\">"}
+                                    {/section} 
+
+                                {/if}
+
+                                {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                                    {$content[0].SubContents[s].Description}
+                                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                        <p>
+                                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                            </a>
+                                        </p>
+                                    {/if}
+                                    {/section}
+                                {/if}
+
+                                <div class="clear"></div>
+                            </div>
+                        </div> 
+                        <div class="group">
+                            <div class="half half-content">
+                                {section name=s start=1 loop=$contentPart}
+                                {$contentPart[s]}
+                                {/section} 
+                            </div>
+                            <div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Akuvara - Your private beach loungers.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Akuvara - Your private beach loungers.jpg" alt="Akuvara - Your private beach loungers" class="lazyload" />
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+		
+                <div class="content-item">
+                    <div class="img">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Akuvara - All day dining at cost.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Akuvara - All day dining at cost.jpg" alt="Akuvara - All day dining at cost" class="lazyload" />
+                    </div>
+                    <div class="wrapper"> 
+                        <div class="the-content">
+                            <h2 class="entry-title">Akuvara’s chef is on hand throughout your stay to prepare breakfast, lunch and dinner.</h2>
+                            <p>The villa has an extensive menu of home-cooked dishes to choose from, ranging from Thai and other Asian cuisines to Western favourites, as well as children’s specials and vegetarian choices.</p>
+                            <div><a href="/dining.html" class="btn-home">Read more</a></div>			
+                        </div>					
+                    </div>
+                    <div class="img">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Akuvara - Our happy staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Akuvara - Our happy staff.jpg" alt="Akuvara - Our happy staff" class="lazyload" />
+                    </div>
+                    <div class="wrapper"> 	
+                        <div class="the-content">							
+                            <h2 class="entry-title">Personalised service provided by a dedicated team of professional staff.</h2>
+                            <p>One of the great joys of staying in Akuvara is the dedicated, energetic, cheerful and highly trained staff.  They ensure that all guests have everything they want, and never have to lift a finger. Thais have a worldwide reputation for their welcoming character and high service standards.</p>
+                            <div><a href="/staff.html" class="btn-home">Read more</a></div>	
+                            </div>										
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-akuvara', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'lipa-noi-koh-samui', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

@@ -1,0 +1,456 @@
+{if $data.page|in_array:['about-villa-asta']}
+<div class="content-item odd about" id="about">    
+	<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Villa Asta - Poolside plant detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/about/small/Villa%20Asta%20-%20Poolside%20plant%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Villa%20Asta%20-%20Poolside%20plant%20detail.jpg 1920w">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {$content[0].desc}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+        <div class="wrapper">
+            <div class="the-content">
+			
+            {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+            <h2 class="entry-title"><span>Villa Layout</span></h2>
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {$content[0].desc}
+
+            {/if}
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+			
+            {include file="floorplan.html"}
+            </div>
+        </div>
+		
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+   
+    <h2 class="entry-title"><span>Living Areas</span></h2>
+    
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Asta - Living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Asta - Living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Asta%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Asta%20-%20Living%20area.jpg 1920w" alt="Villa Asta - Living area" class="lazyload" /></div>
+
+    <div class="wrapper">
+        <div class="the-content">
+		{parsedata folder=$data.theme cache=$data.cache content="LVA"}		
+
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{$content[0].desc}
+
+		{/if}
+		{section name=s loop=$content[0].SubContents}
+            {if $smarty.section.s.index eq 0}
+                <h3>Indoor Living</h3>
+            {/if}
+            {if $smarty.section.s.last}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {else}
+            <h4>{$content[0].SubContents[s].Heading}</h4>
+            {/if}
+            {$content[0].SubContents[s].Description|replace:'<br />':''}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section} 
+		</div>
+	</div>
+   
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Asta - Deck chairs from above.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Asta - Deck chairs from above.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Asta%20-%20Deck%20chairs%20from%20above.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Asta%20-%20Deck%20chairs%20from%20above.jpg 1920w" alt="Villa Asta - Deck chairs from above" class="lazyload" /></div>
+    
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+
+        {if 'desc'|array_key_exists:$content[0]}                
+            {$content[0].desc}
+        {/if}
+        </div>
+    </div>
+
+    {section name=s loop=$content[0].SubContents}
+    {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+    <div class="group">
+        <div class="group-wrapper">	
+
+        {if $smarty.section.s.index eq 1}
+        <div class="half">
+            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Asta - Guest bedroom one.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Asta - Guest bedroom one.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Asta%20-%20Guest%20bedroom%20one.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Asta%20-%20Guest%20bedroom%20one.jpg 1920w" alt="Villa Asta - Guest bedroom one" class="lazyload" /></div>
+        </div>
+        {/if}
+
+        <div class="half half-content">
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+        {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if *}
+        </div>	
+
+        {if $smarty.section.s.index eq 0}
+        <div class="half">
+            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Asta - Master bedroom one.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Asta - Master bedroom one.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Asta%20-%20Master%20bedroom%20one.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Asta%20-%20Master%20bedroom%20one.jpg 1920w" alt="Villa Asta - Master bedroom one" class="lazyload" /></div>
+        </div>
+        {/if}		
+        </div>
+    </div>   
+          
+    {/if}    
+    {/section}
+    <div class="clear"></div>
+   
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+	<h1 class="entry-title">{$data.heading}</h1>
+    <div class="wrapper">
+        <div class="the-content">
+			
+			{parsedata folder=$data.theme cache=$data.cache content="STAFF"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{$content[0].desc}
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+        </div>
+    </div>
+    
+    <div class="group">
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa Asta - Cocktail time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa Asta - Cocktail time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Asta%20-%20Cocktail%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Asta%20-%20Cocktail%20time.jpg 1920w" alt="Villa Asta - Cocktail time" class="lazyload" /></div>
+    </div>
+	
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <h1 class="entry-title">{$data.heading}</h1>
+    <div class="wrapper">
+        <div class="the-content">
+		
+			{parsedata folder=$data.theme cache=$data.cache content="DNNG"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+            
+			{$content[0].desc} 
+
+			{/if}
+
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h2 class="entry-title">{$content[0].SubContents[s].Heading}</h2>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+
+			{/if}
+			
+			<div class="clear"></div>
+        </div>
+    </div>
+    
+    <div class="group">
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa Asta - Healthy dishes if you wish.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa Asta - Healthy dishes if you wish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Asta%20-%20Healthy%20dishes%20if%20you%20wish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Asta%20-%20Healthy%20dishes%20if%20you%20wish.jpg 1920w" alt="Villa Asta - Healthy dishes if you wish" class="lazyload" /></div>
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa Asta - Seafood feast.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa Asta - Wedding ceremony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Asta%20-%20Seafood%20feast.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Asta%20-%20Seafood%20feast.jpg 1920w" alt="Villa Asta - Seafood feast" class="lazyload" /></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <h1 class="entry-title">{$data.heading}</h1>
+		
+    {parsedata folder=$data.theme cache=$data.cache content="FAM"}                           
+    {if 'desc'|array_key_exists:$content[0]}
+    {contentpart content=$content[0].desc regex="default"}
+    
+    <div class="group">
+        <div class="group-wrapper">
+        <div class="half">
+            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa Asta - Games room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa Asta - Games room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Asta%20-%20Games%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Asta%20-%20Games%20room.jpg 1920w" alt="Villa Asta - Games room" class="lazyload" /></div>
+        </div>
+
+        <div class="half half-content">
+        {section name=s loop=3}
+        {$contentPart[s]}
+        {/section}
+        </div>	
+        
+        </div>	
+    </div>	
+    
+    <div class="group">
+        <div class="group-wrapper">
+
+        <div class="half half-content">
+        {section name=s start=3 loop=$contentPart}
+        {$contentPart[s]}
+        {/section}
+        </div>	
+        
+        <div class="half">
+            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa Asta - Family time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa Asta - Family time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Asta%20-%20Family%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Asta%20-%20Family%20time.jpg 1920w" alt="Villa Asta - Family time" class="lazyload" /></div>
+        </div>
+        
+        </div>
+    </div> 
+        {/if}
+    
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <h1 class="entry-title">{$data.heading}</h1>
+    <div class="wrapper">
+        <div class="the-content">
+		
+			{parsedata folder=$data.theme cache=$data.cache content="SPA"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+            {/if}
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+                <div class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+                </div>
+			{/if}
+			<div class="clear"></div>
+        </div>
+    </div>  
+    
+    <div class="group">
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa Asta - Spa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa Asta - Spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Asta%20-%20Spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Asta%20-%20Spa.jpg 1920w" alt="Villa Asta - Spa" class="lazyload" /></div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['seminyak-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+            <h2 class="entry-title"><span>The Locale</span></h2>
+            {if 'desc'|array_key_exists:$content[0]}
+
+                <p>{$content[0].desc}</p>
+
+            {/if}
+            <div class="clear"></div>
+			<div class="area">
+				<div class="map_div" id="map_div_locale"></div>
+				{if 'SubContents'|array_key_exists:$content[0]}
+					<h3>Distances</h3>
+					<dl class="distances">
+						{section name=s loop=$content[0].SubContents}
+							<dt>{$content[0].SubContents[s].Heading}</dt>
+							<dd>{$content[0].SubContents[s].Description}</dd>
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					</dl>
+				{/if}
+                <div class="clear"></div>
+			</div>
+            </div>
+        </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['seminyak-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+  
+    <div class="the-content">
+	    <div class="wrapper">
+		{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+		<h2 class="entry-title"><span>Things to Do</span></h2>
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+			{section name=s loop=$contentPart}
+				{$contentPart[s]}
+			{/section}
+		{/if}
+		</div>
+    </div>
+    <div class="wrapper">
+        <div class="group">
+		{if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+			{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+			{section name=s loop=$contentPart}
+			
+			{if $smarty.section.s.index neq $smarty.section.s.first}
+				{if $smarty.section.s.index mod 2}		
+					<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa Asta%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa Asta%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+					</div>				
+					<div class="half half-content">
+					<p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+					</div>					
+				{else}
+					<div class="half half-content">
+					<p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+					</div>
+				    <div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa Asta%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa Asta%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+					</div>
+				{/if}
+            {/if}
+				
+			{/section}
+			</div>
+
+			{section name=s loop=$content[0].SubContents}
+				<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+		{/if}
+	</div>
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+	<div class="content-item weddings" id="weddings">
+    <h1 class="entry-title">Weddings</h1>
+    <div class="wrapper">
+        <div class="the-content">
+	{parsedata folder=$data.theme cache=$data.cache content="EVT"}
+		
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            {$contentPart[s]}
+            {/section} 
+            
+            <div class="group">
+                {contentpart content=$content[0].desc|replace:['<ul> </ul>']:[''] regex="/<ul>(.*?)<\/ul>/s"}
+                {section name=s loop=$contentPart}
+                {$contentPart[s]|replace:['<ul>']:['<ul class="capacity">']}
+                {/section}
+
+                <div class="guidelines">
+                    {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+                    {section name=s loop=1}
+                    {$contentPart[s]|replace:'<br />': ''}
+                    {/section} 
+                    {section name=s start=1 loop=$contentPart}
+                    {$contentPart[s]|replace:'<br />': ''}
+                    {/section} 
+                </div>
+            </div>
+
+		{/if}
+		</div>
+	</div>
+    
+    <div class="group">
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa Asta - Wedding celebration.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa Asta - Wedding celebration.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Asta%20-%20Wedding%20celebration.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Asta%20-%20Wedding%20celebration.jpg 1920w" alt="Villa Asta - Wedding celebration" class="lazyload" /></div>
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa Asta - Wedding ceremony.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa Asta - Wedding ceremony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Asta%20-%20Wedding%20ceremony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Asta%20-%20Wedding%20ceremony.jpg 1920w" alt="Villa Asta - Wedding ceremony" class="lazyload" /></div>
+    </div>
+	</div>
+{/if}  

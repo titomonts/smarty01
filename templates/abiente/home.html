@@ -1,0 +1,94 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+                        <ul class="poi">
+                            <li id="poi-1">Peninsular<br /> location</li>
+                            <li id="poi-2">3 ensuite<br />bedrooms</li>
+                            <li id="poi-3">Fully<br />staffed</li>
+                            <li id="poi-4">Private<br />chef</li>
+                            <li id="poi-5">Infinity <br />pool</li>
+                        </ul>  
+                        <div class="group">
+                            <div class="half">
+                                <h1 class="entry-title">{$data.heading}</h1>
+                                {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+                                    {section name=s loop=$contentPart}
+                                    <p>{$contentPart[s]}</p>
+                                    {/section}
+
+                                {/if}
+
+                                {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                                    {$content[0].SubContents[s].Description}
+                                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                        <p>
+                                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                            </a>
+                                        </p>
+                                    {/if}
+                                    {/section}
+                                {/if}
+                            </div>
+                            <div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Abiente---Poolside sitting area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Abiente--Poolside sitting area.jpg" alt="Villa Abiente - Poolside sitting area" class="lazyload" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="collage group">
+                        <div class="half">
+                            <div class="first-row">
+                                <a href="about-villa-abiente.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Abiente - Outstanding bedroom outlook.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Abiente - Outstanding bedroom outlook.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Abiente%20-%20Outstanding%20bedroom%20outlook.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Abiente%20-%20Outstanding%20bedroom%20outlook.jpg 632w" alt="Villa Abiente - Outstanding bedroom outlook" class="lazyload" />
+                                    <span><small>It's hard not to</small> fall in love with Villa Abiente</span>
+                                </a>
+                            </div>
+                            <div class="second-row">
+                                <a href="/about-villa-abiente/explore-the-villa.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Abiente - Wall painting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Abiente - Wall painting.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Abiente%20-%20Wall%20painting.jpg 375w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Abiente%20-%20Wall%20painting.jpg 750w" alt="Villa Abiente - Wall painting" class="lazyload" />
+                                    <span><small>True designer style</small> The epitome of modernity</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="half">
+                            <a href="/villa-experience.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">
+                                <div class="overlay"></div>
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Abiente - Pool deck.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Abiente - Gardens and pool.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Abiente%20-%20Pool%20deck.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Abiente%20-%20Pool%20deck.jpg 632w" alt="Villa Abiente - Pool deck" class="lazyload" />
+                                <span>Experience <small>Phuket’s most prestigious address</small></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons-container">                
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+        </div>
+            
+{include file="footer.html"}

@@ -1,0 +1,98 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								<p class="p-header">
+									{section name=s start=0 max=2 loop=$contentPart}
+									  {$contentPart[s]}. 
+									{/section}
+								</p>
+								<p>
+									{section name=s start=2 loop=$contentPart}
+									 {if $smarty.section.s.last neq true}
+										{$contentPart[s]}.
+									 
+									 {/if}
+									{/section}
+								</p>
+
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                    </div>
+                </div>  
+                <div class="content-item">
+					<div class="content-inner">
+						
+						 <div class="group">
+							<div class="half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Villa%20R%20-%20Glorious.jpg">
+								<h2 class="entry-title">The Villas</h2>
+								
+								<div class="des-img">
+									<a href="/the-villas.html">
+										<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Malaiwana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Villa%20R%20-%20Glorious.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Malaiwana%20Villa%20R%20-%20Glorious.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Villa%20R%20-%20Glorious.jpg 1920w" alt="Malaiwana Villa R - Glorious" class="lazyload" />
+									</a>
+									<a href="/the-villas.html" class="btn-default">Look Inside</a>
+								</div>
+								
+								<div class="des">								
+									{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents}
+										{contentpart content=$content[0].SubContents[0].Description explode="."}									
+										{section name=s start=0 max=3  loop=$contentPart}
+											 {$contentPart[s]}.
+										{/section}	
+									{/section}
+									{/if}	
+								</div>
+							
+							</div>
+							
+							<div class="half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Duplex%20-%20Poolside%20area.jpg">
+								<h2 class="entry-title">The Residences</h2>	
+								
+								<div class="des-img">
+									<a href="/the-residences.html">
+										<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Malaiwana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Duplex%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Malaiwana%20Duplex%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Duplex%20-%20Poolside%20area.jpg 1920w" alt="Malaiwana Duplex - Poolside area" class="lazyload" />
+									</a>
+									<a href="/the-residences.html" class="btn-default">Look Inside</a>
+								</div>
+																
+								<div class="des">																	
+									 {if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents}
+											{contentpart content=$content[0].SubContents[1].Description explode="."}									
+											{section name=s start=0 max=3  loop=$contentPart}
+												 {$contentPart[s]}.
+											{/section}		
+										{/section}
+									{/if}	
+								</div>
+							</div>
+							
+						   </div>
+					</div>                    
+                </div>                 
+            </div>
+        </div>
+      
+{include file="footer.html"}

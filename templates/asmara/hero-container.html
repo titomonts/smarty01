@@ -1,0 +1,75 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - View across pool to main house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20View%20across%20pool%20to%20main%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20View%20across%20pool%20to%20main%20house.jpg 1920w" alt="Villa Asmara - View across pool to main house" class="lazyload" />   
+            <div class="caption"><big>Traditional style</big> <small>grace and space</small></div>         
+        </div>
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Beautiful Cemagi.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Beautiful%20Cemagi.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Beautiful%20Cemagi.jpg 1920w" alt="Villa Asmara - Beautiful Cemagi" class="lazyload" />   
+            <div class="caption"><big>Stunning rural</big> <small>Cemagi location</small></div>        
+        </div>
+        <div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Exceptional luxury.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Exceptional%20luxury.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Exceptional%20luxury.jpg 1920w" alt="Villa Asmara - Exceptional luxury" class="lazyload" />   
+            <div class="caption"><big>Fully staffed</big> <small>with private chef</small></div>        
+        </div>
+        <div id="slide-4">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Master suite two.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Master%20suite%20two.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Master%20suite%20two.jpg 1920w" alt="Villa Asmara - Master suite two" class="lazyload" />   
+            <div class="caption"><big>Four elegant</big> <small>ensuite bedrooms</small></div>        
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-asmara'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Living areas.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Living%20areas.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Living%20areas.jpg 1920w" alt="Villa Asmara - Living areas" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Main house terracing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Main%20house%20terracing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Main%20house%20terracing.jpg 1920w" alt="Villa Asmara - Main house terracing" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Living room sofas.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Living%20room%20sofas.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Living%20room%20sofas.jpg 1920w" alt="Villa Asmara - Living room sofas" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - View of the villa from bottom of the garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20View%20of%20the%20villa%20from%20bottom%20of%20the%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20View%20of%20the%20villa%20from%20bottom%20of%20the%20garden.jpg 1920w" alt="Villa Asmara - View of the villa from bottom of the garden" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Buddha looks over the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Buddha%20looks%20over%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Buddha%20looks%20over%20the%20pool.jpg 1920w" alt="Villa Asmara - Buddha looks over the pool" class="lazyload" />
+
+        {elseif $data.page == 'video'}
+        
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - View from left corner of main house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20View%20from%20left%20corner%20of%20main%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20View%20from%20left%20corner%20of%20main%20house.jpg 1920w" alt="Villa Asmara - View from left corner of main house" class="lazyload" />
+        
+        {elseif $data.page == 'cemagi-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Pool and Buddha.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Pool%20and%20Buddha.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Pool%20and%20Buddha.jpg 1920w" alt="Villa Asmara - Pool and Buddha" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - View across pool to main house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20View%20across%20pool%20to%20main%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20View%20across%20pool%20to%20main%20house.jpg 1920w" alt="Villa Asmara - View across pool to main house" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Gardens and pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Gardens%20and%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Gardens%20and%20pool.jpg 1920w" alt="Villa Asmara - Gardens and pool" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Guest room 3.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Guest%20room%203.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Guest%20room%203.jpg 1920w" alt="Villa Asmara - Guest room 3" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Poolside lounger.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Poolside%20lounger.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Poolside%20lounger.jpg 1920w" alt="Villa Asmara - Poolside lounger" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Stunning exterior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Stunning%20exterior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Stunning%20exterior.jpg 1920w" alt="Villa Asmara - Stunning exterior" class="lazyload" />  
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Stunning exterior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Stunning%20exterior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Stunning%20exterior.jpg 1920w" alt="Villa Asmara - Stunning exterior" class="lazyload" />  
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Asmara.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asmara - Stunning exterior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asmara%20-%20Stunning%20exterior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asmara%20-%20Stunning%20exterior.jpg 1920w" alt="Villa Asmara - Stunning exterior" class="lazyload" />  
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{include file="part-booking.html"}

@@ -1,0 +1,144 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=7}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|replace:',':''|lower|replace:'/':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half"> 
+            {section name=s start=7 loop=$content[0].SubContents}
+            {* if $smarty.section.s.index neq $smarty.section.s.last *}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|replace:',':''|replace:'/':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {* /if *}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/October-2018/Villa-Kayajiwa---Tropical-life-magazine---Sept-Dec-2018.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/October-2018/Villa-Kayajiwa---Tropical-life-magazine---Sept-Dec-2018.jpg" class="imgleft"></a>
+            “It is the perfect Canggu luxury villa for a family or group of friends with a love for contemporary design and a desire to experience Bali in style.” 
+            <a href="/resources/{$data.theme}/pdfs/October-2018/Villa-Kayajiwa---Tropical-life-magazine---Sept-Dec-2018.pdf" target="_blank"><em>A stunningly chic four bedroom villa at Villa Kavaya</em>, <strong>Tropical life magazine</strong>, published September – December 2018.</a>
+        </div>
+		
+    </div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews hide_this_year="2010,2011,2012,2013,2014" order="c,n,d"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+{$content}    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-villa-kavaya' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

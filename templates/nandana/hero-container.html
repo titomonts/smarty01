@@ -1,0 +1,70 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Villa pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Villa%20pool.jpg 1920w" alt="Villa Nandana - Villa pool" class="lazyload" />
+        </div>
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Villa and garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Villa%20and%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Villa%20and%20garden.jpg 1920w" alt="Villa Nandana - Villa and garden" class="lazyload" />
+        </div>		
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-nandana'}        
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - The pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20The%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20The%20pool.jpg 1920w" alt="Villa Nandana - The pool" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Wonderful escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Wonderful%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Wonderful%20escape.jpg 1920w" alt="Villa Nandana - Wonderful escape" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Begin your rejuvenation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Begin%20your%20rejuvenation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Begin%20your%20rejuvenation.jpg 1920w" alt="Villa Nandana - Begin your rejuvenation" class="lazyload" />
+        
+		{elseif $data.page == 'photo-gallery'}       
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Romantic getaway.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Romantic%20getaway.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Romantic%20getaway.jpg 1920w" alt="Villa Nandana - Romantic getaway" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}        
+
+        {elseif $data.page == 'weddings'}   
+        
+        {elseif $data.page == 'natai-beach-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Panoramic view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Panoramic%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Panoramic%20view.jpg 1920w" alt="Villa Nandana - Panoramic view" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Staff.jpg 1920w" alt="Villa Nandana - Staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Dine with stunning view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Dine%20with%20stunning%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Dine%20with%20stunning%20view.jpg 1920w" alt="Villa Nandana - Dine with stunning view" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Splashing good time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Splashing%20good%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Splashing%20good%20time.jpg 1920w" alt="Villa Nandana - Splashing good time" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Experience the ultimate spa treatment.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Experience%20the%20ultimate%20spa%20treatment.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Experience%20the%20ultimate%20spa%20treatment.jpg 1920w" alt="Villa Nandana - Experience the ultimate spa treatment" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        
+        {elseif $data.page == 'press'}
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - A tranquil location to relax.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20A%20tranquil%20location%20to%20relax.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20A%20tranquil%20location%20to%20relax.jpg 1920w" alt="Villa Nandana - A tranquil location to relax" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Villa view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Villa%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Villa%20view.jpg 1920w" alt="Villa Nandana - Villa view" class="lazyload" />
+
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Villa pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Villa%20pool.jpg 1920w" alt="Villa Nandana - Villa pool" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Villa pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Villa%20pool.jpg 1920w" alt="Villa Nandana - Villa pool" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Nandana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Nandana - Villa pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Nandana%20-%20Villa%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Nandana%20-%20Villa%20pool.jpg 1920w" alt="Villa Nandana - Villa pool" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

@@ -1,0 +1,40 @@
+{if 0|array_key_exists:$data.teaser_data.Villa.Info[0].Rooms.Room}
+    {assign var=rate value=$data.teaser_data.Villa.Info[0].Rooms.Room[0].MinRoomRate|@floor}
+    {assign var=br value=$data.teaser_data.Villa.Info[0].Rooms.Room[0].RoomName}
+{else}
+    {assign var=rate value=$data.teaser_data.Villa.Info[0].Rooms.Room.MinRoomRate|@floor}
+    {assign var=br value=$data.teaser_data.Villa.Info[0].Rooms.Room.RoomName}
+{/if}
+<main id="main" class="site-main">
+    <article id="post">
+        <div class="container_12 clearfix">
+            <header class="entry-header grid_6">
+                <h1 class="entry-title">{$data.teaser_data.Villa.Info[0].Name}</h1>
+                <div class="location">{$br} villa, {$data.teaser_data.Villa.Info[0].Location}, {$data.teaser_data.Villa.Info[0].Country}</div>
+                <div class="rate">from {$rate}++ USD/night</div>
+            </header><!-- .entry-header -->
+            <div class="headright grid_6">
+                <div class="site"><!-- Site button --></div>
+                <div class="book">{#BOOK_NOW_BUTTON#}</div>
+            </div>
+        </div>
+        <div id="slideshow" class="container_12 clearfix">
+            <div class="grid_12">
+				 <div class="headerimg">
+					<div class="flexslider">
+						<ul class="slides">
+							{section name=i loop=$data.teaser_data.Villa.Info[0].Images.Image start=0 max=5}
+							<li>
+								<img src="{$data.teaser_data.Villa.Info[0].Images.Image[i].Url}" data-src="{$data.teaser_data.Villa.Info[0].Images.Image[i].Url}" data-sizes="329h" data-srcset="{$data.teaser_data.Villa.Info[0].Images.Image[i].Url} 940w, {$data.teaser_data.Villa.Info[0].Images.Image[i].Url} 940w" alt="{$data.teaser_data.Villa.Info[0].Name}" class="lazyload"  />
+							</li>
+							{/section}
+						</ul>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="entry-content grid_12">
+            <p>{$data.teaser_data.Villa.Info[0].Blurb}</p>
+        </div><!-- .entry-content width="658" height="338" -->
+    </article><!-- #post-## -->
+</main><!-- #main -->

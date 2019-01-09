@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00183</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Canggu Beachside Villas - Villa GU</villa_name>
+		<google_analytics>UA-111430557-1</google_analytics>
+		<location>Bali</location>
+		<sublocation> Canggu</sublocation>
+		<bedrooms>99</bedrooms>
+		<hrental_id>'P00183', 'Bali', 'Canggu', '99br'</hrental_id>
+		<ehgLocation>Bali, Canggu</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>estate</ehgPageType>
+		</Source>
+		</Configuration>

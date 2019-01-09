@@ -1,0 +1,492 @@
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 eq '' && $data.url_lvl_3 eq ''}
+<div class="content-item odd residences" id="residences">
+  
+        <div class="wrapper">
+            <div class="the-content">			
+				<h1 class="entry-title">Welcome to <span>The Residence</span> by Malaiwana</h1>
+    	        {parsedata folder=$data.theme cache=$data.cache content="INTRO"}             
+                {if 'desc'|array_key_exists:$content[0]}
+                {/if}
+
+               {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+						{if $smarty.section.s.index eq 0}
+							{$content[0].SubContents[s].Description}
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/if}
+                    {/section}
+                {/if}
+            </div>
+        </div>
+		
+		<div class="content-item">
+			<div class="content-inner">
+				 <div class="group">
+					<div class="half">
+						<a href="/the-residences/penthouse.html">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Malaiwana%20Penthouse%20-%20Modern%20living.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Penthouse%20-%20Modern%20living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Malaiwana%20Penthouse%20-%20Modern%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Penthouse%20-%20Modern%20living.jpg 1920w" alt="Malaiwana Penthouse - Modern living" class="lazyload" />
+						</a>
+						
+						<div class="des">
+							<h2 class="entry-title">Penthouse</h2>
+							{parsedata folder=$data.theme cache="P00145" content="INTRO"}							
+							 {if 'desc'|array_key_exists:$content[0]}
+									{contentpart content=$content[0].desc strip=[".&nbsp;", ". "] explode="."}									
+									{section name=s start=0 max=2  loop=$contentPart}
+										 {$contentPart[s]}.
+									{/section}	
+							 {/if}  
+							
+							<a href="/the-residences/penthouse.html"  class="btn-default">Look Inside</a>
+						</div>
+					</div>
+					
+					<div class="half">
+						<a href="/the-residences/duplex.html">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Malaiwana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Duplex%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Malaiwana%20Duplex%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Malaiwana%20Duplex%20-%20Poolside%20area.jpg 1920w" alt="Malaiwana Duplex - Poolside area" class="lazyload" />
+						</a>
+						
+						<div class="des">
+							<h2 class="entry-title">Duplex</h2>									
+							 {parsedata folder=$data.theme cache="P00143" content="INTRO"}							
+							 {if 'desc'|array_key_exists:$content[0]}
+									{contentpart content=$content[0].desc  explode="."}									
+									{section name=s start=0 max=3  loop=$contentPart}
+										 {$contentPart[s]}.
+									{/section}	
+							 {/if} 
+							
+							<a href="/the-residences/duplex.html"  class="btn-default">Look Inside</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<ul class="poi">
+					<li id="poi-1">Stunning <br>Panoramic Views</li>
+					<li id="poi-2">Steps to<br>The Beach</li>
+					<li id="poi-3">Exceptional <br>For Weddings</li>
+					<li id="poi-4">Beach Club <br>Dinning</li>
+					<li id="poi-5">Private <br>chef</li>
+				</ul>
+			</div>
+		</div>
+ 		
+		<div class="content-item">
+			<div class="content-inner">
+				{* <div class="img fullwidth lazyloaded" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/residences/Malaiwana%20Duplex%20-%20Poolside%20area.jpg"></div> *}
+				<div class="img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/residences/thumb/Malaiwana%20Duplex%20-%20Poolside%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/Malaiwana%20Duplex%20-%20Poolside%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/small/Malaiwana%20Duplex%20-%20Poolside%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/Malaiwana%20Duplex%20-%20Poolside%20area.jpg 1920w" alt="Malaiwana Duplex - Poolside area" class="lazyload" />
+				</div>
+				<h2 class="entry-title">Get together</h2>
+				<p  class="center">With a thoughtful design balancing private and shared spaces, and the inviting sands of Nai Thon Beach just minutes away, Villa and Residences at Malaiwana are ideal for a peaceful and relaxing family break. </p>					
+			</div>
+		</div>
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group middle">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/thumb/Malaiwana%20Villa%20-%20Food%20preparation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/Malaiwana%20Villa%20-%20Food%20preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/small/Malaiwana%20Villa%20-%20Food%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/Malaiwana%20Villa%20-%20Food%20preparation.jpg 1920w" alt="Malaiwana Villa - Food preparation" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/thumb/Noku%20Beach%20House%20-%20Fresh%20vegetables1.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/Noku%20Beach%20House%20-%20Fresh%20vegetables1.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/small/Noku%20Beach%20House%20-%20Fresh%20vegetables1.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/Noku%20Beach%20House%20-%20Fresh%20vegetables1.jpg 1920w" alt="Malaiwana - Ring exchange" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/thumb/Malaiwana%20Villa%20-%20Superb%20food.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/Malaiwana%20Villa%20-%20Superb%20food.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/small/Malaiwana%20Villa%20-%20Superb%20food.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/Malaiwana%20Villa%20-%20Superb%20food.jpg 1920w" alt="Malaiwana Villa - Superb food" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								<h2 class="entry-title">Indulge</h2>
+								<p>Thai cuisine is celebrated the world over for its flavourful dishes, and Villa Malaiwana is the perfect place to explore Thai gastronomic delights under the talented direction of the in-villa chef. </p>
+							</div>
+						</div>
+						
+					</div>
+				</div>			
+			</div>
+		</div>
+		
+		<div class="content-item">
+			<div class="content-inner">
+				{* <div class="img fullwidth lazyloaded" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/Noku%20Beach%20House%20-%20Chef%20made.jpg"></div> *}				
+				<div class="img">
+					<div class="img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/thumb/Malaiwana%20-%20Chef%20made.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/Malaiwana%20-%20Chef%20made.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/small/Malaiwana%20-%20Chef%20made.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/Malaiwana%20-%20Chef%20made.jpg 1920w" alt="Malaiwana - Chef made" class="lazyload" />
+				</div>
+				</div>
+					<h2 class="entry-title">5-Star Service.</h2>
+					{parsedata folder=$data.theme cache=$data.cache content="STAFF"}              
+					{if 'desc'|array_key_exists:$content[0]}
+						{$content[0].desc}
+					{/if}
+
+					{if 'SubContents'|array_key_exists:$content[0]}
+						{section name=s loop=$content[0].SubContents}
+							<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+							{$content[0].SubContents[s].Description}
+						{/section}
+					{/if}
+			</div>
+		</div>
+		
+		<div class="content-item"> 
+			<div class="content-inner">
+				{* <div class="img fullwidth lazyloaded" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/residences/Malaiwana%20Penthouse%20-%20Spa.jpg"></div> *}
+				<div class="img">
+					<div class="img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/residences/thumb/Malaiwana%20Penthouse%20-%20Spa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/Malaiwana%20Penthouse%20-%20Spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/small/Malaiwana%20Penthouse%20-%20Spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/Malaiwana%20Penthouse%20-%20Spa.jpg 1920w" alt="Malaiwana Penthouse - Spa" class="lazyload" />
+				</div>
+					<h2 class="entry-title">Renew your soul</h2>
+					<p>Breathtaking views and a peaceful ambiance make the Residences at Malaiwana an ideal setting to enjoy a revitalising spa session.</p>
+			</div>
+		</div>
+
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'guest-reviews' && $data.url_lvl_3 eq ''}
+<div class="content-item {$contentClass}">
+		<div class="wrapper">                                
+			<div class="the-content">
+				<h2 class="entry-title">Reviews - The Residences</h2>
+				<div class="reviews-container">
+					{reviews order="d,c,n" villa_id="P00145,P00143"}
+					{$reviews}	
+				</div>
+				<div class="reviews-pagination">
+					{if $data.cur_page > 1}
+					<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+					{/if}
+					{section name=pg loop=$data.num_pages}
+					{if $data.cur_page == $smarty.section.pg.index+1}
+					<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+					{else}
+					<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+					{/if}
+					{/section}
+					{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+					<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					{/if}
+				</div>
+			 </div>
+		</div>
+	</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'floorplans' && $data.url_lvl_3 eq ''}
+<div class="content-item floorplan" id="floorplan">
+	<div class="wrapper">                                
+		<div class="the-content">
+			<h1 class="entry-title">Floorplans</h1>
+			<div class="tabs">
+				<ul>
+					<li><a href="#one">Penthouse</a></li>
+					<li><a href="#two">Duplex</a></li>
+					<li><a href="#estate">Malaiwana Estate</a></li>
+				</ul>
+				<div id="one">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Penthouse%20-%20floorplan.jpg" alt="Malaiwana - Floorplan - Penthouse" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Penthouse%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+				<div id="two">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Duplex%20residences%20-%20floorplan.jpg" alt="Malaiwana - Floorplan - Duplex" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Duplex%20residences%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+				<div id="estate">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Malaiwana%20Estate%20-%20Floorplan.jpg" alt="Malaiwana - Estate" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Malaiwana%20Estate%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div> 
+</div> 
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'naithon-phuket' && $data.url_lvl_3 eq ''}
+<div class="content-item odd the-locale" id="the-locale">   
+	<h2 class="entry-title">The Locale</h2>
+	<div class="content-inner">
+		<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Villa%20M%20-%20Amazing%20outlook.jpg"></div>
+			<div class="wrapper">
+				<div class="the-content"> 				
+					
+					{parsedata folder=$data.theme cache="P00145" content="LCTN"}
+					
+					{if 'desc'|array_key_exists:$content[0]}
+						{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+						{section name=s loop=$contentPart}
+						<p>{$contentPart[s]}</p>
+						{/section}
+
+					{/if}
+					<div class="clear"></div>
+					
+					
+					{if 'SubContents'|array_key_exists:$content[0]}
+						<h3>Distances</h3>
+						<dl class="distances">
+							{section name=s loop=$content[0].SubContents}
+								<dt>{$content[0].SubContents[s].Heading}</dt>
+								<dd>{$content[0].SubContents[s].Description}</dd>
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						</dl>
+					{/if}
+					
+				</div>
+			</div>
+	</div>
+</div>	
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'naithon-phuket' && $data.url_lvl_3 eq ''}
+<div class="content-item things-to-do" id="things-to-do">
+	<h2 class="entry-title">Things To do</h2>
+	<div class="content-inner">
+		<div class="img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/thumb/Malaiwana%20-%20Canoe.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20-%20Canoe.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/locale/small/Malaiwana%20-%20Canoe.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20-%20Canoe.jpg 1920w" alt="Malaiwana - Canoe" class="lazyload" />
+		</div>
+	</div>
+	<div class="the-content">		
+		<div class="wrapper">
+			
+			{parsedata folder=$data.theme cache="P00145" content="TTD"}
+			
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			<div class="clear"></div>			
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+				<h3>Distances</h3>
+				<ul>
+					{section name=s loop=$content[0].SubContents}
+						<h2>{$content[0].SubContents[s].Heading}</h2>
+						<li>{$content[0].SubContents[s].Description}</li>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				</ul>
+			{/if}		
+		</div>		
+	</div>
+	<div class="clear"></div>
+	<div class="content-inner">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/thumb/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/locale/small/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg 1920w" alt="Malaiwana - Things to do" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/thumb/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/locale/small/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg 1920w" alt="Malaiwana - Things to do" class="lazyload" />
+			</div>
+		</div>
+	</div>
+</div>
+{/if}
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'reservations' && $data.url_lvl_3 eq ''}
+ <div class="content-item {$contentClass}">
+	<div class="wrapper">                                
+		<div class="the-content">
+			<h2 class="entry-title">The Residences - Enquire</h2>
+			{include file="part-guarantee.html"}
+			{reservations complex="true" estate_villa_ids="P00145,P00143 "} 
+		 </div>
+	</div>
+</div>
+{/if}
+
+
+{if $data.url_lvl_1 == 'the-residences' && $data.url_lvl_2 == 'naithon-phuket' && $data.url_lvl_3 eq 'thanyapura'}
+<div class="content-item odd the-villas" id="the-villas">
+	<div class="content-item">
+		
+		<div class="wrapper">
+            <div class="the-content">	
+				<img data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Thunyapura - logo.jpg" alt="Thunyapura - logo" class="lazyload" />
+				<h1 class="entry-title">Thanyapura  Health  &  Sports  Resort </h1>    	        
+            </div>
+        </div>
+		
+		<div class="content-inner">
+			<div class="group middle">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Aerial%20Thanyapura.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Aerial%20Thanyapura.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Aerial%20Thanyapura.jpg 1920w" alt="Malaiwana - Aerial Thanyapura" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Garden%20wing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Garden%20wing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Garden%20wing.jpg 1920w" alt="Malaiwana - Garden wing" class="lazyload" />
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="group">
+				<div class="group-wrapper"> 
+					<div class="half lazyload">						
+						<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Garden%20wing%202.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Garden%20wing%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Garden%20wing%202.jpg 1920w" alt="Malaiwana - Garden wing" class="lazyload" />
+					</div>
+					<div class="half half-content">
+						<div class="des">
+							
+							{parsedata folder=$data.theme cache=$data.cache content="SCSPA"}             
+							{if 'desc'|array_key_exists:$content[0]}
+								{$content[0].desc}
+							{/if}
+
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="content-inner">
+			<div class="group middle">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Sport.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Sport.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Sport.jpg 1920w" alt="Malaiwana - Sport" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Thanyapura%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20pool.jpg 1920w" alt="Malaiwana - Thanyapura pool" class="lazyload" />
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="des-short">
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents}
+					
+						{if $smarty.section.s.index eq 0}
+							<h2 class="entry-title top30">{$content[0].SubContents[s].Heading}</h2>							
+							{contentpart content=$content[0].SubContents[s].Description strip=["<p>", "</p>"] explode="<br />"}
+							{section name=s loop=$contentPart}
+								{if $smarty.section.s.index eq 0}
+									<h3 class="entry-title">{$contentPart[s]}</h3>
+								{else}
+									{$contentPart[s]}
+								{/if}								
+							{/section}
+						{/if}
+						
+					{/section}
+				{/if}
+				
+			</div>							
+		</div>
+				
+		<div class="content-inner">
+			<div class="group middle">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Mud%20Wrap.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Mud%20Wrap.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Mud%20Wrap.jpg 1920w" alt="Malaiwana - Mud Wrap" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20yoga.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Thanyapura%20yoga.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20yoga.jpg 1920w" alt="Malaiwana - Thanyapura yoga" class="lazyload" />
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="group">
+				<div class="group-wrapper"> 
+					<div class="half lazyload">						
+						<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20ionic%20foot%20bath.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Thanyapura%20ionic%20foot%20bath.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20ionic%20foot%20bath.jpg 1920w" alt="Malaiwana - Thanyapura ionic foot bath" class="lazyload" />
+					</div>
+					<div class="half half-content">
+						<div class="des">
+							{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents}
+								
+									{if $smarty.section.s.index eq 1}
+										 <h2 class="entry-title">{$content[0].SubContents[s].Heading}</h2>
+										
+										 {contentpart content=$content[0].SubContents[s].Description strip=["<p>", "</p>"] explode="<br />"}
+											{section name=s loop=$contentPart}
+												{if $smarty.section.s.index eq 2}
+													<h3 class="entry-title">{$contentPart[s]}</h3>
+												{else}
+													<p>{$contentPart[s]}</p>
+												{/if}
+											
+											{/section}
+									{/if}
+									
+								{/section}
+							{/if}							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="content-item">
+			<div class="content-inner">				
+				<div class="img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/thumb/Malaiwana%20-%20Thanyapura.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20swimming%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/thanyapura/small/Malaiwana%20-%20Thanyapura%20swimming%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/thanyapura/Malaiwana%20-%20Thanyapura%20swimming%20pool.jpg 1920w" alt="Malaiwana - Thanyapura swimming pool" class="lazyload" />
+				</div>
+				<div class="des-short">
+					{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents}
+								
+									{if $smarty.section.s.index eq 2}
+										 <h2 class="entry-title top30">{$content[0].SubContents[s].Heading}</h2>
+										
+										 {contentpart content=$content[0].SubContents[s].Description strip=["<p>", "</p>"] explode="<br />"}
+											{section name=s loop=$contentPart}
+												{if $smarty.section.s.index eq 2}
+													<h3 class="entry-title">{$contentPart[s]}</h3>
+												{else}
+													<p>{$contentPart[s]}</p>
+												{/if}
+											
+											{/section}
+									{/if}
+									
+								{/section}
+							{/if}	
+				</div>
+			</div>
+		</div>
+		
+		<div class="content-item">
+			<div class="content-inner">	
+				<a href="https://www.thanyapura.com/" target="_blank" class="btn-default">More About Thanyapura</a>
+			</div>
+		</div>			
+		
+	</div>
+		
+
+</div>
+{/if}

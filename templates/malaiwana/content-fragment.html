@@ -1,0 +1,1635 @@
+{if $data.url_lvl_3|in_array:['explore-villa-haleana','explore-villa-rodnaya','explore-villa-m','explore-penthouse','explore-duplex'] || $data.page|in_array:['villa-layout']}
+	<div class="content-item villa-layout" id="villa-layout">
+		<h2 class="entry-title">Layout</h2>
+		{if $data.url_lvl_3|in_array:['explore-villa-haleana'] || $data.page|in_array:['villa-layout']}
+									
+				<div class="wrapper">                                
+					<div class="the-content">
+						
+							{parsedata folder=$data.theme cache="P00146" content="LYT"}
+							{$content[0].desc }
+
+							{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents[0]}
+									<h2>{$content[0].SubContents[s].Heading}</h2>
+									{$content[0].SubContents[s].Description}
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+							{/if}
+					</div>
+				</div>
+				<div class="content-item">
+					<div class="content-inner">
+						<div class="floorplan">
+							<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Villa%20Haleana%20-%20floorplan.jpg" alt="Malaiwana - Floorplan - Villa Haleana" class="lazyload" />
+							<a href="{$data.home_uri}/download.php?filename=Villa%20Haleana%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+						</div>
+					</div>
+				</div>					
+		
+		{/if}
+		
+		{if $data.url_lvl_3|in_array:['explore-villa-rodnaya'] || $data.page|in_array:['villa-layout']}			
+			
+			<div class="wrapper">                                
+				<div class="the-content">
+					
+						{parsedata folder=$data.theme cache="P00154" content="LYT"}
+						{$content[0].desc }
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+							{section name=s loop=$content[0].SubContents[0]}
+								<h2>{$content[0].SubContents[s].Heading}</h2>
+								{$content[0].SubContents[s].Description}
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						{/if}
+				</div>
+			</div>
+			<div class="content-item">
+				<div class="content-inner">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Villa%20Rodanaya%20-%20Floorplan.jpg" alt="Malaiwana - Floorplan - Villa Rodnaya" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Villa%20Rodanaya%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+			</div>					
+			
+		{/if}
+		
+		{if $data.url_lvl_3|in_array:['explore-villa-m'] || $data.page|in_array:['villa-layout']}
+			
+			<div class="wrapper">                                
+				<div class="the-content">
+					
+						{parsedata folder=$data.theme cache="P00181" content="LYT"}
+						{$content[0].desc }
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+							{section name=s loop=$content[0].SubContents[0]}
+								<h2>{$content[0].SubContents[s].Heading}</h2>
+								{$content[0].SubContents[s].Description}
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						{/if}
+				</div>
+			</div>
+			<div class="content-item">
+				<div class="content-inner">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Villa%20M%20-%20floorplan.jpg" alt="Malaiwana - Floorplan - Villa M" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Villa%20M%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+			</div>					
+			
+		{/if}
+			
+		{if $data.url_lvl_3|in_array:['explore-penthouse'] || $data.page|in_array:['villa-layout']}
+			
+			<div class="wrapper">                                
+				<div class="the-content">
+									
+						{parsedata folder=$data.theme cache="P00145" content="LYT"}
+						{$content[0].desc }
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+							{section name=s loop=$content[0].SubContents[0]}
+								<h2>{$content[0].SubContents[s].Heading}</h2>
+								{$content[0].SubContents[s].Description}
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						{/if}
+				</div>
+			</div>
+			<div class="content-item">
+				<div class="content-inner">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Penthouse%20-%20floorplan.jpg" alt="Malaiwana - Floorplan - Penthouse" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Penthouse%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+			</div>					
+			
+		{/if}
+		
+		{if $data.url_lvl_3|in_array:['explore-duplex'] || $data.page|in_array:['villa-layout']}
+			
+			<div class="wrapper">                                
+				<div class="the-content">
+										
+						{parsedata folder=$data.theme cache="P00143" content="LYT"}
+						{$content[0].desc }
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+							{section name=s loop=$content[0].SubContents[0]}
+								<h2>{$content[0].SubContents[s].Heading}</h2>
+								{$content[0].SubContents[s].Description}
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						{/if}
+				</div>
+			</div>
+			<div class="content-item">
+				<div class="content-inner">
+					<div class="floorplan">
+						<img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan/Duplex%20residences%20-%20floorplan.jpg" alt="Malaiwana - Floorplan - Duplex" class="lazyload" />
+						<a href="{$data.home_uri}/download.php?filename=Duplex%20residences%20-%20keyplan.jpg&path=resources/{$data.theme}/images/floorplan/" target="_blank">Download in high resolution</a>
+					</div>
+				</div>
+			</div>			
+		{/if}
+	</div>
+{/if}
+
+{if $data.url_lvl_3|in_array:['explore-villa-haleana','explore-villa-rodnaya','explore-villa-m','explore-penthouse','explore-duplex'] || $data.page|in_array:['living-areas']}
+
+<div class="content-item living-areas" id="living-areas">
+	<h2 class="entry-title">Living Areas</h2>			
+	{if $data.url_lvl_3|in_array:['explore-villa-haleana'] || $data.page|in_array:['living-areas']}
+						
+			<div class="content-item">
+				<div class="content-inner">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Villa%20Haleana%20-%20Living%20area%20outlook.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Living%20area%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Villa%20Haleana%20-%20Living%20area%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Living%20area%20outlook.jpg 1920w" alt="Villa Haleana - Living area outlook" class="lazyload" />
+				</div>
+			</div>	
+			
+			<div class="wrapper">                                
+				<div class="the-content">							
+						{parsedata folder=$data.theme cache="P00146" content="LVA"}
+						{$content[0].desc }
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+							{section name=s loop=$content[0].SubContents[0]}
+								<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+								{$content[0].SubContents[s].Description}
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						{/if}
+				</div>
+			</div>	
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['explore-villa-rodnaya'] || $data.page|in_array:['living-areas']}
+		
+			<div class="content-item">
+				<div class="content-inner">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20Villa%20R%20-%20Luxury%20awaits.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Luxury%20awaits.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20R%20-%20Luxury%20awaits.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Luxury%20awaits.jpg 1920w" alt="Malaiwana Villa R - Luxury awaits" class="lazyload" />
+				</div>
+			</div>	
+			
+			<div class="wrapper">                                
+				<div class="the-content">
+					
+						{parsedata folder=$data.theme cache="P00154" content="LVA"}
+						{$content[0].desc }
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+							{section name=s loop=$content[0].SubContents[0]}
+								<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+								{$content[0].SubContents[s].Description}
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						{/if}
+				</div>
+			</div>	
+	
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['explore-villa-m'] || $data.page|in_array:['living-areas']}
+		
+			<div class="content-item">
+				<div class="content-inner">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20Villa%20M%20-%20Glorious.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Glorious.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Glorious.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Glorious.jpg 1920w" alt="Malaiwana Villa M - Glorious" class="lazyload" />
+				</div>
+			</div>	
+			
+			<div class="wrapper">                                
+				<div class="the-content">
+					
+						{parsedata folder=$data.theme cache="P00181" content="LVA"}
+						{$content[0].desc }
+
+						{section name=s max=1 loop=$content[0].SubContents}
+							<h3>{$content[0].SubContents[s].Heading}</h3>
+							<p>{$content[0].SubContents[s].Description}</p>
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+				</div>
+			</div>	
+					
+			<div class="content-item">
+				<div class="content-inner">
+					<div class="group">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Spacious%20tv%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Spacious%20tv%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Spacious%20tv%20room.jpg 1920w" alt="Malaiwana Villa M - Spacious tv room" class="lazyload" />
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Living%20area%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Living%20area%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Living%20area%20outlook.jpg 1920w" alt="Malaiwana Villa M - Living area outlook" class="lazyload" />
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="group">
+						<div class="group-wrapper"> 
+							<div class="half lazyload">						
+								<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Luxury%20awaits.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Luxury%20awaits.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Luxury%20awaits.jpg 1920w" alt="Malaiwana Villa M - Luxury awaits" class="lazyload" />
+							</div>
+							<div class="half half-content">
+								<div class="des">
+									{section name=s start=1 max=2 loop=$content[0].SubContents}
+										<h3>{$content[0].SubContents[s].Heading}</h3>
+										<p>{$content[0].SubContents[s].Description}</p>
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+					
+	{/if}
+	
+	
+	{if $data.url_lvl_3|in_array:['explore-penthouse'] || $data.page|in_array:['living-areas']}
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20Penthouse%20-%20Indoor%20living.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Indoor%20living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Penthouse%20-%20Indoor%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Indoor%20living.jpg 1920w" alt="Malaiwana Penthouse - Indoor living" class="lazyload" />
+			</div>
+		</div>	
+		
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+					{parsedata folder=$data.theme cache="P00145" content="LVA"}
+					{$content[0].desc }
+
+					{if 'SubContents'|array_key_exists:$content[0]}
+						{section name=s loop=$content[0].SubContents[0]}
+							<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+							{$content[0].SubContents[s].Description}
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					{/if}
+			</div>
+		</div>	
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['explore-duplex'] || $data.page|in_array:['living-areas']}
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20Duplex%20-%20Outdoor%20living%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Outdoor%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Duplex%20-%20Outdoor%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Outdoor%20living%20area.jpg 1920w" alt="Malaiwana Duplex - Outdoor living area" class="lazyload" />
+			</div>
+		</div>	
+		
+		<div class="wrapper">                                
+			<div class="the-content">
+					
+					{parsedata folder=$data.theme cache="P00143" content="LVA"}
+					{$content[0].desc }
+
+					{if 'SubContents'|array_key_exists:$content[0]}
+						{section name=s loop=$content[0].SubContents[0]}
+							<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+							{$content[0].SubContents[s].Description}
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					{/if}
+			</div>
+		</div>
+	{/if}
+</div> 
+{/if}
+
+{if $data.url_lvl_3|in_array:['explore-villa-haleana','explore-villa-rodnaya','explore-villa-m','explore-penthouse','explore-duplex'] || $data.page|in_array:['bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+	<h2 class="entry-title">Bedrooms</h2>	
+	{if $data.url_lvl_3|in_array:['explore-villa-haleana'] || $data.page|in_array:['bedrooms']}
+	
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00146" content="BDR"}
+					{$content[0].desc }
+
+				
+					{section name=s max=1 loop=$content[0].SubContents}
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description}</p>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+			</div>
+		</div>	
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Villa%20Haleana%20-%20Guest%20bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Guest%20bedroom%20outlook.jpg 1920w" alt="Villa Haleana - Guest bedroom outlook" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Villa%20Haleana%20-%20Bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Bedroom%20outlook.jpg 1920w" alt="Villa Haleana - Bedroom outlook" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Exquisite%20ensuite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Villa%20Haleana%20-%20Exquisite%20ensuite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Villa%20Haleana%20-%20Exquisite%20ensuite.jpg 1920w" alt="Villa Haleana - Exquisite ensuite" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{section name=s start=1 max=2 loop=$content[0].SubContents}
+									<h3>{$content[0].SubContents[s].Heading}</h3>
+									<p>{$content[0].SubContents[s].Description}</p>
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['explore-villa-rodnaya'] || $data.page|in_array:['bedrooms']}
+	
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Suite%20stylish%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20R%20-%20Suite%20stylish%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Suite%20stylish%20design.jpg 1920w" alt="Malaiwana Villa R - Suite stylish design" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Bedroom%20ensuites.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20R%20-%20Bedroom%20ensuites.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Bedroom%20ensuites.jpg 1920w" alt="Malaiwana Villa R - Bedroom ensuites" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Bedroom%20design.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20R%20-%20Bedroom%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20R%20-%20Bedroom%20design.jpg 1920w" alt="Malaiwana Villa R - Bedroom design" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								
+								{parsedata folder=$data.theme cache="P00154" content="BDR"}
+								{$content[0].desc }
+								{section name=s loop=$content[0].SubContents}
+									<h3>{$content[0].SubContents[s].Heading}</h3>
+									<p>{$content[0].SubContents[s].Description}</p>
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+								{/section}											
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['explore-villa-m'] || $data.page|in_array:['bedrooms']}
+	
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00181" content="BDR"}
+					{$content[0].desc }
+
+				
+					{section name=s max=1 loop=$content[0].SubContents}
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description}</p>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+			</div>
+		</div>	
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Downstair%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Downstair%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Downstair%20master%20bedroom.jpg 1920w" alt="Malaiwana Villa M - Downstair master bedroom" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Upstair%20master%20bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Upstair%20master%20bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Upstair%20master%20bedroom%20outlook.jpg 1920w" alt="Malaiwana Villa M - Upstair master bedroom outlook" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Guest%20bedroom%20three.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/explore/small/Malaiwana%20Villa%20M%20-%20Guest%20bedroom%20three.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/explore/Malaiwana%20Villa%20M%20-%20Guest%20bedroom%20three.jpg 1920w" alt="Malaiwana Villa M - Guest bedroom three" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{section name=s start=1 max=2 loop=$content[0].SubContents}
+									<h3>{$content[0].SubContents[s].Heading}</h3>
+									<p>{$content[0].SubContents[s].Description}</p>
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	{/if}
+		
+	{if $data.url_lvl_3|in_array:['explore-penthouse'] || $data.page|in_array:['bedrooms']}
+
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00145" content="BDR"}
+					{$content[0].desc }
+					
+					{section name=s max=1 loop=$content[0].SubContents } 
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description}</p>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+			</div>
+		</div>	
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Master%20bedoom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Penthouse%20-%20Master%20bedoom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Master%20bedoom.jpg 1920w" alt="Malaiwana Penthouse - Master bedoom" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Master%20bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Penthouse%20-%20Master%20bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Master%20bedroom%20outlook.jpg 1920w" alt="Malaiwana Penthouse - Master bedroom outlook" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Bathroom%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Penthouse%20-%20Bathroom%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Penthouse%20-%20Bathroom%20style.jpg 1920w" alt="Malaiwana Penthouse - Bathroom style" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{section name=s start=1 max=2 loop=$content[0].SubContents}
+									<h3>{$content[0].SubContents[s].Heading}</h3>
+									<p>{$content[0].SubContents[s].Description}</p>
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['explore-duplex'] || $data.page|in_array:['bedrooms']}
+	
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00143" content="BDR"}
+					{$content[0].desc }
+
+				
+					{section name=s max=1 loop=$content[0].SubContents}
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description}</p>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+			</div>
+		</div>	
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Stunning%20bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Duplex%20-%20Stunning%20bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Stunning%20bedroom%20outlook.jpg 1920w" alt="Malaiwana Duplex - Stunning bedroom outlook" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Bedroom%20interior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Duplex%20-%20Bedroom%20interior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Bedroom%20interior.jpg 1920w" alt="Malaiwana Duplex - Bedroom interior" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Twin%20bedroom%20interior.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/explore/small/Malaiwana%20Duplex%20-%20Twin%20bedroom%20interior.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/explore/Malaiwana%20Duplex%20-%20Twin%20bedroom%20interior.jpg 1920w" alt="Malaiwana Duplex - Twin bedroom interior" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{section name=s start=1 max=2 loop=$content[0].SubContents}
+									<h3>{$content[0].SubContents[s].Heading}</h3>
+									<p>{$content[0].SubContents[s].Description}</p>
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	{/if}
+</div>
+{/if}
+
+{if $data.url_lvl_3|in_array:['experience-the-villa','penthouse-experience','duplex-experience'] || $data.page|in_array:['dining']}
+<div class="content-item dining" id="dining">
+	<h2 class="entry-title">Dining</h2>				
+	{if $data.url_lvl_2|in_array:['villa-haleana'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['dining']}
+				
+		<div class="wrapper">                                
+			<div class="the-content">							
+				{parsedata folder=$data.theme cache="P00146" content="DNNG"}								
+				 {if 'desc'|array_key_exists:$content[0]}
+						{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+						{section name=s start=0 max=2  loop=$contentPart}
+							 <p>{$contentPart[s]}</p>
+						{/section}	
+				 {/if}  								 
+			</div>
+		</div>
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6576.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/6576.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6576.jpg 1920w" alt="Villa Haleana - Guest bedroom outlook" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Villa%20-%20Appetizing%20dish.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20-%20Appetizing%20dish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20-%20Appetizing%20dish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana Villa - Appetizing dish.jpg 1920w" alt="Villa Haleana - Guest bedroom" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6671.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/6671.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6671.jpg 1920w" alt="Villa Haleana - Exquisite ensuite" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{if 'desc'|array_key_exists:$content[0]}
+								{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+								{section name=s start=2 loop=$contentPart}
+									 <p>{$contentPart[s]}</p>
+								{/section}	
+								 {/if}  
+								 
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h2>{$content[0].SubContents[s].Heading}</h2>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>					
+	
+	{/if}
+	
+	{if $data.url_lvl_2|in_array:['villa-rodnaya'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['dining']}
+
+		<div class="wrapper">                                
+			<div class="the-content">
+									
+					{parsedata folder=$data.theme cache="P00154" content="DNNG"}								
+					 {if 'desc'|array_key_exists:$content[0]}
+							{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+							{section name=s start=0 max=2  loop=$contentPart}
+								 <p>{$contentPart[s]}</p>
+							{/section}	
+					 {/if}  
+					 
+			</div>
+		</div>
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7674.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/7674.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7674.jpg 1920w" alt=" " class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7673.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/7673.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7673.jpg 1920w" alt=" " class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7671.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/7671.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7671.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{if 'desc'|array_key_exists:$content[0]}
+								{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+								{section name=s start=2 loop=$contentPart}
+									 <p>{$contentPart[s]}</p>
+								{/section}	
+								 {/if}  
+								 
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h2>{$content[0].SubContents[s].Heading}</h2>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>					
+
+	{/if}
+	
+	{if $data.url_lvl_2|in_array:['villa-m'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['dining']}
+	
+		<div class="wrapper">                                
+			<div class="the-content">
+									
+					{parsedata folder=$data.theme cache="P00181" content="DNNG"}								
+					 {if 'desc'|array_key_exists:$content[0]}
+							{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+							{section name=s start=0 max=2  loop=$contentPart}
+								 <p>{$contentPart[s]}</p>
+							{/section}	
+					 {/if}  
+					 
+			</div>
+		</div>
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/5804.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/5804.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/5804.jpg 1920w" alt=" " class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/5802.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/5802.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/5802.jpg 1920w" alt=" " class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Staff%20prep.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20M%20-%20Staff%20prep.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Staff%20prep.jpg 1920w" alt="Malaiwana Villa M - Staff prep" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{if 'desc'|array_key_exists:$content[0]}
+								{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+								{section name=s start=2 loop=$contentPart}
+									 <p>{$contentPart[s]}</p>
+								{/section}	
+								 {/if}  
+								 
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h2>{$content[0].SubContents[s].Heading}</h2>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>					
+
+	{/if}
+	
+	
+	{if $data.url_lvl_3|in_array:['penthouse-experience'] || $data.page|in_array:['dining']}
+			
+		<div class="wrapper">                                
+			<div class="the-content">
+						
+					{parsedata folder=$data.theme cache="P00145" content="DNNG"}								
+					 {if 'desc'|array_key_exists:$content[0]}
+							{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+							{section name=s start=0 max=2  loop=$contentPart}
+								 <p>{$contentPart[s]}</p>
+							{/section}	
+					 {/if}  
+					 
+			</div>
+		</div>
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/Malaiwana%20Penthouse%20-%20Outdoor%20entertaining.jpg 1920w" alt="Malaiwana Penthouse - Outdoor entertaining" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/4713.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/4713.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/4713.jpg 1920w" alt=" " class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/4716.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/4716.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/4716.jpg 1920w" alt="Penthouse - Exquisite ensuite" class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{if 'desc'|array_key_exists:$content[0]}
+								{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+								{section name=s start=2 loop=$contentPart}
+									 <p>{$contentPart[s]}</p>
+								{/section}	
+								 {/if}  
+								 
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h2>{$content[0].SubContents[s].Heading}</h2>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>					
+	
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['duplex-experience'] || $data.page|in_array:['dining']}
+				
+		<div class="wrapper">                                
+			<div class="the-content">
+					
+					{parsedata folder=$data.theme cache="P00143" content="DNNG"}								
+					 {if 'desc'|array_key_exists:$content[0]}
+							{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+							{section name=s start=0 max=2  loop=$contentPart}
+								 <p>{$contentPart[s]}</p>
+							{/section}	
+					 {/if}  
+					 
+			</div>
+		</div>
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/Malaiwana%20B%20-%20Breakfast%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/Malaiwana%20B%20-%20Breakfast%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/Malaiwana%20B%20-%20Breakfast%20style.jpg 1920w" alt="Malaiwana B - Breakfast style" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/Malaiwana%20Duplex%20-%20Food%20anytime.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/Malaiwana%20Duplex%20-%20Food%20anytime.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/Malaiwana%20Duplex%20-%20Food%20anytime.jpg 1920w" alt="Malaiwana Duplex - Food anytime" class="lazyload" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/3062.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/3062.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/3062.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+						<div class="half half-content">
+							<div class="des">
+								{if 'desc'|array_key_exists:$content[0]}
+								{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}									
+								{section name=s start=2 loop=$contentPart}
+									 <p>{$contentPart[s]}</p>
+								{/section}	
+								 {/if}  
+								 
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h2>{$content[0].SubContents[s].Heading}</h2>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>					
+	
+	{/if}
+</div>
+{/if}
+
+{if $data.url_lvl_3|in_array:['experience-the-villa','penthouse-experience','duplex-experience']  || $data.page|in_array:['families']}
+<div class="content-item families" id="families">
+		<h2 class="entry-title">Families</h2>		 
+	{if $data.url_lvl_2|in_array:['villa-haleana'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['families']}
+	
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana Villa - Cildren pool time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana Villa - Cildren pool time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana Villa - Cildren pool time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana Villa - Cildren pool time.jpg 1920w" alt="Malaiwana Villa - Cildren pool time" class="lazyload" />
+			</div>
+		</div>	
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half half-content">
+							<div class="des">
+								
+								{parsedata folder=$data.theme cache="P00146" content="FAM"}
+								{$content[0].desc }
+
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Villa%20-%20Kids%20friendly.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20-%20Kids%20friendly.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20-%20Kids%20friendly.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20-%20Kids%20friendly.jpg 1920w" alt="Malaiwana Villa - Kids friendly" class="lazyload" />
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Villa%20-%20Family%20fun.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20-%20Family%20fun.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20-%20Family%20fun.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20-%20Family%20fun.jpg 1920w" alt="Malaiwana Villa - Family fun" class="lazyload" />
+						</div>
+						
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>	
+	
+	{/if}
+	
+	{if $data.url_lvl_2|in_array:['villa-rodnaya'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['families']}
+
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Villa%20R%20-%20Kids%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20R%20-%20Kids%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20R%20-%20Kids%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20R%20-%20Kids%20room.jpg 1920w" alt="Malaiwana Villa R - Kids room" class="lazyload" />
+			</div>
+		</div>	
+		
+		<div class="wrapper padtopnull">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00154" content="FAM"}
+				{$content[0].desc }
+
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents[0]}
+						<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				{/if}
+			</div>
+		</div>
+	
+	{/if}
+	
+	{if $data.url_lvl_2|in_array:['villa-m'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['families']}
+	
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Villa%20R%20-%20Kids%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Games%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20M%20-%20Games%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Games%20room.jpg 1920w" alt="Malaiwana Villa M - Games room" class="lazyload" />
+			</div>
+		</div>	
+		
+		<div class="content-item">
+			<div class="content-inner">
+				<div class="group">
+					<div class="group-wrapper"> 
+						<div class="half half-content">
+							<div class="des">
+								
+								{parsedata folder=$data.theme cache="P00181" content="FAM"}
+								{$content[0].desc }
+
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+						
+						<div class="half lazyload">						
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/5803.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/5803.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/5803.jpg 1920w" alt=" " class="lazyload" />
+						</div>	
+					</div>
+				</div>							
+			</div>
+		</div>						
+
+	{/if}
+
+	 
+	{if $data.url_lvl_3|in_array:['penthouse-experience'] || $data.page|in_array:['families']}
+	
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/4711.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/4711.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/4711.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/4711.jpg 1920w" alt=" " class="lazyload" />
+			</div>
+		</div>	
+		
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00145" content="FAM"}
+				{$content[0].desc }
+
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents[0]}
+						<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				{/if}
+			</div>
+		</div>	
+
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['duplex-experience'] || $data.page|in_array:['families']}
+	
+		<div class="content-item">
+			<div class="content-inner">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/3065.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/3065.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/3065.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/3065.jpg 1920w" alt=" " class="lazyload" />
+			</div>
+		</div>	
+		
+		<div class="wrapper">                                
+			<div class="the-content">
+				
+				{parsedata folder=$data.theme cache="P00143" content="FAM"}
+				{$content[0].desc }
+
+				{if 'SubContents'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents[0]}
+						<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				{/if}
+			</div>
+		</div>
+	
+	{/if}	
+</div>	
+{/if}
+
+{if $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['gym']}
+
+	{if $data.url_lvl_2|in_array:['villa-rodnaya'] && $data.url_lvl_3|in_array:['experience-the-villa']}
+
+	{else}
+		<div class="content-item gym" id="gym">
+			<h2 class="entry-title">Gym</h2>
+			{if $data.url_lvl_2|in_array:['villa-haleana'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['gym']}
+				
+					<div class="content-item">
+						<div class="content-inner">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Estate%20-%20Exceptional%20facilities.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Estate%20-%20Exceptional%20facilities.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Estate%20-%20Exceptional%20facilities.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Estate%20-%20Exceptional%20facilities.jpg 1920w" alt="Malaiwana Estate - Exceptional facilities" class="lazyload" />
+						</div>
+					</div>	
+					<div class="wrapper">                                
+						<div class="the-content">
+							
+								{parsedata folder=$data.theme cache="P00146" content="GYM"}
+								{$content[0].desc }	
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if} 
+								 
+						</div>
+					</div>					
+			
+			{/if}
+				
+			
+			{if $data.url_lvl_2|in_array:['villa-m'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['gym']}
+				
+					<div class="content-item">
+						<div class="content-inner">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20Villa%20M%20-%20Gym.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Gym.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20M%20-%20Gym.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Gym.jpg 1920w" alt="Malaiwana Villa M - Gym" class="lazyload" />
+						</div>
+					</div>	
+					<div class="wrapper">                                
+						<div class="the-content">
+							
+								{parsedata folder=$data.theme cache="P00181" content="GYM"}
+								{$content[0].desc }	
+								{if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents[0]}
+										<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if} 
+								 
+						</div>
+					</div>					
+			
+			{/if}	
+				 
+		</div>
+	{/if}
+{/if}
+
+{if $data.url_lvl_3|in_array:['experience-the-villa','penthouse-experience','duplex-experience'] || $data.page|in_array:['spa']}
+<div class="content-item spa" id="spa">
+	<h2 class="entry-title">spa</h2>
+	{if $data.url_lvl_2|in_array:['villa-haleana'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['spa']}
+		
+			<div class="content-item">
+				<div class="content-inner">
+					 <div class="group">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6677.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/6677.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6677.jpg 1920w" alt="Villa Haleana - Guest bedroom outlook" class="lazyload" />
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Villa%20Haleana%20-%20Spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Villa%20Haleana%20-%20Spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Villa%20Haleana%20-%20Spa.jpg 1920w" alt="Villa Haleana - Spa" class="lazyload" />
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="group">
+						<div class="group-wrapper"> 
+							<div class="half lazyload">						
+								<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Haleana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Villa%20Haleana%20-%20Spa%20indulgence.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Villa%20Haleana%20-%20Spa%20indulgence.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Villa%20Haleana%20-%20Spa%20indulgence.jpg 1920w" alt="Villa Haleana- Spa indulgence" class="lazyload" />
+							</div>
+							<div class="half half-content">
+								<div class="des">
+									
+									{parsedata folder=$data.theme cache="P00146" content="SPA"}
+									{$content[0].desc }	
+									{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents[0]}
+											<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+											{$content[0].SubContents[s].Description}
+											{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+												<p>
+													<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+														<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+													</a>
+												</p>
+											{/if}
+										{/section}
+									{/if} 
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+	{/if}
+	
+	{if $data.url_lvl_2|in_array:['villa-rodnaya'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['spa']}
+		
+			<div class="content-item">
+				<div class="content-inner">
+					 <div class="group">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7672.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/7672.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7672.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6676.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/6676.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6676.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="group">
+						<div class="group-wrapper"> 
+							<div class="half lazyload">						
+								<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20Rodnaya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7675.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/7675.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/7675.jpg 1920w" alt=" " class="lazyload" />
+							</div>
+							<div class="half half-content">
+								<div class="des">
+									
+									{parsedata folder=$data.theme cache="P00154" content="SPA"}
+									{$content[0].desc }	
+									{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents[0]}
+											<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+											{$content[0].SubContents[s].Description}
+											{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+												<p>
+													<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+														<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+													</a>
+												</p>
+											{/if}
+										{/section}
+									{/if} 
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+	
+	{/if}
+	
+	{if $data.url_lvl_2|in_array:['villa-m'] && $data.url_lvl_3|in_array:['experience-the-villa'] || $data.page|in_array:['spa']}
+	
+			<div class="content-item">
+				<div class="content-inner">
+					 <div class="group">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Spa%20and%20massage%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20M%20-%20Spa%20and%20massage%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Spa%20and%20massage%20room.jpg 1920w" alt="Malaiwana Villa M - Spa and massage room" class="lazyload" />
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6676.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/6676.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/6676.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="group">
+						<div class="group-wrapper"> 
+							<div class="half lazyload">						
+								<img src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/thumb/Malaiwana%20-%20Villa%20M.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/the-villas/experience/small/Malaiwana%20Villa%20M%20-%20Spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/the-villas/experience/Malaiwana%20Villa%20M%20-%20Spa.jpg 1920w" alt="Malaiwana Villa M - Spa" class="lazyload" />
+							</div>
+							<div class="half half-content">
+								<div class="des">
+									
+									{parsedata folder=$data.theme cache="P00181" content="SPA"}
+									{$content[0].desc }	
+									{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents[0]}
+											<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+											{$content[0].SubContents[s].Description}
+											{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+												<p>
+													<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+														<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+													</a>
+												</p>
+											{/if}
+										{/section}
+									{/if} 
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+	{/if}
+		 	
+	
+	{if $data.url_lvl_3|in_array:['penthouse-experience'] || $data.page|in_array:['spa']}
+	
+			<div class="content-item">
+				<div class="content-inner">
+					 <div class="group">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/4715.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/4715.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/4715.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/4712.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/4712.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/4712.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="group">
+						<div class="group-wrapper"> 
+							<div class="half lazyload">						
+								<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Penthouse.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/4714.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/4714.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/4714.jpg 1920w" alt=" " class="lazyload" />
+							</div>
+							<div class="half half-content">
+								<div class="des">
+									
+									{parsedata folder=$data.theme cache="P00145" content="SPA"}
+									{$content[0].desc }	
+									{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents[0]}
+											<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+											{$content[0].SubContents[s].Description}
+											{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+												<p>
+													<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+														<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+													</a>
+												</p>
+											{/if}
+										{/section}
+									{/if} 
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+	{/if}
+	
+	{if $data.url_lvl_3|in_array:['duplex-experience'] || $data.page|in_array:['spa']}
+		
+			<div class="content-item">
+				<div class="content-inner">
+					 <div class="group">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/3063.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/3063.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/3063.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/3061.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/3061.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/3061.jpg 1920w" alt=" " class="lazyload" />
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="group">
+						<div class="group-wrapper"> 
+							<div class="half lazyload">						
+								<img src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/thumb/Malaiwana%20-%20Duplex.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/experience/3064.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/experience/small/3064.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/experience/3064.jpg 1920w" alt=" " class="lazyload" />
+							</div>
+							<div class="half half-content">
+								<div class="des">
+									
+									{parsedata folder=$data.theme cache="P00143" content="SPA"}
+									{$content[0].desc }	
+									{if 'SubContents'|array_key_exists:$content[0]}
+										{section name=s loop=$content[0].SubContents[0]}
+											<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+											{$content[0].SubContents[s].Description}
+											{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+												<p>
+													<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+														<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+													</a>
+												</p>
+											{/if}
+										{/section}
+									{/if} 
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+	{/if}
+</div>
+{/if}
+
+{if $data.page|in_array:['staff']}    
+<div class="content-item {$contentClass} explore">
+	<div class="wrapper">
+		<div class="the-content"> 	
+			{parsedata folder=$data.theme cache="P00145" content="STAFF"}
+			<h1 class="entry-title top35">Staff</h1>
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			<div class="clear"></div>
+			
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+				{section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					<p>{$content[0].SubContents[s].Description}</p>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+				
+			{/if}
+		</div>  
+	</div>  
+		
+</div>     
+{/if}
+
+{if $data.page|in_array:['the-locale']}
+<div class="content-item odd the-locale" id="the-locale">   
+
+	<div class="content-inner">
+		<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Villa%20M%20-%20Amazing%20outlook.jpg"></div>
+			<div class="wrapper">
+				<div class="the-content"> 				
+					
+					{parsedata folder=$data.theme cache="P00145" content="LCTN"}
+					<h2 class="entry-title top35">The Locale</h2>
+					{if 'desc'|array_key_exists:$content[0]}
+						{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+						{section name=s loop=$contentPart}
+						<p>{$contentPart[s]}</p>
+						{/section}
+
+					{/if}
+					<div class="clear"></div>
+					
+					
+					{if 'SubContents'|array_key_exists:$content[0]}
+						<h3>Distances</h3>
+						<dl class="distances">
+							{section name=s loop=$content[0].SubContents}
+								<dt>{$content[0].SubContents[s].Heading}</dt>
+								<dd>{$content[0].SubContents[s].Description}</dd>
+								{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+									<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}">
+											<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}" class="lazyload" />
+										</a>
+									</p>
+								{/if}
+							{/section}
+						</dl>
+					{/if}
+					
+				</div>
+			</div>
+	</div>
+</div>	
+{/if}
+
+{if $data.page|in_array:['tabanan-bali', 'things-to-do']}                   
+<div class="content-seo">
+	<div class="content-item things-to-do" id="things-to-do">	
+	<div class="the-content">		
+		<div class="wrapper">
+			
+			{parsedata folder=$data.theme cache="P00145" content="TTD"}
+			<h2 class="entry-title top35">Things To do</h2>
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			<div class="clear"></div>			
+			
+			{if 'SubContents'|array_key_exists:$content[0]}
+				<h3>Distances</h3>
+				<ul>
+					{section name=s loop=$content[0].SubContents}
+						<h2>{$content[0].SubContents[s].Heading}</h2>
+						<li>{$content[0].SubContents[s].Description}</li>
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/arsana':'{$data.cdn}/resources/arsana'}" class="lazyload" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				</ul>
+			{/if}		
+		</div>		
+	</div>
+	<div class="clear"></div>
+	<div class="content-inner">
+		<div class="group">
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/thumb/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/locale/small/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%201.jpg 1920w" alt="Malaiwana - Things to do" class="lazyload" />
+			</div>
+			<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/thumb/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/residences/locale/small/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/residences/locale/Malaiwana%20Residences%20-%20Things%20to%20do%202.jpg 1920w" alt="Malaiwana - Things to do" class="lazyload" />
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+{/if}

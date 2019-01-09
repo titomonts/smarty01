@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Beji</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>The Beji</villa_name>
+		<google_analytics>UA-124458239-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Canggu</sublocation>
+		<bedrooms>6</bedrooms>
+		<hrental_id>'Beji', 'Bali', 'Canggu', '6br'</hrental_id>
+		<ehgLocation>Bali, Canggu</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

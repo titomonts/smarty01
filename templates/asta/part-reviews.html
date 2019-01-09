@@ -1,0 +1,17 @@
+{if $data.page != 'guest-reviews'}
+{reviews hide_this_year="2010" order="d,c,n"}
+<div class="reviews-container"> 
+    <div class="reviews">
+        <div class="wrapper">
+            <div class="group">
+                <div class="content home-reviews">
+                    <h2 id="guestreview"><span>Guest Reviews</span></h2>
+                    {$reviews}
+                    
+                    <a href="/guest-reviews.html">See more reviews</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/if}

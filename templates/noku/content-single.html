@@ -1,0 +1,265 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=8}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower|replace:'/':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description|replace:['Noku']:['NoKu']}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half"> 
+            {section name=s start=8 loop=$content[0].SubContents}
+            {* if $smarty.section.s.index neq $smarty.section.s.last *}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|replace:'&':''|replace:'/':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description|replace:['Noku']:['NoKu']}
+            </div>
+            {* /if *}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House---Oneofmagazine.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House---Oneofmagazine.jpg" class="imgleft"></a>
+            “Beach front dream house”
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House---Oneofmagazine.pdf" target="_blank"><strong>oneofmagazine.com</strong>, published November 15th ,2018.</a>
+        </div>
+		
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House_Escape.com.au_November-2018.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House_Escape.com.au_November-2018.jpg" class="imgleft"></a>
+            “New hot spots off the beaten path.”
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House_Escape.com.au_November-2018.pdf" target="_blank"><strong>Escape.com.au</strong>, published November 11th, 2018.</a>
+        </div>
+        
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House_Pep.ph_November-2018.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House_Pep.ph_November-2018.jpg" class="imgleft"></a>
+            “Beach gateaway bridal shower at Noku Beach House.”
+            <a href="/resources/{$data.theme}/pdfs/2018/November/Noku-Beach-House_Pep.ph_November-2018.pdf" target="_blank"><strong>Pep.ph</strong>, published November 1st, 2018.</a>
+        </div>
+
+        <div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Ttgmice.com---Noku Beach House.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Ttgmice.com---Noku Beach House.jpg" class="imgleft"></a>
+			“Noku Beach House is the latest luxury villa to join Elite Havens’ repertoire.”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Ttgmice.com---Noku Beach House.pdf" target="_blank"><strong>Ttgmice.com</strong>, published September 13th, 2018.</a>
+		</div>
+		
+		<div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Hashtaglegend.com.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Hashtaglegend.com.jpg" class="imgleft"></a>
+			“Noku Beach House: The private 6-suite beachfront villa”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Hashtaglegend.com.pdf" target="_blank"><strong>Hashtaglegend.com</strong>, published September 11th, 2018 .</a>
+		</div>
+
+		<div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Delicious.com.au.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Delicious.com.au.jpg" class="imgleft"></a>
+			“Why this new Bali beach house is a design lover’s utopia.”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Delicious.com.au.pdf" target="_blank"><strong>Delicious.com.au</strong>, published September 10th 2018.</a>
+		</div>
+
+		<div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Melissahoyer.com.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Melissahoyer.com.jpg" class="imgleft"></a>
+			“Chic Bali Villa, Noku, opens on the beach in Seminyak”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Melissahoyer.com.pdf" target="_blank"><strong>Melissahoyer.com</strong>, published September 4th 2018.</a>
+		</div>
+		
+		<div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Destinasian.co.id.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Destinasian.co.id.jpg" class="imgleft"></a>
+			“Akomodasi eksklusif Noku beach house”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Destinasian.co.id.pdf" target="_blank"><strong>Destinasian.co.id</strong>, published September 03rd, 2018.</a>
+		</div>
+
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/September/The_Yak_Magazine---NOKU Beach House.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/The_Yak_Magazine---NOKU Beach House.jpg" class="imgleft"></a>
+            “A beach front estate fitting for our times.”
+            <a href="/resources/{$data.theme}/pdfs/2018/September/The_Yak_Magazine---NOKU Beach House.pdf" target="_blank"><strong>The Yak Magazine Vol 60</strong>, published September – November 2018.</a>
+        </div>
+
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/September/Expat_Living_Magazine---Noku_Beach_House.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Expat_Living_Magazine---Noku_Beach_House.jpg" class="imgleft"></a>
+            “Noku Beach House is the ultra-glam star of Seminyak’s exclusive beachfront.”
+            <a href="/resources/{$data.theme}/pdfs/2018/September/Expat_Living_Magazine---Noku_Beach_House.pdf" target="_blank"><strong>Expat Living Magazine</strong>, published September 2018.</a>
+        </div>
+		
+		<div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Livingfoodlab.com.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Livingfoodlab.com.jpg" class="imgleft"></a>
+			“Noku Beach House opening”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Livingfoodlab.com.pdf" target="_blank"><strong>Livingfoodlab.com</strong>, published August 2018 .</a>
+		</div>
+		
+		<div class="press-item">
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Travmedia.com.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Travmedia.com.jpg" class="imgleft"></a>
+			“Noku Beach House – Seminyak’s Only Private Beachfront Villa”
+			<a href="/resources/{$data.theme}/pdfs/2018/September/Noku-Beach-House---Travmedia.com.pdf" target="_blank"><strong>Travmedia.com</strong>, published August 28th, 2018.</a>
+		</div>
+
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/August/Luxuo.com_August-2018_Noku-Beach-House.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/August/Luxuo.com_August-2018_Noku-Beach-House.jpg" class="imgleft"></a>
+            “The newest addition to the land is Seminyak’s first and only private beachfront villa. ”
+            <a href="/resources/{$data.theme}/pdfs/2018/August/Luxuo.com_August-2018_Noku-Beach-House.pdf" target="_blank"><strong>Luxuo.com</strong>, published August 27, 2018.</a>
+        </div>
+
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/August/Peaklife.in_August-2018_Noku-Beach-House.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/August/Peaklife.in_August-2018_Noku-Beach-House.jpg" class="imgleft"></a>
+            “An uninterrupted ocean view, facing the sunset, is everyone’s dream destination. ”
+            <a href="/resources/{$data.theme}/pdfs/2018/August/Peaklife.in_August-2018_Noku-Beach-House.pdf" target="_blank"><strong>Peaklife.in</strong>, published August 2018.</a>
+        </div>
+
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/August/Globalspaonline.com_August-2018_Noku-Beach-House.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/August/Globalspaonline.com_August-2018_Noku-Beach-House.jpg" class="imgleft"></a>
+            “NoKu represents the peak of comfortable and sophisticated living. ”
+            <a href="/resources/{$data.theme}/pdfs/2018/August/Globalspaonline.com_August-2018_Noku-Beach-House.pdf" target="_blank"><strong>Globalspaonline.com</strong>, published August 2018.</a>
+        </div>
+
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/June/Noku-Beach-House---Drifttravel.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/June/Noku-Beach-House---Drifttravel.jpg" class="imgleft"></a>
+            “Opening in September 2018, NoKu Beach House will be Seminyak’s only private beachfront villa. ”
+			<a href="/resources/{$data.theme}/pdfs/2018/June/Noku-Beach-House---Drifttravel.pdf" target="_blank"><strong>Drifttravel.com</strong>, published June 2018.</a>
+        </div>
+		
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/June/Noke-Beach-House---Awayinstyle.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/June/Noke-Beach-House---Awayinstyle.jpg" class="imgleft"></a>
+            “Welcome to NoKu Beach House, the only luxury villa with absolute beachfront in all of Seminyak.”
+			<a href="/resources/{$data.theme}/pdfs/2018/June/Noke-Beach-House---Awayinstyle.pdf" target="_blank"><strong>Awayinstyle.com</strong>, published June 2018.</a>
+        </div>
+		
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2018/June/Noku-Beach-House---Eglobaltravelmedia.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2018/June/Noku-Beach-House---Eglobaltravelmedia.jpg" class="imgleft"></a>
+            “NoKu Beach House is the only luxury beachfront villa in Seminyak, represents the peak of comfortable and sophisticated living.”
+			<a href="/resources/{$data.theme}/pdfs/2018/June/Noku-Beach-House---Eglobaltravelmedia.pdf" target="_blank"><strong>Eglobaltravelmedia.com</strong>, published May 2018.</a>
+        </div>
+        
+        <div class="press-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}        
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}        
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+        </div>
+    </div>
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+		
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews hide_this_year="2010,2011,2012,2013,2014" order="c,n,d"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-noku-beach-house' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+{elseif $data.page|in_array:['subscribed']}
+	<div class="subscribed">	
+		<p>Thank you. <br>	Insider info on Bali’s best, absolute beachfront villa will be coming your way soon.</p>
+	</div>
+	
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

@@ -1,0 +1,75 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Relax poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1920w" alt="Villa Shinta Dewi - Relax poolside" class="lazyload" />        
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Pool view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Pool%20view.jpg 1920w" alt="Villa Shinta Dewi - Pool view" class="lazyload" />         
+        </div>
+        <div id="slide-3">        
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Waterfall.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Waterfall.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Waterfall.jpg 1920w" alt="Villa Shinta Dewi - Waterfall" class="lazyload" />
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-shinta-dewi-seminyak'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Waterfall.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Waterfall.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Waterfall.jpg 1920w" alt="Villa Shinta Dewi - Waterfall" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Pool view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Pool%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Pool%20view.jpg 1920w" alt="Villa Shinta Dewi - Pool view" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - The pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20The%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20The%20pool.jpg 1920w" alt="Villa Shinta Dewi - The pool" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {elseif $data.page == 'floorplan'}
+        
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Multiple living spaces.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Multiple%20living%20spaces.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Multiple%20living%20spaces.jpg 1920w" alt="Villa Shinta Dewi - Multiple living spaces" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Water feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Water%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Water%20feature.jpg 1920w" alt="Villa Shinta Dewi - Water feature" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Dining.jpg 1920w" alt="Villa Shinta Dewi - Dining" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Entertainment room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Entertainment%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Entertainment%20room.jpg 1920w" alt="Villa Shinta Dewi - Entertainment room" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Jacuzzi ensuite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Jacuzzi%20ensuite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Jacuzzi%20ensuite.jpg 1920w" alt="Villa Shinta Dewi - Jacuzzi ensuite" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi- Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi-%20Weddings.jpg 1920w" alt="Villa Shinta Dewi - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Open living spaces.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Open%20living%20spaces.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Open%20living%20spaces.jpg 1920w" alt="Villa Shinta Dewi - Open living spaces" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Open living spaces.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Open%20living%20spaces.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Open%20living%20spaces.jpg 1920w" alt="Villa Shinta Dewi - Open living spaces" class="lazyload" />    
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Frangipani suite detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Frangipani%20suite%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Frangipani%20suite%20detail.jpg 1920w" alt="Villa Shinta Dewi - Frangipani suite detail" class="lazyload" />  
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Relaxation spaces.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Relaxation%20spaces.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Relaxation%20spaces.jpg 1920w" alt="Villa Shinta Dewi - Relaxation spaces" class="lazyload" />       
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Relax poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1920w" alt="Villa Shinta Dewi - Relax poolside" class="lazyload" /> 
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Relax poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1920w" alt="Villa Shinta Dewi - Relax poolside" class="lazyload" /> 
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Shinta Dewi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Shinta Dewi - Relax poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Relax%20poolside.jpg 1920w" alt="Villa Shinta Dewi - Relax poolside" class="lazyload" />  
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

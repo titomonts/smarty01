@@ -1,0 +1,53 @@
+{include file="header.html"}
+<body class="page-id-12 page-child parent-pageid-6 page-template page-template-page-living page-template-page-living-php">
+{$gtm}		
+	<div id="container">
+	{include file="menu.html"}
+	
+	{include file="banner.html"}
+
+	<div class="clear"></div>	
+	<div class="wrapper">
+	<div class="contentwrap_liv">
+		
+		<div class="btn-wrap">
+			{include file="book-now.html"}
+			<div class="clear"></div>
+		</div>		
+
+		<div id="liv_leftpics">
+			<img class="left_image1" src="/resources/tamansorga/content/living-left-pic.jpg" alt="Living areas" />
+		</div>
+
+		<div class="content_liv">
+			<div class="maincol_liv">
+				<h1 class="entry-title">{#HEADING_LIVING_AREAS#}</h1>
+				{if 'desc'|array_key_exists:$content[0]}
+                	{$content[0].desc}
+                {/if}
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h3>{$content[0].SubContents[s].Heading}</h3>
+                        <p>{$content[0].SubContents[s].Description}</p>
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl}" rel="gallery" class="pirobox_gall">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl}" border="0" width="238" height="158" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+                {/if}
+			</div>
+			<!-- /maincol -->
+		</div>
+		<!-- /content -->
+		<div class="clear"></div>
+	</div>
+	<!-- /contentwrap -->
+	</div>
+	<div class="clear"></div>
+	
+	{include file="next-prev.html"}
+
+	{include file="footer.html"}

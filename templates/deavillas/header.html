@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+	<meta charset="UTF-8" />
+    <title>
+    {if $data.title != ''}
+        {$data.title} | {#TITLE_HOME#}
+    {else}
+        {#TITLE_HOME#}
+    {/if}
+    </title>
+    <link rel="stylesheet" type="text/css" media="all" href="/resources/deavillas/style.css" />
+    <link rel="shortcut icon" href="/resources/deavillas/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="/resources/common/css/datepicker/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/common/css/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    <link rel="stylesheet" id="flex-style-css"  href="/resources/common/css/flexslider.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/resources/deavillas/css/wow_book.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/resources/deavillas/css/preview.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css' />
+    
+	{$ga}
+
+
+    <link rel='stylesheet' id='foobox-min-css'  href='/resources/common/fooboxV2/css/foobox.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='photospace-styles-css'  href='/resources/common/photospace/gallery.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='accplus-css'  href='/resources/common/accordions-plus/accordions-plus.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='NextGEN-css'  href='/resources/common/nextgen-gallery/css/nggallery.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='shutter-css'  href='/resources/common/nextgen-gallery/shutter/shutter-reloaded.css' type='text/css' media='screen' />
+    <script type='text/javascript' src='/resources/common/js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='/resources/common/photospace/jquery.galleriffic.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/ui/widget.min.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/ui/core.min.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/ui/mouse.min.js'></script>
+    <script type='text/javascript' src='/resources/common/accordions-plus/js/accplus-includes.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/ui/sortable.min.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/ui/resizable.min.js'></script>
+    <script type='text/javascript' src='/resources/common/js/jquery/ui/draggable.min.js'></script>
+    <script type='text/javascript' src='/resources/common/accordions-plus/js/accplus-core.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _idq_vars = [];
+if ( typeof jQuery.idQrk == "object" ) jQuery.idQrk.hacc.overrides = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='/resources/common/accordions-plus/js/accplus-addons.js?ver=0.5'></script>
+<script type='text/javascript' src='/resources/common/js/swfobject.js'></script>
+{literal}
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+{/literal}
+<script type='text/javascript' src='/resources/common/nextgen-gallery/shutter/shutter-reloaded.js'></script>
+<script type='text/javascript' src='/resources/common/nextgen-gallery/js/jquery.cycle.all.min.js'></script>
+<script type='text/javascript' src='/resources/common/nextgen-gallery/js/ngg.slideshow.min.js'></script>
+<script type='text/javascript' src='/resources/common/fooboxV2/js/foobox.min.js'></script>
+{literal}
+<script type="text/javascript" charset="utf-8">
+	(function(){
+		try {
+			// Disabling SWFObject's Autohide feature
+			if (typeof swfobject.switchOffAutoHideShow === "function") {
+				swfobject.switchOffAutoHideShow();
+			}
+		} catch(e) {}
+	})();
+</script>
+
+<script type="text/javascript">/* Run FooBox (v2.3.1.1) */
+(function( FOOBOX, $, undefined ) {
+  FOOBOX.o = {wordpress: { enabled: true }, deeplinking : { enabled: true, prefix: "foobox" }, hideScrollbars:false, showCount:false, captions: { overrideTitle:true, titleSource:'image_alt', overrideDesc:true, descSource:'anchor' }, excludes:'.fbx-link,.nofoobox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }, slideshow: { enabled:false }, social: { enabled: true, excludes: ['iframe','html'], position: 'fbx-below', links: [ { css: 'fbx-facebook', title: 'Facebook', url: 'http://www.facebook.com/sharer.php?u={url}'  }, { css: 'fbx-twitter', title: 'Twitter', url: 'https://twitter.com/share?url={url}&text={title}'  }, { css: 'fbx-pinterest', title: 'Pinterest', url: 'https://pinterest.com/pin/create/bookmarklet/?media={img!}&url={url}&is_video={is_video}&description={title}'  } ] }, modalClass: "fbx-spinner-5"};
+  FOOBOX.init = function() {
+    $(".fbx-link").removeClass("fbx-link");
+    $(".ngg-galleryoverview, .ngg-widget").foobox(FOOBOX.o);
+    $(".gallery").foobox(FOOBOX.o);
+    $(".foobox, [target=\"foobox\"]").foobox(FOOBOX.o);
+
+  };
+}( window.FOOBOX = window.FOOBOX || {}, jQuery ));
+
+jQuery(function() {
+  //preload the foobox font
+  jQuery("body").append("<span style=\"font-family:'foobox'; color:transparent; position:absolute; top:-1000em;\">f</span>");
+  FOOBOX.init();
+  jQuery(document).trigger("foobox-after-init");
+
+});
+</script><!-- <meta name="NextGEN" version="1.9.10" /> -->
+<!-- PanoPress [1.1] -->
+<script type="text/javascript">
+pp_oppp=false;
+pb_options={"fullscreen":true,"fade":true,"animate":true,"style":"light","shadow":true,"PB_SETTINGS_BG_OPACITY":0.6,"resize":1};
+</script>
+<script type="text/javascript"  src="/resources/common/panopress/js/panopress.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/resources/common/panopress/css/panopress.css" />	
+<!-- /PanoPress -->
+<!--	photospace [ START ] --> 
+<style type="text/css">
+			.photospace .thumnail_col a.pageLink {
+				width:50px;
+				height:50px;
+			}
+			.photospace .gal_content,
+				.photospace .loader,
+				.photospace .slideshow a.advance-link{
+					width:400px;
+				}
+			.photospace{
+					width:600px;
+				}
+			.photospace{
+					height:500px;
+				}
+			.photospace ul.thumbs li {
+					margin-bottom:10px !important;
+					margin-right:10px !important; 
+				}
+			.photospace .loader {
+					height: 250px;
+				}
+			.photospace .loader {
+					width: 400px;
+				}
+			.photospace .slideshow a.advance-link,
+				.photospace .slideshow span.image-wrapper {
+					height:500px;
+				}
+			.photospace .slideshow-container {
+					height:500px;
+				}
+		</style><!--	photospace [ END ] --> 
+<script>var $ = jQuery.noConflict();</script>
+{/literal}	
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js?ver=4.2.5'></script>
+</head>

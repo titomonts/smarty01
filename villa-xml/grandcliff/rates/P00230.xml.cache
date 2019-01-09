@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00230" countryid="ID">
+  <GenInclusions><![CDATA[<span style="font-weight: bold;">This villa comes with every conceivable luxury – and then some.</span><br />Enjoy the exclusive use of the whole villa, its private swimming pool and unlimited WiFi and the flawless service of its team of staff, including a personal chef, villa manager, butlers, housekeepers and security.<br />]]></GenInclusions>
+  <Promotions>
+  </Promotions>
+  <Discounts>
+  </Discounts>
+  <DiscountSummary>
+  </DiscountSummary>
+  <Rooms>
+    <Room roomid="" bedrooms="" maxoccupancy="" maxadult="" maxchild="">
+      <RoomName>
+      </RoomName>
+      <Rates>
+        <StandardRate ratenameid="">
+          <RateName>
+          </RateName>
+          <MarketingDesc>
+          </MarketingDesc>
+          <Periods>
+            <Period year="">
+              <SDate>
+              </SDate>
+              <EDate>
+              </EDate>
+              <PublishedRate>
+              </PublishedRate>
+              <DisplayRate is_sctaxincluded="N">
+              </DisplayRate>
+              <NRate>
+              </NRate>
+              <LS14DiscountedRate>
+              </LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="">
+              </LSMinDiscountedRate>
+              <TaxRate ratetype="">
+              </TaxRate>
+              <SCRate ratetype="">
+              </SCRate>
+              <TotalExtraChargesPercentage>
+              </TotalExtraChargesPercentage>
+              <MinDayStay>
+              </MinDayStay>
+              <Inclusions>
+              </Inclusions>
+              <CancellationCondition>
+              </CancellationCondition>
+              <Season seasonid="">
+              </Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+          <Package ratenameid="">
+            <RateName>
+            </RateName>
+            <MarketingDesc>
+            </MarketingDesc>
+            <Periods>
+              <Period year="">
+                <SDate>
+                </SDate>
+                <EDate>
+                </EDate>
+                <PublishedRate>
+                </PublishedRate>
+                <DisplayRate is_sctaxincluded="N">
+                </DisplayRate>
+                <NRate>
+                </NRate>
+                <LS14DiscountedRate>
+                </LS14DiscountedRate>
+                <LSMinDiscountedRate requirednights="">
+                </LSMinDiscountedRate>
+                <TaxRate ratetype="">
+                </TaxRate>
+                <SCRate ratetype="">
+                </SCRate>
+                <TotalExtraChargesPercentage>
+                </TotalExtraChargesPercentage>
+                <MinDayStay>
+                </MinDayStay>
+                <Inclusions>
+                </Inclusions>
+                <CancellationCondition>
+                </CancellationCondition>
+                <Season seasonid="">
+                </Season>
+              </Period>
+            </Periods>
+          </Package>
+        </PackageRates>
+      </Rates>
+    </Room>
+  </Rooms>
+  <Packages>
+  </Packages>
+</Villa>

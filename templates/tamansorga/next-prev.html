@@ -1,0 +1,57 @@
+<div class="prev_next_wrapper">
+    <ul id="next_prev_page">
+    	{if $data.page == 'about-villa-tamansorga'}
+            <li class="prev_page"><a href="{$data.home_uri}"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="about-villa-tamansorga" child="villa-layout"}"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {else if $data.page == 'villa-layout'}
+            <li class="prev_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="about-villa-tamansorga"}"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="about-villa-tamansorga" child="bedrooms"}"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'bedrooms'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/about-villa-tamansorga/villa-layout.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/about-villa-tamansorga/living-areas.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'living-areas'}
+            <li class="prev_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="about-villa-tamansorga" child="bedrooms"}"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+    		<li class="next_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="photo-gallery"}"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'floorplan'}
+            <li class="prev_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="photo-gallery"}"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+    		<li class="next_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="photo-gallery" child="virtual-tour"}"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'quick-facts'}
+            <li class="prev_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="photo-gallery" child="virtual-tour"}"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+    		<li class="next_page"><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="quick-facts" child="dining"}"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li> 
+        {elseif $data.page == 'press'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/guest-reviews.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/rates.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'availability-calendar'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/rates.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/reservations.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'dining'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/quick-facts.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/quick-facts/staff.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'families'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/quick-facts/staff.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/quick-facts/spa.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'guest-reviews'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/the-locale/things-to-do.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/guest-reviews/press.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'links'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/sitemap.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"></li>
+        {elseif $data.page == 'sitemap'}
+            <li class="prev_page"></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/links.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'spa'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/quick-facts/families.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/the-locale.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'staff'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/quick-facts/dining.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/quick-facts/families.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'the-locale'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/quick-facts/spa.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/the-locale/things-to-do.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {elseif $data.page == 'things-to-do'}
+            <li class="prev_page"><a href="http://www.tamansorga.com/the-locale.html"><img src="/resources/tamansorga/images/prev-arrow.png"></a></li>
+            <li class="next_page"><a href="http://www.tamansorga.com/guest-reviews.html"><img src="/resources/tamansorga/images/nex-arrow.png"></a></li>
+        {/if}
+        <li class="clear"></li>
+    </ul>
+</div>

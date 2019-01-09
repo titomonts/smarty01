@@ -1,0 +1,8 @@
+
+var gkey='AIzaSyCnwT0s5r_NZ4Sb8Mc5AYkqcmZq5vAgIwM';var dir='/resources/yaringa';var lat=8.26963820;var long=98.27791600;var infocontent='Villa Yaringa';var redirectURL='/natai-beach-phuket.html';var markerWidth=63;var markerHeight=81;var markerXanchor=31.5;var markerYanchor=81;
+
+function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+if(!window.HTMLPictureElement||!('sizes'in document.createElement('img'))){loadJS("/resources/{$data.theme}/lazysizes/ls.respimg.min.js");}
+
+WebFontConfig={google:{families:['Slabo+27px','Lato:300,400,400i,700']}};(function(){var wf=document.createElement('script');wf.src=('https:'==document.location.protocol?'https':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';wf.type='text/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(wf,s);var loadDeferredStyles=function(){var addStylesNode=document.getElementById("deferred-styles");var replacement=document.createElement("div");replacement.innerHTML=addStylesNode.textContent;document.body.appendChild(replacement)
+addStylesNode.parentElement.removeChild(addStylesNode);};var raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;if(raf)raf(function(){window.setTimeout(loadDeferredStyles,0);});else window.addEventListener('load',loadDeferredStyles);})();

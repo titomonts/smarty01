@@ -1,0 +1,83 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Pool%20and%20garden%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Pool%20and%20garden%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Pool%20and%20garden%20area.jpg 1920w" alt="Casabrio - Casa Brio - Pool and garden area" class="lazyload" />            
+        </div>
+		
+		<div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Seminyak%20experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Seminyak%20experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Seminyak%20experience.jpg 1920w" alt="Casa Brio - Seminyak experience" class="lazyload" />            
+        </div>
+		
+		<div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Poolside%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20relaxation.jpg 1920w" alt="Casa Brio - Poolside relaxation" class="lazyload" />            
+        </div>
+		
+		<div id="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Villa%20entrance.jpg 1920w" alt="Casa Brio - Villa entrance" class="lazyload" />            
+        </div>
+		
+	</div>
+    {else}
+    <div class="hero">
+    
+       {if $data.page == 'about-casa-brio'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Pool%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Pool%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Pool%20features.jpg 1920w" alt="Casa Brio - Pool features" class="lazyload" />
+
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Poolside%20dining%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20dining%20table.jpg 1920w" alt="Casa Brio - Poolside dining table" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Media%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Media%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Media%20room.jpg 1920w" alt="Casa Brio - Media room" class="lazyload" />
+
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Bathtub%20flowers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Bathtub%20flowers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Bathtub%20flowers.jpg 1920w" alt="Casa Brio - Bathtub flowers" class="lazyload" />
+
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20bale%20breakfast%20prep.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Poolside%20bale%20breakfast%20prep.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20bale%20breakfast%20prep.jpg 1920w" alt="Casa Brio - Poolside bale breakfast prep" class="lazyload" />
+
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Seminyak%20experience.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Seminyak%20experience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Seminyak%20experience.jpg 1920w" alt="Casa Brio - Seminyak experience" class="lazyload" />            
+
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20relaxation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Poolside%20relaxation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20relaxation.jpg 1920w" alt="Casa Brio - Poolside relaxation" class="lazyload" />            
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Villa%20entrance.jpg 1920w" alt="Casa Brio - Villa entrance" class="lazyload" />            
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/CasaBrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Upstairs%20living%20space.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Upstairs%20living%20space.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Upstairs%20living%20space.jpg 1920w" alt="Casa Brio - Upstairs living space" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20View%20from%20the%20poolside%20bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20View%20from%20the%20poolside%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20bale.jpg 1920w" alt="Casa Brio - View from the poolside bale" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20View%20from%20the%20poolside%20bale.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20View%20from%20the%20poolside%20bale.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20bale.jpg 1920w" alt="Casa Brio - View from the poolside bale" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/CasaBrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Living%20area%20overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Living%20area%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Living%20area%20overview.jpg 1920w" alt="Casa Brio - Living area overview" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Master%20bathroom%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Master%20bathroom%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Master%20bathroom%201.jpg 1920w" alt="Casa Brio - Master bathroom 1" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20dining%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Poolside%20dining%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Poolside%20dining%20view.jpg 1920w" alt="Casa Brio - Poolside dining view" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Dining%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Dining%20table.jpg 1920w" alt="Casa Brio - Dining table" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Master%20bathroom%201.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Master%20bathroom%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Master%20bathroom%201.jpg 1920w" alt="Casa Brio - Master bathroom 1" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/CasaBrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Living%20area%20overview.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Living%20area%20overview.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Living%20area%20overview.jpg 1920w" alt="Casa Brio - Living area overview" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Casabrio.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Pool%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Casa%20Brio%20-%20Pool%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Casa%20Brio%20-%20Pool%20features.jpg 1920w" alt="Casa Brio - Pool features" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

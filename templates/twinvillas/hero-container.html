@@ -1,0 +1,98 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20North%20Villa%20-%20Living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20North%20Villa%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20North%20Villa%20-%20Living%20area.jpg 1920w" alt="Twin Villas Natai - Pool perfection" class="lazyload" />  
+            <div class="caption"><small></small></div>
+        </div>
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Poolside%20bliss.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Poolside%20bliss.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Poolside%20bliss.jpg 1920w" alt="Twin Villas Natai - The villa" class="lazyload" />  
+            <div class="caption"><small></small></div>           
+        </div>
+        <div id="slide-3">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Dedicated%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Dedicated%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Dedicated%20staff.jpg 1920w" alt="Twin Villas Natai - Dedicated staff" class="lazyload" />  
+            <div class="caption"><small></small></div>           
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-twin-villas-natai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Outstanding%20villa%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Outstanding%20villa%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Outstanding%20villa%20setting.jpg 1920w" alt="Twin Villas Natai - Outstanding villa setting" class="lazyload" />  
+        
+		{elseif $data.page == 'villa-north'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Exceptional%20service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Exceptional%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Exceptional%20service.jpg 1920w" alt="Twin Villas Natai - Exceptional service" class="lazyload" />  
+		
+		{elseif $data.page == 'villa-south'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Private%20chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Private%20chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Private%20chef.jpg 1920w" alt="Twin Villas Natai - Private chef" class="lazyload" />  
+		
+        {elseif $data.page eq 'explore-the-villa' and $data.origin eq 'about-twin-villas-natai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Poolside.jpg 1920w" alt="Twin Villas Natai - Poolside" class="lazyload" />
+        
+        {elseif $data.page eq 'quick-facts' and $data.origin eq 'about-twin-villas-natai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Open living spaces.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Open%20living%20spaces.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Open%20living%20spaces.jpg 1920w" alt="Twin Villas Natai - Open living spaces" class="lazyload" />
+    
+        {elseif $data.page == 'about-twin-villas-natai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa South - Luxurious living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Luxurious%20living.jpg 1920w" alt="Villa South - Luxurious living" class="lazyload" />
+        
+        {elseif $data.page eq 'explore-the-villa' and $data.origin eq 'about-twin-villas-natai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Pool perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1920w" alt="Twin Villas Natai - Pool perfection" class="lazyload" />
+        
+        {elseif $data.page eq 'quick-facts' and $data.origin eq 'about-twin-villas-natai'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa South - Tranquility.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20Tranquility.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20Tranquility.jpg 1920w" alt="Villa South - Tranquility" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Dining.jpg 1920w" alt="Twin Villas Natai - Dining" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+                
+        {elseif $data.page == 'natai-beach-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - White sand beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20White%20sand%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20White%20sand%20beach.jpg 1920w" alt="Twin Villas Natai - White sand beach" class="lazyload" />
+                
+        {elseif $data.page == 'ubud-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa South - At the pool edge.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20Ubud%20-%20At%20the%20pool%20edge.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20Ubud%20-%20At%20the%20pool%20edge.jpg 1920w" alt="Villa South - At the pool edge" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Fish%20pond%20near%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Fish%20pond%20near%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Fish%20pond%20near%20bedroom.jpg 1920w" alt="Twin Villas Natai - Fish pond near bedroom" class="lazyload" />
+        
+		
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Attentive%20service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Attentive%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Attentive%20service.jpg 1920w" alt="Twin Villas Natai - Attentive service" class="lazyload" />
+        
+		 
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Intimate%20living%20space.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Intimate%20living%20space.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Intimate%20living%20space.jpg 1920w" alt="Twin Villas Natai - Intimate living space" class="lazyload" />
+       		
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Begin%20your%20rejuvenation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Begin%20your%20rejuvenation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Begin%20your%20rejuvenation.jpg 1920w" alt="Twin Villas Natai - Begin your rejuvenation" class="lazyload" />
+       
+		 
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Forever%20starts%20here.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Forever%20starts%20here.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Forever%20starts%20here.jpg 1920w" alt="Twin Villas Natai - Forever starts here" class="lazyload" />
+
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Luxurious living.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Shinta%20Dewi%20-%20Luxurious%20living.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Shinta%20Dewi%20-%20Luxurious%20living.jpg 1920w" alt="Twin Villas Natai - Luxurious living" class="lazyload" />    
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Aesthetically%20pleasing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Aesthetically%20pleasing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Aesthetically%20pleasing.jpg 1920w" alt="Twin Villas Natai - Aesthetically pleasing" class="lazyload" />  
+       		
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Fun%20with%20bicycle.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Fun%20with%20bicycle.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Fun%20with%20bicycle.jpg 1920w" alt="Twin Villas Natai - Fun with bicycle" class="lazyload" />  
+		
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Pool perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1920w" alt="Twin Villas Natai - Pool perfection" class="lazyload" />  
+		
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Pool perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1920w" alt="Twin Villas Natai - Pool perfection" class="lazyload" />  
+		
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Twin Villas Natai.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Twin Villas Natai - Pool perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Twin%20Villas%20Natai%20-%20Pool%20perfection.jpg 1920w" alt="Twin Villas Natai - Pool perfection" class="lazyload" />  
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

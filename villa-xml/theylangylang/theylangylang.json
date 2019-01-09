@@ -1,0 +1,218 @@
+[
+	{
+		"page_title":"",
+		"label":"Welcome to The Ylang Ylang",
+		"page_header":"Welcome to The Ylang Ylang",
+		"template":"home.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"",
+		"body_class":"home"
+	},
+	{
+		"page_title":"About the Villa",
+		"label":"About the Villa",
+		"page_header":"About The Ylang Ylang",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+		"page_identifier":"about-the-ylang-ylang",
+		"children":[
+					{
+						"page_title":"About The Ylang Ylang",
+						"label":"About The Ylang Ylang",
+						"page_header":"About The Ylang Ylang",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"page_identifier":"about-the-ylang-ylang",
+						"level":"top",
+						"body_class":"about"
+					},
+					{
+						"page_title":"Explore the Villa",
+						"label":"Explore the Villa",
+						"page_header":"Explore the Villa",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"explore-the-villa",
+						"level":"sub",
+						"parent":"about-the-ylang-ylang",
+						"body_class":"explore"
+					},
+					{
+						"page_title":"Quick Facts",
+						"label":"Quick Facts",
+						"page_header":"Quick Facts",
+						"template":"page-template.html",
+						"content_id":"QF",
+						"page_identifier":"quick-facts",
+						"level":"sub",
+						"parent":"about-the-ylang-ylang",
+						"body_class":"quick-facts"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"home"
+	},
+	{
+		"page_title":"Photo Gallery",
+		"label":"Photo Gallery",
+		"page_header":"Photo Gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+					{
+						"page_title":"Photo Gallery",
+						"label":"Photo Gallery",
+						"page_header":"Photo Gallery",
+						"template":"photo-gallery.html",
+						"content_id":"",
+						"page_identifier":"photo-gallery",
+						"level":"top",
+						"body_class":"gallery"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"photo-gallery",
+						"body_class":"floorplan"
+					}
+		],
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"gallery"
+	},
+	{
+		"page_title":"Ketewel Bali Experience",
+		"label":"Experience",
+		"page_header":"Experience the Villa",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"ketewel-bali",
+		"children":[
+						{
+							"page_title":"Ketewel Bali Experience",
+							"label":"Ketewel Experience",
+							"page_header":"Experience the Villa",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"ketewel-bali",
+							"level":"top",
+							"body_class":"experience"
+						},
+						{
+							"page_title":"Villa Experience",
+							"label":"Experience the villa",
+							"page_header":"Experience The Villa",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"villa-experience",
+							"level":"top",
+							"body_class":"experience"
+						},
+						{
+							"page_title":"Guest Experience",
+							"label":"Guest Reviews",
+							"page_header":"Guest Reviews",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"guest-reviews",
+							"level":"top",
+							"body_class":"guest-experience"
+						}
+					],
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"explore"
+	},
+	{
+		"page_title":"Weddings",		
+		"label":"Weddings",
+		"page_header":"Weddings",
+		"template":"page-template.html",
+		"content_id":"EVT",
+		"page_identifier":"weddings",
+		"menu_location":"main",
+		"menu_position":"left",
+		"body_class":"weddings"
+	},
+	{
+		"page_title":"Rates and Availability",
+		"label":"Rates &amp; Availability",
+		"page_header":"Rates &amp; Availability",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"rates"
+	},
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"menu_position":"right",
+		"body_class":"reservations"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":"",
+		"body_class":"general-enquiries"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer",
+		"body_class":"links"
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer",
+		"body_class":"sitemap"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":"",
+		"body_class":"contact-sent"
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":"",
+		"body_class":"reservation-sent"
+	}
+]
+		

@@ -1,0 +1,147 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['press']}
+
+    <div class="press-container">
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/#.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/#.jpg" class="imgleft"></a>
+            <span>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium assumenda vitae cumque illo atque qui soluta, repudiandae, illum. Iure, recusandae asperiores saepe assumenda eligendi optio ratione, soluta beatae consequuntur. Eaque.” <a href="/resources/{$data.theme}/pdfs/#.pdf" target="_blank"><strong>Publisher</strong>, Date.</a></span>
+        </div>
+	</div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+	
+{elseif $data.page|in_array:['guest-reviews']}
+	
+	
+		<div class="reviews-container">
+			{reviews order="d,c,n" villa_id="P00223,P00222,P00221"}
+			{$reviews}	
+		</div>
+		<div class="reviews-pagination">
+				{if $data.cur_page > 1}
+				<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+				{/if}
+				{section name=pg loop=$data.num_pages}
+				{if $data.cur_page == $smarty.section.pg.index+1}
+				<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+				{else}
+				<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+				{/if}
+				{/section}
+				{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+				<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				{/if}
+			</div>		
+	
+
+{elseif $data.page|in_array:['connecting-villas']}
+   
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sed quibusdam ab ipsa fugit quas rem sapiente facilis porro magni at odit eaque doloribus dicta vel pariatur quae, cum magnam.</p>
+    
+{elseif $data.page|in_array:['rates']}
+     
+    <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#rates-north">North Villa</a></li>
+            <li><a href="#rates-south">South Villa</a></li>
+            <li><a href="#rates-estate">Twin Villas Natai</a></li>
+        </ul>
+        <div id="rates-north">
+            {rates vid="P00221" folder=$data.theme}
+        </div>
+        <div id="rates-south">
+            {rates vid="P00222" folder=$data.theme}
+        </div>
+		<div id="rates-estate">
+            {rates vid="P00223" folder=$data.theme}
+        </div>
+    </div>
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-twin-villas-natai' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

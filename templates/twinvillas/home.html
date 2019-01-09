@@ -1,0 +1,105 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item section-one">  
+                    <div class="wrapper">
+                        <div class="the-content"> 							
+                            <h1 class="entry-title">{$data.heading}</h1>
+                          
+                            
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {$content[0].desc}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item section-two">                    
+                    <div class="wrapper">                        
+                        <ul class="poi">
+                            <li id="poi-1">
+                                <a href="/spa.html">
+    								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - Begin your rejuvenation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - Begin your rejuvenation.jpg" alt="Twin Villas Natai - Begin your rejuvenation" class="lazyload" />
+    								<span><strong>Al fresco</strong> Massage sala</span>
+                                </a>
+                            </li>
+                            <li id="poi-2" class="middle">
+                                <a href="/about-twin-villas-natai.html">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - Spacious ocean view bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - Spacious ocean view bedroom.jpg" alt="Twin Villas Natai - Spacious ocean view bedroom" class="lazyload" />
+                                    <span><strong>Up to 10</strong> luxurious bedrooms</span>                                    
+                                </a>
+                            </li>
+                            <li id="poi-3">
+                                <a href="/families.html">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - The lawn.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - The lawn.jpg" alt="Twin Villas Natai - The lawn" class="lazyload" />
+                                    <span><strong>Large lawn</strong> garden activities</span>
+                                </a>
+                            </li>
+                            <li id="poi-4">
+                                <a href="/dining.html">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - Private chef.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - Private chef.jpg" alt="Twin Villas Natai - Private chef" class="lazyload" />
+                                    <span><strong>Private chef</strong> professionally trained</span>
+                                </a>
+                            </li>		
+                            <li id="poi-5" class="middle">
+                                <a href="/natai-beach-phuket.html">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - Tropical sanctuary.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - Tropical sanctuary.jpg" alt="Twin Villas Natai - Tropical sanctuary" class="lazyload" />
+                                    <span><strong>Watersports</strong> on private beach</span>
+                                </a>
+                            </li>		
+                            <li id="poi-6">
+                                <a href="/rates.html">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - Poolside bliss.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - Poolside bliss.jpg" alt="Twin Villas Natai - Poolside bliss" class="lazyload" />
+                                    <span><strong>Beachfront</strong> and private pool</span>
+                                </a>
+                            </li>										
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-item section-three">  
+                    <div class="img">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Twin Villas Natai - In-villa activity.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Twin Villas Natai - In-villa activity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Twin%20Villas%20Natai%20-%20In-villa%20activity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Twin%20Villas%20Natai%20-%20In-villa%20activity.jpg 1920w" alt="Twin Villas Natai - In-villa activity" class="lazyload" />
+                    </div>                  
+                    <div class="wrapper">
+                        <h2>Twin Villas Natai.</h2>
+                        <p>Select a villa or combine to make up to ten bedrooms.</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-twin-villas-natai', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'seminyak-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>           
+{include file="footer.html"}

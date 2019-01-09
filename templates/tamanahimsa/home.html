@@ -1,0 +1,108 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+                        <div class="group">
+                            <div class="half">
+                                <h1 class="entry-title">{$data.heading}</h1>
+                                {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+                                    {section name=s loop=$contentPart}
+                                    <p>{$contentPart[s]}</p>
+                                    {/section}
+
+                                {/if}
+
+                                {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                                    {$content[0].SubContents[s].Description}
+                                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                        <p>
+                                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                            </a>
+                                        </p>
+                                    {/if}
+                                    {/section}
+                                {/if}
+                            </div>
+                            <div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Poolside%20beachfront.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Poolside%20beachfront.jpg" alt="Taman Ahimsa - Poolside beachfront" class="lazyload" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="collage group">
+                        <div class="half">
+                            <div class="first-col">
+                                <a href="about.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Entrance%20living%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Entrance%20living%20room.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Taman%20Ahimsa%20-%20Entrance%20living%20room.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Entrance%20living%20room.jpg 632w" alt="Taman Ahimsa - Entrance living room" class="lazyload" />
+                                    <span>About <em>find yourself in the midst of the exotic and ancient</em></span>
+                                </a>
+                            </div>
+                            <div class="second-col">
+                                <div class="first-row">
+                                    <a href="villa-experience.html#staff" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Staff']);">
+                                        <div class="overlay"></div>
+                                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Staff_1.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Staff_1.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Taman%20Ahimsa%20-%20Staff_1.jpg 375w, {$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Staff_1.jpg 750w" alt="Taman Ahimsa - Staff" class="lazyload" />
+                                        <span>Staff <em>personal service provided by a dedicated team of professional staff</em></span>
+                                    </a>
+                                </div>
+                                <div class="second-row">
+                                    <a href="villa-experience.html#dining" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Dining']);">
+                                        <div class="overlay"></div>
+                                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Kitchen.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Kitchen.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Taman%20Ahimsa%20-%20Kitchen.jpg 375w, {$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Kitchen.jpg 750w" alt="Taman Ahimsa - Kitchen" class="lazyload" />
+                                        <span>Dining <em>private chef to prepare extraordinary cuisines from around the world</em></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="half">
+                            <div class="first-row">
+                                <a href="cemagi-bali.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - The Locale']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg 700w, {$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Beachfront%20massage%20bale.jpg 1400w" alt="Taman Ahimsa - Beachfront massage bale" class="lazyload" />
+                                    <span>Location <em>Step from the poolside decking directly onto the beach</em></span>
+                                </a>
+                            </div>
+                            <div class="second-row">
+                                <div class="first-col">
+                                    <a href="villa-experience.html#families" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Families']);">
+                                        <div class="overlay"></div>
+                                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Upstairs%20media%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Upstairs%20media%20room.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Taman%20Ahimsa%20-%20Upstairs%20media%20room.jpg 345w, {$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Upstairs%20media%20room.jpg 690w" alt="Taman Ahimsa - Upstairs media room" class="lazyload" />
+                                        <span>Families <em>Taman Ahimsa makes a magical playground for kids</em></span>
+                                    </a>
+                                </div>
+                                <div class="second-col">
+                                    <a href="explore-the-villa.html#bedrooms" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Bedrooms']);">
+                                        <div class="overlay"></div>
+                                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Taman%20Ahimsa%20-%20Bedroom%20Anahata.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Bedroom%20Anahata.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Taman%20Ahimsa%20-%20Bedroom%20Anahata.jpg 345w, {$data.cdn}/resources/{$data.theme}/content/home/Taman%20Ahimsa%20-%20Bedroom%20Anahata.jpg 690w" alt="Taman Ahimsa - Bedroom Anahata" class="lazyload" />
+                                        <span>7 bedrooms <em>each named after a different Hindu chakra</em></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons-container">                
+            {include file="part-buttons.html"}
+        </div>
+            
+{include file="footer.html"}

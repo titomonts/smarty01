@@ -1,0 +1,17 @@
+<div id="slideshow" class="container_12 clearfix">
+    <div class="grid_12">
+       <div class="headerimg">
+            {if $data.page == 'availability-calendar'}
+                <img src="/page_headers/{$data.villa_id}/availability.jpg" data-src="/page_headers/{$data.villa_id}/availability.jpg" data-sizes="auto" data-srcset="/page_headers/{$data.villa_id}/availability.jpg 1400w, /page_headers/{$data.villa_id}/availability.jpg 1920w" alt="{$data.site_title}" class="lazyload" />
+            {elseif $data.page == 'gallery'}
+                <img src="/resources/tamanahimsa/headers/thumb/Taman%20Ahimsa.jpg" data-src="/resources/tamanahimsa/headers/Taman%20Ahimsa%20-%20Upstairs%20living%20balcony.jpg" data-sizes="auto" data-srcset="/resources/tamanahimsa/headers/small/Taman%20Ahimsa%20-%20Upstairs%20living%20balcony.jpg 1400w, /resources/tamanahimsa/headers/Taman%20Ahimsa%20-%20Upstairs%20living%20balcony.jpg 1920w" alt="Taman Ahimsa - Upstairs living balcony" class="lazyload" />
+            {elseif $data.page == 'rates'}
+                <img src="/page_headers/{$data.villa_id}/rates.jpg" data-src="/page_headers/{$data.villa_id}/rates.jpg" data-sizes="auto" data-srcset="/page_headers/{$data.villa_id}/rates.jpg 1400w, /page_headers/{$data.villa_id}/rates.jpg 1920w" alt="{$data.site_title}" class="lazyload" />
+            {elseif $data.page == 'reservations' || $data.page == 'reservation-sent'}
+                <img src="/page_headers/{$data.villa_id}/Contact-us.jpg" data-src="/page_headers/{$data.villa_id}/Contact-us.jpg" data-sizes="auto" data-srcset="/page_headers/{$data.villa_id}/Contact-us.jpg 1400w, /page_headers/{$data.villa_id}/Contact-us.jpg 1920w" alt="{$data.site_title}" class="lazyload" />
+            {else}
+                
+            {/if}   
+		</div>
+    </div>
+</div>

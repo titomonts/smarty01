@@ -1,0 +1,133 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content intro"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+                                {section name=s loop=$contentPart}
+                                <p>{$contentPart[s]|replace:'<br />':''}</p>
+                                {/section}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                    </div>
+                </div> 
+				
+                <div class="content-item">
+					<div class="group">
+						<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Classical%20blue%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Classical%20blue%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Classical%20blue%20style.jpg 1920w" alt="Villa Kayajiwa - Classical blue style" class="lazyload" /></div>
+						<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Wonderful%20shower.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Wonderful%20shower.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Wonderful%20shower.jpg 1920w" alt="Villa Kayajiwa - Wonderful shower" class="lazyload" /></div>
+					</div>
+					<div class="clear"></div>
+					<div class="wrapper">
+						<h2 class="entry-title">Attention to detail, <small>tailored to perfection.</small></h2>
+						<p>
+							{parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								{section name=s start=0 max=2 loop=$contentPart}
+								  {$contentPart[s]}. 
+								{/section}
+						</p>
+						<a href="/about-villa-kayajiwa.html" class="btn-default">Explore</a>
+					</div>
+				</div>
+				
+				<div class="content-item">
+					<div class="clear"></div>
+					<div class="groups">
+							<div class="img">
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Dive%20into%20new%20culture.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Dive%20into%20new%20culture.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Dive%20into%20new%20culture.jpg 1920w" alt="Villa Kayajiwa - Dive into new culture" class="lazyload" />
+							</div>
+							<div class="img">
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Balinese%20touch.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Balinese%20touch.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Balinese%20touch.jpg 1920w" alt="Villa%20Kayajiwa%20-%20Balinese%20touch" class="lazyload" />
+							</div>
+							<div class="img">
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Amazing%20art.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Amazing%20art.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Amazing%20art.jpg 1920w" alt="Villa Kayajiwa - Amazing art" class="lazyload" />
+							</div>
+					</div>
+					<div class="clear"></div>
+					<div class="wrapper">
+						<h2 class="entry-title">Touch of art, <small>expand your horizon.</small></h2>
+                        <p>The villa’s architecture can best be described as contemporary chic. Its volcanic stone cladding and sharp lines give it a minimalist feel and make it very ‘Instagrammable’. The interior design reflects the owner’s desire to fuse Balinese art with splashes of colourful South East Asian influences. This results in lovely warm spaces which ooze style and ‘feng shui’ but without ever being over the top.</p>
+					</div>
+				</div>
+				
+                <div class="content-item">
+                    <div class="group group-wrapper">
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Valuable%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Valuable%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Valuable%20staff.jpg 1920w" alt="Villa Kayajiwa - Valuable staff" class="lazyload" />
+							<div class="wrapper">
+								<h2 class="entry-title">Personalised service, <small>provided by dedicated staff.</small></h2>
+								<p>
+								{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								{section name=s start=0 max=2 loop=$contentPart}
+								  {$contentPart[s]}. 
+								{/section}
+								</p>
+								<a href="/staff.html" class="btn-default">Explore</a>
+							</div>
+						</div>
+						<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Kayajiwa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Communicative%20smile.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Kayajiwa%20-%20Communicative%20smile.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Kayajiwa%20-%20Communicative%20smile.jpg 1920w" alt="Villa Kayajiwa - Communicative smile" class="lazyload" />
+							<div class="wrapper">
+								<h2 class="entry-title">Exquisite cuisine, <small>prepared espesically for you.</small></h2>
+								<p>
+								{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+								{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+								{section name=s start=0 max=2 loop=$contentPart}
+								  {$contentPart[s]}. 
+								{/section}
+								</p>
+								<a href="/dining.html" class="btn-default">Explore</a>
+							</div>
+						</div>
+					</div>
+                </div> 
+                
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-kayajiwa', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

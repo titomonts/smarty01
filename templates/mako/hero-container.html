@@ -1,0 +1,73 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Villa garden and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1920w" alt="Villa Mako - Villa garden and pool feature" class="lazyload" />
+        </div> 
+        <div class="item">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Villa garden and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1920w" alt="Villa Mako - Villa garden and pool feature" class="lazyload" />
+        </div> 
+	</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-mako'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Garden path.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Garden%20path.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Garden%20path.jpg 1920w" alt="Villa Mako - Garden path" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Pool and garden feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Pool%20and%20garden%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Pool%20and%20garden%20feature.jpg 1920w" alt="Villa Mako - Pool and garden feature" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Pool and garden feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Pool%20and%20garden%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Pool%20and%20garden%20feature.jpg 1920w" alt="Villa Mako - Pool and garden feature" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Pool scenery.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Pool%20scenery.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Pool%20scenery.jpg 1920w" alt="Villa Mako - Pool scenery" class="lazyload" />
+		
+        {elseif $data.page == 'floorplan'}
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Weddings.jpg 1920w" alt="Villa Mako - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Rice field.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Rice%20field.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Rice%20field.jpg 1920w" alt="Villa Mako - Rice field" class="lazyload" />
+              		
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Attentive staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Attentive%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Attentive%20staff.jpg 1920w" alt="Villa Mako - Attentive staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Chef dish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Chef%20dish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Chef%20dish.jpg 1920w" alt="Villa Mako - Chef dish" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Chill living room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Chill%20living%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Chill%20living%20room.jpg 1920w" alt="Villa Mako - Chill living room" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Ensuite bathtub.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Ensuite%20bathtub.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Ensuite%20bathtub.jpg 1920w" alt="Villa Mako - Ensuite bathtub" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Bale view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Bale%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Bale%20view.jpg 1920w" alt="Villa Mako - Bale view" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Bale view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Bale%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Bale%20view.jpg 1920w" alt="Villa Mako - Bale view" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Chill on the balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Chill%20on%20the%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Chill%20on%20the%20balcony.jpg 1920w" alt="Villa Mako - Chill on the balcony" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Swimming pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Swimming%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Swimming%20pool.jpg 1920w" alt="Villa Mako - Swimming pool" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Villa garden and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1920w" alt="Villa Mako - Villa garden and pool feature" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Villa garden and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1920w" alt="Villa Mako - Villa garden and pool feature" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Mako.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mako - Villa garden and pool feature.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mako%20-%20Villa%20garden%20and%20pool%20feature.jpg 1920w" alt="Villa Mako - Villa garden and pool feature" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

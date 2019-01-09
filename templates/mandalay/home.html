@@ -1,0 +1,122 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mandalay - Pool bale with paddyfield views.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+							<ul class="poi">
+								<li id="poi-1">10 minutes<br> to Canggu</li>
+								<li id="poi-2">7 ensuite<br> bedrooms</li>
+								<li id="poi-3">Rice field<br> views</li>
+								<li id="poi-4">Perfect<br> for weddings</li>								
+							</ul>
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc explode="."}
+                                <p>{$contentPart[0]}.</p>
+                                <p>
+                                {section name=s start=1 loop=$contentPart}
+                                {if ! $smarty.section.s.last}
+                                {$contentPart[s]}.
+                                {/if}
+                                {/section} 
+                                </p>
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+		
+		 <div class="content-container">
+            <div class="content">
+				<div class="group">
+				
+					<div class="content-item">  
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Fully staffed including butlers and your own personal chef.</h2>
+								<p>One of the greatest advantages of staying in a villa is the personalised service provided by dedicated staff. Villa Mandalay’s staff have been professionally trained and will do their utmost to please with their warm and friendly Balinese hospitality.</p>
+								<div><a href="/staff.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Staff']);">Read more</a></div>								
+							</div>
+						</div>
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mandalay - Pool bale with a view.jpg"></div>
+					</div>
+					
+					<div class="content-item">  
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mandalay - Putting green at the end of the garden.jpg"></div>
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Huge gardens including private pitch and putt golf course.</h2>
+								<p>Villa Mandalay is a great villa for families with children, who will love the lawns and gardens, swimming pool and chance to play golf. Those with toddlers will need to be vigilant, due to numerous fishponds and water features.</p>
+								<div><a href="/families.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Families']);">Read more</a></div>								
+							</div>
+						</div>						
+					</div>					
+					
+					<div class="content-item">  
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Exquisite 25m infinity pool, suspended over the rice fields.</h2>
+								<p>Steps lead down from the living room to the 25-metre swimming pool tiled in green stone and surrounded by sun loungers shaded by stylish parasols.</p>
+								<div><a href="/about-villa-mandalay/quick-facts.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Quick Facts']);">Read more</a></div>			
+							</div>
+						</div>
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mandalay - Pool.jpg"></div>
+					</div>
+					
+					<div class="content-item">  
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Mandalay - Sauna.jpg"></div>
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Open-air massage bale and in-villa sauna for ultimate relaxation.</h2>
+								<p>Villa Mandalay has its own Finnish-style sauna for guests to enjoy, and what could be better than to follow an invigorating, stress-relieving sauna session with a body scrub or massage? </p>
+								<div><a href="/spa.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Spa']);">Read more</a></div>								
+							</div>
+						</div>						
+					</div>	
+					
+				</div>				
+			</div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-mandalay', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'seseh-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

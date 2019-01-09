@@ -1,0 +1,25 @@
+{assign var=head_bodymap value='<div class="map-container">
+	<div class="map" id="map_div"></div>'}
+	
+	{if $data.origin|in_array:['grand-cliff-ungasan']}
+		{$head_bodymap}
+		<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/villas/Grand Cliff Nusa Dua - Beautiful view.jpg">
+			<a href="{$data.home_uri}/grand-cliff-nusa-dua.html">EXPLORE GRAND CLIFF NUSA DUA</a>
+		</div>
+		</div>
+	{elseif $data.origin|in_array:['grand-cliff-nusa-dua']}
+		{$head_bodymap}
+		<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/villas/Grand Cliff Front Residence - Ocean view from the pool.jpg">			
+			<a href="{$data.home_uri}/grand-cliff-ungasan.html">EXPLORE GRAND CLIFF UNGASAN</a>
+		</div>
+		</div>
+	{else} 
+	{/if} 
+				
+	
+	
+	
+	
+
+
+		

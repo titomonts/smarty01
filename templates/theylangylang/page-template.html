@@ -1,0 +1,167 @@
+{include file="header.html"}
+{assign var=bodeh_class value=''}
+{section name=p loop=$pages}
+    {if $data.page == $pages[p].page_identifier}
+    	{assign var=bodeh_class value=$pages[p].body_class}
+    {/if}
+    {if 'children'|array_key_exists:$pages[p]}
+    	{section name=sp loop=$pages[p].children}
+            {if $data.page == $pages[p].children[sp].page_identifier}
+                {assign var=bodeh_class value=$pages[p].children[sp].body_class}
+            {/if}
+        {/section}
+    {/if}
+{/section}
+{if $data.page|in_array:['cemagi-bali','ketewel-bali','explore-the-villa','villa-experience']}
+    <div class="{$bodeh_class}"> 
+	{include file="content-fragment.html"}
+    </div> 
+{else}
+<div class="{$bodeh_class}"> 
+    <div class="content-container">
+        <div class="content">
+            <div class="content-item odd">
+                <div class="wrapper">
+                {if $data.page|in_array:['about-the-ylang-ylang']}
+                    <h1 class="entry-title">{#ABOUT_HEADER#}</h1>
+                {elseif $data.page|in_array:['rates']}
+                    <h1 class="entry-title">{#RATES_HEADER#}</h1>
+                {else}
+                    <h1 class="entry-title">{$data.heading}</h1>
+                {/if}   
+                    {if $data.page == 'guest-reviews'}
+                        <div class="reviews-container">
+                        {reviews}
+                        {$reviews}
+                        </div>
+                        <div class="reviews-pagination">
+                        {if $data.cur_page > 1}
+                        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                        {/if}
+                        {section name=pg loop=$data.num_pages}
+                        {if $data.cur_page == $smarty.section.pg.index+1}
+                        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+                        {else}
+                        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+                        {/if}
+                        {/section}
+                        {if $data.cur_page >= 1 && $data.cur_page < $data.num_pages}
+                        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                        {/if}
+                        </div>
+                    {/if}
+                    
+                    {if $data.page|in_array:['rates','reservations','general-enquiries']}
+                    <div class="content-guarantee">
+                        <div class="pata-logo"></div>
+                        <div class="best-rates" data-popover="Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in." data-popover-direction="bottom"></div>
+                    </div>
+                    {/if}
+                    
+                    {if $data.page|in_array:['about-the-ylang-ylang','weddings','links','sitemap','reservation-sent','contact-sent']}
+                        <div class="first-img">
+                        {include file="page_image.html"}
+                        </div>
+                    {/if}
+                    
+                    {if $data.page|in_array:['video']}
+
+                        {include file="video.html"}
+                    
+                    {/if}
+                    {if $data.page|in_array:['floorplan']}
+                        <div class="floorplan">
+                            <img data-src="{$data.cdn}/resources/{$data.theme}/images/floorplan.jpg" alt="The Ylang Ylang Floorplan" class="lazyload" />
+                            <a href="{$data.home_uri}/resources/{$data.theme}/images/floorplan-highres.jpg" target="_blank">Download in high resolution</a>
+                        </div>
+                    {/if}
+                    {if $data.content_id != ''}
+					{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+		    		{/if}
+                    {if 'desc'|array_key_exists:$content[0]}
+                        {$content[0].desc}
+                    {else}
+                        {if $data.page|in_array:['rates','reservations','general-enquiries','contact-sent','reservation-sent','links','sitemap']}
+                            {$content}
+                            {if $data.page == 'sitemap'}
+                                <ul id="sitemap">
+                                {section name=p loop=$pages}
+                                {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+                                    <li>
+                                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                                        {if 'children'|array_key_exists:$pages[p]}
+                                        <ul class="sub-menu">
+                                            {section name=sp loop=$pages[p].children}
+                                            <li>
+                                                {if $pages[p].children[sp].level == 'sub'}
+                                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                                                {else}
+                                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">
+                                                {/if}
+                                                {$pages[p].children[sp].label}
+                                                </a>
+                                            </li>
+                                            {/section}
+                                        </ul>
+                                        {/if}
+                                    </li>
+                                {/if}
+                                {/section}
+                                </ul>
+                            {/if}
+                        {/if}
+                    {/if}
+                    
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {if $data.page == 'quick-facts'}
+                        <div class="group">
+                            <div class="half">
+                            {section name=s loop=7}
+                            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                                <strong>{$content[0].SubContents[s].Heading}</strong>
+                                {$content[0].SubContents[s].Description}
+                            </div>
+                            {/section}
+                            </div>
+                            
+                            <div class="half">
+                            {section name=s start=7 loop=$content[0].SubContents}
+                            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                                <strong>{$content[0].SubContents[s].Heading}</strong>
+                                {$content[0].SubContents[s].Description}
+                            </div>
+                            {/section}
+                            </div>
+                       </div>
+                       {else}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                        </a>
+                                    </p>
+                                {/if}
+                            {/section}
+                        {/if} 
+                    {/if}
+                    
+                    {if $data.page|in_array:['about']}
+                        <div style="clear:both"></div>
+                    {/if}
+
+                    {if $data.page|in_array:['weddings']}
+                    <div class="second-img">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/flower.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/flower.jpg" alt="The Ylang Ylang - Flower" class="lazyload" />
+                    </div>
+                    {/if}
+                </div>
+            </div>                    
+        </div>
+    </div>
+{/if}    
+   {include file="buttons.html"}
+</div>
+{include file="footer.html"}

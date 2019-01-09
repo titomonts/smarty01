@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="jajaliluna">
+  <Contents>
+    <Content contentid="1003" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>
+ Feel like a body scrub or massage? Just ask our staff to bring the spa to you! We can recommend deluxe treatments carried out in the privacy of your villa by fully trained therapists from a reputable local spa (extra charges will apply). Here&rsquo;s a sample of what&rsquo;s on the menu:</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p> Spoil yourself and release built up tension with a traditional Balinese massage by the pool or in the privacy of your room. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p> Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet which correspond to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p> A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure and pedicure]]></Heading>
+          <Description><![CDATA[<p> Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1062" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>
+ One of the greatest advantages of staying in a villa is the personalised service provided by dedicated staff. The team at Villa Jajaliluna have been professionally trained and do their utmost to please with their warm and friendly Balinese hospitality.<br />
+ <br />
+ Please don&rsquo;t hesitate to talk to your villa manager to discuss any specific requirements.</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa manager]]></Heading>
+          <Description><![CDATA[<p> Villa Jajaliluna’s friendly manager is responsible for the overall operation of the villa. His job is to oversee and coordinate the staff and property and to assist guests during their stay.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p> The villa’s skilled private chef and junior cook will happily prepare anything from the Western, Asian, vegetarian and children’s suggestion menus.<br /> </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Butlers]]></Heading>
+          <Description><![CDATA[<p> Professionally trained butlers attend to your every need, including serving food and beverages at mealtimes, snacks, afternoon tea, cocktails and drinks throughout the day and evening.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Villa attendants]]></Heading>
+          <Description><![CDATA[<p> Villa attendants look after daily housekeeping and domestic duties.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool attendant]]></Heading>
+          <Description><![CDATA[<p> A pool attendant/handyman ensures the pool and villa are well maintained.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p> Security guards work shifts to provide afternoon and night-time security.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1200" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Villa Jajaliluna’s manager, Wayan, has a wealth of information about nearby places of interest and will help arrange transport and make any bookings required. Do also ask the staff about the local area. Many of them live nearby and will be able to give an interesting insight into some of the fascinating aspects of Bali life.</p><p>In the meantime, here is a taste of the many and varied activities on offer within reach of the villa.</p><ul><li>Bali boasts hundreds of ancient temples (pura): at Petitenget Beach entrance (1km), <span style="font-weight: bold;">Pura Dalem Petitenget</span> appears unassuming, but is actually one of the island’s key temples, with sixteenth century origins. Considered sacred (and associated with ghostly tales), visitors should be respectfully attired to enter. Regular colourful ceremonies are held here, or on the holy area of beach opposite.</li><li><span style="font-weight: bold;">Stylish nightspots</span> are within staggering distance, located both in Petitenget and Seminyak. Amongst all the hip bars, don’t miss one of Asia’s most famed beach clubs, Ku Dé Ta, on Seminyak beachfront – an absolute must for sunset cocktails. Seminyak also boasts superb shopping, with designer boutiques, antique stores, art galleries and more.</li><li>The most exclusive <span style="font-weight: bold;">Bali trekking tour</span> promises breath-taking vistas and heart-warming encounters while supporting sustainable social change in the once-forgotten villages of Muntigunung. Elite Havens is a proud partner of <a href="http://www.magazine.elitehavens.com/private-bali-trek-muntigunung/" target="_blank" title="Muntigunung Community Social Enterprise.">Muntigunung Community Social Enterprise.</a></li><li>Jet-lagged and can’t sleep? Need to glam-up before a big night out or pamper yourself after one? Jajaliluna is surrounded by <span style="font-weight: bold;">world-class spas </span>but Away Spa, at W Retreat Bali, a short stroll away, is one of Bali’s most glamorous and lavish, and is open 24 hours a day.</li><li>A string of <span style="font-weight: bold;">beaches </span>renowned for their excellent surf breaks are easily accessible along this south-west coastline and are all in prime position for fabulous sunsets. Head to legendary surfer’s haunt, <span style="font-weight: bold;">Echo Beach </span>(8km) which conveniently provides post-surf sunset drinking.</li><li>Alternatively, if you want to <span style="font-weight: bold;">learn to surf,</span> head down to the Double Six section of Legian Beach, home to Rip Curl School of Surf. With the surf school’s long experience and Legian’s manageable waves and warm, sandy-bottomed seas, this is a great spot for novice surfers, and for excellent brunches at one of the beachfront restaurants.</li><li>With a five star International rating, certified international instructors and over 40 school horses including school masters, <span style="font-weight: bold;">Bali Equestrian Centre</span> is a world-class destination for both riders and tourists. The facilities have been designed to accommodate the entire family - pony rides and day camps for the little ones, lessons, family village tours and beach rides. After riding there is a beautiful architecturally designed restaurant, pool area and playground to be enjoyed by all.</li><li>Adrenaline junkies and adventure seekers can get their fix white water rafting down the Ayung River north of <span style="font-weight: bold;">Ubud</span>, while culture vultures can head into Ubud’s town centre and explore the traditional market and wonderful art galleries.</li><li>Make the de rigueur pilgrimage to sacred<span style="font-weight: bold;"> Pura Tanah Lot</span> (18km), one of Bali’s biggest tourist magnets. Perched high on a craggy wave-lashed rock, this ancient sea temple is best savoured at sunset; make sure you receive a blessing from the resident Hindu Priests.</li><li>To escape the crowds, drive westwards past Tanah lot, heading for the relatively unchartered West Bali region. Here, the charming <span style="font-weight: bold;">Tabanan Regency</span> reveals terraced rice fields of emerald green, volcanic mountains and black sand beaches dotted with fishing communities – archetypal landscape for which Bali is famed.</li><li><span style="font-weight: bold;">Bali Treetop Adventure Park </span>is near the town of Bedugal in northern central Bali (next to Lake Bratan). Five adventure circuits, with heights ranging from two to 20 metres, challenge all level and ages on suspended bridges, spider nets, Tarzan jumps and 12 flying foxes.</li><li><span style="font-weight: bold;">Pulau Dive Charters </span>offers luxury boat charters around the beautiful islands and waters surrounding Bali. They specialise in private fishing, surfing and diving charters and also offer unique personalised day trips to Nusa Lembongan. Perfect for a family day out on the water or with a group of friends.</li><li>Covering 3.8 hectares of tropical parkland in Kuta, <span style="font-weight: bold;">Waterbom </span>Bali has 16 water slides (including The Climax with its 360 degree loop) to entertain the young and the young at heart. A great family day out, but go early to beat the crowds.<br /><br /></li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1261" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>Welcome to Villa Jajaliluna</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="181" contenttypeid="CNGG" desc="Canggu Club">
+      <Description><![CDATA[As well as having access to their own exclusive leisure facilities at the villa, guests also benefit from complimentary guest membership at Bali's premier private members club, The Canggu Club, for the duration of their stay.<br /><br />This family-orientated club luxuriates across 4,000 square metres of land in amongst the picturesque rice fields of Canggu.&nbsp; Upgraded in 2014, sporting facilities at the club are world-class and include a large, well-equipped gym with separate studios for aerobics, (spinning) bicycles and boxing, as well as a 25-metre swimming pool, a floodlit professionally turfed sports field, a tennis centre with three undercover tennis courts and an indoor multi-sports hall for basketball and badminton.<br /><br />The Cubby House Kids Club* for 2-12 year olds offers a huge range of quality toys and activities to keep children entertained for hours, whilst the slides at the all-new Splash Water Park, set amidst the club's lush tropical gardens, take fun to a whole new level. Kids will also love the Bounce Trampoline Centre*, and can work on their fitness at the Junior Sports Academy* (3-17 year olds), which offers football, swimming, gymnastics, dance and tennis lessons.&nbsp; For family fun, make a booking at Strike Ten Pin Bowling*.<br /><br />You’ll also find a library at the club’s Business Centre and a choice of relaxing wining and dining venues including The Veranda Restaurant and The Club Sports Bar.&nbsp; At the Body Temple Spa, the decadent range of treatments includes facials, massages, nail services and waxing.<br /><br />Entry restrictions may apply so please ask your villa manager, who will also provide you with a membership card.&nbsp; For more information, visit www.cangguclub.com.<br /><br />* Facilities incur a fee for use/entry]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="203" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p> Villa Jajaliluna’s private chef, Gusti, is at your service to prepare daily breakfast, lunch and dinner.<br /> <br /> The villa offers an extensive suggestion menu of delicious home-style meals featuring Asian and international dishes to cater to all tastes, with an excellent selection of vegetarian and children’s options. And a stay at Jajaliluna is certainly not complete without a seafood barbecue served on the poolside dining terrace.<br /> <br />Our chef is more than happy to tailor meals and accommodate any special dietary requirements. To make the most of the kitchen and give staff time to shop, it is recommended that you plan meals with the chef or villa manager the evening before.<br /> <br />Groceries and beverages are charged at cost price plus 20%++ handling fee. Guests will be requested to provide grocery money in advance and the staff will do the shopping for you and keep the receipts for your reference. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="25" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p> Villa Jajaliluna is a hidden paradise within the vibrant and upmarket neighbourhood of Seminyak, on Bali’s south-west coast. Just a stone’s throw from the beach and a multitude of fine restaurants and bars, this four-bedroom villa is the ultimate location for those wanting to be close to the action but also seeking a quiet place to chill out and relax.<br /> <br /> Luminous with a white facade, French-style shutters, terrazzo tiles, Palimanan stone surrounds and bengkirai wood floors, the villa combines modern and colonial architecture to create a tropical oasis. Inspiration is drawn from the island itself – the beautiful light and colours, exotic flora, vibrant culture and local artisans.<br /> <br /> Built around a dazzling T-shaped swimming pool, the villa is practical and compact but offers plenty of space with three separate living areas, an open-plan kitchen and dining room, pool deck, outdoor dining terrace and four air-conditioned bedrooms with large ensuite bathrooms.<br /> <br /> To complement the villa, guests are treated to five-star service from two butlers, housekeepers and an experienced in-house chef. Whether it’s mixing cocktails by the pool, preparing an outdoor seafood barbecue, arranging a private yoga class or playing a game of Nintendo Wii with the kids, Villa Jajaliluna’s warm and friendly staff will do their utmost to make you feel at home.<br /></p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2542" contenttypeid="IDA" desc="Indoor Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Main pavilion living areas]]></Heading>
+          <Description><![CDATA[Jajaliluna’s two-storey pavilion features two living areas where guests can unwind and relax. The downstairs lounge opens widely onto a timber deck bordering the pool but can be closed off in inclement weather. With cool terrazzo floors, ceiling fan, rattan sofa and comfortable arm chairs, this is the perfect place to sit back and enjoy your favourite music on the Denon sound system. To the rear of the lounge is a small walled garden with a cascading water-wall that creates a soothing ambiance.<br /><br />A Palimanan stone staircase with glass balustrade leads to the mezzanine TV lounge. Equipped with an L-shaped white leather sofa, beanbags, ceiling fan, a large flat-screen satellite TV, DVD player and Nintendo Wii, this makes a great space for the kids to hang out.&nbsp; This room also opens onto the balcony overlooking the pool.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Media room]]></Heading>
+          <Description><![CDATA[The villa’s media room is housed in a single-storey poolside pavilion, characterised by an ironwood floor and vaulted roof. Bi-fold doors on three sides can be opened to enjoy the natural breeze or closed for air-conditioned comfort. Equipped with a 42-inch satellite TV, DVD player, Denon surround-sound system and movie box, this is the spot to enjoy a film while relaxing on the deep-cushioned sofas. One wall is fitted with bamboo cupboards and shelves stocked with books and artefacts, while twin alcoves showcase white Buddha-head statues resting on pedestals.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kitchen/dining pavilion]]></Heading>
+          <Description><![CDATA[Opposite the media room, across the pool, lies the open-plan kitchen/dining pavilion. The predominately white kitchen is fitted with a stainless steel oven and stove, wok burner, large fridge, coffee machine and microwave, and features a teak bar with six bar stools where guests can sit and sip cocktails while the chef prepares dinner. This pavilion also offers a choice of fan-cooled tropical living or enclosed air-conditioned comfort.<br />The dining area is furnished with a fabulous square dining table (seats eight) and opens out onto the poolside deck. One wall features numerous artefacts, a cigar box (stocked for guest enjoyment) and a blue and white painted boat named ‘Jajaliluna’.]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2543" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[The family friendly advantages of a villa holiday are many, including access to your own private facilities and the freedom to use them whenever you want. Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too.<br /><br />Villa Jajaliluna is a great villa for families. With a large swimming pool, media room with movie hard drive, and Nintendo Wii in the upstairs TV lounge, children will be kept well entertained. And the bunk bedroom, which can sleep up to four children, is bound to be popular.<br /><br />The team of friendly staff at Villa Jajaliluna will make children feel as welcome as adults, and having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds (full-time babysitting incurs a small extra cost).<br /><br />Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest. The chef can customise all meals to suit children’s taste buds. Pancakes by the pool for breakfast? Popcorn and hotdogs with a movie? No problem.<br /><br />Don’t worry about packing all that cumbersome kids’ equipment for your stay. Just let us know what you need, and anything we don’t have in-house (villa facilities include baby cot with mosquito net; highchair, baby car seat and bottle sterliser) we can hire on your behalf (click <a title="Children's equipment - Elite Havens" target="_blank" href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf">here</a> to see list of available hire items).<br /><br />And when the excitement of exploring the villa starts to wear off, check out our <a title="Things to do - Villa Jajaliluna" target="_self" href="./the-locale/things-to-do.html">Things to do</a> page; there’s plenty in the area to keep kids of all ages amused throughout the holiday.]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2609" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<p><span style="font-weight: bold;">Main pavilion living areas</span></p><p>Jajaliluna’s two-storey pavilion features two living areas where guests can unwind and relax. The downstairs lounge opens widely onto a timber deck bordering the pool but can be closed off in inclement weather. With cool terrazzo floors, ceiling fan, rattan sofa and comfortable arm chairs, this is the perfect place to sit back and enjoy your favourite music on the Denon sound system. To the rear of the lounge is a small walled garden with a cascading water-wall that creates a soothing ambiance.</p><p>A Palimanan stone staircase with glass balustrade leads to the mezzanine TV lounge. Equipped with an L-shaped white leather sofa, beanbags, ceiling fan, a large flat-screen satellite TV, DVD player and Nintendo Wii, this makes a great space for the kids to hang out.  This room also opens onto the balcony overlooking the pool.</p><p><span style="font-weight: bold;">Media room</span></p><p>The villa’s media room is housed in a single-storey poolside pavilion, characterised by an ironwood floor and vaulted roof. Bi-fold doors on three sides can be opened to enjoy the natural breeze or closed for air-conditioned comfort. Equipped with a 42-inch satellite TV, DVD player, Denon surround-sound system and movie box, this is the spot to enjoy a film while relaxing on the deep-cushioned sofas. One wall is fitted with bamboo cupboards and shelves stocked with books and artefacts, while twin alcoves showcase white Buddha-head statues resting on pedestals.</p><p><span style="font-weight: bold;">Kitchen/dining pavilion</span></p><p>Opposite the media room, across the pool, lies the open-plan kitchen/dining pavilion. The predominately white kitchen is fitted with a stainless steel oven and stove, wok burner, large fridge, coffee machine and microwave, and features a teak bar with six bar stools where guests can sit and sip cocktails while the chef prepares dinner. This pavilion also offers a choice of fan-cooled tropical living or enclosed air-conditioned comfort.</p><p>The dining area is furnished with a fabulous square dining table (seats eight) and opens out onto the poolside deck. One wall features numerous artefacts, a cigar box (stocked for guest enjoyment) and a blue and white painted boat named ‘Jajaliluna’.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<p>The dazzling T-shaped swimming pool with cool aquamarine and cobalt blue ceramic tiles forms the focal point of the villa and is fitted with recessed lights to create a lovely night-time ambiance.</p><p>Four separate poolside areas cater for different moods: for sun seekers, the Palimanan stone sun terrace is furnished with loungers and umbrellas; for reading or socialising, a timber deck is shaded by sails and furnished with two round rattan sofas; for outdoor dining, the white washed teak dining table and barbecue await, and for those that wish to doze there’s a sheltered daybed, guarded by two Thai statues.</p><p>The well-kept garden courtyard features bougainvillea, frangipani trees, coconut palms, native ginger and a small lawn. An outdoor shower is convenient for rinsing off after a swim in the pool or a trip to the beach. </p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="266" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Bedroom]]></Heading>
+          <Description><![CDATA[<ul><li>Located poolside on the ground floor</li><li>King-sized bed with mosquito netting</li><li>Adjoining ensuite bathroom with walk-in rain shower, twin marble vanities, walled garden with a second rain shower and large terrazzo bathtub</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest Rooms]]></Heading>
+          <Description><![CDATA[<ul><li>Two king-sized guest rooms; one located on the ground floor and one directly above</li><li>The ground-floor guest room opens onto the pool deck and the upstairs guest room opens onto a balcony overlooking the pool</li><li>Both have ensuite bathrooms equipped with walk-in showers and vanities and boast outdoor areas either with walled-garden or small balcony.</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Fourth Bedroom]]></Heading>
+          <Description><![CDATA[<ul><li>Located on the upper level&nbsp; with mezzanine style bunks above twin beds – perfect for four children or 2 adults plus 2 children</li><li>Ensuite bathroom fitted with walk-in rain shower and grey marble vanity opening onto a rear balcony</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2736" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a href="./reservations.html" target="_self" title="Villa Jajaliluna - booking enquiry">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />To view our availability calendar, click <a href="./availability-calendar.html" target="_self" title="Villa Jajaliluna - availability">here</a>.<br /><br />Bali: +62 361 737498<br />Singapore: +65 3108 0520<br />Manila: +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a href="./general-enquiries.html" target="_self" title="Villa Jajaliluna - general enquiry">here</a> to send us a message.<br /><br />Villa Jajaliluna is managed & marketed on behalf of its owners by <a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group</a>, who also handle all the villa reservations.  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="338" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[<p>
+ INDOOR LIVING:<br />
+ - Colonial style two-story living pavilion opening onto large terrazzo deck for indoor/outdoor entertaining<br />
+ - Mezzanine with&nbsp; fully-equipped TV lounge, large couches and beanbags for relaxation<br />
+ - Large upstairs balcony overlooking the pool<br />
+ <br />
+ OUTDOOR LIVING:<br />
+ - Large T-shaped swimming pool with aquamarine and cobalt blue ceramic<br />
+ - Four separate poolside areas including a large Palimanan stone sun terrace with lounges and umbrellas, a shadey timber deck with rattan sofas and and outdoor dining and BBQ area and sheltered daybed.<br />
+ - Manicured garden courtyard with outdoor shower</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Colonial style two-story living pavilion opening onto large terrazzo deck for indoor/outdoor entertaining</li><li>Mezzanine with&nbsp; fully-equipped TV lounge, large couches and beanbags for relaxation</li><li>Large upstairs balcony overlooking the pool</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Large T-shaped swimming pool with aquamarine and cobalt blue ceramic</li><li> Four separate poolside areas including a large Palimanan stone sun terrace with lounges and umbrellas, a shadey timber deck with rattan sofas and and outdoor dining and BBQ area and sheltered daybed.</li><li>Manicured garden courtyard with outdoor shower</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="410" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[                                        <p> Villa Jajaliluna is a hidden paradise in the heart of vibrant and sophisticated Seminyak on Bali’s southwest coast. Stylish, comfortable and perfect for families with children, this elegant four-bedroom villa is just a short stroll from the beach, hidden behind vine-clad walls and shaded by coconut palms, offering complete peace and privacy in a tranquil courtyard-style setting.</p><p>The crisp, white façade of the villa wraps around a dazzling T-shaped swimming pool combining modern and colonial architecture set amidst a lush tropical oasis. Villa Jajaliluna is both inspiring and practical offering three separate living areas, an open-plan kitchen and dining room, pool deck, outdoor dining terrace and four air-conditioned ensuite bedrooms. Taking inspiration from the island itself, the designers have used beautiful light and a balance of neutral tones and vibrant colours, exotic flora, vibrant culture and local artisans to create a luxurious ambience.</p><p>Villa Jajaliluna is a peaceful oasis located in Bali’s trendiest neighbourhood with funky boutiques, exquisite galleries, fine restaurants, luxurious spas and glamorous bars at your doorstep. But with your own in-house chef, private butler, swimming pool and media room, it’s also ideal for staying in and absorbing the serenity of the villa. Whether its preparing a seafood barbecue, serving cocktails by the pool, organising a private yoga class or playing games with the kids, the dedicated staff at Villa Jajaliluna treat guests to five-star service.<br /></p>                                     ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="647" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>
+ If you&rsquo;re seeking a chic pad in the heart of Bali&rsquo;s sophisticated Seminyak neighbourhood that&rsquo;s stylish, comfortable and perfect for families with children, then look no further than Villa Jajaliluna. Located just a short stroll from the beach, this elegant four-bedroom villa, hidden behind vine-clad walls and shaded by coconut palms, offers total peace and privacy in a tranquil courtyard-style setting.<br />
+ <br />
+ Decorated in neutral tones enlivened with bright splashes of colour, Villa Jajaliluna is a soothing and calming oasis to return to after exploring the neighbourhood&rsquo;s funky boutiques, exquisite galleries, fine restaurants, luxurious spas or trendy bars. With your own in-house chef, private butler, swimming pool and media room, it&rsquo;s also ideal for those who would rather just stay put and absorb the serenity of the villa.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="720" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>
+ Just 500 metres from Seminyak Beach and a short stroll to the island&rsquo;s most famous restaurants, bars, spas and boutiques, Villa Jajaliluna is a food lover and shopper&rsquo;s dream location. The villa is situated just off Jalan Laksmana, Bali&rsquo;s &lsquo;Eat St&rsquo;, where you will find every type of cuisine possible &ndash; Italian, Japanese, Moroccan, Indian and traditional Indonesian warungs.<br />
+ <br />
+ The wide, black, sandy beach near the villa stretches north and south as far as the eye can see, and is perfect for running, walking, building sandcastles and, of course, lazing in the sun. Sun beds with umbrellas can be hired from local vendors, but if you want a more luxurious experience head to the string of five-star hotels that offer five-star beachside service. At sunset, Seminyak Beach is alive with locals and holidaymakers savouring the magical moments as the sun goes down. There are plenty of surf breaks, but swimming is permitted only between the flags due to strong currents.</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Seminyak Beach]]></Heading>
+          <Description><![CDATA[0.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali Equestrian Centre]]></Heading>
+          <Description><![CDATA[6 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Legian]]></Heading>
+          <Description><![CDATA[6 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Waterbom Park ]]></Heading>
+          <Description><![CDATA[11 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tanah Lot]]></Heading>
+          <Description><![CDATA[18 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali Bird Park ]]></Heading>
+          <Description><![CDATA[25 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali Safari & Marine Park ]]></Heading>
+          <Description><![CDATA[30 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud  		]]></Heading>
+          <Description><![CDATA[35 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Elephant Safari Park ]]></Heading>
+          <Description><![CDATA[49 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Treetops Adventure Park ]]></Heading>
+          <Description><![CDATA[51 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="807" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>
+ Designed by acclaimed Bali-based company Glen Parker Architects, this symmetrical villa combines crisp modern lines with traditional finishes to create a chic and elegant home.<br />
+ <br />
+ Guests enter the villa via a Palimanan stone walkway bordered by high walls and hibiscus which leads to a large wooden cantilevered door and a compact garden courtyard. Stepping stones traverse a pond flanked either side by fire bowls and a small lawn planted with coconut trees, to present a central T-shaped swimming pool and Jajaliluna&rsquo;s three living pavilions. &nbsp;<br />
+ <br />
+ Closest to the entrance lies the open-plan living/kitchen pavilion which overlooks the pool deck. Symmetrically opposite is the media room and outdoor dining terrace. The main two-storey pavilion, comprising four bedrooms and two living areas, languishes along the far side of the pool, facing west to maximise the sunset views.</p>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="84" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[ <p>
+ Housed in the main two-storey pavilion with it&rsquo;s traditional wood-shingled roof, whitewashed walls, ironwood floors and white French shutters, all four light and airy bedrooms are cooled by air-conditioners and ceiling fans and open onto &ndash; or overlook &ndash; the swimming pool.</p>
+]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master bedroom]]></Heading>
+          <Description><![CDATA[<p> From its poolside position on the ground floor, the stunning master suite features a king-size bed draped with mosquito netting and is beautifully decorated with bright green, yellow and pink cushions that contrast beautifully against crisp white linens.<br /> <br /> A frosted glass door slides open to reveal a huge ensuite bathroom with a walk-in rain shower, twin marble vanities and a walled garden that boasts a second rain shower and a large terrazzo bathtub for starlit bathing.</p>  ]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Master bedroom]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/jajaliluna/gallery/jajaliluna/jajaliluna-master-bedroom.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/jajaliluna/gallery/jajaliluna/jajaliluna-master-bedroom.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest rooms]]></Heading>
+          <Description><![CDATA[<p> The two king-bedded guest rooms (one on the ground floor and the other directly above) are similar in design and accented with pink and green fabric which injects splashes of colour against the whitewashed walls. Opening onto the pool deck, the ground floor room features a mosaic-tiled ensuite bathroom with a small walled garden, a bathtub and an open-air shower. The upstairs guestroom, which opens onto a balcony overlooking the pool, is furnished with a super-king-size bed and a white-upholstered leather armchair. The ensuite bathroom features a walk-in rain shower and grey marble vanity which opens onto a balcony at the rear.</p>  ]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Guest rooms]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/jajaliluna/gallery/jajaliluna/jajaliluna-downstairs-guest-room.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/jajaliluna/gallery/jajaliluna/jajaliluna-downstairs-guest-room.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Fourth bedroom]]></Heading>
+          <Description><![CDATA[<p> The fourth bedroom is also located on the upper floor; accessed from the TV lounge. With mezzanine-style bunks above twin beds, this room is ideal for four children, but is also suitable for two adults and two children.&nbsp; The ensuite bathroom is fitted with a walk-in rain shower and grey marble vanity opening onto a rear balcony.</p>    ]]></Description>
+          <Images>
+            <Image>
+              <Caption><![CDATA[Fourth bedrooms]]></Caption>
+              <ThumbSizeUrl><![CDATA[/wp-content/themes/jajaliluna/gallery/jajaliluna/jajaliluna-upstairs-childrens-room.jpg]]></ThumbSizeUrl>
+              <FullSizeUrl><![CDATA[/wp-content/themes/jajaliluna/gallery/jajaliluna/jajaliluna-upstairs-childrens-room.jpg]]></FullSizeUrl>
+            </Image>
+          </Images>
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="850" contenttypeid="ODA" desc="Outdoor Area">
+      <Description><![CDATA[<p>
+ The dazzling T-shaped swimming pool with cool aquamarine and cobalt blue ceramic tiles forms the focal point of the villa and is fitted with recessed lights to create a lovely night-time ambiance.<br />
+ <br />
+ Four separate poolside areas cater for different moods: for sun seekers, the Palimanan stone sun terrace is furnished with loungers and umbrellas; for reading or socialising, a timber deck is shaded by sails and furnished with two round rattan sofas; for outdoor dining, the white washed teak dining table and barbecue await, and for those that wish to doze there&rsquo;s a sheltered daybed, guarded by two Thai statues.<br />
+ <br />
+ The well-kept garden courtyard features bougainvillea, frangipani trees, coconut palms, native ginger and a small lawn. An outdoor shower is convenient for rinsing off after a swim in the pool or a trip to the beach.</p>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="912" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[                                        Location                                     ]]></Heading>
+          <Description><![CDATA[<p> Seminyak, Bali, Indonesia.</p>                                      ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Capacity                                     ]]></Heading>
+          <Description><![CDATA[<p> 8 adults, 2 children (4 bedrooms: 3 with king-sized beds and 1 with twin beds which can be converted to a king plus 2 bunk beds for children).</p>                                       ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Living Areas                                     ]]></Heading>
+          <Description><![CDATA[<p> Open living/dining pavilion; media room; living room; upstairs lounge.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Pool                                     ]]></Heading>
+          <Description><![CDATA[<p>14m x 7m. 1.2m-1.65m depth.<br /></p>                                       ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p> Villa manager; chef; junior cook; butlers; villa attendants; pool attendant/handyman; security guards.  Masseuse and babysitter on request.<br /></p>     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Dining                                     ]]></Heading>
+          <Description><![CDATA[<p> Western, Asian, vegetarian and children’s menu. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.<br /></p>                                       ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Communication                                     ]]></Heading>
+          <Description><![CDATA[<p> WiFi internet access; landline for local calls and IDD; mobile phone coverage.</p>                                      ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Entertainment                                     ]]></Heading>
+          <Description><![CDATA[<p> Satellite TV and DVD players; Denon surround-sound system with CD player; iPod dock, movie hard drive; Nintendo Wii.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                                                                                                        For families                                                                                                               ]]></Heading>
+          <Description><![CDATA[<p>1 high chair; baby cot; baby car seat; bottle steriliser; DVDs; games.</p>                                                                                                                  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Additional facilities                                     ]]></Heading>
+          <Description><![CDATA[<p> Safes; barbecue; backup generator.</p>                                            ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        Property Area                                     ]]></Heading>
+          <Description><![CDATA[<p> 670sqm.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed &amp; marketed by]]></Heading>
+          <Description><![CDATA[<p><a target="_blank" href="http://www.elitehavens.com/" title="The Elite Havens Group">The Elite Havens Group</a>.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Jajaliluna</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Seminyak">Seminyak</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Kayu Aya No. 12A</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.68541630</Latitude>
+        <Longitude>115.15508330</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">An elegant, modern-colonial 4-bedroom pool villa, offering peace and privacy in vibrant Seminyak.&amp;nbsp; Villa Jajaliluna is fully staffed and only a short walk from the beach.&lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>4 bedroom</RoomName>
+        <MinRate>990.00++</MinRate>
+        <MaxRate>1620.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Jajaliluna - Pool between media and dining rooms</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/1. Jajaliluna - pool between media and dining rooms.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Pool decking</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/2. Jajaliluna - pool decking.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Alfresco dining &amp;amp; media pavilions</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/3. Jajaliluna - alfresco dining &amp; media pavilions.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Kitchen dining</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/4. Jajaliluna - kitchen dining.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Dining room at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/5. Jajaliluna - dining room at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Media room and pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/6. Jajaliluna - media room and pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Main pavilion lounge at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/7. Jajaliluna - main pavilion lounge at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Downstairs guest room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/8. Jajaliluna - downstairs guest room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Downstairs guest bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/9. Jajaliluna - downstairs guest bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/10. Jajaliluna - master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Upstairs guest room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/11. Jajaliluna - upstairs guest room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Upstairs children's room</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/12. Jajaliluna - upstairs childrens room.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Mezzanine TV lounge</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/13. Jajaliluna - mezzanine TV lounge.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - View from entrance</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/14. Jajaliluna - view from entrance.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Jajaliluna - Main pavilion at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Jajaliluna/15. Jajaliluna - main pavilion at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

@@ -1,0 +1,75 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mandalay - Pool and villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1920w" alt="Villa Mandalay - Pool and villa" class="lazyload" />          
+        </div>
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Sunloungers%20by%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Sunloungers%20by%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Sunloungers%20by%20the%20pool.jpg 1920w" alt="Villa Mandalay - Sunloungers by the pool" class="lazyload" />        
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-mandalay'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Refreshing%20coconut%20with%20a%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Refreshing%20coconut%20with%20a%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Refreshing%20coconut%20with%20a%20view.jpg 1920w" alt="Villa Mandalay - Refreshing coconut with a view" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Sunloungers%20by%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Sunloungers%20by%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Sunloungers%20by%20the%20pool.jpg 1920w" alt="Villa Mandalay - Sunloungers by the pool" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20flame.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Pool%20flame.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20flame.jpg 1920w" alt="Villa Mandalay - Pool flame" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {*  *}
+
+        {elseif $data.page == 'floorplan'}
+        {*  *}
+        
+        {elseif $data.page == 'seseh-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Distance%20aerial.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Distance%20aerial.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Distance%20aerial.jpg 1920w" alt="Villa Mandalay - Distance aerial" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Breakfast.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Breakfast.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Breakfast.jpg 1920w" alt="Villa Mandalay - Breakfast" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Alfresco%20dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Alfresco%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Alfresco%20dining.jpg 1920w" alt="Villa Mandalay - Alfresco dining" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Putting%20green%20at%20the%20end%20of%20the%20garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Putting%20green%20at%20the%20end%20of%20the%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Putting%20green%20at%20the%20end%20of%20the%20garden.jpg 1920w" alt="Villa Mandalay - Putting green at the end of the garden" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Villa%20massage%20in%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Villa%20massage%20in%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Villa%20massage%20in%20style.jpg 1920w" alt="Villa Mandalay - Villa massage in style" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Weddings.jpg 1920w" alt="Villa Mandalay - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Dining%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Dining%20table.jpg 1920w" alt="Villa Mandalay - Dining table" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20flame.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Pool%20flame.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20flame.jpg 1920w" alt="Villa Mandalay - Pool flame" class="lazyload" />        
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Downstairs%20guest%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Downstairs%20guest%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Downstairs%20guest%20bedroom.jpg 1920w" alt="Villa Mandalay - Downstairs guest bedroom" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Travel%20in%20style.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Travel%20in%20style.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Travel%20in%20style.jpg 1920w" alt="Villa Mandalay - Travel in style" class="lazyload" />    
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mandalay - Pool and villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1920w" alt="Villa Mandalay - Pool and villa" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mandalay - Pool and villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1920w" alt="Villa Mandalay - Pool and villa" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Mandalay.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Mandalay - Pool and villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Mandalay%20-%20Pool%20and%20villa.jpg 1920w" alt="Villa Mandalay - Pool and villa" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

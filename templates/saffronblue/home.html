@@ -1,0 +1,105 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>                            
+                            
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {$content[0].desc}
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="content-item">
+                    <div class="group">
+                        <div class="first-img">	
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Saffron and Blue - Designer touch.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Saffron and Blue - Designer touch.jpg" alt="Saffron and Blue - Designer touch" class="lazyload">
+                            <h3>A blissful sanctuary</h3>
+                        </div>
+
+                        <div class="second-img">							
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Saffron and Blue - Stunning dusk view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Saffron and Blue - Stunning dusk view.jpg" alt="Saffron and Blue - Stunning dusk view" class="lazyload">
+                            <h3>Enchanting Kosgoda</h3>
+                        </div>
+
+                        <div class="third-img">								
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Saffron and Blue - Enjoying tea time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Saffron and Blue - Enjoying tea time.jpg" alt="Saffron and Blue - Enjoying tea time" class="lazyload">								
+                            <h3>Unprecedented luxury</h3>
+                        </div>
+                    </div>
+				</div>
+                <div class="content-item">
+                    <div class="wrapper">
+                        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Saffron and Blue - Friendly staffs.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Saffron and Blue - Friendly staffs.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Saffron%20and%20Blue%20-%20Friendly%20staffs.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Saffron%20and%20Blue%20-%20Friendly%20staffs.jpg 1920w" alt="Saffron and Blue - Friendly staffs" class="lazyload" /></div> 
+                        
+                        <h2>Personalised service,<br /> <small>provided by dedicated staff</small>.</h2>
+                        {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+                        {if 'desc'|array_key_exists:$content[0]}
+                            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                            <p>
+                            {* section name=s loop=$contentPart start=0 max=1 }
+                                {$contentPart[s]}.
+                            {/section *}
+							Saffron & Blue’s staff have been with the villa for many years and will do their utmost to please with their warm and friendly Sri Lankan hospitality.
+                            </p>
+                        {/if}
+                        <a href="/staff.html">Explore</a>
+                        
+                        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Saffron and Blue - Local cuisine.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Saffron and Blue - Local cuisine.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Saffron%20and%20Blue%20-%20Local%20cuisine.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Saffron%20and%20Blue%20-%20Local%20cuisine.jpg 1920w" alt="Saffron and Blue - Local cuisine" class="lazyload" /></div>
+                        
+                        <h2>Delicate dining,<br /> <small>prepared especially for you</small>.</h2>
+                        {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+                        {if 'desc'|array_key_exists:$content[0]}
+                            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                            <p>
+                            {section name=s loop=$contentPart start=0 max=2 }
+                                {$contentPart[s]}.
+                            {/section}
+                            </p>
+                        {/if}
+                        <a href="/dining.html">Explore</a>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-saffron-and-blue', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'bentota-sri-lanka', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

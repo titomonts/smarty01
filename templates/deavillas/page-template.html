@@ -1,0 +1,61 @@
+{include file="header.html"}
+<body class="{if $data.page=='index'}home{/if} page-template-default page page-id-317 idq-no-js">
+{$gtm}        
+
+        <a class="promo-rates" href="rates.html"><span>Promo Rates</span></a>
+        <div class="main-wrapper" id="main-wrapper">
+            <div class="topheader">	
+                <div class="header">  
+                    {include file="menu.html"} 		
+                </div>
+            </div>
+	<div class="page-wrapper">
+	
+    <div class="slider">
+	{include file="page_image.html"}
+	</div>
+    
+	<div style="clear:both;"></div>
+
+		<div id="page">
+		<div class="pagemenu"></div>
+			<div id="vpagetitle"><div class="title_page">{$data.heading}</div></div>
+		<div id="pata-best"></div>
+	
+			{if 'desc'|array_key_exists:$content[0]}
+                {$content[0].desc}
+            {/if}
+	 		{if 'SubContents'|array_key_exists:$content[0]}
+            	{section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/Dea':'/resources/deavillas'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/Dea':'/resources/deavillas'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            {/if}
+
+            <div id="pagemenu">
+                <div class="menu-page-menu-container">
+                    <ul id="menu-page-menu" class="menu">
+                        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                            <a href="http://www.deavillas-bali.com/reservations.html">{#BTN_LABEL_BOOK_NOW#}</a>
+                        </li>
+                        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                            <a href="http://www.deavillas-bali.com/availability.html">{#BTN_LABEL_AVAILABILITY#}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>	
+        
+        	{include file="villa_page_image.html"}
+
+	</div>
+	</div>
+
+	</div> 
+{include file="footer.html"}

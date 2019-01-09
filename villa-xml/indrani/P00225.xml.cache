@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00225">
+  <Contents>
+    <Content contentid="4330" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[2 Master bedrooms]]></Heading>
+          <Description><![CDATA[-&nbsp;&nbsp;&nbsp; The two colonial-style master bedrooms are virtually identical <br />-&nbsp;&nbsp;&nbsp; One is situated on the upper floor and one on the lower floor<br />-&nbsp;&nbsp;&nbsp; Both have four-poster king-size beds with mosquito nets<br />-&nbsp;&nbsp;&nbsp; Both feature large dressing areas and desk space <br />-&nbsp;&nbsp;&nbsp; Sumptuous ensuite bathrooms come with a tub and rain shower&nbsp; ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[3 Guest bedrooms]]></Heading>
+          <Description><![CDATA[-&nbsp;&nbsp; &nbsp;The three bright and airy guest bedrooms are situated on the mezzanine level<br />-&nbsp;&nbsp; &nbsp;Each has a four-poster king-size bed with mosquito net<br />-&nbsp;&nbsp; &nbsp;These rooms have beautiful views over the pool and surrounding neighbourhood<br />-&nbsp;&nbsp; &nbsp;Ensuite bathrooms are fitted with a tub and rain shower<br />-&nbsp;&nbsp; &nbsp;Amenities include a safety box and mini-fridge]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4331" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Villa Indrani is located at the end of a quiet road very close to Berawa Beach – a wide sandy expanse close to Seminyak.&nbsp; This side of Berawa Beach feels relatively unspoilt with its fishing huts and outriggers parked up on the sand ready to go out at night to catch fresh fish.&nbsp; Nearby is a beautiful natural lagoon ¬– the largest in Canggu – which you can cross via a charming wooden bridge.&nbsp; Before crossing the bridge, you’ll walk past La Laguna – one of Canggu’s most photogenic and popular beach clubs. Made entirely out of driftwood, this place oozes romance and is a fantastic spot to catch the sunset. </p><p>Berawa Beach has a reputation for being an excellent surfing spot, especially for intermediate and accomplished surfers.&nbsp; From here, you can walk along the beach to other popular surfing spots such as Batu Bolong Beach and Echo Beach.&nbsp; Or you can walk fifteen minutes south along the beach to experience the glitz and glamour of Seminyak’s most popular beach clubs including W Hotel, Ku Dé Ta and Potato Head.&nbsp; Meanwhile, the village of Berawa has plenty of excellent coffee shops, restaurants and boutiques to choose from.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[La Laguna]]></Heading>
+          <Description><![CDATA[0.20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Finns Beach Club]]></Heading>
+          <Description><![CDATA[0.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Finns Recreational Club]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bali Equestrian Centre]]></Heading>
+          <Description><![CDATA[2 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Batu Bolong Beach]]></Heading>
+          <Description><![CDATA[3 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Echo Beach]]></Heading>
+          <Description><![CDATA[4 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak Square]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tana Lot Temple]]></Heading>
+          <Description><![CDATA[13 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[13 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud]]></Heading>
+          <Description><![CDATA[27 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4332" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Villa Indrani is an ideal choice if you’re looking for a stylish five-bedroom luxury villa in Canggu with a serious ‘wow-factor’.</p><p>This spacious beachside haven is spread across three floors and has not one but two elegantly designed master bedrooms with large ensuite bathrooms. Both bedrooms are mirror images of each other and ooze old-style colonial romance. The villa also has three comfortable guest bedrooms – each with ensuite bathrooms and lovely views over the pool and garden.&nbsp;&nbsp; </p><p>The impressive living and dining space features floor-to-ceiling windows that slide open entirely for an outdoor tropical living experience (or can be kept closed for air-conditioned comfort). The carefully chosen furniture gives this space a lovely mid-century retro feel. With its sumptuous open-plan kitchen, which is exclusively for guest use, this is also a superb space for entertaining. </p><p>The pool, large sun deck and lawn capture the sun for most of the day and are great for lounging or playing. The outside area is also a superb spot for enjoying a sunset cocktail freshly made by one of the villa’s butlers, or sampling some of the private chef’s best Indonesian and western cuisine at the solid-wood dining table. </p><p>Speaking of which – Villa Indrani prides itself on its highly trained staff, who will happily tend to your every need. </p><p>The villa is a short walk from Berawa Beach – popular with a chilled and friendly surfer crowd. It’s also within easy walking distance of some of Seminyak and Canggu’s best beach clubs and dining spots. </p><p>Villa Indrani is perfect for a family with children or a group of friends looking for a sun-soaked beach holiday, or a luxurious base from which they can explore the rest of Bali. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4333" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<ul></ul>-&nbsp;&nbsp; &nbsp;Minimal, bright and tasteful design<br />-&nbsp;&nbsp; &nbsp;Large open-plan kitchen with modern appliances – perfect for entertaining <br />-&nbsp;&nbsp; &nbsp;Cosy living area with comfortable sofas and large screen TV<br />-&nbsp;&nbsp; &nbsp;Dining area with square table for eight people &nbsp;<br />-&nbsp;&nbsp; &nbsp;Beautiful Balinese artwork and paintings <br /><br />   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[-&nbsp;&nbsp; &nbsp;10 x 10 metre pool<br />-&nbsp;&nbsp; &nbsp;Sun deck furnished with loungers<br />-&nbsp;&nbsp; &nbsp;Stunning views from rooftop area <br />-&nbsp;&nbsp; &nbsp;Solid wooden outdoor dining table seating ten<br /> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4334" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Berawa, Canggu, Bali, Indonesia.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>10 people (5 ensuite bedrooms, all with king-size beds).&nbsp; Extra beds are available on request at an additional charge.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living Areas]]></Heading>
+          <Description><![CDATA[<p>Upper floor entrance hall; large open-plan, ground floor living, dining and kitchen area within dining for 8; covered, fan-cooled outdoor dining for 8-10; pool deck with sun loungers.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>Length 10m x width 10m x depth 1.4m.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; private chef; housekeepers; butlers; security guards; gardener. Additional staff (e.g. spa therapist and babysitter) available on request for an additional charge.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>A suggestion menu of western, Asian and vegetarian dishes. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi internet access with routers in every bedroom.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>TV (Satellite/Cable); Harman Kardon speakers; book selection.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families]]></Heading>
+          <Description><![CDATA[<p>Villa Indrani is well suited for families with children. Facilities include a baby cot, high chair and monitor. Additional children’s equipment can be hired at an extra cost.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>In-villa treatments selected from a comprehensive spa menu can be carried out by professional beauty therapists (extra cost applies).</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>Villa Indrani is within walking distance of a wide selection of restaurants and shops in Berawa and Canggu. Taxis are readily available for longer distances, and a car and a driver can be arranged by your villa manager for sightseeing around Bali (extra cost applies).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[All bedrooms have mosquito nets, safety deposit box and mini fridge.]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>1,000 sqm (land). 669 sqm (villa). </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://www.elitehavens.com/" target="_self">The Elite Havens Group. </a></p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4335" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Villa Indrani’s manager has plenty of information about all the places of interest in the area and can arrange transport or make bookings for you. In fact, many of the villa staff live locally and if you’re interested they will be happy to give you some interesting insights into aspects of Bali life.</p> <p>Here’s a quick overview of some of the many and varied activities on offer within easy reach of the villa.</p><ul><li>A visit to Finns Recreation Club ¬– just down the road from Villa Indrani – means hours of <span style="font-weight: bold;">entertainment for the whole family</span>. It has first class facilities including a restaurant, bar and lounge, a library, a kids’ club and a really cool water park. Or you can visit its beach club instead, which is located further down Berawa Beach. It has a spectacular bamboo building from where you can enjoy poolside cocktails and entertainment throughout the day.</li><li>If you enjoy <span style="font-weight: bold;">eating out</span>, you’ll find some exciting and high-quality choices in the village of Berawa. For breakfast and lunch, head over to Coffee ‘n Oven, which has an excellent choice of European-type pastries. Or try some organic homegrown vegetables underneath the huge tippy-tent at Parachute – only a two-minute walk from the villa. For dining we can recommend Milu, which serves excellent Indonesian and western dishes in a beautiful atmospheric garden, or The Piring Daun for tasty Indian fusion cuisine.</li><li><span style="font-weight: bold;">Children</span> will love hanging out at the Bali Equestrian Centre, a world-class destination for riders and tourists. Its facilities have been designed to accommodate the entire family with pony rides and day camps for the little ones, lessons, family village tours and beach rides.</li><li>Explore the scenic rice-field landscape and nearby rural villages such as Pererenan and Seseh by bicycle; a great way to <span style="font-weight: bold;">get under the skin of the ‘real’ Bali</span>. Stop off at a local <span style="font-style: italic;">warung</span> (eatery) to sample some basic Balinese fare.</li><li>Villa Indrani is only a 45-minute drive from the famous sea temple of <span style="font-weight: bold;">Tanah Lot</span>, one of Bali’s most important temples, and also one of its most popular tourist attractions. You can expect a lot of people and camera phones if you visit during sunset, especially during peak holiday season. We advise visiting early in the morning (8-9am) when there are less people and you’ll have a much better chance to really experience the power of this sacred place.</li><li>Play a round at the well-laid-out 18-hole <span style="font-weight: bold;">Bali Beach Golf Course</span> in Sanur or the 85-hectare <span style="font-weight: bold;">New Kuta Golf Course</span> on the Bukit Peninsula, for fantastic ocean views.</li><li>Drive westwards to explore the charming <span style="font-weight: bold;">Tabanan regency</span>, revealing terraced rice fields of emerald green, volcanic mountains and black-sand beaches dotted with fishing communities. Or head north to explore the volcanic lakes near the mountain town of Bedugul, including Lake Bratan with its photogenic and stunningly positioned temple – Pura Ulun Danu.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4387" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>With its large open-plan living areas, two master bedrooms and three guest rooms, this five-bedroom luxury villa in Canggu is perfect for a family with children or a group of friends looking for a chic beach haven.  Villa Indrani’s contingent of highly trained staff will take care of every detail – leaving you to simply sit back, relax and enjoy your holiday.  The villa’s spacious rooms and minimalist retro design make indoor living a pleasure, while the lovely courtyard pool and deck are great for lounging in the sun with a cocktail in hand – freshly made by one of the butlers of course.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4388" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>This stunning fully staffed five-bedroom luxury villa in Canggu is perfect if you’re looking for a stylish hideaway close to the beach.</p><p>Villa Indrani is built in an L-shape around a walled garden courtyard that features a stunning 10-metre pool and sun deck.  It has not one but two sumptuous master bedrooms.  Both ooze old-style colonial romance and come with a spacious ensuite bathroom, a large dressing area and a desk space.</p><p>The three guest bedrooms on the mezzanine floor are equally comfortable and each comes with an ensuite bathroom.  Their floor-to-ceiling windows provide wonderful views over the pool and the rest of the neighbourhood, but nonetheless give plenty of privacy.</p><p>The living and dining space has a minimalist mid-century retro style.  Thanks to the warm wooden furnishings and tasteful lighting, it feels very cosy both day and night.  It also features a gorgeous open-plan kitchen exclusively for guest use – perfect if you love cooking for friends or family.</p><p>Not that you have to do any cooking of course.  From butlers and housekeepers to security guards and a private chef, Villa Indrani has a full contingent of professional and highly trained staff who’ll be delighted to tend to your every need – whether that involves sampling some of the chef’s Indonesian cuisine, or sipping a chilled mojito by the pool, freshly prepared by your butler.  Just sit back, relax and let the staff take care of everything else.</p><p>Villa Indrani is well situated on a quiet road five minutes’ walk from Berawa Beach.  This very popular but chilled beach sits between Seminyak and Canggu and is known for its colourful patchwork of bamboo beach bars.  It attracts a friendly and relaxed surfer crowd and is a very photogenic spot for enjoying the sunset.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4389" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa Indrani is built in an L-shape around a walled courtyard and set across three floors accessed via a central staircase.  The villa is built into a steep slope, with its entrance hall and one of its master bedrooms situated on the top floor together with an open rooftop area.  The three guest bedrooms are on the mezzanine floor and the large living and dining space, second master bedroom, along with a separate guest bathroom and the staff quarters are all located on the lower floor.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4390" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>The villa’s two sumptuous master bedrooms - one on the upper and one on the lower floor – are mirror images of each other and exude a lovely old-style colonial feel.  Both bedrooms are very spacious and feature desk and dressing areas, along with a large ensuite bathroom with a beautiful stone tub and a monsoon shower.  They both have a king-size four-poster bed with a soft white canopy that doubles up as a mosquito net.</p><p>The three guest bedrooms are located next to each other on the mezzanine floor and are identical.  They each have a king-size four-poster bed with mosquito net and an ensuite bathroom with a tub and a rain shower.  All three bedrooms have floor-to-ceiling sliding windows, allowing guests to fully appreciate the lovely views over the pool and the surrounding area.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4391" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor]]></Heading>
+          <Description><![CDATA[<p>Accessed via a large parking area at the villa’s upper level, Indrani’s entrance hall can best be described as monumental:&nbsp; its wooden panelling and sizeable bamboo lampshades provide a great flavour of what’s to come. </p><p>The villa’s other communal areas are situated on the lower floor.&nbsp; The design of the living and dining space has been kept purposefully minimal, but its subtle furnishings and ornaments nonetheless give it plenty of character.&nbsp; Surrounded on three sides by floor-to-ceiling sliding windows, this space feels very bright and airy. </p><p>The living area has two very comfortable sofas, an armchair and a large TV with smart speakers.&nbsp; The dining area is furnished with an impressive square table seating eight people. </p><p>Within the living and dining space, the well-equipped guest kitchen comes with a Simonelli espresso machine – one of the best coffee makers available.&nbsp; Simply ask one of your butlers to make you a perfect brew any time of the day.&nbsp; The chef, however, prepares most of the meals in a separate staff kitchen tucked discreetly away behind.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor]]></Heading>
+          <Description><![CDATA[<p>The 10 x 10 metre courtyard pool has a large sun deck with six loungers, as well as a small lawn area.&nbsp; Its whitewashed walls ensure plenty of privacy, while a stunning tree root decoration provides a unique focal point.&nbsp; There’s also a fan-cooled outdoor dining table which seats up to ten people – perfect for brunch or dinner by the pool. </p><p>On the mezzanine floor a spiral staircase gives access to the rooftop, which makes a great spot for admiring the sunset with a cocktail in hand. </p><p>Also on the ground floor is a small shrine where staff make their daily offerings.&nbsp; You’re more than welcome to attend one of these intimate ceremonies, or indeed make an offering yourself for good luck (or good times).&nbsp; The staff will be delighted to tell you more about this strongly held Balinese tradition. </p><p>Villa Indrani also has a large parking area just beyond the entrance hall.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4392" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>One of the highlights of staying in a private luxury villa in Bali is the personal service provided by a team of professionally trained staff.  The staff at Villa Indrani will tend to your every need with the charm and friendliness for which the Balinese are so well known.  Just let your villa manager know how much staff presence you’re comfortable with – for example, at mealtimes only, or on hand to serve iced drinks throughout the day – and service can be tailored to suit your preferences.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa manager]]></Heading>
+          <Description><![CDATA[<p>Your villa manager, Made, knows the property and its surroundings inside out.  He takes great care in making sure that guests receive top quality service.  He also oversees the staff and ensures that everything runs smoothly at the villa. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s skilled private chef is available to prepare all meals from the villa’s Western, Asian and vegetarian suggestion menus.  He will also do his best to accommodate special requests and dietary requirements. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Butlers]]></Heading>
+          <Description><![CDATA[<p>Two professionally trained butlers are on hand to attend to guests’ every need, including serving food and beverages at mealtimes, snacks, afternoon tea, cocktails and drinks throughout the day and evening.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Housekeepers]]></Heading>
+          <Description><![CDATA[<p>In addition to the butlers, there are two housekeepers who look after all daily housekeeping and domestic duties. </p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>Four security guards ensure the safety and security of guests both day and night.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gardener and pool        ]]></Heading>
+          <Description><![CDATA[<p>A gardener maintains Villa Indrani’s lovely pool and garden.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4393" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Villa Indrani’s private chef curates a menu of gastronomic treats, including home-style Asian and international dishes, and prepares daily breakfast, lunch and dinner.&nbsp; Among the many tempting local dishes, be sure to try the <span style="font-style: italic;">rendang</span> (beef stew) and <span style="font-style: italic;">nasi goreng</span> (fried rice).&nbsp; The chef is always happy to adapt his meals and take into account additional dietary requirements.</p><p>Groceries and beverages are charged at market price (plus a 20% handling fee which is subject to service and tax at the prevailing rate).&nbsp; Guests will be requested to provide grocery money in advance, and the staff will do the shopping and keep the receipts for reference.&nbsp; To make the most of the kitchen and give staff time to shop, it is recommended to plan meals with the villa manager or chef the evening before.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4394" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa holidays are a great option for families, providing plenty of private and secure space for everyone, and giving guests the freedom to choose what they want to do and when they want to do it. Not having to worry about disturbing other guests is also a plus – creating a more relaxing time for parents and children too. </p><p>The wide glass doors fronting Villa Indrani’s living and dining space make it easy to keep an eye out on the pool and garden, and a pool fence can be hired on request to provide additional safety for toddlers (extra charge applies). Although the lawn in the securely walled courtyard garden is not large, it is a good area for children to play in. And you don’t need to worry about packing lots of bulky children’s equipment. We’d be happy to hire any items on your behalf for the duration of your stay (click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf?_ga=2.78765076.181999741.1531707327-1738552978.1503629452" target="_blank">here</a> to see a list of all available hire items). </p><p>The kitchen is fully equipped if you’d like to prepare baby meals or anything for a fussy eater yourself, although the chef will be happy to do this for you. Just talk through your requirements and meal schedules with the villa manager or with the chef, and they’ll take care of the rest. </p><p>Villa Indrani is a convenient five-minute stroll from the beach. While the ocean swell is too heavy for swimming – even for adults ¬– children can splash around more safely in the calmer water in the nearby lagoon, especially on the side closest to the beach.&nbsp; </p><p>Kids and teenagers will love the waterpark slides and the bouncy trampoline centre at Finns Recreation Club , which is a ten-minute walk from the villa. It also hosts the Cubby House Kids Club that offers a huge range of toys and activities to keep children entertained for hours.</p><p>The Bali Equestrian Centre also provides a great day trip for the entire family with pony rides, day camps, lessons, family village tours and beach rides. </p><p>Check out our <a href="./the-locale/things-do-to.html" target="_self">things to do</a> page for these and plenty of other activities in Berawa and the wider Canggu area that will keep the whole family entertained.</p> ]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4395" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>Looking for some rejuvenation and restoration after all that sunning on the beach or by the pool?&nbsp; Just ask our staff to bring the spa to you.&nbsp; A range of deluxe treatments can be carried out in the comfort of your villa by professional therapists from a reputable local spa (extra charges will apply). </p><p>Here’s a sample of what’s on the spa menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>Release built up tension with a traditional Balinese massage.&nbsp; Therapists will use a combination of acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body.&nbsp; You’ll feel totally relaxed in no time.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p>Foot reflexology is a natural healing skill that focuses on the nerve endings in your feet and the way they correspond with every part of your body.  By applying gentle pressure on these nerve endings therapists are able to relieve tension and improving your circulation.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p>A full body scrub exfoliates and hydrates your skin leaving it soft and smooth.  A rejuvenating scrub combines abrasive materials such as salt, coffee, rice bran or pecan hulls with essential oils.  They remove any impurities and give your skin a lovely glow.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Our hands and feet rarely get the tender care and attention they deserve, so why not treat them to a little manicure or pedicure? You may even be spoiled with an additional cheeky hand or foot massage</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Indrani</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Canggu">Canggu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Subak Sari 13, Br. Tegal Gundul, Desa Tibubeneng, Kuta Utara, Kabupaten Badung</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.66711040</Latitude>
+        <Longitude>115.14452740</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">This elegant, staffed, five-bedroom luxury villa in Canggu’s Berawa Beach is perfect for a family or a group of friends looking for a sun-soaked holiday. &lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>5 bedroom</RoomName>
+        <MinRate>690.00++</MinRate>
+        <MaxRate>1090.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Indrani - Villa feature</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/1. Villa Indrani - Villa feature.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Modern touch of the villa</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/2. Villa Indrani - Modern touch of the villa.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Airy living space</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/3. Villa Indrani - Airy living space.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Living area with tv</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/4. Villa Indrani - Living area with tv.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Food preparation</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/5. Villa Indrani - Food preparation.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Preparing bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/6. Villa Indrani - Preparing bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Bedroom and wardrobe</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/7. Villa Indrani - Bedroom and wardrobe.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Amenities and bathtub</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/8. Villa Indrani - Amenities and bathtub.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Walkway</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/9. Villa Indrani - Walkway.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Temple at villa</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/10. Villa Indrani - Temple at villa.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Friendly villa staff</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/11. Villa Indrani - Friendly villa staff.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Staff preparing guest bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/12. Villa Indrani - Staff preparing guest bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Outdoor dining area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/13. Villa Indrani - Outdoor dining area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Wooden walkways</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/14. Villa Indrani - Wooden walkways.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Indrani - Sunloungers and the pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00225/15. Villa Indrani - Sunloungers and the pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <SDate>2018-10-04T00:00:00+08:00</SDate>
+    <EDate>2018-10-04T00:00:00+08:00</EDate>
+    <RHighlight><p>The total serenity of North Villa combined with its vibrant seafront location and sunset views makes it the place of tropical holiday dreams. This is a thoughtfully designed villa that really makes the most of its fabulous beachfront location. Open, bright and breezy – we were happy just to relax poolside and let every worry wash away with sound of the ocean waves. </p></RHighlight>
+    <RSurroundArea />
+    <VillaID>P00221</VillaID>
+    <ROverallComments><p>As we drove along the quiet coconut-grove lined coastal roads of Natai Beach, even before we arrived at North Villa, we knew we were in store for a peaceful holiday. Somehow this incredibly long and idyllic stretch of sand has escaped the tourist crowds and still feels like a secret treasure. </p><p>The villa’s design is modern and fresh, and its glass frontage, vaulted roof and subtle tones really capture the Andaman seaside setting without imposing on it. It’s a very versatile villa, too, with sumptuous lounging areas inside and out for those who simply want to unwind, while those wanting a more active holiday could make use of the villa’s kayaks, bicycles, swimming pool and beach volleyball equipment. And if five bedrooms aren’t enough, groups and extended families could book this together with next-door South Villa for a 10-bedroom retreat. Sliding doors connect the two villa’s living areas.&nbsp; </p><p>Our only regret is that our visit was too brief to enjoy all that the villa has to offer – we missed the chance to paddle around in the kayaks, and we would have loved to try more of the chef’s amazing Thai meals!</p></ROverallComments>
+    <RUnpleasantSurprise><p>Families with young children will need to keep a close watch on them on the terrace since the pool lacks a safety fence.&nbsp; Having a common lawn area with South Villa means that North Villa guests might have to share the space with others if they don’t book both villas.</p></RUnpleasantSurprise>
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>8.30</RIOverAll>
+    <RICharacter>8</RICharacter>
+    <RILocation>9</RILocation>
+    <RIOutsideArea>8</RIOutsideArea>
+    <RILivingArea>8</RILivingArea>
+    <RIKitchen>8</RIKitchen>
+    <RIBedRm>8</RIBedRm>
+    <RIBathRm>8</RIBathRm>
+    <RIFacility>9</RIFacility>
+    <RIStaff>9</RIStaff>
+    <RIValue>8</RIValue>
+    <RIDate>2018-10-04T00:00:00+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22095062</ReviewsID>
+    <Name>Joanna Chen</Name>
+    <SDate>2018-08-02T00:00:00+08:00</SDate>
+    <EDate>2018-08-06T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>P00221</VillaID>
+    <ROverallComments>This is a cosy and homey holiday house. So comfortable and relaxed! It's great sea views. Had a great time. Thanks AJ, Chef, and all helpers! They are all very helpful.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-10-10T16:52:59.803+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Stephanie C, Thailand</ReviewByName>
+    <UserTaskID>URID22095061</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22393195</ReviewsID>
+    <Name>Lily Qian</Name>
+    <SDate>2018-11-13T00:00:00+08:00</SDate>
+    <EDate>2018-11-16T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>p00221</VillaID>
+    <ROverallComments>Just finishing our last day in the villa, and we are SO sad to leave. We couldn't have had a more relaxing experience. A.J. and the entire staff were nothing short of amazing - from the lovely sunset meal, to the exceptionally clean and comfortable rooms, the food and adventure recommendations - you spared no attention to detail. We are so grateful and hope to visit again very soon. Thank you for making our trip so special. </ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-11-29T16:47:09.487+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Lily Q, Thailand</ReviewByName>
+    <UserTaskID>VMTwinVillas</UserTaskID>
+  </REVIEW>
+</REVIEWS>

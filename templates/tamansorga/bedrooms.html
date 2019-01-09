@@ -1,0 +1,71 @@
+{include file="header.html"}
+<body class="page-id-10 page-child parent-pageid-6 page-template-default">
+{$gtm}	
+	<div id="container">
+	{include file="menu.html"}
+		
+	<div class="wrapper">
+	<div class="contentwrap">
+		<div class="content">
+			<div class="btn-wrap">
+                {include file="book-now.html"}
+                <div class="clear"></div>
+            </div>			
+
+<div class="maincol">
+				<h1 class="entry-title">{#HEADING_BEDROOMS#}</h1>
+				{if 'desc'|array_key_exists:$content[0]}
+                {$content[0].desc}
+                {/if}
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                    	{if $smarty.section.s.index == '0'}
+                            {assign var=parts value="<p>"|explode:$content[0].SubContents[s].Description}
+                            {assign var=count value=$parts|@count}
+                        	{section name=i loop=$count}
+                            	{if $smarty.section.i.index == 0}
+                                	<h3>{$content[0].SubContents[s].Heading}</h3>
+                                    <p class="text_align_right"><?php echo $parts[$i]; ?></p>
+                                    <ul class="bdr-img">
+                                      <li><img src="/resources/tamansorga/content/tamansorga-bedroom_03.jpg" width="750" height="329" alt="Villa Taman Sorga - Bedroom" /></li>
+                                      <li><img src="/resources/tamansorga/content/tamansorga-bedroom_05.jpg" width="260" height="329" alt="Villa Taman Sorga - Bedroom" /></li>
+                                    </ul>
+                                {/if}
+                                
+                                {if $smarty.section.i.index == 1}
+                                	<div id="liv_content2"><p class="text_align_left">{$parts[i]}</p>
+                                {/if}
+                            {/section}
+                        {/if}
+                        
+                        {if $smarty.section.s.index == '1'}
+                        	<h3>{$content[0].SubContents[s].Heading}</h3>
+                            <p>{$content[0].SubContents[s].Description}</p>
+                            <ul class="bdr-img">
+                              <li><img src="/resources/tamansorga/content/tamansorga-bedroom_09.jpg" width="505" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                              <li><img src="/resources/tamansorga/content/tamansorga-bedroom_11.jpg" width="506" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                            </ul>
+                        {/if}
+                        
+                        {if $smarty.section.s.index == '2'}
+                        	<h3>{$content[0].SubContents[s].Heading}</h3>
+                            <p>{$content[0].SubContents[s].Description}</p>
+                            <ul class="bdr-img">
+                              <li><img src="/resources/tamansorga/content/tamansorga-bedroom_15.jpg" width="505" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                              <li><img src="/resources/tamansorga/content/tamansorga-bedroom_16.jpg" width="506" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                            </ul>
+                        {/if}
+					{/section}
+                {/if}
+			</div>
+			<!-- /maincol -->
+		</div>
+		<!-- /content -->
+	</div>
+	<!-- /contentwrap -->
+	</div>
+	<div class="clear"></div>
+	
+    {include file="next-prev.html"}
+
+    {include file="footer.html"}

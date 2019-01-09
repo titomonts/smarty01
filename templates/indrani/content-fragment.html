@@ -1,0 +1,530 @@
+{if $data.page|in_array:['about-villa-indrani']}
+<div class="content-item odd about" id="about">    	
+    <div class="wrapper">
+        <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+            <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc regex="default"}
+                {section name=s loop=3}
+                {$contentPart[s]}
+                {/section}
+            
+            <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Villa Indrani - Villa entrance.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Villa Indrani - Villa entrance.jpg" alt="Villa Indrani - Villa entrance" class="lazyload" /></div>
+               
+                {section name=s start=3 loop=$contentPart}
+                {$contentPart[s]}
+                {/section}
+
+            {/if}
+
+            {if 'SubContents'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents}
+                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+
+            {/if}
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+    <div class="wrapper">
+        <div class="the-content">
+
+        {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {$content[0].desc}
+
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+        {include file="floorplan.html"}
+        </div>
+        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Indrani - Room service.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Indrani - Room service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Indrani%20-%20Room%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Indrani%20-%20Room%20service.jpg 1920w" alt="Villa Indrani - Room service" class="lazyload" /></div>
+    </div>
+		
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+
+        {if 'desc'|array_key_exists:$content[0]}                
+            {$content[0].desc}
+        {/if}
+        </div>
+
+        {section name=s loop=$content[0].SubContents}
+        {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+        <div class="group">
+            <div class="group-wrapper">
+
+            {if $smarty.section.s.index eq 0}
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Indrani - Bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Indrani - Bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Indrani%20-%20Bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Indrani%20-%20Bedroom.jpg 1920w" alt="Villa Indrani - Bedroom" class="lazyload" /></div>
+            </div>
+            {/if}		
+
+            <div class="half half-content">
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+            {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if *}
+            </div>	
+
+            {if $smarty.section.s.index eq 1}
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Indrani - Bedroom outlook.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Indrani - Bedroom outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Indrani%20-%20Bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Indrani%20-%20Bedroom%20outlook.jpg 1920w" alt="Villa Indrani - Bedroom outlook" class="lazyload" /></div>
+            </div>
+            {/if}	
+            </div>
+        </div>   
+
+        {/if}    
+        {/section}
+        
+        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Indrani - Coffee maker.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Indrani - Coffee maker.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Indrani%20-%20Coffee%20maker.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Indrani%20-%20Coffee%20maker.jpg 1920w" alt="Villa Indrani - Coffee maker" class="lazyload" /></div>
+        
+    </div>
+    <div class="clear"></div>
+   
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+
+    <div class="wrapper">
+   
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LVA"}
+        <h2 class="entry-title"><span>Living Areas</span></h2>
+
+        {if 'desc'|array_key_exists:$content[0]}                
+            {$content[0].desc}
+        {/if}
+        </div>
+
+        {section name=s loop=$content[0].SubContents}
+        {if $content[0].SubContents[s].Heading and $content[0].SubContents[s].Description}
+        <div class="group">
+            <div class="group-wrapper">
+
+            {if $smarty.section.s.index eq 0 or $smarty.section.s.index eq 2 or $smarty.section.s.index eq 4}
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Indrani - Modern living area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Indrani - Modern living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Indrani%20-%20Modern%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Indrani%20-%20Modern%20living%20area.jpg 1920w" alt="Villa Indrani - Modern living area" class="lazyload" /></div>
+            </div>
+            {/if}		
+
+            <div class="half half-content">
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+            {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if *}
+            </div>	
+
+            {if $smarty.section.s.index eq 1 or $smarty.section.s.index eq 3 or $smarty.section.s.index eq 5}
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa Indrani - Villa and pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa Indrani - Villa and pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Indrani%20-%20Villa%20and%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Indrani%20-%20Villa%20and%20pool.jpg 1920w" alt="Villa Indrani - Villa and pool" class="lazyload" /></div>
+            </div>
+            {/if}	
+            </div>
+        </div>   
+
+        {/if}    
+        {/section}
+	</div>
+    
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+        <div class="group">
+            <div class="half half-content">
+                <h1 class="entry-title">{$data.heading}</h1>
+                <div class="the-content">
+
+                    {parsedata folder=$data.theme cache=$data.cache content="STAFF"}                           
+                    {if 'desc'|array_key_exists:$content[0]}
+
+                        {$content[0].desc}
+
+                    {/if}
+                </div>
+            </div>
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa Indrani - Coffee and bread for room service.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa Indrani - Coffee and bread for room service.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Indrani%20-%20Coffee%20and%20bread%20for%20room%20service.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Indrani%20-%20Coffee%20and%20bread%20for%20room%20service.jpg 1920w" alt="Villa Indrani - Coffee and bread for room service" class="lazyload" /></div>
+            </div>
+        </div>
+        <div class="group">
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa Indrani - Bread and coffee for breakfast.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa Indrani - Bread and coffee for breakfast.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Indrani%20-%20Bread%20and%20coffee%20for%20breakfast.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Indrani%20-%20Bread%20and%20coffee%20for%20breakfast.jpg 1920w" alt="Villa Indrani - Bread and coffee for breakfast" class="lazyload" /></div>
+            </div>
+            <div class="half half-content">
+                <div class="the-content">
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        <div class="details">
+                        {section name=s loop=$content[0].SubContents}
+                            <dt>{$content[0].SubContents[s].Heading}</dt>
+                            <dd>{$content[0].SubContents[s].Description}</dd>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+                        </div>
+                    {/if}
+                </div>
+            </div>
+        </div>	    
+    </div>
+	
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+        <div class="group">
+            <div class="half half-content">
+                <h1 class="entry-title">{$data.heading}</h1>
+                <div class="the-content">
+
+                    {parsedata folder=$data.theme cache=$data.cache content="DNNG"}                           
+                    {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=1}
+                    {$contentPart[s]}
+                    {/section}
+
+                    {/if}
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa Indrani - Food preparation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa Indrani - Food preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Indrani%20-%20Food%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Indrani%20-%20Food%20preparation.jpg 1920w" alt="Villa Indrani - Food preparation" class="lazyload" /></div>
+            </div>
+        </div>
+        <div class="group">
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa Indrani - Dining preparation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa Indrani - Dining preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Indrani%20-%20Dining%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Indrani%20-%20Dining%20preparation.jpg 1920w" alt="Villa Indrani - Dining preparation" class="lazyload" /></div>
+            </div>
+            <div class="half half-content">
+                <div class="the-content">
+                    {section name=s start=1 loop=$contentPart}
+                    {$contentPart[s]}
+                    {/section}
+
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2 class="entry-title">{$content[0].SubContents[s].Heading}</h2>
+                            {$content[0].SubContents[s].Description}
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+        <div class="group">
+            <div class="half half-content">
+                <h1 class="entry-title">{$data.heading}</h1>
+                <div class="the-content">
+
+                    {parsedata folder=$data.theme cache=$data.cache content="FAM"}                           
+                    {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=1}
+                    {$contentPart[s]}
+                    {/section}
+
+                    {/if}
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa Indrani - Sunloungers and the pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa Indrani - Sunloungers and the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Indrani%20-%20Sunloungers%20and%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Indrani%20-%20Sunloungers%20and%20the%20pool.jpg 1920w" alt="Villa Indrani - Sunloungers and the pool" class="lazyload" /></div>
+            </div>
+        </div>
+        <div class="group">
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa Indrani - Upstair bedroom view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa Indrani - Upstair bedroom view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Indrani%20-%20Upstair%20bedroom%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Indrani%20-%20Upstair%20bedroom%20view.jpg 1920w" alt="Villa Indrani - Upstair bedroom view" class="lazyload" /></div>
+            </div>
+            <div class="half half-content">
+                <div class="the-content">
+                    {section name=s start=1 loop=$contentPart}
+                    {$contentPart[s]}
+                    {/section}
+
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2 class="entry-title">{$content[0].SubContents[s].Heading}</h2>
+                            {$content[0].SubContents[s].Description}
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+
+                    {/if}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+        <div class="group">
+            <div class="half half-content">
+                <h1 class="entry-title">{$data.heading}</h1>
+                <div class="the-content">
+
+                    {parsedata folder=$data.theme cache=$data.cache content="SPA"}                           
+                    {if 'desc'|array_key_exists:$content[0]}
+
+                        {$content[0].desc}
+
+                    {/if}
+                </div>
+            </div>
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa Indrani - Enjoying the pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa Indrani - Enjoying the pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Indrani%20-%20Enjoying%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Indrani%20-%20Enjoying%20the%20pool.jpg 1920w" alt="Villa Indrani - Enjoying the pool" class="lazyload" /></div>
+            </div>
+        </div>
+        <div class="group">
+            <div class="half">
+                <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa Indrani - Relaxing bathtub.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa Indrani - Relaxing bathtub.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Indrani%20-%20Relaxing%20bathtub.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Indrani%20-%20Relaxing%20bathtub.jpg 1920w" alt="Villa Indrani - Relaxing bathtub" class="lazyload" /></div>
+            </div>
+            <div class="half half-content">
+                <div class="the-content">
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        <div class="details">
+                        {section name=s loop=$content[0].SubContents}
+                            <dt>{$content[0].SubContents[s].Heading}</dt>
+                            <dd>{$content[0].SubContents[s].Description}</dd>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+                        </div>
+                    {/if}
+                </div>
+            </div>
+        </div>	    
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['canggu-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The Locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            <p>{$content[0].desc}</p>
+
+        {/if}
+        <div class="clear"></div>
+        <div class="area">
+            <div class="map_div" id="map_div_locale"></div>
+            {if 'SubContents'|array_key_exists:$content[0]}
+                <h3>Distances</h3>
+                <dl class="distances">
+                    {section name=s loop=$content[0].SubContents}
+                        <dt>{$content[0].SubContents[s].Heading}</dt>
+                        <dd>{$content[0].SubContents[s].Description}</dd>
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+                </dl>
+            {/if}
+            <div class="clear"></div>
+        </div>
+        </div>
+    
+        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa Indrani - Reading and relaxing.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa Indrani - Reading and relaxing.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Villa%20Indrani%20-%20Reading%20and%20relaxing.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Indrani%20-%20Reading%20and%20relaxing.jpg 1920w" alt="Villa Indrani - Reading and relaxing" class="lazyload" /></div>
+    </div>    
+</div>   
+{/if}
+
+{if $data.page|in_array:['canggu-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+  
+    <div class="the-content">
+	    <div class="wrapper">
+		{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+		<h2 class="entry-title"><span>Things to Do</span></h2>
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+			{section name=s loop=$contentPart}
+				{$contentPart[s]}
+			{/section}
+		{/if}
+            <div class="group">
+            {if 'desc'|array_key_exists:$content[0]}
+                {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+                {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+                {section name=s loop=$contentPart}
+
+                {if $smarty.section.s.index neq $smarty.section.s.first}
+                    {if $smarty.section.s.index mod 2}		
+                        <div class="half">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa Indrani%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa Indrani%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+                        </div>				
+                        <div class="half half-content">
+                        <p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+                        </div>					
+                    {else}
+                        <div class="half half-content">
+                        <p>{$contentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+                        </div>
+                        <div class="half">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa Indrani%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa Indrani%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+                        </div>
+                    {/if}
+                {/if}
+
+                {/section}
+
+                {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+		    {/if}
+        </div>
+	</div>
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+	<div class="content-item weddings" id="weddings">
+    <h1 class="entry-title">Weddings</h1>
+    <div class="wrapper">
+        <div class="the-content">
+	{parsedata folder=$data.theme cache=$data.cache content="EVT"}
+		
+		{if 'desc'|array_key_exists:$content[0]}
+
+			{contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            {$contentPart[s]}
+            {/section} 
+            
+            <div class="group">
+                {contentpart content=$content[0].desc|replace:['<ul> </ul>']:[''] regex="/<ul>(.*?)<\/ul>/s"}
+                {section name=s loop=$contentPart}
+                {$contentPart[s]|replace:['<ul>']:['<ul class="capacity">']}
+                {/section}
+
+                <div class="guidelines">
+                    {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+                    {section name=s loop=1}
+                    {$contentPart[s]|replace:'<br />': ''}
+                    {/section} 
+                    {section name=s start=1 loop=$contentPart}
+                    {$contentPart[s]|replace:'<br />': ''}
+                    {/section} 
+                </div>
+            </div>
+
+		{/if}
+		</div>
+	</div>
+    
+    <div class="group">
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa Indrani - Wedding celebration.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa Indrani - Wedding celebration.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Indrani%20-%20Wedding%20celebration.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Indrani%20-%20Wedding%20celebration.jpg 1920w" alt="Villa Indrani - Wedding celebration" class="lazyload" /></div>
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa Indrani - Wedding ceremony.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa Indrani - Wedding ceremony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Indrani%20-%20Wedding%20ceremony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Indrani%20-%20Wedding%20ceremony.jpg 1920w" alt="Villa Indrani - Wedding ceremony" class="lazyload" /></div>
+    </div>
+	</div>
+{/if}  

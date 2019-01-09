@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>San</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa San</villa_name>
+		<google_analytics>UA-26286899-1</google_analytics>
+		<location>Bali</location>
+		<sublocation> Ubud</sublocation>
+		<bedrooms>6</bedrooms>
+		<hrental_id>'San', 'Bali', 'Ubud', '6br'</hrental_id>
+		<ehgLocation>Bali, Ubud</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

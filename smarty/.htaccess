@@ -1,0 +1,7 @@
+# This file has been edited by SureSupport.com automatic tools on Thu Nov 15 16:42:34 2012, to make it
+# compatible with Apache 2.4. 
+
+#Options +Indexes 
+Options +Indexes
+
+IndexIgnore *

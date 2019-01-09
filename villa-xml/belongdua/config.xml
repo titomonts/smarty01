@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>BelongDua</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Belong Dua</villa_name>
+		<google_analytics>UA-16915955-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Seseh</sublocation>
+		<bedrooms>2</bedrooms>
+		<hrental_id>'BelongDua', 'Bali', '2br'</hrental_id>
+		<ehgLocation>Bali, Seseh</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

@@ -1,0 +1,341 @@
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+		
+		<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Cemara%20-%20Bedroom%20style.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Cemara%20-%20Bedroom%20style.jpg" alt="Villa Cemara - Bedroom style" class="lazyload" /></div>
+		<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Cemara%20-%20Spacious%20bedroom%20design.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Cemara%20-%20Spacious%20bedroom%20design.jpg" alt="Villa Cemara - Spacious bedroom design" class="lazyload" /></div>
+		
+        {if 'desc'|array_key_exists:$content[0]}
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+        {/if}
+        
+		{section name=s loop=$content[0].SubContents}
+			<h3>{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+						</a>
+					</p>
+				{/if}
+		{/section}
+
+	<div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Cemara%20-%20Bedroom%20interior.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Cemara%20-%20Bedroom%20interior.jpg" alt="Villa Cemara - Bedroom interior" class="lazyload" /></div>		
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+        <h2 class="entry-title"><span>Living areas</span></h2>
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Cemara%20-%20Explore%20fullwidth.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Cemara%20-%20Explore%20fullwidth.jpg" alt="Villa Cemara - Explore fullwidth" class="lazyload" /></div>
+        
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+        <h2 class="entry-title"><span>Staff</span></h2>	
+		
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {if 'SubContents'|array_key_exists:$content[0]}
+        	<dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+		<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Cemara%20crew.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Cemara%20crew.jpg" alt="Villa Cemara - Cemara crew" class="lazyload" /></div>
+		<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Coffee%20anywhere.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Coffee%20anywhere.jpg" alt="Villa Cemara - Coffee anywhere" class="lazyload" /></div>
+		<div class="clear"></div>
+    </div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+        <h2 class="entry-title"><span>Dining</span></h2>
+		
+		<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Fresh%20food%20BBQ.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Fresh%20food%20BBQ.jpg" alt="Villa Cemara - Fresh food BBQ" class="lazyload" /></div>
+		
+        {if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		
+        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Fresh%20seafood.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Fresh%20seafood.jpg" alt="Villa Cemara - Fresh seafood" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Appetising%20breakfast.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Appetising%20breakfast.jpg" alt="Villa Cemara - Appetising breakfast" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+        <h2 class="entry-title"><span>Families</span></h2>
+        
+        <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Pool%20time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Pool%20time.jpg" alt="Villa Cemara - Pool time" class="lazyload" /></div>
+        
+		{if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		
+		<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Kids%20play%20time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Kids%20play%20time.jpg" alt="Villa Cemara - Kids play time" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Food%20anytime.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Food%20anytime.jpg" alt="Villa Cemara - Food anytime" class="lazyload" /></div>
+        <div class="clear"></div>
+		
+    </div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="SPA"}
+        <h2 class="entry-title"><span>Spa</span></h2>
+		<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Bathtub%20flower.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Bathtub%20flower.jpg" alt="Villa Cemara - Bathtub flower" class="lazyload" /></div>
+		
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        
+        {if 'SubContents'|array_key_exists:$content[0]}
+        	<dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+        <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20Flowers%20decoration%20detail.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20Flowers%20decoration%20detail.jpg" alt="Villa Cemara - Flowers decoration detail" class="lazyload" /></div>
+        <div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/experience/thumb/Villa%20Cemara%20-%20spa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/experience/Villa%20Cemara%20-%20spa.jpg" alt="Villa Cemara - Spa" class="lazyload" /></div>
+        <div class="clear"></div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['sanur-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+                            	
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+        {/if}
+        <div class="map_div" id="map_div_locale"></div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+        	<dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+    </div>
+	
+</div>   
+<div class="clear"></div>
+{/if}
+
+{if $data.page|in_array:['sanur-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="wrapper">
+    	{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h2 class="entry-title"><span>Things to do</span></h2>
+		
+		<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Cemara%20-%20Golf%20course%20next%20door.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Cemara%20-%20Golf%20course%20next%20door.jpg" alt="Villa Cemara - Golf course next door" class="lazyload" /></div>
+		{if 'desc'|array_key_exists:$content[0]}
+            {$content[0].desc}
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+		<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Cemara%20-%20Afternoon%20cycling.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Cemara%20-%20Afternoon%20cycling.jpg" alt="Villa Cemara - Afternoon cycling" class="lazyload" /></div>
+		<div class="third-img"><img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Cemara%20-%20Jet%20ski.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Cemara%20-%20Jet%20ski.jpg" alt="Villa Cemara - Jet ski" class="lazyload" /></div>
+        <div class="clear"></div>
+		<!-- {if 'desc'|array_key_exists:$content[0]}
+        	
+        	{contentpart content=$content[0].desc regex="default"}
+        	{contentpart content=$contentPart[0] strip=["<p>", "</p>"] explode="<br /> <br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            
+            <div class="group">
+        	{contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+        	{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+				{if $smarty.section.s.index mod 2}
+					<div class="half half-content">
+					{$contentPart[s]|replace:['<li>','</li>']:['', '']}
+					</div>
+					<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Cemara%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Cemara%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+					</div>
+				{else}
+					<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Cemara%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Cemara%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+					</div>
+					<div class="half half-content">
+					{$contentPart[s]|replace:['<li>','</li>']:['', '']}
+					</div>
+				{/if}
+            {/section}
+            </div>
+        {/if}
+        
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section} -->		
+		
+    </div>
+</div>
+{/if}

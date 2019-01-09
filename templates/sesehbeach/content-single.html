@@ -1,0 +1,177 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['press']}
+
+    <div class="press-container">
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2017/Seseh-Beach-Villa_HONEYCOMBERS-wedding-villas_May-5th,2017.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2017/Seseh-Beach-Villa_HONEYCOMBERS-wedding-villas_May-5th,2017.png" class="imgleft"></a>
+            <span>“Wedding venues in Bali.” <a href="/resources/{$data.theme}/pdfs/2017/Seseh-Beach-Villa_HONEYCOMBERS-wedding-villas_May-5th,2017.pdf" target="_blank"><strong>Honeycombers.com</strong>, May 5th, 2017.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2016/Seseh-Beach-Villa_FRV-12.3_February,2016.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2016/Seseh-Beach-Villa_FRV-12.3_February,2016.jpg" class="imgleft"></a>
+            <span>“Two in one beachfront.” <a href="/resources/{$data.theme}/pdfs/2016/Seseh-Beach-Villa_FRV-12.3_February,2016.pdf" target="_blank"><strong>FRV Travel</strong>, February, 2016.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2015/Seseh-Beach-Villa_New-accommodation-in-Bali_October-23,2015.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2015/Seseh-Beach-Villa_New-accommodation-in-Bali_October-23,2015.jpg" class="imgleft"></a>
+            <span>“Seseh beach villas.” <a href="/resources/{$data.theme}/pdfs/2015/Seseh-Beach-Villa_New-accommodation-in-Bali_October-23,2015.pdf" target="_blank"><strong>Honeycombers bali</strong>, October 23, 2015.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_Tropical-life_Sep–Dec,2014.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_Tropical-life_Sep–Dec,2014.jpg" class="imgleft"></a>
+            <span>“Seseh Beach Villa presents itself as an enchanting blend of traditional thatch and timber that encloses a superbly tasteful modern interior.” <a href="/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_Tropical-life_Sep–Dec,2014.pdf" target="_blank"><strong>Tropical Life</strong>, Sep – Dec, 2014.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_Expat-Living-Singapore_14-Sept,2014.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_Expat-Living-Singapore_14-Sept,2014.jpg" class="imgleft"></a>
+            <span>“Holiday hotspots in Indo.” <a href="/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_Expat-Living-Singapore_14-Sept,2014.pdf" target="_blank"><strong>Expat Living</strong>, September, 2014.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_FRV-11.2_Aug-Sept,2014.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_FRV-11.2_Aug-Sept,2014.jpg" class="imgleft"></a>
+            <span>“Seseh Beach Villa.” <a href="/resources/{$data.theme}/pdfs/2014/Seseh-Beach-Villa_FRV-11.2_Aug-Sept,2014.pdf" target="_blank"><strong>FRV Travel</strong>, Edition 11.2 Aug – Sep, 2014.</a></span>
+        </div>
+    </div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+	
+{elseif $data.page|in_array:['guest-reviews']}
+	
+	<div id="tabs" class="tabs spy-tabs">
+		<ul>
+			<li><a href="#reviews-north">Seseh Beach Villa I</a></li>
+			<li><a href="#reviews-south">Seseh Beach Villa II</a></li>
+		</ul>
+		<div id="reviews-north"  class="reviews-north">
+			 <div class="reviews-container" >
+				{reviews hide_this_year="2010" order="c,n,d" villa_id="P00004"}
+				{$reviews}
+			</div>
+			
+		</div>
+		<div id="reviews-south" class="reviews-south">
+			 <div class="reviews-container">
+				{reviews hide_this_year="2010" order="c,n,d" villa_id="P00006"}
+				{$reviews}
+			</div>
+			
+		</div>
+		<div class="reviews-pagination">
+				{if $data.cur_page > 1}
+				<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+				{/if}
+				{section name=pg loop=$data.num_pages}
+				{if $data.cur_page == $smarty.section.pg.index+1}
+				<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+				{else}
+				<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+				{/if}
+				{/section}
+				{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+				<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				{/if}
+			</div>		
+	</div>   
+
+{elseif $data.page|in_array:['connecting-villas']}
+   
+    {if 'desc'|array_key_exists:$content[0]}
+    <div class="content-item connecting-villas" id="connecting-villas">
+        <div class="wrapper">
+            <p>{$content[0].desc}</p>
+        </div>
+    </div>
+    {/if}
+    
+    
+{elseif $data.page|in_array:['rates','availability-calendar']}
+    
+    <!-- <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#rates-sesehbeach-1">Seseh Beach Villa I</a></li>
+            <li><a href="#rates-sesehbeach-2">Seseh Beach Villa II</a></li>
+        </ul>
+        <div id="rates-sesehbeach-1">
+            {* rates vid="P00004" folder=$data.theme *}
+            <div id="tabs"></div>
+        </div>
+        <div id="rates-sesehbeach-2">
+            {*rates vid="P00006" folder=$data.theme*}
+        </div>
+    </div> -->
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-twin-villas-natai' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

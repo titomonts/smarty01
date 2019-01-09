@@ -1,0 +1,63 @@
+{include file="header.html"}
+   <div class="content-container photo-gallery">
+        <div class="content">
+            <div class="content-item odd">
+                <div class="wrapper">
+					<div class="container_12 clearfix">
+					<div class="entry-content grid_12">
+					<header class="entry-header grid_6">
+                    	<h1 class="entry-title">
+                        {if $data.complex == 'yes'}
+                        {$data.teaser_data.Villa.Info[0].Name}
+                        {else}
+                        {$data.teaser_data.Villa.Info.Name}
+                        {/if}
+                        </h1>
+                    </header>
+					<div class="headright grid_6">
+                        <h1 class="entry-title">
+                        {#GALLERY_LABEL#}
+                        </h1>
+                    </div>
+					<div class="clear"></div>
+                    {if $data.complex != 'yes'}
+						<div class="gallery">
+							<ul class="gallery-container">
+								{section name=i loop=$data.teaser_data.Villa.Info.Images.Image}
+								<li>
+									<a rel="gallery" href="{$data.teaser_data.Villa.Info.Images.Image[i].Url}" title="{$data.teaser_data.Villa.Info.Images.Image[i].Caption}"  >
+										<img title="{$data.teaser_data.Villa.Info.Images.Image[i].Url}" alt="{$data.teaser_data.Villa.Info.Images.Image[i].Caption}" data-src="{$data.teaser_data.Villa.Info.Images.Image[i].Url}" class="lazyload" height="132" width="248" />
+										<p>{$data.teaser_data.Villa.Info.Images.Image[i].Caption}</p>
+									</a>
+								</li>
+								{/section}
+							</ul>
+							<div class="gallery-pagination">
+								{if $data.cur_page > 1}
+								<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+								{/if}
+								{section name=pg loop=$data.num_pages}
+								{if $data.cur_page == $smarty.section.pg.index+1}
+								<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+								{else}
+								<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+								{/if}
+								{/section}
+								{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+								<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+								{/if}
+							</div>
+						</div>
+						{else}
+						
+						{include file="galleries.html"}
+
+						{/if}
+						
+					</div>
+                </div>
+            </div>                    
+        </div>
+    </div>
+</div>
+{include file="footer.html"}

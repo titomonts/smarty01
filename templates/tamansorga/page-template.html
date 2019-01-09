@@ -1,0 +1,286 @@
+{include file="header.html"}
+<body class="page-parent page-template-default">
+{$gtm}	
+	<div id="container">
+	{include file="menu.html"}
+	
+    {include file="banner.html"}
+		
+	<div class="wrapper">
+	<div class="contentwrap">
+		<div class="content">
+			
+            <div class="btn-wrap">
+                {if ($data.page neq 'availability-calendar') && ($data.page neq 'general-enquiries') && ($data.page neq 'reservations')}
+                    {include file="book-now.html"}
+                {/if}
+             
+                <div class="clear"></div>
+            </div>	
+
+			<div class="maincol">
+			
+
+                <!-- ABOUT *****************-->
+                {if $data.page == 'about-villa-tamansorga'}
+                    <h1 class="entry-title">{#HEADING_ABOUT#}</h1>
+
+                <!-- CONTACT US *****************-->
+                {elseif $data.page == 'contact-us'}
+                    <h1 class="entry-title">{#HEADING_CONTACT_US#}</h1>
+                    
+                <!-- FAMILIES *****************-->
+                {elseif $data.page == 'families'}
+                    <h1 class="entry-title">{#HEADING_FAMILIES#}</h1>
+                    
+                <!-- SPA *****************-->
+                {elseif $data.page == 'spa'}
+                    <h1 class="entry-title">{#HEADING_SPAGYM#}</h1>
+
+                <!-- VILLA LAYOUT *****************-->
+                {elseif $data.page == 'villa-layout'}
+                    <h1 class="entry-title">{#HEADING_VILLA_LAYOUT#}</h1>
+                    
+                <!-- STAFF *****************-->
+                {elseif $data.page == 'staff'}
+                    <h1 class="entry-title">{#HEADING_STAFF#}</h1>
+
+                <!-- QUICK FACTS *****************-->
+                {elseif $data.page == 'quick-facts'}
+                    <h1 class="entry-title">{#HEADING_QF#}</h1>
+
+                <!-- GUEST REVIEWS *****************-->
+                {elseif $data.page == 'guest-reviews'}
+                    <h1 class="entry-title">{#HEADING_GUEST_REVIEWS#}</h1>
+                    {$content}
+
+                <!-- LINKS *****************-->
+                {elseif $data.page == 'links'}
+                    <h1 class="entry-title">{#HEADING_LINKS#}</h1>
+                    {$content}
+
+                <!-- THINGS TO DO *****************-->
+                {elseif $data.page == 'things-to-do'}
+                    <h1 class="entry-title">{#HEADING_THINGS_TO_DO#}</h1>
+
+                <!-- GENERAL ENQUIRIES *****************-->
+                {elseif $data.page == 'general-enquiries'}
+                    <h1 class="entry-title">{#HEADING_GEN_ENQUIRY#}</h1>
+                    <div class="pata-guarantee">
+                        <div class="pata-logo">
+                            <img src="/resources/tamansorga/images/logo-pata.png" alt="PATA" />
+                        </div>
+                        <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+                    </div>
+                    <br/>
+                    {$content}
+
+
+                <!-- THE LOCALE *****************-->
+                {elseif $data.page == 'the-locale'}
+                    <h1 class="entry-title">{#HEADING_THE_LOCALE#}</h1>
+                    {if 'desc'|array_key_exists:$content[0]}
+                    {$content[0].desc}
+                    {/if}
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        <h3>Distances</h3>
+                        <dl class="short" style="margin-bottom: 25px;">
+                        {section name=s loop=$content[0].SubContents}
+                            <dt>{$content[0].SubContents[s].Heading}</dt>
+                            <dd>{$content[0].SubContents[s].Description}</dd>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+                        </dl>
+                    {/if}
+                    <div id="location">
+                        <a rel="gallery" href="/resources/tamansorga/content/balimap-tamansorga-big.jpg">
+                            <img class="alignleft" src="/resources/tamansorga/content/balimap-tamansorga.jpg" width="312" />
+                        </a>
+                        <a rel="gallery" href="/resources/tamansorga/content/map-tamansorga-big.jpg">
+                            <img class="alignleft" src="/resources/tamansorga/content/map-tamansorga.jpg" width="312" />
+                        </a>
+                    </div>
+
+    
+
+                <!-- AVAILABILITY CALENDAR *****************-->
+                {elseif $data.page == 'rates'}
+                    <h1 class="entry-title">{#HEADING_RATES#}</h1>
+                    <div class="pata-guarantee">
+                        <div class="pata-logo">
+                            <img src="/resources/tamansorga/images/logo-pata.png" alt="PATA" />
+                        </div>
+                        <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+                    </div>
+                    {$content}
+
+
+                <!-- AVAILABILITY CALENDAR *****************-->
+                {elseif $data.page == 'availability-calendar'}
+                    <h1 class="entry-title">{#HEADING_AVAILABILITY#}</h1>
+                    <div class="pata-guarantee">
+                        <div class="pata-logo">
+                            <img src="/resources/tamansorga/images/logo-pata.png" alt="PATA" />
+                        </div>
+
+                        <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+                    </div>
+
+                    <p><iframe id="iframeCalendar" src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&#038;Villaid=Jt8oSp3C2rCDJasoJ1S0%2FQ==&#038;did=CQcwbq3UtwZ%2BJkstgypUvvx5w5W88h%2FA" height="280px" frameBorder="0" width="590px" allowtransparency="true" scrolling="auto"></iframe></p>
+
+                    <div style="width:100%; margin-top: 0px;">
+                        <iframe id="calendarinfo" src="http://www.marketingvillas.com/db/index.php?c=iframe&#038;m=calendar&#038;url={$data.home_uri|replace:'http://':''}&#038;style=/resources/tamansorga/style.css&#038;rsv=/reservations.html&#038;enquiry=/general-enquiries.html" frameBorder="0" width="100%" height="300px" scrolling="no" allowtransparency="true"></iframe>
+                    </div>
+
+                
+                <!-- RESERVATION *****************-->
+                {elseif $data.page == 'reservations'}
+                    <h1 class="entry-title">{#HEADING_ENQUIRE#}</h1>
+                    <div class="pata-guarantee">
+                        <div class="pata-logo">
+                            <img src="/resources/tamansorga/images/logo-pata.png" alt="PATA" />
+                        </div>
+                        <div class="best-rates"><a href="#" class="tooltip"><span class="classic">Our villa is offered at the same price per night to everyone. If you find a genuinely lower publicly available rate for our villa for the same dates, we will match the rate plus have a bottle of champagne (served chilled by our butler of course) waiting for you at check-in.</span></a></div>
+                    </div>
+                    <br/>
+                    {$content}
+
+
+                <!-- BEDROOMS *****************-->
+                {elseif $data.page == 'bedrooms'}
+                    <h1 class="entry-title">{#HEADING_BEDROOMS#}</h1>
+                    {if 'desc'|array_key_exists:$content[0]}
+                    {$content[0].desc}
+                    {/if}
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            {if $smarty.section.s.index == '0'}
+                                {assign var=parts value="<p>"|explode:$content[0].SubContents[s].Description}
+                                {assign var=count value=$parts|@count}
+                                {section name=i loop=$count}
+                                    {if $smarty.section.i.index == 0}
+                                        <h3>{$content[0].SubContents[s].Heading}</h3>
+                                        <p class="text_align_right"><?php echo $parts[$i]; ?></p>
+                                        <ul class="bdr-img">
+                                          <li><img src="/resources/tamansorga/content/tamansorga-bedroom_03.jpg" width="750" height="329" alt="Villa Taman Sorga - Bedroom" /></li>
+                                          <li><img src="/resources/tamansorga/content/tamansorga-bedroom_05.jpg" width="260" height="329" alt="Villa Taman Sorga - Bedroom" /></li>
+                                        </ul>
+                                    {/if}
+                                    
+                                    {if $smarty.section.i.index == 1}
+                                        <div id="liv_content2"><p class="text_align_left">{$parts[i]}</p>
+                                    {/if}
+                                {/section}
+                            {/if}
+                            
+                            {if $smarty.section.s.index == '1'}
+                                <h3>{$content[0].SubContents[s].Heading}</h3>
+                                <p>{$content[0].SubContents[s].Description}</p>
+                                <ul class="bdr-img">
+                                  <li><img src="/resources/tamansorga/content/tamansorga-bedroom_09.jpg" width="505" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                                  <li><img src="/resources/tamansorga/content/tamansorga-bedroom_11.jpg" width="506" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                                </ul>
+                            {/if}
+                            
+                            {if $smarty.section.s.index == '2'}
+                                <h3>{$content[0].SubContents[s].Heading}</h3>
+                                <p>{$content[0].SubContents[s].Description}</p>
+                                <ul class="bdr-img">
+                                  <li><img src="/resources/tamansorga/content/tamansorga-bedroom_15.jpg" width="505" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                                  <li><img src="/resources/tamansorga/content/tamansorga-bedroom_16.jpg" width="506" height="330" alt="Villa Taman Sorga - Bedroom" /></li>
+                                </ul>
+                            {/if}
+                        {/section}
+                    {/if}
+
+                
+                <!-- PRESS *****************-->
+                {elseif $data.page == 'press'}
+                    <h1 class="entry-title">{#HEADING_PRESS#}</h1>
+                    <div class="new_press_list">
+                        <div class="cover_pic">
+                            <a href="/resources/tamansorga/pdfs/TheAsiaVillaGuide-TamanSorga-2011.pdf" target="_blank">
+                            <img src="/resources/tamansorga/pdfs/cover-avg.jpg"/>
+                            </a>
+                        </div>
+                        <div class="press_text">
+                            “As a result, Taman Sorga is a place designed for entertaining and hospitality on a grand scale; this is a sanctuary where world travelers who are used to the very best ‐ diplomats, heads of state, rock stars, royalty and the elite ‐ will feel at home.” <em>Taman Sorga</em>, <a href="/resources/tamansorga/pdfs/TheAsiaVillaGuide-TamanSorga-2011.pdf" target="_blank"><strong>The Asia Villa Guide</strong>, First Edition 2011</a>.
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                
+                    <div class="new_press_list">
+                        <div class="cover_pic">
+                            <a href="/resources/tamansorga/pdfs/FRV6-3-Tamansorga.pdf" target="_blank">
+                            <img src="/resources/tamansorga/pdfs/cover-6.3.jpg"/>
+                            </a>
+                        </div>
+                        <div class="press_text">
+                            “With its whimsical nature and luxurious finishing, this rental property is ideally suited to experience the best that Bali has to offer.” <a href="/resources/tamansorga/pdfs/FRV6-3-Tamansorga.pdf" target="_blank">Taman Sorga; a heavenly haven in Sanur</em>, <strong>FRV</strong>, Edition 6.3, Oct Nov ’09</a>.
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                    <div class="new_press_list">
+                        <div class="cover_pic">
+                            <a href="/resources/tamansorga/pdfs/7-Perfectly-Good-Reasons-for-a-Chinese-New-Year-Holiday-in-Bali.pdf" target="_blank">
+                                <img src="/resources/tamansorga/pdfs/7-Perfectly-Good-Reasons-for-a-Chinese-New-Year-Holiday-in-Bali.jpg"/>
+                            </a>
+                        </div>
+                        <div class="press_text">
+                            <a href="/resources/tamansorga/pdfs/7-Perfectly-Good-Reasons-for-a-Chinese-New-Year-Holiday-in-Bali.pdf" target="_blank">7 Perfectly Good Reasons for a Chinese New Year Holiday in Bali</em>, <strong>Press release</strong>, Edition February 10, 2015</a>.
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                <!-- FLOORPLAN *****************-->
+                {elseif $data.page == 'floorplan'}
+                    <h1 class="entry-title">{#HEADING_FLOORPLAN#}</h1>
+                    <div class="aligncenter">
+                        <div style="background: #fff; margin-bottom: 10px; text-align: center;">
+                            <img src="/resources/tamansorga/content/taman-sorga-floorplan-web.jpg" alt="Villa Taman Sorga floorplan" width="800" height="494" />
+                        </div>
+                        <p style="text-align:center;"><a href="/resources/tamansorga/content/taman-sorga-floorplan-hires.jpg" target="_blank">Download in high resolution</a></p>
+                    </div>
+
+                <!-- END IF -->
+                {/if}
+            
+                {if $data.page|in_array:['rates','about-villa-tamansorga','things-to-do','links','guest-reviews','links','guest-reviews','quick-facts','staff','villa-layout','spa','families','contact-us']}
+                    {if 'desc'|array_key_exists:$content[0]}
+                    {$content[0].desc}
+                    {/if}
+                    {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h3>{$content[0].SubContents[s].Heading}</h3>
+                            <p>{$content[0].SubContents[s].Description}</p>
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                        {/section}
+                    {/if}
+                {/if}
+
+			</div>
+			<!-- /maincol -->
+		</div>
+		<!-- /content -->
+        
+	</div>
+	<!-- /contentwrap -->
+	</div>
+	<div class="clear"></div>
+
+    {include file="next-prev.html"}
+    
+    {include file="footer.html"}

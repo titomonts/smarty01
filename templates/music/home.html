@@ -1,0 +1,78 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="group">
+						<div class="group-wrapper">	
+							<div class="half bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Music - Designer touch.jpg">
+								<div class="firts-img">
+									 <ul class="poi">
+										<li id="poi-1">Sunset <br/>View</li> 
+										<li id="poi-2">Private <br/>Chef</li>
+										<li id="poi-3">Fully <br/>Staffed</li>
+										<li id="poi-4">Family <br/>Friendly</li>
+									</ul> 
+								</div>
+							</div>
+							<div class="half half-content">
+								<h1 class="entry-title">{$data.heading}</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="group">
+						<div class="group-wrapper">	
+							<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Music%20-%20Balcony%20sitting%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Music%20-%20Balcony%20sitting%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Music%20-%20Balcony%20sitting%20area.jpg 1920w" alt="Villa Music - Balcony sitting area" class="lazyload" /></div>
+							<div class="half half-content">
+								{if $data.content_id != ''}
+									{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+								{/if}
+								{if 'desc'|array_key_exists:$content[0]}
+
+									{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+									{section name=s loop=$contentPart}
+									<p>{$contentPart[s]|replace:'<br />':''}</p>
+									{/section}
+
+								{/if}
+
+								{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents}
+									<h2>{$content[0].SubContents[s].Heading}</h2>
+									{$content[0].SubContents[s].Description}
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+									{/section}
+								{/if}
+							</div>
+						</div>
+					</div>
+                </div>  
+                
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-music', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

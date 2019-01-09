@@ -1,0 +1,169 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Kaba Kaba Estate - Beringkit (master) bedroom garden view.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+							<ul class="poi">
+								<li id="poi-1">Spectacular<br> location</li>
+								<li id="poi-2">Fully<br> staffed</li>
+								<li id="poi-3">8 ensuite<br> bedrooms</li>
+								<li id="poi-4">Family<br> friendly</li>								
+							</ul>
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+
+                            {if 'desc'|array_key_exists:$content[0]}
+                            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+                            {section name=s loop=$contentPart}
+                            <p>{$contentPart[s]}</p>
+                            {/section}
+                            {/if}	
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>    
+                {* <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div> *}
+               
+			   <!-- PAGE Experience -->
+                <div class="content-item">  
+					<div class="shortcut box-experience">						
+					</div>
+				</div>
+				 <!-- END PAGE Experience -->
+				 
+				<!-- ART -->
+				<div class="content-item">  
+					<div class="shortcut box-art">
+						<div class="box-container"> 
+						
+							<div class="box">
+								<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Kaba Kaba Estate - Art.jpg"></div>																
+								<div class="wrapper">
+									<div class="group">
+										<div class="content home-reviews">
+											<div class="sub-villa-content">
+												<h3>Art Gallery</h3>
+												<p>Artist: Dodit Artawan <br />Title: Pool Party series <br />Year: 2012 <br />Medium: Acrylic on canvas
+												</p>
+												<div>
+													<a href="/art.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Art']);">More</a>
+												</div>												
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							
+							<div class="box">
+								<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Kaba Kaba Estate - Dadi Setiyadi.jpg"></div>														
+								<div class="wrapper">
+									<div class="group">
+										<div class="content home-reviews">
+											<div class="sub-villa-content">
+												<h3>Art Gallery</h3>
+												<p>Artist: Dadi Setiyadi  <br />Title: White Goat <br />Year: 2011</p>
+												<div>
+													<a href="/art.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Art']);">More</a>
+												</div>												
+											</div>
+										</div>
+									</div>
+								</div>
+									
+							</div>
+							
+							<div class="box">
+								<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Kaba Kaba Estate - Agapetus Kristiandana .jpg"></div>			
+								<div class="wrapper">
+									<div class="group">
+										<div class="content home-reviews">
+											<div class="sub-villa-content">
+												<h3>Art Gallery</h3>
+												<p>Artist: Agapetus Kristiandana  <br />Title: Tiga Zaman (Three Ages) <br />Year: 2013 <br />Medium: Resin
+												</p>
+												<div>
+													<a href="/art.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Art']);">More</a>
+												</div>												
+											</div>
+										</div>
+									</div>
+								</div>
+																			
+							</div>
+							
+							<div class="box">
+								<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Kaba Kaba Estate - Sohan Jakhar.jpg"></div>					
+								<div class="wrapper">
+									<div class="group">
+										<div class="content home-reviews">
+											<div class="sub-villa-content">
+												<h3>Art Gallery</h3>
+												<p>Artist: Sohan Jakhar <br />Title: Untitled <br />Year: 2009 <br />Medium: Acrylic</p>
+												<div>
+													<a href="/art.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Art']);">More</a>
+												</div>												
+											</div>
+										</div>
+									</div>
+								</div>
+																			
+							</div>
+							
+							<div class="box">
+								<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Kaba Kaba Estate - Hannes D’ haese.jpg"></div>																
+								<div class="wrapper">
+									<div class="group">
+										<div class="content home-reviews">
+											<div class="sub-villa-content">
+												<h3>Art Gallery</h3>
+												<p>Artist: Hannes D’ haese <br />Title: Just a dog <br />Year: 2010 <br />Medium: Resin</p>
+												<div>
+													<a href="/art.html" class="btn-home" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Experience - Art']);">More</a>
+												</div>												
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!-- END ART -->
+				
+            </div>
+        </div>
+		
+		
+{include file="footer.html"}

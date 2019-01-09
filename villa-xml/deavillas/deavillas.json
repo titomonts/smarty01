@@ -1,0 +1,652 @@
+[
+	{
+		"page_title":"Dea Villas Canggu 5 bedroom villas for rent Bali",
+		"label":"Home",
+		"page_header":"Welcome to Dea Villas",
+		"template":"homepage.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"main",
+		"position":"left"
+	},
+	{
+		"page_title":"About Dea Villas",
+		"label":"The villa",
+		"page_header":"About Dea Villas",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+		"page_identifier":"about-dea-villa",
+		"children":[
+						{
+							"page_title":"About Dea Villas",
+							"label":"About Dea Villa",
+							"page_header":"About Dea Villa",
+							"template":"page-template.html",
+							"content_id":"ABTV",
+							"page_identifier":"about-dea-villa",
+							"level":"top"
+						},
+						{
+							"page_title":"Radha Villa Layout",
+							"label":"Villa Radha",
+							"page_header":"Radha Villa Layout",
+							"template":"villa-template.html",
+							"content_id":"LYT",
+							"page_identifier":"radha-villa-layout",
+							"level":"top",
+							"villaID":"GladakHouse-Sarasvati"
+						},
+						{
+							"page_title":"Amy Villa Layout",
+							"label":"Villa Amy",
+							"page_header":"Amy Villa Layout",
+							"template":"villa-template.html",
+							"content_id":"LYT",
+							"page_identifier":"amy-villa-layout",
+							"level":"top",
+							"villaID":"Amy"
+						},
+						{
+							"page_title":"Sati Villa Layout",
+							"label":"Villa Sati",
+							"page_header":"Sati Villa Layout",
+							"template":"villa-template.html",
+							"content_id":"LYT",
+							"page_identifier":"sati-villa-layout",
+							"level":"top",
+							"villaID":"DeaVillas-Sati"
+						},
+						{
+							"page_title":"Sarasvati Villa Layout",
+							"label":"Villa Sarasvati",
+							"page_header":"Villa combinations",
+							"template":"page-template.html",
+							"content_id":"LYT",
+							"page_identifier":"villa-combinations",
+							"level":"top",
+							"villaID":"DeaVillas-Sati"
+						},
+						{
+							"page_title":"Connecting villas",
+							"label":"Connecting villa",
+							"page_header":"Connecting Villas",
+							"template":"page-template.html",
+							"content_id":"CONVILL",
+							"page_identifier":"floorplan",
+							"level":"top"
+						}
+					],
+		"menu_location":"main",
+		"position":"left"
+	},
+	{
+		"page_title":"General gallery",		
+		"label":"Gallery",
+		"page_header":"",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"general-gallery",
+		"children":[
+						{
+							"page_title":"General Gallery",
+							"label":"General",
+							"page_header":"",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"general-gallery",
+							"level":"top"
+						},
+						{
+							"page_title":"Radha Gallery",
+							"label":"Radha Gallery",
+							"page_header":"Radha Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"gallery",
+							"level":"top"
+						},
+						{
+							"page_title":"Amy Gallery",
+							"label":"Amy Gallery",
+							"page_header":"Amy Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"amy-gallery",
+							"level":"top"
+						},
+						{
+							"page_title":"Sati Gallery",
+							"label":"Sati Gallery",
+							"page_header":"Sati Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"sati-gallery",
+							"level":"top"
+						},
+						{
+							"page_title":"Sarasvati Gallery",
+							"label":"Sarasvati Gallery",
+							"page_header":"Sarasvati Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"sarasvati-gallery",
+							"level":"top"
+						},
+						{
+							"page_title":"Video",
+							"label":"Video",
+							"page_header":"",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"video",
+							"level":"top"
+						}
+						
+					],
+		"menu_location":"main",
+		"position":"left"
+	},
+	{
+		"page_title":"Quick facts",
+		"label":"The details",
+		"page_header":"Quick facts",
+		"template":"page-template.html",
+		"content_id":"QF",
+		"page_identifier":"quick-facts",
+		"children":[
+						{
+							"page_title":"Staff",
+							"label":"Staff",
+							"page_header":"Staff",
+							"template":"page-template.html",
+							"content_id":"STAFF",
+							"page_identifier":"staff",
+							"level":"top"
+						},
+						{
+							"page_title":"Families",
+							"label":"Families",
+							"page_header":"Families",
+							"template":"page-template.html",
+							"content_id":"FAM",
+							"page_identifier":"families",
+							"level":"top"
+						},
+						{
+							"page_title":"Dining",
+							"label":"Dining",
+							"page_header":"Dining",
+							"template":"page-template.html",
+							"content_id":"DNNG",
+							"page_identifier":"dining",
+							"level":"top"
+						},
+						{
+							"page_title":"Spa",
+							"label":"Spa",
+							"page_header":"Spa",
+							"template":"page-template.html",
+							"content_id":"SPA",
+							"page_identifier":"spa",
+							"level":"top"
+						},
+						{
+							"page_title":"Weddings",
+							"label":"Weddings",
+							"page_header":"Weddings",
+							"template":"page-template.html",
+							"content_id":"EVT",
+							"page_identifier":"weddings",
+							"level":"top"
+						}
+					],
+		"menu_location":"main",
+		"position":"left"
+	},
+	{
+		"page_title":"Location",
+		"label":"Location",
+		"page_header":"The locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"locale",
+		"children":[
+						{
+							"page_title":"The locale",
+							"label":"The Locale",
+							"page_header":"The locale",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"locale",
+							"level":"top"
+						},
+						{
+							"page_title":"Things to do",
+							"label":"Things to do",
+							"page_header":"Things to do",
+							"template":"page-template.html",
+							"content_id":"TTD",
+							"page_identifier":"things-to-do",
+							"level":"top"
+						}		
+					],
+		"menu_location":"main",
+		"position":"left"
+	},
+	{
+		"page_title":"Reviews",
+		"label":"Reviews",
+		"page_header":"Guest Reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"children":[
+						{
+							"page_title":"Guest reviews",
+							"label":"Guest Reviews",
+							"page_header":"Guest reviews",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"guest-reviews",
+							"level":"top"
+						},
+						{
+							"page_title":"Guest book",
+							"label":"Guest Book",
+							"page_header":"Guest book",
+							"template":"guest-book.html",
+							"content_id":"",
+							"page_identifier":"guest-book",
+							"level":"top"
+						},
+						{
+							"page_title":"Press",
+							"label":"Press",
+							"page_header":"Press",
+							"template":"press.html",
+							"content_id":"",
+							"page_identifier":"press",
+							"level":"top"
+						}		
+					],
+		"menu_location":"main",
+		"position":"right"
+	},
+	{
+		"page_title":"Rates",
+		"label":"Rates",
+		"page_header":"Rates",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main",
+		"position":"right"
+	},
+	{
+		"page_title":"Availability calendar",
+		"label":"Availability",
+		"page_header":"Availability Calendar",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"availability",
+		"menu_location":"main",
+		"position":"right"
+	},
+	{
+		"page_title":"Enquire now",
+		"label":"Enquire now",
+		"page_header":"Enquire Now",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main",
+		"position":"right"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":""
+	},
+	{
+		"page_title":"Contact us",
+		"label":"Contact us",
+		"page_header":"Contact us",
+		"template":"page-template.html",
+		"content_id":"CONTACTS",
+		"page_identifier":"contact-us",
+		"menu_location":"main",
+		"position":"right"
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"sitemap.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":""
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":""
+	},
+	{
+		"page_title":"Radha Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Radha Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"radha-villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"villaID":"GladakHouse-Sarasvati",
+		"children":[
+					{
+						"page_title":"Radha Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Radha Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"radha-villa-layout",
+						"level":"top",
+						"villaID":"GladakHouse-Sarasvati"
+					},
+					{
+						"page_title":"Radha Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Radha Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"radha-bedrooms",
+						"level":"top",
+						"villaID":"GladakHouse-Sarasvati"
+					},
+					{
+						"page_title":"Radha Living areas",
+						"label":"Living Areas",
+						"page_header":"Radha Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"radha-living-areas",
+						"level":"top",
+						"villaID":"GladakHouse-Sarasvati"
+					},
+					{
+						"page_title":"Radha Quick Facts",
+						"label":"Quick Facts",
+						"page_header":"Radha Quick Facts",
+						"template":"villa-template.html",
+						"content_id":"QF",
+						"page_identifier":"radha-quick-facts",
+						"level":"top",
+						"villaID":"GladakHouse-Sarasvati"
+					},
+					{
+						"page_title":"Radha Gallery",
+						"label":"Gallery",
+						"page_header":"Radha Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"radha-gallery",
+						"level":"top",
+						"villaID":"GladakHouse-Sarasvati"
+					},
+					{
+						"page_title":"Radha Floorplan",
+						"label":"Floorplan",
+						"page_header":"Radha Floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"radha-floorplan",
+						"level":"top",
+						"villaID":"GladakHouse-Sarasvati"
+					}		
+		]
+	},
+	{
+		"page_title":"Amy Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Amy Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"amy-villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"villaID":"Amy",
+		"children":[
+					{
+						"page_title":"Amy Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Amy Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"amy-villa-layout",
+						"level":"top",
+						"villaID":"Amy"
+					},
+					{
+						"page_title":"Amy Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Amy Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"amy-bedrooms",
+						"level":"top",
+						"villaID":"Amy"
+					},
+					{
+						"page_title":"Amy Living areas",
+						"label":"Living Areas",
+						"page_header":"Amy Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"amy-living-areas",
+						"level":"top",
+						"villaID":"Amy"
+					},
+					{
+						"page_title":"Amy Quick Facts",
+						"label":"Quick Facts",
+						"page_header":"Amy Quick Facts",
+						"template":"villa-template.html",
+						"content_id":"QF",
+						"page_identifier":"amy-quick-facts",
+						"level":"top",
+						"villaID":"Amy"
+					},
+					{
+						"page_title":"Amy Gallery",
+						"label":"Gallery",
+						"page_header":"Amy Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"amy-gallery",
+						"level":"top",
+						"villaID":"Amy"
+					},
+					{
+						"page_title":"Amy Floorplan",
+						"label":"Floorplan",
+						"page_header":"Amy Floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"amy-floorplan",
+						"level":"top",
+						"villaID":"Amy"
+					}		
+		]
+	},
+	{
+		"page_title":"Sati Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Sati Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"sati-villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"villaID":"DeaVillas-Sati",
+		"children":[
+					{
+						"page_title":"Sati Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Sati Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"sati-villa-layout",
+						"level":"top",
+						"villaID":"DeaVillas-Sati"
+					},
+					{
+						"page_title":"Sati Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Sati Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"sati-bedrooms",
+						"level":"top",
+						"villaID":"DeaVillas-Sati"
+					},
+					{
+						"page_title":"Sati Living areas",
+						"label":"Living Areas",
+						"page_header":"Sati Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"sati-living-areas",
+						"level":"top",
+						"villaID":"DeaVillas-Sati"
+					},
+					{
+						"page_title":"Sati Quick Facts",
+						"label":"Quick Facts",
+						"page_header":"Sati Quick Facts",
+						"template":"villa-template.html",
+						"content_id":"QF",
+						"page_identifier":"sati-quick-facts",
+						"level":"top",
+						"villaID":"DeaVillas-Sati"
+					},
+					{
+						"page_title":"Sati Gallery",
+						"label":"Gallery",
+						"page_header":"Sati Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"sati-gallery",
+						"level":"top",
+						"villaID":"DeaVillas-Sati"
+					},
+					{
+						"page_title":"Sati Floorplan",
+						"label":"Floorplan",
+						"page_header":"Sati Floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"sati-floorplan",
+						"level":"top",
+						"villaID":"DeaVillas-Sati"
+					}		
+		]
+	},
+	{
+		"page_title":"Sarasvati Villa Layout",
+		"label":"Villa Layout",
+		"page_header":"Sarasvati Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"sarasvati-villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"villaID":"Sarasvati",
+		"children":[
+					{
+						"page_title":"Sarasvati Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Sarasvati Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"sarasvati-villa-layout",
+						"level":"top",
+						"villaID":"Sarasvati"
+					},
+					{
+						"page_title":"Sarasvati Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Sarasvati Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"sarasvati-bedrooms",
+						"level":"top",
+						"villaID":"Sarasvati"
+					},
+					{
+						"page_title":"Sarasvati Living areas",
+						"label":"Living Areas",
+						"page_header":"Sarasvati Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"sarasvati-living-areas",
+						"level":"top",
+						"villaID":"Sarasvati"
+					},
+					{
+						"page_title":"Sarasvati Quick Facts",
+						"label":"Quick Facts",
+						"page_header":"Sarasvati Quick Facts",
+						"template":"villa-template.html",
+						"content_id":"QF",
+						"page_identifier":"sarasvati-quick-facts",
+						"level":"top",
+						"villaID":"Sarasvati"
+					},
+					{
+						"page_title":"Sarasvati Gallery",
+						"label":"Gallery",
+						"page_header":"Sarasvati Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"sarasvati-gallery",
+						"level":"top",
+						"villaID":"Sarasvati"
+					},
+					{
+						"page_title":"Sarasvati Floorplan",
+						"label":"Floorplan",
+						"page_header":"Sarasvati Floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"sarasvati-floorplan",
+						"level":"top",
+						"villaID":"Sarasvati"
+					}		
+		]
+	}
+]

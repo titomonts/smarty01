@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="P00233">
+  <Contents>
+    <Content contentid="4466" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Villa 1880 is extraordinary – a contemporary-meets-colonial beach-in-ten vacation home, a design aficionado’s dream, and heaven for a few families (up to 8 adults and 8 kids) intent on holidaying together effortlessly, in total comfort and with considerable style. &nbsp;</p><p>The heart of Villa 1880 is a beautifully restored plantation house from Borneo, made entirely of ironwood and constructed in 1880 – hence the name. Full of heritage charm, the house sits between two contemporary structures: a vast open-sided living room with sunset barbecue terrace above, and a two-storey sleeping pavilion lined with lime green shutters in homage to its colonial cousin.</p><p>Staying here is a dream for creatives and all who appreciate a refined design aesthetic. The visionary Hong Kong-based owners, an interior architect and vintage furniture showroom founder, have uncompromisingly high standards and an obsessive attention to detail. Italian retro furniture, vintage collector’s pieces, designer fabrics, inventive lighting and contemporary art are all part of the eclectic mix. Everything is achingly chic and high spec with no expense spared on leading-edge facilities (including mood lighting and a water filtration system which means guests may drink water direct from the taps – a rare convenience in Bali villas).</p><p>Families will appreciate the fabulous indoor and alfresco living spaces and five bedroom suites – one of them an eight-bunk children’s suite. Add a 19m saltwater pool with shaded shallow kids’ section, private spa, two kitchens, and a remarkably gifted chef among the eight-professional staff, and you have all the ingredients to whip up the most memorable holiday imaginable. </p><p>Villa 1880 is tucked away down a quiet lane a few minutes’ walk from uber-trendy Batu Belig Beach and a 10-minute drive from both Seminyak and Canggu. There’s a vintage ‘70s VW Combi available to whisk guests to Bali’s many temples and tourist attractions (extra charge applies). But such is Villa 1880’s allure, you may never want to leave.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4467" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Bedroom 1]]></Heading>
+          <Description><![CDATA[<ul><li>The only ground-floor bedroom </li><li>Super-king bed encircled with a retractable mosquito curtain, resting on a terrazzo floor inlaid with brass</li><li>42-inch TV with satellite channels, DVD player, and JBL portable speaker</li><li>Desk, wall of wardrobes, and in-room safe</li><li>Choice of air-conditioning or ceiling fan </li><li>Large bathroom with granite basins and a separate section with bathtub and shower area opening onto a courtyard garden</li></ul><br />]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bedroom 2]]></Heading>
+          <Description><![CDATA[<ul><li>Located on the upper floor</li><li>Super-king bed facing greenery beyond plantation shutters</li><li>42-inch TV with satellite channels, and JBL portable speaker</li><li>Desk, wall of wardrobes, and in-room safe.</li><li>Choice of air-conditioning or ceiling fan </li><li>Bathroom behind room divider, with twin granite basins and large shower enclosure</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bedroom 3]]></Heading>
+          <Description><![CDATA[<ul><li>Located on the upper floor</li><li>Super-king bed encircled with a retractable mosquito curtain, resting on a terrazzo floor inlaid with brass.</li><li>42-inch TV with satellite channels, DVD player, and JBL portable speaker</li><li>Desk, wall of wardrobes, and in-room safe.</li><li>Choice of air-conditioning or ceiling fan </li><li>Bathroom with twin granite basins, shower enclosure, and courtyard with statement bathtub and shower</li><li>Connects to the children’s bunk room through the bathroom</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Bedroom 4]]></Heading>
+          <Description><![CDATA[<ul><li>A third level bedroom under the eaves of the plantation house, with its own private staircase from the upper level veranda</li><li>Super-king bed facing a 42-inch TV, DVD player and JBL portable speaker</li><li>Desk, wardrobe and in-room safe</li><li>Choice of air-conditioning or ceiling fan</li><li>Open-plan bathroom behind smoked glass dividers, with antique sink and shower enclosure</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Children's Bunk Room]]></Heading>
+          <Description><![CDATA[<ul><li>Located on the upper floor of the plantation house</li><li>Features a wall of 8 bunk beds especially designed for kids aged up to 12, with reading light and wall organiser</li><li>42-inch TV with satellite channels, and JBL portable speaker</li><li>Choice of air-conditioning or ceiling fans</li><li>Lots of toys, games and books</li><li>Bathroom with bathtub, bidet and twin basins, one set lower to suit little ones – and a door connecting to bedroom 3</li><li>Also connects to the media room and the upper terrace</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4468" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<ul><li>Air-conditioned media room with plush velvet seating, 60-inch TV with satellite channels, DVD player, DVD library, home theatre system, portable Marshall speaker, and books and games.</li><li>Spa with two massage beds, a sunken bathtub and shower room</li><li>Studio office accessed across a koi pond, with long metal desk</li><li>Well-equipped kitchen with wine fridge</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<ul><li>Large open-sided flat-roofed living pavilion with seating area, 4m dining table for 12, and guest kitchen with sit-up bar counter island, sink and hob</li><li>Second casual poolside seating area with sofas, hammock, and table tennis.</li><li>19m saltwater pool with shaded shallow section for the kids, and poolside deck with sun-loungers and sleek alfresco shower</li><li>Deep veranda wrapping around two sides of the house’s upper level, with seating and coffee table</li><li>Large sunset terrace with barbecue grill, casual seating and long benches</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4469" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Villa 1880 is tucked away down a quiet lane in sought-after Batu Belig on the peaceful northern edge of Seminyak. An easy 10-minute stroll away is Batu Belig Beach; walking south along the black volcanic sand brings you to uber-trendy beach bars Tropicola, W Hotel and Potato Head, while northwards is La Laguna and Finns Beach Club.</p><p>The area’s many cafés and bars are moments away, among them Watercress and Hog Wild (previously Naughty Nuri’s), along with boutiques and lifestyle stores as eclectic as the villa itself. Central Seminyak and the surfing mecca of Canggu are both a mere 10-minute drive away.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Batubelig Beach]]></Heading>
+          <Description><![CDATA[0.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Metis]]></Heading>
+          <Description><![CDATA[0.60 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[La Laguna]]></Heading>
+          <Description><![CDATA[1.10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Desa Seni]]></Heading>
+          <Description><![CDATA[1.40 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Finns Recreation Club]]></Heading>
+          <Description><![CDATA[4 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak Square]]></Heading>
+          <Description><![CDATA[4 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Canggu Beach]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Denpasar Airport]]></Heading>
+          <Description><![CDATA[24 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud]]></Heading>
+          <Description><![CDATA[30 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4470" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>Do feel free to ask our staff about the area around Batu Belig; the team has a wealth of information about nearby places of interest and will help you make any bookings, as well as give you an interesting insight into aspects of Bali life. They can also organise for you to be chauffeured in the villa’s beautifully refurbished 1970s VW combi van for a small extra cost. </p><p>Here’s a quick overview of some of the many and varied activities you could consider.</p><ul><li>Villa 1880 is within walking distance of Seminyak’s most glamourous <span style="font-weight: bold;">beach clubs</span> including W hotel, Tropicola, Ku Dé Ta and Potato Head – perfect for watching the sunset.</li><li>A nice <span style="font-weight: bold;">sunset </span>alternative is to walk along the beach at Batu Belig where there are plenty of cafés offering great views and cold beer. </li><li>There is a wide choice of fine dining, mid-range and cheap ‘n cheerful restaurants in Seminyak too.<span style="font-weight: bold;"> Fine dining venues</span> within a five-minute drive include Sarong, La Lucciola, Sardine and Métis.</li><li>Desa Seni at Berawa Beach, is an eco-friendly village resort providing an authentic Indonesian experience through the exploration of culture, art and yoga. The resort offers a wide variety of <span style="font-weight: bold;">yoga classes</span> and also has its own spa.</li><li>Visit the mystical <span style="font-weight: bold;">Hotel Tugu</span> (Bali’s first museum-hotel) studded with priceless Indonesian artworks and antiques. The hotel's restaurants offer authentic Chinese and Indonesian fine dining, as well as an international menu, in a variety of unique settings. At the rustic Waroeng Tugu you can taste the traditional Javanese and Balinese cuisine of bygone centuries.</li><li>Bali attracts some of the world’s top DJ talent. <span style="font-weight: bold;">Clubs </span>like Jenja, En-Vie in Seminyak and SkyGarden in nearby Kuta will keep you entertained into the early hours</li><li>Fashionistas, trendies and shopaholics should hot-foot it down to <span style="font-weight: bold;">Seminyak</span>, one of the most cosmopolitan areas in Bali. Here, you can indulge for hours in stylish and chic boutiques.</li><li>Sports enthusiasts should head to Bali’s prestigious <span style="font-weight: bold;">Finns Recreation Club</span>, with its state-of-the-art gym and tennis and squash courts. </li><li>Visit <span style="font-weight: bold;">Tanah Lot sea temple</span>. This is one of the most sacred temples in Bali and also one of its most popular tourist attractions. We always advise visiting early in the morning (8-9am) when there are less people and you’ll have a much better chance to really experience the power of this location.</li><li>Explore the scenic rice-field landscape and rural villages by bicycle; a great way to <span style="font-weight: bold;">get under the skin of the ‘real’ Bali</span>. Stop off at a local <span style="font-style: italic;">warung </span>(eatery) to sample some basic Balinese fare or cool off with a cold drink.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4471" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Batu Belig, Gang Daksina, Bali.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>8 adults and 8 children (5 bedrooms: 4 with super-king beds; 1 children’s room with 8 bunk beds). Two extra beds may be set up on guest request at an additional charge.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living areas]]></Heading>
+          <Description><![CDATA[<p>Open-sided fan-cooled living and dining area with dining table for 10 and guest kitchen/bar; main kitchen; poolside sitting area with hammock and table tennis; air-conditioned media room; office; large roof terrace with barbecue.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Swimming pool]]></Heading>
+          <Description><![CDATA[<p>19 x 4m saltwater pool with shaded shallow section for kids.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; private chef; butlers; housekeeper; security guards; gardener. Additional staff (babysitters, masseuses) on request at extra charge.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Suggestion menu of Balinese, Indonesian and international dishes, including a kids menu, healthy options, and barbecues. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate. Optional cooking classes. <br /></p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi connection via high speed fibre optic internet; room-to-room phone system; phone for local calls.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>60-inch TV with satellite channels, sound bar and DVD player in media room; 42-inch TV with satellite channels in 4 bedrooms, DVD players; DVD and book library; board games; table tennis. Portable speakers in bedrooms, media room and living pavilion. Plug in for phone plus blu-tooth system.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families]]></Heading>
+          <Description><![CDATA[<p>Villa 1880 is fabulous for families. Facilities for little ones include: a bassinette; 2 baby cots; high chair; baby bath; children’s books, toys and pool inflatables. <br /></p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>In-villa treatments selected from a comprehensive spa menu can be carried out by internationally trained therapists (extra cost applies) at the villa's private spa room.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transportation]]></Heading>
+          <Description><![CDATA[<p>The villa’s refurbished 1970 VW van can be hired at a daily rate of US$35++ for 8 hours (excluding petrol). A 7-passenger car can also be hired.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Gas barbecue grill; diesel powered back-up generator; wine fridge; water filtration system; safety deposit boxes.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property area]]></Heading>
+          <Description><![CDATA[<p>3,150sqm (land), 2,520sqm (villa).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group">The Elite Havens Group.</a>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4600" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Villa 1880 is an exceptional contemporary-meets-colonial private residence just 500 metres from Batu Belig Beach on Bali’s sought after south-western shore. The impeccably designed accommodation includes four large bedroom suites, a fun-filled eight-bunk kids’ room, multiple living spaces, a sunset roof terrace, 19-metre saltwater swimming pool and a spa. Revel in the exquisite designer interiors, and relax while the eight-professional staff – including an accomplished chef – anticipate your every whim. With lots of social space as well as private corners, this is the perfect place for multiple family gatherings. The beach is an eight-minute stroll away, and the ‘70s VW combi can whisk you to Seminyak or Canggu in 10 minutes.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4601" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>From heritage ironwood to Hermes upholstery, Villa 1880 delivers a mega-dose of style in micro detail. Skilfully crafted from a 19th century colonial plantation house sitting between two unapologetically modern pavilions, the villa has a flawless design pedigree shaped by the vision of the owners – an interior architect and vintage store owner who share uncompromisingly high standards and an obsessive attention to detail. </p><p>Throughout the villa, traditional materials sit comfortably with contemporary design elements in light-filled, uncluttered rooms where every piece of achingly chic furniture has a story to tell. Chat in style on the Miniform Colony armchairs in the formal living area, or perched on vintage Italian barstools in front of a Filippo Sciascia painting on terracotta. Dip into some Asian literature in the flamboyantly decorated media room under the sleepless eye of a stuffed peacock. And you’re unlikely to be stuck for conversation seated at the four-metre long dining table on Emu Re Touve chairs under a galaxy of pendant lights repurposed from old mercury pots rescued from a Chinese shipwreck!</p><p>Villa 1880 is designed with families very much in mind. It’s easy to keep an eye on little ones frolicking in the 19-metre saltwater pool’s shaded shallow area from the retro sofa or swaying hammock. And why not slip into the spa while they play table tennis close by? At day’s end, after sunset cocktails and a sumptuous seafood barbecue prepared by the uber-talented chef on the roof terrace, parents can retreat to the privacy of their air-conditioned suites, while kids enjoy a perpetual slumber party in their own eight-bunk bedroom. </p><p>With the wonderfully attentive staff on hand to anticipate your every whim, you may not want to leave the villa. But if you can tear yourself away, the broad expanse of Batu Belig Beach beckons 500 metres away. Or pile into the vintage 1970s restored VW combi and head to Seminyak or Canggu, or explore Bali’s myriad attractions further afield. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4602" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa 1880 comprises an antique plantation house sandwiched between two contemporary buildings: a flat-roofed living pavilion at the front and a double-storey bedroom block at the back. The entrance leads directly to the large open-sided living pavilion lying alongside the 19m pool, with open-plan guest kitchen and bar at one end, leading to the chef’s kitchen. A large terrace runs from the shallow section of the pool to the master suite and the spa, and houses a casual seating area. From here, steps lead up to the veranda which wraps around two sides of the house, providing access to the sunset roof terrace, two guest bedrooms, children’s bunk room, media room and, above, the romantic attic bedroom.&nbsp; </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4603" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>Villa 1880s four bedroom suites and kids’ bunk room feature comfortable beds with King Koil Heaven mattresses and high thread count cotton bedding, elegant 60s-inspired furniture, and thoughtful extras such as easily accessible reading lights and JLB portable speakers. Most have satellite TV, DVD player and sound system, and all have a choice of air-con or ceiling fan and an ensuite bathroom.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master bedroom suite]]></Heading>
+          <Description><![CDATA[<p>Reclining on the super-king bed in supreme comfort, encircled by billowing curtains, glimpsing greenery beyond the plantation shutters on each side, you’re in for a 21st century Bedouin tent experience. The master suite is the only bedroom at garden level, its bed resting on a stunning geometric-patterned terrazzo floor. Behind an eye-catching copper-backed room divider is a writing desk and a wall of cane-fronted wardrobes. The ensuite bathroom is equally generous, with twin vanities and double doors leading into a partially covered courtyard garden with statement bathtub and rain shower.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Guest suites 1 &amp; 2]]></Heading>
+          <Description><![CDATA[<p>These two upper-floor suites lie behind a bank of green plantation shutters lining the ironwood veranda and overlooking a courtyard of dwarf palms. Both feature super-king beds and handsome retro-style furniture. In guest suite 1 a cream terrazzo bedhead cum room divider separates the sleeping area from the bathroom, which is fitted with twin granite basins and large shower enclosure. Guest suite 2 replicates the master suite, with a retractable mosquito net around the bed, a desk and a wall of wardrobes. Its bathroom, which connects to the bunk room bathroom, has an indoor section with twin granite basins and shower, and a courtyard with an alfresco bathtub and shower.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Attic suite]]></Heading>
+          <Description><![CDATA[<p>A private staircase from the veranda leads to the fourth suite, a ravishingly romantic eyrie lodged under the pitched roof of the original plantation house. A super-king bed sits under whitewashed beams facing a low TV console, flanked by wardrobes and a desk. Behind brilliant blue smoked glass is the bathroom, featuring fish-scale wall tiles designed by the owner, and a basin and vanity set into a vintage Balinese table. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Children’s bunk room]]></Heading>
+          <Description><![CDATA[<p>Located in the original plantation house and specially designed for children up to the age of 12, the children’s suite comprises eight single beds stacked in four rows, each fitted with a reading light and wall organiser, screened by privacy curtains and separated by stepladders. There’s a 43-inch TV, toys, books and fun papier-mâché animal heads lining the wall. The brightly decorated bathroom with bathtub, bidet and twin basins (one set lower for younger kids) connects with guest suite 2, a convenience parents may appreciate. This room also opens onto the media room and the veranda.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4604" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[<p>Flanking the full length of the 19-metre swimming pool is the open-sided <span style="font-weight: bold;">living pavilion</span> – a light-filled space designed for breezy living and easy entertaining. The furnishings reflect the owners’ exquisite taste and love of modern retro, with chic designer seating arranged at one end, and a solid wood dining table stretching four metres set before a river-stone wall. </p><p>Sharing the same open-plan space is a <span style="font-weight: bold;">guest kitchen</span> with vintage Italian bar stools lining a marble-topped island counter with hob and butler’s sink – perfect for an impromptu cooking class. Concealed behind a wall featuring artwork by Italian artist Filippo Sciascia is the professionally equipped<span style="font-weight: bold;"> chef’s kitchen</span> complete with double fridges, a wine fridge and coffee machine.</p><p>On an ironwood deck linking the original plantation house to the modern sleeping pavilion is a table tennis table and a <span style="font-weight: bold;">casual seating area</span> complete with hammock – just the place to keep an eye on the kids in the shallows. At the opposite end of the 19-metre saltwater pool is a sun deck with four loungers and sleek alfresco shower.</p><p>Upstairs, in the heart of the old plantation house is the air-conditioned <span style="font-weight: bold;">media room</span>. Plush seating in pink velvet wraps around a vintage B&amp;B Italia coffee table set before a 60-inch TV with satellite channels, DVD player and home theatre system. Shelves set into original panels are laden with Asian literature and board games. Antique insect prints line the wall and presiding over this flamboyant space is a stuffed peacock.</p><p>Pockets of intimate seating are arranged on the veranda, which runs the length of the upper floor and leads to an enormous <span style="font-weight: bold;">rooftop terrace</span> furnished with brightly cushioned casual seating, long benches and a state-of-the-art barbecue. </p><p>Within the villa’s <span style="font-weight: bold;">spa </span>is a shower and changing area and a treatment room with twin massage beds and a hammam-style sunken bathtub for two opening onto tropical foliage and a water feature.</p><p>The villa also has a small <span style="font-weight: bold;">studio office</span>, separated from the living area by a koi pond, for those seeking a quiet space to work.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4605" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>One of the delights of staying in a private villa is impeccable service perfectly balanced with respect for privacy. Villa 1880’s gracious staff are on hand when needed while keeping discreetly behind the scenes when not; the extent of their presence is entirely up to the guest. Professionally trained, smartly uniformed and full of smiles, each team member aims to please with warm Balinese hospitality. Many have been at the villa from the beginning.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa manager]]></Heading>
+          <Description><![CDATA[<p>Highly experienced both in Bali and abroad, Villa 1880’s manager is responsible for the overall running of the villa. He oversees and coordinates staff and property, and assists guests throughout their stay.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Private chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s talented chef is in charge of all meals and provisions shopping, and will happily prepare anything from an extensive menu of Asian and Western and Asian dishes, as well accommodate special requests and dietary requirements.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Butlers]]></Heading>
+          <Description><![CDATA[<p>Our butlers are on hand to attend to every guest’s need, serving meals and beverages throughout the day, in shifts from 7am until 11pm.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Housekeeper]]></Heading>
+          <Description><![CDATA[<p>Our housekeeper discreetly looks after daily tidying and cleaning.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Garden and pool]]></Heading>
+          <Description><![CDATA[<p>The gardener maintains the swimming pool and garden.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security]]></Heading>
+          <Description><![CDATA[<p>Guests are kept safe and secure by the villa’s security team operating in shifts from 3pm until 7am.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4606" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>In-villa dining is one of the many highlights of a stay at Villa 1880. Guests are fortunate to have on hand a world-class chef who brings passion and creativity to the table as well as culinary expertise honed at Sardine, one of Bali’s most celebrated restaurants. He skillfully whips up hearty or healthy breakfasts, casual lunches, alfresco barbecues or gourmet dinners served family-style according to your tastes. Choose from an inspired menu that highlights Bali’s rich harvest from both land and sea, explores the Indonesian archipelago’s culinary diversity, and delivers a new take on western favourites with delicious meals and multi-dish set menus. </p><p>Sample the chef’s home-made preserves with fresh sourdough bread at breakfast. Linger over a poolside lunch of chicken, cashew and tarragon wraps, nasi goring or risotto with crabmeat and asparagus. Nibble on captivating canapés over sunset cocktails, then enjoy a mouth-watering seafood barbecue on the rooftop terrace bathed in moonlight. The chef’s desserts are legendary; insist on a cheesecake or mango pannacotta during your stay. </p><p>Kids are well catered for, and there’s also an excellent selection of vegetarian and super-healthy options… and the chef is more than happy to tailor meals to accommodate any special dietary requirements. Conveniently, there’s also an excellent menu of wines readily available at supermarket prices with no mark up.</p><p>It is advisable to plan meals the evening before to allow adequate time for the chef to prepare. The staff will then undertake the grocery shopping, visiting the local markets and specialty food shops in Seminyak. Groceries and beverages are charged at cost price plus 20% and a handling fee, and staff will keep all receipts for reference. Guests are kindly requested to provide the manager with grocery money in advance.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4607" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa holidays are a great choice for families, who can enjoy their own private facilities with complete freedom. Knowing that the kids can play safely and securely without you having to worry about them disturbing other guests is a huge benefit – resulting in a more relaxed holiday for parents too.</p><p>Villa 1880 is a fantastic choice for an extended family or a few families holidaying together. Kids will adore their own slumber space – the bunk room sleeps eight – with their own bathroom and TV as well as toys and books; the media room is right next door, as is an inter-connecting guest suite for parents. It’s also easy to keep an eye on them from the comfort of a sofa or hammock on the pool terrace while they play table tennis or splash in the covered shallow area of the pool with some cool inflatables. </p><p>The Balinese are famous worldwide for their kindness towards children and babies and Villa 1880 staff will make children feel very much at home. Having these willing helpers on hand gives parents the chance to relax – and even the freedom to explore beyond the villa grounds: a full-time babysitter/nanny can be hired through the villa manager for a small additional cost.</p><p>Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest. Fresh fruit ice blocks to cool off by the pool? Fish and chips for lunch? Chicken satay or pasta with home-made pesto for supper? No problem. The chef can customise all meals to suit children’s taste buds.</p><p>No need to pack all your cumbersome kids’ equipment. Just let us know what you need, and anything we don’t have in-house (villa facilities include a baby cot, highchair and baby bath) we can hire on your behalf (<a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank" title="click here">click here</a> to see list of available hire items).</p><p>And if the excitement of exploring the villa starts to wear off, check out our <a href="./the-locale/things-to-do.html" target="_blank" title="Things to do">Things to do</a> page. The beach is a ten-minute walk away, and there’s plenty in the area to keep all the family amused throughout the holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4608" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>Feel like a body scrub or massage? Just ask our staff to bring the spa to you! Enjoy deluxe treatments carried out by internationally experienced therapists (extra charges will apply) in the privacy of Villa 1880’s dedicated spa. The treatment area has two massage beds and a hamman-style sunken bathtub, and there’s a changing room and shower too. Here’s a sample of what’s on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p>Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet corresponding to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p>A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa 1880</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Seminyak">Seminyak</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Batubelig, Gang Daksina no 13C, Kuta Utara</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.67161040</Latitude>
+        <Longitude>115.14941630</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Fantastic fully staffed beach-in-ten designer’s villa in Batu Belig with fabulous living space, four suites and an eight-bunk children’s room, 19m saltwater pool and spa. &lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>5 bedroom</RoomName>
+        <MinRate>890.00++</MinRate>
+        <MaxRate>1650.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa 1880 -&amp;nbsp; Villa feature</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/1. Villa 1880 -  Villa feature.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Enjoying roof terrace</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/2. Villa 1880 - Enjoying roof terrace.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Bedroom one landscape</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/3. Villa 1880 - Bedroom one landscape.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - The staff</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/4. Villa 1880 - The staff.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Modern living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/5. Villa 1880 - Modern living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 -&amp;nbsp; Media room landscape</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/6. Villa 1880 -  Media room landscape.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 -&amp;nbsp; Stylish dining area setting</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/7. Villa 1880 -  Stylish dining area setting.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 -&amp;nbsp; Bedroom three designs</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/8. Villa 1880 -  Bedroom three designs.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Bathroom at bedroom three</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/9. Villa 1880 - Bathroom at bedroom three.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Outdoor kitchen design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/10. Villa 1880 - Outdoor kitchen design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Spa's&amp;nbsp; pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/11. Villa 1880 - Spa's  pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Roof terrace</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/12. Villa 1880 - Roof terrace.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Sitting area near fish pond</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/13. Villa 1880 - Sitting area near fish pond.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - 1970s VW microbus</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/14. Villa 1880 - 1970s VW microbus.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa 1880 - Night view</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/P00233/15. Villa 1880 - Night view.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

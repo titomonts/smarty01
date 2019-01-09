@@ -1,0 +1,66 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1920w" alt="Villa Kedidi - Pool and gardens" class="lazyload" />
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-kedidi'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20bal%C3%A9.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20bal%C3%A9.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20bal%C3%A9.jpg 1920w" alt="Villa Kedidi - Pool balé" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Guest%20bedroom%202.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Guest%20bedroom%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Guest%20bedroom%202.jpg 1920w" alt="Villa Kedidi - Guest bedroom 2" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1920w" alt="Villa Kedidi - Pool and gardens" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Writing%20desk.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Writing%20desk.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Writing%20desk.jpg 1920w" alt="Villa Kedidi - Writing desk" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Writing%20desk.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Writing%20desk.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Writing%20desk.jpg 1920w" alt="Villa Kedidi - Writing desk" class="lazyload" />
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Master%20suite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Master%20suite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Master%20suite.jpg 1920w" alt="Villa Kedidi - Master suite" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Probably%20the%20best%20private%20villa%20chefs%20in%20Bali.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Probably%20the%20best%20private%20villa%20chefs%20in%20Bali.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Probably%20the%20best%20private%20villa%20chefs%20in%20Bali.jpg 1920w" alt="Villa Kedidi - Probably the best private villa chefs in Bali" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Living%20and%20dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Living%20and%20dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Living%20and%20dining.jpg 1920w" alt="Villa Kedidi - Living and dining" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool.jpg 1920w" alt="Villa Kedidi - Pool" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20bal%C3%A9.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20bal%C3%A9.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20bal%C3%A9.jpg 1920w" alt="Villa Kedidi - Pool balé" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%2C%20bal%C3%A9%20and%20master%20suite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%2C%20bal%C3%A9%20and%20master%20suite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%2C%20bal%C3%A9%20and%20master%20suite.jpg 1920w" alt="Villa Kedidi - Pool, balé and master suite" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Guest%20bedroom%203%20at%20night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Guest%20bedroom%203%20at%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Guest%20bedroom%203%20at%20night.jpg 1920w" alt="Villa Kedidi - Guest bedroom 3 at night" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Guest%20bedroom%202%20(twin).jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Guest%20bedroom%202%20(twin).jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Guest%20bedroom%202%20(twin).jpg 1920w" alt="Villa Kedidi - Guest bedroom 2 (twin)" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1920w" alt="Villa Kedidi - Pool and gardens" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1920w" alt="Villa Kedidi - Pool and gardens" class="lazyload" />  
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Kedidi.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Kedidi%20-%20Pool%20and%20gardens.jpg 1920w" alt="Villa Kedidi - Pool and gardens" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

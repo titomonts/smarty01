@@ -1,0 +1,59 @@
+{include file="header.html"}
+	
+    <div class="home">    
+            <!-- HOME CONTENT -->
+            <div class="content-container">
+                <div class="content">
+                    <div class="content-item odd">
+                        {parsedata folder=$data.theme cache=$data.cache content="INTRO"}
+                        <h1 class="entry-title">{#HOME_HEADER#}</h1>
+                        {if 'desc'|array_key_exists:$content[0]}
+                        	{assign "find" array('<p>', '</p>')}
+							{assign "repl" array('', '')}
+                            {assign var=cleaned value=$content[0].desc|replace:$find:$repl}
+                        	{assign var=cparts value="."|explode:$cleaned}
+                        {/if}
+                        <div class="icons-wrapper">
+                            <ul class="icons">
+                                <li><img src="{$data.cdn}/resources/{$data.theme}/images/icons/thumb/bdr.png" data-src="{$data.cdn}/resources/{$data.theme}/images/icons/bdr.png" class="lazyload" /></li>
+                                <li><img src="{$data.cdn}/resources/{$data.theme}/images/icons/thumb/wedding.png" data-src="{$data.cdn}/resources/{$data.theme}/images/icons/wedding.png" class="lazyload" /></li>
+                                <li><img src="{$data.cdn}/resources/{$data.theme}/images/icons/thumb/pool.png" data-src="{$data.cdn}/resources/{$data.theme}/images/icons/pool.png" class="lazyload" /></li>
+                                <li><img src="{$data.cdn}/resources/{$data.theme}/images/icons/thumb/chef.png" data-src="{$data.cdn}/resources/{$data.theme}/images/icons/chef.png" class="lazyload" /></li>
+                                <li><img src="{$data.cdn}/resources/{$data.theme}/images/icons/thumb/staff.png" data-src="{$data.cdn}/resources/{$data.theme}/images/icons/staff.png" class="lazyload" /></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="home-content">
+                            <div class="home-features gray-bg">
+                                <div class="first-img left">
+                                	<h2>{#FIRST_H2#}</h2>                                        
+                                </div>
+                                <div class="feature-desc first">
+                                	<p>{$cparts[0]}</p>
+                                </div>
+                            </div>
+
+                            <div class="home-features">
+                                <div class="second-img right">
+                                    <h2>{#SECOND_H2#}</h2>
+                                </div>
+                                <div class="feature-desc second">
+                                    <p>{$cparts[1]}</p>
+                                </div>
+                            </div>
+
+                            <div class="home-features gray-bg">
+                                <div class="third-img left">
+                                    <h2>{#THIRD_H2#}</h2>
+                                </div>
+                                <div class="feature-desc third">
+                                    <p>{$cparts[2]}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>                    
+                </div>
+            </div>
+        </div>
+{include file="footer.html"}

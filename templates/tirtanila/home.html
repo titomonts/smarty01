@@ -1,0 +1,118 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+
+                <div class="content-item">
+                     <div class="wrapper">
+                        <h1 class="entry-title">{$data.heading}</h1>
+                        <p class="tagline">
+                        A stunning new Luxury Beach House located right on the water <br> in the Candidasa area of Bali’s picturesque and unspoiled East coast</p>
+                        {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content="INTRO"}
+                        {/if}
+                        {if 'desc'|array_key_exists:$content[0]}
+                            {contentpart content=$content[0].desc explode="</p>"}
+                            {str_replace('<p>', '<p class="wrapper introduction">', $contentPart[0])}
+                        {/if}                            
+                    </div>
+                </div>
+
+                <div class="content-item">  
+                    <div class="wrapper wrapper-wide caption">
+                        <div class="the-content">
+                            {include file="video.html"} 
+                        </div>                                                 
+                    </div>
+                </div>
+
+                <div class="content-item">  
+                    <div class="wrapper wrapper-wide caption">
+                        <div class="the-content"> 
+                            <div class="img">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Tirta Nila - Private beach and ocean deck.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Tirta Nila - Private beach and ocean deck.jpg" alt="Villa Tirta Nila - Private beach and ocean deck" class="lazyload">
+                            </div>
+
+                            <h3>best beachfront villa in bali</h3>
+                            <p class="wrapper">The surrounding area is lush with coconut groves and rice fields enticing discerning guests to a part of Bali, which is often not experienced. Majestic   water palaces of Balinese kings, sacred Hindu temples, scenic mountain valleys, authentic ancient villages and beautiful tropical parks are located just nearby.</p>
+							
+                            <!-- {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                 {contentpart content=$content[0].desc explode="<br /><br />" strip=['<p>', '</p>']}
+								{section name=s loop=$contentPart}
+								<p class="intro">{$contentPart[s]}</p>
+								{/section}
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if} -->
+
+                            <div class="clear"></div>
+                        </div>                                                 
+                    </div>
+                </div>
+
+
+                <div class="content-item">
+                     <div class="wrapper wrapper-wide">
+						<div class="group">
+							<div class="half">								
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Tirta Nila Beach House - Sun bed day.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Tirta Nila Beach House - Sun bed day.jpg" alt="Tirta Nila Beach House - Sun bed day" class="lazyload">
+								<!-- <h3>Dine in style.</h3> -->
+								<p class="wrapper">Here you will find a blend of contemporary tropical architecture and island-inspired décor with quality furnishings and fittings throughout.</p>
+                                <div class="button">
+                                    <a href="{$data.home_uri}/about-tirta-nila/{seo_optimize urls=$seo_urls page="explore-the-villa"}">Explore The Villa</a>
+                                </div>
+							</div>
+
+							<div class="half">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Tirta Nila Beach House - Dining table setup.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Tirta Nila Beach House - Dining table setup.jpg" alt="Tirta Nila Beach House - Dining table setup" class="lazyload">
+								<!-- <h3>Spectacular service.</h3> -->
+								<p class="wrapper">Staffed by a warm and experienced team, Tirta Nila is the perfect place to kick back and revel in five-star luxury in a location that is second to none.</p>
+                                <div class="button">
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="dining"}">The Experience</a>
+                                </div>
+							</div>
+						 </div>
+                    </div>
+				</div>
+                
+
+
+
+
+
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-tirta-nila', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

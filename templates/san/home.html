@@ -1,0 +1,93 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+ 
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa San - Outside living room from media room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa San - Outside living room from media room.jpg" alt="Villa San - Outside living room from media room" class="lazyload intro" />
+                        
+                         <h1 class="entry-title">{$data.heading}</h1>
+                        {if $data.content_id != ''}
+                        {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                        {/if}
+                        {if 'desc'|array_key_exists:$content[0]}
+
+                            {contentpart content=$content[0].desc strip=["<p>", "</p>", "&nbsp;"] explode="..."}
+                            {section name=s loop=1}
+                            <p>{$contentPart[s]}.</p>
+                            {/section}
+                            <p>
+                            {section name=s loop=$contentPart start=1}
+                            {if $smarty.section.s.index neq $smarty.section.s.last}
+                            {$contentPart[s]}. 
+                            {/if}
+                            {/section}
+                            </p>
+
+                        {/if}
+
+                        <ul class="poi">
+                            <li id="poi-1">6 Ensuite <br />Bedroom</li>
+                            <li id="poi-2">300m to <br />Ubud Center</li>
+                            <li id="poi-3">25M Swimming <br />Pool</li>
+                            <li id="poi-4">Private <br />Chef</li>
+                            <li id="poi-5">Fully <br />Staffed</li>
+                            <li id="poi-6">Wedding <br />Venue</li>
+                        </ul> 
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="content-item">
+                    <div class="wrapper accordion shortcut group">
+                            <div class="box-container">       
+                                <div class="box">
+                                    <div class="sub-villa-des">
+                                        <a href="/about-villa-san/explore-the-villa.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About the Villa']);">           
+                                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa San - Meeting room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa San - Meeting room.jpg" alt="Villa San - Meeting room" class="lazyload" />
+                                            <strong>Conference Room </strong>
+                                        </a>
+                                    </div>
+                                </div>
+                               
+                                <div class="box">
+                                    <div class="sub-villa-des">
+                                        <a href="/families.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore the Villa']);">                                
+                                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa San - Children's play room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa San - Children's play room.jpg" alt="Villa San - Children's play room" class="lazyload" />
+                                            <strong>Kids Playroom </strong>
+                                        </a>
+                                    </div>
+                                </div>
+                               
+                                <div class="box">
+                                    <div class="sub-villa-des">
+                                        <a href="/ubud-bali.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">                                
+                                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa San - Temple and sun loungers.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa San - Temple and sun loungers.jpg" alt="Villa San - Temple and sun loungers" class="lazyload" />
+                                            <strong>Buddhist Temple </strong>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="box">
+                                    <div class="sub-villa-des">
+                                        <a href="/families.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore the Villa']);">                                
+                                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa San - The gym.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa San - The gym.jpg" alt="Villa San - The gym" class="lazyload" />
+                                            <strong>The Gym </strong>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="clear" style="margin-bottom: 40px;"></div>
+            </div>
+        </div>
+            
+{include file="footer.html"}

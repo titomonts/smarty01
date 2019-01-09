@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>P00157</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Villa Nandana</villa_name>
+		<google_analytics>UA-123708551-1</google_analytics>
+		<location>Phuket</location>
+		<sublocation> Natai Beach</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'P00157', 'Phuket', 'Natai Beach', '4br'</hrental_id>
+		<ehgLocation>Phuket, Natai Beach</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

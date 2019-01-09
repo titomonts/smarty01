@@ -1,0 +1,78 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Poolside.jpg 1920w" alt="Villa Asta - Poolside" class="lazyload" />          
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - The pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20The%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20The%20pool.jpg 1920w" alt="Villa Asta - The pool" class="lazyload" />       
+        </div>
+        <div id="slide-3">    
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Deck chairs from above.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Deck%20chairs%20from%20above.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Deck%20chairs%20from%20above.jpg 1920w" alt="Villa Asta - Deck chairs from above" class="lazyload" />       
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-asta'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Open air living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Open%20air%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Open%20air%20living%20area.jpg 1920w" alt="Villa Asta - Open air living area" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - The pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20The%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20The%20pool.jpg 1920w" alt="Villa Asta - The pool" class="lazyload" />       
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - The bar and grounds.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20The%20bar%20and%20grounds.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20The%20bar%20and%20grounds.jpg 1920w" alt="Villa Asta - The bar and grounds" class="lazyload" /> 
+
+        {elseif $data.page == 'photo-gallery'}
+        {*  *}
+
+        {elseif $data.page == 'floorplan'}
+        {*  *}
+        
+        {elseif $data.page == 'seminyak-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Poolside at twilight.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Poolside%20at%20twilight.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Poolside%20at%20twilight.jpg 1920w" alt="Villa Asta - Poolside at twilight" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - The staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20The%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20The%20staff.jpg 1920w" alt="Villa Asta - The staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Dining area at night.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Dining%20area%20at%20night.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Dining%20area%20at%20night.jpg 1920w" alt="Villa Asta - Dining area at night" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Billiards table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Billiards%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Billiards%20table.jpg 1920w" alt="Villa Asta - Billiards table" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Ensuite bathroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Ensuite%20bathroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Ensuite%20bathroom.jpg 1920w" alt="Villa Asta - Ensuite bathroom" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Weddings.jpg 1920w" alt="Villa Asta - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - The media room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20The%20media%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20The%20media%20room.jpg 1920w" alt="Villa Asta - The media room" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Deck chairs.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Deck%20chairs.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Deck%20chairs.jpg 1920w" alt="Villa Asta - Deck chairs" class="lazyload" />   
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Living%20area.jpg 1920w" alt="Villa Asta - Living area" class="lazyload" />     
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Deck chairs from above.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Deck%20chairs%20from%20above.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Deck%20chairs%20from%20above.jpg 1920w" alt="Villa Asta - Deck chairs from above" class="lazyload" /> 
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Poolside.jpg 1920w" alt="Villa Asta - Poolside" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Poolside.jpg 1920w" alt="Villa Asta - Poolside" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa Asta.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Asta - Poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Asta%20-%20Poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Asta%20-%20Poolside.jpg 1920w" alt="Villa Asta - Poolside" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

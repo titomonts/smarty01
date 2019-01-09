@@ -1,0 +1,696 @@
+[
+	{
+		"page_title":"Welcome to Majapahit Beach Villas",
+		"label":"Home",
+		"page_header":"Welcome to Majapahit Beach Villas",
+		"template":"page-template.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"About Majapahit Beach Villas",
+		"label":"The Villas",
+		"page_header":"About Majapahit Beach Villas",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+		"page_identifier":"about-majapahit-beach-villas",
+		"children":[
+						{
+							"page_title":"About Majapahit Beach Villas",
+							"label":"About Majapahit Beach Villas",
+							"page_header":"About Majapahit Beach Villas",
+							"template":"page-template.html",
+							"content_id":"ABTV",
+							"page_identifier":"about-majapahit-beach-villas",
+							"level":"top"
+						},
+						{
+							"page_title":"Villa Layout",
+							"label":"Villa Maya",
+							"page_header":"Villa Layout",
+							"template":"villa-template.html",
+							"content_id":"LYT",
+							"page_identifier":"villa-layout",
+							"level":"sub",
+							"parent":"villa-maya",
+							"villaID":"MajapahitMaya4BR"
+						},
+						{
+							"page_title":"Villa layout",
+							"label":"Villa Raj",
+							"page_header":"Villa layout",
+							"template":"villa-template.html",
+							"content_id":"LYT",
+							"page_identifier":"villa-layout",
+							"level":"sub",
+							"parent":"villa-raj",
+							"villaID":"Raj"
+						},
+						{
+							"page_title":"Villa layout",
+							"label":"Villa Nataraja",
+							"page_header":"Villa layout",
+							"template":"villa-template.html",
+							"content_id":"LYT",
+							"page_identifier":"villa-layout",
+							"level":"sub",
+							"parent":"villa-nataraja",
+							"villaID":"Nataraja"
+						},
+						{
+							"page_title":"Villa combinations",
+							"label":"Villa combination",
+							"page_header":"Villa combinations",
+							"template":"page-template.html",
+							"content_id":"CONVILL",
+							"page_identifier":"villa-combinations",
+							"level":"top"
+						},
+						{
+							"page_title":"Floorplan",
+							"label":"Floorplan",
+							"page_header":"Floorplan",
+							"template":"floorplan.html",
+							"content_id":"",
+							"page_identifier":"floorplan",
+							"level":"sub",
+							"parent":"gallery"
+						}
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Photo gallery",		
+		"label":"Gallery",
+		"page_header":"Photo gallery",
+		"template":"photo-gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+						{
+							"page_title":"Gallery",
+							"label":"Villa Maya",
+							"page_header":"Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"gallery",
+							"level":"sub",
+							"parent":"villa-maya"
+						},
+						{
+							"page_title":"Gallery",
+							"label":"Villa Raj",
+							"page_header":"Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"gallery",
+							"level":"sub",
+							"parent":"villa-raj"
+						},
+						{
+							"page_title":"Gallery",
+							"label":"Villa Nataraja",
+							"page_header":"Gallery",
+							"template":"villa-gallery.html",
+							"content_id":"",
+							"page_identifier":"gallery",
+							"level":"sub",
+							"parent":"villa-nataraja"
+						},
+						{
+							"page_title":"Floorplan",
+							"label":"Floorplan",
+							"page_header":"Floorplan",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"floorplan",
+							"level":"sub",
+							"parent":"gallery"
+						}
+						
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Quick facts",
+		"label":"The details",
+		"page_header":"Quick facts",
+		"template":"page-template.html",
+		"content_id":"QF",
+		"page_identifier":"quick-facts",
+		"children":[
+						{
+							"page_title":"Quick facts",
+							"label":"Quick Facts",
+							"page_header":"Quick facts",
+							"template":"page-template.html",
+							"content_id":"QF",
+							"page_identifier":"quick-facts",
+							"level":"top"
+						},
+						{
+							"page_title":"Dining",
+							"label":"Dining",
+							"page_header":"Dining",
+							"template":"page-template.html",
+							"content_id":"DNNG",
+							"page_identifier":"dining",
+							"level":"sub",
+							"parent":"quick-facts"
+						},
+						{
+							"page_title":"Staff",
+							"label":"Staff",
+							"page_header":"Staff",
+							"template":"page-template.html",
+							"content_id":"STAFF",
+							"page_identifier":"staff",
+							"level":"sub",
+							"parent":"quick-facts"
+						},
+						{
+							"page_title":"Families at Villa Majapahit",
+							"label":"Families",
+							"page_header":"Families at Villa Majapahit",
+							"template":"page-template.html",
+							"content_id":"FAM",
+							"page_identifier":"families-at-villa-majapahit",
+							"level":"sub",
+							"parent":"quick-facts"
+						},
+						{
+							"page_title":"Spa",
+							"label":"Spa",
+							"page_header":"Spa",
+							"template":"page-template.html",
+							"content_id":"FAM",
+							"page_identifier":"spa",
+							"level":"sub",
+							"parent":"quick-facts"
+						}
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Weddings &amp; celebrations",
+		"label":"Weddings",
+		"page_header":"Weddings &amp; celebrations",
+		"template":"page-template.html",
+		"content_id":"EVT",
+		"page_identifier":"weddings-celebrations",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"The locale",
+		"label":"Location",
+		"page_header":"The locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"children":[
+						{
+							"page_title":"The locale",
+							"label":"The Locale",
+							"page_header":"The locale",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"the-locale",
+							"level":"top"
+						},
+						{
+							"page_title":"Things to do",
+							"label":"Things to do",
+							"page_header":"Things to do",
+							"template":"page-template.html",
+							"content_id":"TTD",
+							"page_identifier":"things-to-do",
+							"level":"sub",
+							"parent":"the-locale"
+						}		
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Guest reviews",
+		"label":"Reviews",
+		"page_header":"Guest reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"children":[
+						{
+							"page_title":"Guest reviews",
+							"label":"Guest Reviews",
+							"page_header":"Guest reviews",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"guest-reviews",
+							"level":"top"
+						},
+						{
+							"page_title":"Guest book",
+							"label":"Guest Book",
+							"page_header":"Guest book",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"guest-book",
+							"level":"sub",
+							"parent":"guest-reviews"
+						},
+						{
+							"page_title":"Press",
+							"label":"Press",
+							"page_header":"Press",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"press",
+							"level":"sub",
+							"parent":"guest-reviews"
+						}		
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Rates",
+		"label":"Rates",
+		"page_header":"Rates",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Availability calendar",
+		"label":"Availability",
+		"page_header":"Availability Calendar",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"availability-calendar",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Enquire now",
+		"label":"Enquire now",
+		"page_header":"Enquire now",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"General Enquiries",
+		"label":"General Enquiries",
+		"page_header":"General Enquiries",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"general-enquiries",
+		"menu_location":""
+	},
+	{
+		"page_title":"Contact us",
+		"label":"Contact us",
+		"page_header":"Contact us",
+		"template":"page-template.html",
+		"content_id":"CONTACTS",
+		"page_identifier":"contact-us",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"sitemap.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer"
+	},
+	{
+		"page_title":"Enquiry Sent",
+		"label":"Enquiry Sent",
+		"page_header":"Enquiry Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"contact-sent",
+		"menu_location":""
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservation-sent",
+		"menu_location":""
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Maya",
+		"page_header":"Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"parent":"villa-maya",
+		"villaID":"MajapahitMaya4BR",
+		"children":[
+					{
+						"page_title":"Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"villa-layout",
+						"level":"sub",
+						"parent":"villa-maya",
+						"villaID":"MajapahitMaya4BR"
+					},
+					{
+						"page_title":"Living areas",
+						"label":"Living Areas",
+						"page_header":"Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"living-areas",
+						"level":"sub",
+						"parent":"villa-maya",
+						"villaID":"MajapahitMaya4BR"
+					},
+					{
+						"page_title":"Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"bedrooms",
+						"level":"sub",
+						"parent":"villa-maya",
+						"villaID":"MajapahitMaya4BR"
+					},
+					{
+						"page_title":"Gallery",
+						"label":"Gallery",
+						"page_header":"Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"gallery",
+						"level":"sub",
+						"parent":"villa-maya",
+						"villaID":"MajapahitMaya4BR"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"Floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"villa-maya",
+						"villaID":"MajapahitMaya4BR"
+					}		
+		]
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Raj",
+		"page_header":"Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"parent":"villa-raj",
+		"villaID":"Raj",
+		"children":[
+					{
+						"page_title":"Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"villa-layout",
+						"level":"sub",
+						"parent":"villa-raj",
+						"villaID":"Raj"
+					},
+					{
+						"page_title":"Living areas",
+						"label":"Living Areas",
+						"page_header":"Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"living-areas",
+						"level":"sub",
+						"parent":"villa-raj",
+						"villaID":"Raj"
+					},
+					{
+						"page_title":"Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"bedrooms",
+						"level":"sub",
+						"parent":"villa-raj",
+						"villaID":"Raj"
+					},
+					{
+						"page_title":"Gallery",
+						"label":"Gallery",
+						"page_header":"Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"gallery",
+						"level":"sub",
+						"parent":"villa-raj",
+						"villaID":"Raj"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"villa-raj",
+						"villaID":"Raj"
+					}		
+		]
+	},
+	{
+		"page_title":"Villa Layout",
+		"label":"Villa Nataraja",
+		"page_header":"Villa Layout",
+		"template":"villa-template.html",
+		"content_id":"LYT",
+		"page_identifier":"villa-layout",
+		"menu_location":"internal",
+		"level":"top",
+		"parent":"villa-nataraja",
+		"villaID":"Nataraja",
+		"children":[
+					{
+						"page_title":"Villa Layout",
+						"label":"Villa Layout",
+						"page_header":"Villa Layout",
+						"template":"villa-template.html",
+						"content_id":"LYT",
+						"page_identifier":"villa-layout",
+						"level":"sub",
+						"parent":"villa-nataraja",
+						"villaID":"Nataraja"
+					},
+					{
+						"page_title":"Living areas",
+						"label":"Living Areas",
+						"page_header":"Living Areas",
+						"template":"villa-template.html",
+						"content_id":"LVA",
+						"page_identifier":"living-areas",
+						"level":"sub",
+						"parent":"villa-nataraja",
+						"villaID":"Nataraja"
+					},
+					{
+						"page_title":"Bedrooms",
+						"label":"Bedrooms",
+						"page_header":"Bedrooms",
+						"template":"villa-template.html",
+						"content_id":"BDR",
+						"page_identifier":"bedrooms",
+						"level":"sub",
+						"parent":"villa-nataraja",
+						"villaID":"Nataraja"
+					},
+					{
+						"page_title":"Gallery",
+						"label":"Gallery",
+						"page_header":"Gallery",
+						"template":"villa-gallery.html",
+						"content_id":"",
+						"page_identifier":"gallery",
+						"level":"sub",
+						"parent":"villa-nataraja",
+						"villaID":"Nataraja"
+					},
+					{
+						"page_title":"Floorplan",
+						"label":"Floorplan",
+						"page_header":"floorplan",
+						"template":"villa-template.html",
+						"content_id":"",
+						"page_identifier":"floorplan",
+						"level":"sub",
+						"parent":"villa-nataraja",
+						"villaID":"Nataraja"
+					}		
+		]
+	},
+	{
+		"page_title":"Reservation Sent",
+		"label":"Reservation Sent",
+		"page_header":"Reservation Sent",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"mobile-sent",
+		"menu_location":""
+	},
+	{
+		"page_title":"",
+		"label":"",
+		"page_header":"",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"m",
+		"menu_location":"mobile",
+		"level":"top",
+		"children":[
+					{
+						"page_title":"",
+						"label":"About the villas",
+						"page_header":"Welcome to Majapahit Beach Villas",
+						"template":"page-template.html",
+						"content_id":"ABTV",
+						"page_identifier":"about-the-villas",
+						"menu_location":"mobile",
+						"level":"sub",
+						"parent":"m"
+					},
+					{
+						"page_title":"",
+						"label":"Location",
+						"page_header":"The locale",
+						"template":"page-template.html",
+						"content_id":"LCTN",
+						"page_identifier":"location",
+						"menu_location":"mobile",
+						"level":"sub",
+						"parent":"m"
+					},
+					{
+						"page_title":"",
+						"label":"Weddings",
+						"page_header":"Weddings",
+						"template":"page-template.html",
+						"content_id":"EVT",
+						"page_identifier":"weddings",
+						"menu_location":"mobile",
+						"level":"sub",
+						"parent":"m"
+					},
+					{
+						"page_title":"Rates",
+						"label":"Rates &amp; availability",
+						"page_header":"Rates &amp; availability",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"rates",
+						"menu_location":"mobile",
+						"level":"sub",
+						"parent":"m"
+					},
+					{
+						"page_title":"Enquire now",
+						"label":"Enquire now",
+						"page_header":"Enquire",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"enquire-now",
+						"menu_location":"mobile",
+						"level":"sub",
+						"parent":"m"
+					},
+					{
+						"page_title":"Enquire now",
+						"label":"Call",
+						"page_header":"",
+						"template":"",
+						"content_id":"",
+						"page_identifier":"call",
+						"menu_location":"mobile",
+						"level":"top"
+					},
+					{
+						"page_title":"View full site",
+						"label":"View full site",
+						"page_header":"Enquire",
+						"template":"page-template.html",
+						"content_id":"",
+						"page_identifier":"view-full-site",
+						"menu_location":"mobile",
+						"level":"sub",
+						"parent":"m"
+					},
+					{
+						"page_title":"Villa Maya",
+						"label":"Villa Maya",
+						"page_header":"Villa Maya",
+						"template":"page-villa.html",
+						"content_id":"",
+						"page_identifier":"villa-maya",
+						"menu_location":"",
+						"level":"sub",
+						"parent":"m",
+						"villaID":"MajapahitMaya4BR"
+					},
+					{
+						"page_title":"Villa Raj",
+						"label":"Villa Raj",
+						"page_header":"Villa Raj",
+						"template":"page-villa.html",
+						"content_id":"",
+						"page_identifier":"villa-raj",
+						"menu_location":"",
+						"level":"sub",
+						"parent":"m",
+						"villaID":"Raj"
+					},
+					{
+						"page_title":"Villa Nataraja",
+						"label":"Villa Nataraja",
+						"page_header":"Villa Nataraja",
+						"template":"page-villa.html",
+						"content_id":"",
+						"page_identifier":"villa-nataraja",
+						"menu_location":"",
+						"level":"sub",
+						"parent":"m",
+						"villaID":"Nataraja"
+					}
+		]
+	}
+]
+		

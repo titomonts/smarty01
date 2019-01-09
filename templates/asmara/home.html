@@ -1,0 +1,89 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+                        <ul class="poi">
+                            <li id="poi-1">Stunning rural<br /> Cemagi location</li>
+                            <li id="poi-2">Four elegant<br /> ensuite bedrooms</li>
+                            <li id="poi-3">Fully staffed<br /> private chef</li>
+                            <li id="poi-4">Games room<br /> for family fun</li>
+                        </ul>  
+                        <div class="group">
+                            <div class="half">
+                                <h1 class="entry-title">{$data.heading}</h1>
+                                {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+
+                                    {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+                                    {section name=s loop=$contentPart}
+                                    <p>{$contentPart[s]}</p>
+                                    {/section}
+
+                                {/if}
+
+                                {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                    <h2>{$content[0].SubContents[s].Heading}</h2>
+                                    {$content[0].SubContents[s].Description}
+                                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                        <p>
+                                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                            </a>
+                                        </p>
+                                    {/if}
+                                    {/section}
+                                {/if}
+                            </div>
+                            <div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Asmara - Rice view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asmara - Rice view.jpg" alt="Villa Asmara - Rice view" class="lazyload" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="collage group">
+                        <div class="half">
+                            <div class="first-row">
+                                <a href="about-villa-asmara.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Asmara - Master bed.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asmara - Master bed.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asmara%20-%20Master%20bed.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asmara%20-%20Master%20bed.jpg 632w" alt="Villa Asmara - Master bed" class="lazyload" />
+                                    <span><small>It's hard not to</small> fall in love with Villa Asmara</span>
+                                </a>
+                            </div>
+                            <div class="second-row">
+                                <a href="/about-villa-asmara/explore-the-villa.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Asmara - Living areas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asmara - Living areas.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asmara%20-%20Living%20areas.jpg 375w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asmara%20-%20Living%20areas.jpg 750w" alt="Villa Asmara - Living areas" class="lazyload" />
+                                    <span><small>Tastefully decorated with</small> Javanese antiques</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="half">
+                            <a href="/villa-experience.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">
+                                <div class="overlay"></div>
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Asmara - Gardens and pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asmara - Gardens and pool.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asmara%20-%20Gardens%20and%20pool.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asmara%20-%20Gardens%20and%20pool.jpg 632w" alt="Villa Asmara - Gardens and pools" class="lazyload" />
+                                <span>Experience <small>beyond the sleepy village of Cemagi</small></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons-container">                
+            {include file="part-buttons.html"}
+        </div>
+            
+{include file="footer.html"}

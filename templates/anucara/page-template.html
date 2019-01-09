@@ -1,0 +1,94 @@
+{include file="header.html"}
+{section name=p loop=$pages}
+    {if $data.page == $pages[p].page_identifier}
+    	{assign var=bodeh_class value=$pages[p].body_class}
+    {/if}
+    {if 'children'|array_key_exists:$pages[p]}
+    	{section name=sp loop=$pages[p].children}
+            {if $data.page == $pages[p].children[sp].page_identifier}
+                {assign var=bodeh_class value=$pages[p].children[sp].body_class}
+            {/if}
+        {/section}
+    {/if}
+{/section}
+<body class="{$bodeh_class}">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        {if $data.page|in_array:['cemagi-bali','villa-experience','explore-the-villa']}
+            {assign var="containerClass" value="scroll"}
+        {else}
+            {assign var="containerClass" value=""}
+        {/if}
+       <div class="content-container {$containerClass}">
+            <div class="content">
+                {if $data.page|in_array:['reservations']}
+                    {assign var="contentClass" value=""}
+                {else}
+                    {assign var="contentClass" value="odd"}
+                {/if}
+                
+                {if $data.page|in_array:['about-villa-anucara', 'weddings', 'villa-layout', 'bedrooms', 'living-areas', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+                {else}
+                    <div class="content-item {$contentClass}">
+						{if $data.page|in_array:['cemagi-bali', 'villa-experience', 'explore-the-villa']}
+							<div class="wrapper">  
+								<div class="the-content">
+									<h1 class="entry-title">{$data.heading}</h1>
+						{else}
+							<h1 class="entry-title">{$data.heading}</h1>
+							<div class="wrapper">  
+								<div class="the-content">
+						{/if}
+							
+                                {if $data.page|in_array:['cemagi-bali', 'villa-experience', 'explore-the-villa']}
+                                    {include file="submenu.html"}
+                                {/if}
+
+                                {if $data.page|in_array:['rates', 'reservations', 'general-enquiries']}
+                                    {include file="part-guarantee.html"}
+                                {/if}
+
+                                {if $data.page|in_array:['about-villa-anucara', 'weddings', 'cemagi-bali', 'explore-the-villa', 'villa-experience', 'villa-layout', 'bedrooms', 'living-areas', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+                                {else}
+                                    {include file="content-single.html"}
+                                {/if}                       
+                            </div>
+                        </div>
+                    </div>
+                {/if}
+                
+                {if $data.page|in_array:['about-villa-anucara', 'weddings', 'villa-layout', 'bedrooms', 'living-areas', 'the-locale', 'things-to-do', 'staff', 'dining', 'families', 'spa']}
+                    <div class="content-seo">
+                    {include file="content-fragment.html"}
+                    </div>
+                {/if}
+                {if $data.page|in_array:['cemagi-bali', 'explore-the-villa', 'villa-experience']}
+                    {include file="content-fragment.html"}
+                {/if} 
+                
+                {if $data.page neq 'guest-reviews'}
+                {* <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div> *} 
+                {/if}
+            </div>
+        </div>
+
+        {if $data.page != 'reservations'}
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-anucara', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'video', 'floorplan', 'weddings', 'cemagi-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+        {/if}
+            
+{include file="footer.html"}

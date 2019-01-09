@@ -1,0 +1,127 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            
+                            <p class="tagline">Contemporary fully staffed five-bedroom beachfront villa on Bali’s Nusa Lembongan island with stunning living spaces, 15-metre pool, direct beach access and spectacular views.</p>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {$content[0].desc}
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <ul class="poi">
+                            <li id="poi-1">Absolute <br/>Beachfront</li>
+                            <li id="poi-2">Private <br/>Chef</li>
+                            <li id="poi-3">5 Ensuite <br/>Bedroom</li>
+                            <li id="poi-4">Family <br/>Friendly</li>
+                            <li id="poi-5">Fully <br/>Staffed</li>
+                        </ul> 
+                    </div>
+                </div>  
+                <div class="content-item">
+                    <div class="group">
+                        <div class="first-img">								
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Seascape - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Seascape - Family.jpg" alt="Villa Seascape - Family" class="lazyload">
+
+                            <h3>The family friendly advantages of a villa holiday.</h3>
+                            {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>", "<br />"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=2 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+                            <a href="/families.html">Read more</a>
+
+                        </div>
+
+                        <div class="second-img">
+                        <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Seascape - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Seascape - Bedroom preparation.jpg" alt="Villa Seascape - Bedroom preparation" class="lazyload">
+                            <h3>Personalised service provided by dedicated staff.</h3>
+                            {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>", "<br />"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=3 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+                            <a href="/staff.html">Read more</a>
+                        </div>
+
+                        <div class="third-img">								
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Seascape - Potrait.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Seascape - All day dining at cost.jpg" alt="Villa Seascape - All day dining at cost" class="lazyload">								
+                            <h3>Fresh cuisine. <br>Prepared especially for you.</h3>
+                            {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>", "<br />"] explode="."}
+                                <p>
+                                {section name=s loop=$contentPart start=0 max=2 }
+                                    {$contentPart[s]}.
+                                {/section}
+                                </p>
+                            {/if}
+                            <a href="/dining.html">Read more</a>
+                        </div>
+                    </div>
+				</div>
+                <div class="content-item">
+                    <div class="wrapper">
+                        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Seascape - Open living room.jpg" alt="Villa Seascape - Open living room" class="lazyload"></div>
+                        
+                        <h2>A stunning home on the ocean’s edge that is set to raise the bar for contemporary tropical living.</h2>
+                        <p>The maxi-minimalist design aesthetic is perfectly pitched, with a beach-chic colour scheme of neutrals and aquas, and a circular theme softening the rectangular shapes, from decorative alcoves to bathroom mirrors to the pool terrace.</p>
+                        
+                        <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Seascape.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Seascape - Circle table seaview.jpg" alt="Villa Seascape - Circle table seaview" class="lazyload"></div>
+                        
+                        <h2>Located in a small crescent beach on the south-western shore of Nusa Lembongan.</h2>
+                        <p>The 25-minute boat ride across the Badung Strait from Sanur is a great way to seriously slow down: leaving the hustle and bustle of the mainland behind and stepping ashore at Mushroom Beach is akin to stepping back in time</p>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-seascape', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

@@ -1,0 +1,4 @@
+
+var iframe='';var iframe2='';
+
+defer(function(){jQuery(iframe).insertBefore('#rates-sesehbeach-1 #tabs');jQuery(iframe2).insertBefore('#rates-sesehbeach-2 #tabs:first');});function defer(method){if(window.jQuery){method();}else{setTimeout(function(){defer(method)},1);}}

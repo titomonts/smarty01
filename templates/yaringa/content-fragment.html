@@ -1,0 +1,518 @@
+{if $data.page|in_array:['about-villa-yaringa']}
+<div class="content-item odd about" id="about">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Villa Yaringa - The pool.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    {$contentPart[s]}
+                    {/section}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+        <h1 class="entry-title"><span>{$data.heading}</span></h1>      
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            {if empty($contentPart[s]|strstr:"</a>")} 
+            {contentpart content=$contentPart[s] explode="<br /> <br />"}
+            {section name=s max=1 loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}                
+            {/if}
+            {/section} 
+        {/if}
+    </div>
+    <div class="group">
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Yaringa%20-%20Ring%20exchange.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Yaringa%20-%20Ring%20exchange.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Yaringa%20-%20Ring%20exchange.jpg 1920w" alt="Villa Yaringa - Ring exchange" class="lazyload" /></div>
+        <div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Yaringa%20-%20Bouquet.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Villa%20Yaringa%20-%20Bouquet.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Villa%20Yaringa%20-%20Bouquet.jpg 1920w" alt="Villa Yaringa - Bouquet" class="lazyload" /></div>
+    </div>
+    <div class="wrapper">        
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc regex="default"}
+        {section name=s loop=$contentPart}
+        {if empty($contentPart[s]|strstr:"</a>")} 
+        {contentpart content=$contentPart[s] explode="<br /> <br />"}
+        {section name=s start=1 loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}                
+        {/if}
+        {/section} 
+    {/if}
+    {if 'desc'|array_key_exists:$content[0]}           
+
+        <div class="group">
+        {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+        {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+        <ul class="capacity">
+        {section name=s loop=$contentPart}
+        {$contentPart[s]|replace:'<br />': ''}
+        {/section}
+        </ul>
+
+        <div class="guidelines">
+        {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+        {section name=s loop=$contentPart}
+        {$contentPart[s]|replace:'<br />': ''}
+        {/section} 
+        </div>
+        </div>
+
+        <div class="photo-album">
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Yaringa - Wedding 1.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Yaringa - Wedding 2.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Yaringa - Wedding 3.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Yaringa - Wedding 4.jpg" class="lazyload"></div>
+            <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Villa Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Villa Yaringa - Wedding 5.jpg" class="lazyload"></div>
+        </div>
+        <div class="photo-album-thumbs">
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Yaringa - Wedding 1.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Yaringa - Wedding 2.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Yaringa - Wedding 3.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Yaringa - Wedding 4.jpg" class="lazyload"></div>
+            <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Villa Yaringa - Wedding 5.jpg" class="lazyload"></div>
+        </div>
+
+        {* <h3>Get in touch.</h3>
+
+        <a href="/reservations.html" class="button">Contact us.</a> *}
+
+        <div class="clear"></div>
+    {/if}
+
+    {section name=s loop=$content[0].SubContents}
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+        {$content[0].SubContents[s].Description}
+
+        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if}
+    {/section}
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+    <div class="wrapper">   
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        </div>
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+   
+    <h2 class="entry-title"><span>Living Areas</span></h2>
+    
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Yaringa%20-%20TV%20and%20living%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20TV%20and%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Yaringa%20-%20TV%20and%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20TV%20and%20living%20area.jpg 1920w" alt="Villa Yaringa - TV and living area" class="lazyload" /></div>
+    
+    <div class="wrapper">
+       
+        {parsedata folder=$data.theme cache=$data.cache content="LVA"}
+
+        {if 'desc'|array_key_exists:$content[0]}
+			 
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+			 
+        {/if}
+       
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+             {$content[0].SubContents[s].Description|replace:'<br /><br />':'</p><p>'}
+            {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if *}
+        {/section}
+    </div>
+    
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Yaringa%20-%20Colorful%20pillow%20on%20lounge%20area.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Colorful%20pillow%20on%20lounge%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Yaringa%20-%20Colorful%20pillow%20on%20lounge%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Colorful%20pillow%20on%20lounge%20area.jpg 1920w" alt="Villa Yaringa - Colorful pillow on lounge area" class="lazyload" /></div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+
+    <div class="wrapper">       
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+        
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+
+        {if 'desc'|array_key_exists:$content[0]}
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+        {/if}
+        </div>
+    </div>
+
+    {section name=s loop=$content[0].SubContents}
+    <div class="group">
+        <div class="group-wrapper">
+        {if $smarty.section.s.index eq 1}
+        <div class="half">
+            <div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Guest%20bedroom%20outlook.jpg" alt="Villa Yaringa - Guest bedroom outlook" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Yaringa%20-%20Guest%20bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Guest%20bedroom%20outlook.jpg 1920w" class="lazyload" /></div>
+        </div>        
+        {/if}
+
+        <div class="half half-content">
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+        {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if *}
+        </div>
+
+        {if $smarty.section.s.index eq 0}
+        <div class="half">
+            <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Bedroom%20setting.jpg" alt="Villa Yaringa - Bedroom setting" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Yaringa%20-%20Bedroom%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Bedroom%20setting.jpg 1920w" class="lazyload" /></div> 
+        </div>
+        {elseif $smarty.section.s.index eq 2}
+        <div class="half">
+            <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Guest%20bedroom%203.jpg" alt="Villa Yaringa - Guest bedroom 3" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Villa%20Yaringa%20-%20Guest%20bedroom%203.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Villa%20Yaringa%20-%20Guest%20bedroom%203.jpg 1920w" class="lazyload" /></div> 
+        </div>
+        {/if}
+        </div>
+    </div>    
+    {/section}
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+        <h1 class="entry-title"><span>Staff</span></h1>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+
+        <div class="clear"></div>
+        </div>
+    </div>
+    
+	<div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Villa%20Yaringa%20-%20Staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Yaringa%20-%20Staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Villa%20Yaringa%20-%20Staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Villa%20Yaringa%20-%20Staff.jpg 1920w" alt="Villa Yaringa - Staff" class="lazyload" /></div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+        <h1 class="entry-title"><span>Dining</span></h1>
+		{if 'desc'|array_key_exists:$content[0]}
+
+			 {contentpart content=$content[0].desc strip="<p>" explode="</p>"}
+			{section name=s loop=$contentPart}
+			<p>{$contentPart[s]}</p>
+			{/section}
+
+		{/if}
+
+		{if 'SubContents'|array_key_exists:$content[0]}
+			{section name=s loop=$content[0].SubContents}
+				<h2>{$content[0].SubContents[s].Heading}</h2>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+						<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+							<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+						</a>
+					</p>
+				{/if}
+			{/section}
+
+		{/if}
+    </div>
+    
+   <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Villa%20Yaringa%20-%20Dining.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Yaringa%20-%20Dining.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Villa%20Yaringa%20-%20Dining.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Villa%20Yaringa%20-%20Dining.jpg 1920w" alt="Villa Yaringa - Dining" class="lazyload" /></div>
+    
+     <div class="clear"></div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+
+<div class="content-item families" id="families">
+	{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+	
+	<div class="wrapper">	
+		<h1 class="entry-title"><span>Families</span></h1>
+	</div>	
+	{if 'desc'|array_key_exists:$content[0]}
+		{contentpart content=$content[0].desc strip="<p>" explode="</p>"}
+		<div class="group">
+			<div class="group-wrapper">
+				<div class="half">
+					<div class="first-img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa%20Yaringa%20-%20Amazing%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Yaringa%20-%20Amazing%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Yaringa%20-%20Amazing%20view.jpg 1920w" alt="Villa Yaringa - Amazing view" class="lazyload" />
+					</div>
+				</div>
+				<div class="half half-content">
+					{section name=s loop=$contentPart max=3}
+					<p>{$contentPart[s]}</p>
+					{/section}
+				</div>
+			</div>
+		</div>
+		
+		<div class="group">
+			<div class="group-wrapper">
+				
+				<div class="half half-content">
+					{section name=s loop=$contentPart start=3}
+					<p>{$contentPart[s]}</p>
+					{/section}
+					{section name=s loop=$content[0].SubContents}
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						{$content[0].SubContents[s].Description}
+						{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+							<p>
+								<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+									<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+								</a>
+							</p>
+						{/if}
+					{/section}
+				</div>
+				
+				<div class="half">
+					<div class="second-img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Villa%20Yaringa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Villa%20Yaringa%20-%20Families.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Villa%20Yaringa%20-%20Families.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Villa%20Yaringa%20-%20Families.jpg 1920w" alt="Villa Yaringa - Families" class="lazyload" />
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	{/if}
+    <div class="clear"></div>
+   
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="SPA"}
+        <h1 class="entry-title"><span>Spa</span></h1>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+
+        <div class="clear"></div>
+    </div>    
+    
+    <div class="img"><img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Villa%20Yaringa%20-%20Relax%20and%20relish.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Yaringa%20-%20Relax%20and%20relish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Villa%20Yaringa%20-%20Relax%20and%20relish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Villa%20Yaringa%20-%20Relax%20and%20relish.jpg 1920w" alt="Villa Yaringa - Relaxing massage" class="lazyload" /></div>
+	
+</div>
+{/if}
+
+{if $data.page|in_array:['natai-beach-phuket', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The Locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        <div class="clear"></div>
+        </div>
+        <div class="map_div" id="map_div_locale"></div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+            <dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+    </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['natai-beach-phuket', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="the-content">
+        <div class="wrapper">
+			<div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+			<h2 class="entry-title"><span>Things to Do</span></h2>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc regex="default"}
+				{section name=s loop=$contentPart}
+					{$contentPart[s]}
+				{/section}
+			{/if} 
+			</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="group">
+			{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc|replace:"</ul><ul>":"" regex="/<ul>(.*?)<\/ul>/s"}
+				{contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+				{section name=s loop=$contentPart}
+				{if $smarty.section.s.index mod 2}
+				<div class="half half-content">
+				{$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+				</div>
+				<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Yaringa%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Yaringa%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+				</div>				
+				{else}
+				<div class="half">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Villa%20Yaringa%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Villa%20Yaringa%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+				</div>
+				<div class="half half-content">
+				{$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+				</div>
+				{/if}
+				{/section}
+
+				{section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					{$content[0].SubContents[s].Description}
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			{/if}
+			</div>
+		</div>
+		
+    </div>	
+</div>
+{/if}

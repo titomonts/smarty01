@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Zelie">
+  <Contents>
+    <Content contentid="4124" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Staying at Villa Zelie in Canggu puts guests at the centre of Bali’s happening beach scene. There is good food and fun in all directions, and ocean waves are just a two-minute walk away.</p><p>The quiet residential street where Villa Zelie is located dead-ends onto a pedestrian-only path to Kayu Putih beach, better known as the site of La Laguna – a beachfront restaurant and bar with gypsy-fairy-tale character. Also on this stretch of golden sand are Finn’s Beach Club, Rip Curl School of Surf and casual beach shacks selling cold drinks and snacks. </p><p>Canggu, a couple of kilometres north-west of the villa, has the newest crop of hipster cafés, yoga studios, boutique stores and ritzy restaurants on the island. And everything here is woven into a beautiful patchwork of rice paddy terraces and private homes. To the south-east of Villa Zelie is Seminyak, with its own established offering of beachfront pool haunts, high-end shopping and much of Bali’s best fine dining and swankiest nightclubs. </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Kayu Putih Beach]]></Heading>
+          <Description><![CDATA[0.15 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[La Laguna bar and restaurant]]></Heading>
+          <Description><![CDATA[0.15 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Canggu Station shopping centre]]></Heading>
+          <Description><![CDATA[1 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Finn's Beach Club]]></Heading>
+          <Description><![CDATA[2 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Canggu restaurants and bars]]></Heading>
+          <Description><![CDATA[3.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Echo Beach]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[5 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tanah Lot Temple]]></Heading>
+          <Description><![CDATA[14 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[15 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4125" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Villa Zelie is a private Eden exuding heritage chic. Moments from the beach, with La Laguna and Finn’s Beach Club an easy walk away, the villa is perfectly placed between Seminyak and Canggu, Bali’s hotspots for wining, dining and shopping. </p><p>Differentiating Villa Zelie from other Canggu villas are its style, scale and beachside location. Beautiful teak and ironwood buildings, inspired by traditional Javanese <span style="font-style: italic;">joglo </span>pavilions and <span style="font-style: italic;">gladak </span>houses are embellished with handcrafted furniture and treasures selected by the villa’s owner, a well-known Parisian designer. Four open-air living pavilions and five luxurious bedrooms mingle around a 20-metre swimming pool in the expansive terraced garden. Air-conditioned bedrooms are dreamy with canopy beds, spacious Bali-style outdoor bathrooms and verandas perfect for morning coffee and a quiet read. </p><p>Villa Zelie’s landscaped garden spans 3,300 square metres across four terraced lawns. Koi ponds frame the entrance and lotus ponds with tall <span style="font-style: italic;">padi padi</span> grass glisten below tidy walkways at the foot of the garden. Stone steps and paths are studded with lights that twinkle like a reflection of the stars from dusk until dawn. </p><p>A comfortable tropical ambiance prevails throughout the magical timber-framed living and sleeping pavilions, and guests are lulled into total relaxation with the attentive care of a villa manager, chef and butlers who will cater to every need.</p><p>Villa Zelie is ideally set up for families and groups of friends to socialise around the stunning swimming pool, share family-style meals, or watch movies projected onto the big drop-down screen. But equally there are plenty of peaceful private places to retire to when a little privacy is preferred. Older children and teens will love the independence of walking along the quiet residential street to the beach, less than 150-metres away. </p><p>This well-maintained paradise lends itself as a venue for intimate events, and weddings for up to 40 guests can be arranged with prior notice. </p><p>Villa Zelie is a work of art and a truly exceptional place to stay.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4126" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[INDOOR LIVING:<br />- Elevated <span style="font-style: italic;">joglo</span>-style open-air living area fringed by koi ponds <br />- Open-air entertainment pavilion with lounge seating, bar, movie projector, iPod dock <br />- Fully equipped indoor kitchen with breakfast island <br />- Elegant open-air dining room with long teakwood table for 14 guests<br /><br />OUTDOOR LIVING:<br />- Expansive, terraced, tropical garden<br />- 20 x 6 x 1.33m swimming pool, six sunbeds<br />- 7 x 6 x 0.2m children’s pool with morning and afternoon shade<br />&nbsp;- Open-sided pool pavilion with comfortable daybeds <br />- Rustic-chic two-storey massage <span style="font-style: italic;">balé</span>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Elevated <span style="font-style: italic;">joglo</span>-style open-air living area fringed by koi ponds</li><li>Open-air entertainment pavilion with lounge seating, bar, movie projector, iPod dock</li><li>Fully equipped indoor kitchen with breakfast island</li><li>Elegant open-air dining room with long teakwood table for 14 guests</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Expansive, terraced, tropical garden</li><li>20 x 6 x 1.33m swimming pool, six sunbeds</li><li>7 x 6 x 0.2m&nbsp; children’s pool with morning and afternoon shade</li><li>Open-sided pool pavilion with comfortable daybeds</li><li>Rustic-chic two-storey massage <span style="font-style: italic;">balé</span></li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4127" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Set in an iconic timber <span style="font-style: italic;">joglo </span>pavilion with a wide veranda</li><li>King-sized, canopied bed below an ornate carved ceiling</li><li>Satellite TV, DVD player</li><li>Deep sofa at foot of bed, large work desk</li><li>Sumptuous outdoor ensuite with stone bathtub, rain shower and matching dressers</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gladak Suites x 4]]></Heading>
+          <Description><![CDATA[<ul><li>Stand-alone timber pavilion with front veranda</li><li>King-sized bed, handcrafted furnishings</li><li>Air-conditioning, ceiling fan, track lighting, eclectic lanterns</li><li>Walk-in wardrobe, full-length mirror</li><li> Indoor/outdoor ensuite, stone bathtub, rain shower, twin sinks</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4128" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Canggu, Bali. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>10 adults (5 ensuite bedrooms with king-size beds) 2 extra beds available at additional cost.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living areas]]></Heading>
+          <Description><![CDATA[<p>Living pavilion; entertainment pavilion; dining pavilion and pool pavilion.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>Main pool: 20m x 6m x 1.33m; Children’s wading pool: 7m x 6m x 0.2m. </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p>Villa manager; private chef; butlers; housekeeping; groundskeepers; security and driver. Additional staff (babysitters, masseuses) available on request.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Western and Asian dishes served family-style from a suggestion menu. Special diets and guest requests are accommodated whenever possible. Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi internet access throughout; landline for local calls. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Movie projector; CD player; iPod dock; Sonos speakers; Satellite TV in Master Suite.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families]]></Heading>
+          <Description><![CDATA[<p>Pool toys; chess and checkers table; backgammon table; board games; children’s hire items on request (baby cot, high chair, bed rails, pool fence). </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Spa]]></Heading>
+          <Description><![CDATA[<p>Two-storey spa <span style="font-style: italic;">balé</span>; massage and beauty treatments carried out by professional spa therapists (extra cost applies).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>Your villa manager will be pleased to assist with transport arrangements. Metered taxis are readily available or a chauffered car can be hired.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Back-up generator; safety deposit boxes; barbecue. </p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property area]]></Heading>
+          <Description><![CDATA[<p>1400sqm (villa). 3300sqm (land).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Marketed by]]></Heading>
+          <Description><![CDATA[<p><a href="http://www.elitehavens.com" target="_blank" title="The Elite Havens Group ">The Elite Havens Group.<br /></a></p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4144" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Within 150-metres of Bali’s Canggu Beach, Villa Zelie is a five-bedroom luxury villa with heritage charm and high-end style.&nbsp; Holiday relaxation comes easily in this enchanting setting.</p><p>Villa Zelie invites you to spend time together in the exotic ambiance of open-air j<span style="font-style: italic;">oglo</span> living pavilions beside a 20-metre swimming pool in the tropical garden and enjoy total privacy with five individual <span style="font-style: italic;">gladak</span> suites.</p><p>A full complement of staff is on hand to ensure every moment here is perfection.&nbsp; In-villa dining, Balinese massages and sightseeing tours are just a few of the services offered at this exceptional Bali villa.</p><p><span style="font-style: italic;">Feel the vibrant beat of Bali right at your doorstep.&nbsp; This luxurious villa is in a sensational central location, affording guests with a penchant for nightlife and entertainment, immediate access to Bali’s famed beach clubs and restaurants.</span></p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4145" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>With sublime style and space galore, Villa Zelie is a unique and enchanting choice for your Bali villa holiday.&nbsp; Hidden on a residential lane, less than 150-metres from the beach in south-west Bali, this luxurious five-bedroom Canggu villa is a stunning find.</p><p>Engraved timber doors swing open to reveal sprawling tropical gardens, a shimmering 20-metre swimming pool and inviting spots to socialise or sink into restful peace.&nbsp; Grand open-sided living pavilions and individual air-conditioned bedroom suites are fashioned from teak and ironwood, with architecture inspired by Javanese palaces, and exquisitely furnished with French flair.</p><p>Antique furniture, tribal décor and original art from around the world give Villa Zelie a decidedly unique character.&nbsp; Not quite traditional.&nbsp; Not exactly colonial, either.&nbsp; Everything is perfectly put together to achieve a timeless elegance.</p><p>Both rustic-chic and wonderfully modern, Villa Zelie is a special place to share with family and friends.&nbsp; For some it’s a why-leave spa retreat; for some a poolside paradise, and for others an entertainment zone complete with bar and drop-down projector screen.&nbsp; One day it’s family holiday heaven and the next, an intimate wedding venue.</p> <p>Versatile Villa Zelie is staffed with a villa manager, chef, butlers, housekeeping and groundskeepers to ensure effortless leisure. Massage therapists and babysitters are on call.&nbsp; The helpful villa manager doubles as a local guide, arranging airport transfers, trips to nearby restaurants and attractions, as well as island tours with a private car and driver.</p><p>While Villa Zelie is tucked away in a quiet pocket of Canggu, it’s also mere minutes from beach clubs, shops and acclaimed restaurants, as well as being conveniently connected to the rest of Bali.&nbsp; The one thing that Villa Zelie is far from is ordinary.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4146" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa Zelie has a terraced Balinese garden with multiple pavilions offering tropical luxury.&nbsp; Perched at the top of the grounds are side-by-side open-air living and entertainment pavilions and a kitchen.&nbsp; The second terrace is shared by the large dining pavilion and a guestroom.&nbsp; Next is the swimming pool, spanning almost the entire the width of the property and punctuated by the pool house.&nbsp; At the foot of the grounds is the master suite, flanked by three <span style="font-style: italic;">gladak</span> guest suites and a two-storey massage <span style="font-style: italic;">balé</span> tucked away for peace and quiet.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4147" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master suite]]></Heading>
+          <Description><![CDATA[<p>The master suite at Villa Zelie has an iconic <span style="font-style: italic;">joglo</span> roof over a wide veranda.&nbsp; But don’t be fooled by its traditional appearance; the luxurious interior is equipped with air-conditioning, modern track lighting and a television.</p><p>More like a chamber in a Javanese palace than a standard double bedroom, this honeymooner’s heaven has a king bed below a hand-carved <span style="font-style: italic;">tumpang sari</span> timber ceiling.&nbsp; Gorgeous gauzy drapes hang from the outer beams at a generous distance from the bed creating an intimate space for slumber or snuggling while watching a movie.&nbsp; Making things even more romantic, the enormous open-air bathroom has a stone tub, rain shower, matching dressers and twin washbasins.&nbsp; A pair of silk kimonos hang in the walk-in closet.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Gladak suites]]></Heading>
+          <Description><![CDATA[<p>Four individual, king-bedded guest suites are nestled within the gardens, each with charming sitting areas on front verandas facing the pool.&nbsp; All bedrooms have ceiling fans as well as air-conditioning, walk-in closets with full-length mirrors, and large outdoor ensuite bathrooms with tubs and rain showers.&nbsp; They are decorated with unique furniture and eclectic hanging lanterns, each room having its own accent colour – orange, white, Royal blue and French violet. </p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4148" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[<p>Bali is known for barefoot luxury and the level of stylish comfort at Villa Zelie is off the chart ahh-mazing.&nbsp; The living, entertainment and dining pavilions are completely open-sided, so the lush tropical ambiance is welcomed in.&nbsp; All are kept comfortably cool by soaring roofs with traditional Javanese hand-carved beams and ceiling fans.</p><p>The spacious living pavilion is on an elevated platform that appears to float within a moat of serene Koi ponds.&nbsp; Deeply cushioned couches overlook the sprawling lawns.&nbsp; The adjacent entertainment pavilion features a timber-topped bar, cosy lounge sitting area, movie projector, backgammon table and bookshelves packed with books, board games and fascinating antiques.</p>  <p>Meals are enjoyed in the delightful open-sided dining pavilion, framed by fragrant gardenia bushes, giant taro, traveller’s palms and other exotic plants next to a tidy lawn.&nbsp; The room is equipped with Sonos speakers and decorated with a museum-calibre art collection featuring Indonesian tribal pieces, sculptures and ceramic pots. The massive wood table seats up to 14 guests on Javanese benches with hand-carved embellishments and elegant cushions.</p> <p>A modest kitchen at the head of the dining pavilion is equipped with modern appliances.&nbsp; A large island block at the centre is edged by tall stools, where guests can enjoy a snack or chat with the chef.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[<p>While the swimming pool (which includes a shallow area, ideal for young children, on one side) glimmers in full sun, the pool house beckons with the promise of repose in the shade.&nbsp; It’s the smallest and most casual of the open-air pavilions at Villa Zelie.&nbsp; Driftwood seabirds hang from the <span style="font-style: italic;">pendopo</span> roof.&nbsp; Daybeds face the radiant stone-edged swimming pool and there are baskets full of fresh towels.&nbsp; Inviting indeed.</p><p>Double sunbeds hem the lengths of the swimming pool; some enjoy dappled sunlight beneath towering <span style="font-style: italic;">frangipani</span> trees whilst others are positioned for maximum sun.&nbsp; They look super-stylish on the lawn, flanked by symmetrical <span style="font-style: italic;">pisang kodok</span> plants and with petrified wood side tables within arm’s reach.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4149" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>Villa Zelie’s team of professional staff takes care of everything, leaving guests free to relax and enjoy their holiday.&nbsp; Let your villa manager know what level of personal service you are comfortable with.&nbsp; Would you like staff on hand throughout the day to service snacks and drinks, or would you prefer to see them only at meal times?&nbsp; The manager will convey your preferences to the team, as well as taking care of all your special requests, to deliver a personally tailored luxury holiday experience.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Villa Manager]]></Heading>
+          <Description><![CDATA[<p>The villa manager is available to assist you throughout your stay.&nbsp; He oversees staff and villa operations ensuring standards of excellence in all areas and imparting local expertise when needed.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Chef]]></Heading>
+          <Description><![CDATA[<p>The villa’s skilled chef and kitchen staff do all the market shopping and are available to cook breakfast, lunch and dinner according to your tastes and schedule.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Attendants]]></Heading>
+          <Description><![CDATA[<p>Villa attendants ensure the villa is always clean and tidy, provide drinks and snack service throughout the day and wait on the table at mealtimes.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Groundskeepers ]]></Heading>
+          <Description><![CDATA[<p>Gardeners and maintenance engineers ensure everything works as it should, keep the swimming pool and garden clean and beautiful and ensure maintenance is discreet or unseen.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Security ]]></Heading>
+          <Description><![CDATA[<p>The villa is gated and patrolled 24/7 by five private security staff on rotating shifts.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4150" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Villa Zelie is foodies’ paradise found.&nbsp; Many of Bali’s most acclaimed restaurants are just a couple kilometres from the villa in trendy Canggu and upscale Seminyak, but nothing beats the convenience and privacy of sharing gourmet meals at the villa prepared by your personal chef.</p><p>The full-time chef at Villa Zelie prepares a wide range of delicious family-style meals, including Balinese dishes, Indonesian cuisine and international food. Indonesian food is made with plenty of aromatic herbs and spices and can be surprisingly fiery.&nbsp; Be sure to try <span style="font-style: italic;">kemangi</span>, a fragrant zesty basil that’s a favourite flavour for many.&nbsp; All dishes can be tailored to your personal tastes so let us know your dining preferences – hot or mild, light or hearty, adventurous or selective.&nbsp; The kitchen team can also stock the refrigerator with your favourite snacks and tipples – just let them know what you’d like added to the shopping list.</p><p>Groceries and beverages are charged at cost price with 20% plus handling fee&nbsp; which is also subject to government tax and service charges.&nbsp; Guests will be requested to provide grocery money in advance, and the staff will do the shopping and keep the receipts for reference.&nbsp; To make the most of the kitchen and give staff time to shop, it is a good idea to plan meals the evening before.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4151" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa holidays overflow with family friendly advantages.&nbsp; Among them is having access to your own private facilities and the freedom to use them whenever you want.&nbsp; The whole family will be captivated by Villa Zelie. While kids revel in having free reign of the grounds, the villa’s privacy and security will give parents peace of mind. &nbsp; The 20-metre swimming pool at the heart of the villa is sure to be the focus of fun for older kids, and a shallow area to the side is ideal for toddlers and babies.&nbsp; When it’s time to seek shelter from the sun, enjoy some family fun playing board games in the entertainment pavilion, which also has a projector screen.&nbsp; Even watching movies at Villa Zelie is a unique experience.</p><p>Kids can join in family-style dining and the chef will be happy to modify the spiciness of dishes to suit their taste buds.&nbsp; Alternatively, you are free to use the kitchen as you would at home or simply let the chef in on “how mum makes it” to keep your brood happy.&nbsp;  Zelie’s staff are wonderful with kids and will make them feel very welcome, while full-time babysitters can be organised with advance notice, should mums and dads fancy some kid-free time beyond the villa.</p><p>Two additional beds (extra charges apply) can be set up either in the parents’ suites or in one of the guest suites - transforming it into a slumber party dorm.&nbsp; High chairs and baby cots are available, as well as other children’s items, so you can travel without the burden of bulky kids’ equipment (click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank">here</a> to see list of available hire items to request ahead).</p><p>When the novelty of exploring the villa grounds wears off, the Canggu neighbourhood offers a great choice of kid-friendly restaurants and family attractions.&nbsp; And then there’s the beach, just a few moments’ walk away.&nbsp; The sea can be pretty wild along the Canggu coast, so be careful to swim only between the yellow flags of the lifeguarded areas.&nbsp; Finns and Potato Head beach clubs are both within a couple of kilometres of Villa Zelie, offering more beachside fun.&nbsp; For more suggestions, see our <a href="./the-locale/things-to-do.html" target="_self">Things to do</a> page – there’s plenty in the area to keep the whole family entertained throughout your holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4152" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>A two-storey building in the style of a traditional <span style="font-style: italic;">lumbung </span>(rice barn) makes a dreamy spot for a massage at Villa Zelie.&nbsp; Professional therapists carry out spa and beauty treatments in the open-air downstairs area with its canopy of white linen or in the total privacy of the quaint attic-like upstairs.&nbsp; In the latter, choose between air-conditioning or a sea breeze (you can see the ocean from the bay window) and a soundtrack of rhythmic ocean waves or your choice of music.&nbsp; Alternatively, you can ask for massage beds to be set up in your room, or at the poolside.&nbsp; Before you sink into deep relaxation, ask staff to prepare a flower petal bath in your suite to extend the indulgence.</p>  <p>See your villa manager for a full spa menu and to request appointments (extra charges apply).&nbsp; Here is a sample of what to expect:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Massage]]></Heading>
+          <Description><![CDATA[<p>Release built up tension with a traditional Balinese massage.&nbsp; Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body you will feel totally relaxed in no time.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Foot reflexology]]></Heading>
+          <Description><![CDATA[<p>Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet corresponding to every part of the body.&nbsp; Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Body scrub]]></Heading>
+          <Description><![CDATA[<p>A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth.&nbsp; A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Manicure/pedicure]]></Heading>
+          <Description><![CDATA[<p>Our hands and feet work hard for us every day but rarely get the attention they deserve.&nbsp; Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="4153" contenttypeid="EVT" desc="Event">
+      <Description><![CDATA[<p>Romantic, exotic and welcoming, Bali is a smart location for a destination wedding or other special celebration, and Villa Zelie is an extraordinary and intimate event venue.</p><p>Stylish beyond compare, if unique is what you’re after you’ve found it at Villa Zelie.&nbsp; One-of-a-kind luxury is the theme here.&nbsp; The multi-tiered garden is landscaped with lush greenery and understated flowers – lotus and purple hyacinth in ponds, white gardenias, white frangipani flowers with yellow bursts and sherbet blush – and the amber-hued timber pavilions create a truly romantic setting.</p> <p>Dusk heralds a “magic hour” for photos in the villa’s indoor-outdoor spaces (and the beachfront is only a two-minute walk away, so snapping some shots there too is a breeze).&nbsp; Weather remains sultry into the evening and the villa and gardens are beautifully lit at night.&nbsp; Villa Zelie has Sonos speakers, high-speed WiFi and a behind-the-scenes kitchen.&nbsp; Additional party lights and sound equipment can be brought in as needed.</p><p>Villa Zelie provides accommodation for 10 adults on site, and you’ll find a wide range of other lodgings nearby to suit all guest budgets.&nbsp; The villa is fully staffed, so you are well looked after before and after the main event.&nbsp; On the Big Day itself, your wedding organiser, caterers, florists and decorators will take over, leaving you free to focus on relaxing and celebrating with your guests.</p><br />Maximum people sitting:  40<br />Maximum people standing: 40<br /><br /><a target="_blank" href="http://cdn.elitehavens.com/docs/eventguidelines/indonesia/EH-Event-Guidelines_Indonesia.pdf" title="Elite Havens General Guidelines for Events">Elite Havens General Guidelines for Events</a><br />Event Guidelines for Villa Zelie]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="4154" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>There is so much to see and do around Villa Zelie, 12 hours of equatorial sunshine each day hardly cuts it.&nbsp; Luckily the evening weather is nice too, so you can stay on the beach comfortably past sundown.&nbsp; Enjoy laid-back island time and then look fab for nights out.</p> <p>Some of the popular things to do in Canggu and greater Bali may require planning ahead, so please let us know how we can help.&nbsp; Your manager will have a wealth of information about nearby places of interest and will help arrange transport and make any bookings required.&nbsp; Do also ask the staff about the local area.&nbsp; Many of them live nearby and will be able to give an interesting insight into some of the fascinating aspects of Bali life.</p><p>May we start by suggesting a few activities for your visit?</p><ul><li>Within walking distance of Villa Zelie, <span style="font-weight: bold;">Kayu Putih Beach</span> is perfect for surfing, bodysurfing and sand play, although the current can be too strong for swimming at times.&nbsp; You’ll find surfboard rentals available as well as casual surfing lessons for beginner and intermediate surfers.&nbsp; A few beach clubs are within walking distance along the sand as well.</li><li>Hire an instructor for a <span style="font-weight: bold;">yoga or Pilates session</span> at the villa or join a class at one of the many studios making their way into an evolving wellness scene in Canggu: Sunset Pilates at The Joglo Café, Hatha yoga at The Practice, Fly High yoga at Samadi Bali, flow yoga at The Canggu Studio.</li><li><span style="font-weight: bold;">Finn’s Recreation Club</span> has a modern gym, tennis courts, an outdoor sports field, a lap pool, fitness classes and programmes, personal trainers, a high-end spa, and eateries on the south side of Canggu nearby Villa Zelie.&nbsp; The centre is home to Cubby Kids’ Club, Strike Ten Pin Bowling, Bounce Trampoline Centre and Splash Waterpark.&nbsp; Day passes are available.</li><li>The most exclusive <span style="font-weight: bold;">Bali trekking tour</span> promises breath-taking vistas and heart-warming encounters while supporting sustainable social change in the once-forgotten villages of Muntigunung. Elite Havens is a proud partner of <a href="http://www.magazine.elitehavens.com/private-bali-trek-muntigunung/" target="_blank" title="Muntigunung Community Social Enterprise.">Muntigunung Community Social Enterprise.</a></li><li><span style="font-weight: bold;">Bali Equestrian Centre</span> offers pony rides at the Canggu stables and horseback riding tours along the beach or scenic rice paddies.</li><li>At the end of a day out, Echo Beach in Canggu is the preferred spot for <span style="font-weight: bold;">fresh seafood barbeque</span> without a trip to Jimbaran Bay.&nbsp; It’s best to arrive early as the casual beachfront restaurants here fill up by six o’clock for dinner with a sunset ocean view.</li><li>Reservations are recommended for <span style="font-weight: bold;">dining out in downtown Canggu and Seminyak restaurants</span>.&nbsp; Bali’s dining scene is constantly evolving with new tastes and experiences all the time.</li><li>Ask your villa manager what’s on at Ulekan restaurant or Hotel Tugu, where live music and<span style="font-weight: bold;"> traditional Balinese <span style="font-style: italic;">Legong </span>dance performances </span>are often staged.</li><li><span style="font-weight: bold;">Visiting a temple</span> may come with a chance to watch Balinese dances and ceremonies, too – Pura Luhur Uluwatu in south Bali offers a daily Kecak dance performance and Ubud Palace in central Bali is known for its Legong show.</li><li>Coral reefs around Bali are teeming with tropical marine life.&nbsp; Charter a private speedboat or yacht tour for <span style="font-weight: bold;">fishing, snorkelling or diving </span>in Amed, Nusa Lembongan or Menjangan Island.</li><li>Covering 3.8 hectares of tropical parkland in Kuta, <span style="font-weight: bold;">Waterbom </span>Bali has 16 water slides (including The Climax with its 360 degree loop) to entertain the young and the young at heart. A great family day out, but go early to beat the crowds.</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Zelie</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Canggu">Canggu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Pura Kayu Putih 90 A, Banjar Tegal Gundul</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.66916600</Latitude>
+        <Longitude>115.14416630</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Villa Zelie is a staffed, five-bedroom heritage villa in Canggu, Bali, boasting huge gardens and a 20-metre swimming pool. A short walk from the beach. &lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>5 bedroom</RoomName>
+        <MinRate>1280.00++</MinRate>
+        <MaxRate>2200.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Zelie - Living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/1. Villa Zelie - Living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Absolute tropical living</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/2. Villa Zelie - Absolute tropical living.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Attentive staff</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/3. Villa Zelie - Attentive staff.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Exceptional staff</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/4. Villa Zelie - Exceptional staff.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Outdoor living area</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/5. Villa Zelie - Outdoor living area.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Pool perfection</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/6. Villa Zelie - Pool perfection.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Chef and his foods</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/7. Villa Zelie - Chef and his foods.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Master bedroom work desk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/8. Villa Zelie - Master bedroom work desk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Master bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/9. Villa Zelie - Master bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Master bathroom design</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/10. Villa Zelie - Master bathroom design.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Staff prep</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/11. Villa Zelie - Staff prep.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Tropical escape</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/12. Villa Zelie - Tropical escape.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Bar</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/13. Villa Zelie - Bar.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - Beach access at nearby restaurant</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/14. Villa Zelie - Beach access at nearby restaurant.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Zelie - The villa and pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Zelie/15. Villa Zelie - The villa and pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

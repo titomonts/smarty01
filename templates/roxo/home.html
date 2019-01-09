@@ -1,0 +1,82 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">                        
+                        <h1 class="entry-title">{$data.heading}</h1>
+						{if $data.content_id != ''}
+                        {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                        {/if}
+                        {if 'desc'|array_key_exists:$content[0]}
+
+                            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+                            {section name=s loop=1}
+                            <p>{$contentPart[s]}.</p>
+                            {/section}
+                            <p>
+                            {section name=s loop=$contentPart start=1}
+                            {if $smarty.section.s.index neq $smarty.section.s.last}
+                            {$contentPart[s]}. 
+                            {/if}
+                            {/section}
+                            </p>
+
+                        {/if}
+
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2>{$content[0].SubContents[s].Heading}</h2>
+                            {$content[0].SubContents[s].Description}
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/suryadamai':'{$data.cdn}/resources/suryadamai'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/suryadamai':'{$data.cdn}/resources/suryadamai'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                            {/section}
+                        {/if}
+                                
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="collage group">
+                        <div class="half">
+                            <div class="first-row">
+                                <a href="about-villa-roxo.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - About The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Roxo%20-%20Upstairs%20balcony.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Roxo%20-%20Upstairs%20balcony.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Roxo%20-%20Upstairs%20balcony.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Roxo%20-%20Upstairs%20balcony.jpg 632w" alt="Villa Roxo - Upstairs balcony" class="lazyload" />
+                                    <span><small>It's hard not to </small>Fall in love with Villa Roxo</span>
+                                </a>
+                            </div>
+                            <div class="second-row">
+                                <a href="/about-villa-roxo/explore-the-villa.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore The Villa']);">
+                                    <div class="overlay"></div>
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Roxo%20-%20Luxurious%20grand%20design.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Roxo%20-%20Luxurious%20grand%20design.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Roxo%20-%20Luxurious%20grand%20design.jpg 375w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Roxo%20-%20Luxurious%20grand%20design.jpg 750w" alt="Villa Roxo - Luxurious grand design" class="lazyload" />
+                                    <span><small>Tastefully decorated with a</small>Modern touch</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="half">
+                            <a href="/villa-experience.html" onClick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">
+                                <div class="overlay"></div>
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa%20Roxo%20-%20Breathtaking%20view.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa%20Roxo%20-%20Breathtaking%20view.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Roxo%20-%20Breathtaking%20view.jpg 316w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Roxo%20-%20Breathtaking%20view.jpg 632w" alt="Villa Roxo - Breathtaking view" class="lazyload" />
+                                <span>Moments <small>from the sands of Natai Beach</small></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+            
+{include file="footer.html"}

@@ -1,0 +1,143 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+            <div class="half">
+            {section name=s loop=7}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half"> 
+            {section name=s start=7 loop=$content[0].SubContents}
+            {if $smarty.section.s.index neq $smarty.section.s.last}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description}
+            </div>
+            {/if}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/Tropical-Life-Magazine,-Villa-Hansa---June-2017.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Tropical-Life-Magazine,-Villa-Hansa---June-2017.jpg" class="imgleft"></a>“Villa Hansa is a stunning 7 bedroom villa and tranquil retreat, the perfect place to take a restful break in energetic holiday.” <a href="/resources/{$data.theme}/pdfs/Tropical-Life-Magazine,-Villa-Hansa---June-2017.pdf" target="_blank"><em>Alluring retreat at Villa Hansa</em>, <strong>Tropical Life Magazine</strong>, May-Aug 2017.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/Stylish-New-Addition-to-Elite-Havens-Luxury-Villa-Portfolio.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Stylish-New-Addition-to-Elite-Havens-Luxury-Villa-Portfolio.jpg" class="imgleft"></a>“Stylish New Addition to Elite Haven’s Luxury Villa Portfolio.” <a href="/resources/{$data.theme}/pdfs/Stylish-New-Addition-to-Elite-Havens-Luxury-Villa-Portfolio.pdf" target="_blank"><strong>Press release</strong>, Edition Apr 19, 2016.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/Expat Living - Hansa - April 11 - Go Green.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Expat Living - Hansa - April 11 - Go Green.jpg" class="imgleft"></a>“Visited Bali before? Looking for something different to extend your thoughts beyond the swimming pool and the fantastic food? Here’s an idea: sample a little culture and community at VILLA HANSA in Canggu.” <a href="/resources/{$data.theme}/pdfs/Expat Living - Hansa - April 11 - Go Green.pdf" target="_blank"><em>Villa Hansa: Go Green in Bali</em>, <strong>Expat Living Singapore</strong>, Edition April 2011.</a></div>
+        <div class="press-item"><a href="/resources/{$data.theme}/pdfs/FRV_7.2_Villa_Hansa.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/FRV_7.2_Villa_Hansa.jpg" class="imgleft"></a>“Spirituality and wellness, though, is a core element, with practically everywhere offering a ‘zen moment’…” <a href="/resources/{$data.theme}/pdfs/FRV_7.2_Villa_Hansa.pdf" target="_blank"><em>Villa Hansa: Go Green in Bali</em>, <strong>FRV Travel</strong>, Edition 7.5, Feb-Mar 2011.</a></div>
+    </div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews order="c,n,d"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-villa-hansa' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

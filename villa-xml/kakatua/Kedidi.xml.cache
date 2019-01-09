@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Kedidi">
+  <Contents>
+    <Content contentid="1008" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>
+ Feel like a body scrub or massage? Just ask our staff to bring the spa to you! We can recommend deluxe treatments carried out in the privacy of the villa by fully trained spa therapists. Here&rsquo;s a sample of what&rsquo;s on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Balinese massage</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Foot reflexology</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet which correspond to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Body scrub</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Manicure/pedicure</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1066" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>
+ One of the greatest advantages of staying in a villa is the personalised service provided by dedicated staff. The team at Villa Kedidi have been professionally trained to offer exceptional Balinese hospitality. The villa manager and chef will be only too happy to discuss any specific requirements to ensure guests have a relaxed and enjoyable stay.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Villa manager</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Kedidi’s experienced villa manager is responsible for the overall operation of the villa. He leads the staffing team to meet the expectations of guests.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Chef</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Two chefs serve Kedidi and Kakatua with Western, Asian, vegetarian and children’s suggestion menus.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Housekeepers</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Four villa maids attend to daily housekeeping duties and also serve meals.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Gardeners</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Two gardeners attend daily to the lush grounds and swimming pool.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Security</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Two security guards provide 24/7 protection with rotating shifts</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1208" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>The villa manager will have a wealth of information about nearby places of interest and will help arrange transport and make any bookings required. Do also ask the staff about the local area. Invariably many of them will live nearby and will be able to give an interesting insight into some of the fascinating aspects of Bali life.</p><p>In the meantime, here’s a taste of the many and varied activities on offer within reach of Villa Kedidi.</p><ul><li>A string of naturally beautiful beaches, some renowned for their surf, are right on the villa’s doorstep. Head down to Batu Bolong Beach or take a leisurely stroll along the sands to the legendary surfing haunt, <span style="font-weight: bold;">Echo Beach</span>. Whichever beach you choose, all are in prime position for fabulous sunsets.</li><li>Immediately next door is the fascinating, 5-star <span style="font-weight: bold;">Hotel Tugu</span> Bali. Bali’s first museum-hotel is studded with priceless Indonesian artworks and antiques, while its award-winning spa offers age-old Eastern therapies. You can even order room service to the villa!</li><li>Trek through local villages, rice fields and onto the beach with<span style="font-weight: bold;"> Kuda P riding stables</span>, based in Pererenan. These guided rides are suitable for everyone from total beginner to the experienced rider and range from half an hour (perfect for the kids) to two hours. Transfers to and from local villas are included in the price.</li><li><span style="font-weight: bold;">Old Mans</span>, just a five-minute walk down the road towards the beach, is a great spot for a bite to eat and a drink or two. Or cross the road to sip on Sangria at <span style="font-weight: bold;">The Lawn</span>, and watch Bali surfers ride the waves. Party at <span style="font-weight: bold;">Pretty Poison</span> on Thursday and Saturday nights or, if you’re looking for a quieter night, head down there on Mondays when the whole place is transformed into an outdoor candle-lit movie theatre.</li><li>Make the <span style="font-style: italic;">de rigueur </span>pilgrimage to sacred <span style="font-weight: bold;">Pura Tanah Lot</span>, one of Bali’s biggest tourist magnets. Perched high on a craggy wave-lashed rock, this ancient sea temple is best savoured at sunset, however there are less crowds early morning; make sure you receive a blessing from the Hindu Priests.</li><li>Fashionistas, trendies and shop-a-holics should hotfoot it down to Bali’s most cosmopolitan enclave, <span style="font-weight: bold;">Seminyak</span>. Here, you can indulge for hours in the glut of global-inspired gourmet restaurants, stylish boutiques and hipper-than-thou bars.</li><li>The most exclusive<span style="font-weight: bold;"> Bali trekking tour</span> promises breath-taking vistas and heart-warming encounters while supporting sustainable social change in the once-forgotten villages of Muntigunung. Elite Havens is a proud partner of<a href="http://www.magazine.elitehavens.com/private-bali-trek-muntigunung/" target="_blank" title=" Muntigunung Community Social Enterprise."> Muntigunung Community Social Enterprise.</a></li><li>There are several <span style="font-weight: bold;">surf schools</span> in Bali, mainly based in and around Kuta and Legian, where young and old(er) can learn to surf or brush up on their skills. Ask your villa manager for local recommendations.</li><li><span style="font-weight: bold;">Bali Treetop Adventure Park </span>is near the town of Bedugal in northern central Bali (next to Lake Bratan). Five adventure circuits, with heights ranging from two to 20 metres, challenge all level and ages on suspended bridges, spider nets, tarzan jumps and 12 flying foxes.</li><li>Explore beneath the waves with <span style="font-weight: bold;">Aquamarine Diving – Bali</span>, a British owned and managed dive shop running PADI dive courses, dive safaris and day dive trips to a number of exciting sites around Bali. The owner’s concept for Aquamarine has always been to plan dive experiences in the way that she would want arrangements made were she a visitor to Bali.&nbsp; As a result, this PADI 5 Star dive resort offers great personal service and highly experienced dive instructors.</li><li>Covering 3.8 hectares of tropical parkland in Kuta, <span style="font-weight: bold;">Waterbom </span>Bali has 16 water slides (including The Climax with its 360 degree loop) to entertain the young and the young at heart. A great family day out, but go early to beat the crowds.<br /><br /></li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1271" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>
+ Welcome to Villa Kedidi</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1411" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living                                                                                                                         ]]></Heading>
+          <Description><![CDATA[<p>The open-sided living and dining area, with gorgeous views out to the pool and garden, is the communal hub of the villa. Scattered with artefacts and paintings under traditional high ceilings this room evokes an authentic Balinese ambiance. Blue and white Chinese ceramic pots add a splash of colour along with a green marble side table.</p><p>Two wicker sofas with soft <span style="font-style: italic;">batik </span>cushions provide the ideal spot to put your feet up and enjoy a movie under the watchful eye of a carved Buddha and the glass-topped dining table (seats six) is great for group meals.</p><p>The modern kitchen comes with all the necessary stainless steel appliances and essential children’s equipment (high chairs, cutlery, etc.).</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living                                                                                                               ]]></Heading>
+          <Description><![CDATA[<p>The focal point of the villa is the 11-metre green-stone swimming pool with its poolside <span style="font-style: italic;">balé </span>and sun loungers. Take a nap, read a book or indulge in a massage – relaxation is the key.</p><p>The lush green foliage and exotic plants create a cool tropical vibe and private oasis within the villa’s compact walls.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="183" contenttypeid="CNGG" desc="Canggu Club">
+      <Description><![CDATA[<p>
+ As well as having access to their own exclusive leisure facilities at the villa, guests also benefit from complimentary guest membership at Bali&rsquo;s premier private members club, The Canggu Club, for the duration of their stay.<br />
+ <br />
+ The Canggu Club, which opened in 2006 and luxuriates across 4,000 square metres of land set amongst the picturesque rice fields of Canggu, is just ten minutes north of Seminyak. The family-oriented club offers world class sporting facilities, fun activities for the kids, and a choice of venues for dining and relaxing.<br />
+ <br />
+ A Colonial style clubhouse forms the club&rsquo;s centrepiece. The library offers a quiet, cool haven for reading or working (free WiFi internet access is widely available at the club), while meals, coffee, drinks and sunset cocktails can be enjoyed at a choice of alfresco and air conditioned dining venues. Kids of all ages are specifically catered for at two kids clubs (The Rainbow Room for 2-6 year olds and D&rsquo;Joglo for 7 years plus) and also at the kids splash pool set amongst the club&rsquo;s lush tropical gardens.<br />
+ <br />
+ The club arguably has the best sporting facilities in Bali, with a large, well-equipped gym and separate exercise room, a 25-metre swimming pool, a floodlit professionally turfed sports field, and a tennis centre with four tennis courts (two of which are indoor), two air-conditioned squash courts and two table tennis tables.<br />
+ <br />
+ To enjoy complimentary guest membership of the Canggu Club throughout your villa stay, just present the club identity card which is available from your villa manager.</p>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="207" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p>Take advantage of the three experienced chefs who are at your service to prepare delicious homestyle meals. The villa offers a suggestion menu featuring Asian and international dishes to cater to all tastes with an excellent selection of vegetarian and children’s options.</p><p>Be sure to sample some of the local Balinese delicacies such as <span style="font-style: italic;">sate ayam</span> (chicken satay) or <span style="font-style: italic;">gado-gado</span> (vegetables with peanut sauce). With the abundance of seafood on your doorstep, ask one of the chefs to cook up the catch of the day on the hot-stone barbecue.</p><p>If guests have specific requests, the in-house chefs are more than happy to tailor meals accordingly and accommodate any special dietary requirements. Guests will be requested to provide grocery money in advance and the staff will do the shopping and keep the receipts for reference. Groceries and beverages are charged at cost price plus 20%++ handling fee.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2526" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa holidays are an excellent option for families and Villa Kakatua excels itself when it comes to catering for youngsters.</p><p>Don’t worry about packing all that cumbersome extra equipment for your stay as we can provide you with all the essentials, and more – from baby baths, cots, monitors, high chairs and child car-seats. We even offer toddler friendly cutlery, blenders and sterilising equipment. Anything we don’t have we can order in for a small fee (click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank" title="Children's equipment - Elite Havens">here</a> to see list of available hire items).</p><p>The facilities are all yours to use whenever you want: starlit swims, midnight movies or morning massages – it’s up to you. Knowing that the kids can run around happily without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too. The team of friendly staff will make children feel as welcome as adults, and having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds (full-time babysitting incurs a small extra cost).</p><p>Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest. Burgers in the <span style="font-style: italic;">balé </span>for lunch? Pancakes by the pool for breakfast? No problem. The chefs can customise all meals to suit children’s taste buds.</p><p>And when the excitement of exploring the villa starts to wear off, check out our <a href="./the-locale/things-to-do.html" target="_self" title="Things to do - Villa Kedidi, 3 bedroom villa">Things to do</a> page; there’s plenty in the area to keep all the family amused throughout the holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="274" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Master Suite]]></Heading>
+          <Description><![CDATA[<ul><li>Located at one end of the swimming pool in a separate pavilion</li><li>Glass sliding doors opening onto a veranda furnished with relaxing daybed</li><li>Carved wood four-poster king bed with mosquito netting</li><li>Polished cream terrazzo floors</li><li>Air-conditioning</li><li>Ceiling fan</li><li>TV/DVD</li><li>iPod/iPhone dock</li><li>Garden bathroom with large tub and open-air shower</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Twin Room]]></Heading>
+          <Description><![CDATA[<ul><li>Located at one end of the swimming pool in a separate pavilion</li><li>Glass sliding doors opening onto a veranda furnished with relaxing daybed</li><li>Carved wood twin beds with mosquito netting</li><li>Polished cream terrazzo floors</li><li>Air-conditioning</li><li>Ceiling fan</li><li>TV/DVD</li><li>iPod/iPhone dock</li><li>Garden bathroom with open-air shower</li></ul>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Third Bedroom]]></Heading>
+          <Description><![CDATA[<ul><li>Located in the main building and accessed through large wooden fortress doors from the living area</li><li>Glass sliding doors opening onto a patio boasting a tranquil water feature</li><li>Carved wood king bed with mosquito netting</li><li> Polished cream terrazzo floors</li><li>Air-conditioning</li><li>Ceiling fan</li><li> TV/DVD</li><li>iPod/iPhone dock</li><li>No ensuite, but the main bathroom lies just beyond the living area nearby</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2761" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a href=". /reservations.html" target="_self" title="Villa Kedidi - booking enquiry">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />To view our availability calendar, click <a href=". /availability-calendar.html" target="_self" title="Villa Kedidi - availability">here</a>.<br /><br />Bali: +62 361 737498<br />Singapore: +65 3108 0520<br />Manila: +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a href=". /general-enquiries.html" target="_self" title="Villa Kedidi - general enquiry">here</a> to send us a message.<br /><br />Villa Kedidi is managed & marketed on behalf of its owners by <a href="http://www.elitehavens.com/" target="_blank" title="The Elite Havens Group.">The Elite Havens Group</a>, who also handle all the villa reservations.  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="346" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[<p> INDOOR LIVING:<br /> - Open-sided living and dining area<br /> - Traditional high ceilings<br /> - Comfortable lounges and glass-topped dining table seating six<br /> - TV, DVD/CD, stereo system, iPhone/iPod docks<br /> - Modern kitchen with stainless steel appliances<br /> - Essential children’s equipment<br /> <br /> OUTDOOR LIVING:<br /> - 11m greenstone swimming pool<br /> - Poolside bale with sun loungers<br /> - Tropical manicured gardens inside peaceful walled setting</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Open-sided living and dining area</li><li>Traditional high ceilings</li><li> Comfortable lounges and glass-topped dining table seating six</li><li>TV, DVD/CD, stereo system, iPhone/iPod docks</li><li>Modern kitchen with stainless steel appliances</li><li>Essential children&rsquo;s equipment</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>11m greenstone swimming pool</li><li>Poolside bale with sun loungers</li><li>Tropical manicured gardens inside peaceful walled setting</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="35" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Named after the sand piper that frequents the nearby shores, Villa Kedidi is only 100 metres from Canggu Beach on Bali’s south-west coast. Resting in a private walled garden next to four-bedroom <a href="http://www.villakakatua.com" target="_blank" title="Villa Kakatua - 4 bedroom, Canggu Villa">Villa Kakatua</a>, this three-bedroom haven is the quintessential Balinese home.</p><p>The villa is designed in traditional Bali style, with solid coconut beams supporting high <span style="font-style: italic;">serapwood </span>ceilings that capture the tropical breeze and cool the open-sided living spaces. An enticing natural green-stone swimming pool sits strategically in the middle of the compound, promoting easy access from the surrounding bedrooms that feature beautifully carved wooden beds and semi-open garden bathrooms.</p><p>The special Balinese ambiance is further enhanced by exquisite artefacts and antiquities that are found throughout the home and in the lush tropical gardens. Intricate carved limestone murals depict stories of times gone by, giving insights into the island’s diverse and fascinating culture.</p><p>Villa Kedidi is the ideal choice for those families with teenage kids who will enjoy the vibrant surroundings and facilities. Perfect for those wishing to explore Canggu’s cool cafés, innovative restaurants and chic boutiques, yet retire to their own quiet little slice of paradise at the end of each day.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="418" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>For families wishing to experience a taste of affordable luxury - Villa Kedidi is the perfect holiday choice. Minutes away from the nightlife, restaurants and beautiful black sands of Canggu Beach on Bali’s southwest coast, this delightful three-bedroom villa with 11m swimming pool oozes character and charm. For larger groups, neighbouring four-bedroom <a href="http://www.elitehavens.com/villa-kakatua-villa/canggu-bali-indonesia.aspx" target="_self" title="Villa Kakatua, 4 bedroom Canggu villa">Villa Kakatua</a> can be booked in conjunction with Kedidi for a convenient seven-bedroom option.</p><p>Resting peacefully in a private walled garden this cute and compact haven is the quintessential Balinese home with solid coconut beams supporting high <span style="font-style: italic;">serapwood </span>ceilings that capture the tropical breeze and cool the open-sided living spaces. An enticing natural greenstone swimming pool sits central to the property, offering easy access from the surrounding bedrooms that all feature beautifully carved wooden beds and semi-open garden bathrooms.</p>Exquisite artefacts and antiquities decorate Villa Kedidi and the lush tropical gardens further enhance its special Balinese ambiance.<br /><p>The villa is well suited for families with teenage kids where they will enjoy the vibrant surroundings. The warm and friendly staff are excellent with guests of all ages allowing parents to relax and unwind. This dedicated, full-service team of staff will also cater to guests’ every need from preparing meals to organising in-villa spa treatments.</p><p>Canggu Beach and some of the island’s best seaside haunts are just a stone’s throw away.&nbsp;&nbsp; Here you can watch a colourful ceremony at the sea temple,&nbsp; catch a wave, take a walk or just sit back with a cold beer and admire the magical sunsets. A slice of island paradise, Villa Kedidi and its magical surroundings offer special insight into this calm and uncomplicated way of life.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="534" contenttypeid="FCLT" desc="Facilities">
+      <Description><![CDATA[<ul> <li>  Private swimming pool (11m x 5m) with US certified pool safety fence</li> <li>  Three air-conditioned bedrooms</li> <li>  Child-friendly villa with many children’s facilities</li> <li>  Fully staffed</li> <li>  WiFi broadband internet connection</li> <li>  Safety deposit box in all bedrooms</li> <li>  iPod/iPhone dock in all bedrooms</li> <li>  DVD, CD &amp; book collection</li> <li>  Satellite TVs and DVD players</li> <li>  A driver and car (seating up to six passengers) is available for eight hours within Legian, Kuta, Seminyak and Canggu or other local nearby areas free of charge, petrol cost only applies.</li> <li>  Generator for power backup</li> <li>  Barbecue</li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="657" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Villa Kedidi is the perfect holiday choice for anybody wishing to experience a taste of luxury at an affordable price.&nbsp; Just a short stroll from the popular nightlife and glistening black shores of Canggu Beach on Bali’s south-west coast, this delightful three-bedroom villa with 11-metre swimming pool is cute and compact, oozing character and charm.&nbsp; Available as either a two- or three-bedroom rental, Villa Kedidi is an ideal choice for fun-seeking couples, groups of friends and families with older kids (its proximity to several night-life venues makes it unsuitable for families with younger kids and babies as there is a degree of noise disturbance). Larger groups can book Kedidi together with neighbouring four-bedroom <a href="http://www.villakakatua.com" target="_blank" title="Villa Kakatua - 4 bedroom, Canggu villa">Villa Kakatua</a> for a seven-bedroom option.</p><p>Serviced by warm and attentive staff and designed with relaxation and comfort in mind, guests will instantly fall in love with this traditional Balinese home.&nbsp; A slice of paradise, the villa and its magical surroundings sit central to everything Canggu has to offer.</p><p><span style="font-style: italic;">Feel the vibrant beat of Bali right at your doorstep.&nbsp; This luxurious villa is in a sensational central location, affording guests with a penchant for nightlife and entertainment, immediate access to Bali’s famed beach clubs and restaurants.</span></p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="729" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Villa Kedidi lies at the beach end of Canggu’s thriving&nbsp; Jalan Pantai Batu Bolong, a country lane that has experienced an amazing transformation over the last few years and is now home to some of Bali’s hippest haunts.&nbsp; You’ll find a number of excellent cafés, bars and restaurants within a few minutes’ walk of Villa Kedidi.&nbsp; Among them are the chill-out beach bars, Old Mans and The Lawn, popular vegetarian venues Betelnut Café, Milk &amp; Madu and Crate, and the ever-elegant Hotel Tugu.&nbsp; Batu Bolong Beach, just 100 metres from the villa, is renowned for its world-class surf breaks and rugged beauty; it’s the ideal location to catch a wave, take a stroll along the sands to nearby Echo Beach or capture the sun setting over an ornately carved sea temple.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Batu Bolong Beach             ]]></Heading>
+          <Description><![CDATA[0.20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Echo Beach (along the sand)]]></Heading>
+          <Description><![CDATA[0.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tanah Lot Sea Temple]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[16 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[19 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud]]></Heading>
+          <Description><![CDATA[32 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Treetops Adventure Park]]></Heading>
+          <Description><![CDATA[50 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="816" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>Villa Kedidi is accessed by a private path bordered by plants and limestone carvings that leads to its traditional Balinese doors. Behind these doors guests are greeted by an <span style="font-style: italic;">aling-aling</span> wall (a short partition wall which, according to traditional belief, protects the villa from bad spirits).</p><p>With the bedrooms and living spaces built around the swimming pool, the villa is neat and compact; similar in composition to the traditional ‘compound’ design of most Balinese homes.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="89" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p>All three air-conditioned bedrooms at Villa Kedidi are similar in design, with polished cream terrazzo floors, ceiling fans, beautifully carved wooden beds draped with mosquito nets and antique batik throws. Tastefully decorated with Javanese antiques and traditional paintings and portraits, the rooms are very homely and comfortable. iPod docks add a modern touch while the lovely garden bathrooms, dotted with bluestone pebbles and with open-air showers, inject tropical style.</p><p>The master suite (with the additional luxury of a tub in its bathroom) and the twin bedroom are located in separate pavilions at opposite ends of the swimming pool, both featuring a TV and DVD player. Sliding glass doors open onto each room’s veranda where a daybed is perfectly positioned for reading or taking a quick nap.</p><p>The third bedroom is accessed via large wooden fortress doors from the living area or from glass sliding doors that open onto a patio with a beautiful blue urn water feature. This room’s bathroom is not ensuite but lies just beyond the bedroom doors, off the living area.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="922" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p> Canggu, south-west Bali, Indonesia.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>6 people (2 king bedrooms and 1 twin bedroom), extending to 14-16 if booked in conjunction with 4-bedroom Villa Kakatua. Extra beds can be provided on request for a small extra charge.</p>      ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living areas]]></Heading>
+          <Description><![CDATA[<p> Open-sided living and dining pavilion; poolside <span style="font-style: italic;">balé</span>.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>11m x 5m. 1.32m-1.67m depth.</p>     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p> (Shared with&nbsp;Villa Kakatua) villa manager; 3 cooks; 3 housekeepers; 2 gardeners; 4 guards providing 24-hour security. Masseuse and babysitter on request (extra charge applies).</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Western, Asian, vegetarian and children’s menu. Requests accommodated (including special diets).</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>WiFi broadband internet access, telephone available for local calls. IDD on request.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p> Satellite TV and DVD player, stereo system with CD player in living room; TV and DVD players in 2 bedrooms; iPhone/iPod docks in living room and all bedrooms.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p>On request, the villa staff may call one of Bali’s safe and reasonably priced metered taxis.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Families]]></Heading>
+          <Description><![CDATA[<p>The villa is well suited for families with teenage kids where they will enjoy the vibrant surroundings, pool toys and DVDs.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Barbecue; back-up generator; safe.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property area]]></Heading>
+          <Description><![CDATA[<p> 651sqm.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed &amp; marketed by]]></Heading>
+          <Description><![CDATA[<p><a target="_blank" href="http://www.elitehavens.com" title="The Elite Havens Group">The Elite Havens Group</a>.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Kedidi</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Canggu">Canggu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Pantai Batu Bolong</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.65791660</Latitude>
+        <Longitude>115.13069370</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Villa Kedidi is a quaint three-bedroom home 100m from Canggu beach on Bali’s south-west coast. Fully staffed with swimming pool it is perfect for families. &lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>3-bedroom</RoomName>
+        <MinRate>378.00++</MinRate>
+        <MaxRate>588.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>2-bedroom</RoomName>
+        <MinRate>348.00++</MinRate>
+        <MaxRate>588.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Kedidi - Pool and gardens</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/1. Villa Kedidi - Pool and gardens.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Pool bale</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/2. Villa Kedidi - Pool bale.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/3. Villa Kedidi - Pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Living and dining</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/4. Villa Kedidi - Living and dining.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Writing desk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/5. Villa Kedidi - Writing desk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Living room at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/6. Villa Kedidi - Living room at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Master suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/7. Villa Kedidi - Master suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Master bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/8. Villa Kedidi - Master bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Guest bedroom 2 (twin)</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/9. Villa Kedidi - Guest bedroom 2 (twin).jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Guest bedroom 2</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/10. Villa Kedidi - Guest bedroom 2.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Guest bathroom 2</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/11. Villa Kedidi - Guest bathroom 2.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Guest bedroom 3</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/12. Villa Kedidi - Guest bedroom 3.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Guest bathroom 3</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/13. Villa Kedidi - Guest bathroom 3.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - Pool and gardens at dusk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/14. Villa Kedidi - Pool and gardens at dusk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kedidi - View from master suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kedidi/15. Villa Kedidi - View from master suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

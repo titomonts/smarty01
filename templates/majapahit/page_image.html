@@ -1,0 +1,86 @@
+<div class="headerimg">
+{if $data.page == 'index'}
+<div class="flexslider">
+    <ul class="slides">
+        <li><img src="/resources/majapahit/headers/homepage.jpg" alt="majapahit beach villas" /></li>
+        <li><img src="/resources/majapahit/headers/homepage-2.jpg" alt="majapahit beach villas" /></li>
+        <li><img src="/resources/majapahit/headers/homepage-3.jpg" alt="majapahit beach villas" /></li>
+        <li><img src="/resources/majapahit/headers/homepage-4.jpg" alt="majapahit beach villas" /></li>
+    </ul>
+</div>
+{elseif $data.page == 'about-majapahit-beach-villas' || $data.page == 'links'}
+	<img src="/resources/majapahit/headers/default-majapahit.jpg" alt="majapahit beach villas" />
+{elseif $data.page == 'villa-combinations'}
+	<img src="/resources/majapahit/headers/connecting-villas.jpg" alt="connecting villas - majapahit beach villas">   
+{elseif $data.page == 'floorplan' && $data.origin == 'gallery'}
+	<img src="/resources/majapahit/headers/default-majapahit.jpg" alt="majapahit beach villas" />
+{elseif $data.page == 'quick-facts'}
+	<img src="/resources/majapahit/headers/quick-facts.jpg" alt="quick facts - majapahit beach villas" />
+{elseif $data.page == 'dining'}
+	<img src="/resources/majapahit/headers/dining.jpg" alt="dining - majapahit beach villas">
+{elseif $data.page == 'staff'}
+	<img src="/resources/majapahit/headers/staff.jpg" alt="staff - majapahit beach villas">
+{elseif $data.page == 'families-at-villa-majapahit'}
+	<img src="/resources/majapahit/headers/children.jpg" alt="children - majapahit beach villas">
+{elseif $data.page == 'spa'}
+	<img src="/resources/majapahit/headers/spa.jpg" alt="spa - majapahit beach villas">
+{elseif $data.page == 'weddings-celebrations'}
+	<img src="/resources/majapahit/headers/weddings.jpg" alt="weddings - majapahit beach villas">
+{elseif $data.page == 'the-locale'}
+	<img src="/resources/majapahit/headers/the-locale.jpg" alt="the-locale - majapahit beach villas">
+{elseif $data.page == 'things-to-do'}
+	<img src="/resources/majapahit/headers/things-to-do.jpg" alt="things to do - majapahit beach villas" />
+{elseif $data.page == 'guest-reviews'}
+	<img src="/resources/majapahit/headers/guest-reviews.jpg" alt="guest reviews - majapahit beach villas" />
+{elseif $data.page == 'guest-book'}
+	<img src="/resources/majapahit/headers/guestbook.jpg" alt="guestbook - majapahit beach villas" />
+{elseif $data.page == 'press'}
+	<img src="/resources/majapahit/headers/press.jpg" alt="press - majapahit beach villas" />
+{elseif $data.page == 'rates'}
+	<img src="/resources/majapahit/headers/rates.jpg" alt="rates - majapahit beach villas" />
+{elseif $data.page == 'availability-calendar'}
+	<img src="/resources/majapahit/headers/availability.jpg" alt="availability - majapahit beach villas" />
+{elseif $data.page == 'reservations'}
+	<img src="/resources/majapahit/headers/enquire-now.jpg" alt="enquire now - majapahit beach villas" />
+{elseif $data.page == 'contact-us' || $data.page == 'general-enquiries'}
+	<img src="/resources/majapahit/headers/contact-us.jpg" alt="contact us - majapahit beach villas" />
+{/if}
+
+{if $data.origin == 'villa-maya'}
+    {if $data.page == 'villa-layout'}
+        <img src="/resources/majapahit/headers/villa-maya.jpg" alt="villa layout - villa maya" />
+    {elseif $data.page == 'living-areas'}
+        <img src="/resources/majapahit/headers/villa-maya-living-areas.jpg" alt="living areas - villa maya" />
+    {elseif $data.page == 'bedrooms'}
+        <img src="/resources/majapahit/headers/villa-maya-bedrooms.jpg" alt="bedrooms - villa maya" />
+    {elseif $data.page == 'gallery'}
+        <img src="/resources/majapahit/headers/villa-maya-gallery.jpg" alt="gallery - villa maya" />
+    {elseif $data.page == 'floorplan'}
+        <img src="/resources/majapahit/headers/villa-maya-floorplan.jpg" alt="floorplan - villa maya" />
+    {/if}
+{elseif $data.origin == 'villa-raj'}
+    {if $data.page == 'villa-layout'}
+        <img src="/resources/majapahit/headers/villa-raj.jpg" alt="about villa raj" />
+    {elseif $data.page == 'living-areas'}
+        <img src="/resources/majapahit/headers/villa-raj-living-areas.jpg" alt="living areas - villa raj" />
+    {elseif $data.page == 'bedrooms'}
+        <img src="/resources/majapahit/headers/villa-raj-bedrooms.jpg" alt="bedrooms - villa raj" />
+    {elseif $data.page == 'gallery'}
+        <img src="/resources/majapahit/headers/villa-raj-gallery.jpg" alt="gallery - villa raj" />
+    {elseif $data.page == 'floorplan'}
+        <img src="/resources/majapahit/headers/villa-raj-floorplan.jpg" alt="floorplan - villa raj" />
+    {/if}
+{elseif $data.origin == 'villa-nataraja'}
+    {if $data.page == 'villa-layout'}
+        <img src="/resources/majapahit/headers/villa-nataraja.jpg" alt="about villa nataraja" />
+    {elseif $data.page == 'living-areas'}
+        <img src="/resources/majapahit/headers/villa-nataraja-living-areas.jpg" alt="living areas - villa nataraja" />
+    {elseif $data.page == 'bedrooms'}
+        <img src="/resources/majapahit/headers/villa-nataraja-bedrooms.jpg" alt="bedrooms - villa nataraja" />
+    {elseif $data.page == 'gallery'}
+        <img src="/resources/majapahit/headers/villa-nataraja-gallery.jpg" alt="gallery - villa nataraja" />
+    {elseif $data.page == 'floorplan'}
+        <img src="/resources/majapahit/headers/villa-nataraja-floorplan.jpg" alt="floorplan - villa nataraja" />
+    {/if}    
+{/if}
+</div>

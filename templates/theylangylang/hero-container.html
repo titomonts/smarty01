@@ -1,0 +1,88 @@
+{if $data.page|in_array:['about-the-ylang-ylang','floorplan','explore-the-villa','quick-facts','photo-gallery','weddings','ketewel-bali','villa-experience','guest-reviews','rates','reservations','general-enquiries','links','sitemap','reservation-sent','contact-sent']}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-the-ylang-ylang'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Beach%20chairs%20looking%20accross%20to%20Nusa%20Penida.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Beach%20chairs%20looking%20accross%20to%20Nusa%20Penida.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Beach%20chairs%20looking%20accross%20to%20Nusa%20Penida.jpg 1920w" alt="Villa Ylang Ylang - Beach chairs looking accross to Nusa Penida" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20with%20beach%20view.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20with%20beach%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20with%20beach%20view.jpg 1920w" alt="Villa Ylang Ylang - Pool with beach view" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20West%20central%20bedroom.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20West%20central%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20West%20central%20bedroom.jpg 1920w" alt="Villa Ylang Ylang - West central bedroom" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Entrance%20carving.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Entrance%20carving.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Entrance%20carving.jpg 1920w" alt="Villa Ylang Ylang - Entrance carving" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/wedding.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/wedding.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/wedding.jpg 1920w" alt="The Ylang Ylang - Wedding" class="lazyload" />
+        
+        {elseif $data.page == 'ketewel-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20to%20beach%20view.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20to%20beach%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20to%20beach%20view.jpg 1920w" alt="Villa Ylang Ylang - Pool to beach view" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Jacuzzi.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Jacuzzi.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Jacuzzi.jpg 1920w" alt="Villa Ylang Ylang - Pool to beach view" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Eastern%20master%20bedroom%201.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Eastern%20master%20bedroom%201.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Eastern%20master%20bedroom%201.jpg 1920w" alt="Villa Ylang Ylang - Eastern master bedroom 1" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Western%20master%20bedroom.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Western%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Western%20master%20bedroom.jpg 1920w" alt="Villa Ylang Ylang - Western master bedroom" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/homepage.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/homepage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/homepage.jpg 1920w" alt="The Ylang Ylang - Pool beachfront" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/homepage.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/homepage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/homepage.jpg 1920w" alt="The Ylang Ylang - Pool beachfront" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Main%20house%20sculptures%202.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Main%20house%20sculptures%202.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Main%20house%20sculptures%202.jpg 1920w" alt="Villa Ylang Ylang - Main house sculptures 2" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20detail.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Pool%20detail.jpg 1920w" alt="Villa Ylang Ylang - Pool detail" class="lazyload" />
+
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Beach%20chairs%20looking%20accross%20to%20Nusa%20Penida.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Beach%20chairs%20looking%20accross%20to%20Nusa%20Penida.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Beach%20chairs%20looking%20accross%20to%20Nusa%20Penida.jpg 1920w" alt="Villa Ylang Ylang - Beach chairs looking accross to Nusa Penida" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{else}
+<div class="hero-container">
+	<div class="slideshow">
+		<div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Villa entrance.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Villa%20entrance.jpg 1920w" alt="Villa Ylang Ylang - Villa entrance" class="lazyload" />
+        </div>
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Night ambience.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Night%20ambience.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Night%20ambience.jpg 1920w" alt="Villa Ylang Ylang - Night ambience" class="lazyload" />
+        </div>
+		<div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Interior design.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Interior%20design.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Interior%20design.jpg 1920w" alt="Villa Ylang Ylang - Interior design" class="lazyload" />
+        </div>
+		<div id="slide-4">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/thumb.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa Ylang Ylang - Absolute beachfront villa.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Ylang%20Ylang%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Villa Ylang Ylang - Absolute beachfront villa" class="lazyload" />
+        </div>
+    </div>
+</div>	
+{/if}
+<!-- Checkin Checkout -->
+<div id="header-enquire">
+   <form method="post" action="/reservations.html"> 
+        <div class="avail-bdr">
+            <label>BEDROOMS: </label>
+            <select id="bdr" name="bdr">
+                <option value="">--Select Bedroom--</option>
+                <option value="4" {if $smarty.post.bdr == 4}selected="selected"{/if}>4 Bedroom</option>
+                <option value="6" {if $smarty.post.bdr == 6}selected="selected"{/if}>6 Bedroom</option>
+            </select>
+        </div><div class="avail-date">
+            <label>DATE: </label>
+            <div class="avail-dates">
+                <input type="text" id="txtPreArriveDate" name="txtPreArriveDate" class="dates" readonly="readonly" placeholder="Check In" value="{$smarty.post.txtPreArriveDate}" /><img src="/resources/{$data.theme}/images/arrow-right.png" /><input type="text" id="txtPreDepartDate" name="txtPreDepartDate" class="dates" readonly="readonly" placeholder="Check Out" value="{$smarty.post.txtPreDepartDate}" />
+            </div>
+        </div>
+        <div class="avail-enq">
+            <input name="btnEnquire" value="Enquire" id="btnEnquire" type="submit" />
+        </div>
+   </form>
+</div>

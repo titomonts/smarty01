@@ -1,0 +1,80 @@
+<div id="footerwrap">
+    <div id="footer">
+        
+        <div class="social_media">
+
+            <ul id="socmed">
+                <li><a target="_blank" class="socmed" title="Facebook" href="https://www.facebook.com/elitehavens?ref_type=bookmark"><img class="socmed-img grayscale" width="25" height="26" title="Facebook"  alt="Facebook" src="/resources/villamaharaj/images/facebook.png"></a></li>
+
+                <li><a target="_blank" class="socmed" title="Pinterest" href="http://www.pinterest.com/elitehavensall/"><img class="socmed-img grayscale" title="Pinterest" width="25" height="26" alt="Pinterest" src="/resources/villamaharaj/images/pinterest.png"></a></li>
+
+                <li><a target="_blank" class="socmed" title="Google Plus" href="https://plus.google.com/110452875661394954138/posts?hl=en"><img class="socmed-img grayscale" width="25" height="26" title="Google Plus" alt="Google Plus" src="/resources/villamaharaj/images/g+.png"></a></li>
+
+                <li><a target="_blank" class="socmed" title="Instagram" href="http://instagram.com/elitehavens"><img class="socmed-img grayscale" title="Instagram" width="25" height="26" alt="Instagram" src="/resources/villamaharaj/images/instagram.png"></a></li>
+
+                <li><a target="_blank" class="socmed" title="LinkedIn" href="https://www.linkedin.com/company/elite-havens"><img class="socmed-img grayscale" title="LinkedIn" width="25" height="26" alt="LinkedIn" src="/resources/villamaharaj/images/linkedin.png"></a></li>
+            </ul>
+        </div>
+
+        <div class="eh"><a target="_blank" href="http://www.elitehavens.com/aboutus.aspx"><img width="80" height="50" title="an elite haven" alt="an elite haven" src="/resources/villamaharaj/images/logo-eh.png"></a></div>
+
+
+        <div class="menu-footer-navigation-container">
+        <ul id="menu-footer-navigation" class="footernav">
+        	{section name=p loop=$pages}
+    		{if $pages[p].menu_location == 'footer'}
+            <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+           		<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+            </li>
+            {/if}
+            {/section}
+		</ul>
+        </div>
+        <div id="copyright">&copy; {$data.copyright_date} {$data.villa_name} - Managed and marketed by <a href="http://www.elitehavens.com" target="_blank">The Elite Havens Group</a>.</div>
+    </div>
+    <!--/footer -->
+</div>
+<!-- /footerwrap -->
+</div>
+<!-- /container -->
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.easing-1.3.pack.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.fancybox-1.3.4.pack.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.mousewheel-3.0.4.pack.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/datepicker.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.event.hover.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/superfish.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.nivo.slider.pack.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/jquery.easyListSplitter.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/gen_validatorv4.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/site.js"></script>
+<script async="async" type="text/javascript" src="/resources/common/js/villa_new.js"></script>
+
+<!-- schema.org start-->
+<div itemscope itemtype="http://schema.org/Product" class="snippet">
+    <span itemprop="name">Villa Maharaj &#8211; Seminyak 4 bedroom luxury villa, Bali</span>
+    <span itemprop="brand">Elite Havens</span>
+    <div itemprop="description">
+                <p>
+ The Maharaj appears understated and compact (covering 1,100sqm), but you’ll find this bijou family-oriented holiday villa worth its weight in gold during your Island of the God’s sojourn. Off a peaceful cul-de-sac in the chic urban village of Petitenget, narrow wooden entrance doors lead through to sweet tropical gardens and an utterly charming four-bedroom villa. In this peaceful hideaway, you are immediately embraced like one of the family.<br />
+ <br />
+ Since 2002, the villa’s owners and informal but attentive staff have created a peaceful hideaway, ideal for families, where guests feel relaxed enough to pop in and out of the kitchen at mealtimes, or talk at length about local customs and recommended dining spots with the amiable – and consummate – villa manager. All modern comforts are supplied, such as two flat-screen TVs and DVDs, sound system, and shaded, free-form 12m pool, but there is a refreshing lack of pretentiousness and superfluous adornments. Sunlight-drenched interiors focus on comfort and are furnished in a simple yet tasteful style.<br />
+ <br />
+ Calming spiritual elements further contribute to a blissfully peaceful stay, from garlanded Hindu stone deities watching over proceedings to a secret inner garden courtyard and the exquisite and omnipresent fragrance of jasmine. More earthly accoutrements include poolside massage beds for pampering treatments.<br />
+ <br />
+ But for those wanting to shop, party and indulge, The Maharaj is also right in the centre of one of Bali’s most sought-after areas, the happening and trendy Petitenget district of Seminyak – the cosmopolitan heart of Bali. This jetsetter’s paradise, crammed with world-class gourmet restaurants, designer spas, boutiques and hip nightspots, is within walking distance, while beautiful Petitenget beach, with its renowned beach clubs, Indian Ocean surf and fabulous sunsets, is a pebbles’ throw away.</p>    </div>
+    <img itemprop="logo" src="/resources/villamaharaj/images/logo.png" alt="" />
+    <span itemprop="url">{$data.home_uri}/</span>
+    <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+        <span itemprop="ratingValue">8</span> out of 
+        <span itemprop="bestRating">10</span>
+        based on <span itemprop="ratingCount">1</span> user reviews.
+    </div>
+
+    <div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+        <span itemprop="lowPrice">$725</span>
+        <span itemprop="highPrice">$975</span> out of <span itemprop="offerCount">1</span>
+    </div>
+</div>
+<!-- schema.org start-->
+</body>
+</html>

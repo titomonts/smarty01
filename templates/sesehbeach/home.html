@@ -1,0 +1,99 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper-wide">
+                        <div class="the-content">
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <ul class="feature">
+                                    <li id="feature-1">Absolute<br> Beachfront</li>
+                                    <li id="feature-2">Private<br> Chef</li>
+                                    <li id="feature-3">Fully<br> Staffed</li>
+                                    <li id="feature-4">Private<br> Pool</li>                                
+                            </ul>
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+                        </div>
+                    </div>                   
+                    <div class="wrapper-wide">
+                        <div class="left">
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Seseh beach villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Seseh beach villa 1.jpg" alt="Seseh beach villa 1" class="lazyload" />
+
+                            <div class="look-inside-button">
+                                <h2>Seseh Beach Villa I</h2>
+                                <a href="/about-seseh-beach-villas/seseh-beach-villa-i.html">Look Inside</a>                                
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Seseh beach villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Seseh beach villa 2.jpg" alt="Seseh beach villa 2" class="lazyload" />
+
+                            <div class="look-inside-button">
+                                <h2>Seseh Beach Villa II</h2>
+                                <a href="/about-seseh-beach-villas/seseh-beach-villa-ii.html">Look Inside</a>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            {if $data.content_id != ''}
+                                {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                                {/if}
+                                {if 'desc'|array_key_exists:$content[0]}
+                                    {$content[0].desc}
+                            {/if}
+                        </div>
+                    </div>
+                    <div class="wrapper-wide">
+                            <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Seseh beach villa - romantic pool.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Seseh beach villa - romantic pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Seseh%20beach%20villa%20-%20romantic%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Seseh%20beach%20villa%20-%20romantic%20pool.jpg 1920w" alt="Seseh beach villa - romantic pool" class="lazyload full-width" />
+                    </div>
+                    <div class="wrapper">
+                        <h2>an ideal venue for romantic weddings</h2>
+                        <p>When hired together, the sheer spaciousness of both the villas and the grounds make Seseh Beach Villas I and II a prime venue for large weddings.</p>
+                        <div class="buttons-container">
+                            <div class="button">
+                                <a href="/weddings.html">READ MORE</a>
+                            </div>            
+                        </div>
+                    </div>
+                    <div class="wrapper-wide">
+                        <div align="center"><iframe src="http://www.luxviz.com/360/seseh/pano.html" width="100%" height="650"></iframe></div>
+                    </div>
+                </div>                 
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-twin-villas-natai', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'seminyak-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>           
+{include file="footer.html"}

@@ -1,0 +1,192 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['press']}
+
+    <div class="press-container">
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/Villa-Shinta-Dewi---Nowbali.com.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Villa-Shinta-Dewi---Nowbali.com.jpg" class="imgleft"></a>
+            <span>“Perfect Privacy at Villa Shinta Dewi.” <a href="/resources/{$data.theme}/pdfs/Villa-Shinta-Dewi---Nowbali.com.pdf" target="_blank"><strong>Nowbali.co.id</strong>, February 5th, 2018.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/Villa-Shinta-Dewi---travel.jpg" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/thumbs-Villa-Shinta-Dewi---travel.jpg" class="imgleft"></a>
+            <span>“The Home of the Goddess of Love” <a href="/resources/{$data.theme}/pdfs/Villa-Shinta-Dewi---travel.jpg" target="_blank"><strong>Now! Jakarta</strong>, January, 2011.</a></span>
+        </div>
+        <div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/HONEYCOMBERS---Luxury-bali-villas.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/HONEYCOMBERS---Luxury-bali-villas.png" class="imgleft"></a>
+            <span>“The island is packed with paradisal pools designed for your little water babies.” <a href="/resources/{$data.theme}/pdfs/HONEYCOMBERS---Luxury-bali-villas.pdf" target="_blank"><strong>Honeycombers, </strong>April 19th, 2017.</a></span>
+        </div>
+		<div class="press-item">
+            <a href="/resources/{$data.theme}/pdfs/Escape-to-Villa-Shinta-Dewi.pdf" target="_blank"><img src="{$data.cdn}/resources/{$data.theme}/pdfs/Escape-to-Villa-Shinta-Dewi.jpg" class="imgleft"></a>
+            <span>“Escape to Villa Shinta Dewi” <a href="/resources/{$data.theme}/pdfs/Escape-to-Villa-Shinta-Dewi.pdf" target="_blank"><strong>Now! Jakarta</strong>, December 6th, 2015.</a></span>
+        </div>
+	</div>
+
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+	
+{elseif $data.page|in_array:['guest-reviews']}
+	
+	<div id="tabs" class="tabs">
+		<ul>
+			<li><a href="#reviews-seminyak">Villa Shinta Dewi Seminyak</a></li>
+			<li><a href="#reviews-ubud">Villa Shinta Dewi Ubud</a></li>
+		</ul>
+		<div id="reviews-seminyak"  class="reviews-seminyak">
+			 <div class="reviews-container" >
+				{reviews hide_this_year="2010" order="c,n,d" villa_id="ShintaDewi"}
+				{$reviews}
+			</div>
+			
+		</div>
+		<div id="reviews-ubud" class="reviews-ubud">
+			 <div class="reviews-container">
+				{reviews hide_this_year="2010" order="c,n,d" villa_id="P00028"}
+				{$reviews}
+			</div>
+			
+		</div>
+		<div class="reviews-pagination">
+				{if $data.cur_page > 1}
+				<a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+				{/if}
+				{section name=pg loop=$data.num_pages}
+				{if $data.cur_page == $smarty.section.pg.index+1}
+				<a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+				{else}
+				<a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+				{/if}
+				{/section}
+				{if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+				<a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+				{/if}
+			</div>		
+	</div>
+	
+
+
+   
+
+{elseif $data.page|in_array:['combine']}
+   
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+    
+    <p>To find out about our exceptional discounts for dual-location holidays visit our rates page.</p>
+    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="rates"}">Rates</a>
+    
+{elseif $data.page|in_array:['rates']}
+   
+    {* <div class="discounts-box">
+        <div class="discounts">
+            <table class="tblrates" width="100%" border="0">
+                <tr>
+                    <td>
+                        <strong class="rates-title">Packages</strong>
+                        <strong class="rates-tagline">Exceptional packages available for guests booking both Seminyak and Ubud</strong>
+                        <ul>
+                            <li>For a 10% discount, stay 7 nights with a minimum of 2 nights in each villa.</li>
+                            <li>For a 15% discount, stay 10 nights with a minimum of 3 nights in each villa.</li>
+                            <li>Any booking including both villas will also receive complimentary transfers to and from the airport and between the villas.</li>
+							<li class="note">*Packages are not combinable with any other discounts or offers.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div> *}   
+    <div id="tabs" class="tabs">
+        <ul>
+            <li><a href="#rates-seminyak">Villa Shinta Dewi Seminyak</a></li>
+            <li><a href="#rates-ubud">Villa Shinta Dewi Ubud</a></li>
+        </ul>
+        <div id="rates-seminyak">
+            {rates vid="ShintaDewi" folder=$data.theme}
+        </div>
+        <div id="rates-ubud">
+            {rates vid="P00028" folder=$data.theme}
+        </div>
+    </div>
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'villa-shinta-dewi-seminyak' and $pages[p].children[sp].page_identifier neq 'villa-shinta-dewi-ubud' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub' or $pages[p].children[sp].level == 'internal'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

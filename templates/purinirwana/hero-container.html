@@ -1,0 +1,78 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Absolute beach front.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1920w" alt="Puri Nirwana - Absolute beach front" class="lazyload" />          
+        </div>
+        <div id="slide-2">            
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Joglo house spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Joglo%20house%20spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Joglo%20house%20spa.jpg 1920w" alt="Puri Nirwana - Joglo house spa" class="lazyload" />        
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-puri-nirwana'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Tropical garden.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Tropical%20garden.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Tropical%20garden.jpg 1920w" alt="Puri Nirwana - Tropical garden" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Joglo house spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Joglo%20house%20spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Joglo%20house%20spa.jpg 1920w" alt="Puri Nirwana - Joglo house spa" class="lazyload" />   
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Upstairs living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Upstairs%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Upstairs%20living%20area.jpg 1920w" alt="Puri Nirwana - Upstairs living area" class="lazyload" />  
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Spa area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Spa%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Spa%20area.jpg 1920w" alt="Puri Nirwana - Spa area" class="lazyload" />  
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Spa area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Spa%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Spa%20area.jpg 1920w" alt="Puri Nirwana - Spa area" class="lazyload" />  
+
+        {elseif $data.page == 'video'}
+        {*  *}
+        
+        {elseif $data.page == 'sanur-ketewel-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Beach.jpg 1920w" alt="Puri Nirwana - Beach" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Friendly staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Friendly%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Friendly%20staff.jpg 1920w" alt="Puri Nirwana - Friendly staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Outdoor dining area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Outdoor%20dining%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Outdoor%20dining%20area.jpg 1920w" alt="Puri Nirwana - Outdoor dining area" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Entertainment room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Entertainment%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Entertainment%20room.jpg 1920w" alt="Puri Nirwana - Entertainment room" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Spa bed massage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Spa%20bed%20massage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Spa%20bed%20massage.jpg 1920w" alt="Puri Nirwana - Spa bed massage" class="lazyload" />
+        
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Weddings.jpg 1920w" alt="Puri Nirwana - Weddings" class="lazyload" />
+
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Villa features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Villa%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Villa%20features.jpg 1920w" alt="Puri Nirwana - Villa features" class="lazyload" />
+        
+		{elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Villa features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Villa%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Villa%20features.jpg 1920w" alt="Puri Nirwana - Villa features" class="lazyload" />
+		
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Living area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Living%20area.jpg 1920w" alt="Puri Nirwana - Living area" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Lawn and pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Lawn%20and%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Lawn%20and%20pool.jpg 1920w" alt="Puri Nirwana - Lawn and pool" class="lazyload" />    
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Absolute beach front.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1920w" alt="Puri Nirwana - Absolute beach front" class="lazyload" />          
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Absolute beach front.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1920w" alt="Puri Nirwana - Absolute beach front" class="lazyload" />          
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Puri Nirwana.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Puri Nirwana - Absolute beach front.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Puri%20Nirwana%20-%20Absolute%20beach%20front.jpg 1920w" alt="Puri Nirwana - Absolute beach front" class="lazyload" />          
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

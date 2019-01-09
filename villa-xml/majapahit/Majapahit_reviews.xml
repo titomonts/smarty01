@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <SDate>2011-03-15T00:00:00+08:00</SDate>
+    <EDate>2011-03-15T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Majapahit</VillaID>
+    <ROverallComments />
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2011-03-15T00:00:00+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID11541852</ReviewsID>
+    <Name>Bali Wedding Butler Bali Wedding Butler</Name>
+    <SDate>2012-05-18T00:00:00+08:00</SDate>
+    <EDate>2012-05-24T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Majapahit</VillaID>
+    <ROverallComments>One of the greatest weeks of our lifes, the villas and staff are amazing. Majapahit is an oasis away from the hustle and bustle of the tourist hot spots but with in easy reach for any day trips. We stayed with our extended families and noone wished to ever leave. We definitely would love to stay there again one day!</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>9.80</RIOverAll>
+    <RICharacter>10</RICharacter>
+    <RILocation>10</RILocation>
+    <RIOutsideArea>10</RIOutsideArea>
+    <RILivingArea>10</RILivingArea>
+    <RIKitchen>9</RIKitchen>
+    <RIBedRm>10</RIBedRm>
+    <RIBathRm>10</RIBathRm>
+    <RIFacility>10</RIFacility>
+    <RIStaff>10</RIStaff>
+    <RIValue>9</RIValue>
+    <RIDate>2012-06-14T10:10:37.597+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>ML</ReviewByName>
+    <UserTaskID>URID11541851</UserTaskID>
+  </REVIEW>
+</REVIEWS>

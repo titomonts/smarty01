@@ -1,0 +1,86 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+
+                <div class="content-item">
+                     <div class="wrapper">
+                        <h1 class="entry-title">{$data.heading}</h1>
+                        {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content="INTRO"}
+                        {/if}
+                        
+						{if 'desc'|array_key_exists:$content[0]}
+						{contentpart content=$content[0].desc explode="</p>"}
+							{section name=s loop=1}
+								{$contentPart[s]}
+							{/section}
+						{/if}
+						
+                    </div>
+                </div>
+
+                <div class="content-item">  
+                    <div class="wrapper wrapper-wide caption">
+                        <div class="the-content"> 
+                            <div class="img">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Voyage - pool decking.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Voyage - pool decking.jpg" alt="Voyage - pool decking" class="lazyload">
+                            </div>
+							<div class="wrapper">							
+							{if 'desc'|array_key_exists:$content[0]}
+							{contentpart content=$content[0].desc explode="</p>"}
+								{section name=s loop=$contentPart start=1}
+									{$contentPart[s]}
+								{/section}
+							{/if}
+							</div>
+                            <div class="clear"></div>
+                        </div>                                                 
+                    </div>
+                </div>
+
+                <div class="content-item">
+                    <div class="wrapper wrapper-wide">
+						<div class="group">
+							<div class="half">								
+								<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Voyage - Divine dining.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Voyage - Divine dining.jpg" alt="Villa Voyage - Divine dining" class="lazyload">
+								<h3>Dining by the sea.</h3>
+								<p class="wrapper">Good food – and being effortlessly and well catered for – is key to a relaxing and rewarding holiday experience. Villa Voyage guests can enjoy delicious home-cooked food whenever – and wherever – they want.</p>
+                                <div class="button">
+                                    <a href="/dining.html">FIND OUT MORE</a>
+                                </div>
+							</div>
+
+							<div class="half">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Voyage - Amazing location.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Voyage - Amazing location.jpg" alt="Villa Voyage - Amazing location" class="lazyload">
+								<h3>Spectacular location.</h3>
+								<p class="wrapper">An absolute beachfront property in the idyllic tropical island setting of Nusa Lembongan.  Voyage is part of a small, exclusive community comprising a handful of private villas along the beach and raised on the cliff.</p>
+                                <div class="button">
+                                    <a href="/nusa-lembongan-bali.html">FIND OUT MORE</a>
+                                </div>
+							</div>
+						 </div>
+                    </div>
+				</div>
+
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-tirta-nila', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

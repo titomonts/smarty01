@@ -1,0 +1,70 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg 1920w" alt="Villa Music - Pool perfection.jpg" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table%20setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Dining%20table%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table%20setup.jpg 1920w" alt="Villa Music - Dining table setup" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Upstairs%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Upstairs%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Upstairs%20balcony.jpg 1920w" alt="Villa Music - Upstairs balcony" class="lazyload" /></div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-music'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Relax%20and%20relish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Relax%20and%20relish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Relax%20and%20relish.jpg 1920w" alt="Villa Music - Relax and relish" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20The%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20The%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20The%20villa.jpg 1920w" alt="Villa Music - The villa" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Dining%20table.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table.jpg 1920w" alt="Villa Music - Dining table" class="lazyload" />
+        
+		{elseif $data.page == 'photo-gallery'}       
+
+        {elseif $data.page == 'floorplan'}        
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table%20setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Dining%20table%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table%20setup.jpg 1920w" alt="Villa Music - Dining table setup" class="lazyload" />
+        
+        {elseif $data.page == 'cape-yamu-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20White%20sand%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20White%20sand%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20White%20sand%20beach.jpg 1920w" alt="Villa Music - White sand beach" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Modern%20kitchen%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Modern%20kitchen%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Modern%20kitchen%20setting.jpg 1920w" alt="Villa Music - Modern kitchen setting" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table%20setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Dining%20table%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Dining%20table%20setup.jpg 1920w" alt="Villa Music - Dining table setup" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Upstairs%20balcony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Upstairs%20balcony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Upstairs%20balcony.jpg 1920w" alt="Villa Music - Upstairs balcony" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Spa.jpg 1920w" alt="Villa Music - Spa" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Open%20air%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Open%20air%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Open%20air%20living%20area.jpg 1920w" alt="Villa Music - Open air living area" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Bar.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Bar.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Bar.jpg 1920w" alt="Villa Music - Bar" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Bedroom%20ensuite.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Bedroom%20ensuite.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Bedroom%20ensuite.jpg 1920w" alt="Villa Music - Bedroom ensuite" class="lazyload" />
+
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Bedroom%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Bedroom%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Bedroom%20setting.jpg 1920w" alt="Villa Music - Bedroom setting" class="lazyload" />
+
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg 1920w" alt="Villa Music - Pool perfection" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg 1920w" alt="Villa Music - Pool perfection" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Music.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Music%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Music%20-%20Pool%20perfection.jpg 1920w" alt="Villa Music - Pool perfection" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

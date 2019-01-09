@@ -1,0 +1,60 @@
+{include file="header.html"}
+<body class="page-template-default page-id">
+{$gtm}
+    <div id="container" style="width: 100%; height: 100%;">
+        <div id="logo">
+        <a href="{$data.home_uri}" title="Majapahit Beach Villas &#8211; Sanur beachfront villas, Bali" rel="home">Majapahit Beach Villas &#8211; Sanur beachfront villas, Bali</a>
+        </div>
+        {include file="menu.html"}
+        <div class="clear"></div>
+        <div class="headerimg">
+            <img src="/resources/majapahit/headers/default-majapahit.jpg" alt="majapahit beach villas" />												
+        </div>			
+        <div class="clear"></div>
+        <div class="contentwrap">
+        <div class="content">
+            <div class="maincol">
+            <h1 class="entry-title">Sitemap</h1>
+                <div class="btn-wrap">
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="availability-calendar"}">{#BTN_LABEL_AVAILABILITY#}</a>
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="reservations"}">{#BTN_LABEL_BOOK_NOW#}</a>
+                </div>
+                <div class="list-split">
+                    <ul id="sitemap" class="menu">
+                    {section name=p loop=$pages}
+                        {if $pages[p].menu_location == 'main'}
+                            <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                                {if 'children'|array_key_exists:$pages[p]}
+                                    <ul class="sub-menu">
+                                    {section name=sp loop=$pages[p].children}
+                                        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                                            {if $pages[p].children[sp].level == 'sub'}
+                                            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                                            {elseif $pages[p].children[sp].level == 'top'}
+                                            <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                                            {/if}
+                                            {$pages[p].children[sp].label}
+                                            </a>
+                                        </li>
+                                    {/section}
+                                    </ul>
+                                {/if}
+                            </li>
+                        {/if}
+                    {/section}
+                    </ul>
+                </div>
+            </div>
+            <!-- /maincol -->
+        </div>
+        <!-- /content -->
+        </div>
+        <!-- /contentwrap -->
+        <div class="clear"></div>
+        <div class="bottomwrap">
+            <a href="http://www.elitehavens.com/aboutus.aspx" target="_blank">
+                <img src="/resources/majapahit/images/logo-eh.png" alt="an elite haven" title="an elite haven" />
+            </a>
+        </div>
+{include file="footer.html"}

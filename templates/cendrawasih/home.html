@@ -1,0 +1,77 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item odd">
+                    <div class="wrapper">
+						<h1 class="entry-title">{$data.heading}</h1>
+						
+						<!-- div class="intro">
+							<p>Cendrawasih is a private and luxurious villa on absolute beachfront in Seminyak, Bali. This exclusive villa is like no other and is the ultimate way to experience pure paradise.</p>
+						</div -->
+						
+						{if $data.content_id != ''}
+						{parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+						{/if}
+						{if 'desc'|array_key_exists:$content[0]}
+
+							{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+							{section name=s loop=$contentPart}
+							<p>{$contentPart[s]}</p>
+							{/section}
+
+						{/if}
+
+						{if 'SubContents'|array_key_exists:$content[0]}
+						{section name=s loop=$content[0].SubContents}
+							<h2>{$content[0].SubContents[s].Heading}</h2>
+							{$content[0].SubContents[s].Description}
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+									</a>
+								</p>
+							{/if}
+							{/section}
+						{/if}						
+                    </div>
+					<div class="wrapper">
+						<div class="group">
+							<div class="home-content">								
+								<div class="home-content-bgtext">
+    								<div id="wrap-content-text-right">
+    									<h3>Exceptional central Seminyak location</h3>
+									</div>
+								</div>
+							</div>
+							<div class="home-content">								
+								<div class="home-content-bgtext">
+    								<div id="wrap-content-text-left">
+										<h3>Five stunning en-suite bedrooms</h3>
+									</div>
+								</div>
+							</div>
+							<div class="home-content">								
+								<div class="home-content-bgtext">
+    								<div id="wrap-content-text-right">
+										<h3>Fully staffed with private chef</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					 
+                </div>
+               
+            </div>
+        </div>        
+            
+{include file="footer.html"}

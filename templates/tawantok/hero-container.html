@@ -1,0 +1,80 @@
+<div class="hero-container">
+	{if $data.page|in_array:['home', 'index']}
+		{* <div class="hero-container"><div class="promo-wrapper wrapper"><a href="/rates.html" class="promo-banner"></a></div></div> *}
+		<div class="slideshow">
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20villa.jpg 1920w" alt="Tawantok Beach Villas - Ocean view from the villa" class="lazyload" /></div>			
+			
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Tawantok Beach Villas - Absolute beachfront villa" class="lazyload" /></div>			
+			
+			<div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20View%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20View%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20View%20from%20the%20pool.jpg 1920w" alt="Tawantok Beach Villas - View from the pool" class="lazyload" /></div>			
+			
+			<div class="item"> <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20The%20beach%20in%20front%20of%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20The%20beach%20in%20front%20of%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20The%20beach%20in%20front%20of%20villa.jpg 1920w" alt="Tawantok Beach Villas - The beach in front of villa" class="lazyload" /></div>			
+			
+			<div class="item"> <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg 1920w" alt="Tawantok Beach Villas - Stunning landscape" class="lazyload" /></div>			
+		</div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20view%20from%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Stunning%20view%20from%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20view%20from%20the%20villa.jpg 1920w" alt="Tawantok Beach Villas - Stunning view from the villa" class="lazyload" />
+        
+        {elseif $data.page == 'villa-1'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20pool%20deck.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20pool%20deck.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20pool%20deck.jpg 1920w" alt="Tawantok Beach Villas - Ocean view from the pool deck" class="lazyload" />
+
+		{elseif $data.page == 'villa-2'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Local%20fisherman%20boat%20in%20front%20of%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Local%20fisherman%20boat%20in%20front%20of%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Local%20fisherman%20boat%20in%20front%20of%20the%20villa.jpg 1920w" alt="Tawantok Beach Villas - Local fisherman boat in front of the villa" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {elseif $data.page == 'villa-1-photo-gallery'}
+        {elseif $data.page == 'villa-2-photo-gallery'}
+
+        {elseif $data.page == 'floorplan'}
+		
+        {elseif $data.page == 'press'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20View%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20View%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20View%20from%20the%20pool.jpg 1920w" alt="Tawantok Beach Villas - View from the pool" class="lazyload" />
+		
+		
+        {elseif $data.page == 'weddings'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Weddings.jpg 1920w" alt="Tawantok Beach Villas - Weddings" class="lazyload" />
+		
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg 1920w" alt="Tawantok Beach Villas - Stunning landscape" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20The%20beach%20in%20front%20of%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20The%20beach%20in%20front%20of%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20The%20beach%20in%20front%20of%20villa.jpg 1920w" alt="Tawantok Beach Villas - The beach in front of villa" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+          <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20In-villa%20breakfast.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20In-villa%20breakfast.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20In-villa%20breakfast.jpg 1920w" alt="Tawantok Beach Villas - In-villa breakfast" class="lazyload" />
+		  
+        {elseif $data.page == 'families'}
+         <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Kid%20play%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Kid%20play%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Kid%20play%20time.jpg 1920w" alt="Tawantok Beach Villas - Kid play time" class="lazyload" />
+		 
+        {elseif $data.page == 'spa'}
+         <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Bathroom%20layout.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Bathroom%20layout.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Bathroom%20layout.jpg 1920w" alt="Tawantok Beach Villas - Bathroom layout" class="lazyload" />
+		 
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Outdoor%20activity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Outdoor%20activity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Outdoor%20activity.jpg 1920w" alt="Tawantok Beach Villas - Outdoor activity" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}		
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Tawantok Beach Villas - Absolute beachfront villa" class="lazyload" />
+     
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Upstairs%20bedroom%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Upstairs%20bedroom%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Upstairs%20bedroom%20features.jpg 1920w" alt="Tawantok Beach Villas - Upstairs bedroom features" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+		 <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Outdoor%20activity.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Outdoor%20activity.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Outdoor%20activity.jpg 1920w" alt="Tawantok Beach Villas - Outdoor activity" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Stunning%20landscape.jpg 1920w" alt="Tawantok Beach Villas - Stunning landscape" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Tawantok%20Beach%20Villas.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Tawantok%20Beach%20Villas%20-%20Ocean%20view%20from%20the%20villa.jpg 1920w" alt="Tawantok Beach Villas - Ocean view from the villa" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

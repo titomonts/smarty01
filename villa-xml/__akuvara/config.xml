@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Akuvara</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Akuvara</villa_name>
+		<google_analytics>UA-109746831-1</google_analytics>
+		<location>Koh Samui</location>
+		<sublocation>Lipa Noi</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'Akuvara', 'Koh Samui', 'Lipa Noi', '4br'</hrental_id>
+		<ehgLocation>Koh Samui, Lipa Noi</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

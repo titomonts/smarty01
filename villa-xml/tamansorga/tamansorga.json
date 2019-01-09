@@ -1,0 +1,297 @@
+[
+	{
+		"page_title":"",
+		"label":"Home",
+		"page_header":"Welcome to Villa Taman Sorga",
+		"template":"index.html",
+		"content_id":"INTRO",
+		"page_identifier":"index",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"About Villa Taman Sorga",
+		"label":"Villa",
+		"page_header":"About Villa Taman Sorga",
+		"template":"page-template.html",
+		"content_id":"ABTV",
+		"page_identifier":"about-villa-tamansorga",
+		"children":[
+						{
+							"page_title":"About Villa Taman Sorga",
+							"label":"About Villa Taman Sorga",
+							"page_header":"About Villa Taman Sorga",
+							"template":"page-template.html",
+							"content_id":"ABTV",
+							"page_identifier":"about-villa-tamansorga",
+							"level":"top"
+						},
+						{
+							"page_title":"Villa Layout",
+							"label":"Villa Layout",
+							"page_header":"Villa Layout",
+							"template":"page-template.html",
+							"content_id":"LYT",
+							"page_identifier":"villa-layout",
+							"level":"sub",
+							"parent":"about-villa-tamansorga"
+						},
+						{
+							"page_title":"Bedrooms",
+							"label":"Bedrooms",
+							"page_header":"Bedrooms",
+							"template":"bedrooms.html",
+							"content_id":"BDR",
+							"page_identifier":"bedrooms",
+							"level":"sub",
+							"parent":"about-villa-tamansorga"
+						},
+						{
+							"page_title":"Living Areas",
+							"label":"Living Areas",
+							"page_header":"Living Areas",
+							"template":"living-areas.html",
+							"content_id":"LVA",
+							"page_identifier":"living-areas",
+							"level":"sub",
+							"parent":"about-villa-tamansorga"
+						},
+						{
+							"page_title":"Floorplan",
+							"label":"Floorplan",
+							"page_header":"Floorplan",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"floorplan",
+							"level":"sub",
+							"parent":"photo-gallery"
+						}
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Photo Gallery",		
+		"label":"Gallery",
+		"page_header":"Photo Gallery",
+		"template":"gallery.html",
+		"content_id":"",
+		"page_identifier":"photo-gallery",
+		"children":[
+						{
+							"page_title":"Photo gallery",
+							"label":"Photo Gallery",
+							"page_header":"Photo Gallery",
+							"template":"gallery.html",
+							"content_id":"",
+							"page_identifier":"photo-gallery",
+							"level":"top"
+						},
+						{
+							"page_title":"Floorplan",
+							"label":"Floorplan",
+							"page_header":"Floorplan",
+							"template":"floorplan.html",
+							"content_id":"",
+							"page_identifier":"floorplan",
+							"level":"sub",
+							"parent":"photo-gallery"
+						},
+						{
+							"page_title":"Virtual tour",
+							"label":"Virtual Tour",
+							"page_header":"Virtual tour",
+							"template":"virtual-tour.html",
+							"content_id":"",
+							"page-identifier":"virtual-tour",
+							"level":"sub",
+							"parent":"photo-gallery"
+						}
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Quick facts",
+		"label":"Details",
+		"page_header":"Quick facts",
+		"template":"page-template.html",
+		"content_id":"QF",
+		"page_identifier":"quick-facts",
+		"children":[
+						{
+							"page_title":"Quick facts",
+							"label":"Quick Facts",
+							"page_header":"Quick facts",
+							"template":"page-template.html",
+							"content_id":"QF",
+							"page_identifier":"quick-facts",
+							"level":"top"
+						},
+						{
+							"page_title":"Dining",
+							"label":"Dining",
+							"page_header":"Dining",
+							"template":"dining.html",
+							"content_id":"DNNG",
+							"page_identifier":"dining",
+							"level":"sub",
+							"parent":"quick-facts"
+						},
+						{
+							"page_title":"Staff",
+							"label":"Staff",
+							"page_header":"Staff",
+							"template":"page-template.html",
+							"content_id":"STAFF",
+							"page_identifier":"staff",
+							"level":"sub",
+							"parent":"quick-facts"
+						},
+						{
+							"page_title":"Families",
+							"label":"Families",
+							"page_header":"Families",
+							"template":"page-template.html",
+							"content_id":"FAM",
+							"page_identifier":"families",
+							"level":"sub",
+							"parent":"quick-facts"
+						},
+						{
+							"page_title":"Spa &amp; Gym",
+							"label":"Spa &amp; Gym",
+							"page_header":"Spa &amp; Gym",
+							"template":"page-template.html",
+							"content_id":"SPAGYM",
+							"page_identifier":"spa",
+							"level":"sub",
+							"parent":"quick-facts"
+						}	
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"The locale",
+		"label":"Location",
+		"page_header":"The locale",
+		"template":"page-template.html",
+		"content_id":"LCTN",
+		"page_identifier":"the-locale",
+		"children":[
+						{
+							"page_title":"The locale",
+							"label":"The Locale",
+							"page_header":"The locale",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"the-locale",
+							"level":"top"
+						},
+						{
+							"page_title":"Things to do",
+							"label":"Things to do",
+							"page_header":"Things to do",
+							"template":"page-template.html",
+							"content_id":"TTD",
+							"page_identifier":"things-to-do",
+							"level":"sub",
+							"parent":"the-locale"
+						}		
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Guest reviews",
+		"label":"Reviews",
+		"page_header":"Guest reviews",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"guest-reviews",
+		"children":[
+						{
+							"page_title":"Guest reviews",
+							"label":"Guest Reviews",
+							"page_header":"Guest reviews",
+							"template":"page-template.html",
+							"content_id":"LCTN",
+							"page_identifier":"guest-reviews",
+							"level":"top"
+						},
+						{
+							"page_title":"Press",
+							"label":"Press",
+							"page_header":"Press",
+							"template":"page-template.html",
+							"content_id":"TTD",
+							"page_identifier":"press",
+							"level":"sub",
+							"parent":"guest-reviews"
+						}		
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Rates",
+		"label":"Rates",
+		"page_header":"Rates",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"rates",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Availability calendar",
+		"label":"Availability",
+		"page_header":"Availability calendar",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"availability-calendar",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Enquire",
+		"label":"Enquire",
+		"page_header":"Enquire",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"reservations",
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Contact",
+		"label":"Contact",
+		"page_header":"Contact",
+		"template":"page-template.html",
+		"content_id":"CONTACTS",
+		"page_identifier":"contact-us",
+		"children":[
+						{
+							"page_title":"General Inquiry",
+							"label":"General Inquiry",
+							"page_header":"General Inquiry",
+							"template":"page-template.html",
+							"content_id":"",
+							"page_identifier":"general-enquiries",
+							"menu_location":"main"
+						}
+					],
+		"menu_location":"main"
+	},
+	{
+		"page_title":"Sitemap",
+		"label":"Sitemap",
+		"page_header":"Sitemap",
+		"template":"sitemap.html",
+		"content_id":"",
+		"page_identifier":"sitemap",
+		"menu_location":"footer"
+	},
+	{
+		"page_title":"Links",
+		"label":"Links",
+		"page_header":"Links",
+		"template":"page-template.html",
+		"content_id":"",
+		"page_identifier":"links",
+		"menu_location":"footer"
+	}
+]
+		

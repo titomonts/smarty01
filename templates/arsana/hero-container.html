@@ -1,0 +1,71 @@
+<div class="hero-container">    
+    {if $data.page|in_array:['home', 'index']}
+    <div class="slideshow">
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1920w" alt="The Arsana Estate - Pool perfection" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Magnificent%20pool%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Magnificent%20pool%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Magnificent%20pool%20setting.jpg 1920w" alt="The Arsana Estate - Magnificent pool setting" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pathway%20to%20the%20estate.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Pathway%20to%20the%20estate.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pathway%20to%20the%20estate.jpg 1920w" alt="The Arsana Estate - Pathway to the estate" class="lazyload" /></div>
+        <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Spacious%20bedroom%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Spacious%20bedroom%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Spacious%20bedroom%20setting.jpg 1920w" alt="The Arsana Estate - Spacious bedroom setting" class="lazyload" /></div>
+    </div>
+    {else}
+    <div class="hero">
+    
+        {if $data.page == 'about-the-arsana-estate'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Entrance%20to%20living%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Entrance%20to%20living%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Entrance%20to%20living%20room.jpg 1920w" alt="The Arsana Estate - Entrance to living room" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Private%20terrace%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Private%20terrace%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Private%20terrace%20bedroom.jpg 1920w" alt="The Arsana Estate - Private terrace bedroom" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Magnificent%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Magnificent%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Magnificent%20setting.jpg 1920w" alt="The Arsana Estate - Magnificent setting" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20The%20estate.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20The%20estate.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20The%20estate.jpg 1920w" alt="The Arsana Estate - The estate" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20The%20estate.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20The%20estate.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20The%20estate.jpg 1920w" alt="The Arsana Estate - The estate" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Wedding.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Wedding.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Wedding.jpg 1920w" alt="The Arsana Estate - Wedding" class="lazyload" />
+        
+        {elseif $data.page == 'tabanan-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Sunrise%20view.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Sunrise%20view.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Sunrise%20view.jpg 1920w" alt="The Arsana Estate - Sunrise view" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20The%20estate%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20The%20estate%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20The%20estate%20staff.jpg 1920w" alt="The Arsana Estate - The estate staff" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Fresh%20food%20made%20in%20the%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Fresh%20food%20made%20in%20the%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Fresh%20food%20made%20in%20the%20villa.jpg 1920w" alt="The Arsana Estate - Fresh food made in the villa" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Luxury%20movie%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Luxury%20movie%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Luxury%20movie%20room.jpg 1920w" alt="The Arsana Estate - Luxury movie room" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Massage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Massage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Massage.jpg 1920w" alt="The Arsana Estate - Massage" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Open%20air%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Open%20air%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Open%20air%20living%20area.jpg 1920w" alt="The Arsana Estate - Open air living area" class="lazyload" />
+        
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Bar.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Bar.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Bar.jpg 1920w" alt="The Arsana Estate - Bar" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Tropical%20escape.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Tropical%20escape.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Tropical%20escape.jpg 1920w" alt="The Arsana Estate - Tropical escape" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Private%20pool%20and%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Private%20pool%20and%20villa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Private%20pool%20and%20villa.jpg 1920w" alt="The Arsana Estate - Private pool and villa" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1920w" alt="The Arsana Estate - Pool perfection" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1920w" alt="The Arsana Estate - Pool perfection" class="lazyload" />  
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/The%20Arsana%20Estate.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/The%20Arsana%20Estate%20-%20Pool%20perfection.jpg 1920w" alt="The Arsana Estate - Pool perfection" class="lazyload" />
+        {/if}
+    
+    </div>
+    {/if}
+</div>
+
+{* include file="part-booking.html" *}

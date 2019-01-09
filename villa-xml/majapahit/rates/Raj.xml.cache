@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Raj" countryid="ID">
+  <GenInclusions><![CDATA[<span style="font-weight: bold;">This villa comes with every conceivable luxury – and then some.</span><br /><br />Enjoy the exclusive use of the whole villa, its private swimming pool and unlimited WiFi and the flawless service of its team of staff, including the villa manager, the head chef and his team, villa attendants butlers, housekeepers and security.<br />]]></GenInclusions>
+  <Promotions>
+  </Promotions>
+  <Discounts>
+    <Discount discountid="17094" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2017-04-18</ValidFrom>
+      <ValidTo>2017-04-27</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17095" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2017-04-28</ValidFrom>
+      <ValidTo>2017-05-01</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17096" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2017-05-02</ValidFrom>
+      <ValidTo>2017-06-15</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17097" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (SH)]]></Description>
+      <ValidFrom>2017-06-16</ValidFrom>
+      <ValidTo>2017-06-23</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17098" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2017-06-24</ValidFrom>
+      <ValidTo>2017-08-20</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17099" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (SH)]]></Description>
+      <ValidFrom>2017-08-21</ValidFrom>
+      <ValidTo>2017-08-31</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17100" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2017-09-01</ValidFrom>
+      <ValidTo>2017-12-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17101" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2017-12-15</ValidFrom>
+      <ValidTo>2017-12-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17102" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (PK)]]></Description>
+      <ValidFrom>2017-12-26</ValidFrom>
+      <ValidTo>2018-01-02</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="17103" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2018-01-03</ValidFrom>
+      <ValidTo>2018-01-07</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17104" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2018-01-08</ValidFrom>
+      <ValidTo>2018-02-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17105" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2018-02-15</ValidFrom>
+      <ValidTo>2018-02-21</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17106" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2018-02-22</ValidFrom>
+      <ValidTo>2018-03-23</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17107" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (SH)]]></Description>
+      <ValidFrom>2018-03-24</ValidFrom>
+      <ValidTo>2018-03-28</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17108" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2018-03-29</ValidFrom>
+      <ValidTo>2018-04-02</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17109" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (SH)]]></Description>
+      <ValidFrom>2018-04-03</ValidFrom>
+      <ValidTo>2018-04-08</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17110" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2018-04-09</ValidFrom>
+      <ValidTo>2018-04-27</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="17111" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2018-04-28</ValidFrom>
+      <ValidTo>2018-05-01</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="17112" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2018-05-02</ValidFrom>
+      <ValidTo>2018-06-15</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="69848" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (SH)]]></Description>
+      <ValidFrom>2018-06-16</ValidFrom>
+      <ValidTo>2018-06-22</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="69849" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2018-06-23</ValidFrom>
+      <ValidTo>2018-08-19</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="69850" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (SH)]]></Description>
+      <ValidFrom>2018-08-20</ValidFrom>
+      <ValidTo>2018-09-02</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="69851" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (LO)]]></Description>
+      <ValidFrom>2018-09-03</ValidFrom>
+      <ValidTo>2018-12-14</ValidTo>
+      <Rate ratetype="%">28.00</Rate>
+    </Discount>
+    <Discount discountid="69852" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (HI)]]></Description>
+      <ValidFrom>2018-12-15</ValidFrom>
+      <ValidTo>2018-12-25</ValidTo>
+      <Rate ratetype="%">24.00</Rate>
+    </Discount>
+    <Discount discountid="69853" discounttypeid="CSTD" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Long stay plus early bird discount rate]]></DiscountName>
+      <Description><![CDATA[LS 10 - EB (PK)]]></Description>
+      <ValidFrom>2018-12-26</ValidFrom>
+      <ValidTo>2019-01-02</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="16937" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird discount rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-01-03</ValidFrom>
+      <ValidTo>2017-12-25</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="16938" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird discount rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-12-26</ValidFrom>
+      <ValidTo>2018-01-02</ValidTo>
+      <Rate ratetype="%">0.00</Rate>
+    </Discount>
+    <Discount discountid="33791" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird discount rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-01-03</ValidFrom>
+      <ValidTo>2018-12-25</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="69860" discounttypeid="EB" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="0" advancedays="150" sortorder="1">
+      <DiscountName><![CDATA[Early Bird discount rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-26</ValidFrom>
+      <ValidTo>2019-01-02</ValidTo>
+      <Rate ratetype="%">0.00</Rate>
+    </Discount>
+    <Discount discountid="16934" discounttypeid="LM" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="1" checkinwithin="15" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Last minute discount rate]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2016-04-27</ValidFrom>
+      <ValidTo>2019-01-02</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17027" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-04-18</ValidFrom>
+      <ValidTo>2017-04-27</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17028" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-04-28</ValidFrom>
+      <ValidTo>2017-05-01</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17029" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-05-02</ValidFrom>
+      <ValidTo>2017-06-15</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17030" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-06-16</ValidFrom>
+      <ValidTo>2017-06-23</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17031" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-06-24</ValidFrom>
+      <ValidTo>2017-08-20</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17032" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-08-21</ValidFrom>
+      <ValidTo>2017-08-31</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17033" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-09-01</ValidFrom>
+      <ValidTo>2017-12-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17034" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-12-15</ValidFrom>
+      <ValidTo>2017-12-25</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17035" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2017-12-26</ValidFrom>
+      <ValidTo>2018-01-02</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+    <Discount discountid="17036" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-01-03</ValidFrom>
+      <ValidTo>2018-01-07</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17037" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-01-08</ValidFrom>
+      <ValidTo>2018-02-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17038" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-02-15</ValidFrom>
+      <ValidTo>2018-02-21</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17039" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-02-22</ValidFrom>
+      <ValidTo>2018-03-23</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17040" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-03-24</ValidFrom>
+      <ValidTo>2018-03-28</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17041" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-03-29</ValidFrom>
+      <ValidTo>2018-04-02</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17042" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-04-03</ValidFrom>
+      <ValidTo>2018-04-08</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17043" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-04-09</ValidFrom>
+      <ValidTo>2018-04-27</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="17044" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-04-28</ValidFrom>
+      <ValidTo>2018-05-01</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="17045" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-05-02</ValidFrom>
+      <ValidTo>2018-06-15</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="69842" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-06-16</ValidFrom>
+      <ValidTo>2018-06-22</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="69843" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-06-23</ValidFrom>
+      <ValidTo>2018-08-19</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="69844" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-08-20</ValidFrom>
+      <ValidTo>2018-09-02</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="69845" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-09-03</ValidFrom>
+      <ValidTo>2018-12-14</ValidTo>
+      <Rate ratetype="%">15.00</Rate>
+    </Discount>
+    <Discount discountid="69846" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-15</ValidFrom>
+      <ValidTo>2018-12-25</ValidTo>
+      <Rate ratetype="%">10.00</Rate>
+    </Discount>
+    <Discount discountid="69847" discounttypeid="LS" isstandalone="Y" ismultiuse="N" isextranightdiscounted="Y" requirednights="10" checkinwithin="0" advancedays="0" sortorder="1">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Description><![CDATA[]]></Description>
+      <ValidFrom>2018-12-26</ValidFrom>
+      <ValidTo>2019-01-02</ValidTo>
+      <Rate ratetype="%">5.00</Rate>
+    </Discount>
+  </Discounts>
+  <DiscountSummary>
+    <Discount discounttypeid="EB" requirednights="1" checkinwithin="0" advancedays="150" sortorder="">
+      <DiscountName><![CDATA[Early Bird discount rate]]></DiscountName>
+      <Rate ratetype="%">15.00</Rate>
+      <Note><![CDATA[Does not apply for New Year period]]></Note>
+    </Discount>
+    <Discount discounttypeid="LM" requirednights="1" checkinwithin="15" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Last minute discount rate]]></DiscountName>
+      <Rate ratetype="%">10.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+    <Discount discounttypeid="LS" requirednights="10" checkinwithin="0" advancedays="0" sortorder="">
+      <DiscountName><![CDATA[Long stay discount rate - 10 nights]]></DiscountName>
+      <Rate ratetype="%">15.00</Rate>
+      <Note><![CDATA[]]></Note>
+    </Discount>
+  </DiscountSummary>
+  <Rooms>
+    <Room roomid="717" bedrooms="3" maxoccupancy="6" maxadult="6" maxchild="0">
+      <RoomName><![CDATA[3 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="563">
+          <RateName><![CDATA[Standard Rate (3BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2017">
+              <SDate>2017-04-18</SDate>
+              <EDate>2017-04-27</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-04-28</SDate>
+              <EDate>2017-05-01</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-05-02</SDate>
+              <EDate>2017-06-15</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-06-16</SDate>
+              <EDate>2017-06-23</EDate>
+              <PublishedRate>410.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">410.00</DisplayRate>
+              <NRate>473.55</NRate>
+              <LS14DiscountedRate>410.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">349.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-06-24</SDate>
+              <EDate>2017-08-20</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-08-21</SDate>
+              <EDate>2017-08-31</EDate>
+              <PublishedRate>410.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">410.00</DisplayRate>
+              <NRate>473.55</NRate>
+              <LS14DiscountedRate>410.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">349.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-09-01</SDate>
+              <EDate>2017-12-14</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-12-15</SDate>
+              <EDate>2017-12-25</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-12-26</SDate>
+              <EDate>2018-01-02</EDate>
+              <PublishedRate>605.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">605.00</DisplayRate>
+              <NRate>698.78</NRate>
+              <LS14DiscountedRate>605.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">575.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-01-03</SDate>
+              <EDate>2018-01-07</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-01-08</SDate>
+              <EDate>2018-02-14</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-02-15</SDate>
+              <EDate>2018-02-21</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-02-22</SDate>
+              <EDate>2018-03-23</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-03-24</SDate>
+              <EDate>2018-03-28</EDate>
+              <PublishedRate>410.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">410.00</DisplayRate>
+              <NRate>473.55</NRate>
+              <LS14DiscountedRate>410.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">349.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-03-29</SDate>
+              <EDate>2018-04-02</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-03</SDate>
+              <EDate>2018-04-08</EDate>
+              <PublishedRate>410.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">410.00</DisplayRate>
+              <NRate>473.55</NRate>
+              <LS14DiscountedRate>410.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">349.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-09</SDate>
+              <EDate>2018-04-27</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-28</SDate>
+              <EDate>2018-05-01</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-05-02</SDate>
+              <EDate>2018-06-15</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)
+</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-06-16</SDate>
+              <EDate>2018-06-22</EDate>
+              <PublishedRate>410.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">410.00</DisplayRate>
+              <NRate>473.55</NRate>
+              <LS14DiscountedRate>410.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">349.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li> <li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-06-23</SDate>
+              <EDate>2018-08-19</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li> <li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-08-20</SDate>
+              <EDate>2018-09-02</EDate>
+              <PublishedRate>410.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">410.00</DisplayRate>
+              <NRate>473.55</NRate>
+              <LS14DiscountedRate>410.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">349.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li> <li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-03</SDate>
+              <EDate>2018-12-14</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li> <li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-15</SDate>
+              <EDate>2018-12-25</EDate>
+              <PublishedRate>480.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">480.00</DisplayRate>
+              <NRate>554.40</NRate>
+              <LS14DiscountedRate>480.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">432.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li> <li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-26</SDate>
+              <EDate>2019-01-02</EDate>
+              <PublishedRate>605.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">605.00</DisplayRate>
+              <NRate>698.78</NRate>
+              <LS14DiscountedRate>605.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">575.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[<li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li> <li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+    <Room roomid="716" bedrooms="2" maxoccupancy="4" maxadult="4" maxchild="0">
+      <RoomName><![CDATA[2 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="895">
+          <RateName><![CDATA[Standard Rate (2BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2017">
+              <SDate>2017-04-18</SDate>
+              <EDate>2017-04-27</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-04-28</SDate>
+              <EDate>2017-05-01</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-05-02</SDate>
+              <EDate>2017-06-15</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-06-16</SDate>
+              <EDate>2017-06-23</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-06-24</SDate>
+              <EDate>2017-08-20</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-08-21</SDate>
+              <EDate>2017-08-31</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-09-01</SDate>
+              <EDate>2017-12-14</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-12-15</SDate>
+              <EDate>2017-12-25</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-12-26</SDate>
+              <EDate>2018-01-02</EDate>
+              <PublishedRate>495.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">495.00</DisplayRate>
+              <NRate>571.72</NRate>
+              <LS14DiscountedRate>495.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">470.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-01-03</SDate>
+              <EDate>2018-01-07</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-01-08</SDate>
+              <EDate>2018-02-14</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-02-15</SDate>
+              <EDate>2018-02-21</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-02-22</SDate>
+              <EDate>2018-03-23</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-03-24</SDate>
+              <EDate>2018-03-28</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-03-29</SDate>
+              <EDate>2018-04-02</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-03</SDate>
+              <EDate>2018-04-08</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-09</SDate>
+              <EDate>2018-04-27</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-28</SDate>
+              <EDate>2018-05-01</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-05-02</SDate>
+              <EDate>2018-06-15</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-06-16</SDate>
+              <EDate>2018-06-22</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-06-23</SDate>
+              <EDate>2018-08-19</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-08-20</SDate>
+              <EDate>2018-09-02</EDate>
+              <PublishedRate>340.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">340.00</DisplayRate>
+              <NRate>392.70</NRate>
+              <LS14DiscountedRate>340.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">289.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-03</SDate>
+              <EDate>2018-12-14</EDate>
+              <PublishedRate>270.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">270.00</DisplayRate>
+              <NRate>311.85</NRate>
+              <LS14DiscountedRate>270.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">230.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-15</SDate>
+              <EDate>2018-12-25</EDate>
+              <PublishedRate>400.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">400.00</DisplayRate>
+              <NRate>462.00</NRate>
+              <LS14DiscountedRate>400.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">360.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-26</SDate>
+              <EDate>2019-01-02</EDate>
+              <PublishedRate>495.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">495.00</DisplayRate>
+              <NRate>571.72</NRate>
+              <LS14DiscountedRate>495.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">470.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[<p> *Available for bookings 45 days in advance. </p> <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+    <Room roomid="715" bedrooms="1" maxoccupancy="2" maxadult="2" maxchild="0">
+      <RoomName><![CDATA[1 bedroom]]></RoomName>
+      <Rates>
+        <StandardRate ratenameid="896">
+          <RateName><![CDATA[Standard Rate (1BR)]]></RateName>
+          <MarketingDesc><![CDATA[]]></MarketingDesc>
+          <Periods>
+            <Period year="2017">
+              <SDate>2017-04-18</SDate>
+              <EDate>2017-04-27</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-04-28</SDate>
+              <EDate>2017-05-01</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-05-02</SDate>
+              <EDate>2017-06-15</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-06-16</SDate>
+              <EDate>2017-06-23</EDate>
+              <PublishedRate>260.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">260.00</DisplayRate>
+              <NRate>300.30</NRate>
+              <LS14DiscountedRate>260.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">221.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-06-24</SDate>
+              <EDate>2017-08-20</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-08-21</SDate>
+              <EDate>2017-08-31</EDate>
+              <PublishedRate>260.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">260.00</DisplayRate>
+              <NRate>300.30</NRate>
+              <LS14DiscountedRate>260.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">221.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-09-01</SDate>
+              <EDate>2017-12-14</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-12-15</SDate>
+              <EDate>2017-12-25</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2017">
+              <SDate>2017-12-26</SDate>
+              <EDate>2018-01-02</EDate>
+              <PublishedRate>370.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">370.00</DisplayRate>
+              <NRate>427.35</NRate>
+              <LS14DiscountedRate>370.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">352.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-01-03</SDate>
+              <EDate>2018-01-07</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-01-08</SDate>
+              <EDate>2018-02-14</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-02-15</SDate>
+              <EDate>2018-02-21</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-02-22</SDate>
+              <EDate>2018-03-23</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-03-24</SDate>
+              <EDate>2018-03-28</EDate>
+              <PublishedRate>260.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">260.00</DisplayRate>
+              <NRate>300.30</NRate>
+              <LS14DiscountedRate>260.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">221.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-03-29</SDate>
+              <EDate>2018-04-02</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-03</SDate>
+              <EDate>2018-04-08</EDate>
+              <PublishedRate>260.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">260.00</DisplayRate>
+              <NRate>300.30</NRate>
+              <LS14DiscountedRate>260.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">221.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-09</SDate>
+              <EDate>2018-04-27</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-04-28</SDate>
+              <EDate>2018-05-01</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-05-02</SDate>
+              <EDate>2018-06-15</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-06-16</SDate>
+              <EDate>2018-06-22</EDate>
+              <PublishedRate>260.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">260.00</DisplayRate>
+              <NRate>300.30</NRate>
+              <LS14DiscountedRate>260.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">221.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-06-23</SDate>
+              <EDate>2018-08-19</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-08-20</SDate>
+              <EDate>2018-09-02</EDate>
+              <PublishedRate>260.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">260.00</DisplayRate>
+              <NRate>300.30</NRate>
+              <LS14DiscountedRate>260.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">221.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="SH">Shoulder Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-09-03</SDate>
+              <EDate>2018-12-14</EDate>
+              <PublishedRate>210.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">210.00</DisplayRate>
+              <NRate>242.55</NRate>
+              <LS14DiscountedRate>210.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">179.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>2</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="LO">Low Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-15</SDate>
+              <EDate>2018-12-25</EDate>
+              <PublishedRate>300.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">300.00</DisplayRate>
+              <NRate>346.50</NRate>
+              <LS14DiscountedRate>300.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">270.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>5</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="HI">High Season</Season>
+            </Period>
+            <Period year="2018">
+              <SDate>2018-12-26</SDate>
+              <EDate>2019-01-02</EDate>
+              <PublishedRate>370.00</PublishedRate>
+              <DisplayRate is_sctaxincluded="N">370.00</DisplayRate>
+              <NRate>427.35</NRate>
+              <LS14DiscountedRate>370.00</LS14DiscountedRate>
+              <LSMinDiscountedRate requirednights="10">352.00</LSMinDiscountedRate>
+              <TaxRate ratetype="%">10.00</TaxRate>
+              <SCRate ratetype="%">5.00</SCRate>
+              <TotalExtraChargesPercentage>15.5</TotalExtraChargesPercentage>
+              <MinDayStay>7</MinDayStay>
+              <Inclusions><![CDATA[<p>  *Available for bookings 45 days in advance.</p>  <li> WiFi internet connection</li><li>One car and driver at a special rate of US$25++/day for 8 hours (excludes petrol; extra hours chargeable)</li><li> Welcome drink and fresh fruit basket upon arrival</li><li> Turn down setup service</li><li> Personal service by the villa staff including full time manager, housekeeper, chef, 24-hour security</li><li> Exclusive use of the whole villa and listed facilities</li>]]></Inclusions>
+              <CancellationCondition><![CDATA[]]></CancellationCondition>
+              <Season seasonid="PK">Peak Season</Season>
+            </Period>
+          </Periods>
+        </StandardRate>
+        <PackageRates>
+        </PackageRates>
+      </Rates>
+    </Room>
+  </Rooms>
+  <Packages>
+  </Packages>
+</Villa>

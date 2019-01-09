@@ -1,0 +1,99 @@
+<div class="menuleft">
+	<div class="menu-main-menu1-container">
+    	<ul id="menu-main-menu1" class="menu">
+		{assign var=class value=''}
+        {assign var=hclass value=''}
+        {section name=p loop=$pages}
+        {if $pages[p].menu_location == 'main' && $pages[p].position == 'left'}
+            {if $data.page == $pages[p].page_identifier}
+            {assign var=class value='current-menu-item current_page_item'}
+            {else}
+            {assign var=class value=''}
+            {/if}
+            
+            {if $pages[p].parent == $data.origin}
+            {assign var=hclass value='current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children'}
+            {else}
+            {assign var=hclass value=''}
+            {/if}
+            <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page {$hclass} menu-item {$class}">
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {if 'children'|array_key_exists:$pages[p]}
+                <ul class="sub-menu">
+                    {assign var=subclass value=''}
+                    {section name=sp loop=$pages[p].children}
+                    {if $data.origin == $pages[p].children[sp].parent && $data.page == $pages[p].children[sp].page_identifier}
+                    {assign var=subclass value='current-menu-item current_page_item'}
+                    {else}
+                    {assign var=subclass value=''}
+                    {/if}
+                    <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item {$subclass}">
+                        {if $pages[p].children[sp].level == 'sub'}
+                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                        {elseif $pages[p].children[sp].level == 'top'}
+                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                        {/if}
+                        {$pages[p].children[sp].label}
+                        </a>
+                    </li>
+                    {/section}
+                </ul>
+                {/if}
+            </li>
+        {/if}
+        {/section}
+		</ul>
+	</div>
+</div>    		
+<div class="logo">
+    <a href="{$data.home_uri}"> 
+        <img src="/resources/deavillas/images/logo.png" style="border:none;" />  
+    </a>
+</div>  
+<div class="menuright">
+	<div class="menu-main-menu2-container">
+        <ul id="menu-main-menu2" class="menu">
+        {assign var=class value=''}
+        {assign var=hclass value=''}
+        {section name=p loop=$pages}
+        {if $pages[p].menu_location == 'main' && $pages[p].position == 'right'}
+            {if $data.page == $pages[p].page_identifier}
+            {assign var=class value='current-menu-item current_page_item'}
+            {else}
+            {assign var=class value=''}
+            {/if}
+            
+            {if $pages[p].parent == $data.origin}
+            {assign var=hclass value='current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children'}
+            {else}
+            {assign var=hclass value=''}
+            {/if}
+            <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page {$hclass} menu-item {$class}">
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {if 'children'|array_key_exists:$pages[p]}
+                <ul class="sub-menu">
+                    {assign var=subclass value=''}
+                    {section name=sp loop=$pages[p].children}
+                    {if $data.origin == $pages[p].children[sp].parent && $data.page == $pages[p].children[sp].page_identifier}
+                    {assign var=subclass value='current-menu-item current_page_item'}
+                    {else}
+                    {assign var=subclass value=''}
+                    {/if}
+                    <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item {$subclass}">
+                        {if $pages[p].children[sp].level == 'sub'}
+                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                        {elseif $pages[p].children[sp].level == 'top'}
+                        <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                        {/if}
+                        {$pages[p].children[sp].label}
+                        </a>
+                    </li>
+                    {/section}
+                </ul>
+                {/if}
+            </li>
+        {/if}
+        {/section}
+        </ul>
+    </div>
+</div>

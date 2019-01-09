@@ -1,0 +1,102 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+				<div class="content-item">
+					<div class="table">
+					<div class="group group-wrapper">
+						<div class="sec-one bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Kavaya - Wonderful service.jpg"></div>
+						<div class="sec-two bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Kavaya - Spacious keanu bedroom.jpg"></div>
+						<div class="sec-three">
+							<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Kavaya - Laze away the day.jpg"></div>						
+							<div class="group">
+								<div class="half">
+									<div>
+										<img data-src="{$data.cdn}/resources/{$data.theme}/content/general/cheff.png" class="lazyload" />
+										<span class="big">Your Own</span>
+										<span class="small">Personal Chef</span>
+									</div>
+								</div>
+								<div class="half">
+									<div>
+										<img data-src="{$data.cdn}/resources/{$data.theme}/content/general/beach.png" class="lazyload" />
+										<span class="big">800 M</span>
+										<span class="small">to Pererenan Beach</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+					</div>					
+				</div>
+                <div class="content-item">  
+                    <div class="wrapper">
+                        <div class="the-content intro"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+                                {section name=s loop=$contentPart}
+                                <p>{$contentPart[s]|replace:'<br />':''}</p>
+                                {/section}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                        
+                    </div>
+                </div> 
+				
+                <div class="content-item">
+					<div class="short-des">
+						<div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Kavaya - Tropical serenity.jpg">
+							
+								 <ul class="poi">
+									<li id="poi-2">4 Bedroom <br />Villa</li>
+									<li id="poi-3">Family <br />Friendly</li>
+									<li id="poi-4">Private <br />Pool</li>
+								</ul> 
+						
+						</div>
+					</div>
+				</div>
+				
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-kavaya', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

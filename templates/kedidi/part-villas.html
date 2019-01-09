@@ -1,0 +1,26 @@
+<div class="villas-container">
+    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/general/Villa Kakatua - Villa, pool and gardens.jpg"></div>
+    <div class="villas">
+        <div class="wrapper">
+            <div class="the-content">  
+                <a href="http://www.villakakatua.com" onclick="_gaq.push(['_trackEvent', 'Linkout', 'Clicked', ‘Villa Kakatua']);" target="_blank"><img data-src="{$data.cdn}/resources/kakatua/images/logo-kakatua.png" alt="Villa Kakatua" class="lazyload"></a>
+
+                {parsedata folder=$data.theme cache="Kakatua" content="INTRO"}
+
+                {if 'desc'|array_key_exists:$content[0]}
+                    <p>
+                    {contentpart content=$content[0].desc regex="default"}
+                    {contentpart content=$contentPart[0] strip=['<p>', '</p>'] explode=". "}
+                    {section name=s loop=$contentPart}
+                    {if strpos($contentPart[s], '</a>') == false} 
+                    {$contentPart[s]}.                        
+                    {/if}
+                    {/section} 
+                    </p>
+                {/if}
+                
+                <a href="http://www.villakakatua.com" onclick="_gaq.push(['_trackEvent', 'Linkout', 'Clicked', ‘Villa Kakatua']);" target="_blank">Explore</a>
+            </div>
+        </div>
+    </div>
+</div>

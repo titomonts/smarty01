@@ -1,0 +1,70 @@
+{if $data.page|in_array:['home', 'index']}
+<div class="hero-container">
+    <div class="slideshow">
+        <div id="slide-1">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20tropical%20background.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Stunning%20tropical%20background.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20tropical%20background.jpg 1920w" alt="Villa Sapna - Stunning tropical background" class="lazyload" />            
+			<div class="caption"><big>Fully staffed,</big> <small>5-bedroom luxury Phuket villa</small></div>       
+        </div>
+        <div id="slide-2">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Paradise%20in%20tropical%20island.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Paradise%20in%20tropical%20island.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Paradise%20in%20tropical%20island.jpg 1920w" alt="Villa Sapna - Paradise in tropical island" class="lazyload" />
+			<div class="caption"><big>On the Cape Yamu peninsular,</big> <small>panoramic sea views</small></div>       
+        </div>
+        <div id="slide-3">
+            <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Luxurious%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Luxurious%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Luxurious%20living%20area.jpg 1920w" alt="Villa Sapna - Luxurious living area" class="lazyload" />
+			<div class="caption"><big>Luxurious</big> <small>designer style</small></div>       
+        </div>
+    </div>
+</div>
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-sapna'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Stunning%20features.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20features.jpg 1920w" alt="Villa Sapna - Stunning features" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Tropical%20paradise.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Tropical%20paradise.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Tropical%20paradise.jpg 1920w" alt="Villa Sapna - Tropical paradise" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Living%20room%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Living%20room%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Living%20room%20outlook.jpg 1920w" alt="Villa Sapna - Living room outlook" class="lazyload" />
+
+        {elseif $data.page == 'press'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20backdrop.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Stunning%20backdrop.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20backdrop.jpg 1920w" alt="Villa Sapna - Stunning backdrop" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20backdrop.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Stunning%20backdrop.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20backdrop.jpg 1920w" alt="Villa Sapna - Stunning backdrop" class="lazyload" />
+
+        {elseif $data.page == 'floorplan'}        
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20backdrop.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Stunning%20backdrop.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Stunning%20backdrop.jpg 1920w" alt="Villa Sapna - Stunning backdrop" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Fabulous%20facade.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Fabulous%20facade.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Fabulous%20facade.jpg 1920w" alt="Villa Sapna - Fabulous facade" class="lazyload" />
+        
+        {elseif $data.page == 'cape-yamu-phuket'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Paradise%20in%20tropical%20island.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Paradise%20in%20tropical%20island.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Paradise%20in%20tropical%20island.jpg 1920w" alt="Villa Sapna - Modern grandeu" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+		<img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Astonishing%20vista.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Astonishing%20vista.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Astonishing%20vista.jpg 1920w" alt="Villa Sapna - Astonishing vista" class="lazyload" />
+        
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Luxurious%20living%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Luxurious%20living%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Luxurious%20living%20area.jpg 1920w" alt="Villa Sapna - Luxurious living area" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Relax%20poolside.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Relax%20poolside.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Relax%20poolside.jpg 1920w" alt="Villa Sapna - Relax poolside" class="lazyload" /> 
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg 1920w" alt="Villa Sapna - Poolside sun loungers" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg 1920w" alt="Villa Sapna - Poolside sun loungers" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Sapna.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Sapna%20-%20Poolside%20sun%20loungers.jpg 1920w" alt="Villa Sapna - Poolside sun loungers" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

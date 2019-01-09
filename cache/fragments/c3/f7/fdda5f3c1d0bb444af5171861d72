@@ -1,0 +1,8 @@
+
+var gkey='AIzaSyCnwT0s5r_NZ4Sb8Mc5AYkqcmZq5vAgIwM';var dir='/resources/theylangylang';var lat=-8.61486110;var long=115.31694370;var infocontent='The Ylang Ylang';
+
+var iframe='<div class="iframe-wrapper"><iframe id="iframeCalendar" src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&amp;Villaid=7EOFc3ownWdzXCBe0tP0Wg==&did=Sd19bo%2Bp4qMFodHdpIaUKcMyMlQ%2FpI0s" height="280px" frameborder="0" width="590px" allowtransparency="true" scrolling="auto"></iframe></div>';
+
+defer(function(){jQuery(iframe).insertBefore('#tabs');});function defer(method){if(window.jQuery){method();}else{setTimeout(function(){defer(method)},1);}}
+
+$(document).ready(function(){$.datepicker.setDefaults({dateFormat:"d MM yy",changeMonth:true,changeYear:true});$("#txtPreArriveDate").datepicker({dateFormat:"d MM yy",changeYear:true,minDate:0,onSelect:function(dateText,inst){$('#txtPreDepartDate').val("");var actualDate=new Date(dateText);var newDate=new Date(actualDate.getFullYear(),actualDate.getMonth(),actualDate.getDate()+1);$('#txtPreDepartDate').datepicker('option','minDate',newDate,'dateFormat','d MM yy');$('#txtPreDepartDate').datepicker({minDate:newDate,dateFormat:'d MM yy'});}});});

@@ -1,0 +1,42 @@
+	<div class="footerwrap">
+	<div class="footer center">
+        <div class="copyright">&copy; 2017 Villa Taman Sorga. Marketed by <a href="http://www.elitehavens.com/" target="_blank">The Elite Havens Group</a>.</div>
+		<div class="eh"><a href="http://www.elitehavens.com/aboutus.aspx" target="_blank"><img src="/resources/tamansorga/images/logo-eh.png" alt="an elite haven" title="an elite haven" /></a></div> 
+		<div class="menu-footer-menu-container">
+        	<ul id="menu-footer-menu" class="footernav">
+            	{section name=p loop=$pages}
+                {if $pages[p].menu_location == 'footer'}
+                <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item">
+                	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                	<li class="separator"> -</li>
+                </li>
+                {/if}
+                {/section}
+			</ul>
+        </div> 
+        <ul id="social">
+          <li><a href="https://www.facebook.com/elitehavens" id="fb" rel="me" target="_blank">Facebook</a></li>
+          <li><a href="http://www.pinterest.com/elitehavensall" id="pin" rel="me" target="_blank">Pinterest</a></li>
+          <li><a href="https://plus.google.com/110452875661394954138" id="plus" rel="me author" target="_blank">Google+</a></li>
+          <li><a href="http://instagram.com/elitehavens" id="inst" rel="me" target="_blank">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/company/elite-havens-villa-management-&-rentals" id="in" rel="me" target="_blank">LinkedIn</a></li>
+        </ul>
+	</div>
+</div>
+<!-- /footerwrap -->
+</div>
+<!-- /container -->
+<script type="text/javascript">panopress.imagebox();</script>
+<script type="text/javascript" src="/resources/common/js/gen_validatorv4.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.event.hover.js"></script>
+<script type="text/javascript" src="/resources/common/js/superfish.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.sticky.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="/resources/common/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/resources/tamansorga/js/fixedbg.js"></script>
+<script type="text/javascript" src="/resources/tamansorga/js/jquery.vide.js"></script>
+<script type="text/javascript" src="/resources/tamansorga/js/site.js"></script>
+<script type="text/javascript" src="/resources/common/js/villa.js"></script>
+</body>
+</html>

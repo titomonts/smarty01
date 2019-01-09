@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>SuryaDamai</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>Surya Damai</villa_name>
+		<google_analytics>UA-27685518-1</google_analytics>
+		<location>Bali</location>
+		<sublocation> Umalas-Kerobokan</sublocation>
+		<bedrooms>5</bedrooms>
+		<hrental_id>'SuryaDamai', 'Bali', 'Umalas-Kerobokan', '5br'</hrental_id>
+		<ehgLocation>Bali, Umalas-Kerobokan</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

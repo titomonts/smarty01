@@ -1,0 +1,47 @@
+{if $data.page|in_array:['home', 'index']}
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-akuvara'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Absolute%20beachfront%20villa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Absolute%20beachfront%20villa.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Absolute%20beachfront%20villa.jpg 1920w" alt="Akuvara - Absolute beachfront villa" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Night%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Night%20setting.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Night%20setting.jpg 1920w" alt="Akuvara - Night setting" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Villa%20facade.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Villa%20facade.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Villa%20facade.jpg 1920w" alt="Akuvara - Villa facade" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Spacious%20tv%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Spacious%20tv%20room.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Spacious%20tv%20room.jpg 1920w" alt="Akuvara - Spacious tv room" class="lazyload" />
+        
+        {elseif $data.page == 'video'}
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Weddings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Weddings.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Weddings.jpg 1920w" alt="Akuvara - Weddings" class="lazyload" />
+        
+        {elseif $data.page == 'lipa-noi-koh-samui'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20View%20from%20the%20pool.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20View%20from%20the%20pool.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20View%20from%20the%20pool.jpg 1920w" alt="Akuvara - View from the pool" class="lazyload" />
+        
+        {elseif $data.page == 'villa-experience'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Beachfront%20sitting%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Beachfront%20sitting%20area.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Beachfront%20sitting%20area.jpg 1920w" alt="Akuvara - Beachfront sitting area" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Villa%20features.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Villa%20features.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Villa%20features.jpg 1920w" alt="Akuvara - Villa features" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Outdoor%20dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Outdoor%20dining%20table.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Outdoor%20dining%20table.jpg 1920w" alt="Akuvara - Outdoor dining table" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Absolute%20beachfront.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Absolute%20beachfront.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Absolute%20beachfront.jpg 1920w" alt="Akuvara - Absolute beachfront" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Absolute%20beachfront.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Absolute%20beachfront.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Absolute%20beachfront.jpg 1920w" alt="Akuvara - Absolute beachfront" class="lazyload" />
+        
+        {else}
+        <img src="{$data.cdn}/resources/akuvara/headers/thumb/Akuvara.jpg" data-src="{$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Outdoor%20dining%20table.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/akuvara/headers/small/Akuvara%20-%20Outdoor%20dining%20table.jpg 1400w, {$data.cdn}/resources/akuvara/headers/Akuvara%20-%20Outdoor%20dining%20table.jpg 1920w" alt="Akuvara - Outdoor dining table" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+<Source>
+<villa_id></villa_id>
+<villa_name></villa_name>
+<google_analytics></google_analytics>
+<location></location>
+<sublocation></sublocation>
+<bedrooms></bedrooms>
+<hrental_id></hrental_id>
+<ehgLocation></ehgLocation>
+<ehgBookingSource></ehgBookingSource>
+<ehgPageType></ehgPageType>
+</Source>
+</Configuration>

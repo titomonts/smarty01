@@ -1,0 +1,394 @@
+{include file="header.html"}
+<body>
+{$gtm}     
+        {include file="menu.html"}
+        {parsedata folder=$data.theme cache=$data.cache content="INTRO" mobileData="yes"}
+        {if $data.page|in_array:['about-the-villas','location','weddings','rates','mobile-sent']}
+            <div id="top">
+                <div class="title title-s">
+                    <a href="{$data.home_uri}">{#PAGE_HEADING#}</a>
+                </div>
+                <div id="slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <!-- Mobile Images -->
+                           {section name=m loop=$mdata.mobileImages}
+                            <li><img src="http://cdn.marketingvillas.com{$mdata.mobileImages[m].ThumbSizeUrl}" alt="{$mdata.mobileImages[m].Caption}" /></li>
+                           {/section}
+                            <!-- End Mobile Images -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {/if}
+
+        	{if $data.page == 'about-the-villas'}			 
+			<link rel="canonical" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="about-the-villas"}">
+            <div id="middle">
+                <div id="welcome">
+                    <div class="title">
+                        <h1>Welcome to<br />Majapahit Beach Villas</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                        	{parsedata folder=$data.theme cache=$data.cache content="INTRO"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {$content[0].desc}
+                            {/if}
+                        </p>
+                        <p>
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                                {section name=s loop=$content[0].SubContents}
+                                    {$content[0].SubContents[s].Description}
+                                {/section}
+                            {/if}
+                        </p>
+                    </div>
+                </div>
+                <div id="quickfacts">
+                    <div class="title">
+                        <h2>Quick facts</h2>
+                    </div>
+                    <div class="content">
+                    	{parsedata folder=$data.theme cache=$data.cache content="QF"}
+                        {if 'desc'|array_key_exists:$content[0]}
+                            {$content[0].desc}
+                        {/if}
+                        
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                            <dl>
+                            {section name=s loop=$content[0].SubContents}
+                                <dt>{$content[0].SubContents[s].Heading}</dt>
+                                <dd>{$content[0].SubContents[s].Description}</dd>
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/majapahit':'/resources/majapahit'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                            {/section}
+                            </dl>
+                        {/if}
+                    </div>
+                </div>
+            </div>
+            {elseif $data.page == 'location'}		
+			<link rel="canonical" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="location"}">
+            <div id="middle"> 
+                <div id="welcome">
+                    <div class="title">
+                        <h1>The locale</h1>
+                    </div>
+                    <div class="content">
+                    	{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+                        {if 'desc'|array_key_exists:$content[0]}
+                            {$content[0].desc}
+                        {/if}
+
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                            <div class="sectionLine"></div>
+                            <h2 class="distances">Distances</h2>
+                            <dl>
+                            {section name=s loop=$content[0].SubContents}
+                                <dt>{$content[0].SubContents[s].Heading}</dt>
+                                <dd>{$content[0].SubContents[s].Description}</dd>
+                            {/section}    
+                            </dl>
+                        {/if}
+                    </div>
+                </div>
+                <div class="sectionLine"></div>
+                {parsedata folder=$data.theme cache=$data.cache content="LCTN" mobileData="yes"}
+                <input type="hidden" id="latitude" name="latitude" value="{$coordinates.latitude}" />
+                <input type="hidden" id="longitude" name="longitude" value="{$coordinates.longitude}" />
+                <div id="location">
+                    <div class="title"> <h2 class="distances">Location</h2>
+                    </div>
+                    <div class="content">
+                        <div id="panel">
+                            <select id="mode" style="display:none;">
+                                <option value="">Select mode of travel</option>
+                                <option value="DRIVING">Driving</option>
+                                <option value="WALKING">Walking</option>
+                            </select>
+                        </div>
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+            {elseif $data.page == 'weddings'}
+			<link rel="canonical" href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="weddings"}">
+            {literal}
+            <style>
+                li span{color: #A07F43}
+            </style>
+            {/literal}
+            <div id="middle">
+                <div id="welcome">
+                    <div class="title">
+                        <h1>Weddings</h1>
+                    </div>
+                    <div class="content">
+                        <p>
+                        	{parsedata folder=$data.theme cache=$data.cache content="EVT"}
+                            {if 'desc'|array_key_exists:$content[0]}
+                                {$content[0].desc}
+                            {/if}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {elseif $data.page == 'rates'}
+            
+            <div id="welcome">
+                <div class="title">
+                    <h1>Rates & availability</h1>
+                </div>
+            </div>
+            <div class="content">
+
+                <div id="rates">
+                    <div class="content" style="margin-top: -25px;">
+                        {mobilerates folder=$data.theme vid=$data.villa_id show='promo'}
+                        {$content}
+                        <div class="title"><h2>Rates</h2></div>
+                        <div class="content">
+                            <div id="tabs" style="padding: 0!important; float: left!important; width: 100%!important;">
+                                <ul style="padding: 0; margin-left: -0.2em;">
+                                    <li><a href="#maya">Villa Maya</a></li>
+                                    <li><a href="#raj">Villa Raj</a></li>
+                                    <li><a href="#nataraja">Villa Nataraja</a></li>
+                                    <li><a href="#majapahit">Majapahit Villas</a></li>
+                                </ul>
+                                <div id="maya" style="padding: 0; margin-left: -0.2em;">	
+                                    {mobilerates folder=$data.theme vid='MajapahitMaya4BR'}
+                                    {$content}
+                                </div>
+                                <div id="raj" style="padding: 0; margin-left: -0.2em;">	
+                                    {mobilerates folder=$data.theme vid='Raj'}
+                                    {$content}
+                                </div>	
+                                <div id="nataraja" style="padding: 0; margin-left: -0.2em;">	
+                                    {mobilerates folder=$data.theme vid='Nataraja'}
+                                    {$content}
+                                </div>
+                                <div id="majapahit" style="padding: 0; margin-left: -0.2em;">	
+                                    {mobilerates folder=$data.theme vid=$data.villa_id}
+                                    {$content}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sectionLine"></div>
+                <div id="avCalendar">
+                    <div class="title">
+                        <h2>Availability</h2>
+                    </div>
+                    <div class="content">
+                        <div id="tabs" style="padding: 0!important; float: left!important; width: 100%!important;">
+							<ul style="padding: 0; margin-left: -0.2em;">
+								<li><a href="#maya">Villa Maya</a></li>
+								<li><a href="#raj">Villa Raj</a></li>
+								<li><a href="#nataraja">Villa Nataraja</a></li>
+							</ul>
+							<div id="maya" style="padding: 0; margin-left: -0.2em;">
+                            	<p></p>
+                            	{mobile_calendar villa_id='MajapahitMaya4BR'}	
+							</div>
+							<div id="raj" style="padding: 0; margin-left: -0.2em;">	
+                            	<p></p>
+                            	{mobile_calendar villa_id='Raj'}
+							</div>	
+							<div id="nataraja" style="padding: 0; margin-left: -0.2em;">	
+                            	<p></p>
+								{mobile_calendar villa_id='Nataraja'}
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        	{elseif $data.page == 'enquire-now'}
+			<link rel="canonical" href="{$data.home_uri}/m/enquire-now.html">
+            <div id="enquire">                
+                <div class="title">
+                    <h1>Enquire</h1>
+                </div>
+                {$eform}
+            </div>
+            <div id="buttonss">
+                <ul>
+                    <li><a href="tel:+62361737498">Call</a></li>
+                </ul>
+            </div>
+           {elseif $data.page == 'mobile-sent'}
+           	<div id="middle">
+                <div id="thanks">
+                    {$content}
+                </div>
+            </div>
+           {else}
+			<div id="top">
+                <div class="title title-s">
+                    <a href="{$data.home_uri}" style="font-size:12px;">{#PAGE_HEADING#}</a>
+                </div>
+			</div>
+            <div id="middle">
+                <div id="intro">
+                    <div class="content">
+                        <p>{$mdata.ShortDesc}</p>						
+						<div style="margin-bottom:10px; margin-top:20px;">
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="villa-maya"}">
+								<img style="width:100%; display:block;" src="/resources/majapahit/images/m/home/Majapahit-Maya.jpg" alt="Villa Maya">
+							</a>
+						</div>
+						<div style="margin-bottom:10px;">
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="villa-raj"}">
+								<img style="width:100%; display:block;" src="/resources/majapahit/images/m/home/Majapahit-Raj.jpg" alt="Villa Raj">
+							</a>
+						</div>
+						<div style="margin-bottom:10px;">
+							<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="villa-nataraja"}">
+								<img style="width:100%; display:block;" src="/resources/majapahit/images/m/home/Majapahit-Nataraj.jpg" alt="Villa Nataraja">
+							</a>
+						</div>
+                    </div>
+					
+                </div>
+                
+            </div>
+            {/if}
+            
+        	{if $data.page != 'enquire-now'}
+				{if $data.page != 'index'}
+					<div class="footer-baner" >
+                        <div style="margin-left: 4px; margin-right: 4px;">
+                            <div style="float:left; width: 49.555%; ">
+                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="villa-maya"}">
+                                    <img style="width:100%; display:block;" src="/resources/majapahit/images/m/footer/Majapahit-Maya-f.jpg" alt="Villa Maya">
+                                </a>
+                            </div>
+                            <div style="float: right; width: 49.555%;">
+                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="villa-raj"}">
+                                    <img style="width:100%; display:block;" src="/resources/majapahit/images/m/footer/Majapahit-Raj-f.jpg" alt="Villa Raj">
+                                </a>
+                            </div>
+                            <div style="float:right; width: 100%; margin-top: 3px;">
+                                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="villa-nataraja"}">
+                                    <img style="width:100%; display:block;" src="/resources/majapahit/images/m/footer/Majapahit-Nataraja-f.jpg" alt="Villa Nataraja">
+                                </a>
+                            </div>					
+                        </div>				
+                    </div>
+				{/if}		
+			
+            	<div id="bottom">
+                    <div class="footer_detail">
+                        <strong>A holiday here includes</strong>
+                        <ul>
+                            <li id="fully-staffed"></li>
+                            <li id="private-chef"></li>
+                            <li id="insider-info"></li>
+                            <li id="private-pool"></li>
+                            <li id="free-wifi"></li>
+                        </ul>
+                    </div>
+    <!--                <div class="sectionLine"></div>-->
+                    <div id="socmed">
+                        <ul>
+                            <li><a href="https://www.facebook.com/elitehavens?ref_type=bookmark" title="Facebook" target="_blank" class="facebook"></a></li>
+                            <li><a href="http://instagram.com/elitehavens" title="Instagram" target="_blank" class="instagram"></a></li>
+                            <li><a href="http://www.pinterest.com/elitehavensall/" title="Pinterest" target="_blank" class="pinterest"></a></li>
+                            <li><a href="https://twitter.com/elitehavens" title="Twitter" target="_blank" class="twitter"></a></li> 
+                            <li><a href="https://www.linkedin.com/company/elite-havens" title="Linked In" target="_blank" class="linkedin"></a></li>
+                            <li><a href="https://plus.google.com/110452875661394954138/posts?hl=en" title="Google Plus" target="_blank" class="gplus"></a></li>
+                        </ul>
+                    </div>
+                    <div id="ehbrand">
+                        <a href="http://www.elitehavens.com/aboutus.aspx" target="_blank"><img src="/resources/majapahit/images/m/eh_logo_blue.png" alt="an elite haven" title="an elite haven"></a>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <ul>
+                        <li><a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page="m" child="enquire-now"}">Enquire</a></li>
+                        <li><a href="tel:+62361737498">Call</a></li>
+                    </ul>                
+                </div>
+        {/if}
+        <a id="backTop">Back To Top</a>
+		{literal}
+        <script type="text/javascript">
+            /* multi bedrooms rates */
+            $('#1bed,#2bed,#3bed,#4bed,#5bed,#6bed,#7bed,#8bed,#9bed,#10bed,#11bed,#12bed,#13bed,#14bed,#15bed,#16bed,#17bed,#18bed,#19bed,#20bed').tabs();
+			$('#1bed,#2bed,#3bed,#4bed,#5bed,#6bed,#7bed,#8bed,#9bed,#10bed,#11bed,#12bed,#13bed,#14bed,#15bed,#16bed,#17bed,#18bed,#19bed,#20bed').removeClass('ui-tabs'); 
+			
+            $('#tabs, #byseason, #bydate').tabs();
+            $('#tabs, #tabs ul, #tabs div, #tabs li').removeClass('ui-helper-clearfix ui-widget-header ui-corner-top ui-corner-bottom ui-helper-reset ui-corner-all ui-widget ui-widget-content'); 
+        </script>
+		{/literal}
+		{if $data.page == 'location'}
+        	<!--<script src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap" async defer></script>-->
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi3S0kZwhKY_pXmhlNiJ5HQvcmgGfQKpU"></script>
+        	{literal}
+			<script>
+				
+				window.onload = function () {
+					var lat = document.getElementById('latitude').value;
+					var lng = document.getElementById('longitude').value;
+					//var radius = document.getElementById('radius').value;
+					
+					var styles = [
+						{
+						  "featureType": "landscape.man_made",
+						  "stylers": [{ "color": "#efefef" }]
+						},
+						{
+						  "featureType": "water",
+						  "stylers": [{ "weight": 2.5 },{ "color": "#a7b3bf" }]
+						},
+						{
+						  "featureType": "road",
+						  "stylers": [{ "visibility": "on" }]
+						}
+					];
+					
+					var opts = {
+					mapTypeControlOptions: {
+					  mapTypeIds: ['Styled']
+					},
+					center: new google.maps.LatLng(lat,lng),
+					zoom: 15,
+					disableDefaultUI: false,  
+					mapTypeId: 'Styled',
+					scrollwheel: false,
+					draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true
+					};
+					var div = document.getElementById('map');
+					var map = new google.maps.Map(div, opts);
+					var styledMapType = new google.maps.StyledMapType(styles, { name: 'Majapahit Beach Villas' });
+					map.mapTypes.set('Styled', styledMapType);
+					
+					/*
+					icon_img="/media/images/icomap.png";  
+					var ico = new google.maps.MarkerImage(icon_img,  new google.maps.Size(84,58),
+					new google.maps.Point(0,0), new google.maps.Point(100,25));  
+					*/
+					
+					var marker = new google.maps.Marker({
+					  map: map,
+					  position: new google.maps.LatLng(lat,lng),
+					  draggable: false,
+					});
+				}
+			</script>
+            {/literal}
+		{/if}
+		
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/resources/majapahit/js/m/jquery.backTop.js"></script>
+        <script type="text/javascript" src="/resources/common/js/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="/resources/majapahit/js/m/jquery.validate.js"></script>
+        <script type="text/javascript" src="/resources/majapahit/js/m/mobilesite.js"></script>
+    </body>
+</html>

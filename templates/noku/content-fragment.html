@@ -1,0 +1,676 @@
+{if $data.page|in_array:['about']}
+<div class="content-item odd about" id="about">     
+	{parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+	{if 'desc'|array_key_exists:$content[0]}
+		<div class="wrapper">
+			<div class="the-content">							
+				<h1 class="entry-title"><span>{$data.heading|replace:['Noku']:['NoKu']}</span></h1>                
+				{contentpart content=$content[0].desc  strip=["</p>"] explode="<p>"}
+					{section name=s start=1 max=2 loop=$contentPart}
+					  <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+					{/section}
+					
+					
+			</div>
+		</div> 
+		<div class="content-inner">
+			<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20elegant%20indoor%20dining.jpg">		
+			</div>
+		</div>
+		
+		<div class="wrapper odd">
+			<div class="the-content">
+					{section name=s start=3 max=1 loop=$contentPart}
+					  <p>{$contentPart[s]}</p>
+					{/section}
+			</div>
+		</div> 
+		<div class="content-inner">
+			<div class="tow-rows">
+			
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Noku%20Beach%20House%20-%20Cocktail.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20Tropical%20plunge.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Noku%20Beach%20House%20-%20Tropical%20plunge.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20Tropical%20plunge.jpg 1920w" alt="Noku Beach House - Cocktail" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Noku%20Beach%20House%20-%20Spa%20treatment.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20Stylish%20bedroom%20detail.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Noku%20Beach%20House%20-%20Stylish%20bedroom%20detail.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20Stylish%20bedroom%20detail.jpg 1920w" alt="Noku Beach House - Spa treatment" class="lazyload" />									
+					</div>
+				</div>
+				
+				<div class="group">
+					<div class="group-wrapper">
+						<div class="half half-content">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/about/thumb/Noku%20Beach%20House%20-%20Dive%20in.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20Dive%20in.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/about/small/Noku%20Beach%20House%20-%20Dive%20in.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/about/Noku%20Beach%20House%20-%20Dive%20in.jpg 1920w" alt="Noku Beach House - Dive in" class="lazyload" />
+						</div>
+
+						<div class="half">
+							<div>
+								<h3>YOU BELONG HERE</h3>
+								{section name=s start=4 loop=$contentPart}
+								 <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+								{/section}
+							</div>																			
+						</div>									
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	  {/if}
+	  {if 'SubContents'|array_key_exists:$content[0]}
+		{section name=s loop=$content[0].SubContents}
+			<h2>{$content[0].SubContents[s].Heading}</h2>
+			{$content[0].SubContents[s].Description}
+			{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+				<p>
+					<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+						<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+					</a>
+				</p>
+			{/if}
+		{/section}
+	{/if}
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+        <h1 class="entry-title"><span>Luxury Beachfront Wedding Venue</span></h1>     
+                {if 'desc'|array_key_exists:$content[0]}                  
+					{contentpart content=$content[0].desc strip=[""] explode="</p>"}
+					{section name=s loop=$contentPart max=1}
+						{$contentPart[s]|replace:['Noku']:['NoKu']}
+					{/section}				
+                {/if}
+    </div>
+	
+    <div class="content-inner">
+		<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Balinese%20ceremony.jpg">	</div>
+	</div>
+	
+    <div class="wrapper"> 
+	
+	<h2>A day to remember</h2>
+	<p class="center">Life together begins at the most beautiful places on earth.</p>
+	
+	<div class="group">            
+		<ul class="capacity">
+			{contentpart content=$content[0].desc explode="<br />"}
+			{section name=s start=1 max=5 loop=$contentPart}
+				<li>{$contentPart[s]}</li>
+			{/section}
+		</ul>
+
+		<div class="guidelines">	
+			  {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s"}
+				{section name=s loop=$contentPart}
+				{$contentPart[s]|replace:['<p>','</p>']:['', '']|replace:['Noku']:['NoKu']}
+				{/section} 
+		</div>
+		
+		
+	</div>
+	
+    {section name=s loop=$content[0].SubContents}
+        <h3>{$content[0].SubContents[s].Heading}</h3>
+        {$content[0].SubContents[s].Description}
+
+        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+            <p>
+                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                </a>
+            </p>
+        {/if}
+    {/section}
+    </div>
+	
+	<div class="content-inner">
+		<div class="tow-rows">
+		
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Noku%20Beach%20House%20-%20Floral%20bouquet.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Floral%20bouquet.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Noku%20Beach%20House%20-%20Floral%20bouquet.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Floral%20bouquet.jpg 1920w" alt="Noku Beach House - Floral bouquet" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Noku%20Beach%20House%20-%20Wedding%20setup.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Wedding%20setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Noku%20Beach%20House%20-%20Wedding%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Wedding%20setup.jpg 1920w" alt="Noku Beach House - Wedding setup" class="lazyload" />									
+				</div>
+			</div>
+			
+			<div class="group">
+				<div class="group-wrapper">
+					<div class="half half-content">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Noku%20Beach%20House%20-%20Getting%20ready%20for%20party.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Getting%20ready%20for%20party.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Noku%20Beach%20House%20-%20Getting%20ready%20for%20party.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Noku%20Beach%20House%20-%20Getting%20ready%20for%20party.jpg 1920w" alt="Noku Beach House - Getting ready for party" class="lazyload" />
+					</div>
+
+					<div class="half">
+						<div>
+							<h2>Get In Touch</h2>
+							{contentpart content=$content[0].desc explode="</p>"}
+							{section name=s start=1 max=1 loop=$contentPart}
+							  <p>{$contentPart[s]}</p>
+							{/section}
+							<a href="/reservations.html" class="btn-wedding">Contact Us</a>
+						</div>																			
+					</div>									
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+    <div class="wrapper">   
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+            {/section}
+
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        </div>
+
+			{include file="floorplan.html" }
+    </div>
+	
+		
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+   
+    <h2 class="entry-title"><span>Living Areas</span></h2>
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LVA"}
+
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+      
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description|replace:'<br />': ''|replace:['Noku']:['NoKu']}</p>
+            {* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if *}
+        {/section}
+		</div>
+	</div>
+	<div class="content-inner">
+			<div class="tow-rows">
+			
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Noku%20Beach%20House%20-%20Detail%20oriented.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Detail%20oriented.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Noku%20Beach%20House%20-%20Detail%20oriented.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Detail%20oriented.jpg 1920w" alt="Noku Beach House - Ku De Ta" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Noku%20Beach%20House%20-%20Sit%20and%20watch%20the%20waves.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Sit%20and%20watch%20the%20waves.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Noku%20Beach%20House%20-%20Sit%20and%20watch%20the%20waves.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Sit%20and%20watch%20the%20waves.jpg 1920w" alt="Noku Beach House - Party vibes" class="lazyload" />									
+					</div>
+				</div>
+			</div>
+		</div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+	<div class="wrapper">
+		<div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+			 <h2 class="entry-title"><span>Bedrooms</span></h2>
+			 {if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc regex="default"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+			{/if}		
+			{section name=s start=0 max=2 loop=$content[0].SubContents}
+				<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+				{$content[0].SubContents[s].Description|replace:['Noku']:['NoKu']}
+			{/section}
+		</div>
+	</div>
+		
+	<div class="content-inner">
+		<div class="tow-rows">
+		
+			<div class="group">
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Noku%20Beach%20House%20-%20Designer%20touch.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Designer%20touch.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Noku%20Beach%20House%20-%20Designer%20touch.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Designer%20touch.jpg 1920w" alt="Noku Beach House - Master bedroom" class="lazyload" />
+				</div>
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Noku%20Beach%20House%20-%20Tropical%20bliss.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Tropical%20bliss.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Noku%20Beach%20House%20-%20Tropical%20bliss.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Tropical%20bliss.jpg 1920w" alt="Noku Beach House - Master bedroom's balcony" class="lazyload" />									
+				</div>
+			</div>
+			
+			<div class="group">
+				<div class="group-wrapper">
+					<div class="half half-content">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Noku%20Beach%20House%20-%20Luxury%20bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Luxury%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Noku%20Beach%20House%20-%20Luxury%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Noku%20Beach%20House%20-%20Luxury%20bedroom.jpg 1920w" alt="Noku Beach House - Togetherness" class="lazyload" />
+					</div>
+
+					<div class="half">
+						<div>
+							{section name=s start=2 loop=$content[0].SubContents}
+							<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+							{$content[0].SubContents[s].Description}
+						{/section}
+						</div>																			
+					</div>									
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">   
+		<div class="wrapper">
+			<div class="the-content">
+				{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+					<h1 class="entry-title"><span>Staff</span></h1>
+				 {if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc  strip=["</p>"] explode="<p>"}
+					{section name=s loop=$contentPart}
+					  <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+					{/section}	
+				{/if}			
+			</div>
+		</div> 
+	
+		<div class="content-inner">
+			<div class="tow-rows">
+			
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Noku%20Beach%20House%20-%20Attentive%20staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Noku%20Beach%20House%20-%20Attentive%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Noku%20Beach%20House%20-%20Attentive%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Noku%20Beach%20House%20-%20Attentive%20staff.jpg 1920w" alt="Noku Beach House - Accommodation" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Noku%20Beach%20House%20-%20Staff%20preparation.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Noku%20Beach%20House%20-%20Staff%20preparation.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Noku%20Beach%20House%20-%20Staff%20preparation.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Noku%20Beach%20House%20-%20Staff%20preparation.jpg 1920w" alt="Noku Beach House - Food preparation" class="lazyload" />									
+					</div>
+				</div>
+				
+				<div class="group">
+					<div class="group-wrapper">
+						<div class="half half-content">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Noku%20Beach%20House%20-%20Ready%20to%20serve%20you.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Noku%20Beach%20House%20-%20Ready%20to%20serve%20you.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Noku%20Beach%20House%20-%20Ready%20to%20serve%20you.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Noku%20Beach%20House%20-%20Ready%20to%20serve%20you.jpg 1920w" alt="Noku Beach House - Summer vibes" class="lazyload" />
+						</div>
+						<div class="half">
+							<div>
+								<h3>6* service - Private chef</h3>
+								{section name=s loop=$content[0].SubContents}
+									<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+									<p>{$content[0].SubContents[s].Description|replace:['Noku']:['NoKu']}</p>
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+											<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+												<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+											</a>
+										</p>
+									{/if}
+								{/section}
+							</div>																			
+						</div>									
+					</div>
+				</div>
+				
+			</div>
+		</div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+	{parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+	{if 'desc'|array_key_exists:$content[0]}
+		<div class="wrapper">
+			<div class="the-content">							
+				<h1 class="entry-title"><span>{$data.heading}</span></h1>                
+				{contentpart content=$content[0].desc  strip=["</p>"] explode="<p>"}
+					{section name=s start=1 max=1 loop=$contentPart}
+					  <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+					{/section}
+					
+					
+			</div>
+		</div> 
+		 <div class="content-inner">
+			<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Exotic%20spice%20and%20herbs.jpg">	</div>
+		</div>
+		
+		<div class="content-inner">
+			<div class="tow-rows">
+				<div class="group">
+					<div class="group-wrapper">
+						<div class="half">
+							<div>
+								<h3>WORLD CLASS CUISINE</h3>
+								{section name=s start=2 loop=$contentPart}
+								 <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+								{/section}
+							</div>																			
+						</div>	
+						<div class="half half-content">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/512290.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Appetizer.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Noku%20Beach%20House%20-%20Appetizer.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Appetizer.jpg 1920w" alt="Noku Beach House - Appetizer" class="lazyload" />
+						</div>
+
+														
+					</div>
+				</div>
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Noku%20Beach%20House%20-%20Fresh%20vegetables.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Fresh%20vegetables.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Noku%20Beach%20House%20-%20Fresh%20vegetables.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Fresh%20vegetables.jpg 1920w" alt="Noku Beach House - Fresh vegetables" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Noku%20Beach%20House%20-%20Good%20vibes.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Good%20vibes.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Noku%20Beach%20House%20-%20Good%20vibes.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Noku%20Beach%20House%20-%20Good%20vibes.jpg 1920w" alt="Noku Beach House - Good vibes" class="lazyload" />									
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+	  {/if}
+	 {if 'SubContents'|array_key_exists:$content[0]}
+			{section name=s loop=$content[0].SubContents}
+				<h2>{$content[0].SubContents[s].Heading}</h2>
+				{$content[0].SubContents[s].Description}
+				{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+					<p>
+					<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+					<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+					</a>
+					</p>
+				{/if}
+			{/section}
+		{/if}
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+	{parsedata folder=$data.theme cache=$data.cache content="FAM"}
+	{if 'desc'|array_key_exists:$content[0]}
+		<div class="wrapper">
+			<div class="the-content">							
+				<h1 class="entry-title"><span>{$data.heading}</span></h1>                
+				{contentpart content=$content[0].desc  strip=["</p>"] explode="<p>"}
+					{section name=s start=1 max=1 loop=$contentPart}
+					  <p>{$contentPart[s]}</p>
+					{/section}
+			</div>
+		</div> 
+		 <div class="content-inner">
+			<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Summer%20vacation.jpg">	</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="the-content">
+					{section name=s start=2 max=1 loop=$contentPart}
+					  <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+					{/section}
+			</div>
+		</div> 
+		<div class="content-inner">
+			<div class="tow-rows">
+			
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Noku%20Beach%20House%20-%20Green%20smoothie.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Green%20smoothie.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Noku%20Beach%20House%20-%20Green%20smoothie.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Green%20smoothie.jpg 1920w" alt="Noku Beach House - Green smoothie" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Noku%20Beach%20House%20-%20Little%20girls%20on%20the%20beach.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Little%20girls%20on%20the%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Noku%20Beach%20House%20-%20Little%20girls%20on%20the%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Little%20girls%20on%20the%20beach.jpg 1920w" alt="Noku Beach House - Little girls on the beach" class="lazyload" />									
+					</div>
+				</div>
+				
+				<div class="group">
+					<div class="group-wrapper">
+						<div class="half half-content">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Noku%20Beach%20House%20-%20Family%20time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Family%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Noku%20Beach%20House%20-%20Family%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Noku%20Beach%20House%20-%20Family%20time.jpg 1920w" alt="Noku Beach House - Family time" class="lazyload" />
+						</div>
+
+						<div class="half">
+							<div>
+								<h3>FAMILY MATTERS MOST</h3>
+								{section name=s start=3 loop=$contentPart}
+								 <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+								{/section}
+							</div>																			
+						</div>									
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	  {/if}
+	  {if 'SubContents'|array_key_exists:$content[0]}
+		{section name=s loop=$content[0].SubContents}
+			<h2>{$content[0].SubContents[s].Heading}</h2>
+			{$content[0].SubContents[s].Description}
+			{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+				<p>
+					<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+						<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+					</a>
+				</p>
+			{/if}
+		{/section}
+	{/if}
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+   {parsedata folder=$data.theme cache=$data.cache content="SPA"}
+	
+		<div class="wrapper">
+			<div class="the-content">							
+				<h1 class="entry-title"><span>{$data.heading}</span></h1>      
+				{if 'desc'|array_key_exists:$content[0]}
+				{contentpart content=$content[0].desc  strip=["</p>"] explode="<p>"}
+					{section name=s loop=$contentPart}
+					  <p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+					{/section}
+				{/if}
+			</div>
+		</div> 		
+	
+		<div class="content-inner">
+			<div class="tow-rows">
+			
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Noku%20Beach%20House%20-%20Sublime%20spa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Sublime%20spa.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Noku%20Beach%20House%20-%20Sublime%20spa.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Sublime%20spa.jpg 1920w" alt="Noku Beach House - Sublime spa" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Noku%20Beach%20House%20-%20Relaxing%20massage.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Relaxing%20massage.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Noku%20Beach%20House%20-%20Relaxing%20massage.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Relaxing%20massage.jpg 1920w" alt="Noku Beach House - Relaxing massage" class="lazyload" />									
+					</div>
+				</div>
+				
+				<div class="group">
+					<div class="group-wrapper">
+						<div class="half half-content">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Noku%20Beach%20House%20-%20Relaxing%20treatment.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Relaxing%20treatment.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Noku%20Beach%20House%20-%20Relaxing%20treatment.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Relaxing%20treatment.jpg 1920w" alt="Noku Beach House - Relaxing treatment" class="lazyload" />
+						</div>
+
+						<div class="half">
+							<div>
+								<h3>Sublime Spa</h3>
+								 {if 'SubContents'|array_key_exists:$content[0]}
+									{section name=s loop=$content[0].SubContents}
+										<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+										{$content[0].SubContents[s].Description}
+										{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+											<p>
+												<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+													<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+												</a>
+											</p>
+										{/if}
+									{/section}
+								{/if}
+							</div>																			
+						</div>									
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		 <div class="content-inner">
+			<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/spa/Noku%20Beach%20House%20-%20Relaxation.jpg">	</div>
+		</div>		
+	 
+</div>
+{/if}
+
+{if $data.page|in_array:['seminyak-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+
+	<div class="content">
+		<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20Balinese%20dancers.jpg"></div>
+		<div class="wrapper">
+			<div class="the-content"> 
+				{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+				<h2 class="entry-title"><span>Go Local</span></h2>
+				{if 'desc'|array_key_exists:$content[0]}
+
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart}
+					<p>{$contentPart[s]|replace:['Noku']:['NoKu']}</p>
+					{/section}
+
+				{/if}
+				<div class="clear"></div>
+				
+				{if 'SubContents'|array_key_exists:$content[0]}
+					<h3>Distances</h3>
+					<dl class="distances">
+						{section name=s loop=$content[0].SubContents}
+							<dt>{$content[0].SubContents[s].Heading}</dt>
+							<dd>{$content[0].SubContents[s].Description}</dd>
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					</dl>
+				{/if}
+
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	<div class="content-inner">
+		<div class="img fullwidth lazyload" data-parallax="scroll" data-image-src="{$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20Pathway.jpg">		
+		</div>
+	</div>
+	
+</div>   
+{/if}
+
+{if $data.page|in_array:['seminyak-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+   
+		<div class="wrapper">
+			<div class="the-content">							
+				<h2 class="entry-title"><span>Things to Do</span></h2>
+			</div>
+		</div> 
+		
+		<div class="content-inner">
+			<div class="tow-rows">
+				<div class="group">
+					<div class="group-wrapper">
+						<div class="half">
+							<div>
+								{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+								{if 'desc'|array_key_exists:$content[0]}
+
+									{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+									{section name=s loop=$contentPart}
+									<p>{$contentPart[s]}</p>
+									{/section}
+
+								{/if}
+								{if 'SubContents'|array_key_exists:$content[0]}
+								{section name=s loop=$content[0].SubContents}
+									<h2>{$content[0].SubContents[s].Heading}</h2>
+									{$content[0].SubContents[s].Description}
+									{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+										<p>
+										<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+										</a>
+										</p>
+									{/if}
+								{/section}
+								{/if}
+								
+							</div>																			
+						</div>	
+						<div class="half half-content">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Noku%20Beach%20House%20-%20The%20beach.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20The%20beach.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Noku%20Beach%20House%20-%20The%20beach.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20The%20beach.jpg 1920w" alt="Noku Beach House - Relaxing by the pool" class="lazyload" />
+						</div>
+
+														
+					</div>
+				</div>
+				<div class="group">
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Noku%20Beach%20House%20-%20Balinese%20ceremony.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20Balinese%20ceremony.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Noku%20Beach%20House%20-%20Balinese%20ceremony.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20Balinese%20ceremony.jpg 1920w" alt="Noku Beach House - Balinese ceremony" class="lazyload" />
+					</div>
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Noku%20Beach%20House%20-%20Food%20setup.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20Food%20setup.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/locale/small/Noku%20Beach%20House%20-%20Food%20setup.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/locale/Noku%20Beach%20House%20-%20Food%20setup.jpg 1920w" alt="Noku Beach House - Food setup" class="lazyload" />									
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+	 
+		
+	 
+</div>
+{/if}

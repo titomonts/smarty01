@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Configuration>
+		<Source>
+		<villa_id>Maharaj</villa_id>
+		<estate_id vids=""></estate_id>
+		<villa_name>The MahaRaj</villa_name>
+		<google_analytics>UA-1241764-1</google_analytics>
+		<location>Bali</location>
+		<sublocation>Seminyak</sublocation>
+		<bedrooms>4</bedrooms>
+		<hrental_id>'Maharaj', 'Bali', '4br'</hrental_id>
+		<ehgLocation>Bali, Seminyak</ehgLocation>
+		<ehgBookingSource>Villa Website</ehgBookingSource>
+		<ehgPageType>individual</ehgPageType>
+		</Source>
+		</Configuration>

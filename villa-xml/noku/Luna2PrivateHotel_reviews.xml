@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<REVIEWS>
+  <REVIEW>
+    <ReviewsID>1</ReviewsID>
+    <Name>Staff</Name>
+    <SDate>2012-10-25T00:00:00+08:00</SDate>
+    <EDate>2012-10-25T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments />
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2012-10-25T00:00:00+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Staff</ReviewByName>
+    <UserTaskID>1</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22206841</ReviewsID>
+    <Name>Nomad The Luxe agent</Name>
+    <SDate>2018-09-08T00:00:00+08:00</SDate>
+    <EDate>2018-09-11T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Such a great time in here, thank you.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-11-19T21:32:51.98+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Seung Hyun L, Singapore</ReviewByName>
+    <UserTaskID>URID22206840</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22261042</ReviewsID>
+    <Name>Adelaide Chintara</Name>
+    <SDate>2018-09-28T00:00:00+08:00</SDate>
+    <EDate>2018-09-30T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Great villa, amazing view, complete with amazing set of amenities and services. Love how everyone here is so helpful plus super friendly. Thank you.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-11-19T21:33:20.807+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Adelaide C, Indonesia</ReviewByName>
+    <UserTaskID>URID22261041</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22369682</ReviewsID>
+    <Name>AZB  Creative</Name>
+    <SDate>2018-11-05T00:00:00+08:00</SDate>
+    <EDate>2018-11-12T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Thank you for our wonderful unforgettable stay. Everything was amazing from the villa itself to the amazing staff that work around the clock to ensure our stay was perfect. Until next time. </ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-12-08T17:30:08.143+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Daniel, Australia</ReviewByName>
+    <UserTaskID>URID22369681</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22391503</ReviewsID>
+    <Name>Ibu Rita</Name>
+    <SDate>2018-11-17T00:00:00+08:00</SDate>
+    <EDate>2018-11-20T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Unforgettable memories, thank you.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-12-08T17:30:36.99+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Rita and Friends, Indonesia</ReviewByName>
+    <UserTaskID>URID22391502</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22415894</ReviewsID>
+    <Name>Dannel lee Sargent</Name>
+    <SDate>2018-11-22T00:00:00+08:00</SDate>
+    <EDate>2018-11-30T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Wow, how are we ever going to be able to enjoy any other holiday that's not at NoKu? You have made our stay at Bali very enjoyable for my mum's 60th birthday, thank you for everything and all our love.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-12-08T17:31:35.833+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Kara S, Australia</ReviewByName>
+    <UserTaskID>URID22415893</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22418492</ReviewsID>
+    <Name>Milani Mihirika Ann</Name>
+    <SDate>2018-12-01T00:00:00+08:00</SDate>
+    <EDate>2018-12-02T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Thank you team Noku for your lovely wow hospitality. It was a truly a complimentary addition to a stunning home. My absolute favorite experience was the food...  WOW. Everything was lovely and I look forward to seeing you all again and introducing the NoKu experience do my family and friends.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-12-08T17:32:52.083+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Paula S, Sri Lanka</ReviewByName>
+    <UserTaskID>URID22418491</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22432303</ReviewsID>
+    <Name>Luke .</Name>
+    <SDate>2018-10-04T00:00:00+08:00</SDate>
+    <EDate>2018-10-15T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>luna2privatehotel</VillaID>
+    <ROverallComments>Amazing villa with an a amazing view, beautiful pool and great food. Just sit back, relax and enjoy. Let the staff look after you. Forget your worries and remember you are on Bali time.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-12-08T17:26:26.58+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Sam and Alicia, Singapore</ReviewByName>
+    <UserTaskID>VMNoku</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22432313</ReviewsID>
+    <Name>Patrick Grove</Name>
+    <SDate>2018-10-30T00:00:00+08:00</SDate>
+    <EDate>2018-10-31T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>luna2privatehotel</VillaID>
+    <ROverallComments>Best way to celebrate the life of our gorgeous girl to the Iza Calzado with love and gratitude. Thank you to all the staff!</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2018-12-08T17:28:30.723+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Karylle, Malaysia</ReviewByName>
+    <UserTaskID>VMNoku</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22437812</ReviewsID>
+    <Name>Sumardjono Adiyanto</Name>
+    <SDate>2018-12-07T00:00:00+08:00</SDate>
+    <EDate>2018-12-10T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Fabulous stay, great hospitality surely will be back again next time. Love you all!</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2019-01-06T14:17:52.917+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Kiki U, Indonesia</ReviewByName>
+    <UserTaskID>URID22437811</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22474387</ReviewsID>
+    <Name>Patrick Grove</Name>
+    <SDate>2018-12-12T00:00:00+08:00</SDate>
+    <EDate>2018-12-14T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>luna2privatehotel</VillaID>
+    <ROverallComments>Thank you for everything, I had a fabulous stay, will be back.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2019-01-04T10:54:38.35+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Farah Quinn, Indonesia</ReviewByName>
+    <UserTaskID>VMNoku</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22490112</ReviewsID>
+    <Name>Steward Hall</Name>
+    <SDate>2018-12-15T00:00:00+08:00</SDate>
+    <EDate>2018-12-22T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>Thanks for anything, we had a wonderful stay. Food was amazing, thanks team Noku. </ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2019-01-06T14:18:31.32+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Stewart H, Australia</ReviewByName>
+    <UserTaskID>URID22490111</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22512494</ReviewsID>
+    <Name>Christine Indonet Travel, PT</Name>
+    <SDate>2018-12-28T00:00:00+08:00</SDate>
+    <EDate>2019-01-03T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>Luna2PrivateHotel</VillaID>
+    <ROverallComments>On behalf of the group of Mumbai, I'd like to say that this NY 2019 was one of the most relaxing and comfortable holidays. We have had an entire set of adults and kids and were very looked after and totally spoilt! The team worked beyond our expectations to meet all our needs. Happy 2019, we will miss you Noku!</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2019-01-06T14:21:40.587+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Nik H, Singapore</ReviewByName>
+    <UserTaskID>URID22512493</UserTaskID>
+  </REVIEW>
+  <REVIEW>
+    <ReviewsID>URID22518322</ReviewsID>
+    <Name>Patrick Grove</Name>
+    <SDate>2018-12-22T00:00:00+08:00</SDate>
+    <EDate>2018-12-28T00:00:00+08:00</EDate>
+    <RHighlight />
+    <RSurroundArea />
+    <VillaID>luna2privatehotel</VillaID>
+    <ROverallComments>Noku is amazing - the most wonderful relaxing christmas we've had in a long time. Staff were fabulous - so much attention to detail and great with kids.</ROverallComments>
+    <RUnpleasantSurprise />
+    <RRestShop />
+    <ApprStatusID>Approved</ApprStatusID>
+    <RAttraction />
+    <RIOverAll>1.00</RIOverAll>
+    <RICharacter>1</RICharacter>
+    <RILocation>1</RILocation>
+    <RIOutsideArea>1</RIOutsideArea>
+    <RILivingArea>1</RILivingArea>
+    <RIKitchen>1</RIKitchen>
+    <RIBedRm>1</RIBedRm>
+    <RIBathRm>1</RIBathRm>
+    <RIFacility>1</RIFacility>
+    <RIStaff>1</RIStaff>
+    <RIValue>1</RIValue>
+    <RIDate>2019-01-06T14:20:22.023+08:00</RIDate>
+    <RStatusID>V</RStatusID>
+    <ReviewByName>Aaron and Nicole, Australia</ReviewByName>
+    <UserTaskID>VMNoku</UserTaskID>
+  </REVIEW>
+</REVIEWS>

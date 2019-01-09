@@ -1,0 +1,160 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Serenity.jpg"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+                                {section name=s loop=$contentPart}
+                                <p>{$contentPart[s]|replace:'<br />':''}</p>
+                                {/section}
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="content-item">  
+                    {include file="part-reviews.html"}
+                </div>
+                <div class="content-item">  
+                    <div class="the-content">
+                        <div class="grids">
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Fresh towel.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Hansa%20-%20Fresh%20towel.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Hansa%20-%20Fresh%20towel.jpg 700w" class="lazyload" alt="Villa Hansa - Fresh towel"><span>Professionally <br />trained <br />staff</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Exterior.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Hansa%20-%20Exterior.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Hansa%20-%20Exterior.jpg 700w" class="lazyload" alt="Villa Hansa - Exterior"><span>Heavenly <br />wedding <br />venue</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Kitchen crew.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Hansa%20-%20Kitchen%20crew.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Hansa%20-%20Kitchen%20crew.jpg 700w" class="lazyload" alt="Villa Hansa - Kitchen crew"><span>Private <br />gourmet <br />chef</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Master bedroom detail.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Hansa%20-%20Master%20bedroom%20detail.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Hansa%20-%20Master%20bedroom%20detail.jpg 700w" class="lazyload" alt="Villa Hansa - Master bedroom detail"><span>7 stylish <br />ensuite <br />bedrooms</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Balinese praying.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Hansa%20-%20Balinese%20praying.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Hansa%20-%20Balinese%20praying.jpg 700w" class="lazyload" alt="Villa Hansa - Balinese praying"><span>Immersed <br />in Balinese <br />tradition</span>
+                            </div>
+                            <div class="grid">
+                                <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Hansa - Villa book.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Hansa%20-%20Villa%20book.jpg 430w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Hansa%20-%20Villa%20book.jpg 700w" class="lazyload" alt="Villa Hansa - Villa book"><span>Adored <br />by our <br />guests</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="content-item">  
+                    <div class="wrapper shortcut">
+                        <div class="box-container"> 
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Hansa - Private yoga space.jpg" alt="Villa Hansa - Private yoga space" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Yoga</h3>
+                                    <strong>Healthy mind. <br />Healthy life.</strong>
+                                    <p>Find your zen in our dedicated riverside yoga pavilion. Ask your personal concierge or villa manager if you would like to have a private tutorial.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Hansa - Movie room.jpg" alt="Villa Hansa - Movie room" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Media</h3>
+                                    <strong>Relax, unwind <br />and play together.</strong>
+                                    <p>Maximise family time in one of Hansa’s two media rooms, where movies, board games, satellite TVs and a music library will keep everyone entertained.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Hansa - Pool table pavillion.jpg" alt="Villa Hansa - Pool table pavillion" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Pool Table</h3>
+                                    <strong>Eight ball <br />family fun.</strong>
+                                    <p>Organise a games night for your group and enjoy some family friendly competition on the tables. Or wait until the little ones are asleep for some well-deserved R&R.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Hansa - Villa bicycle.jpg" alt="Villa Hansa - Villa bicycle" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Bicycles</h3>
+                                    <strong>Slow down. <br />Adjust your pace.</strong>
+                                    <p>Explore the rural delights of Pererenan village in the traditional Balinese style; hop on a bicycle and peddle gently through the lanes.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Hansa - Swimming pool.jpg" alt="Villa Hansa - Swimming pool" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>2 Pools</h3>
+                                    <strong>Laps, laughs <br />and sunset swims.</strong>
+                                    <p>Two big private pools create plenty of space to swim, splash and have fun in the sun against a stunning backdrop of rolling rice fields.</p>
+                                </div>
+                            </div>
+                                 
+                            <div class="box">
+                                <div class="sub-villa-img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/general/thumb/Villa Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/general/Villa Hansa - Lush garden.jpg" alt="Villa Hansa - Lush garden" class="lazyload"/>
+                                </div>
+                                <div class="sub-villa-content">
+                                    <h3>Gardens</h3>
+                                    <strong>Grace and space. <br />In abundance.</strong>
+                                    <p>Birdsong and a babbling brook provide the soundtrack to a stay at Villa Hansa. Immerse yourself in nature within the grounds of this extensive estate.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+
+            {if $data.page|in_array:['about-villa-hansa', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'canggu-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>
+            
+{include file="footer.html"}

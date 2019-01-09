@@ -1,0 +1,212 @@
+			{include file="reviews.html"}
+            
+            <div id="press-container">
+                <ul id="press-logo">
+                    <li>
+                        <a href=""><img src="{$data.cdn}/resources/{$data.theme}/images/frv.png" /></a>
+                    </li>
+                    <li class="left-right">
+                        <a href=""><img src="{$data.cdn}/resources/{$data.theme}/images/TAVG.png" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="{$data.cdn}/resources/{$data.theme}/images/vy.png" /></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="{$data.cdn}/resources/{$data.theme}/images/prestige.png" /></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="map-container">
+                <div class="map" id="map_div"></div>
+            </div>
+            
+            <div class="footer-container">
+                <div class="footer">
+                    <div class="wrapper">
+                        <div class="column">
+                            <h3>Contact us</h3>
+                            <ul class="phone-numbers">
+                                <li>
+                                	{site_settings what="bali_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="hongkong_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="kohsamui_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="manila_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="phuket_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                                <li>
+                                	{site_settings what="sg_phone"}
+                                    <a href="tel:{$set.set_value|replace:" ":""}">
+                                        <span>{$set.set_label}</span> {$set.set_value}
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="enquiries">For press and media enquiries please contact us <a href="/general-enquiries.html">here</a></p>
+                        </div>
+                        <div class="column">
+                            <h3>Follow us</h3>
+                            <div class="socials">
+                                <a href="https://www.tripadvisor.com/Hotel_Review-g311298-d3388738-Reviews-Taman_Ahimsa-Canggu_Bali.html" class="socmed ta" target="_blank" title="Tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_facebook"}{$set.set_value}" class="socmed fb" target="_blank" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_pinterest"}{$set.set_value}" class="socmed pt" target="_blank" title="Pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_gplus"}{$set.set_value}" class="socmed gp" target="_blank" title="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_instagram"}{$set.set_value}" class="socmed in" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_linkedin"}{$set.set_value}" class="socmed li" target="_blank" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_twitter"}{$set.set_value}" class="socmed tw" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="{site_settings what="company_youtube"}{$set.set_value}" class="socmed yt" target="_blank" title="Youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </div>
+                            {parsedata folder=$data.theme cache=$data.cache mobileData="yes"}
+                            <address>
+                                {$mdata.VillaName}<br />
+                                {$mdata.Address}, {$mdata.SubLocation}, {$mdata.Location}
+                            </address>
+                            <ul class="footer-nav">
+                                {section name=p loop=$pages}
+                                {if $pages[p].menu_location == 'footer'}
+                                <li>
+                                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                                </li>
+                                {/if}
+                                {/section}
+                            </ul>
+                            <p class="copyright">Copyright &copy; {$data.copyright_date} {$data.villa_name}</p>
+                        </div>
+                        <div class="bottom">
+                            <a href="http://www.elitehavens.com/" target="_blank"><img data-src="{$data.cdn}/resources/{$data.theme}/images/logo-eh.png" class="lazyload" /></a>
+                            <p class="marketed">{$data.site_tag} by <br /><a href="http://www.elitehavens.com/" target="_blank">The Elite Havens Group</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        {if #BOOKING_ENGINE#}
+        {booking template='loader'}
+        {/if}
+        
+        {asset_compile}		
+		<script type="text/javascript"> 
+            var gkey = {site_settings what="gmap_key"} '{$set.set_value}';
+            var dir = '/resources/theylangylang';
+            var lat = {$coordinates['latitude']}; 
+            var long = {$coordinates['longitude']}; 
+            var infocontent = 'The Ylang Ylang';			
+        </script> 
+                
+        {if $data.page == 'rates'}
+        {if #BOOKING_ENGINE#}
+		<script type="text/javascript" defer>
+            var iframe = `{strip}{booking template="availability" curl="reservation-sent"}{/strip}`;
+        </script>
+        {else}
+		<script type="text/javascript" defer>
+            var iframe = `{strip}{$data.site_calendar_iframe|unescape:"html"}{/strip}`;
+        </script>
+        {/if}
+        {literal}
+		<script type="text/javascript" defer>
+		defer(function () {            
+			jQuery(iframe).insertBefore('#tabs');
+		});
+        function defer(method) {
+            if (window.jQuery) {
+                method();
+            } else {
+                setTimeout(function() { defer(method) }, 1);
+            }
+        }
+		</script>
+        {/literal}
+        {/if}
+        {if $data.page == 'video'}
+        <script type="text/javascript" src="/resources/common/js/youtube_track.js"></script>
+        {/if}
+        
+        {if $data.page == 'reservations'}
+        {literal}
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.datepicker.setDefaults({dateFormat: "d MM yy", changeMonth: true, changeYear: true});
+                $("#txtArrivalDate").datepicker({
+                    dateFormat: "d MM yy",
+                    changeYear: true,
+                    minDate: 0,
+                    onSelect: function(dateText, inst) {
+                        $('#txtDepartDate').val("");
+                        var actualDate = new Date(dateText);
+                        var newDate = new Date(actualDate.getFullYear(), actualDate.getMonth(), actualDate.getDate() + 1);
+                        $('#txtDepartDate').datepicker('option', 'minDate', newDate, 'dateFormat', 'd MM yy');
+                        $('#txtDepartDate').datepicker({minDate: newDate, dateFormat: 'd MM yy'});
+                    }
+                });
+            });
+        </script>
+        {/literal}
+        {/if}
+        
+        {literal}
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.datepicker.setDefaults({dateFormat: "d MM yy", changeMonth: true, changeYear: true});
+                $("#txtPreArriveDate").datepicker({
+                    dateFormat: "d MM yy",
+                    changeYear: true,
+                    minDate: 0,
+                    onSelect: function(dateText, inst) {
+                        $('#txtPreDepartDate').val("");
+                        var actualDate = new Date(dateText);
+                        var newDate = new Date(actualDate.getFullYear(), actualDate.getMonth(), actualDate.getDate() + 1);
+                        $('#txtPreDepartDate').datepicker('option', 'minDate', newDate, 'dateFormat', 'd MM yy');
+                        $('#txtPreDepartDate').datepicker({minDate: newDate, dateFormat: 'd MM yy'});
+                    }
+                });
+            });
+        </script>
+        {/literal}
+        
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key={$set.set_value}"></script>
+        <script type="text/javascript" src="/resources/{$data.theme}/owlcarousel/owl.carousel.js"></script>
+        <script type="text/javascript" src="/resources/{$data.theme}/js/site.js"></script>
+        {literal}
+        <script>
+            function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+
+            if(!window.HTMLPictureElement || !('sizes' in document.createElement('img'))){
+                loadJS("/resources/{$data.theme}/lazysizes/ls.respimg.min.js");
+            }
+        </script>
+        {/literal}
+        <script src="/resources/{$data.theme}/lazysizes/ls.unveilhooks.min.js"></script>
+        <script src="/resources/{$data.theme}/lazysizes/ls.bgset.min.js"></script>
+        <script src="/resources/{$data.theme}/lazysizes/lazysizes.min.js"></script>
+        <script src="resources/common/js/villa_new.js"></script>
+        {if #BOOKING_ENGINE#}
+        <script type="text/javascript" src="/js/calendar_script.js"></script>
+        {/if}
+        {/asset_compile}
+    </body>
+</html>

@@ -1,0 +1,212 @@
+{if $data.content_id != ''}
+    {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+{/if}
+                    
+{if $data.page|in_array:['quick-facts']}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        <div class="group">
+          <div class="half">
+            {section name=s loop=7}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description|replace:'<br />':''}
+            </div>
+            {/section}
+            </div>
+
+            <div class="half">
+            {section name=s start=7 loop=$content[0].SubContents}
+            {* if $smarty.section.s.last}
+            {else *}
+            <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                <strong>{$content[0].SubContents[s].Heading}</strong>
+                {$content[0].SubContents[s].Description|replace:'<br />':''}
+            </div>
+            {* /if *}
+            {/section}
+            </div>
+       </div>  
+    {/if}
+
+{elseif $data.page|in_array:['press']}
+
+    <div class="press-container">
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2016/Voyage_TripCanvas_September-2016.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2016/Voyage_TripCanvas_September-2016.jpg" class="imgleft">
+            </a>
+            “Check out our selection of oceanfront villas and hotels – not only are they fringed by tropical reef and turquoise seas, but you’ll have such a unique experience that you won’t feel the same about them again.”
+            <a href="/resources/{$data.theme}/pdfs/2016/Voyage_TripCanvas_September-2016.pdf" target="_blank">
+                <em>10 exceptional beachfront stays in Bali that are different from what you think</em> <strong>TripCanvas</strong>, September 2016.
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2015/Voyage_Honeycombers-Luxe-Nusa-Lembongan_23-June-2015.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2015/Voyage_Honeycombers-Luxe-Nusa-Lembongan_23-June-2015.png" class="imgleft">
+            </a>
+            “Bring your sandy feet inside this fashion designer’s island holiday home, where stunning interiors and vintage Vuitton complement its paradise location.” 
+            <a href="/resources/{$data.theme}/pdfs/2015/Voyage_Honeycombers-Luxe-Nusa-Lembongan_23-June-2015.pdf" target="_blank">
+                <em>Luxe Nusa Lembongan Villa,</em> <strong>Honeycombers Bali,</strong>, edition June 2015.
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2013/Voyage_Tropical-Life_September_December-2013.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2013/Voyage_Tropical-Life_September_December-2013.jpg" class="imgleft">
+            </a>
+            “Villa Voyage is perfectly positioned to enjoy the natural beauty that Nusa Lembongan has to offer and the opulent holiday that guarantees to entice you to return to this villa again soon.” 
+            <a href="/resources/{$data.theme}/pdfs/2013/Voyage_Tropical-Life_September_December-2013.pdf" target="_blank">
+                <em>Villa Voyage,</em> <strong>Tropical life</strong>, edition Sep – Dec 2013.
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2013/Voyage_Hello!_January-2013.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2013/Voyage_Hello!_January-2013.jpg" class="imgleft">
+            </a>
+            “On a beach escape to Dato’ Farah Khan’s holiday house in Bali, fashion model and co-founder of Pangaea Sabrina Van Cleef Ault tells social editor Ana Garcia de Barañano about her new life in Singapore and her role as the muse of Farah Khan. 
+            <a href="/resources/{$data.theme}/pdfs/2013/Voyage_Hello!_January-2013.pdf" target="_blank">
+                <em></em> <strong>Hello! Malaysia</strong>, Published January, 2013.
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_Malaysia-Tatler_December-2012.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2012/Voyage_Malaysia-Tatler_December-2012.jpg" class="imgleft">
+            </a>
+            The empress of lifestyle and retail Dato’ Farah Khan fashioned a villa for herself in Sandy Bay, Nusa Lembongan, Bali inspired by her many travels around the world, writes Lily Ong.” 
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_Malaysia-Tatler_December-2012.pdf" target="_blank">
+                <em>Ode to Odysseys,</em> <strong>Malaysia Tatler</strong>, Published December, 2012.
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_The-Australian_27-November-2012.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2012/Voyage_The-Australian_27-November-2012.jpg" class="imgleft">
+            </a>
+            “The highs and lows of developing or buying a holiday villa in Bali.”
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_The-Australian_27-November-2012.pdf" target="_blank">
+                <em>Ventures in Paradise,</em> <strong>The Australian</strong>, Published November 27, 2012.
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_FRV-Travel_October-November-2012.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2012/Voyage_FRV-Travel_October-November-2012.jpg" class="imgleft">
+            </a>
+            Villa Voyage is a new and spectacular five-bedroom villa that offers absolute beachfront luxury just off Bali’s Eastern Coast in laid-back Nusa Lembongan. 
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_FRV-Travel_October-November-2012.pdf" target="_blank">
+                <em>Voyage to Barefoot Luxury,</em> <strong>FRV Travel</strong>, Edition 9.3 October – November 2012..
+            </a>
+        </div>
+        <div class="press-item current">
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_Expat-Living_September-2012.pdf" target="_blank">
+                <img src="{$data.cdn}/resources/{$data.theme}/pdfs/2012/Voyage_Expat-Living_September-2012.jpg" class="imgleft">
+            </a>
+            “Elite Havens presents a stunning portfolio of luxury private villas throughout Bali and Lombok (Indonesia). Staffed to the highest quality, each villa offers a blissfully relaxing, but highly individual rental experience.”
+            <a href="/resources/{$data.theme}/pdfs/2012/Voyage_Expat-Living_September-2012.pdf" target="_blank">
+                <em>The Collection.</em> <strong>Expat Living</strong>, Edition September 2012.
+            </a> 
+        </div>        
+    </div>
+	
+{elseif $data.page|in_array:['video']}
+
+    {include file="video.html"}
+
+{elseif $data.page|in_array:['floorplan']}
+
+    {include file="floorplan.html"}
+
+{elseif $data.page|in_array:['guest-reviews']}
+
+    <div class="reviews-container">
+        {reviews hide_this_year="2010,2011,2012,2013,2014" order="c,n,d"}
+        {$reviews}
+    </div>
+    <div class="reviews-pagination">
+        {if $data.cur_page > 1}
+        <a class="prev" href="javascript:void(0)"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+        {/if}
+        {section name=pg loop=$data.num_pages}
+        {if $data.cur_page == $smarty.section.pg.index+1}
+        <a class="page active" href="javascript:void(0)">{$data.cur_page}</a>
+        {else}
+        <a class="page" href="javascript:void(0)">{$smarty.section.pg.index+1}</a>
+        {/if}
+        {/section}
+        {if $data.cur_page gte 1 && $data.cur_page lt $data.num_pages}
+        <a class="next" href="javascript:void(0)"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        {/if}
+    </div>
+
+{elseif $data.page|in_array:['rates']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['reservations', 'general-enquiries', 'links', 'reservation-sent', 'contact-sent']}
+   
+    {$content}
+    
+{elseif $data.page|in_array:['sitemap']}
+   
+    <ul id="sitemap">
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main' || $pages[p].page_identifier == 'index'}
+        <li>
+            {if $pages[p].page_identifier neq ''}
+                {if $pages[p].page_identifier eq 'index'}
+                <a href="{$data.home_uri}/">{$pages[p].label}</a>
+                {else}
+                <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+                {/if}
+            {else}
+            <a href="{$data.home_uri}/#">{$pages[p].label}</a>
+            {/if}
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+                {section name=sp loop=$pages[p].children}
+                {if $pages[p].children[sp].page_identifier neq 'about-tirta-nila' and $pages[p].children[sp].page_identifier neq 'photo-gallery'}
+                <li>
+                    {if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {elseif $pages[p].children[sp].level == 'linkout'}
+                    <a href="{$pages[p].children[sp].page_identifier}" target="_blank">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/if}
+                {/section}
+            </ul>
+            {/if}
+        </li>
+    {/if}
+    {/section}
+    </ul> 
+    
+{else}
+    
+    {if 'desc'|array_key_exists:$content[0]}
+
+        {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+        {section name=s loop=$contentPart}
+        <p>{$contentPart[s]}</p>
+        {/section}
+
+    {/if}
+
+    {if 'SubContents'|array_key_exists:$content[0]}
+        {section name=s loop=$content[0].SubContents}
+            <h2>{$content[0].SubContents[s].Heading}</h2>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+
+    {/if}
+
+{/if}

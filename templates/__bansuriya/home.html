@@ -1,0 +1,85 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="wrapper"> 
+                        <h1 class="entry-title">{$data.heading}</h1>
+                        {if $data.content_id != ''}
+                        {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                        {/if}
+                        {if 'desc'|array_key_exists:$content[0]}
+
+                            {$content[0].desc}
+
+                        {/if}
+
+                        {if 'SubContents'|array_key_exists:$content[0]}
+                        {section name=s loop=$content[0].SubContents}
+                            <h2>{$content[0].SubContents[s].Heading}</h2>
+                            {$content[0].SubContents[s].Description}
+                            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                <p>
+                                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" rel="gallery" class="pirobox_gall">
+                                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/bansuriya':'{$data.cdn}/resources/bansuriya'}" border="0" width="238" height="158" />
+                                    </a>
+                                </p>
+                            {/if}
+                            {/section}
+                        {/if}
+                        
+                        <ul class="poi">
+                            <li id="poi-1">Absolute <br />beachfront</li>
+                            <li id="poi-2">Six ensuite <br />bedrooms</li>
+                            <li id="poi-6">Wedding <br />& events</li>
+                            <li id="poi-4">Private <br />chef</li>
+                            <li id="poi-5">Fully <br />staffed</li>
+                        </ul> 
+                        
+                        <div class="clear"></div>
+                    </div>
+                </div>    
+                <div class="content-item">  
+                    <div class="grids group">
+                        <div class="grid">
+                            <img src="{$data.cdn}/resources/bansuriya/content/home/thumb/Ban Suriya.jpg" data-src="{$data.cdn}/resources/bansuriya/content/home/Ban Suriya - Tropical summer breeze.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/bansuriya/content/home/small/Ban%20Suriya%20-%20Tropical%20summer%20breeze.jpg 1400w, {$data.cdn}/resources/bansuriya/content/home/Ban%20Suriya%20-%20Tropical%20summer%20breeze.jpg 1920w" alt="Ban Suriya - Tropical summer breeze" class="lazyload" />
+                        </div>
+                        <div class="grid">
+                            <span>Absolute beachfront on Koh Samui's south-west coast.</span>
+                            <a href="/lipa-noi-koh-samui.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Locale']);">Explore Lipa Noi</a>
+                        </div>
+                    </div>
+                    <div class="grids group">
+                        <div class="grid">
+                            <span>Luxury living pavilions in a tropical coconut grove.</span>
+                            <a href="/about-ban-suriya/explore-the-villa.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Explore the Villa']);">Explore the villa</a>
+                        </div>
+                        <div class="grid">
+                            <img src="{$data.cdn}/resources/bansuriya/content/home/thumb/Ban Suriya.jpg" data-src="{$data.cdn}/resources/bansuriya/content/home/Ban Suriya - Stunning swimming pool.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/bansuriya/content/home/small/Ban%20Suriya%20-%20Stunning%20swimming%20pool.jpg 1400w, {$data.cdn}/resources/bansuriya/content/home/Ban%20Suriya%20-%20Stunning%20swimming%20pool.jpg 1920w" alt="Ban Suriya - Stunning swimming pool" class="lazyload" />
+                        </div>
+                    </div>
+                    <div class="grids group">
+                        <div class="grid">
+                            <img src="{$data.cdn}/resources/bansuriya/content/home/thumb/Ban Suriya.jpg" data-src="{$data.cdn}/resources/bansuriya/content/home/Ban Suriya - Beach yoga.jpg" data-sizes="auto" data-srcset="{$data.cdn}/resources/bansuriya/content/home/small/Ban%20Suriya%20-%20Beach%20yoga.jpg 1400w, {$data.cdn}/resources/bansuriya/content/home/Ban%20Suriya%20-%20Beach%20yoga.jpg 1920w" alt="Ban Suriya - Beach yoga" class="lazyload" />
+                        </div>
+                        <div class="grid">
+                            <span>Extraordinary luxury, every whim catered to.</span>
+                            <a href="/villa-experience.html" onclick="_gaq.push(['_trackEvent', 'Collage', 'Clicked', 'Home - Villa Experience']);">Experience Ban Suriya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons-container">                
+            {include file="part-buttons.html"}
+        </div>
+            
+{include file="footer.html"}

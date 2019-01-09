@@ -1,0 +1,117 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+                <div class="content-item">  
+                    <div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asta - Straw hat.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asta%20-%20Straw%20hat.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asta%20-%20Straw%20hat.jpg 1920w"></div>
+                    <div class="wrapper">
+                        <div class="the-content"> 
+							
+                            <h1 class="entry-title">{$data.heading}</h1>
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc|replace:['<p>','</p>']:['',''] explode="."}
+                                <p>{$contentPart[0]}.</p>
+                                <p>
+                                {section name=s start=1 loop=$contentPart}
+                                {if ! $smarty.section.s.last}
+                                {$contentPart[s]}.
+                                {/if}
+                                {/section} 
+                                </p>
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="content-item lazyload parallax-background" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asta - Master bedroom plunge pools.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asta%20-%20Master%20bedroom%20plunge%20pools.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asta%20-%20Master%20bedroom%20plunge%20pools.jpg 1920w">
+                    <div class="wrapper">
+                        <ul class="poi">
+                            <li id="poi-1">5 ensuite<br> bedrooms</li>
+                            <li id="poi-2">Private<br> chef</li>
+                            <li id="poi-3">Fully<br> staffed</li>
+                            <li id="poi-4">Private<br> pool</li>								
+                            <li id="poi-5">Wedding<br> & events</li>								
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		 <div class="content-container">
+            <div class="content">
+				<div class="group">
+				
+					<div class="content-item">  
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Personalised service provided by dedicated staff.</h2>
+								<p>Villa Asta’s staff have been professionally trained and will do their utmost to please with their warm and friendly Balinese hospitality.</p>
+								<div><a href="/staff.html" class="btn-home">Read more</a></div>								
+							</div>
+						</div>
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asta - Cocktail time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asta%20-%20Cocktail%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asta%20-%20Cocktail%20time.jpg 1920w"></div>
+					</div>
+					
+					<div class="content-item">  
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asta - Badminton.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asta%20-%20Badminton.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asta%20-%20Badminton.jpg 1920w"></div>
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Private facilities and the freedom to use them whenever you want</h2>
+								<p>Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too.</p>
+								<div><a href="/families.html" class="btn-home">Read more</a></div>								
+							</div>
+						</div>						
+					</div>					
+					
+					<div class="content-item">  
+						<div class="wrapper">
+							<div class="the-content"> 								
+								<h2 class="entry-title">Our private chef is at your service to prepare daily breakfast, lunch and dinner.</h2>
+								<p>Villa Asta’s personal chef and his experienced team are at your service to whip up everything from poolside snacks to multi-course banquets in the fully equipped</p>
+								<div><a href="/dining.html">Read more</a></div>			
+							</div>
+						</div>
+						<div class="bg-half lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/home/Villa Asta - Chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-bgset="{$data.cdn}/resources/{$data.theme}/content/home/small/Villa%20Asta%20-%20Chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/home/Villa%20Asta%20-%20Chef.jpg 1920w"></div>
+					</div>	
+					
+				</div>				
+			</div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-asta', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'seminyak-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

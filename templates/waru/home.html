@@ -1,0 +1,178 @@
+{include file="header.html"}
+<body class="home">
+    {$gtm}
+
+    <div class="container">
+        {include file="menu.html"}
+
+        {include file="hero-container.html"}
+
+        <div class="content-container">
+            <div class="content">
+			
+				<div class="content-item">
+                    <div class="wrapper">
+						<h1 class="entry-title">{$data.heading}</h1> 
+						<p class="header">A magical paradise of luxurious accommodation, tropical serenity, expansive gardens, and Balinese pampering.</p>
+					</div>
+				</div>
+				
+				<div class="content-item section-two">
+                    <div class="wrapper wrapper-wide">
+						<div class="img">
+							<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waru - Pool and bale.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Waru - Pool and bale.jpg" alt="Villa Waru - Pool and bale" class="lazyload" />
+						</div>
+					</div>
+				</div>
+				
+                <div class="content-item section-one">  
+                    <div class="wrapper">                        
+                        <div class="the-content"> 
+                            {if $data.content_id != ''}
+                            {parsedata folder=$data.theme cache=$data.cache content=$data.content_id}
+                            {/if}
+                            {if 'desc'|array_key_exists:$content[0]}
+
+                                {contentpart content=$content[0].desc regex="default"}
+                                {section name=s loop=$contentPart}
+                                {$contentPart[s]|replace:"<p>":"<p class=\"p-header\">"}
+                                {/section} 
+
+                            {/if}
+
+                            {if 'SubContents'|array_key_exists:$content[0]}
+                            {section name=s loop=$content[0].SubContents}
+                                <h2>{$content[0].SubContents[s].Heading}</h2>
+                                {$content[0].SubContents[s].Description}
+                                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                                    <p>
+                                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                                        </a>
+                                    </p>
+                                {/if}
+                                {/section}
+                            {/if}
+                        </div>
+                    </div>
+                </div>
+		
+                <div class="content-item section-two">
+                    <div class="wrapper wrapper-wide">
+                        <div class="group">
+                            <div class="half">
+                                <div class="img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Waru - Dining at villa.jpg" alt="Villa Waru - Dining at villa" class="lazyload" />
+                                </div>
+                            </div>
+                            <div class="half half-content">
+                                <div class="the-content">
+                                    <h2 class="entry-title">Exquisite cuisine,<br /> prepared especially for you.</h2>
+                                    {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+										{if 'desc'|array_key_exists:$content[0]}
+											{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+											<p>
+											{section name=s loop=$contentPart start=1 max=1 }
+												{$contentPart[s]}.
+											{/section}
+											</p>
+										{/if}
+                                    <div><a href="/dining.html" class="btn-home">Find out more</a></div>			
+                                </div>	
+                            </div>
+                        </div>  
+                        <div class="group">
+                            <div class="half half-content">
+                                <div class="the-content">
+									<h2 class="entry-title">Personalised service,<br/> provided by dedicated staff.</h2>
+										{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+										{if 'desc'|array_key_exists:$content[0]}
+											{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+											<p>
+											{section name=s loop=$contentPart start=1 max=1 }
+												{$contentPart[s]}.
+											{/section}
+											</p>
+										{/if}
+                                    <div><a href="/staff.html" class="btn-home">Find out more</a></div>			
+                                </div>	
+                            </div>
+                            <div class="half">
+                                <div class="img">
+                                    <img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waru.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Waru - Preparing Villa.jpg" alt="Villa Waru - Preparing Villa" class="lazyload" />
+                                </div>
+                            </div>
+                        </div>                     
+                    </div>                     
+                </div>
+                
+                <div class="content-item section-three">
+                    <div class="wrapper wrapper-wide">
+                        <div class="group">							
+								<div class="first-img">	
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waru - Antique decoration.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Waru - Antique decoration.jpg" alt="Villa Waru - Antique decoration" class="lazyload">
+									<div class="the-content">										
+										<h3> A perfect setting for romantic<br/> interludes.</h3>
+										{parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+										{if 'desc'|array_key_exists:$content[0]}
+											{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+											<p>
+											{section name=s loop=$contentPart start=0 max=1 }
+												{$contentPart[s]}.
+											{/section}
+											</p>
+										{/if}
+										<div><a href="/about-villa-waru.html" class="btn-home">Find out more</a></div>	
+									</div>                            
+								</div>                            
+
+								<div class="second-img">							
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waru - Antique decoration.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Waru - Golden suite entrance.jpg" alt="Villa Waru - Golden suite entrance" class="lazyload">
+									<div class="the-content">
+										<h3>An idyllic private retreat,<br /> built to the highest standards.</h3>
+										{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+										{if 'desc'|array_key_exists:$content[0]}
+											{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+											<p>
+											{section name=s loop=$contentPart start=0 max=1 }
+												{$contentPart[s]}.
+											{/section}
+											</p>
+										{/if}
+										<div><a href="/about-villa-waru/explore-the-villa.html" class="btn-home">Find out more</a></div>
+									</div>									
+								</div>
+
+								<div class="third-img">								
+									<img src="{$data.cdn}/resources/{$data.theme}/content/home/thumb/Villa Waru - Antique decoration.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/home/Villa Waru - Garden.jpg" alt="Villa Waru - Garden" class="lazyload">								
+									<div class="the-content">
+										<h3>Located in Nusa Dua Hills,<br />  enjoy absolute privacy.</h3>									
+										{parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+										{if 'desc'|array_key_exists:$content[0]}
+											{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="."}
+											<p>
+											{section name=s loop=$contentPart start=0 max=1 }
+												{$contentPart[s]}.
+											{/section}
+											</p>
+										{/if}
+										<div><a href="/nusa-dua-bali.html" class="btn-home">Find out more</a></div>
+									</div>								
+								</div>
+							
+                        </div>
+                    </div>
+				</div>
+				
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+
+            {include file="part-buttons.html"}
+            {if $data.page|in_array:['about-villa-waru', 'explore-the-villa', 'quick-facts', 'press', 'photo-gallery', 'floorplan', 'weddings', 'nusa-dua-bali', 'villa-experience', 'staff', 'dining', 'families', 'spa', 'guest-reviews']}
+                {include file="part-prevnext.html"}
+            {/if}
+
+        </div>		            
+{include file="footer.html"}

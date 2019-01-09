@@ -1,0 +1,4 @@
+
+var iframe=`<div class="iframe-wrapper"><iframe id="iframeCalendar"src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&Villaid=GEPW8CuinWQ6tfmuqhZ1qA==&did=rSKHLr3698kO%2Bnui0NRjiCalYbFliktT"height="280px"frameBorder="0"width="590px"allowtransparency="true"scrolling="auto"></iframe></div>`;var iframe2=`<div class="iframe-wrapper"><iframe id="iframeCalendar"src="http://www.privatehomesandvillas.com/phv/UserTools/UserCal.aspx?type=2&Villaid=0rHfts4zD28=&did=rSKHLr3698kO%2Bnui0NRjiCalYbFliktT"height="280px"frameBorder="0"width="590px"allowtransparency="true"scrolling="auto"></iframe></div>`;
+
+defer(function(){jQuery(iframe).insertBefore('#rates-seminyak #tabs:first');jQuery(iframe2).insertBefore('#rates-ubud #tabs:first');});function defer(method){if(window.jQuery){method();}else{setTimeout(function(){defer(method)},1);}}

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Villa villaid="Kakatua">
+  <Contents>
+    <Content contentid="1007" contenttypeid="SPA" desc="Spa">
+      <Description><![CDATA[<p>
+ Feel like a body scrub or massage? Just ask our staff to bring the spa to you! We can recommend deluxe treatments carried out in the privacy of the villa by fully trained spa therapists. Here&rsquo;s a sample of what&rsquo;s on the menu:</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[<p> Balinese massage</p>]]></Heading>
+          <Description><![CDATA[<p> Release built up tension with a traditional Balinese massage. Using a combination of gentle stretches, acupressure and aromatherapy oils to stimulate the flow of blood, oxygen and energy around your body, you will feel totally relaxed in no time.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Foot reflexology</p>]]></Heading>
+          <Description><![CDATA[<p> Foot reflexology is a natural healing art based on the principle that there are reflexes in the feet which correspond to every part of the body. Through application of pressure on these reflexes tension is relieved and circulation improved leaving you feeling balanced.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Body scrub</p>]]></Heading>
+          <Description><![CDATA[<p> A full body scrub will exfoliate and hydrate your skin leaving it soft and smooth. A rejuvenating scrub combines an abrasive material such as salt, coffee, rice bran or pecan hulls with essential oils to remove any impurities and make your skin glow.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[<p> Manicure/pedicure</p>]]></Heading>
+          <Description><![CDATA[<p> Our hands and feet work hard for us every day but rarely get the attention they deserve. Treat them to a manicure or pedicure, which usually comes with the added bonus of a quick hand or foot massage.</p> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1065" contenttypeid="STAFF" desc="Staff">
+      <Description><![CDATA[<p>
+ One of the greatest advantages of staying in a villa is the personalised service provided by dedicated staff. The team at Villa Kakatua have been professionally trained to offer exceptional Balinese hospitality. The villa manager and chef will be only too happy to discuss any specific requirements to ensure guests have a relaxed and enjoyable stay.</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Villa manager</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Kakatua’s experienced villa manager is responsible for the overall operation of the villa. He leads the staffing team to meet the expectations of guests.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Chef</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Two chefs serve Kedidi and Kakatua with Western, Asian, vegetarian and children’s suggestion menus.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Housekeepers</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Four villa maids attend to daily housekeeping duties and also serve meals.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Gardeners</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Two gardeners attend daily to the lush grounds and swimming pool.</p>                                    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[                                        <p> Security</p>                                    ]]></Heading>
+          <Description><![CDATA[                                        <p> Two security guards provide 24/7 protection with rotating shifts.</p>                                     ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="1203" contenttypeid="TTD" desc="Things To Do">
+      <Description><![CDATA[<p>The villa manager will have a wealth of information about nearby places of interest and will help arrange transport and make any bookings required. Do also ask the staff about the local area. Invariably many of them will live nearby and will be able to give an interesting insight into some of the fascinating aspects of Bali life.</p><p>In the meantime, here’s a taste of the many and varied activities on offer within reach of Villa Kakatua.</p><ul><li>A string of naturally beautiful beaches, some renowned for their surf, are right on the villa’s doorstep. Head down to Batu Bolong Beach or take a leisurely stroll along the sands to the legendary surfing haunt, <span style="font-weight: bold;">Echo Beach</span>. Whichever beach you choose, all are in prime position for fabulous sunsets.</li><li>Immediately next door is the fascinating, 5-star <span style="font-weight: bold;">Hotel Tugu</span> Bali. Bali’s first museum-hotel is studded with priceless Indonesian artworks and antiques, while its award-winning spa offers age-old Eastern therapies. You can even order room service to the villa!</li><li>Trek through local villages, rice fields and onto the beach with <span style="font-weight: bold;">Kuda P riding stables</span>, based in Pererenan. These guided rides are suitable for everyone from total beginner to the experienced rider and range from half an hour (perfect for the kids) to two hours. Transfers to and from local villas are included in the price.</li><li><span style="font-weight: bold;">Old Mans</span>, just a five-minute walk down the road towards the beach, is a great spot for a bite to eat and a drink or two. Or cross the road to sip on Sangria at <span style="font-weight: bold;">The Lawn</span>, and watch Bali surfers ride the waves. Party at <span style="font-weight: bold;">Pretty Poison</span> on Thursday and Saturday nights or, if you’re looking for a quieter night, head down there on Mondays when the whole place is transformed into an outdoor candle-lit movie theatre.</li><li>Make the<span style="font-style: italic;"> de rigueur</span> pilgrimage to sacred <span style="font-weight: bold;">Pura Tanah Lot</span>, one of Bali’s biggest tourist magnets. Perched high on a craggy wave-lashed rock, this ancient sea temple is best savoured at sunset, however there are less crowds early morning; make sure you receive a blessing from the Hindu Priests.</li><li>Fashionistas, trendies and shop-a-holics should hotfoot it down to Bali’s most cosmopolitan enclave, <span style="font-weight: bold;">Seminyak</span>. Here, you can indulge for hours in the glut of global-inspired gourmet restaurants, stylish boutiques and hipper-than-thou bars.</li><li>The most exclusive<span style="font-weight: bold;"> Bali trekking tour </span>promises breath-taking vistas and heart-warming encounters while supporting sustainable social change in the once-forgotten villages of Muntigunung. Elite Havens is a proud partner of <a href="http://www.magazine.elitehavens.com/private-bali-trek-muntigunung/" target="_blank" title="Muntigunung Community Social Enterprise.">Muntigunung Community Social Enterprise.</a></li><li>There are several <span style="font-weight: bold;">surf schools</span> in Bali, mainly based in and around Kuta and Legian, where young and old(er) can learn to surf or brush up on their skills. Ask your villa manager for local recommendations.</li><li><span style="font-weight: bold;">Bali Treetop Adventure Park</span> is near the town of Bedugal in northern central Bali (next to Lake Bratan). Five adventure circuits, with heights ranging from two to 20 metres, challenge all level and ages on suspended bridges, spider nets, tarzan jumps and 12 flying foxes.</li><li>Explore beneath the waves with <span style="font-weight: bold;">Aquamarine Diving – Bali</span>, a British owned and managed dive shop running PADI dive courses, dive safaris and day dive trips to a number of exciting sites around Bali. The owner’s concept for Aquamarine has always been to plan dive experiences in the way that she would want arrangements made were she a visitor to Bali.&nbsp; As a result, this PADI 5 Star dive resort offers great personal service and highly experienced dive instructors.</li><li>Covering 3.8 hectares of tropical parkland in Kuta, <span style="font-weight: bold;">Waterbom</span> Bali has 16 water slides (including The Climax with its 360 degree loop) to entertain the young and the young at heart. A great family day out, but go early to beat the crowds.<br /><br /></li></ul>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1265" contenttypeid="WNOTE" desc="Welcome Note">
+      <Description><![CDATA[<p>
+ Welcome to Villa Kakatua</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="1420" contenttypeid="LVA" desc="Living Area">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor living]]></Heading>
+          <Description><![CDATA[Overlooking the pool, Villa Kakatua’s  open-sided living area is a great place to unwind or watch a movie under  the cooling breeze of the ceiling fans. Decorated with an array of  Indonesian artefacts and antiques this room evokes vivid images of ‘old’  Bali. Two comfortable red sofas, topped with bright yellow and blue  cushions face a carved wooden coffee table at one side of the pavilion,  while a table and chairs at the other provides enough seating for four  to enjoy breakfast or an afternoon snack – or perhaps a board game.<br /><br />Two  beautifully carved Balinese dancers pose on either side of the kitchen  doors at the rear of the living room. The  modern kitchen comes with stainless steel appliances and all essential  childrens equipment.<br /><br />Standing close to the living pavilion and  fringed by lush vegetation, the thatched dining <span style="font-style: italic;">balé</span> with its solid wood  table and two large bench seats provides the perfect setting for a  casual dining experience. ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor living]]></Heading>
+          <Description><![CDATA[At the  heart of Villa Kakatua lies the lagoon-style swimming pool  surrounded by manicured lawns and lushly landscaped gardens. Every  tropical plant you can think of is on display here, from flowering  frangipanis to impressive fan palms and clinging stag-horn ferns.<br /><br />The  delightful poolside <span style="font-style: italic;">balé </span>is the ideal place to soak up the atmosphere  or indulge in a massage or spa treatment. If a suntan is your goal, then  stretch out on one of the poolside loungers, order an ice-cold drink,  relax and enjoy.                                        ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="206" contenttypeid="DNNG" desc="Dining">
+      <Description><![CDATA[<p> Take advantage of the three experienced chefs who are at your service to prepare delicious homestyle meals. The villa offers a suggestion menu featuring Asian and international dishes to cater to all tastes with an excellent selection of vegetarian and children’s options.<br /> <br /> Be sure to sample some of the local Balinese delicacies such as sate <span style="font-style: italic;">ayam </span>(chicken satay) or <span style="font-style: italic;">gado-gado</span> (vegetables with peanut sauce). With the abundance of seafood on your doorstep, ask one of the chefs to cook up the catch of the day on the hot-stone barbecue.<br /> <br />If guests have specific requests, the in-house chefs are more than happy to tailor meals accordingly and accommodate any special dietary requirements. Guests will be requested to provide grocery money in advance and the staff will do the shopping and keep the receipts for reference. Groceries and beverages are charged at cost price plus 20%++ handling fee. </p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="2546" contenttypeid="FAM" desc="Families">
+      <Description><![CDATA[<p>Villa holidays are an excellent option for families and Villa Kakatua excels itself when it comes to catering for youngsters.</p><p>Don’t worry about packing all that cumbersome kids’ equipment for your stay.&nbsp; Just let us know what you need, and anything we don’t have in-house, we can hire on your behalf (click <a href="http://cdn.elitehavens.com/docs/misc/eh_children_equipment.pdf" target="_blank" title="Children's Equipment - Elite Havens">here</a> to see list of available hire items).</p><p>The facilities are all yours too of course, along with the freedom to use them whenever you want: starlit swims, midnight movies or morning massages – it’s up to you. Knowing that the kids can run around happily, independently and safely, without you having to worry about other guests, is a real plus – and one that means parents are certain to have a more relaxed holiday too. The team of friendly staff will make children feel as welcome as adults, and having these willing helpers on hand gives guests plenty of flexibility and freedom to do their own exploring beyond the villa grounds (full-time babysitting incurs a small extra cost).</p><p>Although the equipped kitchen allows you to prepare meals for fussy eaters or babies with ease, staff will happily to do this for you – just talk through your requirements and meal schedules with the villa manager or chef and they will take care of the rest. Burgers in the <span style="font-style: italic;">balé </span>for lunch? Pancakes by the pool for breakfast? No problem. The chefs can customise all meals to suit children’s taste buds.</p><p>And should the excitement of exploring the villa and its lovely gardens start to wear off, check out our <a href="./the-locale/things-to-do.html" target="_self" title="Things to do - Villa Kedidi">Things to do</a> page; there’s plenty in the area to keep all the family amused throughout the holiday.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="270" contenttypeid="EHBD" desc="EH Bedroom Description">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[King Rooms]]></Heading>
+          <Description><![CDATA[<ul><li>Master located on the ground floor, second king is located upstairs</li><li>Carved wood four-poster king beds draped with mosquito netting</li><li> Polished cream terrazzo floors</li><li>Air-conditioning</li><li>Ceiling fan</li><li> TV/DVD</li><li>iPod/iPhone dock</li><li>Garden bathroom with open-air shower</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Third & Fourth Bedrooms]]></Heading>
+          <Description><![CDATA[<ul><li>Second and third bedrooms are located in their own pavilion with shared veranda and daybed</li><li>Carved wood four-poster king beds draped with mosquito netting.&nbsp;  Bedroom 4 is large enough to sleep four children (2 of which are charged  with extra child rate) or four adults (2 adults in the existing bedding  and 2 are setup with extra beds, charges apply).</li><li>Polished cream terrazzo floors</li><li>Air-conditioning</li><li>Ceiling fan</li><li>TV/DVD</li><li>iPod/iPhone dock</li><li>Garden bathroom with open-air shower</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="2759" contenttypeid="CONTACTS" desc="Contact Us">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[How can we help?]]></Heading>
+          <Description><![CDATA[Call us now or click <a title="Villa Kakatua - booking enquiry" target="_self" href="./reservations.html">here</a> to make a booking enquiry and we’ll get back to you shortly.<br /><br />To view our availability calendar, click <a title="Villa Kakatua - availability" target="_self" href="./availability-calendar.html">here</a>.<br /><br />Bali: +62 361 737498<br />Singapore: +65 3108 0520<br />Manila: +63 2 889 8261<br /><br />Please note that the local time zone for all the above centres is GMT +8.<br /><br />For all other enquiries including press and media coverage please click <a title="Villa Kakatua - general enquiry" target="_self" href="./general-enquiries.html">here</a> to send us a message.<br /><br />Villa Kakatua is managed &amp; marketed on behalf of its owners by <a title="The Elite Havens Group." target="_blank" href="http://www.elitehavens.com/">The Elite Havens Group</a>, who also handle all the villa reservations.  ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="29" contenttypeid="ABTV" desc="About Villa">
+      <Description><![CDATA[<p>Kakatua, which means cockatoo, is a gem of a villa for families and friends seeking a relaxed and comfortable holiday at an affordable price. Located next to its sister, three-bedroom <a href="http://www.villakedidi.com/" target="_blank" title="Villa Kedidi - 3 bedroom, Canggu villa">Villa Kedidi</a>, this four-bedroom villa is the epitome of simple luxury.</p><p>Beautifully designed in classic Balinese style the villa features timber pillars and high serapwood ceilings, garden bathrooms, traditional artefacts, a free-form swimming pool and lush tropical surrounds, home to a myriad of exotic plants and birdlife (you may even see a cockatoo).</p><p>Just 100 metres from the beautiful black volcanic sands of Batu  Bolong Beach, Villa Kakatua is perfectly placed for exploring Canggu’s  cool cafés, innovative restaurants and chic boutiques. Catch a  wave, build a sandcastle or be mesmerised by the setting sun that this Island of the Gods is  famous for.</p><p>This family friendly villa has everything you need,  from high chairs, baby cots and toddler-safe cutlery to pool toys, kids  movies and lots of lawn for letting loose. The warm and hospitable staff  are excellent with children and the in-house chefs are well-equipped to  cater for the fussiest of eaters. And knowing that the family is well  cared for gives adults more time to relax. Chill out in the poolside <span style="font-style: italic;">balé</span>, pamper yourself with a spa treatment or enjoy a sunset cocktail at the five-star Hotel Tugu next door – the list is endless.</p><p>A true home-away-from-home, Villa Kakatua will embrace you with its character and charm. It’s no surprise that guests are eager to return year after year.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="342" contenttypeid="EHLD" desc="EH Layout Description">
+      <Description><![CDATA[<p> INDOOR LIVING:<br /> - Open-sided living area and kitchen<br /> - Traditional high ceilings<br /> - Thatched roof dining bale seating eight people<br /> - Comfortable lounges and brightly coloured furnishings<br /> - TV, DVD/CD, stereo system, iPhone/iPod docks<br /> - Modern kitchen<br /> - Essential children’s equipment<br /> <br /> OUTDOOR LIVING:<br /> - 12m x 5m private swimming pool with US certified safety fence<br /> - Poolside bale<br /> - Tropical manicured lawns and lushly landscaped gardens<br /> - Pool deck with sun loungers</p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Indoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>Open-sided living area and kitchen</li><li>Traditional high ceilings</li><li> Thatched roof dining bale seating eight people</li><li>Comfortable lounges and brightly coloured furnishings</li><li>TV, DVD/CD, stereo system, iPhone/iPod docks</li><li> Modern kitchen</li><li>Essential children&rsquo;s equipment</li></ul>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Outdoor Living]]></Heading>
+          <Description><![CDATA[<ul><li>12m x 5m private swimming pool with US certified safety fence</li><li>Poolside bale</li><li>Tropical manicured lawns and lushly landscaped gardens</li><li>Pool deck with sun loungers</li></ul> ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="414" contenttypeid="EHVD" desc="EH Villa Description">
+      <Description><![CDATA[<p>Villa Kakatua is a blissful four-bedroom retreat hidden behind private walls and resting amongst lush tropical gardens, just moments from the beach in sought-after Canggu on Bali’s south-west coast. Perfect for families and groups seeking a luxurious but laid-back holiday at an affordable price, Villa Kakatua can also be booked in conjunction with the charming three-bedroom <a href="http://www.elitehavens.com/villa-kedidi-villa/canggu-bali-indonesia.aspx" target="_self" title="Villa Kedidi, 3 bedroom villa">Villa Kedidi </a>next door for a convenient seven-bedroom option.</p><p>Villa Kakatua (which means cockatoo) is beautifully designed in classic Balinese style, featuring timber pillars and high serapwood ceilings, garden bathrooms, traditional artefacts, a free-form swimming pool and a garden full of exotic plants and lush tropical greenery.</p><p>Only 100m from Batu Bolong Beach – one of the islands most popular surf beaches –&nbsp; Villa Kakatua is in a semi-rural setting, but within easy walking distance of many of Canggu’s best beachside hang-outs, hipster health food haunts and chic designer boutiques. </p><p>Child friendly and with warm and attentive staff, guests will find it hard not to relax and unwind in this beautiful Balinese home. Perfect for families, the villa has everything from high chairs, baby cots and toddler-safe cutlery to pool toys and kids’ DVDs. The warm and hospitable staff are excellent with children and adults can relax knowing that the family is well looked after. Chill out in the poolside <span style="font-style: italic;">balé</span>, pamper yourself with a spa treatment or enjoy a sunset cocktail at the five-star Hotel Tugu next door – the options are endless.</p><p>With a charm and character all its own, Villa Kakatua will embrace you with its unique home-away-from-home ambiance and leave you feeling relaxed and revived.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="651" contenttypeid="INTRO" desc="Introduction">
+      <Description><![CDATA[<p>Villa Kakatua is a blissful Bali holiday home just metres from Batu Bolong surf beach in Canggu on Bali’s south-west coast. Hidden behind private walls and resting amongst lush tropical gardens, this four-bedroom villa is perfect for groups seeking a traditional Bali-style getaway within easy walking distance of some of the island’s hippest, healthiest, happening hang-outs. Larger groups can book Villa Kakatua together with neighbouring three-bedroom <a href="http://www.villakedidi.com" target="_blank" title="Villa Kedidi - 3 bedroom, Canggu villa">Villa Kedidi</a> for a seven-bedroom option.</p><p>Cared for by warm and attentive staff, guests will find it hard not to relax and unwind in this beautiful Balinese home-away-from-home. Whether it’s lazing by the pool, taking a stroll through the rice fields or catching a wave at one of Canggu’s popular surf breaks it won’t take long to succumb to the infectious island spirit.</p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="724" contenttypeid="LCTN" desc="Location / Locale">
+      <Description><![CDATA[<p>Villa Kakatua lies at the beach end of Canggu’s thriving&nbsp; Jalan Pantai Batu Bolong, a country lane that has experienced an amazing transformation over the last few years and is now home to some of Bali’s hippest haunts. You’ll find a number of excellent cafés, bars and restaurants within a few minutes’ walk of Villa Kakatua. Among them are the chill-out beach bars, Old Mans and The Lawn, popular vegetarian venues Betelnut Café, Milk &amp; Madu and Crate, and the ever-elegant Hotel Tugu. Batu Bolong Beach, just 100 metres from the villa, is renowned for its world-class surf breaks and rugged beauty; it’s the ideal location to catch a wave, take a stroll along the sands to nearby Echo Beach or capture the sun setting over an ornately carved sea temple. </p>]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Batu Bolong Beach       ]]></Heading>
+          <Description><![CDATA[0.10 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Echo Beach (along the sand)]]></Heading>
+          <Description><![CDATA[0.50 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Seminyak]]></Heading>
+          <Description><![CDATA[9 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Tanah Lot Sea Temple]]></Heading>
+          <Description><![CDATA[12 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Kuta]]></Heading>
+          <Description><![CDATA[16 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ngurah Rai Airport (DPS)]]></Heading>
+          <Description><![CDATA[20 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Ubud]]></Heading>
+          <Description><![CDATA[32 km]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Treetops Adventure Park]]></Heading>
+          <Description><![CDATA[50 km]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+    <Content contentid="811" contenttypeid="LYT" desc="Layout">
+      <Description><![CDATA[<p>
+ A private path bordered by plants and limestone carvings leads to Villa Kakatua&rsquo;s traditional Balinese doors. Behind these doors guests are greeted by an <em>aling-aling </em>wall (a short partition wall which, according to traditional belief, protects the villa from bad spirits), a fishpond and a bubbling water feature.<br />
+ <br />
+ The main two-storey pavilion houses the master suite, one guest bedroom, the living area and the kitchen. Adjacent to this is the dining <em>bal&eacute;</em>, and to the far side of that the other two guest bedrooms lie side by side below a thatched roof.<br />
+ <br />
+ Each room faces the lagoon-style pool and lush gardens enabling guests to enjoy the peace and tranquillity from every angle, while those wishing to embrace the spiritual side of Bali can observe daily offerings being made to the gods at the villa&rsquo;s very own garden temple.</p>
+]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="85" contenttypeid="BDR" desc="Bed Rooms">
+      <Description><![CDATA[<p> All four of Villa Kakatua’s air-conditioned bedrooms are similar in  design with polished cream terrazzo floors, ceiling fans, beautifully  carved wooden beds draped with mosquito nets and antique batik throws.  Tastefully decorated with Javanese antiques and traditional paintings  and portraits, the rooms are very homely and comfortable. iPod docks in  all bedrooms and TV/DVD players (in all but bedroom four) add a modern  touch, while the lovely garden bathrooms, dotted with bluestone pebbles  and with open-air showers, inject tropical style.<br /> <br /> The ground  floor master suite (with the additional luxury of a tub in its bathroom)  lies immediately off the main living area, with glass sliding doors  opening onto the pool. The upstairs guest bedroom has great views over  the gardens and is accessed by a wooden staircase from the living room.<br /> <br />  Bedrooms three and four are tucked away in their own pavilion with a  shared veranda for cheeky daytime naps on the comfortable bright red  daybeds.&nbsp; One of these rooms features a giant four-poster bed large  enough to sleep four children (2 of which may incur extra cost) or two  adults. <br /></p>]]></Description>
+      <SubContents />
+    </Content>
+    <Content contentid="916" contenttypeid="QF" desc="Quick Facts">
+      <Description><![CDATA[]]></Description>
+      <SubContents>
+        <SubContent>
+          <Heading><![CDATA[Location]]></Heading>
+          <Description><![CDATA[<p>Canggu, south-west Bali, Indonesia.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Capacity]]></Heading>
+          <Description><![CDATA[<p>8 people (4 bedrooms: 1 with king-size beds; 2 with queen-size beds; 1 with an extra large antique four-poster bed containing 2 double mattresses). 2 more guests can be accommodated for an additional charge. Capacity extends to 14-16 if booked in conjunction with neighbouring 3-bedroom Villa Kedidi.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Living areas]]></Heading>
+          <Description><![CDATA[<p> Open-sided living and dining pavilion; poolside <span style="font-style: italic;">balé</span>.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Pool]]></Heading>
+          <Description><![CDATA[<p>12m x 5m. 1.27m-1.76m depth. 1 set of pool fence is provided by the villa.<br /></p>       ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Staff]]></Heading>
+          <Description><![CDATA[<p> (Shared with&nbsp;Villa Kedidi) villa manager; cooks; housekeepers; gardeners; guards providing 24-hour security.&nbsp; Masseuse and babysitter on request.</p>    ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Dining]]></Heading>
+          <Description><![CDATA[<p>Western, Asian, vegetarian and children’s menu. Requests accommodated (including special diets). Grocery cost is charged 20% handling fee which is subject to service and tax at the prevailing rate. </p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Communication]]></Heading>
+          <Description><![CDATA[<p>Complimentary WiFi broadband internet access, telephone available for local calls. IDD on request.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Entertainment]]></Heading>
+          <Description><![CDATA[<p>Satellite TV and DVD player, stereo system with CD player in living room; TV and DVD players in 3 bedrooms; iPhone/iPod docks in living room and all bedrooms.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[For families]]></Heading>
+          <Description><![CDATA[<p>2 baby cots (1 free, 1 with extra charge), 2 high chairs, 2 bed rails, 2 baby monitors, child car-seats (extra charge), pool fence (extra charge), pool toys, DVDs.</p>  ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Transport]]></Heading>
+          <Description><![CDATA[<p> On request, the villa staff may call one of Bali’s safe and reasonably priced metered taxis.</p>]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Additional facilities]]></Heading>
+          <Description><![CDATA[<p>Barbecue; back-up generator; safe.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Property Area]]></Heading>
+          <Description><![CDATA[<p>943sqm.</p> ]]></Description>
+          <Images />
+        </SubContent>
+        <SubContent>
+          <Heading><![CDATA[Managed & marketed by]]></Heading>
+          <Description><![CDATA[<p><a target="_blank" href="http://www.elitehavens.com" title="The Elite Havens Group">The Elite Havens Group</a>.</p>   ]]></Description>
+          <Images />
+        </SubContent>
+      </SubContents>
+    </Content>
+  </Contents>
+  <ExtraInfo>
+    <VillaName contenttypeid="EI_VNAME">Villa Kakatua</VillaName>
+    <SubLocation contenttypeid="EI_SUBLOC" sublocationid="Canggu">Canggu</SubLocation>
+    <Location contenttypeid="EI_LOC" locationid="Bali">Bali</Location>
+    <Country contenttypeid="EI_COUNTRY" countryid="ID">Indonesia</Country>
+    <Address contenttypeid="EI_ADDRESS">Jalan Pantai Batu Bolong</Address>
+    <GPSCoordinates contenttypeid="EI_COORDS">
+      <Decimal>
+        <Latitude>-8.65775000</Latitude>
+        <Longitude>115.13033260</Longitude>
+      </Decimal>
+    </GPSCoordinates>
+    <ShortDesc contenttypeid="EI_SDESC">Villa Kakatua is a beautiful four-bedroom home 100m from Canggu beach on Bali’s south-west coast. Fully staffed with swimming pool it is perfect for families. &lt;br /&gt;</ShortDesc>
+    <Rooms contenttypeid="EI_ROOMS">
+      <Room>
+        <RoomName>4 bedroom</RoomName>
+        <MinRate>448.00++</MinRate>
+        <MaxRate>758.00++</MaxRate>
+      </Room>
+      <Room>
+        <RoomName>3 bedroom</RoomName>
+        <MinRate>398.00++</MinRate>
+        <MaxRate>758.00++</MaxRate>
+      </Room>
+    </Rooms>
+    <Images contenttypeid="EI_MOBIMAGES">
+      <Gallery>
+        <Image>
+          <Caption>Villa Kakatua - Villa, pool and gardens</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/1. Villa Kakatua - Villa, pool and gardens.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Midday by the pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/2. Villa Kakatua - Midday by the pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Garden bale and pool</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/3. Villa Kakatua - Garden bale and pool.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Veranda for bedrooms 3 &amp;amp; 4</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/4. Villa Kakatua - Veranda for bedrooms 3 &amp; 4.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Living and dining</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/5. Villa Kakatua - Living and dining.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Living room at dusk</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/6. Villa Kakatua - Living room at dusk.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Dining room at night</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/7. Villa Kakatua - Dining room at night.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Master suite</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/8. Villa Kakatua - Master suite.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Master bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/9. Villa Kakatua - Master bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Upstairs guest bedroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/10. Villa Kakatua - Upstairs guest bedroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Upstairs bathroom</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/11. Villa Kakatua - Upstairs bathroom.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Guest bedroom 3</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/12. Villa Kakatua - Guest bedroom 3.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Guest bathroom 4</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/13. Villa Kakatua - Guest bathroom 4.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Guest bedroom 4 (quad)</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/14. Villa Kakatua - Guest bedroom 4 (quad).jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+        <Image>
+          <Caption>Villa Kakatua - Pool and villa at sunset</Caption>
+          <ThumbSizeUrl>/images/gallery/mobile/Kakatua/15. Villa Kakatua - Pool and villa at sunset.jpg</ThumbSizeUrl>
+          <FullSizeUrl />
+        </Image>
+      </Gallery>
+    </Images>
+  </ExtraInfo>
+</Villa>

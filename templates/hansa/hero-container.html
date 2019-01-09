@@ -1,0 +1,63 @@
+{if $data.page|in_array:['home', 'index']}
+{* <div class="hero-container"><div class="promo-wrapper wrapper"><a href="/rates.html" class="promo-banner"></a></div></div> *}
+{else}
+<div class="hero-container">
+    <div class="hero">
+    
+        {if $data.page == 'about-villa-hansa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg 1920w" alt="Villa Hansa - Pool perfectione" class="lazyload" />
+        
+        {elseif $data.page == 'explore-the-villa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Villa%20entrance.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Villa%20entrance.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Villa%20entrance.jpg 1920w" alt="Villa Hansa - Villa entrance" class="lazyload" />
+        
+        {elseif $data.page == 'quick-facts'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Private%20pool%20master%20bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Private%20pool%20master%20bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Private%20pool%20master%20bedroom%20outlook.jpg 1920w" alt="Villa Hansa - Private pool master bedroom outlook" class="lazyload" />
+
+        {elseif $data.page == 'photo-gallery'}
+        {* <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20View%20from%20the%20pool%20to%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20View%20from%20the%20pool%20to%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20View%20from%20the%20pool%20to%20master%20bedroom.jpg 1920w" alt="Villa Hansa - View from the pool to master bedroom" class="lazyload" /> *}
+
+        {elseif $data.page == 'floorplan'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20View%20from%20the%20pool%20to%20master%20bedroom.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20View%20from%20the%20pool%20to%20master%20bedroom.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20View%20from%20the%20pool%20to%20master%20bedroom.jpg 1920w" alt="Villa Hansa - View from the pool to master bedroom" class="lazyload" />
+
+        {elseif $data.page == 'weddings'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Wedding%20decoration.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Wedding%20decoration.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Wedding%20decoration.jpg 1920w" alt="Villa Hansa - Wedding decoration" class="lazyload" />
+        
+        {elseif $data.page == 'canggu-bali'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Local%20fishing%20boat.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Local%20fishing%20boat.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Local%20fishing%20boat.jpg 1920w" alt="Villa Hansa - Local fishing boat" class="lazyload" />
+        
+        {elseif $data.page == 'staff'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Our%20crew.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Our%20crew.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Our%20crew.jpg 1920w" alt="Villa Hansa - Our crew" class="lazyload" />
+        
+        {elseif $data.page == 'dining'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Private%20chef.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Private%20chef.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Private%20chef.jpg 1920w" alt="Villa Hansa - Private chef" class="lazyload" />
+        
+        {elseif $data.page == 'families'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20float.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Pool%20float.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20float.jpg 1920w" alt="Villa Hansa - Pool float" class="lazyload" />
+        
+        {elseif $data.page == 'spa'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Flower%20bath%20arrangement.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Flower%20bath%20arrangement.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Flower%20bath%20arrangement.jpg 1920w" alt="Villa Hansa - Flower bath arrangement" class="lazyload" />
+        
+        {elseif $data.page == 'guest-reviews'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Villa%20book.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Villa%20book.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Villa%20book.jpg 1920w" alt="Villa Hansa - Villa book" class="lazyload" />
+        
+        {elseif $data.page == 'rates'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Bedroom%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Bedroom%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Bedroom%20outlook.jpg 1920w" alt="Villa Hansa - Bedroom outlook" class="lazyload" />
+        
+        {elseif $data.page == 'reservations' || $data.page == 'general-enquiries'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Guest%20suite%20joglo%20desk.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Guest%20suite%20joglo%20desk.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Guest%20suite%20joglo%20desk.jpg 1920w" alt="Villa Hansa - Guest suite joglo desk" class="lazyload" />
+        
+        {elseif $data.page == 'links'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg 1920w" alt="Villa Hansa - Pool perfectione" class="lazyload" />
+        
+        {elseif $data.page == 'sitemap'}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg 1920w" alt="Villa Hansa - Pool perfectione" class="lazyload" />  
+        
+        {else}
+        <img src="{$data.cdn}/resources/{$data.theme}/headers/thumb/Villa%20Hansa.jpg" data-src="{$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/headers/small/Villa%20Hansa%20-%20Pool%20perfection.jpg 1400w, {$data.cdn}/resources/{$data.theme}/headers/Villa%20Hansa%20-%20Pool%20perfection.jpg 1920w" alt="Villa Hansa - Pool perfectione" class="lazyload" />
+        {/if}
+    
+    </div>
+</div>
+{/if}
+
+{* include file="part-booking.html" *}

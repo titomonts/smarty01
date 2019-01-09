@@ -1,0 +1,514 @@
+{if $data.page|in_array:['about-ban-suriya']}
+<div class="content-item odd about" id="about">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Ban%20Suriya%20-%20Capturing%20outstanding%20object.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+                <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+                {if 'desc'|array_key_exists:$content[0]}
+
+                    {contentpart content=$content[0].desc regex="default"}
+                    {section name=s loop=$contentPart}
+                    <p>{$contentPart[s]}</p>
+                    {/section}
+
+                {/if}
+
+                {if 'SubContents'|array_key_exists:$content[0]}
+                    {section name=s loop=$content[0].SubContents}
+                        <h2>{$content[0].SubContents[s].Heading}</h2>
+                        {$content[0].SubContents[s].Description}
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+
+                {/if} 
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+    <div class="wrapper">
+       
+        <h1 class="entry-title"><span>{$data.heading}</span></h1>      
+         {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+		{if 'desc'|array_key_exists:$content[0]}
+			 {contentpart content=$content[0].desc explode="</p>"}
+			 {section name=p loop=$contentPart start=0 max=2}
+				<p>{$contentPart[p]}</p>
+			 {/section}
+			 
+			 <div class="first-img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Ban%20Suriya%20-%20Weddings%20rings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Ban%20Suriya%20-%20Weddings%20rings.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Ban%20Suriya%20-%20Weddings%20rings.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Ban%20Suriya%20-%20Weddings%20rings.jpg 1920w" alt="Ban Suriya - Weddings rings" class="lazyload">
+			 </div>
+			 
+			 <div class="group">
+				<div class="group-wrapper">					
+					<div class="half">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/weddings/thumb/Ban%20Suriya%20-%20Champagne%20toast.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/Ban%20Suriya%20-%20Champagne%20toast.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/weddings/small/Ban%20Suriya%20-%20Champagne%20toast.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/weddings/Ban%20Suriya%20-%20Champagne%20toast.jpg 1920w" alt="Ban Suriya - Champagne toast" class="lazyload">
+					</div>
+					<div class="half half-content">
+						{section name=p loop=$contentPart start=2 }
+						
+						{if empty($contentPart[p]|strstr:"<br />")} 
+							<p>{$contentPart[p]}</p>
+						{else}
+							{assign var="content_capacity" value=$contentPart[p]}
+						{/if}
+					 {/section}
+					 
+					 {contentpart content=$content_capacity remove=["/<p>(.*?)<\/p>/s"] explode="<br />"}
+						<ul class="capacity">
+							{section name=s loop=$contentPart max=2}
+							<li>{$contentPart[s]}</li>
+							{/section}
+						</ul>
+						
+						<div class="guidelines">
+							{contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+							{section name=s loop=$contentPart}
+							{$contentPart[s]|replace:'<br />': ''}
+							{/section} 
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		{/if}
+    </div> 
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    
+    <div class="wrapper">   
+        <h2 class="entry-title"><span>Villa Layout</span></h2>
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LYT"}
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        </div>
+        {include file="floorplan.html"}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+   
+  
+	 
+	{parsedata folder=$data.theme cache=$data.cache content="LVA"}
+	{contentpart content=$content[0].desc regex="default"}
+		{section name=s loop=$contentPart}
+		{$contentPart[s]}
+	{/section}
+	{section name=s loop=$content[0].SubContents}
+		{if $smarty.section.s.index eq 0}
+			<div class="wrapper">
+				<div class="the-content"> 	
+					  <h2 class="entry-title"><span>Living Areas</span></h2>
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+				 {contentpart content={$content[0].SubContents[s].Description}  strip=["<p>"] explode="</p>"}	
+				 {section name=p loop=$contentPart start=0 max=2}
+					<p>{$contentPart[p]}</p>
+				 {/section}
+				 </div>
+			</div>
+			
+			<div class="group">
+				<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Baan%20Suriya%20-%20Living%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Baan%20Suriya%20-%20Living%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Baan%20Suriya%20-%20Living%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Baan%20Suriya%20-%20Living%20room.jpg 1920w" alt="Baan Suriya - Living room" class="lazyload" /></div>
+				<div class="half"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Baan%20Suriya%20-%20Living%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Library.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Library.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Library.jpg 1920w" alt="Ban Suriya - Library "class="lazyload" /></div>
+			</div>
+			
+			<div class="wrapper">
+				<div class="the-content"> 	
+					{section name=p loop=$contentPart start=2}
+					<p>{$contentPart[p]}</p>
+					{/section}
+				</div>
+			</div>
+		{/if}
+		
+		{if $smarty.section.s.index eq 1}
+			<div class="group">
+				<div class="group-wrapper">
+					<div class="half half-content">
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						 {contentpart content={$content[0].SubContents[s].Description}  strip=["<p>"] explode="</p>"}	
+						 {section name=p loop=$contentPart start=0 max=3}
+							<p>{$contentPart[p]}</p>
+						 {/section}
+					</div>
+					<div class="half">
+						<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Pool%20area.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Pool%20area.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Pool%20area.jpg 1920w" alt="Ban Suriya - Pool area" class="lazyload" /></div>
+					</div>
+					
+					<div class="half">
+						<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20The%20tree%20house.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20The%20tree%20house.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20The%20tree%20house.jpg 1920w" alt="Ban Suriya - The tree house" class="lazyload" /></div>
+					</div>
+					<div class="half half-content">
+						 {section name=p loop=$contentPart start=3}
+							<p>{$contentPart[p]}</p>
+						 {/section}
+					</div>
+				</div>
+			</div>
+		{/if}
+	{/section}
+	 
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+
+	<div class="wrapper">       
+        <h2 class="entry-title"><span>Bedrooms</span></h2>
+		{parsedata folder=$data.theme cache=$data.cache content="BDR"}
+        {if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /> <br />"}
+			{section name=s loop=$contentPart}
+			<p>{$contentPart[s]}</p>
+			{/section}
+        {/if}
+	</div>
+	
+	<div><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya%20-%20Master%20bedroom%20setting.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Master%20bedroom%20setting.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Master%20bedroom%20setting.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Master%20bedroom%20setting.jpg 1920w" alt="Ban Suriya - Master bedroom setting" class="lazyload" />
+	</div>
+	
+	{section name=s loop=$content[0].SubContents}
+		{if $smarty.section.s.index eq 0}
+			<div class="wrapper">
+				<div class="the-content"> 	
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					{$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}		
+				</div>	
+			</div>		
+		{else}
+			<div class="group">
+				<div class="group-wrapper">
+					 {if $smarty.section.s.index eq 1}
+						<div class="half">
+							<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Spacious%20butterfly%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Spacious%20butterfly%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Spacious%20butterfly%20room.jpg 1920w" alt="Ban Suriya - Spacious butterfly room" class="lazyload" /></div>
+						</div>
+					 {elseif $smarty.section.s.index eq 3}
+						<div class="half">
+							<div class="second-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Peacock%20room%20outlook.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Peacock%20room%20outlook.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Peacock%20room%20outlook.jpg 1920w" alt="Ban Suriya - Peacock room outlook" class="lazyload" /></div>
+						</div>
+					 {/if}
+					 
+					  <div class="half half-content">
+						<h3>{$content[0].SubContents[s].Heading}</h3>
+						{$content[0].SubContents[s].Description|replace:'<br /><br /><br />':'</p><p>'}
+						{* if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+						{/if *}
+					 </div>
+					 
+					 {if $smarty.section.s.index eq 2}
+						<div class="half">
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Shell%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Shell%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Shell%20room.jpg 1920w" alt="Ban Suriya - Shell room" class="lazyload" /></div>
+						</div>						
+					 {elseif $smarty.section.s.index eq 4}
+						<div class="half">
+							<div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Spacious%20wave%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/explore/small/Ban%20Suriya%20-%20Spacious%20wave%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/explore/Ban%20Suriya%20-%20Spacious%20wave%20room.jpg 1920w" alt="Ban Suriya - Spacious wave room" class="lazyload" /></div>
+						</div>
+					 {/if}
+				</div>
+			 </div>
+		{/if}
+	{/section}
+	
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+    <div class="wrapper">
+        <div class="the-content">
+			{parsedata folder=$data.theme cache=$data.cache content="STAFF"}
+			<h1 class="entry-title"><span>Staff</span></h1>
+			{if 'desc'|array_key_exists:$content[0]}
+
+				{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+				{section name=s loop=$contentPart}
+				<p>{$contentPart[s]}</p>
+				{/section}
+
+			{/if}
+			<div class="first-img">
+				<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Ban Suriya - Dedicated staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Ban%20Suriya%20-%20Dedicated%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Ban%20Suriya%20-%20Dedicated%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Ban%20Suriya%20-%20Dedicated%20staff.jpg 1920w" alt="Ban Suriya - Dedicated staff" class="lazyload" />
+			</div>
+			
+        </div>
+		
+		<div class="clear"></div>
+		<div class="second-img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/staff/thumb/Ban Suriya - Exceptional staff.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/staff/Ban%20Suriya%20-%20Exceptional%20staff.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/staff/small/Ban%20Suriya%20-%20Exceptional%20staff.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/staff/Ban%20Suriya%20-%20Exceptional%20staff.jpg 1920w" alt="Ban Suriya - Exceptional staff" class="lazyload" />
+		</div>
+		 {if 'SubContents'|array_key_exists:$content[0]}
+			<dl class="details">
+				{section name=s loop=$content[0].SubContents}
+					<dt>{$content[0].SubContents[s].Heading}</dt>
+					<dd>{$content[0].SubContents[s].Description}</dd>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+			</dl>
+		{/if}
+		<div class="clear"></div>
+    </div
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+        <h1 class="entry-title"><span>Dining</span></h1>
+		{if 'desc'|array_key_exists:$content[0]}
+		{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}	
+			<div>
+				<div class="first-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Ban%20Suriya%20-%20Appetizing%20dish.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Ban%20Suriya%20-%20Appetizing%20dish.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Ban%20Suriya%20-%20Appetizing%20dish.jpg 1920w" alt="Ban Suriya - Appetizing dish" class="lazyload" />
+				</div>	
+				{section name=s loop=$contentPart start=0 max=2}
+					 <p>{$contentPart[s]}</p>
+				{/section}	
+			</div>
+			<div class="clear"></div>			
+			<div class="des">
+				<div class="second-img">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/dining/thumb/Ban%20Suriya.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/dining/Ban%20Suriya%20-%20Superb%20food.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/dining/small/Ban%20Suriya%20-%20Superb%20food.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/dining/Ban%20Suriya%20-%20Superb%20food.jpg 1920w" alt="Ban Suriya - Superb food" class="lazyload" />
+				</div>
+				{section name=s loop=$contentPart start=2}
+					 <p>{$contentPart[s]}</p>	
+				{/section}				
+			</div>
+			<div class="clear"></div>
+		{/if}
+		
+    </div>
+   
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+        <h1 class="entry-title"><span>Families</span></h1>
+
+        {if 'desc'|array_key_exists:$content[0]}
+			{contentpart content=$content[0].desc  strip=["<p>"] explode="</p>"}	
+			{section name=s loop=$contentPart}
+				{if $smarty.section.s.index eq 1}
+					<div class="first-img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Ban%20Suriya%20-%20Father%20and%20son%20time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Ban%20Suriya%20-%20Father%20and%20son%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Ban%20Suriya%20-%20Father%20and%20son%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Ban%20Suriya%20-%20Father%20and%20son%20time.jpg 1920w" alt="Ban Suriya - Father and son time" class="lazyload" />
+					</div>
+				{/if}
+				
+				{if $smarty.section.s.index eq 1}
+					<div class="second-img">
+						<img src="{$data.cdn}/resources/{$data.theme}/content/families/thumb/Ban%20Suriya%20-%20Kids%20pool%20time.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/families/Ban%20Suriya%20-%20Kids%20pool%20time.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/families/small/Ban%20Suriya%20-%20Kids%20pool%20time.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/families/Ban%20Suriya%20-%20Kids%20pool%20time.jpg 1920w" alt="Ban Suriya - Kids pool time" class="lazyload" />
+					</div>
+				{/if}
+				
+				<p>{$contentPart[s]}</p>	
+				
+			{/section}				
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            <p>{$content[0].SubContents[s].Description}</p>
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        <div class="clear"></div>
+    </div>
+    
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+    <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="SPAGYM"}
+        <h1 class="entry-title"><span>Spa</span></h1>
+		<div class="first-img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Ban%20Suriya%20-%20Flower%20spa%20bowl.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Ban%20Suriya%20-%20Flower%20spa%20bowl.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Ban%20Suriya%20-%20Flower%20spa%20bowl.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Ban%20Suriya%20-%20Flower%20spa%20bowl.jpg 1920w" alt="Ban Suriya - Flower spa bowl" class="lazyload" />
+		</div>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <dl class="details">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+
+        <div class="clear"></div>
+		<div class="second-img">
+			<img src="{$data.cdn}/resources/{$data.theme}/content/spa/thumb/Ban%20Suriya%20-%20Spa%20room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/spa/Ban%20Suriya%20-%20Spa%20room.jpg" data-sizes="(min-width: 1281px) 1920px, auto" data-srcset="{$data.cdn}/resources/{$data.theme}/content/spa/small/Ban%20Suriya%20-%20Spa%20room.jpg 1400w, {$data.cdn}/resources/{$data.theme}/content/spa/Ban%20Suriya%20-%20Spa%20room.jpg 1920w" alt="Ban Suriya - Spa room" class="lazyload" />
+		</div>
+    </div>    
+    
+    
+</div>
+{/if}
+
+{if $data.page|in_array:['lipa-noi-koh-samui', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+        <h2 class="entry-title"><span>The Locale</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+
+        {/if}
+        <div class="clear"></div>
+        </div>
+        <div class="map_div" id="map_div_locale"></div>
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <h3>Distances</h3>
+            <dl class="distances">
+                {section name=s loop=$content[0].SubContents}
+                    <dt>{$content[0].SubContents[s].Heading}</dt>
+                    <dd>{$content[0].SubContents[s].Description}</dd>
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            </dl>
+        {/if}
+		<div class="clear"></div>
+    </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['lipa-noi-koh-samui', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="the-content">
+        <div class="wrapper">
+        {parsedata folder=$data.theme cache=$data.cache content="TTD"}
+        <h2 class="entry-title"><span>Things to Do</span></h2>
+        {if 'desc'|array_key_exists:$content[0]}
+
+            {contentpart content=$content[0].desc regex="default"}
+            {section name=s loop=$contentPart}
+            {if ($contentPart[s]|strstr:"<br />")}
+                {contentpart content=$contentPart[s] explode="<br />"}
+                <p>{$contentPart[0]}</p>
+            {else}
+            <p>{$contentPart[s]}</p>
+            {/if}
+            {/section}
+        {/if}
+        </div> 
+    </div>
+    <div class="wrapper">
+        <div class="group">
+        {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc regex="/<ul>(.*?)<\/ul>/s"}
+            {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+            {section name=s loop=$contentPart}
+            {if $smarty.section.s.index mod 2}
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Ban%20Suriya%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Ban%20Suriya%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            {else}
+            <div class="half half-content">
+            {$contentPart[s]|replace:['<li>','</li>','<br />']:['', '', '']}
+            </div>
+            <div class="half">
+            <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Ban%20Suriya%20-%20Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Ban%20Suriya%20-%20Things%20to%20do%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+            </div>
+            {/if}
+            {/section}
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+        {/if}
+        </div>
+    </div>
+</div>
+{/if}

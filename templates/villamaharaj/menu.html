@@ -1,0 +1,50 @@
+<div id="logo">
+    <h1>
+    	<a href="{$data.home_uri}" title="{#TITLE_HOME#}" rel="home">{#TITLE_HOME#}</a>
+    </h1>
+</div>
+<div class="menu-main-navigation-container">
+	<ul id="menu-main-navigation" class="mainnav">
+    {assign var=class value=''}
+    {assign var=hclass value=''}
+    {section name=p loop=$pages}
+    {if $pages[p].menu_location == 'main'}
+        {if $data.page == $pages[p].page_identifier}
+        {assign var=class value='current-menu-item current_page_item'}
+        {else}
+        {assign var=class value=''}
+        {/if}
+        
+        {if $pages[p].page_identifier == $data.parent}
+        {assign var=hclass value='current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children'}
+        {else}
+        {assign var=hclass value=''}
+        {/if}
+		<li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page {$hclass} menu-item {$class}">
+        	<a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">{$pages[p].label}</a>
+            {if 'children'|array_key_exists:$pages[p]}
+            <ul class="sub-menu">
+            	{assign var=subclass value=''}
+            	{section name=sp loop=$pages[p].children}
+                {if $data.page == $pages[p].children[sp].page_identifier}
+                {assign var=subclass value='current-menu-item current_page_item'}
+                {else}
+                {assign var=subclass value=''}
+                {/if}
+                <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item {$subclass}">
+                	{if $pages[p].children[sp].level == 'sub'}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].children[sp].parent child=$pages[p].children[sp].page_identifier}">
+                    {else}
+                    <a href="{$data.home_uri}/{seo_optimize urls=$seo_urls page=$pages[p].page_identifier}">
+                    {/if}
+                    {$pages[p].children[sp].label}
+                    </a>
+                </li>
+                {/section}
+            </ul>
+            {/if}
+		</li>
+    {/if}
+    {/section}
+	</ul>
+</div> 

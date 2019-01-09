@@ -1,0 +1,40 @@
+{include file="header.html"}
+{assign var=bodeh_class value=''}
+{section name=p loop=$pages}
+    {if $data.page == $pages[p].page_identifier}
+    	{assign var=bodeh_class value=$pages[p].body_class}
+    {/if}
+    {if 'children'|array_key_exists:$pages[p]}
+    	{section name=sp loop=$pages[p].children}
+            {if $data.page == $pages[p].children[sp].page_identifier}
+                {assign var=bodeh_class value=$pages[p].children[sp].body_class}
+            {/if}
+        {/section}
+    {/if}
+{/section}
+<div class="gallery">
+   <div class="content-container">
+        <div class="content">
+            <div class="content-item odd">
+                <div class="wrapper">
+                    <h1 class="entry-title">{#PHOTO_GALLERY#}</h1>
+                    <ul class="gallery-container">
+                        {section name=g loop=$gallery}
+                        <li>
+                            <a rel="gallery" href="{$gallery[g].path}{$gallery[g].image_src}" title="{$gallery[g].title}"  >
+                                <img title="{$gallery[g].title}" alt="{$gallery[g].alt}" data-src="{$gallery[g].path}/thumbs/{$gallery[g].thumbnail_src}" class="lazyload" height="{$gallery[g].gal_thumb_height}" width="{$gallery[g].gal_thumb_width}" />
+                                <p>{$gallery[g].title}</p>
+                            </a>
+                        </li>
+                        {/section}
+                    </ul>
+                    <div class="gallery-pagination">
+                    
+                    </div>
+                </div>
+            </div>                    
+        </div>
+    </div>
+</div>
+{include file="buttons.html"}
+{include file="footer.html"}

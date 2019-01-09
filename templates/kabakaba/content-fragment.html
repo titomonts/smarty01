@@ -1,0 +1,717 @@
+{if $data.page|in_array:['about-kaba-kaba-estate']}
+<div class="content-item odd about" id="about">
+	 <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Kaba Kaba Estate - Villa entrance doors and art.jpg" >
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="ABTV"}
+			
+			{if 'desc'|array_key_exists:$content[0]}
+				 {contentpart content=$content[0].desc strip=[""] explode=".<br />"}
+					{section name=s loop=$contentPart start=0 max=2}
+						  <p>{$contentPart[s]|replace:['<br />',' <br />']:['','']}	</p>
+					{/section}
+           {/if}
+            <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+	<div class="bg-holder lazyload nomargin" data-bg="{$data.cdn}/resources/{$data.theme}/content/about/Kaba Kaba Estate - Open entertaining spaces1.jpg" style="background-position-y: 75%;">
+        <div class="wrapper">
+			  <div class="the-content">				
+					{section name=s loop=$contentPart start=2}
+						<p>{$contentPart[s]|replace:['<br />',' <br />']:['','']}	</p>
+					{/section}
+			   
+				 {section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					<p>{$content[0].SubContents[s].Description}</p>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+            <div class="clear"></div>
+			</div>
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['quick-facts']}
+    
+    <div class="content-item odd quick-facts" id="quick-facts">
+    <h1 class="entry-title"><span>{$data.heading}</span></h1>                
+    <div class="wrapper">
+        <div class="the-content">
+        {parsedata folder=$data.theme cache=$data.cache content="QF"}
+
+        {if 'SubContents'|array_key_exists:$content[0]}
+            <div class="group">
+                <div class="half">
+                {section name=s loop=7}
+                <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                    <strong>{$content[0].SubContents[s].Heading}</strong>
+                    {$content[0].SubContents[s].Description}
+                </div>
+                {/section}
+                </div>
+
+                <div class="half"> 
+                {section name=s start=7 loop=$content[0].SubContents}
+                {if $smarty.section.s.index neq $smarty.section.s.last}
+                <div class="item" id="{$content[0].SubContents[s].Heading|replace:'&amp;':''|replace:' ':'-'|lower}">
+                    <strong>{$content[0].SubContents[s].Heading}</strong>
+                    {$content[0].SubContents[s].Description}
+                </div>
+                {/if}
+                {/section}
+                </div>
+           </div>  
+        {/if}
+        <div class="clear"></div>
+        </div>
+    </div>
+</div>
+{/if}
+
+
+{if $data.page|in_array:['weddings']}
+<div class="content-item odd weddings" id="weddings">
+	<h1 class="entry-title"><span>{$data.heading}</span></h1>      
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/weddings/Villa Hansa - Wedding ceremony.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+    	        {parsedata folder=$data.theme cache=$data.cache content="EVT"}
+                
+                {if 'desc'|array_key_exists:$content[0]}                  
+					{contentpart content=$content[0].desc strip=[""] explode="</p>"}
+					{section name=s loop=$contentPart start=0 max=2}
+						{$contentPart[s]}
+					{/section}				
+                {/if}
+            </div>
+        </div>
+    </div>   
+    <div class="bg-holder">
+        <div class="wrapper">       
+        {if 'desc'|array_key_exists:$content[0]}           
+            
+            <h2>A day to remember</h2>
+            <small>Life together begins at the most beautiful places on earth.</small>
+
+            <div class="group">
+           
+            <ul class="capacity">
+			{contentpart content=$content[0].desc strip=[""] explode="<br />"}
+            {section name=s loop=$contentPart start=1 max=2}
+            <li>{$contentPart[s]}</li>
+            {/section}
+            </ul>
+
+            <div class="guidelines">
+            {contentpart content=$content[0].desc regex="/<a(.*?)>(.*?)<\/a>/s" explode="<br />"}
+            {section name=s loop=$contentPart}
+            {$contentPart[s]|replace:'<br />': ''}
+            {/section} 
+            </div>
+            </div>
+            
+            <div class="photo-album">
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Kaba Kaba Estate - Weddings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Kaba Kaba Estate - Weddings 01.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Kaba Kaba Estate - Weddings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Kaba Kaba Estate - Weddings 02.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Kaba Kaba Estate - Weddings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Kaba Kaba Estate - Weddings 03.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Kaba Kaba Estate - Weddings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Kaba Kaba Estate - Weddings 04.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Kaba Kaba Estate - Weddings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Kaba Kaba Estate - Weddings 05.jpg" class="lazyload"></div>
+                <div class="item"><img src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/thumb/Kaba Kaba Estate - Weddings.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/Kaba Kaba Estate - Weddings 06.jpg" class="lazyload"></div>
+            </div>
+            <div class="photo-album-thumbs">
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Kaba Kaba Estate - Weddings 01.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Kaba Kaba Estate - Weddings 02.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Kaba Kaba Estate - Weddings 03.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Kaba Kaba Estate - Weddings 04.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Kaba Kaba Estate - Weddings 05.jpg" class="lazyload"></div>
+                <div class="item"><img data-src="{$data.cdn}/resources/{$data.theme}/content/weddings/gallery/small/Kaba Kaba Estate - Weddings 06.jpg" class="lazyload"></div>
+            </div>
+            
+            {* <h3>Get in touch.</h3>
+            
+            <a href="/reservations.html" class="button">Contact us.</a> *}
+
+            <div class="clear"></div>
+        {/if}
+
+        {section name=s loop=$content[0].SubContents}
+            <h3>{$content[0].SubContents[s].Heading}</h3>
+            {$content[0].SubContents[s].Description}
+
+            {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                <p>
+                    <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" rel="gallery" class="pirobox_gall">
+                        <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/themes/hansa':'{$data.cdn}/resources/hansa'}" border="0" width="238" height="158" />
+                    </a>
+                </p>
+            {/if}
+        {/section}
+        </div>
+    </div>
+</div>
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'villa-layout']}
+<div class="content-item villa-layout" id="villa-layout">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Local farmer.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+            
+            <h2 class="entry-title"><span>Villa Layout</span></h2>
+			{parsedata folder=$data.theme cache=$data.cache content="LYT"}                           
+			{if 'desc'|array_key_exists:$content[0]}
+				<p>{$content[0].desc}</p>
+			{/if}	
+
+            {section name=s loop=$content[0].SubContents}
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                {$content[0].SubContents[s].Description}
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+            {/section}
+            </div>
+        </div>
+    </div>
+    <div class="bg-holder">
+        <div class="wrapper">
+            {include file="floorplan.html"}
+        </div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'living-areas']}
+<div class="content-item living-areas" id="living-areas">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Living area.jpg">
+        <div class="wrapper">
+            <div class="the-content">            
+            <h2 class="entry-title"><span>Living Areas</span></h2>
+			{parsedata folder=$data.theme cache=$data.cache content="LVA"}    
+
+            {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            {/if}	
+            </div>
+        </div>
+    </div>
+    <div class="bg-holder">
+        {section name=s loop=$content[0].SubContents}
+        <div class="group">
+            <div class="wrapper"> 
+			
+				{if $smarty.section.s.index eq 0}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Grand dining room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Grand dining room.jpg" alt="Kaba Kaba Estate - Grand dining room" class="lazyload" /></div>                    
+                </div>
+                {/if}
+				
+				{if $smarty.section.s.index eq 2}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Games room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Games room.jpg" alt="Kaba Kaba Estate - Games room" class="lazyload" /></div>                    
+                </div>
+                {/if}
+				
+				{if $smarty.section.s.index eq 4}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Poolside.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Poolside.jpg" alt="Kaba Kaba Estate - Poolside" class="lazyload" /></div>                    
+                </div>
+                {/if}
+                
+            
+                <div class="half half-content">
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                <p>{$content[0].SubContents[s].Description}</p>
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+                </div>
+				
+                {if $smarty.section.s.index eq 1}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Media room.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Media room.jpg" alt="Kaba Kaba Estate - Media room" class="lazyload" /></div>
+                </div>
+                {/if}
+				
+				{if $smarty.section.s.index eq 3}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate -  The library.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate -  The library.jpg" alt="Kaba Kaba Estate -  The library" class="lazyload" /></div>
+                </div>
+                {/if}
+               
+            </div>
+        </div>
+        {/section}
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['explore-the-villa', 'bedrooms']}
+<div class="content-item bedrooms" id="bedrooms">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Beringkit (master) ensuite shower and wash basins.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="BDR"}
+            <h2 class="entry-title"><span>Bedrooms</span></h2>
+
+            {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            {/if}
+            </div>
+        </div>
+    </div>
+    <div class="bg-holder">
+        {section name=s loop=$content[0].SubContents}
+        <div class="group">
+            <div class="wrapper">
+                
+                {if $smarty.section.s.index eq 1}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Juntal Daja bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Juntal Daja bedroom.jpg" alt="Kaba Kaba Estate - Juntal Daja bedroom" class="lazyload" /></div>
+                </div>
+                {/if}
+				
+				{if $smarty.section.s.index eq 3}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Pande Beten bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Pande Beten bedroom.jpg" alt="Kaba Kaba Estate - Pande Beten bedroom" class="lazyload" /></div>
+                </div>
+                {/if}
+               
+                <div class="half half-content">
+                <h3>{$content[0].SubContents[s].Heading}</h3>
+                <p>{$content[0].SubContents[s].Description}</p>
+                {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                    <p>
+                        <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                            <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                        </a>
+                    </p>
+                {/if}
+                </div>
+                
+                {if $smarty.section.s.index eq 0}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Beringkit (master) bedroom garden view1.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Beringkit (master) bedroom garden view1.jpg" alt="Kaba Kaba Estate - Beringkit (master) bedroom garden view1" class="lazyload" /></div>
+                </div> 
+                {/if}
+				
+				{if $smarty.section.s.index eq 2}
+                <div class="half">
+                    <div class="first-img"><img src="{$data.cdn}/resources/{$data.theme}/content/explore/thumb/Kaba Kaba Estate - Pande Duur bedroom.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/explore/Kaba Kaba Estate - Pande Duur bedroom.jpg" alt="Kaba Kaba Estate - Pande Duur bedroom" class="lazyload" /></div>
+                </div> 
+                {/if}
+                
+            </div>
+        </div>        
+        {/section}
+        <div class="clear"></div>
+    </div>
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'staff']}    
+<div class="content-item staff" id="staff">
+
+	<h1 class="entry-title"><span>Staff</span></h1>
+	
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/experience/Kaba Kaba Estate - Personal service.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="STAFF"} 
+            
+            {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br />"}
+                {section name=s loop=$contentPart}
+                <p>{$contentPart[s]}</p>
+                {/section}
+
+            {/if}
+			
+			{if 'desc'|array_key_exists:$content[0]}
+                {section name=s loop=$content[0].SubContents max=2 start=0}
+					<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+					<p>{$content[0].SubContents[s].Description}</p>
+                {/section}
+            {/if}
+			
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="bg-holder lazyload nomargin" data-bg="{$data.cdn}/resources/{$data.theme}/content/experience/Kaba Kaba Estate - Attentive service.jpg">
+        <div class="wrapper">
+            {if 'SubContents'|array_key_exists:$content[0]}
+                <div class="the-content">
+                {if 'desc'|array_key_exists:$content[0]}
+					{section name=s loop=$content[0].SubContents start=2}
+						<h3 class="entry-title">{$content[0].SubContents[s].Heading}</h3>
+						<p>{$content[0].SubContents[s].Description}</p>
+					{/section}
+				{/if}
+                </div>
+            {/if}
+
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>     
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'dining']}
+<div class="content-item dining" id="dining">
+	<h1 class="entry-title"><span>Dining</span></h1>
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/experience/Kaba Kaba Estate - Personal chef.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="DNNG"}
+            
+
+               {if 'desc'|array_key_exists:$content[0]}
+
+                {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+                {section name=s loop=$contentPart}
+                <p>{$contentPart[s]}</p>
+                {/section}
+
+            {/if}
+            <div class="clear"></div>
+            </div>
+        </div>
+    </div>   
+</div> 
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'families']} 
+<div class="content-item families" id="families">
+	<h1 class="entry-title"><span>Families</span></h1>
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/experience/Kaba Kaba Estate - Games room.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="FAM"}
+			
+			{if 'desc'|array_key_exists:$content[0]}				 
+				 {contentpart content=$content[0].desc strip=[""] explode=".<br />"}
+					{section name=s loop=$contentPart start=0 max=3}
+						  <p>{$contentPart[s]|replace:['<br />',' <br />']:['','']}	</p>
+					{/section}
+					
+           {/if}
+            <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+	<div class="bg-holder lazyload nomargin" data-bg="{$data.cdn}/resources/{$data.theme}/content/experience/Kaba Kaba Estate - The ultimate chess game.jpg">
+        <div class="wrapper">
+			  <div class="the-content">				
+					{section name=s loop=$contentPart start=3 }
+						<p>{$contentPart[s]|replace:['<br />',' <br />']:['','']}	</p>
+					{/section}
+			   
+				 {section name=s loop=$content[0].SubContents}
+					<h3>{$content[0].SubContents[s].Heading}</h3>
+					<p>{$content[0].SubContents[s].Description}</p>
+					{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+						<p>
+							<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+								<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+							</a>
+						</p>
+					{/if}
+				{/section}
+            <div class="clear"></div>
+			</div>
+        </div>
+    </div>
+</div>    
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'spa']}
+<div class="content-item spa" id="spa">
+	<h1 class="entry-title"><span>Spa</span></h1>
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/experience/Kaba Kaba Estate - Beringkit (master) bath.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+				{parsedata folder=$data.theme cache=$data.cache content="SPA"}
+				
+				 {if 'desc'|array_key_exists:$content[0]}
+					<p>{$content[0].desc}</p>
+				{/if}
+				
+				{if 'SubContents'|array_key_exists:$content[0]}                
+					<dl class="details">
+						{section name=s loop=$content[0].SubContents}
+							<dt>{$content[0].SubContents[s].Heading}</dt>
+							<dd>{$content[0].SubContents[s].Description}</dd>
+							{if 'Image'|array_key_exists:$content[0].SubContents[s]}
+								<p>
+									<a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+										<img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+									</a>
+								</p>
+							{/if}
+						{/section}
+					</dl>
+				{/if}
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>  
+</div>
+{/if}
+
+{if $data.page|in_array:['villa-experience', 'art']}
+<div class="content-item art" id="art">
+	<h1 class="entry-title"><span>Art collection</span></h1>
+    <div class="bg-holder">
+        <div class="wrapper">
+            <div class="the-content">
+				{parsedata folder=$data.theme cache=$data.cache content="ART"}			
+				{if 'desc'|array_key_exists:$content[0]}
+					<p>{$content[0].desc}</p>
+				{/if}	
+			<div class="group">  
+			
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection.jpg" class="lazyload" />
+					<p>Artist: Cai Zhi Song <br />Title: Ode to Motherland #5 <br />Year: 2013 <br />Medium: Bronze</p>
+					<p>Sculpture of a male warrior figure. The artist was inspired by images of ancient China and, in particular, a warrior from the Qin dynasty (221-206 BC). The sculpture was originally made from glass fibre reinforced resin and thin sheets of metal. The owners of the Kaba Kaba Estate commissioned him to create one made of bronze to be placed outdoors.  The warrior wears an ornate hairstyle created out of thin wire. This sculpture currently sits in the upper bale bar area.</p>
+				</div>
+				
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2002.jpg" class="lazyload" />
+					<p>Artist: Agapetus Kristiandana <br />Title: Tiga Zaman (Three Ages) <br />Year: 2013 <br />Medium: Resin</p>
+					<p>Agapetus Agus Kristiandana was born in Yogyakarta, where he still lives, and studied design at Institut Seni Indonesia, Yogyakarta. He has participated in several group exhibitions in Indonesia and abroad, as well as holding solo exhibitions in Jakarta and Central Java. He is known for using animals such as cows and pigs to portray themes of alienation, conflict and dependency, and his works often commnicate through humour and satire.</p>
+				</div>			
+				<div class="clear"></div>
+			</div>
+			
+			<div class="group">  	
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2003.jpg" class="lazyload" />
+					<p>Artist: Agapetus Kristiandana <br />Title: Binatang Jalang <br />Year: 2010 <br />Medium: Resin</p>
+					<p>Agapetus Agus Kristiandana’s paintings combine unexpected elements and create a fresh and surprising narrative about the human condition. His animal sculptures, humorous, and often bizarre in form, stun and invite the viewer to consider his message.</p>
+				</div>
+				
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From the Kaba Kaba Estate art collection - 04.jpg" class="lazyload" />
+					<p>Artist: Dadi Setiyadi <br />Title: White Goat <br />Year: 2011</p>
+					<p>Born in West Java, Dadi Setiyadi graduated from Indonesia Institute of Art in 2004. Dadi’s art revolves around mixed cultural influences, playing with the notions of the east and west, modern and traditional, universal and contextual as well as global and local. White Goat re-imagines Caravaggio’s John the Baptist as a figure with Dayak tattoos.</p>
+				</div>			
+				<div class="clear"></div>
+			</div>
+			
+			<div class="group">  	
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2005.jpg" class="lazyload" />
+					<p>Artist: Hwang Sae Jin <br />Title: Actual Harmony <br />Year: 2011 <br />Medium: Acrylics, oils and fabric on canvas</p>
+					<p>Hwang Sae Jin is a Korean visual artist, born in Seoul in 1982. She graduated from the Painting & Print Department of Ewha Womans University, Seoul, in 2006 and has exhibited in both solo and group shows in Korea. Hwang Sae Jin’s Actual Harmony, a 2011 canvas that unites acrylics, oils, and fabric in an alluring but homey image of a couch, graces Kaba Kaba Estate’s colonial-style guesthouse.</p>
+				</div>
+				
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2006.jpg" class="lazyload" />
+					<p>Artist: Sohan Jakhar <br />Title: Untitled <br />Year: 2009 <br />Medium: Acrylic</p>
+					<p>Sohan Jakhar lives and works in Jaipur, Rajasthan. His style of painting is a mix of Indian cultural tradition and pop art, examining the visual dynamics of roadside bazaars which dominate the urban landscapes of India. Photographs are digitally modified and painted on the canvas. The treatment of pictures has a simplistic approach with layers of vibrant colors expressing a subtle theater of visual form.</p>
+				</div>			
+				<div class="clear"></div>
+			</div>
+			
+			
+			<div class="group">  	
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2007.jpg" class="lazyload" />
+					<p>Artist: Bea Camacho <br />Title: Enclose II</p>
+					<p>Born in Manila, Philippines, Bea Camacho graduated in Visual and Environmental Studies from Harvard in 2005. She works with sculpture, performance and installation in order to explore issues concerning distance and disconnection in relation to absence and intimacy.The Enclosed II images are taken from a 9-hour performance that was held at the Tate Modern, in which the artist crochets herself into a cocoon.</p>
+				</div>
+				
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2008.jpg" class="lazyload" />
+					<p>Artist: Mangu Putra <br />Title: Shackled 1 <br />Year: 2008 <br />Medium: Acrylic on canvas</p>
+					<p>Mangu Putra articulates his concerns about the disturbing condition of contemporary society; from the exploitation of nature to the devastating impact of pauperisation; from the search for the spiritual in the materialistic world to the place of nationalism in the global era. Environmental issues such as pollution, the killing of animals and global warming are among the main subjects of his paintings.</p>
+				</div>			
+				<div class="clear"></div>
+			</div>
+			
+			<div class="group">  	
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2009.jpg" class="lazyload" />
+					<p>Artist: Ye Zhenghua <br />Title: The Sky <br />Medium: Oil on canvas</p>
+					<p>Three figures painted in monochromatic style – one white, one pink and one blue – appear in The Sky, an oil on canvas by artist Ye Zhenghua. The Chinese artist was awarded the first place prize in the Asia-Europe Young Artists Painting Competition. While The Sky is his only art work at the Kaba Kaba Estate, it is no surprise the piece was chosen – the use of vibrant yellow, blue and pink complement the other works in the collection.</p>
+				</div>
+				
+				<div class="half"> 
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2010.jpg" class="lazyload" />
+					<p>Artist: Hannes D’ haese <br />Title: Just a dog <br />Year : 2010 <br />Medium: Resin</p>
+					<p>Hannes D’haese is the opposite of the classically schooled artist, professing that he has never seen the inside of an art academy. A child of his time, Hannes D’haese is intent on conquering the world. Is he following in the footsteps of Reinhoud d’Haese and Karel Appel (abstract expressionism) or did he redefine love and color into a new form of art? One thing is certain; his art testifies to emotion, passion and happiness.</p>
+				</div>			
+				<div class="clear"></div>
+			</div>
+			
+			<div class="group">  	
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2011.jpg" class="lazyload" />
+					<p>Artist: Dodit Artawan <br >Title: Pool Party series <br >Year: 2012  <br >Medium: Acrylic on canvas</p>
+					<p>Dodit Artawan lives and works in Bali. Upon graduation from the Indonesian Art Institute in Denpasar in 1997, Dodit started his practice as a part of TAXU Art Clinic, an artist collective that created quite a stir in the Balinese art scene. Dodit Artawan’s preferred perspective – viewing scenes from above – places the viewer in a position where they must stand back and observe, and in turn question the “reality” in front of them.</p>
+				</div>
+				
+				<div class="half">
+					<img src="{$data.cdn}/resources/{$data.theme}/content/art/thumb/Kaba%20Kaba%20Estate%20-%20art.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/art/From%20the%20Kaba%20Kaba%20Estate%20art%20collection%20-%2012.jpg" class="lazyload" />
+					<p>Artist: Entang Wiharso <br />Title: Borderless floating island <br />Year: 2013 <br />Medium: Bronze</p>
+					<p>Entang Wiharso is an internationally renowned artist who has held major exhibitions in Asia, Europe and America. Wiharso’s work emanates from his own personal narratives and experiences. He links minor events and small actions to the larger timeline of the human condition, which he seeks to understand by pushing the boundaries of perceptions formed by prejudices and generalisations.</p>
+				</div>			
+				<div class="clear"></div>
+			</div>
+
+                {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+				
+            </div>
+        </div>
+    </div> 
+</div>
+{/if}
+
+{if $data.page|in_array:['tabanan-bali', 'the-locale']}
+<div class="content-item the-locale" id="the-locale">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/locale/Kaba Kaba Estate - Surrounding greenery.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+            {parsedata folder=$data.theme cache=$data.cache content="LCTN"}
+            <h2 class="entry-title"><span>The Locale</span></h2>
+
+            {if 'desc'|array_key_exists:$content[0]}
+            {contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+            {section name=s loop=$contentPart}
+            <p>{$contentPart[s]}</p>
+            {/section}
+            {/if}	
+            
+            <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-holder">
+        <div class="wrapper">
+            <div class="map_div" id="map_div_locale"></div>
+            {if 'SubContents'|array_key_exists:$content[0]}
+                <h3>Distances</h3>
+                <dl class="distances">
+                    {section name=s loop=$content[0].SubContents}
+                        <dt>{$content[0].SubContents[s].Heading}</dt>
+                        <dd>{$content[0].SubContents[s].Description}</dd>
+                        {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                            <p>
+                                <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}">
+                                    <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" class="lazyload" />
+                                </a>
+                            </p>
+                        {/if}
+                    {/section}
+                </dl>
+            {/if}
+        </div>
+    </div>
+</div>   
+{/if}
+
+{if $data.page|in_array:['tabanan-bali', 'things-to-do']}                   
+<div class="content-item things-to-do" id="things-to-do">
+    <div class="bg-holder lazyload" data-bg="{$data.cdn}/resources/{$data.theme}/content/locale/Kaba Kaba Estate - Entrance doors.jpg">
+        <div class="wrapper">
+            <div class="the-content">
+			
+            <h2 class="entry-title"><span>Things to do</span></h2>
+           
+				{parsedata folder=$data.theme cache=$data.cache content="TTD"}
+				{if 'desc'|array_key_exists:$content[0]}
+					{contentpart content=$content[0].desc strip=["<p>", "</p>"] explode="<br /><br />"}
+					{section name=s loop=$contentPart max=2}
+						
+					<p>{$contentPart[s]}</p>
+					{/section}
+
+				{/if}
+	
+            </div>
+        </div>
+    </div> 
+    <div class="bg-holder">
+        <div class="wrapper">   
+            <div class="group">
+            {if 'desc'|array_key_exists:$content[0]}
+                {contentpart content=$content[0].desc regex="/<ol>(.*?)<\/ol>/s"}
+                {contentpart content=$contentPart[0] regex="/<li>(.*?)<\/li>/s"}
+				{section name=s loop=$contentPart}
+					{if $smarty.section.s.index neq 2}  
+						{append 'newContentPart' $contentPart[s]}
+					{/if}					
+				{/section}
+                {section name=s loop=$newContentPart}
+                {if $smarty.section.s.index mod 2}                
+                <div class="half half-content">
+                <p>{$newContentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+                </div>
+				<div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Things%20to%20do%20-%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+                </div>
+                {else}
+				 <div class="half">
+                <img src="{$data.cdn}/resources/{$data.theme}/content/locale/thumb/Things%20to%20do.jpg" data-src="{$data.cdn}/resources/{$data.theme}/content/locale/Things%20to%20do%20-%20{$smarty.section.s.index + 1}.jpg" class="lazyload" />
+                </div>
+                <div class="half half-content">
+                <p>{$newContentPart[s]|replace:['<li>','</li>']:['', '']}</p>
+                </div>
+               
+                {/if}
+                {/section}
+                </div>
+
+                {section name=s loop=$content[0].SubContents}
+                    <h3>{$content[0].SubContents[s].Heading}</h3>
+                    {$content[0].SubContents[s].Description}
+                    {if 'Image'|array_key_exists:$content[0].SubContents[s]}
+                        <p>
+                            <a href="{$content[0].SubContents[s].Image[0].FullSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" rel="gallery" class="pirobox_gall">
+                                <img src="{$content[0].SubContents[s].Image[0].ThumbSizeUrl|replace:'/wp-content/resources/{$data.theme}':'{$data.cdn}/resources/{$data.theme}'}" border="0" width="238" height="158" />
+                            </a>
+                        </p>
+                    {/if}
+                {/section}
+            {/if}
+        </div>
+    </div>
+</div>
+{/if}
