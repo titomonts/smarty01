@@ -1,4 +1,9 @@
 <?php
+/*
+	Author: Monch
+	Description: Main script file
+	Date: 2017 - Present
+*/
 require 'config/config.php';
 require 'functions/vw-functions.php';
 require 'mailjet-api/vendor/autoload.php';
